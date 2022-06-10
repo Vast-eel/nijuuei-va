@@ -12,7 +12,6 @@ Press the Code button and Download ZIP. Extract the Ksd folder to the game folde
 
 ## Caveats
 * If you load a save game for the second time in a session (first time works just fine) and get to a point where a voice line is supposed to play, the game may crash. I have NO fucking idea why this happens, it's inconsistent.
-I came across an instruction that stops a looping sound effect, maybe it can be made to work for oneshot sfx too? Probably not, but it's worth testing eventually.
 
 * Expect a bunch of mismatched lines. The matching script I wrote did not take nametags into account to make it easier for me so if multiple characters share a line written the exact same, mistakes are bound to happen. Work in progress.
 
