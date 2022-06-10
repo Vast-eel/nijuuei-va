@@ -3,7 +3,7 @@ Voice patch for the PC version of 二重影.
 
 A juryrigged port of the voices from the Dreamcast version. Barely tested, but it's gotten to the point where there aren't catastrophic failures on day 2, so I uploaded it.
 
-Currently works well up until day 6 (017.ksd).
+Currently works well up until day 6 evening (018.ksd).
 
 ## How-to
 **Please keep a backup of the original files and have separate save files for the start of each day so you can revert in case you can't progress!!**
@@ -16,10 +16,6 @@ Press the Code button and Download ZIP. Extract the Ksd folder to the game folde
 * Expect a bunch of mismatched lines. The matching script I wrote did not take nametags into account to make it easier for me so if multiple characters share a line written the exact same, mistakes are bound to happen. Work in progress.
 
 * Similarly, there are bound to be unvoiced parts, too. For example, any lines with PIS (blue text) tags aren't voiced due to syntax differences at the moment.
-
-* The nighttime part of day 4 (013.ksd) currently has a small desync where you get booted back to the mansion immediately after meeting Aya in the forest. You can progress just fine, you just skip an exploration screen or two.
-
-* Picking anything other than the first choice in Fuurei's dialogue on day 5 (014.ksd) in front of the mansion causes the game to crash.
 
 ## FAQ
 ### HOW???
