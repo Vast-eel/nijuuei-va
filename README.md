@@ -3,7 +3,7 @@ Voice patch for the PC version of 二重影.
 
 A juryrigged port of the voices from the Dreamcast version. Barely tested, but it's gotten to the point where there aren't catastrophic failures on day 2, so I uploaded it.
 
-Currently works well up until day 6 evening (018.ksd).
+Currently works well up until the morning of day 11 (034.ksd).
 
 ## How-to
 **Please keep a backup of the original files and have separate save files for the start of each day so you can revert in case you can't progress!!**
@@ -16,6 +16,8 @@ Press the Code button and Download ZIP. Extract the Ksd folder to the game folde
 * Expect a bunch of mismatched lines. The matching script I wrote did not take nametags into account to make it easier for me so if multiple characters share a line written the exact same, mistakes are bound to happen. Work in progress.
 
 * Similarly, there are bound to be unvoiced parts, too. For example, any lines with PIS (blue text) tags aren't voiced due to syntax differences at the moment.
+
+* Miscellaneous annoyances that don't block progress (trying to go towards the village on the evening of day 5 (015.ksd) puts you back in Sougen's room instead, looking to the other side when you climb the boulder in the morning of day 7 (020.ksd) will crash the game, etc)
 
 ## FAQ
 ### HOW???
