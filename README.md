@@ -3,7 +3,7 @@ Voice patch for the PC version of 二重影.
 
 A juryrigged port of the voices from the Dreamcast version. Barely tested, but it's gotten to the point where there aren't catastrophic failures on day 2, so I uploaded it.
 
-Currently works well up until the morning of day 11 (034.ksd).
+Currently works well up until the night of day 11 (036.ksd).
 
 ## How-to
 **Please keep a backup of the original files and have separate save files for the start of each day so you can revert in case you can't progress!!**
