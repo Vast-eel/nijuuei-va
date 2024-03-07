@@ -1,0 +1,3333 @@
+
+wait 2000
+
+kgd_layer2_set 0 Kgd\B_007.kgd
+kgd_layer2_crossfade 2
+kgd_layer2_display
+
+music_play 11
+
+nvl_on
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set 気付けば、すでに日も暮れて夜の世界に様変わりしている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「地下室にいると時間感覚が狂うな・・・」
+line_set 「思っていたよりも時間がたっていたようだな」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「やはり次に呪い殺されるのは・・・」
+
+nvl_line_clear
+
+line_set この呪いに関わる事実。
+line_set そして呪いによって殺される順番。
+
+adv_on
+
+line_set 「あの異形が呪いを始める前に・・・」
+line_set 「必ず殺さなければ・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「あの異形には剣が効かない・・・」
+line_set 「無影と同じように・・・」
+line_set 「ならば・・・」
+line_set 「無影のためにとっておいた秘策ならば・・・」
+line_set 「あるいはヤツを斬る事ができるかもしれない」
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は十年もの間、身体をもたない無影のために秘策を練っていた。
+line_set 無影とあの異形が同じものであるならば、その秘策で呪いを断ち切る事ができるやもしれなかった。
+
+nvl_line_clear
+
+line_set しかしそれは秘策を無影の目にさらす事にもなりかねない。
+
+nvl_line_clear
+
+line_set 二重影という呪いを断ち切るための秘策。
+line_set それがヒルコの呪いを断ち切るのに使ってしまえば、
+line_set 双厳が無影を倒す事はかなわなくなるやもしれなかったのだ。
+
+adv_on
+
+line_set 「まよっている場合でもあるまい・・・」
+line_set 「この秘策を使う・・・」
+
+nvl_on
+
+line_set そうつぶやき双厳は愛刀を手にする。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_012.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+line_set 「九字兼定・・・」
+line_set 「この刀が唯一、呪いを斬る事ができる」
+line_set 「この刀の力・・・」
+line_set 「ここで放つ・・・」
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer2_set 1 Kgd\B_031.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Ay_001.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 彩
+
+sfx_set 2 Vox\4384.wav
+sfx_play 2
+
+line_set 「あら？双厳さん」
+
+sfx_stop 2
+sfx_set 2 Vox\4383.wav
+sfx_play 2
+
+line_set 「こんな時間にお出かけですか？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set これから死が待つというのにもかかわらず、
+line_set 彩は穏やかに双厳に話しかける。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「たいした女だな・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「これからヒルコの呪いの元凶である」
+line_set 「あの異形の出現する池にむかう」
+
+name_set 彩
+
+sfx_set 2 Vox\4382.wav
+sfx_play 2
+
+line_set 「そうですね」
+
+sfx_stop 2
+sfx_set 2 Vox\4381.wav
+sfx_play 2
+
+line_set 「そろそろ我々に呪いがふりかかる時間ですものね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「いや・・・」
+line_set 「ヤツの好きにはさせない」
+line_set 「今度こそヤツを叩き斬る・・・」
+
+kgd_layer3_set 3 Kgd\Ay_003.kgd
+kgd_layer3_param 3 192 0 0 0 416 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 彩
+
+sfx_set 2 Vox\4380.wav
+sfx_play 2
+
+line_set 「ふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4379.wav
+sfx_play 2
+
+line_set 「期待しております」
+
+sfx_stop 2
+sfx_set 2 Vox\4378.wav
+sfx_play 2
+
+line_set 「もしそれができたら私も・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4377.wav
+sfx_play 2
+
+line_set 「明日もお天道様を拝む事ができますものね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「期待していろ」
+
+name_set 彩
+
+sfx_set 2 Vox\4376.wav
+sfx_play 2
+
+line_set 「ふふ・・・」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_035.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Ho_003.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 屋敷の門をくぐり外に出ると、
+line_set 北条が双厳をまっていた。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4302.wav
+sfx_play 2
+
+line_set 「・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4347.wav
+sfx_play 2
+
+line_set 「双厳殿」
+
+sfx_stop 2
+sfx_set 2 Vox\4346.wav
+sfx_play 2
+
+line_set 「あの異形に会いに行くのでしょう」
+
+sfx_stop 2
+
+name_set 双厳
+
+sfx_set 2 Vox\4299.wav
+sfx_play 2
+
+line_set 「・・・」
+
+sfx_stop 2
+
+line_set 「ああ、そうだ」
+
+name_set 北条
+
+sfx_set 2 Vox\4345.wav
+sfx_play 2
+
+line_set 「私もお供させてください」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4344.wav
+sfx_play 2
+
+line_set 「次に誰かが死ぬともかぎらないのに屋敷にいる事はできません」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4343.wav
+sfx_play 2
+
+line_set 「連れて行ってください」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 北条は今日、自分が死ぬ事を知らない。
+line_set 彼の命はあと数時間か、もしかしたら数分かもしれないのだ・・・。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+adv_on
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_043.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 双厳は無言で北条を横切り、村に降りる道に出る。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4342.wav
+sfx_play 2
+
+line_set 「ま、まってください」
+
+sfx_stop 2
+
+kgd_layer3_set 0 Kgd\Ho_003.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+sfx_set 2 Vox\4341.wav
+sfx_play 2
+
+line_set 「私も連れて行ってください・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4340.wav
+sfx_play 2
+
+line_set 「このまま何もせずに死ぬのは嫌です」
+
+sfx_stop 2
+sfx_set 2 Vox\4339.wav
+sfx_play 2
+
+line_set 「このままでは島の人間すべてが呪い殺されてしまいます・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 北条はどうやら、呪い殺されているのが島に渡った人間ではなく、
+line_set ある一定の法則により集められた用心棒である事実に気がついていないようだ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「お前が来たところで足手まといになるだけだ」
+line_set 「帰れ！」
+
+name_set 北条
+
+sfx_set 2 Vox\4338.wav
+sfx_play 2
+
+line_set 「嫌です！」
+
+sfx_stop 2
+sfx_set 2 Vox\4337.wav
+sfx_play 2
+
+line_set 「貴方がなんと言おうと僕はついていきます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4336.wav
+sfx_play 2
+
+line_set 「だってそうでしょう？」
+
+sfx_stop 2
+sfx_set 2 Vox\4335.wav
+sfx_play 2
+
+line_set 「双厳殿は言ってくださったではないですか！」
+
+sfx_stop 2
+sfx_set 2 Vox\4334.wav
+sfx_play 2
+
+line_set 「このまま生きて剣を振り続けたら強くなると！」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4333.wav
+sfx_play 2
+
+line_set 「僕は強くなりたい！」
+
+sfx_stop 2
+sfx_set 2 Vox\4332.wav
+sfx_play 2
+
+line_set 「十兵衛さまのように！」
+
+sfx_stop 2
+sfx_set 2 Vox\4331.wav
+sfx_play 2
+
+line_set 「そして！」
+
+sfx_stop 2
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4330.wav
+sfx_play 2
+
+line_set 「貴方のように・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4329.wav
+sfx_play 2
+
+line_set 「そのためには生きなければならない！」
+
+sfx_stop 2
+sfx_set 2 Vox\4328.wav
+sfx_play 2
+
+line_set 「自分の力で！」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4327.wav
+sfx_play 2
+
+line_set 「行かせてください！」
+
+sfx_stop 2
+sfx_set 2 Vox\4326.wav
+sfx_play 2
+
+line_set 「自分の運命を」
+
+sfx_stop 2
+sfx_set 2 Vox\4325.wav
+sfx_play 2
+
+line_set 「自分で切り開くために！」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「阿呆が・・・」
+
+name_set 北条
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「いくらてめぇが意気込んだところで」
+line_set 「今のお前じゃ・・・」
+line_set 「所詮足手まといなんだよ！」
+
+name_set 北条
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4324.wav
+sfx_play 2
+
+line_set 「すみません・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4323.wav
+sfx_play 2
+
+line_set 「そうですか・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4322.wav
+sfx_play 2
+
+line_set 「そうですよね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4321.wav
+sfx_play 2
+
+line_set 「僕なんかじゃ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ついて来たければ勝手についてこい・・・」
+line_set 「俺がとやかくいう問題ではない」
+
+name_set 北条
+
+sfx_set 2 Vox\4320.wav
+sfx_play 2
+
+line_set 「え？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「二度も言わすな！」
+line_set 「自分の意志で」
+line_set 「運命とやらを切り開きたいのだろ！」
+line_set 「ついて来たければ勝手にしろ！」
+
+kgd_layer3_set 3 Kgd\Ho_002.kgd
+kgd_layer3_param 3 164 0 0 0 472 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 北条
+
+sfx_set 2 Vox\4319.wav
+sfx_play 2
+
+line_set 「あ、ありがとうございます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ただし、俺の邪魔はするなよ」
+line_set 「したらその場でお前を叩ききってやるから」
+line_set 「覚悟しろよ！」
+
+name_set 北条
+
+sfx_set 2 Vox\4318.wav
+sfx_play 2
+
+line_set 「は、はい！」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳は北条の言葉を最後まで聞かずに背を向け、そのまま村に降りる道を歩き始めた。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_055.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+music_stop
+
+nvl_on
+
+line_set 辺りはひっそりと静まりかえっている。
+line_set 誰もいないこの木々の中、双厳と北条はある池を見据えて待ち構えていた。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Ho_003.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+name_set 北条
+
+sfx_set 2 Vox\4317.wav
+sfx_play 2
+
+line_set 「ほ、本当にこの池から現れるんですか？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 北条の言葉は心なしか震えているようであった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「ここからヤツはあらわれる・・・」
+line_set 「間違いない・・・」
+
+name_set 北条
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+nvl_line_clear
+
+line_set 数分だったか、それとも数時間だったか、
+line_set ねばりっこい液体の中に身体を浸すような、そんな奇妙な緊張感が、
+line_set 沈黙の中の双厳達の皮膚感覚をおかしくする。
+line_set 鳥肌のようなものが全身の皮に張り付く感覚。
+line_set それが双厳達の、時間感覚さえも狂わしているのであろうか？
+
+nvl_line_clear
+
+line_set すでにこの沈黙は永久に続いていて、
+line_set やっとそれに今、気がついたのではないかという感覚に襲われる。
+
+adv_on
+
+music_play 20
+
+name_set 双厳
+
+sfx_set 2 Vox\4312.wav
+sfx_play 2
+
+line_set 「？！」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 池の水面がゆっくりと揺れ始める。
+line_set それを見つめる双厳の肌にじっとりと嫌な汗がしみでる。
+
+adv_on
+
+line_set 「来る・・・」
+
+nvl_on
+
+line_set にわかに高まる妖気。
+line_set 双厳を、
+line_set 北条を、
+line_set 否、
+line_set 島全体を包み始めている。
+
+adv_on
+
+line_set 「ヤツだ・・・」
+
+name_set 北条
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4316.wav
+sfx_play 2
+
+line_set 「ゴク・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4315.wav
+sfx_play 2
+
+line_set 「こ、これが・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 北条が異形を目にするのは、はじめての事であった。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_set 1 Kgd\En_045.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_fade_unk 0
+
+name_set 異形
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 池の中心付近にどこからともなく姿をあらわす。
+line_set その姿は相変わらずのものだった。
+line_set 虚ろいの容姿。
+line_set 不安の虚像。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「九字兼定を使うしか方法はない・・・」
+line_set 「それしか、こいつを倒す手だてはない」
+
+nvl_line_clear
+
+line_set 双厳がすらりとゆっくりに鞘から刀を抜く。
+line_set 双厳がいつも愛用している刀。
+line_set 九字兼定とよばれる刀。
+
+nvl_line_clear
+
+line_set 北条もそれにならって同じく抜刀する。
+
+adv_on
+
+name_set 双厳
+
+line_set 「お前は動くな」
+line_set 「邪魔だ！」
+
+name_set 北条
+
+sfx_set 2 Vox\4314.wav
+sfx_play 2
+
+line_set 「し、しかし・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「お前の刀ではヤツを斬れない」
+line_set 「そこで、見ていろ」
+
+nvl_on
+
+line_set 異形は何も動じる様子は無く、その場に立ち尽くしたままだった。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4287.wav
+sfx_play 2
+
+line_set 「双厳殿・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「ここで、九字兼定の力を解いてしまえば・・・」
+line_set 「無影を倒す事は一生できないかもしれない」
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set 「ヤツを倒すことができなければ・・・」
+line_set 「俺は一生ヤツの影におびえ、逃げまどいながら犬のようにくたばるかもしれない・・・」
+line_set 「それでも・・・」
+
+nvl_line_clear
+
+line_set 「今、戦う事」
+line_set 「それを俺は選ぶ！」
+
+nvl_line_clear
+
+line_set 双厳が異形に駆け出す。
+line_set だが池の真ん中の立像は、
+line_set 双厳の剣の制空権には入っていない。
+
+adv_on
+
+line_set 「へへへへ・・・・」
+line_set 「昨日は遅れをとったが今日はそうはいかないぜ」
+
+nvl_on
+
+line_set 双厳は刀を水平に構える。
+
+adv_on
+
+line_set 「邪を払う」
+line_set 「九字兼定の力」
+line_set 「見るがいい！」
+
+nvl_on
+
+line_set 双厳が剣を横に引く。
+
+adv_on
+
+line_set 「臨！」
+
+nvl_on
+
+line_set さらに剣を横に引く。
+
+adv_on
+
+line_set 「兵！」
+
+name_set 北条
+
+line_set 「？！」
+
+sfx_set 2 Vox\4311.wav
+sfx_play 2
+
+line_set 「九字？？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳は刀で宙に九字をきっていく。
+line_set それにあわせ、
+line_set 双厳の九字兼定の刀身から冷気とも水気ともとれぬものがわき上がる。
+
+nvl_line_clear
+
+line_set 「本来、無影を斬るために用意したのだがな・・・」
+line_set 「ここで使うはめになるとはな・・・」
+
+adv_on
+
+name_clear
+
+line_set シュ
+
+nvl_on
+
+line_set 全く予想外の方向から空を斬る音がする。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+
+name_set 北条
+
+sfx_set 2 Vox\4310.wav
+sfx_play 2
+
+line_set 「双厳殿！危ない！！！」
+
+sfx_stop 2
+
+name_clear
+
+line_set ドッ！！！
+
+nvl_on
+
+line_set 目の前の敵に心を奪われていた双厳には一瞬なにが起きたのか理解できなかった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「な、なにが・・・」
+
+nvl_on
+
+line_set 双厳の目の前で北条がうずくまっている。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+name_set 声
+
+line_set 「クカカカカカカ・・・」
+line_set 「双厳ヲ殺セタト思ッタノニナ・・・」
+line_set 「トンダ邪魔ガ入ッタ」
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「誰だ！！」
+
+nvl_on
+
+line_set あたりはすでに、
+line_set 目の前にいる幽鬼の異形以外からの、
+line_set 妖気が立ちこめていた。
+
+nvl_line_clear
+
+line_set 「チッ・・・」
+line_set 「こんな妖気が立ちこめていたのに気がつかないとは・・・」
+
+adv_on
+
+name_set 声
+
+line_set 「アマリ、儀式ノ邪魔ダテバカリスルノデアレバ」
+line_set 「ココデ死ンデモラウシカアルマイテ・・・」
+
+name_set 双厳
+
+line_set 「ちっ・・・」
+line_set 「無影の手下か！」
+
+name_set 声
+
+line_set 「我ガ名、兇虐」
+line_set 「凶虐ノ兄ナリ」
+line_set 「クカカカカカカカカ・・・・」
+
+nvl_on
+
+line_set 乾いた笑い声があたりに響き渡る。
+line_set それにあわせ新たなる異形が姿をあらわす。
+
+adv_on
+
+kgd_layer1_set 0 Kgd\En_056.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 双厳
+
+line_set 「て、てめぇ、凶虐！」
+
+name_set 兇虐
+
+line_set 「クカカカカカ・・・」
+line_set 「凶虐ハ我ガ弟ナリ」
+line_set 「我ガ名、兇虐」
+
+nvl_on
+
+line_set 兇虐と名のる異形は、双厳が数日前に倒した凶虐と瓜二つであった。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4278.wav
+sfx_play 2
+
+line_set 「双厳殿・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4308.wav
+sfx_play 2
+
+line_set 「ご無事でしたか・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「北条！」
+
+nvl_on
+
+line_set 双厳はその場で倒れている北条を抱きかかえる。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_058.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+
+name_clear
+
+line_set ビチャ・・・
+
+nvl_on
+
+line_set 北条の倒れていた場所はすでに血で真っ赤にそまっており、池のようになっていた。
+
+nvl_line_clear
+
+line_set 腰から背中を大きく裂かれている。
+line_set どうやら双厳をかばい兇虐の刃に倒れたようだ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「な、なんで俺をかばうようなまねをした」
+line_set 「馬鹿野郎！！」
+line_set 「てめぇ！」
+line_set 「俺の命を狙っていた隠密だろう！！」
+line_set 「なにやってるんだよ」
+
+name_set 北条
+
+sfx_set 2 Vox\4261.wav
+sfx_play 2
+
+line_set 「ふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4306.wav
+sfx_play 2
+
+line_set 「なんででしょうかね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4240.wav
+sfx_play 2
+
+line_set 「なんか・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4304.wav
+sfx_play 2
+
+line_set 「双厳殿が危ないと思ったら身体が・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「く、くそ！」
+
+nvl_on
+
+line_set 双厳は北条の血を止めようとするが、血は絶望的にその流れを止めようとしない。
+
+adv_on
+
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+name_set 兇虐
+
+line_set 「クカカカカカ・・・」
+line_set 「二つ影ヲ殺メタツモリガ・・・」
+line_set 「釣レタサカナハ雑魚デアッタトナ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「てめぇ・・・」
+line_set 「ゆるさねぇ・・・」
+
+music_stop
+
+force_save_menu
+
+fight_start
+
+kgd_layer1_set 1 Kgd\En_057.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+music_play 18
+
+name_clear
+
+line_set ザッ！！
+
+nvl_on
+
+line_set 双厳はそのまま兇虐に襲いかかる。
+
+adv_on
+
+name_set 兇虐
+
+line_set 「怒リノ感情ニ染メラレタ刃ヲフルウナド」
+line_set 「愚ノ骨頂ナリ」
+
+name_set 双厳
+
+line_set 「うるせえ！！！！！！！」
+
+jump_choice 0 ◆ぶっ殺す！
+jump_choice 1 ◆ぶっ殺す！
+jump_fight_failure 2
+@0
+@1
+@2
+
+nvl_on
+
+line_set 双厳が高速で間合いをつめる。
+
+adv_on
+
+name_clear
+
+line_set シュン
+line_set シュン
+line_set シュン・・・
+
+nvl_on
+
+line_set なにかが空を斬り双厳に襲いかかる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「おらああああああああ・・・」
+
+nvl_on
+
+line_set 双厳はそれらを無視するように突進する。
+
+adv_on
+
+name_set 兇虐
+
+line_set 「バカメ！」
+
+nvl_on
+
+line_set 双厳の頭上から兇虐の刃が降ってくる。
+
+adv_on
+
+name_clear
+
+line_set ドス！
+line_set ザシュ！
+line_set バシュ！
+
+name_set 兇虐
+
+line_set 「？！」
+line_set 「ナ？」
+
+nvl_on
+
+line_set 双厳の恐るべき速さ。
+line_set これに兇虐の武器がついていけずに、
+line_set 全弾が地面に突き刺さる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「おらぁああああああ！！！」
+
+name_set 兇虐
+
+line_set 「バカナ？！」
+
+name_clear
+
+line_set バシュ！！！
+
+nvl_on
+
+line_set 兇虐の腕が飛ぶ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くらぁああああああ！！！！」
+
+nvl_on
+
+line_set さらなる双厳の一撃。
+
+adv_on
+
+name_set 兇虐
+
+line_set 「ちぃいいいい！！！！」
+
+name_clear
+
+line_set ブン・・・
+
+nvl_on
+
+line_set 刃が空を斬る音。
+line_set 兇虐はすんでで双厳の刃をかわす。
+
+adv_on
+
+name_set 兇虐
+
+line_set 「ク、クソ・・・」
+line_set 「無影サマノ配下デモットモ強イ私ヲ」
+
+jump_choice 3 ◆ぶっ殺す
+jump_choice 4 ◆ぶっ殺す
+jump_choice 5 ◆ぶっ殺す
+jump_fight_failure 6
+@3
+@4
+@5
+@6
+
+nvl_on
+
+line_set 双厳はそのまま後退した兇虐を襲う。
+
+adv_on
+
+line_set 「馬鹿メ、イツマデモソンナモノガ！」
+
+name_set 双厳
+
+line_set 「死にさらせぇぇぇえええええ！！！！」
+
+name_set 兇虐
+
+line_set 「カカッタナ」
+
+name_clear
+
+line_set バッシュ！！！
+
+nvl_on
+
+line_set 双厳の足元から兇虐の刃が飛び出る。
+line_set 土中から飛び出したものは弟の凶虐が使っていたものと同じ五蘊鎖鎌であった。
+
+adv_on
+
+name_set 兇虐
+
+line_set 「土中カラノ攻撃ナド予測デキマイ！！！！」
+line_set 「死ネェェエエエエエエ！！！！！！」
+
+name_clear
+
+line_set スタッ・・・
+
+name_set 兇虐
+
+line_set 「ナ？！」
+line_set 「馬鹿ナ？？？」
+
+nvl_on
+
+line_set 双厳は足元から飛び出した五蘊鎖鎌の柄の部分に足をかける。
+
+adv_on
+
+name_clear
+
+line_set カンカンカンカンカンカン・・・・
+
+name_set 兇虐
+
+line_set 「バ、馬鹿ナ？！」
+
+nvl_on
+
+line_set 双厳は五蘊鎖鎌の鎖の上を走って兇虐に突進する。
+
+adv_on
+
+name_set 双厳
+
+line_set 「死ねぇええええええ！！！！」
+
+name_clear
+
+line_set バシュ
+
+name_set 兇虐
+
+line_set 「ギャアアアアアアアア・・・・・」
+
+nvl_on
+
+line_set 兇虐の身体が大きく裂ける。
+
+adv_on
+
+line_set 「ク、クソコノママデハ終ワラセナイ」
+line_set 「道連レニシテクレルワ」
+
+jump_choice 7 ◆ぶっ殺す
+jump_choice 8 ◆ぶっ殺す
+jump_choice 9 ◆ぶっ殺す
+jump_choice 10 ◆ぶっ殺す
+jump_choice 11 ◆ぶっ殺す
+jump_fight_failure 12
+@7
+@8
+@9
+@10
+@11
+@12
+
+line_set 「最終奥義！」
+
+kgd_layer1_set 1 Kgd\En_059.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+music_stop
+
+sfx_set 0 Se\001.wav
+sfx_play 0
+
+name_clear
+
+line_set ドバッ！！
+
+nvl_on
+
+line_set ・・・。
+line_set ・・・・・・。
+line_set ・・・・・・・・・。
+
+adv_on
+
+name_clear
+
+line_set ドス・・・・
+
+nvl_on
+
+line_set 鮮血が飛び散り、兇虐の首が地べたに転がる。
+
+adv_on
+
+name_set 兇虐
+
+line_set 「サ・・・・」
+line_set 「サイゴ・・・マデ・・イワセ・・・・・」
+
+nvl_on
+
+line_set 兇虐は片言の言葉を残し、
+line_set そのまま絶命した。
+
+adv_on
+
+sfx_stop 0
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+fight_end
+
+name_set 双厳
+
+line_set 「北条！！！」
+
+nvl_on
+
+line_set 双厳は北条に駆け寄る。
+
+adv_on
+
+line_set 「！？」
+
+kgd_layer1_set 0 Kgd\En_045.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play 20
+
+nvl_on
+
+line_set 池の中心でたたずんでいた異形が動き出す。
+
+adv_on
+
+line_set 「て、てめぇ！！！」
+line_set 「や、やめろ！！！」
+
+nvl_on
+
+line_set 双厳の願いもむなしく。
+line_set その呪文は静かに紡がれていく。
+
+adv_on
+
+line_set 「ぐっ・・・」
+
+nvl_on
+
+line_set そして双厳に激しい頭痛が襲う。
+
+adv_on
+
+line_set 「こ、こんな時に・・・」
+line_set 「ち、ちきしょう・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4303.wav
+sfx_play 2
+
+line_set 「うっ・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳に抱きかかえられた北条の顔が苦痛にゆがむ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くそぉ！！！！！！」
+line_set 「このくそ野郎！！！！」
+line_set 「叩き斬ってやる！！！！！！」
+
+nvl_on
+
+line_set 双厳は呪いを放つ異形に襲いかかろうとした。
+line_set その時・・・。
+
+adv_on
+
+music_stop
+
+line_set 「？！」
+
+name_set 北条
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 苦痛にゆがむ北条が、
+line_set 双厳の袖を引きその動きを止めた。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_058.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+
+music_play 17
+
+sfx_set 2 Vox\4301.wav
+sfx_play 2
+
+line_set 「もう・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4300.wav
+sfx_play 2
+
+line_set 「いいんです・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「北条！」
+
+name_set 北条
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4298.wav
+sfx_play 2
+
+line_set 「最後に少しだけ話をさせてください」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「な、なに言ってやがる！」
+
+name_set 北条
+
+sfx_set 2 Vox\4297.wav
+sfx_play 2
+
+line_set 「もう・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4296.wav
+sfx_play 2
+
+line_set 「私には人間の形をとどめておく力はあまり残っていません・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「な、なにを・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4295.wav
+sfx_play 2
+
+line_set 「わかるんです・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4294.wav
+sfx_play 2
+
+line_set 「この呪いは私に向けられたものです・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4293.wav
+sfx_play 2
+
+line_set 「気を抜くと今でも私の身体は・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4292.wav
+sfx_play 2
+
+line_set 「崩れてしまいそうですよ・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 北条は震えながら双厳に訴えかける。
+
+adv_on
+
+name_set 双厳
+
+line_set 「しゃ、しゃべるな・・・」
+line_set 「今、あの化け物を斬ってやる」
+line_set 「そうすれば、すぐにでも・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4291.wav
+sfx_play 2
+
+line_set 「む、無駄ですよ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4290.wav
+sfx_play 2
+
+line_set 「この傷では・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4289.wav
+sfx_play 2
+
+line_set 「私はどのみち長くはありません・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 北条の身体を抱きかかえる双厳の手に北条主税の暖かい血が絶え間なく流れ落ちる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「なんで俺なんか庇うような・・・」
+line_set 「お前は俺の命をねらっていた隠密だろうが・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4288.wav
+sfx_play 2
+
+line_set 「僕はね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4313.wav
+sfx_play 2
+
+line_set 「双厳殿・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4286.wav
+sfx_play 2
+
+line_set 「ずっと強くなりたかったのですよ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4285.wav
+sfx_play 2
+
+line_set 「ずっと・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4284.wav
+sfx_play 2
+
+line_set 「ずっと・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4283.wav
+sfx_play 2
+
+line_set 「強くなるために」
+
+sfx_stop 2
+sfx_set 2 Vox\4282.wav
+sfx_play 2
+
+line_set 「僕は幼い頃から剣を振ってきました」
+
+sfx_stop 2
+sfx_set 2 Vox\4281.wav
+sfx_play 2
+
+line_set 「それだけが」
+
+sfx_stop 2
+sfx_set 2 Vox\4280.wav
+sfx_play 2
+
+line_set 「自分を強くしてくれると信じていたから・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「もうしゃべるな・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4279.wav
+sfx_play 2
+
+line_set 「でもね」
+
+sfx_stop 2
+sfx_set 2 Vox\4309.wav
+sfx_play 2
+
+line_set 「双厳殿・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4277.wav
+sfx_play 2
+
+line_set 「僕は」
+
+sfx_stop 2
+sfx_set 2 Vox\4276.wav
+sfx_play 2
+
+line_set 「全然強くなれなかったのですよ」
+
+sfx_stop 2
+sfx_set 0 Se\010.wav
+sfx_play 0
+
+nvl_on
+
+line_set 北条の身体が徐々に縮んでいく・・・。
+
+adv_on
+
+sfx_set 2 Vox\4275.wav
+sfx_play 2
+
+line_set 「柳生の里のみんなはどんどん強くなっていくのに」
+
+sfx_stop 2
+sfx_set 2 Vox\4274.wav
+sfx_play 2
+
+line_set 「僕だけは」
+
+sfx_stop 2
+sfx_set 2 Vox\4273.wav
+sfx_play 2
+
+line_set 「ずっと・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4272.wav
+sfx_play 2
+
+line_set 「強くなれなかった・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4271.wav
+sfx_play 2
+
+line_set 「なんでだろ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4270.wav
+sfx_play 2
+
+line_set 「こんな貧弱な身体で・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4269.wav
+sfx_play 2
+
+line_set 「みんなから女みたいだって馬鹿にされてね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4268.wav
+sfx_play 2
+
+line_set 「しょうがないですよね」
+
+sfx_stop 2
+sfx_set 2 Vox\4267.wav
+sfx_play 2
+
+line_set 「実際そうだから・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 北条の腕にはすでに骨の感覚がない。
+line_set 肉と皮だけになった腕は重力に引かれるまま地面に力無く張り付いている。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4266.wav
+sfx_play 2
+
+line_set 「だから・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4265.wav
+sfx_play 2
+
+line_set 「この任務をもらえた時はうれしかった・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4264.wav
+sfx_play 2
+
+line_set 「はじめて認められたと思いましたよ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4263.wav
+sfx_play 2
+
+line_set 「でも結局は」
+
+sfx_stop 2
+sfx_set 2 Vox\4262.wav
+sfx_play 2
+
+line_set 「女装して双厳殿の寝込みを襲うなんていう任務でしたけどね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4220.wav
+sfx_play 2
+
+line_set 「ふふふ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set すでに北条の腕からも足からも完全に骨の存在は消えていた・・・。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4260.wav
+sfx_play 2
+
+line_set 「任務をもらった時」
+
+sfx_stop 2
+sfx_set 2 Vox\4259.wav
+sfx_play 2
+
+line_set 「双厳殿の話を聞いて」
+
+sfx_stop 2
+sfx_set 2 Vox\4258.wav
+sfx_play 2
+
+line_set 「怖い」
+
+sfx_stop 2
+sfx_set 2 Vox\4257.wav
+sfx_play 2
+
+line_set 「という感情より・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4256.wav
+sfx_play 2
+
+line_set 「どんな人なんだろうかって」
+
+sfx_stop 2
+sfx_set 2 Vox\4255.wav
+sfx_play 2
+
+line_set 「すごく気になったのですよ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4254.wav
+sfx_play 2
+
+line_set 「うふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4253.wav
+sfx_play 2
+
+line_set 「変な話ですよね」
+
+sfx_stop 2
+sfx_set 2 Vox\4252.wav
+sfx_play 2
+
+line_set 「殺す相手が」
+
+sfx_stop 2
+sfx_set 2 Vox\4251.wav
+sfx_play 2
+
+line_set 「どんな人間か気になるなんて・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4250.wav
+sfx_play 2
+
+line_set 「本当はあってはいけない事なのに・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 北条を抱きかかえる双厳の腕から北条の骨の感覚が徐々に失われていく。
+line_set すでに背骨はなく。
+line_set 上半身の一部と顔を残したすべての身体が、地べたに布きれのようにへばりついている。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4249.wav
+sfx_play 2
+
+line_set 「ただひとりで・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4248.wav
+sfx_play 2
+
+line_set 「ずっとひとりで・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4247.wav
+sfx_play 2
+
+line_set 「多くの人間を殺めながら」
+
+sfx_stop 2
+sfx_set 2 Vox\4246.wav
+sfx_play 2
+
+line_set 「生きようとする人・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4245.wav
+sfx_play 2
+
+line_set 「二つ影双厳・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4244.wav
+sfx_play 2
+
+line_set 「どこまでも・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4243.wav
+sfx_play 2
+
+line_set 「どこまでも屍を積み上げても」
+
+sfx_stop 2
+sfx_set 2 Vox\4242.wav
+sfx_play 2
+
+line_set 「生きようと・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4241.wav
+sfx_play 2
+
+line_set 「生きようとする人・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4305.wav
+sfx_play 2
+
+line_set 「なんか・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4239.wav
+sfx_play 2
+
+line_set 「僕みたいな人間には・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4238.wav
+sfx_play 2
+
+line_set 「正直・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4237.wav
+sfx_play 2
+
+line_set 「信じられなかった・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4236.wav
+sfx_play 2
+
+line_set 「そんな人が存在する事が・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「も、もう・・・しゃべるな・・・」
+
+nvl_on
+
+line_set 北条は、苦痛に顔をゆがめながら賢明に人の形を維持しようとしていた。
+
+nvl_line_clear
+
+line_set 双厳に最後の言葉を伝えるために・・・。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4235.wav
+sfx_play 2
+
+line_set 「一度・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4234.wav
+sfx_play 2
+
+line_set 「僕と剣を交えてくれたでしょ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4233.wav
+sfx_play 2
+
+line_set 「あれ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4232.wav
+sfx_play 2
+
+line_set 「僕、実は」
+
+sfx_stop 2
+sfx_set 2 Vox\4231.wav
+sfx_play 2
+
+line_set 「うれしかったのですよ」
+
+sfx_stop 2
+sfx_set 2 Vox\4230.wav
+sfx_play 2
+
+line_set 「本当に」
+
+sfx_stop 2
+sfx_set 2 Vox\4229.wav
+sfx_play 2
+
+line_set 「本当にうれしかった・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4228.wav
+sfx_play 2
+
+line_set 「なんででしょうね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4227.wav
+sfx_play 2
+
+line_set 「でもうれしかった」
+
+sfx_stop 2
+sfx_set 2 Vox\4226.wav
+sfx_play 2
+
+line_set 「あの二つ影双厳が」
+
+sfx_stop 2
+sfx_set 2 Vox\4225.wav
+sfx_play 2
+
+line_set 「僕と剣を交えてくれるなんて・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4224.wav
+sfx_play 2
+
+line_set 「ほんとうにうれしかった・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ほ、北条・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4223.wav
+sfx_play 2
+
+line_set 「孤高の・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4222.wav
+sfx_play 2
+
+line_set 「そして最強の・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4221.wav
+sfx_play 2
+
+line_set 「なんていったら十兵衛さまに怒られるかな・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4307.wav
+sfx_play 2
+
+line_set 「ふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4219.wav
+sfx_play 2
+
+line_set 「剣を交えてくれて・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4218.wav
+sfx_play 2
+
+line_set 「ありがとうございます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なに言ってやがる・・・」
+line_set 「こんな時に・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4217.wav
+sfx_play 2
+
+line_set 「怒り」
+
+sfx_stop 2
+sfx_set 2 Vox\4216.wav
+sfx_play 2
+
+line_set 「不安」
+
+sfx_stop 2
+sfx_set 2 Vox\4215.wav
+sfx_play 2
+
+line_set 「悲しみ」
+
+sfx_stop 2
+sfx_set 2 Vox\4214.wav
+sfx_play 2
+
+line_set 「そして希望・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4213.wav
+sfx_play 2
+
+line_set 「貴方の剣には」
+
+sfx_stop 2
+sfx_set 2 Vox\4212.wav
+sfx_play 2
+
+line_set 「本当に」
+
+sfx_stop 2
+sfx_set 2 Vox\4211.wav
+sfx_play 2
+
+line_set 「本当にいろんな想いが」
+
+sfx_stop 2
+sfx_set 2 Vox\4210.wav
+sfx_play 2
+
+line_set 「やどっていました」
+
+sfx_stop 2
+sfx_set 2 Vox\4209.wav
+sfx_play 2
+
+line_set 「剣に生きる・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4208.wav
+sfx_play 2
+
+line_set 「いや・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4207.wav
+sfx_play 2
+
+line_set 「生きる意志そのもの・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4206.wav
+sfx_play 2
+
+line_set 「そんな強い」
+
+sfx_stop 2
+sfx_set 2 Vox\4205.wav
+sfx_play 2
+
+line_set 「そんな剣に触れられて・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4204.wav
+sfx_play 2
+
+line_set 「僕は・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4203.wav
+sfx_play 2
+
+line_set 「僕はね・・・双厳殿・・・」
+
+sfx_stop 2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_stop
+
+sfx_loop2 0
+sfx_stop 0
+sfx_set 0 Se\011.wav
+
+name_clear
+
+sfx_play 0
+
+line_set バキュ！ベキュ！！ボキュ！！！！
+
+nvl_on
+
+line_set 北条の最後の言葉をまたずに。
+line_set 北条の全身から骨が砕ける歪な音が鳴り響く・・・。
+
+adv_on
+
+name_clear
+
+sfx_play 0
+
+line_set バキュ！ベキュ！！ボキュ！！！！
+
+nvl_on
+
+line_set 空気を抜いた風船のように、
+line_set 凄い勢いで北条の身体がしぼんでいく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「北条！！！！！！！！！！！！！！！！」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+adv_on
+
+line_set 「くそぉ・・・」
+line_set 「敵に己の身を助けられるとは・・・」
+line_set 「助けられたのに俺は・・・」
+line_set 「俺は・・・」
+line_set 「俺は何も・・・・」
+
+nvl_on
+
+line_set 双厳は腕に残った。
+line_set 皮と肉だけの存在を、
+line_set 強く、
+line_set 強く抱きしめた・・・。
+
+adv_on
+
+line_set 「俺の剣はただの人殺しの道具なのに・・・」
+line_set 「単なる人を斬る道具なのに・・・」
+line_set 「勝手な事ばかりいいやがって・・・」
+line_set 「俺の剣はそんな大層なものじゃねぇ・・・」
+line_set 「だってそうだろ？」
+line_set 「現に、お前を救う事ができなかったじゃないか・・・」
+line_set 「・・・」
+
+name_set 異形
+
+line_set 「・・・」
+
+sfx_stop 0
+
+kgd_layer1_fadein
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 異形が池から立ち去って行く。
+line_set 他の人間を骨抜きの死体にするために。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ちっ・・・」
+line_set 「待ちやがれっ！！！！」
+
+nvl_on
+
+line_set 霞みが散っていくようにその姿を消す異形。
+line_set 双厳の叫び声だけがむなしく、森林のなかにこだました。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+line_set 「北条・・・」
+line_set 「すまねぇな・・・」
+line_set 「後でちゃんと葬ってやるからな・・・」
+
+nvl_on
+
+line_set 双厳は北条の亡骸をそのままに、阿波路の屋敷に向かって走り始めた。
+
+adv_on
+
+kgd_layer1_set 0 Kgd\W_004.kgd
+kgd_layer2_set 0 Kgd\B_051.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+music_play 20
+
+nvl_on
+
+line_set 森林を飛び出し海岸に出る双厳。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「あいつの目的が儀式がはじまって三日目に来た連中なら・・・」
+line_set 「残り四人が危ない・・・」
+
+nvl_on
+
+line_set 双厳は一人海岸沿いを屋敷に向かい走り続ける。
+line_set あの異形から、呪いに該当する者達を助けるために。
+
+adv_on
+
+line_set 「ハァ、ハァ、ハァ・・・・」
+
+nvl_on
+
+line_set 海岸を走る双厳の目に何かが映る。
+
+adv_on
+
+line_set 「？！」
+line_set 「あれは・・・」
+
+nvl_on
+
+line_set 岸から数十尺の沖に、木の葉のように小舟がゆらめいている。
+
+adv_on
+
+line_set 「・・・」
+line_set 「くそ・・・」
+
+nvl_on
+
+line_set 脱力感が双厳の身体に付きまとう。
+line_set その舟には、この島から逃げだそうとした用心棒が三人乗っていた・・・。
+
+nvl_line_clear
+
+line_set すでに骨は抜かれ。
+line_set ここからだと衣服が散乱しているだけに見えるが、
+line_set それは紛れもなく骨を抜かれ絶命した人間であった。
+
+nvl_line_clear
+
+line_set 「次に誰が狙われるか分かっているのに」
+line_set 「次々に殺されていく・・・」
+line_set 「くそぉ！！！！！！！！」
+
+nvl_line_clear
+
+line_set 双厳は屋敷に向かい走り続ける。
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_031.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Jy_004.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+music_stop
+
+nvl_on
+
+line_set 十兵衛が立っている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「十兵衛！！」
+line_set 「彩は？！」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 無言で首を横にふる十兵衛。
+
+adv_on
+
+name_set 双厳
+
+line_set 「そ、そんな・・・」
+
+nvl_on
+
+line_set その事に、双厳は自分の無力感を感じずにはいられなかった。
+line_set 敗北感と挫折感が双厳の中にずっと渦巻いていた。
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「彩は苦しんでいたか？」
+
+name_set 十兵衛
+
+line_set 「いいや・・・」
+line_set 「見事な死に際であった」
+
+name_set 彩
+name_clear
+
+kgd_layer1_set 1 Kgd\En_060.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer1_clear 1
+kgd_layer3_clear 0
+
+music_play 17
+
+wait 2000
+
+nvl_on
+
+line_set 十兵衛　「彩！」
+line_set 彩　　　「・・・」
+
+nvl_line_clear
+
+line_set 彩を呼ぶ十兵衛。
+line_set あたりはすでに件の異形の妖気で満ちている。
+
+nvl_line_clear
+
+line_set どこからともなく聞こえてくる呪いの言葉が、
+line_set 島中にいる人間の耳の中にこだましている。
+
+nvl_line_clear
+
+line_set 十兵衛　「彩！！！！」
+
+nvl_line_clear
+
+line_set その呪いの言葉をかき消すような十兵衛の声。
+line_set 彩と呼ばれる隠密の名前を叫んでいる。
+
+nvl_line_clear
+
+line_set 十兵衛　「彩！！！！！」
+
+nvl_line_clear
+
+line_set 阿波路の庭には道具を入れるような小さな小屋が建てられている。
+line_set それに向かい十兵衛は彩の名を叫ぶ。
+
+nvl_line_clear
+
+line_set 十兵衛　「彩！！」
+line_set 彩　　　「・・・」
+
+nvl_line_clear
+
+line_set その小屋に籠もりながらなにかに耐える彩。
+
+nvl_line_clear
+
+line_set 十兵衛　「彩・・・」
+
+sfx_set 2 Vox\4375.wav
+sfx_play 2
+
+line_set 彩　　　「すみません・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4374.wav
+sfx_play 2
+
+line_set 彩　　　「十兵衛さま」
+
+sfx_stop 2
+sfx_set 2 Vox\4373.wav
+sfx_play 2
+
+line_set 彩　　　「彩はこの任務を最後まで全うすること		ができなさそうです」
+
+sfx_stop 2
+
+line_set 十兵衛　「な、なにを弱気な・・・」
+
+nvl_line_clear
+
+sfx_set 2 Vox\4372.wav
+sfx_play 2
+
+line_set 彩　　　「十兵衛さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4371.wav
+sfx_play 2
+
+line_set 彩　　　「彩はもう自分の形を保っている事すら		できそうもありません」
+
+sfx_stop 2
+
+line_set 十兵衛　「あ、あきらめるな！！」
+
+nvl_line_clear
+
+sfx_set 2 Vox\4370.wav
+sfx_play 2
+
+line_set 彩　　　「十兵衛さま・・・」
+
+sfx_stop 2
+
+line_set 十兵衛　「な、なんだ・・・彩・・・」
+
+sfx_set 2 Vox\4369.wav
+sfx_play 2
+
+line_set 彩　　　「彩の最後の願い、聞いていただけますか？」
+
+sfx_stop 2
+
+line_set 十兵衛　「な、なんだ言ってみろ・・・」
+
+nvl_line_clear
+
+sfx_set 2 Vox\4368.wav
+sfx_play 2
+
+line_set 彩　　　「彩は自分の醜い屍を人の目に晒したく		ないのでございます」
+
+sfx_stop 2
+sfx_set 2 Vox\4367.wav
+sfx_play 2
+
+line_set 彩　　　「私はもう幾分も人の形ではいられません」
+
+sfx_stop 2
+sfx_set 2 Vox\4366.wav
+sfx_play 2
+
+line_set 彩　　　「私が死んだ後・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4365.wav
+sfx_play 2
+
+line_set 彩　　　「この小屋ごと・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4364.wav
+sfx_play 2
+
+line_set 彩　　　「私の亡骸を燃やしてください」
+
+sfx_stop 2
+sfx_set 2 Vox\4363.wav
+sfx_play 2
+
+line_set 彩　　　「お願いしますね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4362.wav
+sfx_play 2
+
+line_set 彩　　　「十兵衛さま・・・」
+
+sfx_stop 2
+
+nvl_line_clear
+
+line_set 十兵衛　「・・・」
+line_set 十兵衛　「わかった・・・」
+line_set 十兵衛　「お前の望み、しかと受けたまわった」
+
+sfx_set 2 Vox\4361.wav
+sfx_play 2
+
+line_set 彩　　　「よかったです・・・」
+
+sfx_stop 2
+
+nvl_line_clear
+
+sfx_set 2 Vox\4360.wav
+sfx_play 2
+
+line_set 彩　　　「そうだ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4359.wav
+sfx_play 2
+
+line_set 彩　　　「もう一つ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4358.wav
+sfx_play 2
+
+line_set 彩　　　「お願いがありましたわ・・・」
+
+sfx_stop 2
+
+line_set 十兵衛　「なんだ・・・」
+
+nvl_line_clear
+
+sfx_set 2 Vox\4357.wav
+sfx_play 2
+
+line_set 彩　　　「ちゃんと呪いを解いてくださいね」
+
+sfx_stop 2
+sfx_set 2 Vox\4356.wav
+sfx_play 2
+
+line_set 彩　　　「楓玲ちゃんや・・・双厳さんを助けてあ		げてくださいね」
+
+sfx_stop 2
+sfx_set 2 Vox\4355.wav
+sfx_play 2
+
+line_set 彩　　　「私や北条くんはだめでしたが・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4354.wav
+sfx_play 2
+
+line_set 彩　　　「あの人達だけでも・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4353.wav
+sfx_play 2
+
+line_set 彩　　　「救ってください」
+
+sfx_stop 2
+sfx_set 2 Vox\4352.wav
+sfx_play 2
+
+line_set 彩　　　「お願いします」
+
+sfx_stop 2
+
+nvl_line_clear
+
+line_set 十兵衛　「わかった・・・」
+line_set 十兵衛　「かならず呪いを解き」
+line_set 十兵衛　「双厳や楓玲の命を助けよう」
+
+sfx_set 2 Vox\4351.wav
+sfx_play 2
+
+line_set 彩　　　「お願いしますね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4350.wav
+sfx_play 2
+
+line_set 彩　　　「ふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4349.wav
+sfx_play 2
+
+line_set 彩　　　「さよなら・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4348.wav
+sfx_play 2
+
+line_set 彩　　　「十兵衛さま」
+
+sfx_stop 2
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_clear
+
+music_stop
+
+sfx_set 0 Se\011.wav
+sfx_play 0
+
+name_clear
+
+line_set バキュ！ベキュ！！ボキュ！！！！
+
+nvl_on
+
+line_set 小屋の中から骨が砕ける歪な音が鳴り響く・・・。
+
+nvl_line_clear
+
+line_set 十兵衛　「彩・・・」
+line_set 十兵衛　「・・・」
+line_set 十兵衛　「すまぬ・・・」
+
+nvl_line_clear
+
+line_set 十兵衛は部屋にあった紙燭を小屋に投げ込む。
+line_set 紙燭脂が飛び散り、炎が大きくなる。
+
+adv_on
+
+name_clear
+
+line_set バォオオオ・・・
+
+nvl_on
+
+line_set 藁など積み上げられていた小屋は、紙燭脂を媒体にして瞬く間に小屋全体をつつんでいた。
+
+adv_on
+
+sfx_stop 0
+sfx_set 0 Se\012.wav
+sfx_loop1 0
+
+name_clear
+
+line_set パチ、パチ、パチ・・・
+
+nvl_on
+
+line_set 十兵衛　「・・・」
+line_set 十兵衛　「・・・・・・」
+
+nvl_line_clear
+
+line_set その風景を見つめる。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer1_set 0 Kgd\En_061.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+sfx_loop2 0
+sfx_stop 0
+
+music_play 17
+
+nvl_on
+
+line_set 崩れ落ちた小屋からは・・・。
+line_set まだ火がくすぶっていた。
+
+nvl_line_clear
+
+line_set 双厳はその場に呆然と立ちつくした。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+nvl_line_clear
+
+line_set 双厳から今までなかった感情がわき上がる。
+line_set それは、
+line_set ずっと殺してきた感情。
+line_set それは、
+
+nvl_line_clear
+
+line_set 悲しみ。
+
+adv_on
+
+line_set 「ち、ちきしょう・・・」
+
+nvl_on
+
+line_set 「な、なんなんだよ・・・」
+line_set 「この感情は・・・」
+
+nvl_line_clear
+
+line_set 「俺はいつだって・・・」
+line_set 「自分を守るために剣を振るってきたじゃないか・・・」
+line_set 「いまさら・・・」
+line_set 「他人を救えなくても・・・」
+
+nvl_line_clear
+
+line_set 「しかたないだろ・・・」
+line_set 「俺の剣はそんな事をするためにできてはいない・・・」
+
+nvl_line_clear
+
+line_set 「いつだって人を殺すためだけに・・・」
+
+adv_on
+
+line_set 「なんだって言うんだ！！！」
+
+name_set 十兵衛
+
+line_set 「双厳」
+line_set 「できなかった事を悔やんでもしかたがない」
+line_set 「これからの事を考えるんだ」
+
+name_set 双厳
+
+line_set 「てめぇ！！」
+line_set 「なに言ってやがる！！！」
+
+nvl_on
+
+line_set 双厳は十兵衛の胸ぐらを掴む。
+
+adv_on
+
+line_set 「てめぇの部下が死んだんだぞ！！！」
+line_set 「少しは・・・」
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「死んだ者はもうもどっては来ない」
+line_set 「今、生きている者の事を考えろ！」
+
+nvl_on
+
+line_set 月明かりに照らされた、
+line_set 十兵衛の顔。
+line_set 気丈に構えているはずの十兵衛の目からは、
+
+nvl_line_clear
+
+line_set 涙が流れていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「十兵衛・・・」
+line_set 「お前・・・」
+
+name_set 十兵衛
+
+line_set 「さぁ」
+line_set 「呪いを解くために」
+line_set 「続きを調べるぞ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 十兵衛は双厳から背を向け。
+line_set 志乃の部屋の方向に歩き出す。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「お前はずっと一人で戦ってきた」
+line_set 「それは強さだ・・・」
+line_set 「だがな・・・」
+line_set 「双厳よ・・・」
+line_set 「仲間をもつという事も」
+line_set 「また違った強さを必要とするのだ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「北条も彩も・・・」
+line_set 「同じ柳生の里で育った・・・」
+line_set 「俺にとっては部下などでなく」
+line_set 「兄弟だった・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「一人で戦い続けたお前は」
+line_set 「慣れていないだろうがな・・・」
+line_set 「こうやって・・・」
+line_set 「俺達はずっと戦ってきたんだよ・・・」
+line_set 「人と共に生き」
+line_set 「人と共に死す」
+line_set 「それには」
+line_set 「耐えなければいけない事が多々あるんだ・・・」
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「今は死者を弔う時ではない・・・」
+line_set 「わかってくれ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「すまん・・・」
+
+kgd_layer1_set 1 Kgd\W_004.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+wait 2000
+
+kgd_layer2_set 1 Kgd\B_007.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+wait 2000
+
+kgd_layer2_set 1 Kgd\B_069.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+music_play 11
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳と十兵衛は無言で、様々な書物を読みあさっていた。
+
+nvl_line_clear
+
+line_set 関係なさそうな物だろうが、ここにある文献は全て読み尽くすつもりだった。
+
+nvl_line_clear
+
+line_set 呪いの謎・・・。
+line_set 呪いの本質・・・。
+line_set その全てが解かれていない今、時間の許す限りの謎解きが必要とされる。
+line_set 双厳はわずかな時間にその全てを解き明かすつもりだった。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「なにかわかったか・・・？」
+
+kgd_layer3_set 0 Kgd\Jy_007.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 十兵衛が双厳に話し掛けるも、双厳は振り向きもしない。
+line_set ただ読むことに集中するだけだ。
+
+adv_on
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「ちっ、やれやれ・・・」
+
+name_set 双厳
+
+line_set 「すまねぇ・・・」
+
+nvl_on
+
+line_set 諦めかけた十兵衛がため息をついた時、双厳がようやく反応する。
+line_set しかしその言葉は謝罪の言葉だった。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「あん？」
+
+name_set 双厳
+
+line_set 「北条は・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「あいつは・・・」
+line_set 「あいつの最後は・・・」
+line_set 「剣士として見事だったか・・・？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ああ・・・」
+line_set 「見事だった・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「あいつの剣は」
+line_set 「恐ろしく美しかった」
+line_set 「基本に忠実で・・・」
+line_set 「何度もハッとさせられたものだ・・・」
+line_set 「あいつが生きていれば・・・」
+line_set 「強くなっただろうな・・・」
+line_set 「その歩みが遅くとも・・・」
+line_set 「あいつは強くなったと思う・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳も十兵衛もそれ以上は何も言葉を交わさない。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Jy_004.kgd
+kgd_layer3_param 3 100 0 0 0 600 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 十兵衛は立ち上がる。
+
+adv_on
+
+line_set 「どうした・・・」
+
+name_set 十兵衛
+
+line_set 「北条の亡骸は？・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「西の遺跡の近くの池だ・・・」
+
+name_set 十兵衛
+
+line_set 「そうか・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「双厳」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「あいつの最後をみとってくれた事に礼をいう」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ああ・・・」
+
+nvl_on
+
+line_set 十兵衛はそのまま出て行った。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+nvl_line_clear
+
+line_set 双厳は、
+line_set 何時間も、
+line_set 何時間も、
+line_set 書物を調べまくった。
+
+adv_on
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+name_set 双厳
+
+line_set 「？」
+
+nvl_on
+
+line_set 双厳は階段のほうから人の気配を感じる。
+
+adv_on
+
+line_set 「誰だ・・・」
+
+nvl_on
+
+line_set それは小さな、
+line_set そして泣いている、
+line_set 子供のような・・・。
+
+nvl_line_clear
+
+line_set そんな少女であった。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Fu_011.kgd
+kgd_layer3_param 0 128 0 0 0 544 600
+kgd_layer3_display 0
+
+line_set 「・・・」
+line_set 「楓玲か・・・」
+
+name_set 楓玲
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 楓玲は階段をおり、
+line_set 志乃の隠し部屋に入ってくる。
+
+adv_on
+
+line_set 「なんの用だ・・・」
+line_set 「俺はいま忙しい・・・」
+
+nvl_on
+
+line_set 楓玲は双厳を見つめながらその場に座り込んでいた。
+line_set うずくまるその姿が小さな楓玲をより小さくさせる。
+
+adv_on
+
+name_set 楓玲
+
+sfx_set 2 Vox\4391.wav
+sfx_play 2
+
+line_set 「みんな・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4390.wav
+sfx_play 2
+
+line_set 「みんな死んじゃったね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4389.wav
+sfx_play 2
+
+line_set 「北条さんも・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4388.wav
+sfx_play 2
+
+line_set 「彩さんも・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4387.wav
+sfx_play 2
+
+line_set 「他のみんなも・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 明日は楓玲があの呪いにかかる・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「まだ生きている人間がいる」
+line_set 「これ以上殺させはしない・・・」
+
+name_set 楓玲
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4386.wav
+sfx_play 2
+
+line_set 「そうだね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4385.wav
+sfx_play 2
+
+line_set 「まだがんばれるよね・・・？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「このままでは終わらせない・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・・」
+
+nvl_line_clear
+
+line_set 楓玲はそのまま双厳のそばに何時間かいたが、
+line_set 何も言わず、静かにその場から立ち去って行った。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+nvl_on
+
+line_set さらに双厳は何時間も書物を調べまくった。
+line_set ヒルコの呪いを解くために・・・。
+
+adv_on
+
+music_stop
+
+ksd_set Ksd\029.ksd
+ksd_end

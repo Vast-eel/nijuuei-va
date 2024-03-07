@@ -1,0 +1,3263 @@
+
+wait 2000
+
+kgd_layer2_set 0 Kgd\B_035.kgd
+kgd_layer2_crossfade 2
+kgd_layer2_display
+
+music_play 15
+
+jump_auto 0
+@4
+@9
+
+kgd_layer2_set 1 Kgd\B_063.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 1097 91
+
+section_jump_branch1 91
+
+nvl_on
+
+line_set 「・・・なんだぁ？」
+
+nvl_line_clear
+
+line_set 港では数人の村人の中に一際目立つ存在が見受けられた。
+line_set 双厳もその側に近付いて行く。
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_088.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Ro_002.kgd
+kgd_layer3_param 0 160 0 0 0 480 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 「ほぉ・・・」
+
+nvl_line_clear
+
+line_set 双厳ほどの者から見ても、その男はただならぬ雰囲気を漂わせていた。
+line_set 双厳同様、幾度の修羅場をくぐり抜けてきた者が発する独特の雰囲気。
+
+nvl_line_clear
+
+line_set 「只者じゃねぇな」
+line_set 「そこいらの浪人程度じゃ返り討ち・・・ってとこか？」
+
+nvl_line_clear
+
+line_set 隙の無い物腰が、その男の全てを物語っていた。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 男はそのまま港から屋敷へと向かってしまう。
+line_set 結局双厳は何をするでもなく、その男を見送るだけだった。
+
+nvl_line_clear
+
+line_set 「これで志乃が言う用心棒は全員集まったわけだ」
+line_set 「・・・しかし・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳がチラリと男の乗ってきた舟を見る。
+line_set そこには、やはりというかあの舟があった。
+
+nvl_line_clear
+
+line_set 「やっぱりあの舟か・・・」
+
+nvl_line_clear
+
+line_set 葦の舟・・・
+line_set 自分と同じ舟で来た最後の用心棒。
+line_set 果たしてそれが何を意味しているのか。
+
+adv_on
+
+line_set 「・・・」
+line_set 「何とも嫌な感じがしやがる」
+#91_0
+
+jump_choice 1 ◆村へ移動
+jump_choice 2 ◆海岸へ移動
+@2
+@6
+@8
+
+kgd_layer2_set 1 Kgd\B_051.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 2004 91
+jump_choice 3 ◆村へ移動
+jump_choice 4 ◆港へ移動
+jump_choice 5 ◆物見やぐらへ移動
+@5
+
+kgd_layer2_set 1 Kgd\B_067.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 6 ◆海岸へ移動
+@1
+@3
+@11
+
+kgd_layer2_set 1 Kgd\B_047.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 7 ◆屋敷前への道へ移動
+jump_choice 8 ◆海岸へ移動
+jump_choice 9 ◆港へ移動
+@7
+@14
+
+kgd_layer2_set 1 Kgd\B_043.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 10 ◆屋敷前へ移動
+jump_choice 11 ◆村へ移動
+@10
+@16
+@24
+
+kgd_layer2_set 1 Kgd\B_035.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@0
+
+jump_choice 12 ◆山道へ移動
+jump_choice 13 ◆屋敷内へ移動
+jump_choice 14 ◆村への道へ移動
+@12
+@18
+
+kgd_layer2_set 1 Kgd\B_015.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 15 ◆大岩へ移動
+jump_choice 16 ◆屋敷前へ移動
+@15
+
+kgd_layer2_set 1 Kgd\B_003.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+@20
+
+jump_choice 17 ◆登る
+jump_choice 18 ◆山道へ移動
+@17
+
+kgd_layer1_set 1 Kgd\Be_010.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+jump_choice 19 ◆降りる
+@19
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 20
+@13
+@25
+@26
+@27
+
+kgd_layer2_set 1 Kgd\B_031.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 21 ◆自室へ移動
+jump_choice 22 ◆大広間へ移動
+jump_choice 23 ◆蔵の前へ移動
+jump_choice 24 ◆屋敷外へ移動
+@21
+
+kgd_layer2_set 1 Kgd\B_039.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 25 ◆廊下へ移動
+@22
+
+kgd_layer2_set 1 Kgd\B_011.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 26 ◆廊下へ移動
+@23
+
+kgd_layer2_set 1 Kgd\B_027.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 27 ◆廊下へ移動
+#91_1
+
+music_stop
+
+kgd_layer1_set 1 Kgd\Be_016.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+nvl_on
+
+line_set 沈んだ色の海に、儚く浮かぶ小さな灯火。
+line_set それはゆらめく火のように、とどまらない形で存在していた。
+
+nvl_line_clear
+
+line_set 「鬼火かよ・・・」
+line_set 「また珍しいモンを見ちまったな」
+line_set 「・・・」
+line_set 「しかし・・・」
+
+nvl_line_clear
+
+line_set 双厳はその肌にしっかりと感じ取っていた。
+line_set その鬼火を見てから起きた、突如の出来事。
+line_set この島に漂う妖気の異常なまでの高まり。
+
+adv_on
+
+line_set 「凄まじい妖気が島全体を包んでやがる・・・」
+
+nvl_on
+
+line_set 感じたことも無い巨大な妖気。
+line_set それらが双厳にもひしひしと伝わってくる。
+
+nvl_line_clear
+
+line_set 「ちっ・・・何だってんだ？」
+
+adv_on
+
+sfx_set 0 Se\004.wav
+sfx_play 0
+
+nvl_on
+
+line_set ドクンッ！
+
+adv_on
+
+sfx_loop2 0
+sfx_stop 0
+
+music_play 18
+
+name_set 双厳
+
+line_set 「！？」
+
+name_clear
+
+line_set ドンドンドンドン・・・
+
+nvl_on
+
+line_set どこからか聞こえる太鼓の音・・・
+line_set それが双厳の異変と一致した。
+
+adv_on
+
+name_clear
+
+line_set ドンドンドンドンドンドンドンドン・・・
+
+nvl_on
+
+line_set ドクン・・・ドクン・・・
+
+adv_on
+
+name_set 双厳
+
+line_set 「な・・・に？」
+
+nvl_on
+
+line_set 双厳の身体にはっきりした異常が走る。
+line_set それは突然の発作のように起こる、異質な感覚。
+
+adv_on
+
+line_set 「うぐぐ・・・」
+line_set 「ぐっ・・・はぁ・・・はぁ・・・」
+
+nvl_on
+
+line_set もちろん双厳には、それが鳥居を建てる儀式で鳴らされている太鼓の音だとは知るよしもない。
+line_set 逆にその太鼓の音が、自分の内にある二重影を覚醒させる原因と錯覚しそうになった。
+
+adv_on
+
+line_set 「く、くそったれ・・・」
+line_set 「いきなり・・・来やがったかよ・・・」
+
+nvl_on
+
+line_set 肩で息をするほどに疲労しはじめる双厳。
+line_set しかしここで二重影の好き勝手にさせるわけにはいかなかった。
+
+nvl_line_clear
+
+line_set 「こ、ここだと人に見つかるかもしれねぇ・・・」
+line_set 「さすがに見られるのは・・・」
+
+nvl_line_clear
+
+line_set 問題がある・・・と言いたいのだろう。
+line_set 異形の者扱いされる事は、柳生との一件もある双厳にとってできるかぎり避けたいところだった。
+
+adv_on
+
+line_set 「ま、まだ出るなよ・・・」
+
+nvl_on
+
+line_set 歯を食いしばりながら、双厳は人目を逃れて海岸づてに歩いて行く。
+
+adv_on
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer2_set 1 Kgd\B_055.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+nvl_line_clear
+
+line_set 意識がちゃんと覚醒しないまま、双厳はフラフラと歩き続けていた。
+line_set 今自分がどこを進んでいるのかも分からない。
+line_set とにかく人に遭いそうにない道を選んで進んでいるだけだった。
+
+adv_on
+
+line_set 「うぐっ・・・」
+line_set 「・・・はぁ・・・はぁ・・・」
+line_set 「くそっ・・・意識がはっきりしねぇ・・・」
+
+nvl_on
+
+line_set 気づけば自分が見たこともない場所に辿り着いていた事に気づく。
+line_set 視界がはっきりしないが、双厳には見覚えの無い場所であることは確かだった。
+
+nvl_line_clear
+
+line_set 「どこだ、ここは・・・？」
+line_set 「見たこともない所に出たが・・・」
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_059.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set さらに先を進む双厳の前に、何かの建造物らしきものが見えてくる。
+line_set 石で組み上げられた建物は、すでに風化の進んだかなり古いものだ。
+
+nvl_line_clear
+
+line_set 「何だ・・・？」
+line_set 「何かの遺跡か？」
+line_set 「いや、今はそれより・・・」
+
+nvl_line_clear
+
+line_set 二重影の方が、双厳にとって大きな問題だった。
+line_set 身体を襲う激痛は激しさを増し、こうして立ち止まっているだけでも苦痛をともなう。
+line_set 時より痛みが収まるも、申し訳程度のものでしかなかった。
+
+adv_on
+
+line_set 「は、早く出るなら出やがれ・・・」
+line_set 「すぐ・・・斬り刻んでやるからよ・・・」
+
+nvl_on
+
+line_set 双厳がいくら悪態をついても、実際には何も出てこない。
+line_set 二重影はいつもこうだ。
+
+adv_on
+
+line_set 「・・・！？」
+
+nvl_on
+
+line_set 不意に周囲の妖気が一気に高まる。
+line_set この場の空気が突如一変した。
+
+adv_on
+
+line_set 「なんだ・・・？」
+line_set 「突然この辺の妖気が高まりやがった・・・」
+
+name_set 異形
+
+sfx_set 2 Vox\5248.wav
+sfx_play 2
+
+line_set 「うふふふふふ」
+
+sfx_stop 2
+
+nvl_on
+
+line_set どこからともなく聞こえる笑い声。
+line_set そして足音。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_029.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer1_clear 1
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「まずいな・・・」
+
+nvl_line_clear
+
+line_set 大男と、その肩に乗る小柄な少女。
+line_set その二人は外見からしても異質だった。
+line_set 大男はその両目のまわりを糸で縫いつけられている。
+line_set それは死人以外の何にも見えなかった。
+line_set 大男の肩に乗る少女も、また普通とは言えない。
+line_set 能面をつけたかのような無表情さを見せているのに、ちゃんと感情のこもった声を紡ぎ出している。
+
+adv_on
+
+sfx_set 2 Vox\5247.wav
+sfx_play 2
+
+line_set 「初めましてだね」
+
+sfx_stop 2
+sfx_set 2 Vox\5246.wav
+sfx_play 2
+
+line_set 「あたしは風喜。で、こっちは尺角」
+
+sfx_stop 2
+
+name_set 尺角
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 風喜に紹介された大男だが、別に何か言うでもなく何の反応も見せない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くっ・・・」
+line_set 「の、のうのうと自己紹介かよ？」
+line_set 「ずいぶん余裕があるじゃねぇか」
+line_set 「それとも・・・」
+line_set 「俺を・・・コケにしてんのか？」
+
+name_set 風喜
+
+sfx_set 2 Vox\5329.wav
+sfx_play 2
+
+line_set 「うふふふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\5328.wav
+sfx_play 2
+
+line_set 「どっちかは自分で確かめれば？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 二重影の苦痛を我慢しつつ、目の前の異形たちと一戦交えるかどうか・・・
+line_set 決して双厳にとって楽な戦いでは無かった。
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5327.wav
+sfx_play 2
+
+line_set 「ここも知られちゃったしね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5326.wav
+sfx_play 2
+
+line_set 「どっちにしろ、口を封じるしかないよね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 風喜
+
+sfx_set 2 Vox\5325.wav
+sfx_play 2
+
+line_set 「殺さないで・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5324.wav
+sfx_play 2
+
+line_set 「手足を斬って・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5323.wav
+sfx_play 2
+
+line_set 「それから喋れないようにしてあげるから」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「へっ・・・こいつ・・・」
+
+nvl_line_clear
+
+line_set 表情は何も変わらず、淡々と述べるその口調はむしろ楽しそうな節すら見受けられる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「そうか、喋れなくするか・・・」
+line_set 「どうやって喋れなくするのか、教えてほしいもんだよなぁ？」
+
+name_set 風喜
+
+sfx_set 2 Vox\5322.wav
+sfx_play 2
+
+line_set 「うふふふふふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\5321.wav
+sfx_play 2
+
+line_set 「簡単よ」
+
+sfx_stop 2
+sfx_set 2 Vox\5320.wav
+sfx_play 2
+
+line_set 「舌を抜いて、口すら開けていられないようにしてあげるから」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・おいおい」
+line_set 「そりゃあ遠回しに”殺す”って言ってんじゃねぇかよ」
+
+name_set 風喜
+
+sfx_set 2 Vox\5319.wav
+sfx_play 2
+
+line_set 「大丈夫」
+
+sfx_stop 2
+sfx_set 2 Vox\5318.wav
+sfx_play 2
+
+line_set 「殺さずに舌を抜く方法なんか、いくらでもあるんだから」
+
+sfx_stop 2
+sfx_set 2 Vox\5317.wav
+sfx_play 2
+
+line_set 「・・・この尺角のようにね・・・」
+
+sfx_stop 2
+
+kgd_layer1_set 1 Kgd\En_030.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+name_set 尺角
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 尺角が一歩を踏み出す。
+line_set 物言わぬ大男は、じりじりと双厳へ迫り来る。
+line_set 手には双厳の身長はあろうかと思われる大鎌が握られている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くっ・・・くくくくく・・・」
+line_set 「・・・面白れぇよ！」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「二重影が発動しそうなときにこんな化け物の相手をする羽目になるとは・・・」
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5316.wav
+sfx_play 2
+
+line_set 「くすくす」
+
+sfx_stop 2
+sfx_set 2 Vox\5315.wav
+sfx_play 2
+
+line_set 「まずは尺角が相手だよ」
+
+sfx_stop 2
+sfx_set 2 Vox\5314.wav
+sfx_play 2
+
+line_set 「この子手加減出来ないから、あんまり抵抗すると死んじゃうから気を付けてね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 尺角が巨体を揺らしながらゆっくりと双厳に近づく。
+
+adv_on
+
+fight_start
+
+force_save_menu
+
+music_play 9
+
+name_set 双厳
+
+line_set 「くっ・・・」
+line_set 「やるしかあるまい・・・」
+
+nvl_on
+
+line_set 双厳は柄に手をかける。
+line_set その動きに反応するように尺角が双厳めがけて大鎌を振り下ろす。
+
+adv_on
+
+jump_choice 28 ◆受ける
+jump_choice 29 ◆飛び退く
+jump_fight_failure 30
+@28
+
+nvl_on
+
+line_set 双厳の頭上から尺角の大鎌が振り落とされる。
+line_set 双厳はなにを思ったか、自分の身長もあろう大鎌を刀で受けようとした。
+
+adv_on
+
+jump_auto 31
+@29
+
+nvl_on
+
+line_set 双厳は巨大な大鎌から身をかわす。
+
+adv_on
+
+name_clear
+
+line_set ズドン！！！！
+
+nvl_on
+
+line_set 轟音と共に双厳が立っていた場所に土煙があがる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「な、なんて力だ」
+
+name_set 風喜
+
+line_set 「ほら、尺角、後ろに逃げたよ」
+
+name_set 双厳
+
+line_set 「くそ・・・」
+line_set 「こんな化け物とまともに剣まじえてられるか」
+line_set 「一撃で決めてやる」
+
+jump_choice 32 ◆疾風剣
+jump_choice 33 ◆地擦り
+jump_fight_failure 34
+@32
+
+nvl_on
+
+line_set 双厳は剣を胸のあたりで水平に構える。
+line_set 愛洲陰流、陰の部、疾風剣の構えである。
+line_set 十兵衛に対して使おうとした秘剣である。
+
+nvl_line_clear
+
+line_set そんな双厳の構えなど関係ないように尺角は大鎌を振り落とす。
+
+adv_on
+
+name_clear
+
+line_set ブシャ！！！
+
+nvl_on
+
+line_set 血煙が上がる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「勝負あったな」
+
+nvl_on
+
+line_set 水平に構えられていた双厳の剣は、尺角の大鎌を受けもせず・・・、
+line_set というよりは受けと攻撃が一動作で完了する疾風の速さで尺角の腕を落とし、
+line_set さらに尺角の胴体を切り裂いていた。
+
+adv_on
+
+line_set 「致命傷のはずだ」
+
+name_clear
+
+line_set ゴソ・・・
+
+name_set 双厳
+
+line_set 「！？」
+
+jump_auto 35
+@33
+
+nvl_on
+
+line_set 双厳は刀を下に向ける。
+line_set そして、徐々に動かす。
+line_set 地擦りである。
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5313.wav
+sfx_play 2
+
+line_set 「あはははは」
+
+sfx_stop 2
+sfx_set 2 Vox\5312.wav
+sfx_play 2
+
+line_set 「バカじゃないの」
+
+sfx_stop 2
+sfx_set 2 Vox\5311.wav
+sfx_play 2
+
+line_set 「そんな人間相手の剣術使うなんて」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 尺角の攻撃が入る。
+
+adv_on
+
+name_set 双厳
+
+line_set 「タァッ！」
+
+nvl_on
+
+line_set 地擦りから剣を振り上げ、尺角の首もとを切り裂く。
+
+adv_on
+
+name_clear
+
+line_set ブシャ！
+
+nvl_on
+
+line_set たしかに手応えはあった。
+
+nvl_line_clear
+
+line_set 「勝った」
+
+nvl_line_clear
+
+line_set たしかに尺角の首もとを切り裂き、双厳は勝ちを確信していた。
+line_set が、双厳がそう思ったその刹那。
+line_set 尺角の大鎌がそのまま止まる事なく双厳に襲いかかってきた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ば、馬鹿な・・・」
+line_set 「たしかに致命傷なはず・・・」
+
+jump_auto 36
+@35
+jump_choice 37 ◆よける
+jump_choice 38 ◆敵の動きを確認する
+jump_fight_failure 39
+@37
+
+nvl_on
+
+line_set 双厳はすぐにその場から飛び退く。
+
+adv_on
+
+name_clear
+
+line_set ガシュ！！！！
+
+nvl_on
+
+line_set 地面に大鎌が食い込む。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ば、馬鹿な・・・」
+line_set 「たしかに致命傷なはず・・・」
+
+nvl_on
+
+line_set たしかに尺角にあたえた一撃は致命傷のハズであった。
+line_set 尺角の体は股間のあたりから胸元のあたりまでかけて大きく裂けている。
+line_set 裂けた傷口からは臓物も覗いており、とてもじゃないが動けるような状態ではない。
+
+adv_on
+
+line_set 「くそ！」
+line_set 「化け物が！」
+
+nvl_on
+
+line_set 双厳は剣を構えなおす。
+
+adv_on
+
+line_set 「せっかく高度な剣術見せてやったのに」
+line_set 「台無しじゃねーか！」
+
+name_set 風喜
+
+sfx_set 2 Vox\5310.wav
+sfx_play 2
+
+line_set 「あら、そうなんだ」
+
+sfx_stop 2
+sfx_set 2 Vox\5309.wav
+sfx_play 2
+
+line_set 「私にはただ剣を振り回してるだけに見えたけどね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「チッ」
+line_set 「だからこの手の化け物は嫌なんだよ」
+line_set 「剣術の妙なんてもんを全然理解しちゃいねぇ」
+
+name_set 風喜
+
+sfx_set 2 Vox\5255.wav
+sfx_play 2
+
+line_set 「くすくす・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5307.wav
+sfx_play 2
+
+line_set 「尺角がただの大男だとでも思ったの？」
+
+sfx_stop 2
+sfx_set 2 Vox\5306.wav
+sfx_play 2
+
+line_set 「そんなわけないじゃないの」
+
+sfx_stop 2
+sfx_set 2 Vox\5305.wav
+sfx_play 2
+
+line_set 「そんな人間相手の剣術じゃ、尺角は殺せないわよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「うるせい！」
+line_set 「少しだまってろ！」
+line_set 「こいつを八つ裂きにしたら、今度はお前だ」
+line_set 「そのへらず口を一生たたけない体にしてやる」
+
+name_set 風喜
+
+sfx_set 2 Vox\5304.wav
+sfx_play 2
+
+line_set 「まぁ、怖い」
+
+sfx_stop 2
+sfx_set 2 Vox\5303.wav
+sfx_play 2
+
+line_set 「うふふふふふふふ」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳の鼓動が激しくなる。
+
+nvl_line_clear
+
+line_set 「くそ・・・」
+line_set 「このままちんたらやってたら二重影が発動しちまうじゃねぇか・・・」
+
+nvl_line_clear
+
+line_set 尺角が双厳に襲いかかる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「うぜぇなぁ！」
+line_set 「この化け物が！！！」
+
+jump_auto 40
+@38
+
+nvl_on
+
+line_set 双厳は振り向き尺角を確認する。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ば、馬鹿な・・・」
+line_set 「たしかに致命傷のはず・・・」
+
+nvl_on
+
+line_set たしかに尺角にあたえた一撃は致命傷のハズであった。
+line_set 尺角の体は股間のあたりから胸元のあたりまでかけて大きく裂けている。
+line_set 裂けた傷口からは臓物も覗いており、とてもじゃないが動けるような状態ではない。
+
+nvl_line_clear
+
+line_set 双厳は驚きのあまりその場に立ちつくした。
+line_set そんな双厳にむかって尺角のさらなる一撃が襲う。
+
+adv_on
+
+line_set 「ちいっ」
+
+nvl_on
+
+line_set 自分の身長もあろう大鎌を刀で受けようとした。
+
+adv_on
+
+jump_auto 41
+@40
+jump_choice 42 ◆ぶっ殺す
+jump_choice 43 ◆ぶっ殺す
+jump_fight_failure 44
+@42
+@43
+
+nvl_on
+
+line_set 尺角が双厳に襲いかかる。
+
+adv_on
+
+name_clear
+
+line_set ブン
+
+nvl_on
+
+line_set 尺角の大鎌が空気を裂く。
+line_set それを双厳は紙一重でかわす。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くたばれこの化け物！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！」
+
+name_clear
+
+line_set ドバシャ！！！！
+line_set ドビシュ！
+line_set バシュ！！！
+line_set ドバシャ！！！！
+line_set ドビシュ！
+line_set バシュ！！！
+line_set ドバシャ！！！！
+line_set ドビシュ！
+line_set バシュ！！！
+line_set ドバシャ！！！！
+line_set ドビシュ！
+line_set バシュ！！！
+
+nvl_on
+
+line_set 双厳の剣は疾風剣をさらに複雑にしたような多様な、そして恐ろしい速さの動きで、
+line_set 尺角の体を引き裂いていく。
+line_set 腕がとび、足がとび、胸が裂け、首がとび。
+line_set まるで尺角の体は、双厳の剣が生み出す風により体をどんどんかすめ取られていくように無くなっていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「これが、真の愛洲陰流！」
+line_set 「陰の部、風乃抄！」
+
+name_set 風喜
+
+sfx_set 2 Vox\5302.wav
+sfx_play 2
+
+line_set 「う、嘘ぉ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「斬！」
+
+kgd_layer1_set 1 Kgd\En_031.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+wait 1000
+
+kgd_layer1_set 1 Kgd\En_032.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 双厳の剣が宙でとまる。
+line_set あれだけ何回も血肉を引き裂いたのにかかわらず、双厳の剣には血も脂もついていない。
+
+nvl_line_clear
+
+line_set 高速で振り回されるゆえに、刃についた血や脂が振り落とされるのか、
+line_set それともあまりに高速ゆえに、はじめから刃に血や脂がつかないのか、
+line_set どちらであるかは不明であるが、兎にも角にも双厳の剣は常人のレベルでははかれない、
+line_set まさに鬼神のごとき剣であった。
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set すでにそこには大男の姿はなく・・・
+line_set ただ肉塊だけがちらばっていた。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\W_001.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Fk_001.kgd
+kgd_layer3_param 0 188 0 0 0 424 600
+kgd_layer3_display 0
+
+music_play 18
+
+name_set 風喜
+
+sfx_set 2 Vox\5301.wav
+sfx_play 2
+
+line_set 「す、すごい・・・かも」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「さてと・・・」
+line_set 「次はお前の番だぜ」
+
+fight_end
+
+name_set 風喜
+
+sfx_set 2 Vox\5300.wav
+sfx_play 2
+
+line_set 「うふふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\5299.wav
+sfx_play 2
+
+line_set 「さすが二つ影」
+
+sfx_stop 2
+sfx_set 2 Vox\5298.wav
+sfx_play 2
+
+line_set 「尺角を倒しちゃうなんてね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「生憎だがな・・・」
+line_set 「手前ぇらに誉められても、嬉しいどころか吐き気がするんだよ」
+
+name_set 風喜
+
+sfx_set 2 Vox\5297.wav
+sfx_play 2
+
+line_set 「あらら」
+
+sfx_stop 2
+sfx_set 2 Vox\5296.wav
+sfx_play 2
+
+line_set 「つれないんだ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「戯れ言はいい」
+line_set 「とりあえず、お前らの魂胆でも吐いてもらおうか」
+
+name_set 風喜
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「吐かなければ、そこに転がる肉塊の一部にしてやるぜ」
+
+name_set 風喜
+
+sfx_set 2 Vox\5295.wav
+sfx_play 2
+
+line_set 「あらあら」
+
+sfx_stop 2
+sfx_set 2 Vox\5294.wav
+sfx_play 2
+
+line_set 「たかだか尺角を倒しただけで、たいした自信ね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「お前ら、一体何者だよ？」
+line_set 「なんの目的でこの島にいる？」
+
+name_set 風喜
+
+sfx_set 2 Vox\5293.wav
+sfx_play 2
+
+line_set 「うふふふふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\5292.wav
+sfx_play 2
+
+line_set 「今日は楽しかったわ」
+
+sfx_stop 2
+sfx_set 2 Vox\5291.wav
+sfx_play 2
+
+line_set 「ありがと」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なんだと？」
+
+kgd_layer1_set 1 Kgd\En_033.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+kgd_layer3_clear 0
+
+name_set 風喜
+
+sfx_set 2 Vox\5290.wav
+sfx_play 2
+
+line_set 「あたし達が何者なのか？」
+
+sfx_stop 2
+sfx_set 2 Vox\5289.wav
+sfx_play 2
+
+line_set 「残念だけど、あたしはそれを答える“権利”は持ってないのよね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なに？」
+
+name_set 風喜
+
+line_set 「・・・・・・」
+
+nvl_on
+
+line_set 風喜が聞き慣れない言葉を呟く。
+
+adv_on
+
+name_set 双厳
+
+line_set 「妖術か？」
+
+nvl_on
+
+line_set 双厳は剣を構える。
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5288.wav
+sfx_play 2
+
+line_set 「ふふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\5287.wav
+sfx_play 2
+
+line_set 「安心して、今日は出直すわ」
+
+sfx_stop 2
+sfx_set 2 Vox\5286.wav
+sfx_play 2
+
+line_set 「また今度、あんたの相手してあげる」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 風喜は宙に、印をくむ。
+line_set その印はちょうど”道”という字に似ていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「な、なんだ・・・」
+
+kgd_layer1_set 1 Kgd\En_034.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 風喜が宙に書いた印は、そのまま光り出し、
+line_set ”道”という文字を浮かび上がらせた。
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5285.wav
+sfx_play 2
+
+line_set 「ふふふふ、唐の国の大昔の呪術よ」
+
+sfx_stop 2
+sfx_set 2 Vox\5284.wav
+sfx_play 2
+
+line_set 「次会う時は、もっとたくさん見せてあげるわ」
+
+sfx_stop 2
+sfx_set 2 Vox\5283.wav
+sfx_play 2
+
+line_set 「でも、次はないかしらね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set さらに光は強くなる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 双厳は後ろから物音を感じ、すぐに振り返る。
+line_set するとそこには、双厳によって切り裂かれた尺角の首が宙に浮いているではないか。
+
+adv_on
+
+line_set 「？！」
+line_set 「まだ生きているのか？？？」
+line_set 「こいつ？？？」
+
+name_set 風喜
+
+sfx_set 2 Vox\5282.wav
+sfx_play 2
+
+line_set 「あはははははは」
+
+sfx_stop 2
+sfx_set 2 Vox\5281.wav
+sfx_play 2
+
+line_set 「さすがに、もう自力では尺角は動けないよ」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 尺角の首は宙を浮きながら風喜の手元・・・、
+line_set ちょうど風喜が印をくんだ光輝く”道”という文字の所で止まる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なにをする気だ・・・」
+
+nvl_on
+
+line_set さらに風喜は複雑な印を宙に描いていく。
+line_set それにあわせ尺角の首が光り輝く。
+
+adv_on
+
+line_set 「？！」
+
+kgd_layer1_set 1 Kgd\En_035.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set ”道”の文字が紐をほどくように解けていき、しんにょうの部分だけが紐状にのびていく。
+
+adv_on
+
+line_set 「な、なんだ？？」
+
+nvl_on
+
+line_set しんにょうが紐状に解けていった後、”首”という字だけが宙に残る。
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5280.wav
+sfx_play 2
+
+line_set 「ふふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\5279.wav
+sfx_play 2
+
+line_set 「めずらしいでしょ」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 宙に浮かぶ尺角の首と光り輝く”首”という文字が重なりあう。
+line_set その刹那！
+
+nvl_line_clear
+
+line_set 風喜の背後に、空間のひずみのようなものがあらわれた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「こ、これは・・・」
+
+name_set 風喜
+
+sfx_set 2 Vox\5278.wav
+sfx_play 2
+
+line_set 「うふふふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\5277.wav
+sfx_play 2
+
+line_set 「漢字って単なる文字じゃないのよ」
+
+sfx_stop 2
+sfx_set 2 Vox\5276.wav
+sfx_play 2
+
+line_set 「古代の呪文なんだよ」
+
+sfx_stop 2
+sfx_set 2 Vox\5275.wav
+sfx_play 2
+
+line_set 「知らなかったでしょ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 風喜
+
+sfx_set 2 Vox\5274.wav
+sfx_play 2
+
+line_set 「といってもあなた達が使う漢字は真名が抜け落ちたもので、単なる文字だけどね」
+
+sfx_stop 2
+sfx_set 2 Vox\5271.wav
+sfx_play 2
+
+line_set 「さてそろそろ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「まて！」
+
+nvl_on
+
+line_set 双厳は風喜に襲いかかる。
+
+adv_on
+
+line_set 「？！」
+
+name_clear
+
+line_set ドサ！
+
+name_set 双厳
+
+line_set 「なっ？！」
+
+nvl_on
+
+line_set 双厳は風喜に近づこうとしたが、なにか見えない力ではねとばされた。
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5270.wav
+sfx_play 2
+
+line_set 「無駄よ」
+
+sfx_stop 2
+sfx_set 2 Vox\5269.wav
+sfx_play 2
+
+line_set 「異界の扉は、贄を捧げた者しか通れないのよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「くそ」
+
+pis_set 23 0
+pis_set 22 1
+
+name_set 風喜
+
+sfx_set 2 Vox\5268.wav
+sfx_play 2
+
+line_set 「あたまが悪い二つ影に教えてあげる」
+
+sfx_stop 2
+sfx_set 2 Vox\5267.wav
+sfx_play 2
+
+line_set 「“<0,道>”という漢字はね」
+
+sfx_stop 2
+sfx_set 2 Vox\5266.wav
+sfx_play 2
+
+line_set 「大昔の字形では首を携えて行く形なんだよ」
+
+sfx_stop 2
+sfx_set 2 Vox\5265.wav
+sfx_play 2
+
+line_set 「つまり“<0,道>”を通るためにはね」
+
+sfx_stop 2
+sfx_set 2 Vox\5264.wav
+sfx_play 2
+
+line_set 「首が必要だったんだよ」
+
+sfx_stop 2
+sfx_set 2 Vox\5263.wav
+sfx_play 2
+
+line_set 「うふふふふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\5262.wav
+sfx_play 2
+
+line_set 「でもね」
+
+sfx_stop 2
+sfx_set 2 Vox\5261.wav
+sfx_play 2
+
+line_set 「ここでいう“<1,みち>”は普通の道じゃないんだよ」
+
+sfx_stop 2
+sfx_set 2 Vox\5260.wav
+sfx_play 2
+
+line_set 「異界との“<0,道>”なんだよ」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 紐状になった”道”のしんにょうはあたかも異界へと続く道のように空間のひずみへと延びている。
+line_set そのひずみの奥に不可思議な空間が見える。
+line_set 双厳も初めて見るその光景は、まさに異形の成せる術だといえた。
+
+nvl_line_clear
+
+line_set 「なんだ、ありゃあ・・・？」
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5259.wav
+sfx_play 2
+
+line_set 「さてと、そろそろおいとましますか」
+
+sfx_stop 2
+sfx_set 2 Vox\5258.wav
+sfx_play 2
+
+line_set 「じゃあね」
+
+sfx_stop 2
+
+kgd_layer1_fx 9
+
+wait 300
+
+kgd_layer1_set 1 Kgd\W_001.kgd
+kgd_layer1_fadein
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_clear 1
+
+music_stop
+
+nvl_on
+
+line_set 「ちっ・・・！」
+
+nvl_line_clear
+
+line_set 尺角の首から作られた”道”の中へ風喜が飛び込んで行く。
+line_set 双厳も風喜を逃がすまいと手を伸ばしたが、双厳の手が届く前に”道”は収束して消えてしまう。
+line_set 最後に見たのは、空間のわずかな歪みだけだった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「まんまと逃げられたか」
+line_set 「結局何も・・・」
+line_set 「うっ・・・！？」
+
+music_play 18
+
+nvl_on
+
+line_set 双厳の身体が”く”の字に折れる。
+line_set 片手をついた腕が、ガクガクと震える。
+
+adv_on
+
+name_set 双厳
+
+line_set 「うぐ・・・ぐふぅ・・・」
+line_set 「・・・」
+line_set 「思い出したように暴れ出しやがって・・・」
+line_set 「いい加減にしやがれ・・・」
+
+nvl_on
+
+line_set 二重影の再動。
+line_set 双厳が気を抜く瞬間を狙い、二重影は動き出す。
+line_set 戦いの緊張が解けたこの一瞬の隙さえも、二重影にとっては絶好の機会だった。
+
+adv_on
+
+line_set 「・・・ったく・・・」
+line_set 「いい度胸してやがる・・・」
+
+kgd_layer2_set 1 Kgd\B_055.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+line_set 「・・・」
+
+nvl_on
+
+line_set その気配に、双厳はすでに気づいていた。
+
+nvl_line_clear
+
+line_set 「人が調子悪い時に限って・・・」
+line_set 「うっとうしい奴らだ」
+
+nvl_line_clear
+
+line_set ただでさえ二重影の痛みで腹がたっているのに、異形の者たちは容赦なく待ちかまえている。
+line_set たちこめる妖気が再び高まりを見せ、双厳は今夜二度目の立ち会いを強いられた。
+
+adv_on
+
+line_set 「・・・」
+line_set 「さっさと出ろ！」
+line_set 「無駄な時間を取らせるな」
+
+kgd_layer1_set 1 Kgd\En_018.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer1_clear 1
+
+name_set 異形
+
+line_set 「くくくくくくくく・・・」
+line_set 「随分な言い草だな」
+
+name_set 双厳
+
+line_set 「言いたいことがあるなら他の奴にでも言え」
+line_set 「お前らに付きまとわれて、こっちはいい迷惑だぜ」
+
+name_set 異形
+
+line_set 「くくくくく」
+line_set 「それだけお前が好かれているってことさ」
+
+name_set 双厳
+
+line_set 「・・・けっ！」
+
+name_set 異形
+
+line_set 「それにしても・・・」
+line_set 「風喜めが、抜け駆けしおって・・・」
+line_set 「しかし物は言い様よな」
+line_set 「要は殺さなければ何をやってもよいのだ」
+line_set 「遺跡の場所も知られた事だし」
+line_set 「ならば風喜の言うことは好都合だわい」
+
+nvl_on
+
+line_set 異形はうすら笑いを浮かべながら双厳を見やる。
+line_set その言葉は、ただ双厳を殺す口実を求めているだけの言い回しに過ぎなかった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「そこまで俺を殺してぇかよ・・・」
+line_set 「ふざけるなってんだ・・・」
+line_set 「手前も所詮さっきの奴らと変わんねぇな」
+line_set 「口実を述べねぇと何もできねぇ、子飼いの犬っころかよ？」
+
+name_set 異形
+
+line_set 「ひ、ひゃははははははは！！」
+line_set 「早くお前を殺したくてたまらんのだよ」
+line_set 「何でもいいからよぅ、早く殺らせろよ・・・？」
+line_set 「そういえば、まだ俺の名前を言ってなかったな」
+line_set 「俺の名前は凶虐」
+
+name_set 双厳
+
+line_set 「それらしい名前だな」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「これは本当にやばいな・・・」
+line_set 「この状態で戦うのか？」
+
+nvl_line_clear
+
+line_set すでに双厳の体は、自分の意志通りに動かなくなっていた。
+
+nvl_line_clear
+
+line_set 「体の一部が二重影の支配下に置かれはじめていやがる・・・」
+line_set 「最後まで戦えるのか？」
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_036.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+fight_start
+
+force_save_menu
+
+music_play 9
+
+nvl_on
+
+line_set 突然上空から空を裂く音が双厳の耳に入る。
+
+adv_on
+
+jump_choice 45 ◆よける
+jump_choice 46 ◆受ける
+jump_fight_failure 47
+@45
+
+line_set 「むぅ！」
+
+nvl_on
+
+line_set 双厳はその場所からすかさず飛び退いた。
+
+adv_on
+
+name_clear
+
+line_set ドシュ！
+line_set ドシュ！！
+line_set ドシュ！！！
+line_set ドシュ！！！！
+
+name_set 凶虐
+
+line_set 「ひゃっひゃっひゃっ・・・」
+line_set 「よくよけられたな・・・」
+
+nvl_on
+
+line_set 双厳が立っていた場所には何本もの鎌が突き立てられている。
+
+adv_on
+
+name_clear
+
+line_set ヒュンヒュン・・・
+
+name_set 双厳
+
+line_set 「鎖がまか・・・」
+
+name_set 凶虐
+
+line_set 「ひひひひひひ・・・」
+line_set 「ただの鎖がまじゃないぜ・・・」
+line_set 「五蘊がまだ・・・」
+line_set 「八つ裂きにしてやるよぉ・・・」
+
+name_clear
+
+line_set ヒュンヒュン・・・
+line_set ヒュンヒュン・・・・
+line_set ヒュンヒュン・・・・・
+line_set ヒュンヒュン・・・・・・
+
+nvl_on
+
+line_set 凶虐の扱う四叉鎖がまは、一つ一つがまるで意志があるように不気味に空を斬る。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「計５個の鎌が四つ又に分かれている」
+line_set 「どうやったらあんなものが使えるんだ・・・」
+
+nvl_line_clear
+
+line_set もしかしたら、異形の者特有の神通力の一種だったのか、はたまた何かしらのからくりがあったのか？
+line_set それは双厳には分からなかったが、これがとんでもない脅威であったのは間違いなかった。
+
+nvl_line_clear
+
+line_set 「一気に決めるしかあるまい」
+
+adv_on
+
+jump_auto 48
+@46
+@47
+
+name_set 双厳
+
+line_set 「むぅ！」
+
+nvl_on
+
+line_set 双厳は剣で上空から襲ってくる物体を受ける。
+
+adv_on
+
+name_clear
+
+line_set カキーン！
+
+name_set 双厳
+
+line_set 「ぬぅ？」
+line_set 「鎖がま？」
+
+nvl_on
+
+line_set 双厳が剣でうけたものは鎖がまであった。
+
+adv_on
+
+name_clear
+
+line_set ドシュ！
+line_set ドシュ！！
+line_set ドシュ！！！
+line_set ドシュ！！！！
+
+name_set 双厳
+
+line_set 「？！」
+
+name_set 凶虐
+
+line_set 「ひゃっひゃっひゃっ・・・」
+line_set 「引っかかったな！」
+
+nvl_on
+
+line_set 双厳の体に何本もの鎌が突き立てられている。
+
+adv_on
+
+name_clear
+
+line_set ヒュンヒュ・・・
+
+name_set 双厳
+
+line_set 「ただの鎖がまじゃ・・・ないな・・・」
+
+name_set 凶虐
+
+line_set 「ひひひひひひ・・・」
+line_set 「五蘊がまだ・・・」
+line_set 「５個の鎌がついている特殊な鎖がまだ」
+@51
+
+name_clear
+
+line_set ヒュンヒュン・・・
+line_set ヒュンヒュン・・・・
+line_set ヒュンヒュン・・・・・
+line_set ヒュンヒュン・・・・・・
+
+nvl_on
+
+line_set 凶虐の扱う五蘊がまは、一つ一つがまるで意志があるように不気味に空を斬る。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「だいたい、鎖がまなんて何本もあるものだと思わないから」
+line_set 「どいつも初弾を受けた時点で油断するんだよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 凶虐
+
+line_set 「まぁ」
+line_set 「気がついたとしても、連続で上空から襲ってくる何本もの鎖がまなど、よけられるものではないがな」
+line_set 「安心しな・・・」
+line_set 「急所ははずしてある」
+line_set 「だが、お前の体中の腱は切断されている」
+line_set 「動く事はできないだろう・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+music_stop
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+name_clear
+
+line_set ドサ・・・
+
+nvl_on
+
+line_set 双厳はその場に倒れ込む・・・。
+
+nvl_line_clear
+
+line_set 気を失いかけている双厳はぼんやりと、あの五蘊がまの秘密を考えていた。
+line_set もしかしたら、異形の者特有の神通力の一種だったのか、はたまた何かしらのからくりがあったのか？
+line_set それは双厳には分からなかったし、もうどうでもよい事でもあった。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「どうなってんだろうか・・・」
+
+nvl_line_clear
+
+line_set ばかばかしい事を心につぶやき双厳は静かに目を閉じた。
+
+adv_on
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@48
+
+jump_choice 49 ◆天の構えから
+jump_choice 50 ◆地の構えから
+jump_fight_failure 51
+@49
+
+nvl_on
+
+line_set 双厳は剣を大きく上に構えた。
+line_set 俗にいう上段の構え、あるいは天の構えという形である。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳の剣は、天の構えから、美しい円を描き始めた。
+
+adv_on
+
+line_set 「ぬぅ？！」
+
+nvl_on
+
+line_set 天にむけられた剣先はゆっくりと円を描きながら徐々に下方に向かう。
+
+adv_on
+
+line_set 「これは！？」
+line_set 「チィイイイイ」
+
+nvl_on
+
+line_set すでに凶虐は双厳の剣の術中にはまっていた。
+
+adv_on
+
+line_set 「く、剣先がどこからくるのかわからん・・・」
+
+name_set 双厳
+
+line_set 「霞太刀・・・」
+
+name_set 凶虐
+
+line_set 「チィ！」
+
+nvl_on
+
+line_set 凶虐は後ろに飛び退く。
+line_set その刹那、双厳の剣がひらめく。
+
+adv_on
+
+name_clear
+
+line_set バシュ！！！！！
+
+nvl_on
+
+line_set 軽い破裂音。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「痛っ・・・」
+line_set 「し、しまった」
+
+nvl_on
+
+line_set 凶虐の指の何本かが武器とともに吹き飛ばされる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「いまの一撃で真っ二つにならなかったのだけは誉めてやろう」
+
+jump_auto 52
+@50
+
+nvl_on
+
+line_set 双厳は剣をつま先から三寸の位置、
+line_set つまり地擦りに下げる。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「くくくく・・・」
+line_set 「今度こそ串刺しにしてやる」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳の剣の刃は天に向き構えられる。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「死ね！」
+
+nvl_on
+
+line_set 凶虐の鎖がまが双厳を襲う。
+
+adv_on
+
+name_clear
+
+line_set チュイン！！
+
+nvl_on
+
+line_set 上向きに構えられた剣が下方から薙ぎ上げられ、凶虐の鎖がまをはねのける。
+line_set さらに鎖がまが双厳を襲う。
+
+adv_on
+
+name_clear
+
+line_set チュイン！！
+line_set カン！
+line_set カキン！！！
+line_set バキン！！！
+
+nvl_on
+
+line_set 次々に襲う鎖がまを、双厳の剣は次々とはねのけていく。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「ぬぅ」
+
+nvl_on
+
+line_set 双厳が大きく踏み出し、凶虐の懐に入る。
+
+adv_on
+
+line_set 「チィ！」
+
+nvl_on
+
+line_set 凶虐もすかさず残りの鎌と鎖を使い近距離にまで接近した双厳を受けて立つ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「もらった！」
+
+name_set 凶虐
+
+line_set 「？！」
+
+name_clear
+
+line_set カン！
+line_set キン！
+line_set カシュ
+
+nvl_on
+
+line_set 下方からすさまじい速度で、凶虐を無数の太刀筋が襲う。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「む、むぅ」
+
+nvl_on
+
+line_set 懸命にその太刀を捌く凶虐。
+
+adv_on
+
+name_clear
+
+line_set バシュ！！！！！
+
+nvl_on
+
+line_set 軽い破裂音。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「痛っ・・・」
+line_set 「し、しまった」
+
+nvl_on
+
+line_set 凶虐は大きく後ろに飛び退くが、
+line_set すでに、指の何本かが武器とともに吹き飛ばされている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「いまの一撃で指ですんだのは誉めてやろう」
+
+name_set 凶虐
+
+line_set 「苦っ・・・」
+
+name_set 双厳
+
+line_set 「逆袈裟・・・」
+line_set 「別名、浦波だ」
+
+nvl_on
+
+line_set 浦波とはもともとは薙刀の術で、海上大風に波のさかまき、打てば返し、返しては打つが如く、
+line_set 波の揉み合う景色をたとえた技である。
+
+nvl_line_clear
+
+line_set 相手の太刀を常に霞のように受け流し、車に返して脇を切落して勝つ。
+
+adv_on
+@52
+
+name_set 凶虐
+
+line_set 「ぬぅ・・・」
+
+nvl_on
+
+line_set もはや凶虐には双厳の一撃を防ぐ手だては何も残されていなかった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・勝負あったようだな」
+
+name_set 凶虐
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「もうお前ともこれっきりだ」
+line_set 「二度と俺の前にその汚ねぇツラ出す事も無いだろうよ」
+
+name_set 凶虐
+
+line_set 「く・・・くくくくく・・・」
+line_set 「それはどうかな・・・？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「無駄な虚勢を・・・」
+
+nvl_on
+
+line_set 双厳がそれ以上の会話を無駄と思い、刀を振り下ろそうとしたその時。
+line_set それは再び訪れた。
+
+adv_on
+
+music_stop
+
+sfx_set 0 Se\004.wav
+sfx_loop1 0
+
+name_clear
+
+line_set ドクンッ！
+
+music_play 18
+
+sfx_loop2 0
+sfx_stop 0
+
+name_set 双厳
+
+line_set 「・・・ぐあっ！？」
+
+nvl_on
+
+line_set 双厳の身体が凶虐から離れていく。
+line_set よろめいた身体を支えるように、刀を地面に刺して何とかその場に留まる。
+
+nvl_line_clear
+
+line_set 「・・・野郎・・・」
+line_set 「いちいち肝心なところで来やがって・・・」
+
+adv_on
+
+name_clear
+
+line_set ドクンッ！
+
+name_set 双厳
+
+line_set 「うがあああああああっ！」
+line_set 「ああああ・・・ぐふ・・・かはぁっ！」
+
+nvl_on
+
+line_set 今までのものとは比べものにならない程の激痛。
+line_set 全身を駆け抜ける痛みは、もはや双厳の胸を突き破らん勢いだった。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「くくく・・・」
+line_set 「どうした二つ影？」
+line_set 「魔界の力に触れて、お前の内に在る分身が暴走しておるぞ？」
+
+name_set 双厳
+
+line_set 「こ、こいつ・・・」
+line_set 「知ってやがったな・・・」
+line_set 「この時を・・・」
+line_set 「こいつが出てくる事を・・・！」
+line_set 「ぐああああああああああああっ！！」
+
+nvl_on
+
+line_set 激痛に身をよじらせる双厳。
+line_set まさに全ての形勢が逆転した瞬間だった。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「さて・・・」
+
+nvl_on
+
+line_set 凶虐が自分の武器を拾いあげる。
+line_set 双厳は何とか刀を構える程度でしかなかった。
+
+adv_on
+
+line_set 「では、続きを始めるか」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「くそぉ・・・」
+line_set 「こんな状態で戦う事になるとは・・・」
+line_set 「もう時間もない・・・」
+
+adv_on
+
+jump_choice 53 ◆勝負を決める
+jump_choice 54 ◆様子をみる
+jump_fight_failure 55
+@53
+
+nvl_on
+
+line_set 「これで本当に勝負を決める」
+
+nvl_line_clear
+
+line_set 双厳は刀を鞘にもどす。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「？！」
+line_set 「なんだ？」
+line_set 「勝負をあきらめたか？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は鞘にもどした剣を眼前で垂直に構える。
+
+adv_on
+
+line_set 「来い・・・」
+line_set 「我が秘太刀をみせてやろう」
+line_set 「冥途のみやげにこの名前、覚えておけ」
+line_set 「愛洲陰流、陰の部、秘太刀」
+line_set 「変移抜刀落水」
+
+name_set 凶虐
+
+line_set 「なにをこしゃくな」
+line_set 「いくぞ」
+
+nvl_on
+
+line_set 双厳はそのまま構えた剣を鞘ごと円を描きながら、下方にゆっくりとおとしていく。
+
+adv_on
+
+line_set 「キェエエエエエ！！！」
+
+nvl_on
+
+line_set 凶虐の五蘊がまが双厳に襲いかかる。
+line_set 瞬間、双厳の剣が凶虐の眼前から消える。
+
+adv_on
+
+name_clear
+
+line_set ドバシャ！
+
+nvl_on
+
+line_set 二人の間に血しぶきがあがる。
+
+adv_on
+
+name_set 凶虐
+
+line_set 「な、なにがおこったんだ・・・」
+line_set 「おれの五蘊がまはやぶれたのか？」
+
+kgd_layer1_set 1 Kgd\En_037.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 斬られたのは凶虐であった。
+line_set 凶虐の五蘊がまは双厳でなく、双厳の剣の鞘に突き刺さっている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「変移抜刀落水はいかなる達人とて破る事の出来ない秘太刀中の秘太刀だ・・・」
+line_set 「貴様がよけられなかったとしても恥じる事はない」
+line_set 「存分に、地獄の鬼共とこの人殺しの太刀の事を語らうがよかろう」
+
+name_set 凶虐
+
+line_set 「ぬぅ・・・」
+
+jump_auto 56
+@54
+@55
+
+nvl_on
+
+line_set 双厳は勝負をあせらずに様子を見ることにした。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 凶虐
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「ぬぅ？」
+
+nvl_on
+
+line_set 突如双厳の体が動かなくなる。
+
+adv_on
+
+line_set 「な、なに？」
+
+nvl_on
+
+line_set 双厳の体から、もう一本の腕がはえている。
+line_set そして、それが双厳の体の動きを止めていた。
+
+adv_on
+
+line_set 「二重影？」
+
+name_set 凶虐
+
+line_set 「ぐはははは・・・」
+line_set 「もらった！」
+
+nvl_on
+
+line_set 動けなくなった双厳に凶虐の五蘊がまが襲いかかる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ぬぅ！」
+
+name_clear
+
+line_set ドシュ！
+line_set ドシュ！！
+line_set ドシュ！！！
+line_set ドシュ！！！！
+
+name_set 双厳
+
+line_set 「がぁ・・・」
+
+name_set 凶虐
+
+line_set 「ひゃっひゃっひゃっ・・・」
+line_set 「二重影が俺達の味方をしてくれたようだな」
+
+name_set 双厳
+
+line_set 「う、うう・・・」
+
+name_set 凶虐
+
+line_set 「安心しな・・・」
+line_set 「急所ははずしてある」
+line_set 「だが、お前の体中の腱は切断されている」
+line_set 「動く事はできないだろう・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+music_stop
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+name_clear
+
+line_set ドサ・・・
+
+nvl_on
+
+line_set 双厳はその場で倒れ込む・・・。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「もはやここまでか・・・」
+
+nvl_line_clear
+
+line_set 双厳は静かに目をとじた・・・。
+
+adv_on
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@56
+
+fight_end
+
+nvl_on
+
+line_set 凶虐を倒した双厳。
+line_set しかし二重影は今だ双厳の身体を蝕んでいる。
+line_set その光景は一見引き分けたようにも見えた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「うぐぐぐぐ・・・」
+
+name_set 凶虐
+
+line_set 「く・・・くくく・・・」
+line_set 「辛かろう・・・苦しかろう・・・」
+
+name_set 双厳
+
+line_set 「う、うるせぇ・・・ぐあっ・・・！」
+line_set 「あああああっ・・・・・・かはぁ・・・」
+
+name_set 凶虐
+
+line_set 「どちらにせよ、お前に対する呪いは誰にも止められぬ・・・」
+line_set 「どこに逃がれようとも、お前は決して逃れられぬ死を宣告されておるのだ・・・」
+line_set 「決してな・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は凶虐に何をするでもなく、痛む身体を引きずりながらその場を去っていった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+wait 2000
+
+kgd_layer1_set 0 Kgd\W_001.kgd
+kgd_layer2_set 0 Kgd\B_039.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 「ぐぅ・・・」
+line_set 「な、何とかここまで持ち堪えたか・・・」
+line_set 「！？」
+
+adv_on
+
+line_set 「ぐぎゃああああああああああっ！！」
+
+nvl_on
+
+line_set 双厳が絶叫すると同時に、右胸が歪に盛り上がっていった。
+line_set それはあたかも”双厳”という粘土で作った人形の一部をむしり取ったような・・・
+line_set ミシミシと肉の裂ける音。
+line_set 裂けた箇所から形成されていくその顔。
+
+adv_on
+
+line_set 「で、でやがったな・・・」
+
+kgd_layer1_set 1 Kgd\En_007.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+name_set 二重影
+
+line_set 「くひひひひひひひ」
+line_set 「楽しかったかよ？」
+line_set 「相棒よぉ」
+
+name_set 双厳
+
+line_set 「お、お前に相棒呼ばわりされちゃ、お終いだな」
+
+name_set 二重影
+
+line_set 「くくくくく・・・」
+line_set 「まぁそう言うなよ」
+line_set 「何といっても、俺とお前は一心同体なんだ」
+line_set 「今後も仲良くやろうぜ、なぁ兄弟よぉ」
+
+name_set 双厳
+
+line_set 「う・・・るせぇ」
+line_set 「お前なんざ、さっさと斬っ・・・」
+line_set 「！？」
+line_set 「命ぉ、来るんじゃねぇっ！！」
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 双厳は自分に向けられた剥き出しの殺気を感じ取り、その殺気の主に向かって言い放つ。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Mi_006.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+sfx_set 2 Vox\5336.wav
+sfx_play 2
+
+line_set 「え・・・？」
+
+sfx_stop 2
+
+name_set 二重影
+
+line_set 「ぎゃははははははっ！！」
+line_set 「女かぁっ！？」
+
+nvl_on
+
+line_set 二重影が獲物を見つけた蛇のように、命めがけて襲いかかる。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_010.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\5335.wav
+sfx_play 2
+
+line_set 「ひっ！？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 今まさに命へと襲いかかろうとした二重影だったが、その行動を双厳がすんでのところで食い止めていた。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_clear
+
+line_set ズシャアッ！！
+
+name_set 二重影
+
+line_set 「ぎゃあああああああっ！？」
+
+nvl_on
+
+line_set 双厳の一振りが、二重影を自身から切り離す。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ぐあああああああっ！！」
+
+nvl_on
+
+line_set 斬った箇所からはおびただしい鮮血が吹き出す。
+line_set 双厳の受ける激痛も、かなりのものだった。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_008.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer1_clear 1
+
+name_set 二重影
+
+line_set 「双厳・・・手前ぇ・・・」
+
+nvl_on
+
+line_set 二重影が明らかな憎悪の表情を浮かべる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「だ・・・黙れよ・・・この影野郎・・・」
+
+sfx_set 0 Se\005.wav
+sfx_play 0
+
+name_clear
+
+line_set ドスッ！
+
+kgd_layer1_set 1 Kgd\En_009.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+name_set 二重影
+
+line_set 「ぎぃっ！！」
+
+music_stop
+
+nvl_on
+
+line_set 双厳が血塗られた刃で、
+line_set 切り離された二重影を突き刺す。
+line_set 短い断末魔をあげた二重影は、それ以上の言葉を発せぬまま絶命してしまった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「くっ、くくく・・・」
+
+nvl_on
+
+line_set 己の血肉を葬った事に満足げにほくそ笑むと、双厳はそのまま血だまりの上に倒れ伏す。
+
+adv_on
+
+sfx_stop 0
+
+kgd_layer1_set 1 Kgd\W_001.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Mi_010.kgd
+kgd_layer3_display 0
+
+name_set 命
+
+sfx_set 2 Vox\5334.wav
+sfx_play 2
+
+line_set 「な・・・何なのよ・・・」
+
+sfx_stop 2
+
+music_play 15
+
+nvl_on
+
+line_set ただ事態についていけず、戸惑いの色を隠せぬまま立ちつくす命。
+line_set 目の前で起こった異様な惨劇をどう受け止めてよいのか分からない様子でもあった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ぐ・・・けはっ！」
+line_set 「ど、どうした・・・今なら俺を殺れるぜ？」
+
+kgd_layer3_set 3 Kgd\Mi_004.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 深手を負った双厳が発した言葉に、命は驚きよりも先に自分の目的を思い出していた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「殺せ・・・」
+line_set 「俺はこの呪いのせいでこの世と魔界を彷徨ってる」
+line_set 「お前らの敵”異形の者”と何も変わらねぇんだよ」
+line_set 「それに、お前の兄を殺した憎い仇なんだろ？」
+line_set 「好都合じゃねぇか・・・」
+line_set 「最後はお前の手で終わらせるのも、悪い話じゃねぇぞ？」
+
+name_set 命
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「言っただろが・・・」
+line_set 「運が良ければ悲願達成できるってなぁ・・・」
+line_set 「・・・それが今だ・・・」
+
+name_set 命
+
+line_set 「・・・」
+
+sfx_set 2 Vox\5333.wav
+sfx_play 2
+
+line_set 「・・・どうしてよ？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set その頼みに対しての返答は、にわかに震えていた。
+line_set 逆に問い掛けるその言葉に、双厳は言葉を止めた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Mi_011.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\5332.wav
+sfx_play 2
+
+line_set 「なんで・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5331.wav
+sfx_play 2
+
+line_set 「なんで私の事を守ったのよっ？」
+
+sfx_stop 2
+sfx_set 2 Vox\5330.wav
+sfx_play 2
+
+line_set 「私はっ・・・あなたを殺そうとしてるのよっ！？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 自分が殺そうとしている相手に、逆に殺してくれと頼まれる。
+line_set 命としては双厳の真意など分かるはずもなかった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・違ぇよ」
+line_set 「守ったんじゃねぇ・・・」
+line_set 「いつもの事だからだ」
+
+kgd_layer3_set 3 Kgd\Mi_004.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「ちっ・・・」
+line_set 「もう意識が持たねぇ・・・」
+line_set 「このまま死ぬも・・・」
+line_set 「あり・・・」
+line_set 「か・・・」
+
+nvl_line_clear
+
+line_set 薄れゆく意識の中、双巌が最後に見たのは彼を見つめる命の双眸だった。
+
+adv_on
+
+jump_auto 57
+@31
+@41
+
+name_clear
+
+line_set チュインン！！！！！！
+
+nvl_on
+
+line_set 双厳の刀は、まるで氷柱でも割るように簡単に砕け散る。
+
+adv_on
+@30
+@34
+@36
+@39
+@44
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+sfx_set 0 Se\001.wav
+sfx_play 0
+
+music_stop
+
+name_clear
+
+line_set ドバシャ！
+
+kgd_layer1_set 0 Kgd\En_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 刀が砕けるとほぼ同時に大量の血が双厳の体から噴き出す。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ぐあああああ」
+
+nvl_on
+
+line_set 双厳は激痛のする右肩をおさえる。
+line_set しかしすでに双厳の右肩から先は切断されていた。
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5257.wav
+sfx_play 2
+
+line_set 「尺角！次は左腕だよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「う、うわぁ」
+
+nvl_on
+
+line_set 右腕ごと武器を奪われた双厳はすでにどうすることも出来ない。
+line_set 双厳は敵に背をむけ、その場から逃げ出した。
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5256.wav
+sfx_play 2
+
+line_set 「無駄だよ」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 風喜が双厳に向かい何かを投げた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「体が？！」
+line_set 「動かねぇ・・・」
+
+name_set 風喜
+
+sfx_set 2 Vox\5253.wav
+sfx_play 2
+
+line_set 「くすくす・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5254.wav
+sfx_play 2
+
+line_set 「影縫いだよ」
+
+sfx_stop 2
+
+name_clear
+
+line_set ドバシャ！
+
+name_set 双厳
+
+line_set 「ぎゃあああああああああ」
+
+nvl_on
+
+line_set さらに双厳の左腕が宙をまう。
+
+adv_on
+
+name_set 風喜
+
+sfx_set 2 Vox\5249.wav
+sfx_play 2
+
+line_set 「くすくす・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5252.wav
+sfx_play 2
+
+line_set 「そのままダルマにしちゃいなさいよ、尺角」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「や、やめろ！！！！」
+line_set 「やめてくれぇ！！！！」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 双厳の願いむなしく、次々に体を切断されていく。
+
+adv_on
+
+line_set 「がぁ・・・」
+line_set 「・・・」
+line_set 「・・・・・・」
+
+name_set 風喜
+
+line_set 「・・・」
+
+sfx_set 2 Vox\5251.wav
+sfx_play 2
+
+line_set 「気絶しちゃった」
+
+sfx_stop 2
+sfx_set 2 Vox\5250.wav
+sfx_play 2
+
+line_set 「結構だらしないのね」
+
+sfx_stop 2
+sfx_set 2 Vox\5308.wav
+sfx_play 2
+
+line_set 「くすくす・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@57
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+music_stop
+
+ksd_set Ksd\020.ksd
+ksd_end

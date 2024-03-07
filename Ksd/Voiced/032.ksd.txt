@@ -1,0 +1,697 @@
+
+kgd_layer1_set 0 Kgd\W_005.kgd
+kgd_layer2_set 0 Kgd\B_051.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+jump_auto 0
+@7
+@10
+@26
+@32
+
+kgd_layer2_set 1 Kgd\B_051.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@0
+
+jump_branch1 2031 208
+
+section_jump_branch1 208
+
+nvl_on
+
+line_set 双厳はいそいで海岸にもどった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 海岸はいつものように暗闇になかに沈んでいる。
+
+adv_on
+
+line_set 「剣の音が聞こえないが・・・」
+line_set 「十兵衛は・・・」
+
+nvl_on
+
+line_set 双厳は海岸線を走り続ける。
+
+adv_on
+
+line_set 「十兵衛！！！」
+line_set 「十兵衛！！！！！！！」
+line_set 「いないのか！！！！！！！！！！！！」
+
+nvl_on
+
+line_set 十兵衛の声は聞こえない。
+
+adv_on
+
+line_set 「十兵衛！！！！！！」
+line_set 「いないのか！！！！！！！！」
+
+nvl_on
+
+line_set 双厳は海岸を走り続ける。
+
+adv_on
+
+line_set 「？！」
+line_set 「これは？」
+
+nvl_on
+
+line_set 走っていくと異形の死体が何体か転がっている。
+
+nvl_line_clear
+
+line_set 「このなかに十兵衛・・・」
+line_set 「いないでくれ・・・」
+
+nvl_line_clear
+
+line_set 双厳は走りながら死体を確認していく。
+
+adv_on
+
+line_set 「・・・」
+line_set 「十兵衛・・・・」
+
+nvl_on
+
+line_set 前方に人影が見える。
+
+adv_on
+
+line_set 「十兵衛？」
+
+kgd_layer3_set 0 Kgd\Jy_008.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+line_set 「十兵衛・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「あ、あの嬢ちゃんはいたか？」
+
+name_set 双厳
+
+line_set 「十兵衛お前・・・」
+
+nvl_on
+
+line_set 暗闇で見えにくいが、十兵衛からは大量の血が流れているようだ。
+line_set 着物が闇の中でどす黒く染まっている。
+
+adv_on
+
+line_set 「十兵衛・・・」
+line_set 「大丈夫か・・・」
+
+name_set 十兵衛
+
+line_set 「ああ・・・」
+line_set 「大・・丈夫だ・・・」
+line_set 「少し疲れたがな・・・」
+
+name_set 双厳
+
+line_set 「お前・・・」
+
+name_set 十兵衛
+
+line_set 「あの嬢ちゃんは見つかったのか？」
+
+name_set 双厳
+
+line_set 「いやまだだ・・・」
+
+name_set 十兵衛
+
+line_set 「ば、馬・・・鹿野郎・・・」
+line_set 「ならこんなところでちんたらしてる場合じゃないだろ・・・」
+line_set 「とっとと・・・嬢ちゃん探しにいかないか・・・」
+
+name_set 双厳
+
+line_set 「しかしお前・・・」
+
+nvl_on
+
+line_set 十兵衛の足元には大量の血がたれている。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「俺は・・・大丈夫だ・・・」
+line_set 「たいした事はない・・・」
+line_set 「ただ疲れただけだ・・・」
+
+name_set 双厳
+
+line_set 「お前・・・」
+
+name_set 十兵衛
+
+line_set 「なにしてやがる！！」
+line_set 「早くいけ！！！」
+line_set 「俺の事は・・・心配するな・・・」
+line_set 「少しここで休ませてもらうだけだ・・・」
+line_set 「少し・・・」
+
+name_set 双厳
+
+line_set 「十兵衛！！」
+
+name_set 十兵衛
+
+line_set 「早くいかんか！！！」
+
+name_set 双厳
+
+line_set 「す、すまん・・・」
+line_set 「十兵衛・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 1
+#208_0
+
+section_jump_branch1 209
+
+nvl_on
+
+line_set 海岸には誰もいない。
+line_set 楓玲も十兵衛の姿も・・・。
+
+adv_on
+@1
+
+jump_choice 2 ◆村へ移動
+jump_choice 3 ◆港へ移動
+jump_choice 4 ◆物見やぐらへ移動
+jump_choice 5 ◆森林へ移動
+@3
+@11
+
+kgd_layer2_set 1 Kgd\B_063.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 210
+
+nvl_on
+
+line_set まだ妖気は立ちこめている。
+line_set まだ呪いは完了していないハズだ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「楓玲はどこにいるんだ」
+
+jump_choice 6 ◆村へ移動
+jump_choice 7 ◆海岸へ移動
+@2
+@6
+@17
+
+kgd_layer2_set 1 Kgd\B_047.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+nvl_on
+
+line_set まだ妖気は立ちこめている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「よもやこの村のどこかの小屋に隠れているのか？」
+@12
+@13
+@14
+@15
+
+jump_choice 8 ◆探す
+jump_choice 9 ◆屋敷前への道へ移動
+jump_choice 10 ◆海岸へ移動
+jump_choice 11 ◆港へ移動
+@8
+jump_branch1 2737 211
+
+section_jump_branch1 211
+
+nvl_on
+
+line_set 双厳は手前の小屋を数件探してみる。
+line_set 小さな小屋であるので一目で確認できる。
+
+adv_on
+
+line_set 「いないな・・・」
+line_set 「この小屋にもいない・・・」
+
+jump_auto 12
+#211_1
+jump_branch1 2821 212
+
+section_jump_branch1 212
+
+nvl_on
+
+line_set 双厳はさらに違う小屋の中を探す。
+
+adv_on
+
+line_set 「いないな・・・」
+
+jump_auto 13
+#212_2
+jump_branch1 2991 213
+
+section_jump_branch1 213
+
+nvl_on
+
+line_set 双厳は一度見た小屋をもう一度丹念に調べる。
+line_set 押入や壺などあらゆる場所を確認する。
+
+adv_on
+
+line_set 「いない・・・」
+line_set 「あいつどこにいるんだ・・・」
+
+jump_auto 14
+#213_3
+
+section_jump_branch1 214
+
+nvl_on
+
+line_set 双厳は走って村のまわりを調べる。
+
+adv_on
+
+line_set 「誰もいない・・・」
+line_set 「くそ・・・」
+
+jump_auto 15
+@9
+@40
+
+kgd_layer2_set 1 Kgd\B_043.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 215
+
+nvl_on
+
+line_set まだ島は妖気に包まれている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「時間がない・・・」
+
+jump_choice 16 ◆屋敷前へ移動
+jump_choice 17 ◆村へ移動
+@22
+@42
+
+kgd_layer2_set 1 Kgd\B_019.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 216
+
+nvl_on
+
+line_set 島は妖気に包まれている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「まさかここにはいねぇよな・・・」
+line_set 「怖がってた楓玲がこんなところをうろつくわけはない・・・」
+
+jump_choice 18 ◆遺跡へ移動
+jump_choice 19 ◆山道へ移動
+@18
+
+kgd_layer2_set 1 Kgd\B_023.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+name_set 双厳
+
+line_set 「おい楓玲！」
+line_set 「いないのか？」
+@23
+@24
+
+jump_choice 20 ◆遺跡のまわりを調べる
+jump_choice 21 ◆遺跡の中を調べる
+jump_choice 22 ◆森林へ移動
+@20
+
+section_jump_branch1 217
+
+nvl_on
+
+line_set 双厳は遺跡のまわりを走って楓玲を探す。
+
+adv_on
+
+line_set 「いない・・・」
+line_set 「くそ・・・」
+line_set 「急がないと・・・」
+
+jump_auto 23
+@21
+
+section_jump_branch1 218
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+nvl_on
+
+line_set 遺跡の内部は完全な暗闇の中にあった。
+
+adv_on
+
+line_set 「楓玲！」
+line_set 「楓玲いないのか！！！」
+
+nvl_on
+
+line_set 双厳の呼びかけに答えるものはいない。
+
+adv_on
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+jump_auto 24
+@5
+@29
+
+kgd_layer2_set 1 Kgd\B_055.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 219
+
+name_set 双厳
+
+line_set 「マズいな・・・」
+line_set 「もう・・・」
+
+jump_choice 25 ◆遺跡へ移動
+jump_choice 26 ◆海岸へ移動
+@25
+
+kgd_layer2_set 1 Kgd\B_059.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+name_set 双厳
+
+line_set 「くっ・・・」
+line_set 「いったいどこに行きやがった！？」
+@30
+@31
+
+jump_choice 27 ◆遺跡まわりを調べる
+jump_choice 28 ◆遺跡の中を調べる
+jump_choice 29 ◆森林へ移動
+@27
+
+section_jump_branch1 220
+
+nvl_on
+
+line_set 双厳は遺跡のまわりを走って楓玲を探す。
+
+adv_on
+
+line_set 「いない・・・」
+line_set 「くそ・・・」
+line_set 「急がないと・・・」
+
+jump_auto 30
+@28
+
+section_jump_branch1 221
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+nvl_on
+
+line_set 遺跡の内部は完全な暗闇の中にあった。
+
+adv_on
+
+line_set 「楓玲！」
+line_set 「楓玲いないのか！！！」
+
+nvl_on
+
+line_set 双厳の呼びかけに答えるものはいない。
+
+adv_on
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+jump_auto 31
+@4
+
+kgd_layer2_set 1 Kgd\B_067.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 222
+
+nvl_on
+
+line_set ここにも楓玲はいない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どこにいるんだ・・・」
+
+jump_choice 32 ◆海岸へ移動
+@41
+
+kgd_layer2_set 1 Kgd\B_003.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set まだ妖気が立ちこめている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どこだ？」
+@36
+@37
+
+jump_choice 33 ◆登る
+jump_choice 34 ◆あたりを探す
+jump_choice 35 ◆山道へ移動
+@34
+
+section_jump_branch1 223
+
+nvl_on
+
+line_set 双厳は大岩付近を走りまわり楓玲を探す。
+
+adv_on
+
+line_set 「楓玲！」
+line_set 「楓玲はいるか！！！」
+line_set 「楓玲！！！」
+
+nvl_on
+
+line_set 楓玲はいない。
+
+adv_on
+
+jump_auto 36
+@33
+
+kgd_layer1_set 1 Kgd\Be_010.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+section_jump_branch2 19
+section_jump_branch1 224
+
+nvl_on
+
+line_set 双厳は大岩の頂上に登る。
+
+adv_on
+
+line_set 「くそ・・・」
+line_set 「ここにもいないか・・・」
+
+nvl_on
+
+line_set 楓玲がいない事を確認すると、双厳はすぐに下に降りた。
+
+adv_on
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 37
+@16
+@43
+
+kgd_layer2_set 1 Kgd\B_035.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 19
+
+jump_branch2 5587 209
+jump_branch2 5587 210
+jump_branch2 5587 214
+jump_branch2 5587 215
+jump_branch2 5587 216
+jump_branch2 5587 217
+jump_branch2 5587 218
+jump_branch2 5587 219
+jump_branch2 5587 220
+jump_branch2 5587 221
+jump_branch2 5587 222
+jump_branch2 5587 223
+jump_branch2 5587 224
+jump_branch2 5587 225
+
+music_stop
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 双厳は立ち止まる・・・。
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「終わったのか・・・・・・」
+
+nvl_on
+
+line_set すでに妖気は消えている。
+line_set 妖気が消えているという事は・・・。
+
+adv_on
+
+line_set 「そ、そんな馬鹿な・・・」
+line_set 「俺は！」
+line_set 「俺は認めぬぞ！！！」
+
+nvl_on
+
+line_set 双厳はさらに楓玲を探すために島を走りまわる。
+
+adv_on
+
+jump_auto 38
+!209
+!210
+!214
+!215
+!216
+!217
+!218
+!219
+!220
+!221
+!222
+!223
+!224
+!225
+
+name_set 双厳
+
+line_set 「いったいどこにいるんだ・・・」
+
+jump_choice 39 ◆山道へ移動
+jump_choice 40 ◆村への道へ移動
+@19
+@35
+@39
+
+kgd_layer2_set 1 Kgd\B_015.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 225
+
+name_set 双厳
+
+line_set 「楓玲！！」
+line_set 「どこにいるんだ・・・」
+
+jump_choice 41 ◆大岩へ移動
+jump_choice 42 ◆森林へ移動
+jump_choice 43 ◆屋敷前へ移動
+@38
+
+ksd_set Ksd\033.ksd
+ksd_end

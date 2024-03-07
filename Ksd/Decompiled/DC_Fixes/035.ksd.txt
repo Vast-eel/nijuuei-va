@@ -1,0 +1,1192 @@
+
+wait 2000
+
+nvl_on
+
+line_set あたりはすでに紅に染まりつつあった。
+
+adv_on
+
+kgd_layer1_set 0 Kgd\En_069.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 夕焼けに伸びる二人の影・・・。
+line_set 二人は楽しそうにはしゃいでいる。
+line_set それはまるで永久に続く踊りのように思えた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 先ほどまで、イルやスイの無邪気な姿を見て、
+line_set すべての呪縛を忘れていた双厳も、
+line_set 青空が赤くなるにつれて心の中にかげりを見せていく・・・。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「俺が明日生き残れなければ、俺がこいつらを守ってやることは出来なくなるな・・・」
+line_set 「十兵衛や桔梗にすべてをたくさなければならなくなるのか・・・」
+
+nvl_line_clear
+
+line_set 双厳の死が刻々と近づいてくる。
+line_set そして双厳の死は儀式の完成をあらわす。
+
+nvl_line_clear
+
+line_set 「儀式が完成されたら」
+line_set 「無影はイルとスイをさらいにくるはずだ・・・」
+line_set 「最終的には彼女たちの力が必要だからだ」
+
+nvl_line_clear
+
+line_set 双厳は重い顔つきでイルとスイを眺める。
+line_set そんな表情に気が付かないスイが双厳に話しかける。
+
+adv_on
+
+name_set スイ
+
+line_set 「凄いよお兄ちゃん！」
+line_set 「空が青から赤くなってるよ！！！！」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set スイ
+
+line_set 「なんでなの？」
+
+name_set 双厳
+
+line_set 「さぁな・・・」
+line_set 「よくわからん・・・」
+
+name_set スイ
+
+line_set 「不思議だね、なんで外の世界はこんなに不思議にあふれてるの？」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「なんでだろうな・・・・」
+
+name_set スイ
+
+line_set 「空が青く見えるのだって不思議なのに」
+line_set 「空が赤く見えたりもするんだよ」
+line_set 「これって」
+line_set 「空が赤くなっているの？」
+line_set 「私の目の中が赤くなっているの？」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「たぶん空が赤くなっているんだ・・・」
+line_set 「もしかしたらスイの目の中が赤くなったのかもしれんがな」
+
+nvl_on
+
+line_set 双厳は笑いながら答える。
+
+adv_on
+
+name_set スイ
+
+line_set 「ほ、ほんと？」
+line_set 「お、お姉ちゃん、私の目赤くない？」
+
+name_set イル
+
+line_set 「ふふふ・・・」
+line_set 「たしかにスイちゃんの目赤くなってるよ」
+line_set 「空が赤くなってスイちゃんの目も赤くなったのか」
+line_set 「スイちゃんの目が赤くなったから空が赤くなったのか」
+line_set 「どっちなのかしらね、ふふふ・・・」
+
+name_set スイ
+
+line_set 「ど、どっちだろ？」
+
+name_set 双厳
+
+line_set 「どちらとも言えないかもな・・・」
+
+name_set イル
+
+line_set 「くす・・・」
+line_set 「そうですね」
+
+nvl_on
+
+line_set 夕日が沈みかけている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「さてと・・・」
+line_set 「そろそろかえるぞ」
+
+name_set スイ
+
+line_set 「えーもう帰るのー」
+
+name_set イル
+
+line_set 「スイちゃんわがまま言わないの」
+
+name_set スイ
+
+line_set 「うー」
+
+name_set イル
+
+line_set 「双厳さま、今日はありがとうございました」
+
+name_set 双厳
+
+line_set 「いやかまわんさ・・・」
+line_set 「俺も最近疲れてたんでな・・・」
+line_set 「よい休みになったさ」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+kgd_layer1_set 0 Kgd\W_006.kgd
+kgd_layer2_set 0 Kgd\B_072.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 Kgd\Is_004.kgd
+kgd_layer3_param 0 20 0 0 0 664 600
+kgd_layer3_display 0
+
+name_set スイ
+
+line_set 「あー楽しかった」
+line_set 「お兄ちゃん、また行こうね？」
+
+name_set イル
+
+line_set 「ぜひお願いします」
+
+name_set 双厳
+
+line_set 「ああ」
+
+nvl_on
+
+line_set 初めて外で身体を動かし、二人共疲労気味だったが終始笑顔だった。
+line_set それだけ外の世界に憧れていたという事が伺える。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_026.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+music_play 13
+
+kgd_layer3_set 0 Kgd\Ky_002.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「二つ影双厳さま」
+line_set 「あなたにお話がございます」
+line_set 「失礼ですが、お付き合い願えませんでしょうか？」
+
+nvl_on
+
+line_set 桔梗は無表情で双厳に言い放つ。
+line_set その顔は双厳が桔梗とまだ会いたての時にみせた冷たい表情であった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「案内しな」
+
+name_set 桔梗
+
+line_set 「はい」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 kgd\B_002.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 先ほど同様に大岩は夕焼けを受ける風景のなかにあるが、
+line_set それは先ほどの風景と似ていながらもその感触は似て非なるものであった。
+
+nvl_line_clear
+
+line_set 世界は美しき紅の色から、面妖などす黒い赤にかわっている。
+line_set それは世界が闇の沈む刹那を現しているかのようであった。
+
+nvl_line_clear
+
+line_set 赤き暗闇の中に相対してたたずむ二人。
+line_set それはもちろん、双厳と桔梗の姿であった。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+name_set 桔梗
+
+line_set 「すみません、わざわざ付き合っていただいて」
+
+name_set 双厳
+
+line_set 「いや、別に構わんさ・・・」
+line_set 「謎解きごっこも終わったんでな・・・」
+line_set 「けっこう暇だった・・・」
+
+nvl_on
+
+line_set 謎解きごっこ・・・。
+line_set それはもちろん、そんなものとはほど遠い壮絶なものであった。
+line_set しかし、呪いの全貌は明かせても、
+line_set 呪いの解除の方法が見つからないのであればそれは双厳にとっては遊んでいたと変わりはしない。
+
+nvl_line_clear
+
+line_set 生と死のなかで生きてきた双厳にとっては経過など関係ない、
+line_set どれだけ”がんばれた”など関係ない、
+line_set 結果こそがすべてなのだった。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 桔梗の眼光からは殺気のそれが感じられる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「やはりやるのか・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「私は人である前に岩の守り部です」
+line_set 「人をやめ、鬼と化そうとも・・・」
+line_set 「私は岩の守り部、岩を守らなければなりません」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なるほど・・・」
+line_set 「立派な心構えだ・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「双厳さま・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なんだ・・・」
+
+name_set 桔梗
+
+line_set 「最後に質問があります・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「私は島の守り部としてここに立っています」
+line_set 「が、貴方はなぜここに立っているのですか？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「貴方の剣は何のために振るわれているのですか・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「チッ・・・」
+line_set 「どいつもこいつもそれか・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「これだから人を殺していないヤツの剣は嫌いなんだよ・・・」
+line_set 「なんでお前らはいつでも理由を欲しがるんだ？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「俺の剣に理由などない」
+line_set 「水が高いところから低いところに流れるのはなにか意味あるか？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「意味なんてない」
+line_set 「あるのは」
+line_set 「流れる水の心だけだ・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「流れる水の心ですか・・・」
+
+name_set 双厳
+
+line_set 「そうだ・・・」
+line_set 「それだけだ・・・」
+
+kgd_layer3_set 3 Kgd\Ky_009.kgd
+kgd_layer3_param 3 108 0 0 0 584 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 桔梗
+
+line_set 「ふふ・・・」
+line_set 「分かりません・・・」
+line_set 「貴方様の言われる事は難しくてよく分かりかねます・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Ky_004.kgd
+kgd_layer3_param 3 108 0 0 0 584 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 桔梗
+
+line_set 「所詮、貴方と私では立場が違う者・・・」
+line_set 「分かり合える事などなかったという事ですね」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+
+kgd_layer3_set 3 Kgd\Ky_002.kgd
+kgd_layer3_param 3 108 0 0 0 584 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「そろそろ・・・」
+
+nvl_on
+
+line_set 夕日がさらに沈み、世界は完全な闇の中にその姿を消そうとしていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「そろそろだな・・・」
+
+name_set 桔梗
+
+line_set 「あなたも全力で来てください」
+line_set 「これは立ち合いです」
+line_set 「私はあなたに“殺す”という行為を甘んじて受けてもらいたくありません」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「くくく・・・」
+line_set 「お前に殺し合いの心構えを教授されるとはな」
+line_set 「安心しろ」
+line_set 「この手の命のやりとりはしょっちゅうだ」
+
+name_set 桔梗
+
+line_set 「安心しました・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+nvl_line_clear
+
+line_set 「なんだ・・・」
+
+nvl_line_clear
+
+line_set 桔梗の目には覚悟が伺えた・・・。
+line_set しかし、それは双厳がいままで戦ってきた人間の目ではなかった・・・。
+
+nvl_line_clear
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set 桔梗の目には不思議と殺伐としたものは感じられなかった・・・。
+
+nvl_line_clear
+
+line_set 「この目・・・」
+
+adv_on
+
+name_set 桔梗
+
+line_set 「・・・では、行きます」
+
+music_play 9
+
+nvl_on
+
+line_set 桔梗が双厳に飛び込んでくる。
+line_set あまりにも正攻法な飛び込み。
+line_set 抜刀された剣が双厳を襲う。
+
+adv_on
+
+jump_route 0 4 0 3
+@2
+
+section_jump_branch1 251
+
+nvl_on
+
+line_set 双厳は桔梗の剣を受ける。
+line_set その時・・・。
+
+adv_on
+
+name_clear
+
+line_set パキン・・・！！！！！！
+
+nvl_on
+
+line_set 剣と剣がふれあうにはあまりにも不自然な音がなる。
+
+adv_on
+
+music_stop
+
+name_set 双厳
+
+line_set 「！？」
+
+nvl_on
+
+line_set 双厳の一撃に、桔梗の身体が力無く崩れていく。
+line_set 桔梗の剣はその中程からきれいに砕け、
+line_set そのまま双厳の刃を桔梗の身体が受け止める形となったのだ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「て、てめぇ！！！！」
+
+kgd_layer1_set 1 Kgd\En_074.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_fade_unk 0
+kgd_layer3_clear 0
+
+music_play 12
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「貴様・・・剣に細工してやがったな・・・」
+
+nvl_on
+
+line_set 桔梗の剣はあまりにももろく砕けた・・・。
+line_set それは双厳の力によるものでも、
+line_set 桔梗の未熟さによるものでもなかった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「なぜ・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「こうするしかなかったのです・・・」
+line_set 「こうするしか・・・」
+
+name_set 双厳
+
+line_set 「こんな事してなんの意味があるんだ！」
+line_set 「なぜ剣に細工などした！」
+
+name_set 桔梗
+
+line_set 「私には貴方は殺せなかった・・・」
+line_set 「だから・・・」
+line_set 「こうするしかなかったのです・・・」
+
+name_set 双厳
+
+line_set 「なんでだ！」
+line_set 「なぜお前が死ななければならないんだ！」
+
+name_set 桔梗
+
+line_set 「私は岩の守り部として生まれました・・・」
+line_set 「人である前に、岩の守り部だったのです」
+line_set 「それはこの島を守る剣」
+line_set 「私はこの島を守る剣なのです」
+line_set 「もし・・・」
+line_set 「もしこの剣が・・・」
+line_set 「使い物にならなければ・・・」
+line_set 「その剣が・・・」
+line_set 「すぐに折れてしまうようなものなら・・・」
+line_set 「その剣は必要ありません・・・」
+
+name_set 双厳
+
+line_set 「ちっ・・・」
+
+nvl_on
+
+line_set 双厳は桔梗の受けた傷を確認するが、それは完全な致命傷であった。
+line_set 肩から裂けた傷は腹のあたりまで達している。
+line_set 逆に即死でなく桔梗が最後の言葉を残せるほうが不思議なほどであった・・・。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「なぜ貴方様は・・・」
+line_set 「岩の守り部として生まれ」
+line_set 「岩の守り部として死ぬ運命にある私に・・・」
+line_set 「人の心を植え付けたのですか・・・」
+line_set 「なぜ私から運命を断ち切ったのですか・・・」
+line_set 「だって・・・」
+line_set 「だって私・・・」
+line_set 「心なんて欲しくはなかった・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「私は剣です・・・」
+line_set 「この島を守る剣です」
+line_set 「剣に心なんて必要ですか？」
+line_set 「くす・・・」
+line_set 「剣は人を殺せればいい・・・」
+line_set 「違いますか？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「心なんて邪魔です・・・」
+line_set 「心はいつだって人を弱くします・・・」
+line_set 「心はいつだって私を苦しめます・・・」
+line_set 「心なんてなければいいのに・・・」
+line_set 「生まれた時から」
+line_set 「ずっと」
+line_set 「ずっと・・・」
+line_set 「岩の封印を守るために・・・」
+line_set 「人を殺す術だけを習ってきました・・・」
+line_set 「それに私はこたえてきた・・・」
+line_set 「だって・・・」
+line_set 「私・・・」
+line_set 「私、この島を守る剣になりたかった・・・」
+line_set 「この島のイルさまやスイさま・・・そして島の人達を守る剣になりたかった・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「だって・・・いままでそのために生きてきたんですもん・・・」
+line_set 「なのに・・・」
+line_set 「なのに・・・」
+line_set 「私・・・」
+line_set 「私・・・・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「私は・・・」
+line_set 「折れてしまった剣・・・」
+line_set 「人を守る事も・・・」
+line_set 「己を守る事もできない・・・」
+line_set 「折れてしまった剣・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「私ね・・・双厳さま」
+line_set 「そんな折れてしまった剣でもね・・・」
+line_set 「最後は・・・」
+line_set 「最後ぐらいは・・・」
+line_set 「綺麗に終われると思ってたの・・・」
+line_set 「剣として・・・」
+line_set 「最後は・・・」
+line_set 「なんの感情もなく貴方の刃の前に散れるってね・・・そう思ってたの・・・」
+line_set 「最後ぐらいは無表情で死ねると思ってた・・・」
+line_set 「だからね・・・」
+line_set 「死ぬのは怖くなかったの・・・」
+line_set 「怖いと思わなかったの・・・」
+line_set 「でも・・・」
+line_set 「だめみたい・・・」
+line_set 「今、私は怖い・・・」
+line_set 「このまま消えていく事が・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「最後ぐらい剣として死にたかったな・・・」
+line_set 「それすら叶わなかったけどね・・・」
+line_set 「私・・・」
+line_set 「私ね・・・双厳さま・・・」
+line_set 「全然だめだった・・・」
+line_set 「みんなを守る剣として・・・」
+line_set 「生きられなかった・・・」
+line_set 「最後まで中途半端で終わるみたい・・・」
+line_set 「人としても・・・」
+line_set 「剣としても・・・」
+line_set 「中途半端で・・・」
+
+name_set 双厳
+
+line_set 「あ、安心しろ・・・」
+line_set 「桔梗・・・」
+line_set 「お前は・・・」
+line_set 「お前は剣であった・・・」
+line_set 「立派に剣であったさ・・・」
+
+nvl_on
+
+line_set 双厳の声が震えている・・・。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「くす・・・」
+line_set 「双厳さまって案外嘘つきなんだね・・・」
+line_set 「最後に気休めなんて・・・」
+line_set 「貴方らしくないよ・・・」
+
+name_set 双厳
+
+line_set 「いいや・・・」
+line_set 「違うさ・・・」
+line_set 「桔梗・・・」
+line_set 「剣にだって・・・」
+line_set 「剣にだって心はあるさ・・・」
+line_set 「流れる水に心があるように・・・」
+line_set 「剣にも心があるさ・・・」
+line_set 「自らが折れる瞬間まで」
+line_set 「その瞬間まで・・・」
+line_set 「人を斬り続ける剣にもまた・・・」
+line_set 「人以上に心があるのさ・・・」
+line_set 「あるはずだよ・・・」
+
+nvl_on
+
+line_set 桔梗の顔に冷たい雫が落ちる・・・。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「双厳さまってやさしいんだね・・・」
+line_set 「私のために・・・」
+line_set 「私のために泣いてくれてるんだね・・・」
+line_set 「ありがと・・・」
+line_set 「でもね・・・」
+line_set 「そのやさしさが人を苦しめる時もあるんだよ・・・」
+line_set 「その涙が人を苦しめる時だってあるんだよ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「たぶん・・・」
+line_set 「剣に心なんてないよ・・・」
+line_set 「剣はただ振られて・・・最後は捨てられるだけ・・・」
+line_set 「でも剣にとってはそれが幸せなんだよ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「くす・・・」
+line_set 「ごめんね・・・」
+line_set 「最後まで素直じゃなくて・・・」
+line_set 「双厳さまの言うことの反対ばかり言って・・・」
+line_set 「せっかくね・・・」
+line_set 「せっかく双厳さまがやさしくしてくれるのにね・・・」
+
+name_set 双厳
+
+line_set 「なぜ・・・」
+line_set 「あんな事を・・・」
+
+name_set 桔梗
+
+line_set 「だから・・・」
+line_set 「言ったでしょ・・・」
+line_set 「“所詮、貴方と私では立場が違う者・・・分かり合える事などなかったという事”だって・・・」
+line_set 「双厳さまには・・・」
+line_set 「双厳さまにはわからないよ・・・」
+line_set 「私みたいな人間の心なんて・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「あなたに・・・」
+line_set 「あなたに理解できないほど・・・弱い心だってあるんだよ」
+line_set 「すぐに折れてしまうほど弱い心だって・・・ね」
+
+name_set 双厳
+
+line_set 「桔梗・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+line_set 「くす・・・」
+line_set 「なんか・・・」
+line_set 「なんかね・・・」
+line_set 「もうだめみたい・・・」
+line_set 「もう何も見えない・・・」
+line_set 「何も見えなくなってきちゃった・・・」
+line_set 「もう・・・」
+line_set 「もう・・・だめなのかな・・・」
+line_set 「もう少し双厳さまと話していたかったのになぁ・・・」
+line_set 「もう少しだけ話をしていたかったな・・・」
+line_set 「でも・・・」
+line_set 「もうだめみたい・・・」
+
+nvl_on
+
+line_set 桔梗がうわごとのようにつぶやく・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「桔梗！！！！」
+
+name_set 桔梗
+
+line_set 「私ね双厳さま・・・」
+line_set 「私ね・・・」
+line_set 「分かったような口きいてたけど・・・ね」
+line_set 「私・・・」
+line_set 「何も知らな・・・いんだよ」
+line_set 「何も・・・」
+line_set 「この空が・・・どこまで続いてるのか・・・」
+line_set 「この海が・・・どこまで続いてるのか・・・も・・・」
+line_set 「全然・・・」
+line_set 「全然・・・知らないんだよ・・・」
+
+name_set 双厳
+
+line_set 「馬鹿野郎・・・」
+line_set 「そんな事、俺だって知らねぇよ・・・」
+line_set 「そんな事が分かって死ねるやつなんていないんだよ・・・」
+
+nvl_on
+
+line_set 双厳の声はもう桔梗には届いていないようであった。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「空と・・・」
+line_set 「海が・・・」
+line_set 「どこまである・・・か・・・」
+line_set 「そんなこと・・・すら知らずに・・・」
+line_set 「馬鹿だよね・・・」
+line_set 「人を・・・殺す事ばかり考えてて・・・」
+line_set 「そんな事すら・・・知ら・・・ないなんてね・・・」
+line_set 「私は・・・」
+line_set 「・・・」
+line_set 「・・」
+line_set 「・」
+
+nvl_on
+
+line_set 桔梗の目からわずかにこぼれていた光の灯火が消えていく・・・。
+line_set 徐々に桔梗の声が聞き取れないものとなっていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「なんだ？」
+line_set 「なにが言いたい？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 最後に桔梗の弱々しい表情が凛とした表情にもどったような気がした。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「イルさまと・・・」
+line_set 「スイさまを・・・」
+line_set 「お願いします・・・ね・・・」
+line_set 「双厳さま・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・」
+line_set 「・・・・」
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「こころ・・・を・・・」
+
+name_set 双厳
+
+line_set 「なんだ？」
+
+name_set 桔梗
+
+line_set 「こころを・・・ありがとう・・・」
+line_set 「たのしかった・・・」
+line_set 「ありがと・・・」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+name_set 双厳
+
+line_set 「桔梗？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「桔梗！！！！！！！！！！！！！」
+
+nvl_on
+
+line_set その言葉を最後に桔梗は動かなくなった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「なんで・・・」
+line_set 「なんでだ・・・」
+line_set 「なんでお前は・・・」
+line_set 「こんな馬鹿なまねを・・・」
+line_set 「生きていればいいではないか・・・」
+line_set 「ただ生きていれば・・・」
+line_set 「なぜそれではだめなのだ・・・」
+line_set 「なぜ・・・」
+line_set 「生きてるだけではだめなんだ・・・」
+line_set 「なんでなんだ・・・」
+line_set 「桔梗・・・」
+
+nvl_on
+
+line_set まだ暖かいが徐々に冷たくなっていく桔梗の頬を、双厳の涙が濡らす・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「なぜ・・・」
+
+nvl_on
+
+line_set 桔梗の顔はなぜか穏やかであった。
+line_set 眠っているように、
+line_set その顔は穏やかであった・・・。
+
+nvl_line_clear
+
+line_set 双厳は無言で桔梗を抱き上げる。
+line_set 物言わず、そのまま立ち去っていった。
+
+adv_on
+
+jump_auto 1
+@0
+jump_choice 2 ◆剣を抜く
+jump_choice 3 ◆剣を抜かない
+@3
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+kgd_layer3_clear 0
+
+music_stop
+
+name_clear
+
+line_set パキーン！！
+
+name_set 桔梗
+
+line_set 「！？」
+
+kgd_layer1_set 1 Kgd\En_001.kgd
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer1_fx 1
+kgd_layer1_display
+
+wait 2000
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Ky_005.kgd
+kgd_layer3_display 0
+
+music_play 5
+
+nvl_on
+
+line_set 双厳の左肩に桔梗の一撃が決まる。
+line_set がそれにしては奇妙な音があたりにこだまする。
+
+adv_on
+
+name_set 双厳
+
+line_set 「やはりそうか・・・」
+line_set 「てめぇ・・・死ぬ気だったのだろう・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 桔梗の剣は刀身の半分ほどが双厳の肩に刺してはいるものの、
+line_set 剣の刀身の半身はすで砕けてしまっている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「剣に細工をしたな・・・」
+line_set 「すぐに折れるように・・・」
+
+nvl_on
+
+line_set 双厳に突き刺さった剣から桔梗の手に血がしたたり落ちる。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「な、なんで・・・」
+line_set 「避けられたはずなのに・・・？」
+
+nvl_on
+
+line_set 桔梗は自分の一撃が双厳の身体を深く傷つけたことに狼狽していた。
+line_set その手がかすかに震え、桔梗の手から刀が離される。
+
+adv_on
+
+name_set 双厳
+
+line_set 「てめぇ・・・死ぬ気だったろう・・・」
+
+name_set 桔梗
+
+line_set 「そ、そんな事は・・・」
+
+name_set 双厳
+
+line_set 「剣が人斬ったぐらいで真っ二つにわれるか？」
+line_set 「はじめっからそのように細工をしていたのだろう・・・」
+line_set 「お前と向き合った時・・・」
+line_set 「たしかにお前からは死の覚悟が感じ取れた・・・」
+line_set 「が・・・」
+line_set 「殺気は不思議となかった・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「あれは自害する人間の目だ・・・」
+line_set 「これから戦おうとする人間の目ではない」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「なぜ・・・」
+line_set 「なぜあなたは・・・」
+line_set 「いつもわたしのしようとする事に邪魔をするのですか・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「しらねぇよ・・・」
+line_set 「俺は俺の思った通りに行動しているだけだ」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「なんであなたはそう・・・」
+line_set 「邪魔ばかりするのです・・・」
+
+nvl_on
+
+line_set その場で桔梗は崩れ落ちる・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「とりあえず自害の手伝いなぞまっぴらごめんだ・・・」
+line_set 「お前が本当に立ち会いをする気がなければ俺は剣を抜かん・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「じゃあな・・・」
+
+nvl_on
+
+line_set 双厳はその場を立ち去った。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+kgd_layer3_clear 0
+@1
+
+ksd_set Ksd\036.ksd
+ksd_end

@@ -1,0 +1,5186 @@
+
+wait 2000
+
+kgd_layer1_set 0 Kgd\W_006.kgd
+
+jump_branch2 5553 251
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+adv_on
+
+kgd_layer2_set 0 Kgd\B_003.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set すでに・・・。
+
+nvl_line_clear
+
+line_set すでに、
+line_set 大岩は完全な暗闇と静寂のなかにあった。
+
+nvl_line_clear
+
+line_set そこに一つの人影と一つの立影があった。
+line_set ひとつは二つ影双厳・・・。
+line_set もう一つは・・・。
+line_set この島を守ろうとした少女の墓であった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「桔梗・・・・」
+
+nvl_on
+
+line_set 双厳は桔梗の言葉を思い出す。
+
+nvl_line_clear
+
+line_set ”私は岩の守り部として生まれました・・・”
+line_set ”人である前に、岩の守り部だったのです”
+line_set ”それはこの島を守る剣”
+line_set ”私はこの島を守る剣なのです”
+
+adv_on
+
+line_set 「・・・」
+line_set 「島を守る剣・・・」
+line_set 「お前は最後まで剣であろうとした」
+line_set 「その態度は・・・」
+line_set 「その態度は誰も否定できない・・・」
+
+nvl_on
+
+line_set 「人の宿命を誰がとやかく言えるであろうか？」
+line_set 「それが可能だと言い切る輩は末法の賊だ・・・」
+
+nvl_line_clear
+
+line_set 「剣に生きるという事」
+line_set 「剣に死ぬという事」
+
+nvl_line_clear
+
+line_set 「すべてが川の流れのように」
+line_set 「すべてが無明の闇の中に消えていくこの世で」
+line_set 「剣と共に生き・・・」
+line_set 「剣と共に死すのは・・・」
+
+nvl_line_clear
+
+line_set 「人が」
+line_set 「その無明の中に」
+line_set 「一瞬の・・・」
+line_set 「一瞬の輝きを見るからだ・・・」
+
+nvl_line_clear
+
+line_set 「その輝きすらも無為か？」
+line_set 「その輝きすらも虚無か？」
+line_set 「否」
+line_set 「断じて否だ！」
+
+nvl_line_clear
+
+line_set 「一瞬の輝きはまた無明の闇の中に消えていくが・・・」
+line_set 「それは」
+line_set 「一瞬の輝き」
+line_set 「その瞬間だけは」
+line_set 「それは実なのだ・・・」
+
+nvl_line_clear
+
+line_set 「その一瞬は」
+line_set 「一瞬ゆえに永遠と等価値なのだ・・・」
+line_set 「永遠に続く無明の闇に生まれそして消えていくからこそ」
+line_set 「だからこそ一瞬は永遠を凌駕する」
+
+nvl_line_clear
+
+line_set 「それは」
+line_set 「虚であり」
+line_set 「実である」
+line_set 「それは」
+line_set 「無であるし」
+line_set 「有でもある」
+
+nvl_line_clear
+
+line_set 「しかし人はそれに耐えられずに」
+line_set 「この一瞬を永遠のなかに閉じこめようとするが」
+line_set 「それもまた末法の賊でしかない」
+line_set 「我々に永遠なんてない・・・」
+line_set 「我々にあるものは刹那だけだ・・・」
+line_set 「それでいい・・・」
+line_set 「そうでなければならない・・・」
+
+nvl_line_clear
+
+line_set 「それは分かる・・・」
+line_set 「分かるが・・・」
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・」
+line_set 「でもな・・・」
+line_set 「桔梗よ・・・」
+line_set 「俺達は・・・」
+line_set 「生者はいつだって・・・」
+line_set 「死者を悲しみでしか受け入れる事しかできないんだよ・・・」
+line_set 「そして」
+line_set 「その意味をいつだって・・・」
+line_set 「いつだって・・・」
+line_set 「お前達は分かろうとしない・・・」
+line_set 「死者は分かろうとしないんだよ・・・」
+line_set 「いったい・・・」
+line_set 「いったいよ・・・」
+line_set 「永久の沈黙のなかで弔われているのはどっちなんだよ・・・」
+line_set 「なぁ・・・」
+line_set 「桔梗・・・」
+
+nvl_on
+
+line_set 双厳の肩が震える・・・。
+
+adv_on
+
+line_set 「ここはお前が守ろうとした場所だ・・・」
+line_set 「お前が守ろうした島だ・・・」
+line_set 「そして・・・」
+line_set 「お前が愛した人々が住む場所だ・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・・」
+
+adv_on
+
+line_set 「・・・」
+line_set 「イルとスイの事はまかせろ・・・」
+line_set 「かならず俺が守る・・・」
+line_set 「かならず・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_035.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 屋敷前には命が立っていた。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Mi_030.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 双厳は無言で命を横切る。
+
+adv_on
+
+name_set 命
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「私には何もいえないけど・・・」
+line_set 「でも・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「でも・・・」
+
+kgd_layer3_set 3 Kgd\Mi_010.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 命は桔梗の件を知っているのだろうか？
+line_set 双厳の表情を見るなり泣き出しそうになる。
+
+adv_on
+
+line_set 「私・・・」
+line_set 「止められなかった・・・」
+line_set 「ごめん・・・」
+line_set 「私・・・」
+line_set 「なにもできなくて・・・」
+
+name_set 双厳
+
+line_set 「何もできなくてだと？」
+line_set 「うぬぼれるな・・・」
+line_set 「・・・」
+line_set 「桔梗が自分で決めたことだ・・・」
+line_set 「お前が決める事ではない」
+
+name_set 命
+
+line_set 「そうだけど・・・」
+line_set 「そうなんだけど・・・」
+line_set 「でも・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Mi_029.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「せめて・・・」
+line_set 「貴方に桔梗さんが死ぬ気だと教えられたら・・・」
+
+name_set 双厳
+
+line_set 「お前らはこう教わっているのだろう」
+line_set 「武士道とは死ぬことと見つけたりと・・・」
+line_set 「俺には理解できんが・・・」
+line_set 「それがお前ら武士という人間の考えなのであろう」
+line_set 「岩の守り部として生きる桔梗」
+line_set 「隠密として幕府のために生きるお前達・・・」
+line_set 「お前らは同じ種類の人間だ・・・」
+line_set 「ただそれだけだ・・・」
+
+name_set 命
+
+line_set 「ごめん・・・」
+line_set 「私・・・」
+line_set 「やっぱり止めるべきだった・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「ごめん・・・」
+line_set 「ごめんね・・・」
+
+name_set 双厳
+
+line_set 「ガタガタうるせんだよ！！！」
+line_set 「何回言わすんだよ！！」
+line_set 「てめぇが決める問題じゃないんだよ！！！」
+line_set 「桔梗が自分で決めた事なんだよ！！！」
+
+nvl_on
+
+line_set 双厳が命を怒鳴りつける。
+
+adv_on
+
+name_set 命
+
+line_set 「そうなんだけど・・・」
+line_set 「そうなんだけどね・・・」
+line_set 「ごめん・・・」
+line_set 「ごめん」
+line_set 「わたし・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 泣きながら、
+line_set ”ごめん”という言葉しか繰り返すことができない。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_010.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「でも・・・」
+line_set 「でも・・・」
+line_set 「やっぱりわからないよ・・・」
+line_set 「なんで桔梗さんと二つ影が戦わなければならないの・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「桔梗さん言ってた・・・」
+line_set 「宿命に生きる者には、果たさなければならない事があるって・・・」
+line_set 「この島の剣として生まれた自分は・・・」
+line_set 「この島の剣として死ぬしかないって・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Mi_029.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「二つ影・・・」
+line_set 「剣に生きるって・・・」
+line_set 「なんなの・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は黙ってその場を後にする。
+
+adv_on
+
+name_set 命
+
+line_set 「わたし・・・」
+line_set 「わたし・・・」
+
+nvl_on
+
+line_set 命はその場に崩れ落ちる・・・。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_play 11
+
+jump_auto 0
+!251
+
+kgd_layer2_set 0 Kgd\B_035.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 Kgd\Mi_011.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「ど、どうしたの？」
+line_set 「その傷・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「少しな・・・」
+
+name_set 命
+
+line_set 「少しじゃないでしょ！」
+line_set 「血が出てるじゃない・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set 命
+
+line_set 「見せて・・・」
+
+nvl_on
+
+line_set 命は無理矢理双厳の傷口を確かめる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「痛・・・・」
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「これ・・・」
+
+nvl_on
+
+line_set 命は双厳の顔を見る。
+
+adv_on
+
+line_set 「・・・・・・・」
+
+nvl_on
+
+line_set 命には、
+line_set すぐにそれが刀による傷である事が分かった。
+line_set が、それには一切触れない・・・。
+
+adv_on
+
+line_set 「手当するけど・・・」
+line_set 「貴方の部屋にいっていい？」
+
+name_set 双厳
+
+line_set 「大丈夫だ、これぐらい」
+
+kgd_layer3_set 3 Kgd\Mi_011.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「大丈夫じゃないわよ」
+line_set 「結構深い傷じゃないの！」
+
+name_set 双厳
+
+line_set 「うるせぇな・・・」
+line_set 「大丈夫ったら大丈夫なんだよ」
+line_set 「この程度の傷は日常茶飯事なんだよ」
+
+name_set 命
+
+line_set 「それが命取りになることだってあるでしょ！」
+
+name_set 双厳
+
+line_set 「なんねぇよ・・・」
+
+kgd_layer3_set 3 Kgd\Mi_004.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+line_set 「そうやって・・・」
+line_set 「貴方、子供みたい・・・」
+
+name_set 双厳
+
+line_set 「なんだと？」
+
+kgd_layer3_set 3 Kgd\Mi_011.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「少しぐらいは、冷静に今の状態を考えたらどうなの？」
+
+name_set 双厳
+
+line_set 「なにがだ」
+
+name_set 命
+
+line_set 「いままで貴方はひとりで戦ってきたかもしれない・・・」
+line_set 「けど、今はひとりではないわ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「貴方が今倒れたら、誰がこの儀式を止める事ができるの？」
+line_set 「十兵衛さまは怪我をなさってるわ」
+line_set 「とても存分に戦える体ではないわ」
+line_set 「くやしいけど・・・」
+line_set 「今は貴方だけが頼りなの」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「貴方の命を狙っていたから信用できないかもしれないけど・・・」
+line_set 「今だけでいいの・・・」
+line_set 「今だけでいいから・・・」
+line_set 「私たちを信用して！」
+line_set 「この島だけの間でも、私たちを仲間として認めて」
+line_set 「そうじゃなきゃ、助かるものも助からないわ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「この島からみんなで生きて帰るの！」
+line_set 「そうじゃなきゃ・・・」
+
+kgd_layer3_set 3 Kgd\Mi_029.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 双厳
+
+line_set 「すまん・・・」
+
+name_set 命
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 命に連れられて双厳は自室に向かう。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_fade_unk 0
+
+nvl_on
+
+line_set 命は手際よく双厳に手当を施す。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer2_set 0 Kgd\B_076.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 Kgd\Mi_022.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「終わったわ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「今度はちゃんと怪我したらいってね」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set 命
+
+line_set 「さてと・・・」
+
+nvl_on
+
+line_set 命は立ち上がる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「すまんな・・・」
+
+kgd_layer3_set 3 Kgd\Mi_002.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「え？」
+line_set 「あ、いいって・・・」
+
+name_set 双厳
+
+line_set 「それと・・・」
+
+name_set 命
+
+line_set 「？」
+
+name_set 双厳
+
+line_set 「ありがとうな・・・」
+
+nvl_on
+
+line_set 双厳はそっぽを向いて命に礼を言う。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_019.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「くす・・・」
+line_set 「んじゃね・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_play 11
+
+jump_auto 1
+@0
+@19
+
+kgd_layer2_set 1 Kgd\B_076.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@1
+
+jump_branch1 17220 253
+
+section_jump_branch1 253
+
+nvl_on
+
+line_set 「・・・」
+line_set 「とうとう明日か・・・」
+line_set 「明日でこの儀式が完成する・・・」
+
+nvl_line_clear
+
+line_set 「完成すれば俺は死ぬことになる・・・」
+line_set 「明日だ・・・」
+line_set 「明日が勝負となる・・・」
+
+nvl_line_clear
+
+line_set 双厳は自分が佩刀している刀に目をやる。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_012.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+pis_set 18 0
+
+nvl_on
+
+line_set 九字兼定といわれる刀である。
+line_set 刀匠和泉守藤原兼定によって鍛えられた剣である。
+
+nvl_line_clear
+
+line_set 和泉守藤原兼定自体、大層な名人でありその剣はどれも名刀とよばれるものばかりであった。
+line_set しかし、この九字兼定だけは名刀と言う言葉だけで片づけられるものではなかった。
+
+nvl_line_clear
+
+line_set 人を斬るのでなく、
+line_set 人でないものを斬る剣、
+line_set 九字がきられたこの名刀兼定はこう呼ばれていた。
+
+nvl_line_clear
+
+line_set この時代、九字のきられた刀は何本か存在するが、
+line_set そのほとんどがこのような目的のもとに作られたといわれている。
+
+nvl_line_clear
+
+line_set つまり人以外、
+line_set 人外を斬るために作られた剣であると・・・。
+
+nvl_line_clear
+
+line_set しかしそのほとんどがその目的を果たすことができなかったといわれる。
+
+nvl_line_clear
+
+line_set 人外を斬る事ができるといわれていた剣は和泉守藤原兼定の九字兼定・・・。
+line_set そして彼の友人でもあった刀匠<0,千子村正>が鍛えた妙法村正であったと言われる。
+
+nvl_line_clear
+
+line_set 妙法村正は、初代村正、右衛門尉が彼の晩年、永正１０年前後に作ったものだといわれている。
+line_set 奇しくこれは九字兼定が作られた時代とほぼ同じである。
+
+nvl_line_clear
+
+line_set 妙法村正はその銘に”妙法蓮華経”とうたれている。
+line_set これは斬った者を成仏させるという意味合いでうたれたものであるが、
+line_set つまるところは怨念を断ち切り成仏させるのであり、九字と同じく人外を斬るために作られたものである。
+
+nvl_line_clear
+
+line_set 和泉守藤原兼定と千子村正は一振りの刀に、
+line_set この名が連ねられている事があるほどに交友があったようなので、
+line_set 目的を同じくするこの二振りの刀が同じ時期に作られたのは偶然ではないかもしれない。
+
+nvl_line_clear
+
+line_set その後、
+line_set 一方は籠釣瓶と呼ばれる妖刀として、
+line_set 一方は邪を払う剣として、
+line_set 互いに歴史に名を残すことになろうとは、和泉守藤原兼定と千子村正は予測していたのであろうか？
+
+nvl_line_clear
+
+line_set 彼らが予測していたかは別にしても現実は、
+line_set 剣の一振りが異形の長である無影の手にわたり、
+line_set そしてもう一方が無影の二重影の呪いを断ち切ろうとする双厳に渡り、互いに戦わせることになった。
+line_set これを運命のいたずらと言わずして何を運命のいたずらとするのであろうか？
+
+nvl_line_clear
+
+line_set 「この刀ですべての呪いを断ち切る・・・」
+line_set 「それしか俺が生き残る手だてはない・・・」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・・」
+
+adv_on
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+name_set 双厳
+
+line_set 「この島に渡って１１日目・・・」
+line_set 「このおぞましい島ともあと一日だ・・・」
+
+nvl_on
+
+line_set 双厳は今まで１１日間に分かった事を軽く頭の中で整理しはじめた。
+
+nvl_line_clear
+
+line_set 「この島は」
+line_set 「生まれる子供がすべて双子であるという島」
+line_set 「双子の片方はかならず間引かれるという島」
+line_set 「その子供の数だけの鳥居に埋め尽くされている島」
+line_set 「そう恐れられている・・・」
+
+nvl_line_clear
+
+line_set 「なぜこの島で生まれた子供が間引かれるというと」
+
+adv_on
+
+jump_choice 2 ◆骨のない水蛭子として生まれるからだ。
+jump_choice 3 ◆骨のない淡島として生まれるからだ。
+@3
+
+section_jump_branch1 252
+@2
+
+nvl_on
+
+line_set 「そしてこの島に無数にある鳥居とは」
+
+adv_on
+
+jump_choice 4 ◆間引かれた子供の霊を海に帰すためだ。
+jump_choice 5 ◆この島で死んだ人間の墓だ。
+@5
+
+section_jump_branch1 252
+@4
+
+nvl_on
+
+line_set 「俺ははじめは、双子が生まれるのでなく」
+line_set 「俺のように自分から一つの邪悪な存在が分かれて生まれるのだと思っていた・・・」
+line_set 「つまり二重影の呪いだと・・・」
+line_set 「が、実際は俺にかけられた呪いとは違う性質の呪いであったのだ・・・」
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「用心棒として渡ってきた俺であったが、その本当の目的とはもちろん二重影の呪いを解くことであった」
+line_set 「が、呪いを解くどころか新たな呪いまでかけられてしまったがな・・・」
+
+nvl_line_clear
+
+line_set 「その新たなる呪いとは・・・」
+line_set 「ヒルコの呪いだ」
+
+nvl_line_clear
+
+line_set 「この島ではヒルコは二つの意味がある」
+line_set 「一つは水蛭子・・・」
+line_set 「つまり伊邪那岐と伊邪那美が最初に生んだ神としての意味だ」
+
+nvl_line_clear
+
+line_set 「もう一つは・・・」
+
+adv_on
+
+jump_choice 6 ◆太陽神としての干る子、もしくは日流子。
+jump_choice 7 ◆龍の化身としての飛竜子。
+@7
+
+section_jump_branch1 252
+@6
+
+nvl_on
+
+line_set 「これは水蛭子が伊邪那岐伊邪那美にただ流されたというものにたいして」
+line_set 「この世のすべてを干上がらすような強いイメージとしてあらわれる」
+
+nvl_line_clear
+
+line_set 「この神は天照大神と対になる神だ」
+line_set 「一方が日の出を擬人化したものとして」
+line_set 「そして一方が日の入りを擬人化したものとして」
+
+nvl_line_clear
+
+line_set 「それぞれにイルとスイという巫女がつかえる」
+line_set 「その風習の起源は入姫神と出姫神にあるといわれている・・・」
+
+nvl_line_clear
+
+line_set 「この二つはそれぞれが島の封印の鍵となっているはずだ・・・」
+line_set 「日流子、西の遺跡、入姫神、そしてイルが黄泉に入る鍵として」
+line_set 「天照大神、東の遺跡、出姫神、そしてスイは黄泉から出る鍵として」
+line_set 「だから無影は最後にはイルとスイをさらいにくるはずだ」
+
+nvl_line_clear
+
+line_set 「やつが完成させようとしている儀式には最終的にはイルとスイが必要になる」
+
+adv_on
+
+line_set 「儀式・・・」
+line_set 「ある数字を導きだすために行われる呪われた儀式」
+
+nvl_on
+
+line_set 「集められた用心棒は次々に変死をとげた・・・」
+line_set 「骨を抜かれ・・・まるで水蛭子のように・・・」
+
+nvl_line_clear
+
+line_set 「ここに集められた用心棒ははめられたんだ・・・」
+line_set 「儀式に使う生け贄として・・・」
+
+nvl_line_clear
+
+line_set 「この島に集められた用心棒とはある儀式を完成させるために集められた贄だったのだ・・・」
+line_set 「その儀式とは・・・」
+
+adv_on
+
+jump_choice 8 ◆岩の封印を解くための儀式であった。
+jump_choice 9 ◆水蛭子神を復活させるための儀式であった。
+@9
+
+section_jump_branch1 252
+@8
+
+nvl_on
+
+line_set 「それによって黄泉の扉を開こうとする恐るべきものであったのだ・・・」
+line_set 「黄泉の扉を開ける・・・」
+line_set 「それはこの世の終わりを意味する・・・」
+
+nvl_line_clear
+
+line_set 「この儀式を止めるために俺はこの儀式の謎を解こうとした・・・」
+
+nvl_line_clear
+
+line_set 「俺は呪い殺される人間に法則があるのではないかと考えた・・・」
+
+nvl_line_clear
+
+line_set 「そしてそれはあった・・・」
+line_set 「この儀式は無差別に人間を殺しているのではない」
+line_set 「ある一定の法則のもとに殺されている・・・」
+
+adv_on
+
+jump_choice 10 ◆この島に渡って来た順序の逆順で殺される。
+jump_choice 11 ◆用心棒がすべて殺される。
+@11
+
+section_jump_branch1 252
+@10
+
+nvl_on
+
+line_set 「この法則にはある秘密があった」
+line_set 「それを解くまでに数多くの謎を解かなければならなかったが・・・」
+
+nvl_line_clear
+
+line_set 「まず海底火山がなぜ”しるし”とよばれるか」
+line_set 「ここから解かなければならなかった」
+
+nvl_line_clear
+
+line_set 「当初”しるし”は”灼し”と読むと志乃からきいていた」
+line_set 「が”しるし”は・・・」
+
+adv_on
+
+jump_choice 12 ◆”白し”であった。
+jump_choice 13 ◆”印し”であった。
+@13
+
+section_jump_branch1 252
+@12
+
+nvl_on
+
+line_set これには三重の意味があった。
+
+nvl_line_clear
+
+line_set 「まずはそのものずばり”しるし”として」
+line_set 「”しるし”は古くは”灼し”と”白し”と表記することがある」
+line_set 「これは同根の言語であるから、どちらを使ってもよい」
+
+nvl_line_clear
+
+line_set 「次が一年を四季にわけそれぞれを木気（春）火気（夏）金気（秋）水気（冬）とする」
+line_set 「これがそれぞれに色が配置されており、秋の色は白にあたる」
+
+nvl_line_clear
+
+line_set 「火山を”白し”と呼ぶのは、ある分解された数字のを浮き出すためだ・・・」
+line_set 「その数字こそがこの儀式の真の目的であったのだ」
+
+nvl_line_clear
+
+line_set 「集められた用心棒はすべてヒルコに模した形で殺していく」
+line_set 「なぜ用心棒が葦の舟で集められたか」
+line_set 「なぜ骨が抜け落ちて死ぬのか・・・」
+line_set 「それにはすべて意味がある」
+
+nvl_line_clear
+
+line_set 「骨なしで生まれ」
+line_set 「そして葦の舟によって島から流された水蛭子」
+line_set 「これを逆順でなぞっている」
+line_set 「骨なしで死に」
+line_set 「そして葦の舟で島に渡る用心棒」
+
+nvl_line_clear
+
+line_set 「ある一定の法則で集められた用心棒はその集められた順序の逆順に殺されていく」
+line_set 「逆順で殺される・・・」
+line_set 「それは鏡にうつる虚像のように・・・相対したものだ」
+line_set 「互いに相対する」
+
+nvl_line_clear
+
+line_set 「双子にかならず生まれるということ」
+line_set 「西の遺跡と東の遺跡」
+line_set 「日の入神と」
+line_set 「日の出神」
+line_set 「淡炎島と淡島」
+line_set 「そして、表と裏にわけられた儀式」
+line_set 「すべてがそのようになっている」
+
+nvl_line_clear
+
+line_set 「逆順で殺された人間は」
+line_set 「その日にち」
+line_set 「人数によって」
+line_set 「暗号化されたある数字を浮き彫りにさせる」
+
+adv_on
+
+jump_choice 14 ◆１０００
+jump_choice 15 ◆１５０１
+@14
+
+section_jump_branch1 252
+@15
+
+nvl_on
+
+line_set 「古事記にはこうある」
+line_set 「伊邪那美が岩に封印されたときに、黄泉とこの世の境界をなくす」
+line_set 「つまり岩の封印を解くために人々に呪いをかけた・・・」
+
+nvl_line_clear
+
+line_set 「それに対して伊邪那岐がそれに対抗する呪詛を作り上げた」
+line_set 「一日１５００人の人間を生むというものだ」
+line_set 「これは単純に１０００人に対して１５００人の人間を生むというものではない」
+
+nvl_line_clear
+
+line_set 「それは互いの呪詛の力をあらわす」
+line_set 「伊邪那美の呪詛よりも伊邪那岐の呪詛が強い事をあらわすのだ」
+line_set 「岩の封印は伊邪那岐の呪詛が有効なかぎり解けるはずない・・・」
+
+nvl_line_clear
+
+line_set 「が、もしそれ以上に」
+line_set 「伊邪那岐以上に強い封印を解除する呪詛があったら？」
+line_set 「つまり１５００人を生む呪詛以上の呪詛ができたら・・・」
+
+nvl_line_clear
+
+line_set 「それが今回の儀式だ・・・」
+line_set 「数字を分解して、本来１５０１人必要な生け贄を、六日にわけて１８人ですむようにした」
+
+nvl_line_clear
+
+line_set 「さらに・・・」
+line_set 「陰陽五行説を使い」
+line_set 「伊邪那岐の封印がもっとも弱まる時期にねらいを定めた・・・」
+
+adv_on
+
+jump_choice 16 ◆”６０周期””土気の用”
+jump_choice 17 ◆”２０周期””火気の用”
+@17
+
+section_jump_branch1 252
+@16
+
+nvl_on
+
+line_set 「これらは死をあらわす」
+line_set 「一巡したものが死に、また再生する時期にあてはまる」
+line_set 「封印の力が一巡して弱まる時期がここだ」
+
+nvl_line_clear
+
+line_set 「ご丁寧にこの儀式が終了するのはちょうど神無月にあたる事になる」
+line_set 「すべてが厳密に計算された」
+line_set 「儀式・・・」
+
+nvl_line_clear
+
+line_set 「ヒルコ、アワシマ、イザナギ、イザナミ」
+line_set 「これらの神々の所行を完全に模して」
+line_set 「行われる儀式」
+line_set 「神々の力に対抗するために、陰陽五行の力までかりた」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・・」
+
+adv_on
+
+line_set 「ここまでわかったのだがな・・・」
+#253_0
+
+jump_choice 18 ◆廊下へ移動
+@18
+@55
+@58
+@60
+
+kgd_layer2_set 1 Kgd\B_031.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 17597 254
+jump_branch2 17597 253
+
+section_jump_branch1 254
+
+kgd_layer3_set 0 Kgd\Fu_004.kgd
+kgd_layer3_param 0 128 0 0 0 544 600
+kgd_layer3_display 0
+
+name_set 楓玲
+
+line_set 「とうとう明日だね・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set 楓玲
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「安心しろ、手だてはある・・・」
+line_set 「俺はやられはしないさ・・・」
+
+name_set 楓玲
+
+line_set 「うん・・・」
+line_set 「そう信じてる」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+#254_1
+!253
+
+jump_choice 19 ◆自室へ移動
+jump_choice 20 ◆大広間へ移動
+jump_choice 21 ◆蔵の前へ移動
+jump_choice 22 ◆屋敷外へ移動
+@51
+
+kgd_layer2_set 1 Kgd\B_003.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 58414 254
+
+nvl_on
+
+line_set 双厳は一人夜の大岩にたたずむ・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「この岩の封印が解ければ世界は終わる・・・」
+
+nvl_on
+
+line_set 「岩の封印を守るためだけならば俺がここで死ねばよいのかもしれない・・・」
+
+adv_on
+
+line_set 「！？」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+nvl_line_clear
+
+line_set 「かなりたくさんいるな・・・」
+
+nvl_line_clear
+
+line_set 双厳はその場でなにかを感じた。
+
+nvl_line_clear
+
+line_set 「複数の殺気だな・・・」
+line_set 「これは異形のものではない・・・」
+line_set 「これは・・・」
+
+adv_on
+
+line_set 「出てこいよ・・・」
+line_set 「幕府の犬ども・・・」
+
+name_set 桂華
+
+line_set 「ふふふ・・・」
+line_set 「さすが二つ影双厳ね・・・」
+
+kgd_layer1_set 1 Kgd\En_075.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer3_set 1 Kgd\Kk_001.kgd
+kgd_layer3_param 1 108 0 0 0 584 600
+kgd_layer3_display 1
+
+nvl_on
+
+line_set 物見やぐらで会った桂華と名のる女と十数人の隠密が姿をあらわす。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「こんなに島に隠密をはらせていたのか・・・」
+
+name_set 桂華
+
+line_set 「ここにいる者達をただの隠密とは思わない事ね」
+line_set 「幕府直属の手練れの忍よ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桂華
+
+line_set 「特にこの方はね・・・」
+
+kgd_layer3_param 1 216 0 0 0 584 600
+kgd_layer3_set 0 Kgd\Ma_002.kgd
+kgd_layer3_param 0 0 0 0 0 296 600
+kgd_layer3_display 0
+
+name_set 舞
+
+line_set 「くすくす・・・」
+line_set 「また会ったね～」
+line_set 「双厳ちゃん☆」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 何度か見た少女が顔をだす。
+
+adv_on
+
+name_set 双厳
+
+line_set 「貴様が幕府の犬だったとはな・・・」
+
+name_set 舞
+
+line_set 「犬じゃないよ」
+line_set 「ワンワン鳴かないもん」
+
+name_set 双厳
+
+line_set 「あいかわらず人をなめた口調だな・・・」
+
+name_set 舞
+
+line_set 「くすくす・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「！？」
+
+nvl_on
+
+line_set 「ほう・・・」
+line_set 「今まではブラフをかましていたのか・・・」
+line_set 「あれだけ隙だらけだったのに今ではまったく隙がない・・・」
+line_set 「この小娘、姿に似合わずに・・・なかなかの手練れだ・・・」
+
+adv_on
+
+name_set 舞
+
+line_set 「うーん」
+line_set 「桂華ちゃん・・・」
+
+name_set 桂華
+
+line_set 「なんでしょうか？舞さま」
+
+name_set 舞
+
+line_set 「この子、凄く強いなぁ・・・」
+line_set 「今まで会ったときはそうでもなかったけど・・・」
+line_set 「今は凄い殺気だよ・・・」
+line_set 「すごいな・・・」
+line_set 「この殺気・・・」
+line_set 「普通じゃ出ないよ・・・」
+line_set 「たぶん」
+line_set 「私ぐらい人を殺してる・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「私ぐらいだと？」
+
+adv_on
+
+name_set 舞
+
+line_set 「うーん」
+line_set 「貴方」
+line_set 「二百人は軽く越えてるでしょ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「人を見かけで判断しない事ね」
+line_set 「双厳ちゃん・・・」
+line_set 「私がそんな数の人間を殺したのが信じられないようね」
+
+nvl_on
+
+line_set なぜかこの少女の言葉には説得力があった。
+line_set 姿からは想像できないが、それは何百人もの人間を斬ってきた者の気であった。
+
+adv_on
+
+line_set 「くすくす・・・」
+line_set 「私は貴方みたいな若造が生まれる前から人を殺してきたんだからね・・・」
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 「こ、こいつ・・・」
+line_set 「こいつの気は・・・人のものではない・・・」
+line_set 「い、異形か？」
+
+adv_on
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「私は異形じゃないよ・・・」
+line_set 「それを分からせてあげるよ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「お前・・・何者だ・・・」
+
+name_set 舞
+
+line_set 「私と戦って生き残れたら教えてあげる」
+
+name_set 桂華
+
+line_set 「舞さま！」
+
+name_set 舞
+
+line_set 「あー大丈夫、大丈夫、ちゃんと殺すから」
+line_set 「生き残るようなまねはさせないよ」
+
+name_set 桂華
+
+line_set 「それでは・・・」
+
+name_set 双厳
+
+line_set 「！」
+
+nvl_on
+
+line_set 幕府の忍が剣を抜く。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「これだけの人数の手練れが相手か・・・」
+line_set 「少しやばいな・・・」
+line_set 「せめて・・・」
+line_set 「あの小娘がいなければ・・・」
+
+adv_on
+
+name_set 舞
+
+line_set 「そう・・・」
+line_set 「なら始めは私は手を出さないよ」
+line_set 「ここにいる忍の子達と存分にたたかってね」
+
+name_set 双厳
+
+line_set 「？！」
+
+name_set 舞
+
+line_set 「それと・・・」
+line_set 「私、小娘じゃないから、舞ちゃんって呼んでよ☆」
+
+nvl_on
+
+line_set 「こ、こいつ・・・」
+line_set 「人の心が読めるのか？」
+
+adv_on
+
+line_set 「くすくす・・・」
+
+nvl_on
+
+line_set 舞と名のる少女は不気味なほほえみをたたえる。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer3_fadeout 1
+kgd_layer3_clear 1
+
+fight_start
+
+force_save_menu
+
+music_play 9
+
+name_clear
+
+line_set ザッ！！
+
+nvl_on
+
+line_set 双厳と舞の会話を途絶えさせる土を蹴る音。
+line_set 忍が双厳に襲いかかる。
+
+nvl_line_clear
+
+line_set 「上から二人！」
+
+adv_on
+
+jump_choice 23 ◆疾風剣
+jump_choice 24 ◆受ける
+jump_fight_failure 25
+@23
+
+nvl_on
+
+line_set 双厳の剣がひらめく。
+
+adv_on
+
+name_clear
+
+line_set ドバッ！！バシュ！！！
+
+nvl_on
+
+line_set 双厳の秘太刀の前に飛び上がった忍はその場で真っ二つになる。
+
+adv_on
+
+name_set 忍
+
+line_set 「？！」
+
+name_set 舞
+
+line_set 「うまい、うまい」
+line_set 「攻防一体となってる疾風剣の使い方は間違っていないね」
+line_set 「剣筋も悪くないし」
+line_set 「うん」
+line_set 「そこそこ疾風剣はつかえてる」
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 「あの小娘・・・」
+line_set 「疾風剣を知っているのか？」
+
+adv_on
+
+name_set 桂華
+
+line_set 「闇雲に攻撃をしかけるな！」
+line_set 「やつはそこいらの浪人ではないぞ！」
+
+nvl_on
+
+line_set 桂華が忍達を叱咤する。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 忍は距離をとりつつ双厳を円形に囲む。
+line_set その手には他の獲物が握られている。
+
+adv_on
+
+line_set 「・・・」
+line_set 「まぁ基本だな・・・」
+
+name_clear
+
+line_set ヒュン
+line_set ヒュン
+line_set ヒュン
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 忍達が手にしているものは鎖鎌だ。
+
+nvl_line_clear
+
+line_set 「が・・・」
+line_set 「しょせん基本だ・・・」
+
+adv_on
+
+jump_auto 26
+@24
+
+name_clear
+
+line_set キィイイイイイイン！
+
+nvl_on
+
+line_set 双厳は剣を受けると同時に忍の脇をすり抜ける。
+line_set それは”猿回し”という秘太刀であった。
+
+adv_on
+
+name_clear
+
+line_set ドバッ・・・
+
+nvl_on
+
+line_set 脇から胸ぐらまで切り裂く。
+line_set もう一人の忍には、死角になって双厳の姿が見えない。
+
+adv_on
+
+name_set 忍
+
+line_set 「？」
+
+name_set 双厳
+
+line_set 「死ね！」
+
+name_clear
+
+line_set ドッ！！
+
+nvl_on
+
+line_set 切り裂いた忍の影からさらにもう一人の忍も真っ二つに切り裂く。
+
+adv_on
+
+name_set 桂華
+
+line_set 「闇雲に攻撃をしかけるな！」
+line_set 「やつはそこいらの浪人ではないぞ！」
+
+nvl_on
+
+line_set 桂華が忍達を叱咤する。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 忍は距離をとりつつ双厳を円形に囲む。
+line_set その手には他の獲物が握られている。
+
+adv_on
+
+line_set 「・・・」
+line_set 「まぁ基本だな・・・」
+
+name_clear
+
+line_set ヒュン
+line_set ヒュン
+line_set ヒュン
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 忍達が手にしているものは鎖鎌だ。
+
+nvl_line_clear
+
+line_set 「が・・・」
+line_set 「しょせん基本だ・・・」
+
+adv_on
+@26
+
+jump_choice 27 ◆突っ込む
+jump_choice 28 ◆様子を見る
+jump_fight_failure 29
+@27
+
+name_clear
+
+line_set ダッ！
+
+nvl_on
+
+line_set 双厳は間入れずに囲われた円陣に突っ込んでいく。
+
+adv_on
+
+name_set 舞
+
+line_set 「うん」
+line_set 「正解ね」
+
+name_set 忍
+
+line_set 「？！」
+
+nvl_on
+
+line_set 突然の特攻に驚く忍、その動きは予測できなかったようだが素早く鎖鎌を投げつける。
+
+adv_on
+
+name_clear
+
+line_set シュン！
+
+nvl_on
+
+line_set 四方から双厳にむかって襲いかかる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「この程度で・・・」
+
+name_clear
+
+line_set ジャキンン！！
+
+nvl_on
+
+line_set 双厳は投げつけられた鎖鎌を難なくかわしていく。
+line_set 鎖鎌は宙で互いにぶつかり合う。
+
+adv_on
+
+name_set 桂華
+
+line_set 「ば、馬鹿な・・・」
+line_set 「四方からの攻撃をなぜ・・・」
+
+nvl_on
+
+line_set たしかに四方から襲いかかる鎖鎌など常人にはとてもかわせるものではない。
+line_set しかしそれは常人に限った事であった。
+
+nvl_line_clear
+
+line_set 凶虐や兇虐が使った五蘊鎖鎌や、
+line_set 幽香の使う風輪にくらべれば人があやつる鎖鎌など止まっているようなものであった。
+
+adv_on
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「桂華ちゃん気が付かないの？」
+
+name_set 桂華
+
+line_set 「？」
+
+name_set 舞
+
+line_set 「音だよ」
+line_set 「鎖鎌っていうのはその構造上少しだけど音が出ちゃうのよ」
+line_set 「ある一定以上の腕の者に対して音が出る飛び道具はよくないんだよ」
+line_set 「特に、この子達の鎖鎌はその軌道が単調すぎてて行き先がばればれなんだよね」
+
+name_set 桂華
+
+line_set 「・・・」
+
+name_clear
+
+line_set ドバシャ！！！！！
+
+nvl_on
+
+line_set 忍の一人が双厳によって殲滅される。
+line_set 円陣の一部が崩れる。
+
+adv_on
+
+name_set 忍
+
+line_set 「？！」
+
+name_set 桂華
+
+line_set 「く・・・」
+line_set 「は、はやく次の陣形に！！！」
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「もう終わりかな・・・」
+
+name_clear
+
+line_set バシュ！！
+line_set ドバシャ！！！
+
+nvl_on
+
+line_set 次々に忍が倒されていく。
+
+adv_on
+
+name_set 舞
+
+line_set 「陣形を組むのは利点もあるけど」
+line_set 「欠点もあるのよ・・・」
+line_set 「それは陣形は一度崩れると次に移行するまでに隙がある事・・・」
+line_set 「今みたいに次々に倒されてればなおさら・・・」
+line_set 「各陣形にはそれぞれに必要な人数がいるから、数秒単位で人数が減れば何もできない・・・」
+line_set 「普通ならあり得ない事だけど・・・」
+line_set 「絶対的な速度の差がそれを可能にする」
+line_set 「この子達、二つ影双厳を甘く見過ぎたわね」
+line_set 「双厳ちゃんを人間として考えなければあるいは、勝てたかも知れないのにね・・・」
+
+name_set 桂華
+
+line_set 「くそ！」
+
+kgd_layer3_set 0 Kgd\Kk_001.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 桂華がその陣形に加わる。
+
+adv_on
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「桂華ちゃんのお手並み拝見だね」
+line_set 「彼女の統率力でこの子達烏合の衆にも無敵の戦闘集団にもなるわ・・・」
+
+nvl_on
+
+line_set 舞は楽しそうの戦いの行く末を見守る。
+
+adv_on
+
+line_set 「今の双厳ちゃんは何人かの忍の子達と乱戦状態にもちこむ事によって」
+line_set 「相打ちを恐れる他の忍の子達の飛び道具を封じている・・・」
+line_set 「この状態を打破するためには、一つしか方法がないわ」
+line_set 「桂華ちゃんどうする？」
+
+name_clear
+
+line_set シュンシュン！！！
+
+nvl_on
+
+line_set 双厳に耳に空を斬る音が聞こえた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ちっ！！」
+
+nvl_on
+
+line_set 桂華はそこにいる忍もろとも双厳に大量の手裏剣を投げ込む。
+
+adv_on
+
+name_clear
+
+line_set ドッドッドッ！！！！！
+
+name_set 忍
+
+line_set 「ぐあ！！！」
+
+nvl_on
+
+line_set 双厳は近戦状態にあった忍の体をうまく盾にしてこれをすべてよける。
+
+adv_on
+
+name_set 桂華
+
+line_set 「風綱の陣！」
+
+nvl_on
+
+line_set その声に対応して残りの忍が新たな陣形を組む。
+
+adv_on
+
+name_set 舞
+
+line_set 「見事だね・・・」
+line_set 「一人犠牲にすることによって状態を白紙にもどしたわ・・・」
+line_set 「今度は双厳ちゃんが不利かな・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「距離を取られたか・・・」
+
+nvl_on
+
+line_set 忍達は手にしている鎖鎌を次々に捨てる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桂華
+
+line_set 「今度こそ貴方の終わりよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 瞬間、忍達の手から何かが投げられる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「音がない・・・」
+
+jump_auto 30
+@28
+
+nvl_on
+
+line_set 双厳はその円陣の中心に立つ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・・」
+line_set 「囲まれた・・・」
+
+name_set 桂華
+
+line_set 「まず、まきびしを撒け！」
+
+name_set 双厳
+
+line_set 「チッ・・・」
+line_set 「それはまずいな・・・」
+
+nvl_on
+
+line_set 双厳は間髪入れずに囲われた円陣に突っ込んでいく。
+
+adv_on
+
+name_set 舞
+
+line_set 「うん」
+line_set 「正解ね」
+
+name_set 忍
+
+line_set 「？！」
+
+nvl_on
+
+line_set 突然の特攻に驚く忍、その動きは予測できなかったようだが素早く鎖鎌を投げつける。
+
+adv_on
+
+name_clear
+
+line_set シュン！
+
+nvl_on
+
+line_set 四方から双厳にむかって襲いかかる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「この程度で・・・」
+
+name_clear
+
+line_set ジャキンン！！
+
+nvl_on
+
+line_set 双厳は投げつけられた鎖鎌を難なくかわしていく。
+line_set 鎖鎌は宙で互いにぶつかり合う。
+
+adv_on
+
+name_set 桂華
+
+line_set 「ば、馬鹿な・・・」
+line_set 「四方からの攻撃をなぜ・・・」
+
+nvl_on
+
+line_set たしかに四方から襲いかかる鎖鎌など常人にはとてもかわせるものではない。
+line_set しかしそれは常人に限った事であった。
+
+nvl_line_clear
+
+line_set 凶虐や兇虐が使った五蘊鎖鎌や、
+line_set 幽香の使う風輪にくらべれば人があやつる鎖鎌など止まっているようなものであった。
+
+adv_on
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「桂華ちゃん気が付かないの？」
+
+name_set 桂華
+
+line_set 「？」
+
+name_set 舞
+
+line_set 「音だよ」
+line_set 「鎖鎌っていうのはその構造上少しだけど音が出ちゃうのよ」
+line_set 「ある一定以上の腕の者に対して音が出る飛び道具はよくないんだよ」
+line_set 「特に、この子達の鎖鎌はその軌道が単調すぎてて行き先がばればれなんだよね」
+
+name_set 桂華
+
+line_set 「・・・」
+
+name_clear
+
+line_set ドバシャ！！！！！
+
+nvl_on
+
+line_set 忍の一人が双厳によって殲滅される。
+line_set 円陣の一部が崩れる。
+
+adv_on
+
+name_set 忍
+
+line_set 「？！」
+
+name_set 桂華
+
+line_set 「く・・・」
+line_set 「は、はやく次の陣形に！！！」
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「もう終わりかな・・・」
+
+name_clear
+
+line_set バシュ！！
+line_set ドバシャ！！！
+
+nvl_on
+
+line_set 次々に忍が倒されていく。
+
+adv_on
+
+name_set 舞
+
+line_set 「陣形を組むのは利点もあるけど」
+line_set 「欠点もあるのよ・・・」
+line_set 「それは陣形は一度崩れると次に移行するまでに隙がある事・・・」
+line_set 「今みたいに次々に倒されてればなおさら・・・」
+line_set 「各陣形にはそれぞれに必要な人数がいるから、数秒単位で人数が減れば何もできない・・・」
+line_set 「普通ならあり得ない事だけど・・・」
+line_set 「絶対的な速度の差がそれを可能にする」
+line_set 「この子達、二つ影双厳を甘く見過ぎたわね」
+line_set 「双厳ちゃんを人間として考えなければあるいは、勝てたかも知れないのにね・・・」
+
+name_set 桂華
+
+line_set 「くそ！」
+
+kgd_layer3_set 0 Kgd\Kk_001.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 桂華がその陣形に加わる。
+
+adv_on
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「桂華ちゃんのお手並み拝見だね」
+line_set 「彼女の統率力でこの子達、烏合の衆にも無敵の戦闘集団にもなるわ・・・」
+
+nvl_on
+
+line_set 舞は楽しそうに戦いの行く末を見守る。
+
+adv_on
+
+name_set 舞
+
+line_set 「今の双厳ちゃんは何人かの忍の子達と乱戦状態にもちこむ事によって」
+line_set 「相打ちを恐れる他の忍の子達の飛び道具を封じている・・・」
+line_set 「この状態を打破するためには、一つしか方法がないわ」
+line_set 「桂華ちゃんどうする？」
+
+name_clear
+
+line_set シュンシュン！！！
+
+nvl_on
+
+line_set 双厳に耳に空を斬る音が聞こえた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ちっ！！」
+
+nvl_on
+
+line_set 桂華はそこにいる忍もろとも双厳に大量の手裏剣を投げ込む。
+
+adv_on
+
+name_clear
+
+line_set ドッドッドッ！！！！！
+
+name_set 忍
+
+line_set 「ぐあ！！！」
+
+nvl_on
+
+line_set 双厳は近戦状態にあった忍の体をうまく盾にしてこれをすべてよける。
+
+adv_on
+
+name_set 桂華
+
+line_set 「風綱の陣！」
+
+nvl_on
+
+line_set その声に対応して残りの忍が新たな陣形を組む。
+
+adv_on
+
+name_set 舞
+
+line_set 「見事だね・・・」
+line_set 「一人犠牲にすることによって状態を白紙にもどしたわ・・・」
+line_set 「今度は双厳ちゃんが不利かな・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「距離を取られたか・・・」
+
+nvl_on
+
+line_set 忍達は手にしている鎖鎌を次々に捨てる。
+
+adv_on
+
+line_set 「・・・」
+
+name_set 桂華
+
+line_set 「今度こそ貴方の終わりよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 瞬間、忍達の手から何かが投げられる。
+
+adv_on
+
+line_set 「音がない・・・」
+@30
+
+jump_choice 31 ◆剣で受ける
+jump_choice 32 ◆上に飛ぶ
+jump_fight_failure 33
+@31
+
+name_clear
+
+line_set ドッ！！！
+
+name_set 双厳
+
+line_set 「が？」
+
+nvl_on
+
+line_set 音のないものは避けようもなかった。
+line_set 双厳の喉仏に刃物が食い込む。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「こんなところで死ぬとはな・・・」
+
+adv_on
+
+music_stop
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@32
+
+nvl_on
+
+line_set 双厳は上に飛ぶ。
+
+adv_on
+
+name_clear
+
+line_set カン
+line_set カン
+line_set カン
+
+nvl_on
+
+line_set 双厳の後方で忍が投げたものがなにかにあたる音がする。
+
+adv_on
+
+name_set 桂華
+
+line_set 「ふふふ・・・」
+line_set 「風綱の術中にはまったわね」
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「なんだと？？」
+
+nvl_on
+
+line_set 双厳が目にしたものは、
+line_set 桂華および忍が空中を走り双厳に襲いかかる姿であった。
+
+adv_on
+
+line_set 「むぅ！」
+
+name_clear
+
+line_set カキン
+line_set カシュン！！！
+
+nvl_on
+
+line_set 宙から代わる代わる双厳に襲いかかる忍達。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ば、馬鹿な！！」
+line_set 「人が空を歩くとは！！！」
+
+name_set 桂華
+
+line_set 「ふふふ・・・」
+line_set 「もう貴方は風綱の術中よ！」
+
+nvl_on
+
+line_set 地上から空中から双厳に無数の刃が襲いかかる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くっ・・・」
+
+name_set 舞
+
+line_set 「双厳ちゃんに、風綱の術のトリックが見抜けるかな？」
+line_set 「見抜けなければ時間の問題だよ」
+
+nvl_on
+
+line_set 「人が空中を歩くなんて事はありえない」
+line_set 「あるとしたら・・・」
+
+adv_on
+
+jump_choice 34 ◆空中を斬る
+jump_fight_failure 35
+@34
+
+nvl_on
+
+line_set 双厳は突如、空を斬り始めた。
+
+adv_on
+
+name_set 桂華
+
+line_set 「か、風綱から降りろ！！！」
+
+name_clear
+
+line_set ブツン・・・
+line_set ブツン・・・
+
+nvl_on
+
+line_set 双厳が宙を斬るたびに何かが斬れる音が聞こえる。
+
+adv_on
+
+name_set 忍
+
+line_set 「うわ！」
+
+name_clear
+
+line_set ドサ！
+line_set ドサ・・・
+
+nvl_on
+
+line_set 次々と宙を歩いていた忍が地面に落ちていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「つまらない仕掛けだな・・・」
+line_set 「目に見えないような紐を張り巡らして空中を歩くように見せるとは・・・」
+line_set 「死ね！」
+
+name_clear
+
+line_set バシュ！
+line_set ドバッ！！！
+
+nvl_on
+
+line_set 地面に落ちた忍を次々に斬っていく。
+
+adv_on
+
+name_set 桂華
+
+line_set 「く、くそ・・・」
+
+name_set 双厳
+
+line_set 「くくく・・・」
+line_set 「後はお前らだけか・・・」
+
+nvl_on
+
+line_set 十数人いた忍は桂華を含め残り三人までになった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どうする？」
+line_set 「あの人数で俺に傷一つけられないんだ」
+line_set 「残り三人で何ができる？」
+line_set 「降参したらどうだ？」
+
+name_set 桂華
+
+line_set 「うるさい！」
+line_set 「次の一撃で貴様を殺す！」
+
+name_clear
+
+line_set ザッ！
+
+name_set 双厳
+
+line_set 「むっ？」
+
+nvl_on
+
+line_set 桂華達は一直線に並び双厳に襲いかかる。
+line_set 前方の人間の影に隠れて、後方の人間の姿がまったく見えない。
+
+adv_on
+
+line_set 「考えたな・・・」
+line_set 「一人目は確実に死ぬが・・・」
+line_set 「二人目、三人目が目的を果たす」
+line_set 「捨て身の技だな・・・」
+line_set 「が！」
+
+nvl_on
+
+line_set 双厳はそのまま桂華達に突進する。
+
+adv_on
+
+line_set 「それは互角程度の人間どうしの戦いの場合」
+line_set 「もし圧倒的な速度差があったらそれは・・・」
+
+nvl_on
+
+line_set 双厳のその速度はすでに人のものではなかった。
+line_set それはあたかも雷神のごとき。
+
+adv_on
+
+name_set 桂華
+
+line_set 「死ね！！！」
+
+name_set 双厳
+
+line_set 「南無三！」
+
+name_clear
+
+line_set バシュ！！！！！
+
+nvl_on
+
+line_set 一人目がほとんど剣を交える事なく双厳の刃に散る。
+line_set 斬った瞬間を狙って二人目の忍が飛び上がる。
+
+adv_on
+
+name_clear
+
+line_set ドバッ！！！
+
+nvl_on
+
+line_set 二人目も飛び上がろうとした瞬間に胴体を真っ二つにされる。
+
+adv_on
+
+name_set 桂華
+
+line_set 「な、なに？これが人間の速度？」
+
+nvl_on
+
+line_set 二人目が殺されたのを確認してから右から飛び出した桂華、しかしすべてが遅すぎる。
+
+adv_on
+
+name_clear
+
+line_set ドシャ！！！
+
+nvl_on
+
+line_set 三人目に控えていた桂華も攻撃をすることなく胴体を真っ二つにされる。
+
+adv_on
+
+name_set 桂華
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「な、なんて、強さだ・・・」
+
+nvl_on
+
+line_set 桂華は驚愕の表情のまま絶命する。
+
+adv_on
+
+fight_end
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Ma_001.kgd
+kgd_layer3_param 0 252 0 0 0 296 600
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ふぅ・・・」
+line_set 「さてと・・・」
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「まぁ、まぁってところかな」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なんだと？」
+
+name_set 舞
+
+line_set 「少しは愛洲陰流を使えてるって言ってるのよ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「俺は女だからといって手加減はせんぞ・・・」
+line_set 「あまり減らず口をたたいてるとそこに転がる死体の仲間入りをするぞ」
+
+name_set 舞
+
+line_set 「まぁ怖い・・・」
+line_set 「でも・・・」
+line_set 「そんな偉そうな事いって」
+line_set 「それができるかしら？」
+
+name_clear
+
+line_set ザッ！！！
+
+nvl_on
+
+line_set 双厳が先に仕掛ける。
+
+adv_on
+
+name_set 舞
+
+line_set 「・・・」
+
+name_clear
+
+line_set ブン！！！
+
+nvl_on
+
+line_set 空を斬る音がする。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「な、何？」
+
+nvl_on
+
+line_set たしかに舞を真っ二つにしたと思われた剣はむなしく空を斬る裂音を響かせる。
+
+adv_on
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「見切りの太刀・・・」
+line_set 「こんなの基本でしょう？」
+
+name_set 双厳
+
+line_set 「ぬぅ・・・」
+
+name_set 舞
+
+line_set 「それとも基本がまだできていないのかな？」
+
+name_set 双厳
+
+line_set 「なめやがって・・・小娘・・・」
+
+nvl_on
+
+line_set 舞はこの見切りの太刀を基本と言い放つが、
+line_set もちろんこの境地に達する事ができる剣士はごく一部でしかない。
+line_set その一部にはもちろん十兵衛と互角に戦った双厳も含まれている。
+
+nvl_line_clear
+
+line_set 初弾を見切りの太刀によってかわされた双厳はそれ以上無為に剣を振るう事をやめる。
+
+adv_on
+
+name_set 舞
+
+line_set 「・・・」
+line_set 「さすがね・・・」
+line_set 「見込みあるわ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「てめぇに誉められてもうれしくはないね・・・」
+
+name_set 舞
+
+line_set 「あら、残念」
+
+name_set 双厳
+
+line_set 「お前・・・何者だ・・・」
+line_set 「なんで俺の太刀筋を見切れる・・・」
+
+kgd_layer3_set 3 Kgd\Ma_002.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「なんででしょ？」
+
+name_set 双厳
+
+line_set 「ただ振るう事だけの剣を見切る事ならある一定以上の剣術家ならできる・・・」
+line_set 「が、見切られる事すら想定して作られた流派の太刀筋を見切る事は普通できない・・・」
+line_set 「なぜならばその流派自体に見切りの極意が含まれているからだ・・・」
+line_set 「愛洲陰流にもその根本として見切りが存在する・・・」
+
+kgd_layer3_set 3 Kgd\Ma_001.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「貴様・・・」
+line_set 「愛洲陰流を知っているな・・・」
+line_set 「知らなければ俺の太刀筋を見切る事はできん」
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「頭のいい子ね・・・」
+line_set 「私、双厳ちゃんの事好きになりそうよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「さて、遊んでる暇もないわ」
+line_set 「そちらが打ち込んでこないならこちらからいくわ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 舞はその辺に落ちている剣を拾う。
+
+adv_on
+
+name_set 舞
+
+line_set 「うーん」
+line_set 「このぐらいの長さがちょうどいいかな」
+line_set 「では・・・そろそ・・・」
+
+kgd_layer3_set 3 Kgd\Ma_003.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_clear
+
+line_set ザッ！
+
+nvl_on
+
+line_set 言葉を切って突然舞が双厳に襲いかかる。
+line_set その速さは双厳のそれに匹敵していた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「！」
+
+name_clear
+
+line_set カチュイィィィイィイ！
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 双厳はかろうじて舞の一撃をふせいだ。
+
+adv_on
+
+name_set 舞
+
+line_set 「今のはただの打ち込み・・・」
+line_set 「これで私の速さがだいたい分かったでしょ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は自らの腕が震えているのに気が付いた・・・。
+line_set それは恐怖からの震えではなかった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「あ、あんたいったい・・・」
+
+kgd_layer3_set 3 Kgd\Ma_002.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「あー無駄口叩かないのー」
+line_set 「次が本番だよ」
+line_set 「これがよけられたら印可与えるから」
+
+name_set 双厳
+
+line_set 「印可？」
+
+name_set 舞
+
+line_set 「さて次いくよ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer3_set 0 Kgd\Ma_006.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 舞は手にしていた剣を捨てる。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「なぜ拾った剣を捨てる・・・」
+
+nvl_line_clear
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set 舞をジッと見つめる双厳。
+
+nvl_line_clear
+
+line_set 「あの長い袖の中に・・・」
+line_set 「すでに自前の剣が握られているな・・・」
+
+nvl_line_clear
+
+line_set 一度目は自分の速さを教えるために打ち込んだという舞、
+line_set つまり一度目はわざと剣の尺が違うものを選んだのであろう。
+
+nvl_line_clear
+
+line_set 次に来る太刀筋を見切られないように・・・。
+
+nvl_line_clear
+
+line_set 「だとしたら・・・」
+line_set 「なぜ自分の手の内の一部を見せるようなまねをするのだ・・・」
+line_set 「わからん・・・」
+
+nvl_line_clear
+
+line_set 舞は両袖を合わせる。
+line_set そこに潜まれている刃の出方は予測がつかない。
+
+nvl_line_clear
+
+line_set 「たぶん・・・」
+line_set 「変移抜刀術であろう」
+
+nvl_line_clear
+
+line_set 変移抜刀術とは、
+line_set 鞘から素早く抜かれるだけの通常の抜刀術と違い、
+line_set 鞘自体を動かしたり隠したりすることによって、太刀筋を完全に不確定のものとする抜刀術である。
+
+nvl_line_clear
+
+line_set 双厳がもっとも秘太刀とする変移抜刀術は落水といわれるもので、
+line_set 鞘自体を回転させることと、鞘自体により死角をつくる事の二つの要素で、
+line_set 完全に太刀筋を隠すものである。
+
+nvl_line_clear
+
+line_set その基本形は愛洲陰流の秘太刀のひとつ”月影”に似ているが、
+line_set この変移抜刀落水をものにするのは”月影”の比ではないといわれている、
+line_set 現に歴史上でこれを使えた者は数人もいない。
+
+nvl_line_clear
+
+line_set 伝承では使えた者は愛洲陰流の創始者である愛洲移香斎のみであったと書かれている。
+
+nvl_line_clear
+
+line_set 双厳は天の構えをとる。
+
+nvl_line_clear
+
+line_set それを見た舞はうっすら笑みを浮かべる。
+
+nvl_line_clear
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set この双厳の選択は絶対正しいはずであった。
+line_set なぜならば、
+line_set 抜刀術とはかならず二動作を必要とする。
+line_set それに対して天の構えからの攻撃は一動作にて完了するものが大半であるからだ。
+
+nvl_line_clear
+
+line_set 単純な数的な差であるが、事このように一撃にて決まる勝負にはこの数字がものをいう。
+line_set ０コンマに生と死が存在する、それこそが剣の勝負とさえいえた。
+
+nvl_line_clear
+
+line_set 「変移抜刀とはいえ」
+line_set 「その動作が二回必要なのは絶対だ・・・」
+
+nvl_line_clear
+
+line_set そう考えるのが一番正しいと思えた。
+
+nvl_line_clear
+
+line_set が、双厳は、
+line_set 天に構えた剣を双厳は鞘に戻す。
+
+adv_on
+
+line_set 「！？」
+
+name_set 双厳
+
+line_set 「抜刀に対して天の構えにてこたえるのは、なるほど兵法の基本だ・・・」
+line_set 「が・・・」
+line_set 「それは基本でしかない・・・」
+line_set 「それは所詮、表の兵法でしかない」
+line_set 「表にはかならず裏がある」
+line_set 「兵法にはそれらを破る裏がある」
+line_set 「なぜ、陰流と、陰の流れと愛洲移香斎は名付けたのであろうか？」
+line_set 「答えは簡単だ」
+line_set 「愛洲陰流こそ、その裏の兵法であるからだ」
+line_set 「陰の流れとはこれすなわち」
+line_set 「兵法の陰に位置する事をあらわす」
+
+name_set 舞
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「認めるの事を無意識で拒否していたようだが」
+line_set 「貴様の太刀筋は」
+line_set 「愛洲陰流のものだ」
+line_set 「なぜ、貴様のような小娘が愛洲陰流を使うのかはわからんが・・・」
+line_set 「今はそんな事などどうでもよい」
+line_set 「陰流に対して、通常の兵法で考えられる対処など役には立たない」
+line_set 「つまり、抜刀に対して天の構えなどという単純な兵法では貴様に勝つ事などできん」
+
+name_set 舞
+
+line_set 「くす・・・」
+line_set 「ならどうするの？」
+line_set 「私が愛洲陰流の使い手だとして」
+line_set 「天の構え以外に、変移抜刀術を破る事はできるのかしら？」
+
+name_set 双厳
+
+line_set 「変移する抜刀を破る事は不可能だ・・・」
+
+name_set 舞
+
+line_set 「なら何もせずに死ぬのかしら？」
+
+name_set 双厳
+
+line_set 「ふふふ・・・」
+line_set 「変移抜刀には変移抜刀を・・・」
+line_set 「こういう兵法もありなんじゃないか？」
+
+nvl_on
+
+line_set 双厳は鞘に入ったままの剣を地の構えに構える。
+line_set それは、まさに秘太刀”変移抜刀落水”であった。
+
+nvl_line_clear
+
+line_set 笑っていた舞から笑みが消える。
+line_set 両袖をあわせた状態で腰を落とす。
+
+adv_on
+
+name_set 舞
+
+line_set 「・・・」
+line_set 「なるほど・・・」
+line_set 「変移抜刀落水ね・・・」
+line_set 「でも、貴方にちゃんと愛洲陰流の奥義中の奥義が使えるのかしらね？」
+
+name_set 双厳
+
+line_set 「試してみるがいいさ・・・」
+
+nvl_on
+
+line_set 双厳は剣を地の構えから徐々に天に向かい上げていく。
+line_set その形はまさに”月影”と同じであった。
+line_set ただ一つ違う部分があるとすれば、それは鞘に納められた状態で行われている点であろうか？
+
+nvl_line_clear
+
+line_set 舞も双厳も動かない。
+line_set 先ほどまであった風も今では完全に沈黙している。
+line_set 二人の間に、動かない鉛のように重い空気が立ちこめる。
+
+nvl_line_clear
+
+line_set そんな中で双厳はなぜか心が躍っていた。
+
+nvl_line_clear
+
+line_set 「なぜだ・・・」
+line_set 「なぜかこの感じ、懐かしいような気がする」
+
+nvl_line_clear
+
+line_set 徐々に天の構えまで近づく双厳の剣。
+line_set 落水は剣が、地から天を完全に向くまでの間に放たれる抜刀術である。
+line_set その抜刀が放たれた時には、
+line_set すべてが終わっている。
+
+nvl_line_clear
+
+line_set 双厳の死か、
+line_set 舞の死か、
+line_set それとも互いの死によってか、
+line_set この勝負は終わりとなる。
+
+nvl_line_clear
+
+line_set すでに双厳の剣は天に向くまであと数尺のところまできた。
+
+adv_on
+
+name_clear
+
+line_set ザッ！！！
+
+nvl_on
+
+line_set 先に動いたのは舞であった。
+
+nvl_line_clear
+
+line_set 双厳が腰を大きく落とす。
+line_set その動きにあわせ、宙に鞘を残した剣が高速で抜刀される。
+
+nvl_line_clear
+
+line_set 抜刀されたそれは、まるで鞘から落ちる露のように美しく、見た者を魅了する。
+
+nvl_line_clear
+
+line_set 舞の合わされた両袖から二本の斬光が放たれる。
+
+nvl_line_clear
+
+line_set 舞の袖には二刀隠されていたのだ。
+line_set もし双厳が天の構えによってこれを受けていれば片方の剣により剣をとめられ、
+line_set もう片方により斬殺されていたであろう。
+
+adv_on
+
+name_set 舞
+
+line_set 「愛洲陰流変移抜刀二つ月」
+
+name_clear
+
+line_set カッ！！！！！！！！！！
+
+nvl_on
+
+line_set あたりに甲高い裂音が響く。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 二人の影は互い数尺のところでピタリと止まり動かない。
+
+adv_on
+
+name_clear
+
+line_set カラン・・・
+
+nvl_on
+
+line_set 時少し遅れて、二つに斬られた双厳の鞘が地に落ちる音が響く。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「貴様・・・一体何者なんだ？」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer3_set 0 Kgd\Ma_002.kgd
+kgd_layer3_param 0 252 0 0 0 296 600
+kgd_layer3_display 0
+
+music_play 10
+
+name_set 舞
+
+line_set 「私？」
+line_set 「私は舞ちゃんだよ」
+
+nvl_on
+
+line_set 二人の剣は互いの体数ミリ手前の場所で止まっている。
+
+nvl_line_clear
+
+line_set これは互いが手を抜いたのではない。
+line_set 互いが見切りにより自分が斬られる一歩手前で踏み込みをやめたためである。
+
+adv_on
+
+name_set 双厳
+
+line_set 「落水を受けて生きていたのは貴様だけだ・・・」
+line_set 「貴様は一体・・・」
+
+name_set 舞
+
+line_set 「うーん」
+line_set 「それは違うなー」
+line_set 「落水を受けて生きてたんじゃなくて」
+line_set 「未熟な落水を受けて生きてたってかんじかな？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「落水はその名の通り」
+line_set 「落ちる水を模して作られた抜刀術」
+line_set 「腰を落とし高速で鞘から剣を引き抜くため、手で鞘を押さえずに抜刀する事ができる」
+line_set 「鞘から斬光を放つ剣が抜刀された姿は、まるで露が落ちるがごとし・・・」
+line_set 「宙にとどまった鞘はちょうど敵から己の姿を隠す形になる・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「死角を作り出す鞘はそれ自体も敵の刃を封じる武器になる」
+line_set 「私が斬ったつもりの双厳ちゃんは単なる鞘でした・・・ってわけね」
+
+name_set 双厳
+
+line_set 「なんで落水の事を知っている」
+line_set 「愛洲陰流でも落水は秘太刀中の秘太刀」
+line_set 「あの上泉すらその存在を確かめる事なく死んだと伝えられている」
+
+name_set 舞
+
+line_set 「あー」
+line_set 「最後まで私の話を聞きなさい」
+line_set 「まったくおしゃべりな弟子ね」
+
+name_set 双厳
+
+line_set 「弟子？」
+line_set 「なんの事だ？」
+
+pis_set 17 0
+
+name_set 舞
+
+line_set 「だってあんた愛洲陰流の門家でしょ」
+line_set 「なら私の弟子じゃない」
+line_set 「私は愛洲陰流二代目<0,古藤織之助>の娘、古藤舞香」
+line_set 「あんたを育てた古藤水香の妹だよ」
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「古藤水香の妹？」
+line_set 「ババァの妹だと？」
+line_set 「そんな馬鹿な！」
+line_set 「ババァって百歳越えてたって自分で言ってたぞ」
+line_set 「それに・・・」
+line_set 「古藤織之助って百年ぐらい前に生きてた人間だろ」
+line_set 「だったらお前の年齢は・・・」
+
+kgd_layer3_set 3 Kgd\Ma_005.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「失礼ね！」
+line_set 「乙女に歳を聞くなんて！」
+line_set 「見た目に惑わされるようじゃまだまだね」
+line_set 「百年以上生きてると」
+line_set 「いろいろな術が使えるのよ」
+
+name_set 双厳
+
+line_set 「術だと・・・」
+line_set 「貴様よもや無影と同じような術で・・・」
+
+name_set 舞
+
+line_set 「んなわけないでしょ」
+line_set 「若返ったり生き返ったたりするような術は邪道なの、使えたって使わないわよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Ma_001.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「この娘は」
+
+nvl_on
+
+line_set と、いい舞は自らの体を指さす。
+
+adv_on
+
+line_set 「江戸隠密の娘よ」
+line_set 「まあまあ腕は立つけど」
+line_set 「まぁ、普通よりってところかしらね」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「この娘自体は古藤織之助の娘ではないわ」
+line_set 「ここにあるのは、古藤織之助の娘、古藤舞香の心だけよ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「乗り移ったのか？」
+
+name_set 舞
+
+line_set 「あんたね」
+line_set 「人を幽霊みたいに言わないでよ」
+line_set 「忍術の三活法のうち妙活よ」
+
+nvl_on
+
+line_set 忍術の三活法のうち妙活は、
+line_set 鳥獣を飼い慣らすこと、
+line_set また偽音、
+line_set 忍者用具の使用、
+line_set 読心術、
+line_set 催眠術、
+line_set となっている。
+
+nvl_line_clear
+
+line_set 双厳には舞の術がこれの何にあたるかは、まったく分からなかった。
+
+adv_on
+
+line_set 「まぁ、貴方が私を古藤織之助の娘だと信じようが信じまいが」
+line_set 「少なくとも私は貴方以上に愛洲陰流を知るものだってことはたしかね」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「それで・・・愛洲陰流の者がなぜ幕府の犬なんかやって淡炎島をかぎまわっているのだ？」
+
+name_set 舞
+
+line_set 「あら、愛洲陰流の人間がここに来るとしたら理由なんてそんなにないでしょ」
+
+name_set 双厳
+
+line_set 「ほう・・・」
+
+name_set 舞
+
+line_set 「一つ目は貴方よ」
+line_set 「双厳ちゃん」
+line_set 「お姉ちゃんが死んじゃったからあんた修行の途中でしょ？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「印可を与えにきたというわけか？」
+
+name_set 舞
+
+line_set 「うぬぼれないでね」
+line_set 「貴方が陰流の正式な印可を受けるなんて十年早いわよ」
+line_set 「あんなでき損ないの陰流で印可なんてでるわけないじゃないの」
+
+name_set 双厳
+
+line_set 「ほう」
+line_set 「ならばわざわざ淡炎島まで俺が未熟者だと言いにきたのか？」
+
+name_set 舞
+
+line_set 「そうね、中途半端な修行しかしてないような者を愛洲陰流の剣士なんて名のられたらたまらないからね」
+
+name_set 双厳
+
+line_set 「ふん」
+line_set 「ならば愛洲陰流の剣士を名のらなければいいわけだな」
+
+name_set 舞
+
+line_set 「そんなわけないでしょ」
+line_set 「愛洲陰流の太刀筋を使ってれば双厳ちゃんが自ら名のらなくても」
+line_set 「貴方の事を愛洲陰流の剣士だと思うわ」
+
+name_set 双厳
+
+line_set 「ならどうする？」
+line_set 「俺が使えるのは愛洲陰流のみだ、これを使わない事は剣を捨てる事になる」
+line_set 「俺が剣を捨てるとはつまり」
+
+name_set 舞
+
+line_set 「うん」
+line_set 「だからね、貴方の剣を封じにきたのよ」
+line_set 「つまりは・・・」
+
+name_set 双厳
+
+line_set 「つまり殺しにきたと・・・」
+line_set 「そう言いたいわけだな」
+
+name_set 舞
+
+line_set 「うん」
+line_set 「貴方が愛洲陰流を受け継ぐ資格がないなら死んでもらうつもりだったよ」
+
+name_set 双厳
+
+line_set 「だった？」
+line_set 「なら今はどうなんだ？」
+
+name_set 舞
+
+line_set 「うん？」
+line_set 「私ね、結構双厳ちゃんが気に入ったから殺すのやめようかな？とか考えたわけよ」
+
+name_set 双厳
+
+line_set 「くくくく・・・」
+line_set 「まるでいつでも殺せるような言い方だな」
+
+name_set 舞
+
+line_set 「殺せるよ」
+line_set 「だって相打ち覚悟なら簡単じゃん」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「この肉体は私の本体ではないわ」
+line_set 「この娘が斬られても私は死なないわよ」
+
+name_set 双厳
+
+line_set 「チッ・・・」
+line_set 「てめぇもあのババァ同様とんでもない妖怪だな」
+
+name_set 舞
+
+line_set 「あら、私はお姉ちゃんほど妖怪じゃないわよ」
+line_set 「だってほらこんなにかわいいでしょ？」
+
+nvl_on
+
+line_set 舞は双厳にむかってかわいらしく微笑む。
+
+adv_on
+
+name_set 双厳
+
+line_set 「チッ・・・」
+line_set 「愛洲陰流の人間は化け物ばかりか」
+
+name_set 舞
+
+line_set 「とりあえず愛洲陰流からは正式な印可を与えた者か門下の者以外は剣を振るう事をゆるさないから」
+line_set 「貴方は私の弟子という形にするよ」
+
+name_set 双厳
+
+line_set 「ケッ」
+line_set 「なにが弟子だ」
+line_set 「頼んでもいないのに勝手なことぬかすな」
+
+name_set 舞
+
+line_set 「頼むも頼まないもないわよ、貴方はウチの門下の者なんだから」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「そんな都合はしらん」
+
+name_set 舞
+
+line_set 「陰流はまさに殺人剣よ」
+line_set 「中途半端に学んだものが邪道になったら大変なんだからしかたないの」
+
+name_set 双厳
+
+line_set 「俺に邪道も正道も関係ない・・・」
+line_set 「剣など己を守れればいいだけだ」
+
+name_set 舞
+
+line_set 「それは違うわ・・・」
+line_set 「邪道と関係を持ちたくなくても持ってしまうのが愛洲陰流を継ぐものとして宿命よ・・・」
+line_set 「だって、貴方はすでに邪道と剣を交えているんだもん」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「無影か」
+
+name_set 舞
+
+line_set 「彼は元々は愛洲陰流の剣士よ」
+line_set 「彼が使う真田陰流は愛洲陰流の流れを受け継ぐもの」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「それはババァから聞いている・・・」
+line_set 「ヤツは愛洲陰流の邪道を受け継いだと・・・」
+
+nvl_on
+
+line_set 新陰流の開祖は上泉伊勢守信綱とされている。
+line_set これが多くの分派を生む事になる事は何度も述べたわけであるが。
+line_set しかしすべての新陰流の源流はやはり双厳の使う愛洲陰流であるといっていい。
+
+nvl_line_clear
+
+line_set 一般的には愛洲陰流を発展させ新陰流にしたといわれているが、そうとも言い切れない部分も多々あった。
+line_set たとえば新陰流目録の第一部は飛燕であるが、これは陰流第一部猿飛を改良したものだといわれる。
+line_set この猿飛はその後、剣術の歴史からは姿を消すが、多くの忍術には盛んに取り入れられていった。
+
+nvl_line_clear
+
+line_set つまり剣術において飛燕、忍術において猿飛という形になっていった。
+line_set もし飛燕が猿飛を改良したものであるならば、飛燕を使う剣士が猿飛を使う忍に後れをとるはずがない。
+
+nvl_line_clear
+
+line_set しかし現実は、多くの新陰流の剣士が猿飛の前に散っていた。
+line_set 上泉伊勢守信綱以前の陰流には、新陰流にない多くの技が眠っていると言われているゆえんもそこにある。
+
+nvl_line_clear
+
+line_set ”殺人剣”よりも”活人剣”を奥義とした上泉伊勢守信綱は、
+line_set 新陰流から多くの邪道を切り離したとも伝えられている。
+
+nvl_line_clear
+
+line_set その切り離しとは第一部からはじまる。
+line_set つまり猿飛とは邪道として切り離された流れなのだ。
+
+nvl_line_clear
+
+line_set 飛燕と猿飛とはこの思想により分離された光と影のような存在なのである。
+
+nvl_line_clear
+
+line_set 飛燕とは”活人剣”にいたるための第一部、猿飛とは”殺人剣”にいたる第一部なのだ。
+
+nvl_line_clear
+
+line_set 猿飛と聞いて、皆が思い浮かぶのは、”猿飛佐助”であろう。
+line_set 実はその想像は正しい。
+line_set 彼の名前にある猿飛とは陰流の猿飛の事である。
+line_set 猿飛とは個人の名前ではなく術の名前であり、
+line_set つまり猿飛の術を得意とした間者の謂いである。
+
+nvl_line_clear
+
+line_set この猿飛佐助が真田の間者であるというのは偶然ではない。
+line_set 上泉信綱が邪道とした陰流の流れは真田に渡り真田陰流として忍術として発展した。
+
+adv_on
+
+line_set 「一般には知られていないが」
+line_set 「陰流は上泉と無影によって二つに分離した」
+line_set 「一方は剣術として世に広まり、一方は忍術の流れとして人知れず広まった・・・」
+
+name_set 舞
+
+line_set 「でもそれも関ヶ原の戦で真田が滅ぶ事により終わったわ」
+line_set 「真田陰流は真田とともに滅びた・・・」
+
+name_set 双厳
+
+line_set 「が、そうはいかなかった」
+line_set 「真田陰流は滅ばなかった」
+line_set 「無影は禁忌まで使って幽鬼としてこの世にとどまった・・・」
+
+name_set 舞
+
+line_set 「あの子もね、本当はそんなに悪い子じゃなかったんだけどね・・・」
+line_set 「忠義にあつく、とても素直ないい子だったんだけど・・・」
+line_set 「その素直さがね・・・」
+
+name_set 双厳
+
+line_set 「ヤツは自らの肉体を取り戻すために二重影の儀式を行った」
+line_set 「この儀式は憑代とする子供から新たに肉体を得ようとするものだ」
+line_set 「その時使われた子供が・・・」
+line_set 「俺だ・・・」
+line_set 「やつは影を埋め込む事により俺から肉体を奪おうとした」
+line_set 「ババァの助けが無ければおれの肉体は今頃、無影のものになっていたであろうな・・・」
+line_set 「といってもその時の記憶などないのだがな・・・」
+
+name_set 舞
+
+line_set 「そうね・・・」
+line_set 「貴方まだまともに歩くこともできないような赤ん坊だったからね・・・」
+line_set 「それがこんな大きくなってねぇ」
+
+name_set 双厳
+
+line_set 「ババァみてぇな言い方だな」
+
+name_set 舞
+
+line_set 「あら本当は私、おばあちゃんだからね」
+line_set 「しかたないわよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「くす、お姉ちゃん甘いからね」
+line_set 「私はね、双厳ちゃん」
+line_set 「あの時も今のように・・・」
+line_set 「貴方を殺そうとしたのよ」
+line_set 「貴方ごと無影の影を殺せば、すべて片が付くって思ったからね・・・」
+line_set 「でもね」
+line_set 「お姉ちゃん」
+line_set 「貴方を愛洲陰流の正統な剣士として育てるって言ってきかなかった・・・」
+line_set 「くす」
+line_set 「双厳ちゃん？なんでお姉ちゃんは貴方を守ろうとしたんだろうね？」
+
+name_set 双厳
+
+line_set 「しらん・・・」
+
+name_set 舞
+
+line_set 「そうね」
+line_set 「貴方が知る必要なんてないものね」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「無影・・・」
+line_set 「あの子はね・・・」
+line_set 「まじめでいい子だったんだけどね・・・」
+line_set 「忠義に立ちすぎたのよ・・・」
+line_set 「あの子、真田が滅ぶ時にその場にいれなかったから・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「いなかった？」
+line_set 「やつは関ヶ原には出陣しなかったのか？」
+
+name_set 舞
+
+line_set 「なんでも真田の考えであの子、その時期は唐の国に渡っていたらしいわ」
+
+name_set 双厳
+
+line_set 「唐？なぜだ？」
+
+name_set 舞
+
+line_set 「さぁ・・・もしかしたら陰流の源流を手に入れようとでも思ったのかしら？」
+
+name_set 双厳
+
+line_set 「陰流の源流？」
+
+name_set 舞
+
+line_set 「私も直接はしらないけど愛洲移香斎は武者修行の時に唐に渡っていた時期があるというわ」
+line_set 「一説には陰流の原型は中国にもあるというわ」
+
+name_set 双厳
+
+line_set 「そうなのか？」
+
+name_set 舞
+
+line_set 「あくまでも一説だけどね」
+line_set 「ただ真田としてはそれでも陰流の原型が必要だったのかもしれない・・・」
+
+name_set 双厳
+
+line_set 「あそこは忍びによるゲリラ的作戦が多いからな、陰流の原型を求めていたのも、うなずけるか・・・」
+
+name_set 舞
+
+line_set 「あの子はただ真田のためにと唐に渡ったんだけど、あの子が帰ってきた時には・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「まじめな子だったからねー凄く悔やんでね・・・」
+line_set 「それで・・・」
+
+name_set 双厳
+
+line_set 「ケッ」
+line_set 「それで異形と化したか」
+line_set 「迷惑な話だ」
+line_set 「滅んだ国の復讐のために俺は呪いをかけられたわけだろ？」
+
+name_set 舞
+
+line_set 「そうね・・・」
+line_set 「たしかにそう・・・」
+line_set 「ただ・・・」
+
+nvl_on
+
+line_set そこで舞は一端言葉をとめる。
+
+adv_on
+
+line_set 「二重影の呪いがあの子が考えるようなものならいいのだけどね・・・」
+
+name_set 双厳
+
+line_set 「どういう事だ？」
+line_set 「それは？」
+
+name_set 舞
+
+line_set 「二重影を生む呪いの儀式はあの子だけで作り上げたものではないわ・・・」
+line_set 「というより、剣士であるあの子があんな高度な呪術を使えるわけがない・・・」
+line_set 「誰かがあの子を拐かした可能性がある・・・」
+
+name_set 双厳
+
+line_set 「それが誰だかわかるのか？」
+
+name_set 舞
+
+line_set 「ううん」
+line_set 「全然」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「だからさぁ」
+line_set 「少し引っかかるのよね・・・」
+line_set 「無影は表に出てくるのに、二重影を生む儀式をした張本人はまったく姿をあらわさないじゃない」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なぜだ？」
+
+name_set 舞
+
+line_set 「うーん」
+line_set 「わからないけど引っかかるのよね・・・」
+line_set 「少なくともそいつは無影の目的を果たすためにその儀式を行ったとは思えないのよね・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「たしかに・・・」
+
+name_set 舞
+
+line_set 「まぁ、憶測なんだけどね」
+
+name_set 双厳
+
+line_set 「ふむ・・・」
+
+name_set 舞
+
+line_set 「とりあえず愛洲陰流の邪道まで陥れた無影と中途半端な愛洲陰流の双厳ちゃん」
+line_set 「これの始末をつけるのが今回の目的よ」
+
+name_set 双厳
+
+line_set 「ほう・・・」
+line_set 「それはよかったな」
+line_set 「だが俺にはお前の目的なんて関係ない」
+line_set 「俺に関わるな」
+
+name_set 舞
+
+line_set 「なぬ！」
+line_set 「若造の分際でなまいきな口たたくわね」
+line_set 「いいわ」
+line_set 「構えなさい」
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「んだと？」
+
+name_set 舞
+
+line_set 「いいから構えなさい！」
+
+nvl_on
+
+line_set 舞は剣を鞘に戻し双厳に向かい合う。
+line_set それに対して双厳も柄に手をかける。
+
+adv_on
+
+name_set 双厳
+
+line_set 「チッ・・・」
+line_set 「またやろうっていうのかよ」
+
+kgd_layer3_set 3 Kgd\Ma_005.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「うるさいわね」
+line_set 「だまって構えてなさい！」
+line_set 「いくわよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Ma_003.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 舞は鞘に収まったままの剣を地に構える。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「まさか・・・」
+
+nvl_on
+
+line_set 舞は剣を地の構えから徐々に天に向かい上げていく。
+
+nvl_line_clear
+
+line_set 「こいつ・・・落水をやる気か？！」
+
+nvl_line_clear
+
+line_set その形はまさに、陰流、新陰流の歴史を含めて、愛洲陰流の開祖である愛洲移香斎と、
+line_set そして二つ影双厳しか使うことができないと思われていた落水であった。
+
+adv_on
+
+line_set 「まさか・・・」
+
+name_clear
+
+line_set シュ
+
+nvl_on
+
+line_set 一瞬の刃の輝きと風を斬る音・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Ma_001.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「くす・・・」
+
+nvl_on
+
+line_set 双厳の前に浮かぶ鞘から露のような光が落ちたと思ったときにはすでに、
+line_set 剣が双厳の脇に達していた。
+
+adv_on
+
+line_set 「どう？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set さすがの双厳も言葉がでない。
+
+adv_on
+
+name_set 舞
+
+line_set 「あんたの落水はね」
+line_set 「なまじっかスピードがあるからなんとか形になってるってだけで、動き自体には無駄がありすぎなの」
+line_set 「あんなもの愛洲移香斎が使った落水と同じなんていわないの！」
+line_set 「腰を落として剣を鞘から抜くとき、抜けないかもしれないという恐怖が抜けきらないから」
+line_set 「引き抜く力が強すぎるの、だから剣を引き抜いた後その反動で次の動作が遅くなってるのよ」
+line_set 「だから私の方が力も速度も弱いはずなのにほぼ同速の落水がうてるの、わかった？」
+
+name_set 双厳
+
+line_set 「口だけではないようだな・・・」
+line_set 「よもや落水をはなつとはな・・・」
+
+name_set 舞
+
+line_set 「あったりまえでしょ、私は双厳ちゃんの師匠よ」
+line_set 「あんたにできて私にできない事があるわけないでしょ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「あんたが俺の恩人の妹なのはわかった」
+line_set 「たしかにあんたの愛洲陰流は本物だ・・・」
+line_set 「が、それでも俺には関わるな」
+line_set 「俺はすでに愛洲陰流の門下ではない」
+line_set 「今は俺はただの素浪人だ・・・」
+
+name_set 舞
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「自分の落とし前は自分でつける」
+line_set 「俺に呪いをかけた無影は俺自身の手で殺す」
+
+name_set 舞
+
+line_set 「・・・」
+line_set 「うん、いいでしょ」
+line_set 「まだまだ未熟だけどやってみなさい」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「無影は貴方に任せるわ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「ただし、無影を倒した後は私の下で一から修行をやり直してもらうからね」
+line_set 「わかった？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「分かったら返事しなさい」
+
+name_set 双厳
+
+line_set 「そんな約束などできるか」
+
+name_set 舞
+
+line_set 「ったく・・・」
+line_set 「どこまで聞き分けのない子かしら」
+line_set 「まぁいいわ」
+line_set 「とりあえず、無影以外に貴方の奥の手を使ってはだめよ」
+
+name_set 双厳
+
+line_set 「！？」
+line_set 「奥の手だと？」
+
+name_set 舞
+
+line_set 「そう、九字兼定よ」
+
+name_set 双厳
+
+line_set 「なぜそんな事まで・・・」
+
+name_set 舞
+
+line_set 「あんまり私をなめるなよ」
+line_set 「伊達に百二十年も生きてないんだから」
+line_set 「あっ、大丈夫よ、無影はまだ知らないから」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「妖怪め・・・」
+
+kgd_layer3_set 3 Kgd\Ma_005.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「失礼ね！！！！」
+
+name_set 双厳
+
+line_set 「どちらにしろあんたの忠告は聞けない」
+line_set 「明日、俺はあのヒルコの呪いをふりまくあの異形を九字兼定でしとめる」
+
+kgd_layer3_set 3 Kgd\Ma_001.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「だめよ」
+line_set 「無影に手の内ばらすじゃないの」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「その時はその時だ」
+line_set 「明日使わなければ無影の前にヒルコの呪いで死ぬことになる」
+
+name_set 舞
+
+line_set 「あっそれ？」
+line_set 「大丈夫よ」
+line_set 「私、作戦考えたから」
+
+name_set 双厳
+
+line_set 「作戦？」
+
+name_set 舞
+
+line_set 「うん」
+line_set 「ちょっとした、アイデアとおまじないで呪いなんてへっちゃらよ☆」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ほう・・・」
+
+name_set 舞
+
+line_set 「あー信じてないなー」
+line_set 「ったく本当にかわいくないなー」
+line_set 「こんな事ならガキの頃殺しておけばよかったよん」
+
+nvl_on
+
+line_set 舞は袖から針のようなものをとりだす。
+
+adv_on
+
+name_set 舞
+
+line_set 「少しじっとして・・・」
+
+nvl_on
+
+line_set 舞は双厳の腹の辺りを探りはじめる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「なんの冗談だ？」
+
+kgd_layer3_set 3 Kgd\Ma_005.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「少しだまってなさい！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Ma_001.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「ここだわ」
+
+name_set 双厳
+
+line_set 「痛っ！」
+line_set 「貴様、なにを・・・」
+
+pis_set 16 0
+
+name_set 舞
+
+line_set 「えっ？ちょっとね、<0,点穴>に針を刺したのよ」
+
+name_set 双厳
+
+line_set 「なんだそれは？」
+
+kgd_layer3_set 3 Kgd\Ma_002.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「あー双厳ちゃんに医学の話なんてわからないから説明すんのめんどいー、嫌ー」
+line_set 「まぁ簡単にいって、人体の新陳代謝をうながして二重影の発動を早めたのよ」
+
+name_set 双厳
+
+line_set 「なんだと？」
+line_set 「二重影の発動を早めただと？」
+
+kgd_layer3_set 3 Kgd\Ma_001.kgd
+kgd_layer3_param 3 252 0 0 0 296 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 舞
+
+line_set 「まぁ、最後まで聞きなさい」
+line_set 「たぶん明日の亥の刻（深夜十時）頃に発動するようにしたわ」
+
+name_set 双厳
+
+line_set 「亥の刻・・・」
+
+name_set 舞
+
+line_set 「いつもその時間なのよあの異形が出てくるのはね」
+
+name_set 双厳
+
+line_set 「なにをする気だ？」
+
+name_set 舞
+
+line_set 「貴方ばかりはめられてるのも面白くないでしょ？」
+line_set 「今度はこっちが無影とあの異形をはめてやるのよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・・・・・」
+
+adv_on
+
+jump_branch1 59901 251
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+jump_auto 36
+@44
+!254
+jump_choice 37 ◆登る
+jump_choice 38 ◆山道へ移動
+@37
+@42
+@43
+jump_branch1 58494 286
+
+kgd_layer1_set 1 Kgd\Be_004.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+
+jump_auto 39
+#286_3
+
+kgd_layer1_set 1 Kgd\Be_013.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+@39
+
+jump_choice 40 ◆反対側を見る
+jump_choice 41 ◆降りる
+@40
+jump_branch1 58582 286
+
+section_jump_branch1 286
+
+jump_auto 42
+#286_4
+
+section_jump_branch2 286
+
+jump_auto 43
+@41
+
+section_jump_branch2 286
+
+kgd_layer1_set 1 Kgd\W_006.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 44
+@48
+@52
+
+kgd_layer2_set 1 Kgd\B_019.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 45 ◆遺跡へ移動
+jump_choice 46 ◆山道へ移動
+@45
+
+kgd_layer2_set 1 Kgd\B_023.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@50
+
+jump_choice 47 ◆遺跡の中に入る
+jump_choice 48 ◆森林へ移動
+@47
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+jump_choice 49 ◆遺跡の外に出る
+@49
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+jump_auto 50
+@38
+@46
+@54
+
+kgd_layer2_set 1 Kgd\B_015.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 51 ◆大岩へ移動
+jump_choice 52 ◆森林へ移動
+jump_choice 53 ◆屋敷前へ移動
+@22
+@53
+@65
+
+kgd_layer2_set 1 Kgd\B_035.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 54 ◆山道へ移動
+jump_choice 55 ◆屋敷内へ移動
+jump_choice 56 ◆村への道へ移動
+@20
+@62
+
+kgd_layer2_set 1 Kgd\B_011.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 57 ◆志乃の部屋へ移動
+jump_choice 58 ◆廊下へ移動
+@21
+@61
+
+kgd_layer2_set 1 Kgd\B_027.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 59 ◆蔵に入る
+jump_choice 60 ◆廊下へ移動
+@59
+
+kgd_layer2_set 1 Kgd\B_073.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 61 ◆蔵から出る
+@57
+@64
+
+kgd_layer2_set 1 Kgd\B_007.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 62 ◆大広間へ移動
+jump_choice 63 ◆隠し地下室へ移動
+@63
+
+kgd_layer2_set 1 Kgd\B_069.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 64 ◆外へ出る
+@56
+@67
+
+kgd_layer2_set 1 Kgd\B_043.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 65 ◆屋敷前へ移動
+jump_choice 66 ◆村へ移動
+@66
+@70
+@72
+
+kgd_layer2_set 1 Kgd\B_047.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 67 ◆屋敷前への道へ移動
+jump_choice 68 ◆海岸へ移動
+jump_choice 69 ◆港へ移動
+@69
+@73
+
+kgd_layer2_set 1 Kgd\B_063.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 70 ◆村へ移動
+jump_choice 71 ◆海岸へ移動
+@68
+@71
+@76
+@78
+
+kgd_layer2_set 1 Kgd\B_051.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 72 ◆村へ移動
+jump_choice 73 ◆港へ移動
+jump_choice 74 ◆物見やぐらへ移動
+jump_choice 75 ◆森林へ移動
+@74
+
+kgd_layer2_set 1 Kgd\B_067.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 76 ◆海岸へ移動
+@75
+@80
+
+kgd_layer2_set 1 Kgd\B_055.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 77 ◆遺跡へ移動
+jump_choice 78 ◆海岸へ移動
+@77
+
+kgd_layer2_set 1 Kgd\B_059.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@82
+
+jump_choice 79 ◆遺跡の中に入る
+jump_choice 80 ◆森林へ移動
+@79
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+jump_choice 81 ◆遺跡の外に出る
+@81
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+jump_auto 82
+#251_2
+
+kgd_layer2_set 1 Kgd\B_035.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+music_play 5
+
+nvl_on
+
+line_set 双厳は幕府の隠密との一戦を終え、なんとか屋敷まで帰ってきた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「痛・・・」
+line_set 「結構やられたな・・・」
+
+nvl_on
+
+line_set 双厳の上着はところどころ血が滲んでいる。
+line_set さすがの双厳も十数人におよぶ忍びとの一戦でまったくの無傷とはいかなかった。
+
+adv_on
+
+line_set 「まぁ・・・こんなところだろ・・・」
+
+nvl_on
+
+line_set 双厳はそのまま屋敷の門をくぐろうとした、
+line_set その時・・・。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Mi_011.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「ど、どうしたの？」
+line_set 「その傷・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「少しな・・・」
+
+name_set 命
+
+line_set 「少しじゃないでしょ！」
+line_set 「血が出てるじゃない・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set 命
+
+line_set 「見せて・・・」
+
+nvl_on
+
+line_set 命は無理矢理双厳の傷口を確かめる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「痛・・・・」
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「これ・・・」
+
+nvl_on
+
+line_set 命は双厳の顔を見る。
+
+adv_on
+
+line_set 「・・・・・・・」
+
+nvl_on
+
+line_set 命には、
+line_set すぐにそれが刀による傷である事が分かった。
+line_set が、それには一切触れない・・・。
+
+adv_on
+
+line_set 「手当するけど・・・」
+line_set 「貴方の部屋にいっていい？」
+
+name_set 双厳
+
+line_set 「大丈夫だこれぐらい」
+
+kgd_layer3_set 3 Kgd\Mi_011.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「大丈夫じゃないわよ」
+line_set 「結構深い傷じゃないの！」
+
+name_set 双厳
+
+line_set 「うるせぇな・・・」
+line_set 「大丈夫ったら大丈夫なんだよ」
+line_set 「この程度の傷は日常茶飯事なんだよ」
+
+name_set 命
+
+line_set 「それが命取りになることだってあるでしょ！」
+
+name_set 双厳
+
+line_set 「なんねぇよ・・・」
+
+name_set 命
+
+line_set 「なるわよ！」
+
+name_set 双厳
+
+line_set 「なんねぇよ！」
+
+kgd_layer3_set 3 Kgd\Mi_029.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 命は双厳を睨みつける。
+line_set その瞳は徐々に潤んできているように見える。
+
+adv_on
+
+name_set 命
+
+line_set 「・・・」
+line_set 「なんで貴方達は・・・」
+line_set 「そうやって・・・」
+
+nvl_on
+
+line_set 命はうつむく、
+line_set その肩は震えている。
+
+adv_on
+
+line_set 「そうやって・・・」
+line_set 「なんで・・・」
+line_set 「意地をはるの・・・」
+line_set 「私には分からない」
+line_set 「剣に生きるなんていって・・・」
+line_set 「貴方達まるで子供みたい・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「なんで・・・」
+line_set 「なんでそうやって・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「少しぐらいは、冷静に今の状態を考えたらどうなの？」
+line_set 「いままで貴方はひとりで戦ってきたかもしれない・・・」
+line_set 「けど、今はひとりではないわ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「貴方が今倒れたら、誰がこの儀式を止める事ができるの？」
+line_set 「十兵衛さまは怪我をなさってるわ」
+line_set 「とても存分に戦える体ではないわ」
+line_set 「くやしいけど・・・」
+line_set 「今は貴方だけが頼りなの」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「貴方の命を狙っていたから信用できないかもしれないけど・・・」
+line_set 「今だけでいいの・・・」
+line_set 「今だけでいいから・・・」
+line_set 「私たちを信用して！」
+line_set 「この島だけの間でも、私たちを仲間として認めて」
+line_set 「そうじゃなきゃ、助かるものも助からないわ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「この島からみんなで生きて帰るの！」
+line_set 「そうじゃなきゃ・・・」
+line_set 「なんのためにみんな死んだのよ」
+
+jump_route_036 83 5 0 1
+jump_choice 84 ◆すまん・・・
+jump_choice 85 ◆何もいわない
+@84
+
+affection_plus 5
+
+name_set 双厳
+
+line_set 「すまん・・・」
+
+name_set 命
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 命に連れられて双厳は自室に向かう。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_fade_unk 0
+
+wait 2000
+
+kgd_layer2_set 0 Kgd\B_076.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 命は手際よく双厳に手当を施す。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 0 Kgd\Mi_022.kgd
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「終わったわ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「今度はちゃんと怪我したらいってね」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set 命
+
+line_set 「さてと・・・」
+
+nvl_on
+
+line_set 命は立ち上がる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「すまんな・・・」
+
+kgd_layer3_set 3 Kgd\Mi_009.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「え？」
+line_set 「あ、いいって・・・」
+
+name_set 双厳
+
+line_set 「それと・・・」
+
+name_set 命
+
+line_set 「？」
+
+name_set 双厳
+
+line_set 「ありがとうな・・・」
+
+nvl_on
+
+line_set 双厳はそっぽを向いて命に礼を言う。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_002.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+line_set 「二つ影・・・」
+line_set 「少し散歩にでない？」
+
+name_set 双厳
+
+line_set 「あ？」
+
+jump_choice 86 ◆行かない
+jump_choice 87 ◆行く
+@86
+
+line_set 「いや・・・少し休みたい・・・」
+
+kgd_layer3_set 3 Kgd\Mi_019.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「そ、そうだよね・・・」
+line_set 「ごめん、変なこと言って・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+nvl_on
+
+line_set 双厳は明日に備えて休む事にした。
+line_set 明日、すべての勝負がつく・・・。
+
+adv_on
+
+jump_auto 88
+@87
+
+line_set 「なんだいきなり？」
+
+kgd_layer3_set 3 Kgd\Mi_009.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「え？」
+line_set 「あ、ごめん冗談よ」
+line_set 「あははははは・・・」
+
+name_set 双厳
+
+line_set 「戦いの後ですこし寝付きが悪そうだ・・・」
+line_set 「散歩でもいくか」
+
+kgd_layer3_set 3 Kgd\Mi_014.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「う、うん」
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_fade_unk 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 仇であった双厳と山道を歩く命。
+line_set ほんの数日前まで双厳を憎んでいたはずなのに、
+line_set 今では彼女の中で違った存在となりつつあった。
+
+adv_on
+
+kgd_layer2_set 0 Kgd\B_015.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 Kgd\Mi_002.kgd
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「私さぁ・・・」
+line_set 「なんか・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「この島から生きて帰れたらもう剣はあきらめようかなぁとか思ってるんだ・・・」
+
+name_set 双厳
+
+line_set 「ほう・・・」
+line_set 「それは賢明だな」
+line_set 「もう戦国の世ではない・・・」
+line_set 「その余韻もすでに冷めつつある」
+
+name_set 命
+
+line_set 「そうだね・・・」
+
+name_set 双厳
+
+line_set 「人を斬ってなんぼの世界はもう終わりだ」
+line_set 「剣なんて振るっていても何も生まれない」
+
+name_set 命
+
+line_set 「・・・」
+line_set 「でも貴方は剣を振るい続けるのでしょ？」
+line_set 「なんで、二つ影は剣を振るうの？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「さぁな・・・」
+line_set 「よくわからん・・・」
+
+name_set 命
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「己の身を守るためだけに俺は剣を振るってきた」
+line_set 「理由なんてないさ・・・」
+
+kgd_layer3_set 3 Kgd\Mi_027.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「ふーん」
+line_set 「なんか私に説教たれたくせに、何も考えてないのね」
+
+name_set 双厳
+
+line_set 「ああ、そんな事考えても無駄だからな」
+
+name_set 命
+
+line_set 「そう？」
+line_set 「剣士って己の剣の道って考えないとだめなんじゃないの？」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「江戸の柳生但馬は剣の道と禅の道を融合させて考えているみたいだな・・・」
+line_set 「しかし・・・」
+line_set 「俺は神も仏も信じちゃいない」
+line_set 「だから考えても無駄さ・・・」
+
+name_set 命
+
+line_set 「？」
+line_set 「なんで神様とか仏様信じてない事と、剣の振るう意味考える事に意味がないって事が、つながるの？」
+line_set 「たしか禅って神様とかいないんじゃないの？」
+
+name_set 双厳
+
+line_set 「さぁな禅の考えはよくわからんが」
+line_set 「俺はそうとしか思わないってだけの話さ」
+line_set 「剣だけじゃなく」
+line_set 「神がいなければあらゆる事に意味なんてない」
+
+kgd_layer3_set 3 Kgd\Mi_024.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+line_set 「よくわかんないな・・・」
+
+name_set 双厳
+
+line_set 「わからなくていいんだ」
+line_set 「それがわかったところで何の意味もない」
+
+name_set 命
+
+line_set 「あんたって無意味な事ばかりね」
+line_set 「ある意味さびしい人だね」
+
+name_set 双厳
+
+line_set 「ああ、言い得て妙だな」
+
+kgd_layer3_set 3 Kgd\Mi_020.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「不思議な人ね」
+line_set 「黄泉やら呪いやらのど真ん中にいるのに、神様信じないなんて・・・」
+
+name_set 双厳
+
+line_set 「不思議じゃないさ・・・」
+line_set 「俺のいっている神というのはそういうものではないからな・・・」
+line_set 「・・・」
+line_set 「俺の剣は俺の生を肯定するためにある」
+line_set 「それは可能性だ」
+line_set 「それはいつまでたっても可能性であり続ける」
+line_set 「人を殺すのも可能性」
+line_set 「人を生かすのも可能性」
+line_set 「人を愛するのも可能性」
+line_set 「人を憎むのも可能性」
+line_set 「すべてが決定することを拒み続ける可能性」
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+line_set 「桔梗さんを殺したのも・・・可能性なの？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ああ・・・」
+line_set 「そうだ・・・」
+line_set 「それも人がもつ可能性だ」
+
+name_set 命
+
+line_set 「・・・」
+line_set 「なんか貴方ってホントにわけが分からない人ね」
+
+name_set 双厳
+
+line_set 「分かりやすく見えて、全然分からない奴らよりましさ」
+
+name_set 命
+
+line_set 「でも世の中そんな人間ばかりじゃない」
+line_set 「すべてが分かったつもりで、何も分からない人ばかり・・・」
+line_set 「私だってそうだよ」
+
+name_set 双厳
+
+line_set 「くくくく・・・」
+line_set 「俺にとってはお前も十分わけがわからないがな」
+
+kgd_layer3_set 3 Kgd\Mi_020.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「くす」
+line_set 「失礼な人ね・・・」
+
+name_set 双厳
+
+line_set 「さて・・・」
+line_set 「そろそろ帰るか？」
+
+kgd_layer3_set 3 Kgd\Mi_002.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+line_set 「ねぇ・・・」
+line_set 「二つ影・・・」
+
+name_set 双厳
+
+line_set 「？」
+
+kgd_layer3_set 3 Kgd\Mi_016.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「人を愛する可能性ってのも本当にあるの？」
+
+name_set 双厳
+
+line_set 「？」
+
+name_set 命
+
+line_set 「貴方にも人を愛する事によって得られる可能性があるの？」
+
+name_set 双厳
+
+line_set 「さぁな・・・」
+
+name_set 命
+
+line_set 「貴方が持つ・・・」
+line_set 「人を斬る事によって得られる可能性より」
+line_set 「私、人を愛する事によって得られる可能性も見てみたい・・・」
+
+name_set 双厳
+
+line_set 「なんだそりゃ？」
+
+kgd_layer3_set 3 Kgd\Mi_019.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+line_set 「私じゃだめかな・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「私じゃ、その可能性にはなれないかな？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「しらねぇよ・・・」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+kgd_layer3_clear 0
+
+music_stop
+
+nvl_on
+
+line_set そう言うと双厳は命を抱きしめた。
+
+adv_on
+
+section_jump_branch1 288
+
+affection_ecchi 5
+
+nvl_line_clear
+
+gallery_unlock 113
+
+ksd_set Ksd\113.ksd
+
+jump_auto 89
+@83
+@85
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 二人に沈黙が流れる。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_021.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+line_set 「わかった」
+line_set 「出過ぎたまねしてごめんなさい・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「・・・」
+line_set 「これでいいんだ・・・」
+line_set 「俺に仲間なんていらない・・・」
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+nvl_on
+
+line_set 双厳は明日に備えて休む事にした。
+line_set 明日、すべての勝負がつく・・・。
+
+adv_on
+
+jump_auto 90
+@25
+@29
+@33
+@35
+
+name_clear
+
+line_set グサ！
+
+nvl_on
+
+line_set 双厳の反応速度では、敵の攻撃についていけなかった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ば、馬鹿な・・・」
+
+name_clear
+
+line_set ドサ・・・
+
+nvl_on
+
+line_set 双厳はその場で倒れ込む。
+
+adv_on
+
+name_set 双厳
+
+line_set 「く・・・こんな形で死ぬとはな・・・」
+
+music_stop
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@36
+@88
+@89
+@90
+
+music_stop
+
+ksd_set Ksd\037.ksd
+ksd_end

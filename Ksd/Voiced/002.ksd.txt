@@ -1,0 +1,3308 @@
+
+sfx_set 0 Se\017.wav
+sfx_play 0
+
+kgd_layer1_set 0 Kgd\Da_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 4000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+sfx_stop 0
+
+nvl_on
+
+line_set 「お前の体は・・・」
+line_set 「我が体を復活させるための憑代・・・」
+line_set 「さぁ・・・」
+line_set 「発動させろ・・・」
+line_set 「二重影を・・・」
+
+nvl_line_clear
+
+line_set 「ち、違う・・・」
+line_set 「俺は憑代などではない・・・」
+line_set 「俺は」
+line_set 「俺は・・・」
+
+kgd_layer3_set 0 Kgd\En_010.kgd
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+nvl_line_clear
+
+line_set 「さぁ・・・」
+line_set 「お前の心の奥底に潜む声に耳を傾けるがよい」
+line_set 「さぁ・・・」
+line_set 「心の奥底にある・・・」
+line_set 「無明の闇に潜む・・・」
+line_set 「お前の可能性を・・・」
+
+nvl_line_clear
+
+line_set 「や、やめろ・・・」
+
+nvl_line_clear
+
+line_set 「さぁ・・・」
+line_set 「覗いてみろ・・・」
+line_set 「さぁ！！」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+adv_on
+
+name_set 双厳
+
+line_set 「うるせぇ！！！！」
+
+sfx_set 0 Se\006.wav
+sfx_loop1 0
+
+kgd_layer1_set 0 Kgd\En_011.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+line_set 「？！」
+line_set 「ゆ、夢か？」
+
+nvl_on
+
+line_set 波の音が聞こえる・・・。
+line_set そして体が揺れている・・・。
+line_set 双厳の感じるそれは舟の揺れであった。
+
+adv_on
+
+line_set 「ふぅ・・・」
+line_set 「またあの夢か・・・」
+line_set 「・・・」
+line_set 「二重影が発動した次の日は決まってあの夢をみる・・・」
+line_set 「あの夢・・・」
+
+nvl_on
+
+line_set そう言うと、双厳は自分の脇にさした刀をゆっくりと抜いた。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_012.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+line_set 「・・・」
+line_set 「九字兼定・・・」
+
+nvl_on
+
+line_set 双厳の佩刀している九字兼定といわれる刀は業物であるらしく、
+line_set その刀身はまるで透き通っているような感覚を受けるほどに美しい。
+
+adv_on
+
+line_set 「・・・」
+line_set 「呪われた島・・・」
+line_set 「淡炎島（あわほむろしま）でこれを使う事がなければいいがな・・・」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_play 10
+
+sfx_loop2 0
+sfx_stop 0
+
+kgd_layer1_set 0 Kgd\Be_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set その島の名は淡炎島（あわほむろしま）。
+line_set この島は四方を鳥居でかこまれていた。
+line_set 鳥居が海に向かい全方向に立てられているのである。
+line_set これはきわめて奇妙な光景であった。
+line_set たしかに鳥居は人の通り道ではない以上、海側に向いていてもおかしくはない、
+line_set 現にそのような鳥居は珍しくない、海の側にある神社の多くが海に向いている。
+
+nvl_line_clear
+
+line_set それは日本人が古くから持っている海上他界の概念であろうし、
+line_set 海から運ばれるあらゆるものの入り口であろう。
+line_set もちろんその入り口からは幸なるものが通る道でなければならない。
+line_set だが、時には不吉なものも流れくる。
+line_set だからこそ海に向いている鳥居の方向には重要な意味があるのだ。
+
+nvl_line_clear
+
+line_set 向いている方向により幾分か招き入れられる対象を選ぶ事ができるからだ。
+line_set しかしこの島の鳥居はすべての方向に向いている、もちろん鬼門の方角にも・・・。
+line_set それは何を意味するのか・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「話には聞いていたが・・・」
+line_set 「奇妙な光景だ・・・」
+line_set 「鳥居に囲まれた島だ・・・」
+
+nvl_on
+
+line_set 双厳は独り言とも語りともとれる言葉を吐く。
+
+adv_on
+
+name_set 船頭
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 船頭はそんな双厳の声など聞こえないかのように舵をひく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「少し寒いな・・・」
+
+pis_set 33 0
+
+nvl_on
+
+line_set この島はかなり西（というより南）に位置し、双厳が旅した本土よりも気候的にはかなり暖かい。
+line_set とはいってもすでに<0,九月>であり、暦の上でも秋から冬にうつる土用に入っていた。
+line_set 海上はかなり肌寒い。
+
+nvl_line_clear
+
+line_set 「それにしても・・・」
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_011.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 奇妙な舟であった。
+line_set 葦かなにかで出来ているのだろうか？大きな俵をくりぬいたような奇妙な形をしている。
+line_set このような奇妙な舟のわりには、かなり大きく、十数人は乗れる作りになっている。
+line_set もう何年も諸国流浪の旅をしている双厳にしてもこのような奇妙奇天烈なものはあまりみない。
+
+nvl_line_clear
+
+line_set 「この近辺で見られる舟というわけではなさそうだ」
+line_set 「ならば淡炎島特有のものか？」
+line_set 「・・・」
+line_set 「特有だとしても・・・」
+line_set 「こんな不便な物を日常で使うとも思えないが」
+line_set 「なにかしらの宗教儀式に使用するものなのだろうか・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「船頭、面白い舟だな」
+
+name_set 船頭
+
+line_set 「は、はぁ」
+
+name_set 双厳
+
+line_set 「ここではこのような舟をいつも使うのか？」
+
+name_set 船頭
+
+line_set 「い、いいえ・・・・」
+
+nvl_on
+
+line_set 船頭はなぜか言葉につまる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「いつも使わないならなぜ使う」
+
+name_set 船頭
+
+line_set 「は、それは、その・・・」
+line_set 「当主さまのいいつけなので・・・なんとも・・・はぁ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「当主か・・・」
+
+kgd_layer1_set 1 Kgd\Be_001.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+name_set 双厳
+
+line_set 「時に船頭よ」
+
+name_set 船頭
+
+line_set 「はぁ」
+
+name_set 双厳
+
+line_set 「海賊というのはどんな感じだ？」
+
+name_set 船頭
+
+line_set 「あ、はぁ」
+
+name_set 双厳
+
+line_set 「はぁ、ではないだろ」
+line_set 「海賊による被害のためお前の島では俺らのような侍を集めているのだろう」
+
+name_set 船頭
+
+line_set 「は、はぁ」
+line_set 「た、たしかに、そのようなのですが・・・」
+
+name_set 双厳
+
+line_set 「そのよう？」
+
+name_set 船頭
+
+line_set 「わしらはその海賊とやらはまだ見ていないんでなんとも・・・」
+line_set 「そ、それに・・・」
+
+name_set 双厳
+
+line_set 「それに？」
+
+name_set 船頭
+
+line_set 「わしはあの島の住人ではないんで・・・」
+
+name_set 双厳
+
+line_set 「お前あの島の者ではないのか？」
+
+name_set 船頭
+
+line_set 「はぁ」
+line_set 「わ、わしは島の者ではなく、本州の村の船頭です」
+
+name_set 双厳
+
+line_set 「お前は島の者ではないのか？」
+
+name_set 船頭
+
+line_set 「は、はい」
+
+name_set 双厳
+
+line_set 「なぜ、あの島の者が迎えにこない」
+
+name_set 船頭
+
+line_set 「さぁ、ただあの島の者はあまり他の村の者とかかわろうとしませんから・・・」
+line_set 「そのようにしたのでは？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 船頭はそれだけ言うとすぐに口をつぐんだ。
+line_set あまり多くは語りたくないようだ。
+
+nvl_line_clear
+
+line_set 「この男は俺にかかわりたくないのだろう」
+line_set 「というよりあの島に関係する者にか・・・」
+
+nvl_line_clear
+
+line_set あの島にはかなり不吉な言い伝えがある。
+line_set 双厳はそれをこの島に渡ろうとするたびに耳にした。
+
+adv_on
+
+line_set 「だからこそ、あの島に渡ろうとするのさ」
+
+name_set 船頭
+
+line_set 「？」
+
+nvl_on
+
+line_set 船頭が双厳の言葉を聞いて、一瞬怪訝そうな顔でこちらをみたが、
+line_set 双厳と目が合うとすぐに視線をはずし、何も見てないそぶりをした。
+line_set 双厳もそんな事などお構いなしであった。
+line_set それほど彼は興奮していたのだ。
+
+nvl_line_clear
+
+line_set 「こんどこそ俺の呪いの謎が解けるやもしれぬのだから」
+
+nvl_line_clear
+
+line_set 双厳にかけられた呪い。
+line_set それは二重影と呼ばれていた。
+line_set 彼がなぜこんな呪いをかけられたかは謎であるが、
+line_set 古い文献にはこのような呪いがあったと伝えられている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は二つ目の呪われた影をみつめる。
+line_set 昨日もこれのおかげで死にかけたのだ・・・。
+line_set 二つ目の影、
+line_set 二重影は昨日の恐ろしい光景など嘘のように、普通の影のように振る舞っている。
+
+nvl_line_clear
+
+line_set 双厳から数歩右にずれた場所に、
+line_set 双厳自身の影とまったく同じ動きをする影が付いてきている。
+line_set 双厳が右腕をあげれば、双厳自身の影同様の動きをする。
+line_set それは何か悪質な冗談か、
+line_set もしくは、なにか奇術の一種のようであった。
+
+nvl_line_clear
+
+line_set 「しかし・・・」
+line_set 「こいつはそんな生易しいものでない・・・」
+
+nvl_line_clear
+
+line_set そう、
+line_set 何時この影が実体を持ち、双厳を襲うとも限らないのだ。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_011.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set しだいに島が近づく・・・。
+line_set 不気味な島である。
+line_set 普通の者でもそのただならぬ面妖さゆえに胸騒ぎを禁じ得ないであろう。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「しかし・・・」
+line_set 「この感覚・・・」
+
+nvl_on
+
+line_set 双厳は何かを感じていた・・・。
+line_set それは普通の人間が感じるような単なる胸騒ぎではなかった。
+line_set もっと根元的な部分が刺激されるなにか。
+line_set 言葉で言い表せない奇妙な感覚。
+line_set 心が共鳴音を奏でるようなそんな感じであった。
+line_set もしかしたら、共鳴しているのは双厳ではなく
+line_set 双厳に潜む何かだったかもしれない。
+
+nvl_line_clear
+
+line_set 「不吉な予感がする」
+line_set 「今までにないぐらいに・・・・」
+
+nvl_line_clear
+
+line_set 全身に鳥肌が立つ・・・。
+line_set 恐怖とも違うし、
+line_set 武者震いともちがう。
+line_set もっと根源的な何かを感じている。
+line_set 双厳の呪われた部分。
+line_set それが何かを感じているのだ。
+
+nvl_line_clear
+
+line_set 様々な修羅場を抜けてきた。
+line_set 何百人もの役人に囲まれた事もあった。
+line_set 三日かけて百人のごろつきを斬った事もあった。
+line_set 百戦錬磨の剣豪とも幾度も戦った。
+line_set しかし、こんな不安を感じた事はなかった。
+
+nvl_line_clear
+
+line_set 「感じているのは俺の呪われた部分かもしれないな・・・」
+
+nvl_line_clear
+
+line_set 呪い・・・
+line_set それは呪いであるが故に障害である場合が多いが、その呪われた部分で救われた事もまた事実であった。
+
+nvl_line_clear
+
+line_set 「他の予感はあたらないが・・・・」
+line_set 「不吉な予感だけはよくあたる」
+line_set 「呪われた生故に・・・」
+
+adv_on
+
+kgd_layer1_set 1 Kgd\Be_001.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+name_set 船頭
+
+line_set 「少しゆれますから気をつけてください」
+
+nvl_on
+
+line_set 船頭の言うとおりに、
+line_set 島に近づくにつれ波が大きくなっているようだ。
+line_set 舟の横腹を大きな波が打ち付ける。
+line_set そのたびに舟は大きくゆれ、
+line_set 水しぶきがあがる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「！？」
+line_set 「す、凄い揺れだな・・・」
+line_set 「海流か？」
+line_set 「島の近辺の波が荒くなるのは普通としても」
+line_set 「これは・・・」
+line_set 「・・・」
+line_set 「・・・・・・・」
+line_set 「まるで・・・」
+
+nvl_on
+
+line_set 双厳はそこまでつぶやいて言葉を止めた。
+line_set 次の一言は口に出すことすら、はばかられるような気がしたからだ。
+
+nvl_line_clear
+
+line_set 「吸い込まれてるようだ・・・」
+
+nvl_line_clear
+
+line_set まさにそうであった。
+line_set 吸い込まれているようであった。
+line_set 巨大な舟があたかも木の葉のように、たよりなく、ただ島に吸い込まれていく。
+
+adv_on
+
+name_set 船頭
+
+line_set 「へ、へい、海流の関係です」
+
+nvl_on
+
+line_set 船頭が少し遅れて双厳の言葉に答える。
+
+adv_on
+
+name_set 双厳
+
+line_set 「この辺だとこれが普通なのか？」
+
+name_clear
+
+line_set ザバァ！！！！
+
+nvl_on
+
+line_set さらに大きな水しぶきがはねる。
+line_set こんな葦の舟などすぐにでもバラバラになりそうなホドに・・・。
+
+adv_on
+
+name_set 船頭
+
+line_set 「くっ！」
+line_set 「いっ！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 船頭から答えは帰ってこない。
+line_set 舵をとるのに懸命で双厳のそんな言葉など聞こえないようだ。
+
+nvl_line_clear
+
+line_set 「この島でつかわれてる舟だろうから」
+line_set 「バラバラになるなんて事はないだろう・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「それにしても」
+line_set 「不気味な島だな・・・」
+line_set 「まるでこの舟を引き寄せているようだ」
+
+name_clear
+
+line_set ザパーン！！
+
+nvl_on
+
+line_set 甲板はすでに水浸しになっている。
+line_set 双厳も船頭もずぶ濡れになっている。
+
+adv_on
+
+name_set 船頭
+
+line_set 「これはいつにもまして・・・」
+
+nvl_on
+
+line_set 舟は激しくゆれる・・・。
+line_set 激しくゆられながら、
+line_set 島に吸い込まれていった・・・・。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set ・・・。
+line_set ・・・・・・。
+line_set ・・・・・・・・・。
+
+adv_on
+
+kgd_layer1_set 0 Kgd\W_001.kgd
+kgd_layer2_set 0 Kgd\B_061.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+music_play 4
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+nvl_on
+
+line_set 双厳は港に立っている。
+line_set あの荒波にのまれて海中に沈むでもなく、
+line_set 舟が荒波にたえきれずバラバラになるでもなく、
+line_set 岸壁にうちつけられるでもなく、
+line_set 双厳をのせた舟は無傷で島に上陸できた。
+
+adv_on
+
+line_set 「ふぅ」
+line_set 「島についたのはいいが・・・」
+
+nvl_on
+
+line_set 双厳は見知らぬ島の岸壁でひとりたたずんでいる。
+line_set すでに、双厳を運んでくれた舟も、船頭の姿も見えない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「困ったな・・・」
+
+nvl_on
+
+kgd_layer3_set 0 Kgd\Se_001.kgd
+kgd_layer3_param 0 244 0 0 0 312 600
+kgd_layer3_display 0
+
+line_set 双厳　「ふぅ・・・」
+line_set 双厳　「なんとかついたなぁ・・・」
+line_set 船頭　「すみませんが・・・・お侍さま・・・」
+line_set 船頭　「海流の関係もありますんで、すぐに帰らせて　　　いただきたいのですが」
+
+nvl_line_clear
+
+line_set 双厳　「それは困る・・・」
+line_set 双厳　「俺はこの島のことをよく知らない」
+line_set 双厳　「こんなところでほっとかれても・・・」
+line_set 船頭　「ああ、それでしたら」
+line_set 船頭　「たぶん、そのうち島の者が案内にくると思い　　　ますので」
+
+nvl_line_clear
+
+line_set 双厳　「案内？」
+line_set 双厳　「島の者か？」
+line_set 船頭　「たぶんそうだと思います」
+line_set 双厳　「・・・・」
+
+nvl_line_clear
+
+line_set 船頭　「ああ早くしないと帰れなくなります」
+line_set 双厳　「時間によっては島からでれないような、そん　　　なに複雑な海流なのか？この島は」
+line_set 船頭　「へい」
+line_set 双厳　「・・・」
+
+nvl_line_clear
+
+line_set 双厳　「ああ、わかった」
+line_set 船頭　「ではよろしくおねがいします」
+line_set 双厳　「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_line_clear
+
+line_set 「なにがよろしくだ・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「くそ」
+line_set 「誰か来るだと・・・」
+line_set 「誰も来やしないじゃないか」
+line_set 「大して連絡も行き届いてないのか？」
+line_set 「まぁいい・・・」
+line_set 「自力で動くか・・・」
+
+nvl_on
+
+line_set 「さて何処へいくか？」
+line_set 「まずは何処にいくべきか・・・」
+
+nvl_line_clear
+
+line_set 双厳は自分がこの島に渡った目的を思い出した。
+
+nvl_line_clear
+
+line_set 「とりあえず・・・」
+line_set 「この近辺の海で海賊が暴れているらしい」
+line_set 「それをどうにかするために」
+line_set 「この島の当主である阿波路家が侍を雇った」
+line_set 「侍を雇ったといっても仕事にあぶれた浪人なのだがな・・・」
+
+nvl_line_clear
+
+line_set 時は寛永１７年、
+line_set 戦国の余燼も未だに消えず、
+line_set ちまたにあるじと食を求める浪人が溢れ、
+line_set 旗本の辻斬りが横行する時代である。
+line_set まともな用心棒が望めるべくもない。
+
+nvl_line_clear
+
+line_set 「俺の他の用心棒がいたら、やっかいかもな・・・」
+line_set 「ヘタしたら海賊以上の驚異になることも考えられるからな・・・」
+
+nvl_line_clear
+
+line_set 「もちろん、そんな目的など表向きな事だ」
+
+nvl_line_clear
+
+line_set 双厳はこの島に自らにかけられた呪いを解く鍵の匂いをかぎつけていた。
+
+nvl_line_clear
+
+line_set 「この島は普通ではない」
+
+nvl_line_clear
+
+line_set それは面妖な島の景色だけでなく、
+line_set この島の近辺に広がる、この島に関わる恐ろしげなる言い伝えからも知れた。
+
+nvl_line_clear
+
+line_set 「それこそ、この島の言い伝えをしれば海賊だって気味悪がってこの島には近づきはしまい・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「この島を襲う海賊は」
+line_set 「この島にまつわる噂をしらないのだろうか・・・」
+line_set 「・・・・」
+line_set 「それか」
+line_set 「相当剛気な海賊なのだろうか・・・」
+line_set 「まあ、どうでもいいがな・・・」
+line_set 「さてどこに行こうか？」
+
+jump_choice 0 ◆阿波路家
+jump_choice 1 ◆ベルギー
+@0
+
+name_set 双厳
+
+line_set 「まぁ、阿波路家だろうな」
+line_set 「・・・」
+line_set 「って・・・」
+line_set 「何処だよそれ？」
+line_set 「それすら知らねぇよ・・・」
+line_set 「どうするんだよ・・・」
+
+jump_auto 2
+@1
+
+name_set 双厳
+
+line_set 「そうそう」
+line_set 「それでベルギーワッフルのお店を開くんだよ」
+line_set 「それが昔からの夢だから・・・」
+line_set 「あの味気ないぱさぱさ感がたまらなくＬＯＶＥなんだよねぇ」
+line_set 「って、ベルギーワッフルって何？」
+line_set 「どだい、ベルギーって何？」
+line_set 「なんか場所なのか？」
+line_set 「わからん・・・」
+line_set 「なんでいきなりそんな言葉が頭に浮かんだのだろう・・・」
+line_set 「なにかに操られているのか？」
+@2
+
+name_set 少女
+
+sfx_set 2 Vox\7115.wav
+sfx_play 2
+
+line_set 「もし」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ん？」
+
+nvl_on
+
+line_set 考え込んでいる双厳に少女が声をかける。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Sa_001.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 少女
+
+sfx_set 2 Vox\7120.wav
+sfx_play 2
+
+line_set 「お侍さま」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「？」
+
+nvl_on
+
+line_set 悩んでいる双厳の反応はすこぶる鈍い。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ん？」
+line_set 「俺か？」
+
+nvl_on
+
+line_set 双厳は話しかけてきた少女の顔を睨みつける。
+line_set その少女は少しもそんな双厳を恐れずに話しを続ける。
+
+adv_on
+
+name_set 少女
+
+sfx_set 2 Vox\7119.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+sfx_set 2 Vox\7118.wav
+sfx_play 2
+
+line_set 「貴方様でございます」
+
+sfx_stop 2
+sfx_set 2 Vox\7117.wav
+sfx_play 2
+
+line_set 「双厳さまでございますよね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ああ、いかにも双厳だ」
+
+kgd_layer3_set 3 Kgd\Sa_006.kgd
+kgd_layer3_param 3 192 0 0 0 416 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 少女
+
+sfx_set 2 Vox\7116.wav
+sfx_play 2
+
+line_set 「ああよかったです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 少女はうれしそうに手をたたく。
+
+adv_on
+
+name_set 少女
+
+sfx_set 2 Vox\7121.wav
+sfx_play 2
+
+line_set 「遅れて申し訳ありませんです」
+
+sfx_stop 2
+sfx_set 2 Vox\7114.wav
+sfx_play 2
+
+line_set 「わたくし、紗枝といいます」
+
+sfx_stop 2
+
+name_set 紗枝
+
+sfx_set 2 Vox\7113.wav
+sfx_play 2
+
+line_set 「よろしくおねがいしますね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「なんだこのマイペース女・・・」
+
+adv_on
+
+line_set 「・・・」
+line_set 「たしかに遅かった」
+line_set 「まちくたびれた・・・」
+
+kgd_layer3_set 3 Kgd\Sa_013.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7112.wav
+sfx_play 2
+
+line_set 「すみませんです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 少女は悲しそうな顔をする。
+line_set 本当にすまなそうにあやまる。
+
+adv_on
+
+jump_choice 3 ◆訂正してあやまる
+jump_choice 4 ◆そのまま断固としていじめる
+jump_choice 5 ◆いきなりこづく
+@3
+
+name_set 双厳
+
+line_set 「いやいいんだ」
+line_set 「実際のところたいした時間を待たされたわけではないし・・・」
+line_set 「それに来たことのない場所の風景を眺めるというのもなかなか面白いものだからな・・・」
+
+kgd_layer3_set 3 Kgd\Sa_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+line_set 「・・・・」
+
+nvl_on
+
+line_set 紗枝は少しばかり首をかしげる。
+line_set まったくかわいらしい仕草である。
+
+adv_on
+
+sfx_set 2 Vox\7111.wav
+sfx_play 2
+
+line_set 「あのぅ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7110.wav
+sfx_play 2
+
+line_set 「もしかして・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7109.wav
+sfx_play 2
+
+line_set 「ここでずっとお待ちだったのですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そりゃそうだろ」
+line_set 「阿波路家の場所を知らないのだから」
+line_set 「舟から降ろされてここにずっといる」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7108.wav
+sfx_play 2
+
+line_set 「そのままですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「おう」
+
+nvl_on
+
+line_set 紗枝はさらに首をかしげる。
+
+adv_on
+
+name_set 紗枝
+
+line_set 「・・・」
+
+sfx_set 2 Vox\7107.wav
+sfx_play 2
+
+line_set 「それはおかしいです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「おかしい？」
+line_set 「なにが？」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7106.wav
+sfx_play 2
+
+line_set 「たしか船頭の方が阿波路の屋敷までおつれすることになっていたはずです・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なに？」
+
+kgd_layer3_set 3 Kgd\Sa_014.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7105.wav
+sfx_play 2
+
+line_set 「なんか・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7104.wav
+sfx_play 2
+
+line_set 「大変もうしわけなかったです」
+
+sfx_stop 2
+sfx_set 2 Vox\7103.wav
+sfx_play 2
+
+line_set 「手違いがあったみたいです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「・・・」
+line_set 「あのおやじ・・・」
+line_set 「なにが、たぶん迎えがくるだ・・・」
+line_set 「手を抜きやがって・・・」
+
+adv_on
+
+jump_auto 6
+@4
+
+nvl_on
+
+line_set 「・・・」
+line_set 「あやまってすむ問題ではない」
+line_set 「このままでは俺の気持ちがおさまらない」
+
+nvl_line_clear
+
+line_set 紗枝は頭をうなだれてシュンとしている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どうなってるんだよ」
+line_set 「客人をこんな場所にほったらかして」
+line_set 「誰も迎えにあがらないつーのはよ」
+
+kgd_layer3_set 3 Kgd\Sa_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7102.wav
+sfx_play 2
+
+line_set 「？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 紗枝は少し不思議そうな顔をする。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どうした？」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7101.wav
+sfx_play 2
+
+line_set 「誰も迎えにあがらないですか？」
+
+sfx_stop 2
+sfx_set 2 Vox\7100.wav
+sfx_play 2
+
+line_set 「？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 紗枝は少しばかりに首をかしげる。
+line_set まったくかわいらしい仕草である。
+
+adv_on
+
+sfx_set 2 Vox\7099.wav
+sfx_play 2
+
+line_set 「あのぅ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7098.wav
+sfx_play 2
+
+line_set 「もしかして・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7097.wav
+sfx_play 2
+
+line_set 「ここでずっとお待ちだったのですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そりゃそうだろ」
+line_set 「阿波路家の場所を知らないのだから」
+line_set 「舟から降ろされてここにずっといる」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7096.wav
+sfx_play 2
+
+line_set 「そのままですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「おう」
+
+nvl_on
+
+line_set 紗枝はさらに首をかしげる。
+
+adv_on
+
+name_set 紗枝
+
+line_set 「・・・」
+
+sfx_set 2 Vox\7095.wav
+sfx_play 2
+
+line_set 「それはおかしいです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「おかしい？」
+line_set 「なにが？」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7094.wav
+sfx_play 2
+
+line_set 「たしか船頭の方が阿波路の屋敷までおつれすることになっていたはずです・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なに？」
+
+kgd_layer3_set 3 Kgd\Sa_014.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7093.wav
+sfx_play 2
+
+line_set 「なんか・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7092.wav
+sfx_play 2
+
+line_set 「大変もうしわけなかったです」
+
+sfx_stop 2
+sfx_set 2 Vox\7091.wav
+sfx_play 2
+
+line_set 「手違いがあったみたいです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「・・・」
+line_set 「あのおやじ・・・」
+line_set 「なにが、たぶん迎えがくるだ・・・」
+line_set 「手抜きやがって・・・」
+
+adv_on
+
+jump_auto 7
+@5
+
+name_clear
+
+line_set ゴツ！
+
+nvl_on
+
+line_set 双厳は頭をうなだれてシュンとしている紗枝の頭をいきなりこずいた。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Sa_004.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7090.wav
+sfx_play 2
+
+line_set 「あわわわわわわわ」
+
+sfx_stop 2
+sfx_set 2 Vox\7089.wav
+sfx_play 2
+
+line_set 「い、いきなり叩いたです」
+
+sfx_stop 2
+sfx_set 2 Vox\7088.wav
+sfx_play 2
+
+line_set 「双厳さまがいきなり叩いたです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set たいして力を入れなかったので痛くはないハズであるが・・・。
+line_set 相当驚いたのだろうか？
+line_set 紗枝は頭を押さえ涙目で訴えかける。
+
+adv_on
+
+name_set 双厳
+
+line_set 「これでチャラにしてやる」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7087.wav
+sfx_play 2
+
+line_set 「あ、あう」
+
+sfx_stop 2
+
+nvl_on
+
+line_set いきなりこづかれて、
+line_set さすがに紗枝は少し怒っているようであったが、すぐに機嫌をなおした。
+
+adv_on
+
+sfx_set 2 Vox\7086.wav
+sfx_play 2
+
+line_set 「で、でも痛いですよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「まぁ、客人をほっといた罰だ」
+
+kgd_layer3_set 3 Kgd\Sa_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 双厳の言葉を聞いて、紗枝は少しばかりに首をかしげる。
+line_set まったくかわいらしい仕草である。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\7085.wav
+sfx_play 2
+
+line_set 「あのぅ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7084.wav
+sfx_play 2
+
+line_set 「もしかして・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7083.wav
+sfx_play 2
+
+line_set 「ここでずっとお待ちだったのですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そりゃそうだろ」
+line_set 「阿波路家の場所を知らないのだから」
+line_set 「舟から降ろされてここにずっといる」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7082.wav
+sfx_play 2
+
+line_set 「そのままですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「おう」
+
+nvl_on
+
+line_set 紗枝はさらに首をかしげる。
+
+adv_on
+
+name_set 紗枝
+
+line_set 「・・・」
+
+sfx_set 2 Vox\7081.wav
+sfx_play 2
+
+line_set 「それはおかしいです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「おかしい？」
+line_set 「なにが？」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7080.wav
+sfx_play 2
+
+line_set 「たしか船頭の方が阿波路の屋敷までおつれすることになっていたはずです・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なに？」
+line_set 「なら、これはおやじの手違い？」
+
+kgd_layer3_set 3 Kgd\Sa_008.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 紗枝は頬を膨らまし双厳を睨みつける。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\7079.wav
+sfx_play 2
+
+line_set 「う～」
+
+sfx_stop 2
+sfx_set 2 Vox\7078.wav
+sfx_play 2
+
+line_set 「紗枝、殴られ損です」
+
+sfx_stop 2
+sfx_set 2 Vox\7077.wav
+sfx_play 2
+
+line_set 「双厳さま、紗枝を叩いたです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「殴ったってホドでもないのだが・・・」
+line_set 「それにしても」
+line_set 「あのおやじ・・・」
+line_set 「なにが、たぶん迎えがくるだ・・・」
+line_set 「手抜きやがって・・・」
+
+adv_on
+
+sfx_set 2 Vox\7076.wav
+sfx_play 2
+
+line_set 「むぅ～」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 紗枝はさらに双厳をにらみつける。
+
+adv_on
+
+name_set 双厳
+
+line_set 「わかったわかった」
+line_set 「んじゃ俺の事殴っていいから」
+
+kgd_layer3_set 3 Kgd\Sa_004.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7075.wav
+sfx_play 2
+
+line_set 「え？」
+
+sfx_stop 2
+sfx_set 2 Vox\7074.wav
+sfx_play 2
+
+line_set 「そ、そんな事は・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「うるさい」
+line_set 「このままじゃしこりも残るだろう」
+line_set 「お返しに俺をなぐれ」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7073.wav
+sfx_play 2
+
+line_set 「双厳さまを叩くなんてできませんです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 紗枝はいままでにないぐらいにあたふたしている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「はやく殴れ！」
+line_set 「殴らないとまた殴るぞ！」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7072.wav
+sfx_play 2
+
+line_set 「あわわわわ～」
+
+sfx_stop 2
+sfx_set 2 Vox\7071.wav
+sfx_play 2
+
+line_set 「そ、それは困りますです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ほら！」
+line_set 「はやく！！！」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7070.wav
+sfx_play 2
+
+line_set 「は、はいです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 紗枝は目をつぶり思いっきり手を振り上げる。
+
+adv_on
+
+sfx_set 0 Se\007.wav
+sfx_play 0
+
+kgd_layer1_fx 4
+
+name_clear
+
+line_set ☆▼□●◇？♂・・・・・・！！
+
+name_set 双厳
+
+line_set 「おおお？？？？」
+
+nvl_on
+
+line_set 双厳はその場で倒れ込む・・・。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\7069.wav
+sfx_play 2
+
+line_set 「だ、大丈夫ですか？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 紗枝の身長が低いこと。
+line_set 紗枝が目をつぶり殴ったこと。
+line_set それが不幸だった・・・。
+line_set 紗枝のパンチは双厳の股間に食い込んだ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「だ、大丈夫だ・・・」
+line_set 「これしきの事でくたばるような体の鍛え方はしてない・・・」
+
+sfx_stop 0
+
+kgd_layer3_set 3 Kgd\Sa_005.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7068.wav
+sfx_play 2
+
+line_set 「で、でも双厳さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7067.wav
+sfx_play 2
+
+line_set 「顔が真っ青です」
+
+sfx_stop 2
+sfx_set 2 Vox\7066.wav
+sfx_play 2
+
+line_set 「苦しそうです・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 紗枝はいまにも泣き出しそうな顔をしている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「おっおお！！！！」
+
+nvl_on
+
+line_set これ以上紗枝を心配させてもしかたないので、
+line_set 双厳は気合いで立ち上がる。
+line_set 心配そうに見つめる紗枝。
+
+adv_on
+
+line_set 「大丈夫だよ」
+line_set 「あはははははは」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7065.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7064.wav
+sfx_play 2
+
+line_set 「顔が真っ青です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「大丈夫ったら大丈夫なんだよ」
+
+nvl_on
+
+line_set 双厳は紗枝をものすごい形相で睨みつける。
+line_set 拳を握りしめながら。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\7063.wav
+sfx_play 2
+
+line_set 「は、はいです」
+
+sfx_stop 2
+sfx_set 2 Vox\7062.wav
+sfx_play 2
+
+line_set 「双厳さまは大丈夫です」
+
+sfx_stop 2
+sfx_set 2 Vox\7061.wav
+sfx_play 2
+
+line_set 「わかりましたです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ははははは・・・」
+line_set 「冗談だ」
+line_set 「ホントにこれぐらいなんでもない」
+
+name_set 紗枝
+
+line_set 「・・・」
+
+sfx_set 2 Vox\7060.wav
+sfx_play 2
+
+line_set 「本当ですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「当たり前だろうが」
+
+kgd_layer3_set 3 Kgd\Sa_002.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7059.wav
+sfx_play 2
+
+line_set 「よかったです」
+
+sfx_stop 2
+@6
+@7
+
+kgd_layer3_set 3 Kgd\Sa_006.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+sfx_set 2 Vox\7058.wav
+sfx_play 2
+
+line_set 「そうだ！」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「？」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7057.wav
+sfx_play 2
+
+line_set 「自己紹介させていただいてよろしいですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「先ほど済ませなかったか？」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7056.wav
+sfx_play 2
+
+line_set 「そうですけど・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7055.wav
+sfx_play 2
+
+line_set 「もっと、ちゃんと自己紹介させてくださいませんか？」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer1_set 1 Kgd\En_016.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 紗枝は双厳に歩を進め、
+line_set 双厳を下からのぞき込む。
+line_set 小さな紗枝が双厳を下からのぞき込むとほとんど見上げる状態になる。
+
+nvl_line_clear
+
+line_set 「こいつ・・・」
+line_set 「なんでこんな近くまで寄るんだ・・・」
+
+nvl_line_clear
+
+line_set 紗枝は双厳の胸元のすぐそばまで近づき、双厳を一生懸命にのぞき込んでいる。
+line_set その眉間にはたまにしわが寄っている。
+
+nvl_line_clear
+
+line_set 「これはガンをくれてるのでなく・・・」
+
+nvl_line_clear
+
+line_set 紗枝は、必死に焦点を合わそうとしているようであった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「目が悪いのか？」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7054.wav
+sfx_play 2
+
+line_set 「ああ、す、すみませんです」
+
+sfx_stop 2
+sfx_set 2 Vox\7053.wav
+sfx_play 2
+
+line_set 「ちょっと視力が低いのです・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ちょっと？」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7052.wav
+sfx_play 2
+
+line_set 「はい、このぐらい近づけば双厳さまの肌のきめまでわかりますよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「俺の肌のきめをみてどうするんだ・・・」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7051.wav
+sfx_play 2
+
+line_set 「だって・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7050.wav
+sfx_play 2
+
+line_set 「双厳さまの事良く知りたいですもの」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「はぁ・・・」
+line_set 「俺の肌のきめまで知りたいのか・・・」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7049.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 紗枝はうれしそうに元気にうなずく。
+
+adv_on
+
+sfx_set 2 Vox\7048.wav
+sfx_play 2
+
+line_set 「わたくし、阿波路家に仕えております紗枝です」
+
+sfx_stop 2
+sfx_set 2 Vox\7047.wav
+sfx_play 2
+
+line_set 「よろしくおねがいしますですね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「・・・」
+line_set 「こいつ変な日本語だな・・・」
+line_set 「この辺の方言か・・・・」
+line_set 「のわけないよな・・・」
+
+nvl_line_clear
+
+line_set 紗枝はかわいらしく微笑んでいる。
+line_set 礼儀作法が徹底されてるようには見えないが（されてたら挨拶中にこんな笑顔をみせないだろう）素朴なか
+line_set わいさに溢れた少女であるようであった、少し天然ボケな部分はあるのだが・・・。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「かわいらしいな・・・」
+
+adv_on
+
+sfx_set 2 Vox\7046.wav
+sfx_play 2
+
+line_set 「双厳さまってかっこいいです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「どうも・・・」
+
+nvl_on
+
+line_set 「なんだかな・・・」
+line_set 「調子狂うな・・・・」
+
+adv_on
+
+kgd_layer1_fadein
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Sa_001.kgd
+kgd_layer3_display 0
+
+name_set 紗枝
+
+sfx_set 2 Vox\7045.wav
+sfx_play 2
+
+line_set 「お疲れになられましたか？」
+
+sfx_stop 2
+sfx_set 2 Vox\7044.wav
+sfx_play 2
+
+line_set 「船酔いなどはされませんでしたか？」
+
+sfx_stop 2
+sfx_set 2 Vox\7043.wav
+sfx_play 2
+
+line_set 「わたし、双厳さまが心配です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ああ」
+line_set 「大丈夫、大丈夫・・・」
+line_set 「もう挨拶はいいから・・・」
+line_set 「とりあえず阿波路家の当主さまとやらに会わせてくれるかな」
+
+nvl_on
+
+line_set 双厳はあまり女にとやかく（やさしく？）詮索されるのは好きでない、というよりなれていない。
+line_set 少々むずかゆくて心地悪い。
+
+adv_on
+
+line_set 「それが今回の雇い主らしいから」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7042.wav
+sfx_play 2
+
+line_set 「あっ、わかりましたです」
+
+sfx_stop 2
+sfx_set 2 Vox\7041.wav
+sfx_play 2
+
+line_set 「すぐに、ご案内させていただきますです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 隔離された島の住人というのは特有の時間が流れているのだろうか？
+line_set 紗枝の行動はかなりゆっくりしたものであった。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「この少女特有な気もするが・・・」
+
+nvl_line_clear
+
+line_set そんな事を考え紗枝を見つめていると目が合う。
+line_set 紗枝はまたにっこりとほほえんだ。
+
+nvl_line_clear
+
+line_set 「調子が狂うな・・・」
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_045.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Sa_001.kgd
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 「・・・」
+line_set 「さすがに小さな島だけあって」
+line_set 「人口も少なそうだな・・・」
+
+nvl_line_clear
+
+line_set 淡炎島の集落は本当に小さいものであった。
+line_set 漁業を営む者が、二、三日止まるために作った家のような雑な作りの家が何件か並んでいる。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_033.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Sa_001.kgd
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set この島には不釣り合いなホドの立派な建物であった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「でかい屋敷だな」
+
+nvl_on
+
+line_set たいして大きな島でもなく。
+line_set これといって栄える要因もみあたらない。
+line_set 実際、村を見る限りそれほど裕福にはみえなかった。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\7040.wav
+sfx_play 2
+
+line_set 「こちらです」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_029.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Sa_001.kgd
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 「・・・」
+line_set 「結構古い建物のようだな・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「立派な建物だな」
+line_set 「屋敷の中で迷いそうだ・・・」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7039.wav
+sfx_play 2
+
+line_set 「クス」
+
+sfx_stop 2
+sfx_set 2 Vox\7038.wav
+sfx_play 2
+
+line_set 「わたしもいまだに迷う事があります」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「・・・」
+line_set 「それはこの少女特有の事だろう・・・」
+line_set 「まぁ、いいが・・・」
+
+adv_on
+
+sfx_set 2 Vox\7037.wav
+sfx_play 2
+
+line_set 「こちらです」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_009.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Sa_001.kgd
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 大広間はかなりでかい。
+line_set まるで大名の屋敷のようだ。
+line_set 左からは海が見渡せる。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\7036.wav
+sfx_play 2
+
+line_set 「少々おまちくださいね」
+
+sfx_stop 2
+sfx_set 2 Vox\7035.wav
+sfx_play 2
+
+line_set 「ただいま当主さまが参りますから」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 軽く会釈して、紗枝が消える。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 双厳は大広間を見渡す。
+line_set かなり高価そうな作りである。
+line_set そこにかかっている掛け軸もかなりいいものである。いくら島の当主といえども、
+line_set ここまでの屋敷は京といえどもそんなにないはずだ。なぜこんな辺境の島で・・・・。
+
+adv_on
+
+line_set 「・・・」
+line_set 「辺境うんぬん抜かしても・・・」
+line_set 「不釣合いだな・・・」
+line_set 「この島の村を見る限りそんな裕福にはみえない」
+line_set 「なぜこの屋敷だけこんなに豪華なんだ・・・」
+
+nvl_on
+
+line_set 双厳は海に目をやる。
+line_set ここから見る海は、
+line_set あんなに荒れていたとは信じられぬホドに、美しかった。
+
+adv_on
+
+line_set 「たぶん・・・」
+line_set 「ほかの村で聞いたとおりだろうな・・・」
+
+nvl_on
+
+line_set 双厳は、この島に渡る前にあらゆるうわさを聞いていた。
+line_set それは単純な興味から聞いたものでなく、この島に渡りある事をなしとげるための情報収集であった。
+line_set だから、かなり吟味して集めた情報である。
+
+adv_on
+
+line_set 「宗教的な力か・・・」
+
+nvl_on
+
+line_set 阿波路家がかなり強い宗教的な力を有しているという話は何処かしらで聞かれた。
+line_set 古くからある家であることもあるが、この近辺の村々が畏敬の念を抱かざるを得ないような説話がたくさん
+line_set 阿波路家にはあったし、その説話群を信じさせるだけのなにかがこの島とそして阿波路家にはあった。
+line_set 人々は阿波路家を恐れ敬ってきた。
+line_set それはたしかであったようだ・・・。
+line_set この不釣合いな屋敷もその証明であるといえよう。
+
+adv_on
+
+line_set 「しかし・・・」
+
+nvl_on
+
+line_set 「たぶんこの島以外の宗教儀式にもなにかしらの影響力があるのだろう」
+line_set 「そうでなければこの屋敷は少々大きすぎる」
+
+adv_on
+
+line_set 「相当古い家であるらしく、この地方の伝説や民話などにもしばしば登場するらしいし」
+
+nvl_on
+
+line_set 「その家柄は千年とも二千年とも言われている」
+line_set 「宮様よりも古い家柄なんて話もある」
+
+adv_on
+
+line_set 「それは信じがたい事であるが・・・」
+
+nvl_on
+
+line_set 「まあ、伝説や民話に出てくるのだとしたら、この辺一体にそれなりに宗教的にちからをおよぼしているの
+line_set もうなずけるが・・・」
+line_set 「このでかい屋敷も納得できるものともいえる」
+
+nvl_line_clear
+
+line_set 双厳はもう一度大広間をみわたす。
+line_set かなり古い作りであるのはたしかだ・・・が、
+line_set とてもじゃないが千年二千年の歴史がある屋敷には見えない。
+
+adv_on
+
+line_set 「ふっ・・・」
+line_set 「別に、この屋敷が二千年前のものなどと誰も言ってなかったがな・・・」
+
+nvl_on
+
+line_set 「この屋敷が築二千年に見えないからといって否定材料にならないのはわかる」
+line_set 「近隣の人々がこの阿波路家が何千年も続いている家だと信じている事も・・・」
+line_set 「もしかしたら本当に何千年の歴史がある家かも知れない事も・・・」
+
+adv_on
+
+line_set 「と、いってもなぁ」
+
+nvl_on
+
+line_set 伝説や民話など、古い古いと言われていてちゃんと調べてみると、実はほんの数十年前につくられた伝説で
+line_set あった・・・なんて話はくさるほどあるのも事実である。
+
+nvl_line_clear
+
+line_set 「だいたいこんな片田舎の孤島の家が宮様より古い？そんなわけあるまい」
+line_set 「眉唾もんだな」
+
+nvl_line_clear
+
+line_set 数十年前は戦乱の世である。
+line_set こうも考えられる。
+
+nvl_line_clear
+
+line_set どこかの大名一族がおちぶれてこの島に逃げてきたというのはどうだろう。
+line_set やはりこの大名一族の敵としては、一族をすべて抹殺したいはずだ。
+line_set どこに逃げても、この一族に追っ手はしつこく送り込まれる。
+line_set 何年か潜伏してもすぐに見つかる可能性がある。
+line_set 特に、今までいなかった場所にいきなり一族が逃げてくればさすがに目立ちすぎる。
+
+nvl_line_clear
+
+line_set かといってやせてもかれても大名一族である。
+line_set 山奥にこもり、目立たないように何年も生きるなど出来るはずもない。
+line_set 山の生活など、農民でも耐えられるものではない。
+
+nvl_line_clear
+
+line_set 今までいなかった場所にいきなり一族が逃げてくればさすがに目立ちすぎる。
+line_set なら、今までそこにいたことにしたらどうだろうか？
+line_set そう演出することができたら。
+line_set つまりそれが、伝説を追っ手をまくためのカモフラージュにするというものだ。
+line_set これはそれほど難しい事ではない。
+line_set うわさなど何年間かの流布で、いきなり何千年前から伝わる伝説になる事が結構あるものだ。
+
+nvl_line_clear
+
+line_set 無人島に逃げ込み、あたかもそこに大昔から住んでいたように振る舞う・・・。
+line_set あり得ない事ではない。
+line_set 近隣の村々だって、そのぐらいの協力ならするだろう・・・。
+line_set 元々の領主であればなおさらだ・・・。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「たしかに・・・」
+line_set 「たしかにそう考えれば合理的だ」
+line_set 「少なくともこんな片田舎の島の家が神代から続く名家というのを信じるよりは合理的だ」
+line_set 「普通ならそう考えられるし」
+line_set 「その方が妥当だろう」
+line_set 「だが・・・」
+
+nvl_line_clear
+
+line_set 双厳はそのように考えた自分が、
+line_set 実は自分自身でそう信じ込もうとしていることに気が付いた。
+line_set そう信じれば少しは恐怖心が消えるような・・・。
+line_set そんな気がした事も事実であった。
+
+nvl_line_clear
+
+line_set 「まだ感じる・・・」
+line_set 「俺の呪われた部分が・・・」
+line_set 「この島のただならぬ妖気を・・・」
+
+nvl_line_clear
+
+line_set その共鳴が高まれば高まるほど、双厳の心は不安になっていった。
+
+adv_on
+
+line_set 「あらゆる修羅場を切り抜けてきた俺が・・・」
+
+name_set 女
+
+sfx_set 2 Vox\7018.wav
+sfx_play 2
+
+line_set 「お待たせいたしました」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳が考え事をしていると女性の声がした。
+
+adv_on
+
+kgd_layer3_set 1 Kgd\Sh_001.kgd
+kgd_layer3_param 1 48 0 0 0 704 600
+kgd_layer3_display 1
+
+nvl_on
+
+line_set 廊下から一人の女性が現れた。
+line_set 気品溢れる美しい女性だ。
+line_set 歳は２０代であろうか？
+line_set やたら落ち着きはらっており、それがそのような年齢に見せてるだけかもしれない。
+line_set なぜなら肌の美しさはまるで少女のそれであるようだからだ。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「当主の娘かなにかか・・・」
+
+adv_on
+
+name_set 女性
+
+sfx_set 2 Vox\7017.wav
+sfx_play 2
+
+line_set 「双厳さま、長旅でおつかれになったでしょう」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「たいした事はなかったが・・・」
+line_set 「それより・・・」
+
+nvl_on
+
+line_set 双厳の怪訝そうな顔に気が付いたのか、志乃はすまなそうに挨拶する。
+
+adv_on
+
+name_set 女性
+
+sfx_set 2 Vox\7016.wav
+sfx_play 2
+
+line_set 「挨拶がおくれました」
+
+sfx_stop 2
+sfx_set 2 Vox\7015.wav
+sfx_play 2
+
+line_set 「申し訳ありません」
+
+sfx_stop 2
+sfx_set 2 Vox\7014.wav
+sfx_play 2
+
+line_set 「わたくし、この島の当主をしている阿波路の志乃でございます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「あんたが雇い主か？」
+
+name_set 志乃
+
+sfx_set 2 Vox\7013.wav
+sfx_play 2
+
+line_set 「ふふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\7012.wav
+sfx_play 2
+
+line_set 「こんな小娘が雇い主でガッカリしましたか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「い、いや・・・そんなことはないが・・・」
+
+nvl_on
+
+line_set 「それにしても・・・」
+line_set 「この女が当主？」
+line_set 「やけに若いな・・・」
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\7011.wav
+sfx_play 2
+
+line_set 「くすくす・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\7010.wav
+sfx_play 2
+
+line_set 「なぜ私のような若輩ものが当主をやっているかといぶかしく思われたでしょう」
+
+sfx_stop 2
+sfx_set 2 Vox\7009.wav
+sfx_play 2
+
+line_set 「そう顔にかいてありますよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳はピタリと心をあてられてしまいいささかばつが悪くなっていた。
+line_set 志乃はそんな双厳を気遣ってからか、それとも元々の資質ゆえか、あたかも世間話でもするようにその疑問
+line_set の答えを話しはじめた。
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\7008.wav
+sfx_play 2
+
+line_set 「先代は私の夫でありましたが」
+
+sfx_stop 2
+sfx_set 2 Vox\7007.wav
+sfx_play 2
+
+line_set 「夫は幼い頃から体がよわく」
+
+sfx_stop 2
+sfx_set 2 Vox\7006.wav
+sfx_play 2
+
+line_set 「私と結婚してまもなく亡くなりました」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\7005.wav
+sfx_play 2
+
+line_set 「子種も残すことなく・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「子種も残すことなく・・・か」
+line_set 「・・・」
+line_set 「同情すべき話なのだろうが・・・」
+line_set 「それよりもっと他の事が気にかかってしまうな・・・」
+
+nvl_line_clear
+
+line_set 双厳が気にしたのは子種がないという事態そのものであった。
+line_set この阿波路家は神代から続く家柄と聞く。
+line_set 今、現在をもって子種が途絶えたとなれば、何千の歴史に阿波路家は幕を閉じる事になる。
+line_set それはお家としたら一大事ではないのだろうか？
+line_set こんなに悠長に構えていられるのだろうか？
+line_set 双厳はそんな事を考えていた。
+
+adv_on
+
+name_set 志乃
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「！」
+
+nvl_on
+
+line_set 考え事していた双厳は、志乃の話が終わっている事に少しの間気が付かなかった。
+line_set ほんの数十秒であったが、二人の間に不自然な無音状態が続いていた。
+line_set 志乃は黙ってそんな双厳を見つめている。
+
+adv_on
+
+line_set 「・・・」
+
+name_set 志乃
+
+line_set 「・・・」
+
+nvl_on
+
+line_set やさしい微笑であるが。
+line_set 双厳はその微笑に戦慄をおぼえた。
+line_set 双厳の心を見透かしているような、そんな感じのする微笑。
+
+adv_on
+
+name_set 双厳
+
+line_set 「そ、それであんたが跡をついでるというわけか」
+
+nvl_on
+
+line_set 双厳はその沈黙に耐えられず、すぐに言葉を続ける。
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\7004.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・まあいい」
+line_set 「俺だって雇い主をとやかく言えるような素性ではない」
+line_set 「それに元々俺には雇い主が誰だろうが興味ない」
+line_set 「金さえもらえれば関係ない」
+
+nvl_on
+
+line_set 双厳は相手のペースにのせられまいと口調を変えていく。
+line_set まるでその辺にいる素浪人のように・・・。
+
+adv_on
+
+line_set 「世間話もこの辺でよかろう」
+line_set 「そろそろこの辺で本題に入ろうか」
+line_set 「仕事の話だ」
+
+name_set 志乃
+
+sfx_set 2 Vox\7003.wav
+sfx_play 2
+
+line_set 「くす」
+
+sfx_stop 2
+sfx_set 2 Vox\7002.wav
+sfx_play 2
+
+line_set 「そうですね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「この近辺に海賊が出るとやらで俺を雇ったという事になっているが・・・相違ないな」
+
+nvl_on
+
+line_set 双厳は志乃が柔らかく笑うのを無視して仕事の話をすすめていく。
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\7001.wav
+sfx_play 2
+
+line_set 「はい、そのとおりです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「二、三気になることがあるが聞いてもよいかな」
+
+name_set 志乃
+
+sfx_set 2 Vox\7000.wav
+sfx_play 2
+
+line_set 「はい、どうぞ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「海賊が出るのであればお上の方にたのむのが無難とも思えるが・・・」
+line_set 「その辺の事はすでにすましたのか？」
+line_set 「すましてから用心棒を雇うなどという結論に達したのかな」
+line_set 「いまどき、用心棒を受ける侍などろくなものがいるとも思えない」
+line_set 「巷にはあるじと食を求めてさまよう浪人があふれ」
+line_set 「辻斬りが横行しているご時世だ」
+line_set 「まだ戦乱の世さめやらぬと言ってもいいすぎではない」
+line_set 「木乃伊とりが木乃伊になるかもしれぬ」
+line_set 「つまりだ」
+line_set 「雇った用心棒達が賊になりかねないということだ」
+
+name_set 志乃
+
+sfx_set 2 Vox\6999.wav
+sfx_play 2
+
+line_set 「くすくす」
+
+sfx_stop 2
+sfx_set 2 Vox\6998.wav
+sfx_play 2
+
+line_set 「ご忠告ありがとうございます」
+
+sfx_stop 2
+sfx_set 2 Vox\6997.wav
+sfx_play 2
+
+line_set 「しかし、こちらも熟考に熟考を重ねた上の結論でございます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\6996.wav
+sfx_play 2
+
+line_set 「お上の方にも申請しましたが、いかんせんこのような辺境の島のことで」
+
+sfx_stop 2
+sfx_set 2 Vox\6995.wav
+sfx_play 2
+
+line_set 「あまり本気には動いてはくれなさそうです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「まったくもって一理あるな」
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\6994.wav
+sfx_play 2
+
+line_set 「それに・・・」
+
+sfx_stop 2
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 志乃がほほえむ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・・・・」
+
+nvl_on
+
+line_set いく時かの沈黙。
+line_set 双厳は顎から首に汗が垂れるのを感じた。
+line_set 時期的に決して暑い時期ではない。
+
+adv_on
+
+line_set 「・・・」
+line_set 「それに？」
+
+nvl_on
+
+line_set 沈黙をやぶったのは双厳であった。
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\6993.wav
+sfx_play 2
+
+line_set 「この島からは決して逃げられません」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「？」
+
+name_set 志乃
+
+sfx_set 2 Vox\6992.wav
+sfx_play 2
+
+line_set 「この島に渡った瞬間から決して逃げられないのですよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「それはどういう意味かな？」
+
+name_set 志乃
+
+sfx_set 2 Vox\6991.wav
+sfx_play 2
+
+line_set 「くすくす」
+
+sfx_stop 2
+sfx_set 2 Vox\6990.wav
+sfx_play 2
+
+line_set 「言葉通りの意味ですわ」
+
+sfx_stop 2
+sfx_set 2 Vox\6989.wav
+sfx_play 2
+
+line_set 「海流の関係でこの島から出れないという意味です」
+
+sfx_stop 2
+sfx_set 2 Vox\6988.wav
+sfx_play 2
+
+line_set 「悪さをしても袋の鼠です」
+
+sfx_stop 2
+sfx_set 2 Vox\6987.wav
+sfx_play 2
+
+line_set 「お役人様につかまってしまいますよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 本当にそんな意味で志乃は言ったのだろうか？
+line_set 決してそんな感じではなかった。
+
+adv_on
+
+line_set 「まぁたしかにいくつかは手はあるだろう」
+line_set 「島から出る時は舟を必ずだす」
+line_set 「舟にのった陸の侍などこの島に住む者にとって赤子同然・・・」
+line_set 「どのようにでも始末は付けられるだろう」
+
+nvl_on
+
+line_set この島をとりまく激流・・・。
+line_set 陸の者が生きて帰る事は不可能だろう・・・。
+
+adv_on
+
+line_set 「まあいい」
+line_set 「とりあえず仕事というのはその海賊とやらを始末する事であろう」
+
+name_set 志乃
+
+sfx_set 2 Vox\6986.wav
+sfx_play 2
+
+line_set 「いいえ違いますよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「違う？」
+line_set 「そう聞いていたが・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\6985.wav
+sfx_play 2
+
+line_set 「始末などしなくてよろしいのですよ」
+
+sfx_stop 2
+sfx_set 2 Vox\6984.wav
+sfx_play 2
+
+line_set 「これから１２日間、大切な祭があります」
+
+sfx_stop 2
+sfx_set 2 Vox\6983.wav
+sfx_play 2
+
+line_set 「その祭のあいだ、海賊からこの島を守っていただければ結構なのです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「祭？」
+
+name_set 志乃
+
+sfx_set 2 Vox\6982.wav
+sfx_play 2
+
+line_set 「はい、この島で古くから伝わる重要な祭です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「わかった」
+line_set 「とりあえずは１２日間、祭のあいだこの島を守ればよいのであろう」
+
+name_set 志乃
+
+sfx_set 2 Vox\6981.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「祭の妨害をさせるなというわけだな」
+line_set 「わかった、仕事は受けよう」
+
+name_set 志乃
+
+sfx_set 2 Vox\6980.wav
+sfx_play 2
+
+line_set 「ありがとうございます」
+
+sfx_stop 2
+sfx_set 2 Vox\6979.wav
+sfx_play 2
+
+line_set 「それでは・・・」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 1
+
+wait 2000
+
+kgd_layer3_display 1
+
+name_set 志乃
+
+sfx_set 2 Vox\6978.wav
+sfx_play 2
+
+line_set 「これを・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 包み紙に包まれてはいるが、これはまちがいなく小判だ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「これは？」
+
+name_set 志乃
+
+sfx_set 2 Vox\6977.wav
+sfx_play 2
+
+line_set 「前金です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 紙に包まれた小判はモナカほどの厚みがあった。
+line_set いくら命がけの用心棒といえども、これが前金となると破格な値段だ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「うけとろう」
+
+name_clear
+
+line_set パンパン
+
+name_set 志乃
+
+sfx_set 2 Vox\6976.wav
+sfx_play 2
+
+line_set 「紗枝！」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 志乃が手をたたいて紗枝を呼ぶ。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\7034.wav
+sfx_play 2
+
+line_set 「はい、ただいま」
+
+sfx_stop 2
+
+kgd_layer3_param 1 0 0 96 0 696 600
+kgd_layer3_set 0 Kgd\Sa_001.kgd
+kgd_layer3_param 0 384 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 志乃
+
+sfx_set 2 Vox\6975.wav
+sfx_play 2
+
+line_set 「双厳さまを部屋まで案内して差し上げてください」
+
+sfx_stop 2
+
+name_set 紗枝
+
+sfx_set 2 Vox\7033.wav
+sfx_play 2
+
+line_set 「はいです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳は紗枝の後に続き大広間を後にした。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_fadeout 1
+kgd_layer3_clear 0
+kgd_layer3_clear 1
+kgd_layer2_set 1 Kgd\B_037.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Sa_001.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 紗枝
+
+sfx_set 2 Vox\7032.wav
+sfx_play 2
+
+line_set 「ここが双厳さまのお部屋です」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「・・・」
+line_set 「悪くはない」
+line_set 「というより、かなりいい」
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Sa_007.kgd
+kgd_layer3_param 3 192 0 0 0 416 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+sfx_set 2 Vox\7031.wav
+sfx_play 2
+
+line_set 「どうなされました？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「あ、ああ、広い部屋なんで少し驚いただけだ」
+
+kgd_layer3_set 3 Kgd\Sa_001.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7030.wav
+sfx_play 2
+
+line_set 「くす、やっぱり本州からいらっしゃった方から見ても、このお部屋は広い方なのですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ああ」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7029.wav
+sfx_play 2
+
+line_set 「でも、よかった」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「？」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7028.wav
+sfx_play 2
+
+line_set 「お侍さまという偉い方が来るというのでどんな方が来るのだろうとドキドキしてました」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「汚い素浪人でがっかりしたか」
+
+name_set 紗枝
+
+sfx_set 2 Vox\7027.wav
+sfx_play 2
+
+line_set 「いいえ」
+
+sfx_stop 2
+sfx_set 2 Vox\7026.wav
+sfx_play 2
+
+line_set 「双厳さまはすてきな方です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「すてきねぇ・・・」
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\7025.wav
+sfx_play 2
+
+line_set 「お侍さまは刀で戦う方々と聞いていたので、どんな恐ろしい容貌をしているかと思って・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「・・・」
+line_set 「遠まわしにバカにされてるような・・・」
+
+adv_on
+
+sfx_set 2 Vox\7024.wav
+sfx_play 2
+
+line_set 「でも、双厳さまはやさしそうで、それに・・・」
+
+sfx_stop 2
+
+kgd_layer3_set 3 Kgd\Sa_012.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 紗枝は赤くなる
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なんで赤くなる・・・」
+line_set 「熱でもあんのか？」
+
+kgd_layer3_set 3 Kgd\Sa_004.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7023.wav
+sfx_play 2
+
+line_set 「いいえ？あっ、すみません」
+
+sfx_stop 2
+sfx_set 2 Vox\7022.wav
+sfx_play 2
+
+line_set 「お、お夕食はいつ頃になさいますか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「適当でいい」
+
+kgd_layer3_set 3 Kgd\Sa_001.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\7021.wav
+sfx_play 2
+
+line_set 「あ、はい」
+
+sfx_stop 2
+sfx_set 2 Vox\7020.wav
+sfx_play 2
+
+line_set 「では適当にしますです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「適当にしますです？？？？」
+line_set 「なんだそりゃ？？？？」
+
+adv_on
+
+sfx_set 2 Vox\7019.wav
+sfx_play 2
+
+line_set 「それでは失礼します」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 逃げるように紗枝がいなくなる。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「素朴で純粋なのだろう・・・」
+line_set 「本州にいるものが珍しいのだろう・・・」
+line_set 「俺がやさしそう・・・」
+line_set 「ふふふふ、人を見る目がないな・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「さてと・・・」
+line_set 「どうするかな・・・」
+
+nvl_on
+
+line_set 双厳は先ほど志乃からもらった前金をみる。
+
+nvl_line_clear
+
+line_set 「たいそうな額だな・・・」
+line_set 「・・・」
+line_set 「だが俺は、金稼ぎのためにここの用心棒になったわけではない」
+line_set 「俺の目的は・・・」
+
+nvl_line_clear
+
+line_set 双厳は自分の影を見てみる。
+line_set 昨日は二重影が突然発動し、影が実体化して双厳を襲った。
+line_set しかし今は、双厳の二つ目の影はかなり薄くなっており注意しなければ双厳の影が二つあることなどだれも
+line_set 気が付く事はない。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「はたして、この島に俺の呪いの謎を解く鍵があるのだろうか・・・？」
+
+nvl_line_clear
+
+line_set 「この呪われた島で・・・」
+
+adv_on
+
+kgd_layer2_crossfade 1
+kgd_layer2_clear
+
+ksd_set Ksd\003.ksd
+ksd_end

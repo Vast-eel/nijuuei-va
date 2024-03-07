@@ -1,0 +1,678 @@
+
+wait 2000
+
+kgd_layer1_set 1 Kgd\Be_006.kgd
+kgd_layer2_set 0 Kgd\B_002.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+
+jump_auto 0
+@5
+
+kgd_layer1_set 1 Kgd\Be_006.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+@0
+
+jump_choice 1 ◆降りる
+@1
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 2
+@6
+@7
+
+kgd_layer2_set 1 Kgd\B_014.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 1046 32
+
+section_jump_branch1 32
+
+nvl_on
+
+line_set 誰か山道をのぼってくるものがいる。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Sa_014.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 紗枝
+
+sfx_set 2 Vox\6724.wav
+sfx_play 2
+
+line_set 「双厳さま」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「紗枝か・・・」
+
+nvl_on
+
+line_set 紗枝は気のせいか元気がない。
+line_set あのあと志乃に怒られたのであろうか・・・。
+line_set そう思うと、あそこで紗枝を引き留めてしまった事が不憫であった。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\6723.wav
+sfx_play 2
+
+line_set 「あと半刻ばかりでお夕食のご用意ができますです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 先ほどよりも少し事務的な口調で紗枝がしゃべる。
+line_set といってもあいかわらずめちゃくちゃな言葉ではあるが・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ならば、まだ少し飯の時間まではあるな」
+line_set 「もうしばらく島を見てまわろうかな・・・」
+
+nvl_on
+
+line_set 双厳はそう言いながら空をみあげた。
+line_set 日も傾きかけている。
+line_set 空は青色から徐々に赤みがかってゆく。
+line_set 道の脇から秋の虫の鳴き声が聞こえる。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\6721.wav
+sfx_play 2
+
+line_set 「それでは私は用事がありますですから」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+#32_0
+
+jump_choice 3 ◆大岩へ移動
+jump_choice 4 ◆屋敷前へ移動
+@3
+
+kgd_layer2_set 1 Kgd\B_002.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+jump_branch1 2997 33
+jump_branch2 2997 32
+
+section_jump_branch1 33
+
+nvl_on
+
+line_set 秋の夕日により赤色に映し出された岩肌。
+line_set 不気味にうかびあがる巨石。
+line_set 時刻は末の刻の頃だろうか・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 黄昏時・・・。
+line_set 秋の土用・・・。
+line_set 昼と夜の両義。
+line_set 秋と冬の両義。
+line_set それは双厳自身の姿でもあった。
+
+nvl_line_clear
+
+line_set 草木も眠る丑の刻。
+line_set 完全な闇と静寂が支配する時より、
+line_set 古代、
+line_set 人々がもっとも恐れた。
+line_set 両義の刻。
+line_set 黄昏時。
+line_set この不気味な刻。
+
+nvl_line_clear
+
+line_set それは、
+line_set 人間と異形の両義、
+line_set この世とこの世でないものの間で、
+line_set 二つに裂かれた影、
+line_set 二重影そのものでもあった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「なぜだかわからぬが・・・」
+
+nvl_on
+
+line_set 双厳はこの場所に、
+line_set 自分と、
+line_set そして、
+line_set この刻と、
+line_set 同じものを感じていた。
+
+adv_on
+
+line_set 「ん・・・」
+line_set 「！」
+
+nvl_on
+
+line_set 双厳に緊張感がはしる。
+
+adv_on
+
+line_set 「・・・」
+line_set 「人の気配だ・・・」
+
+nvl_on
+
+line_set 双厳が人の気配を感じた数秒後、大岩の上から人影が降りてくるのが見えた。
+line_set 夜目に慣れていないこの時間、暗闇以上に人の顔がみえない。
+
+adv_on
+
+line_set 「誰だ・・・」
+line_set 「女のようだが・・・」
+
+kgd_layer3_set 0 Kgd\Sh_001.kgd
+kgd_layer3_param 0 48 0 0 0 704 600
+kgd_layer3_display 0
+
+name_set 志乃
+
+line_set 「・・・」
+
+nvl_on
+
+line_set たそがれ時の赤暗い明度。
+line_set 志乃の全身はあたかも影そのものが立像としてそこにあるがごとく立っている。
+line_set そんななか、
+line_set 眼光だけがやたらに目立っていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「こんな時間に島の当主がなにをなされているのですか？」
+
+nvl_on
+
+line_set 志乃は微笑んでいるが、感情が枯死してしまったようなそんな感じを受ける表情であった。
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\6715.wav
+sfx_play 2
+
+line_set 「散歩です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は、
+line_set 「こんな時間に散歩とはあぶないですな」
+line_set 「この島には海賊がうろうろしているかもしれないのに」
+
+nvl_line_clear
+
+line_set などと嫌味を言ってやろうかとも考えたが、
+line_set どうせそんな嫌味などものともせずにつまらない答えが返ってくるだろうと思いやめた。
+
+nvl_line_clear
+
+line_set 「やはり、海の異常を見ていたのだろうか・・・」
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\6714.wav
+sfx_play 2
+
+line_set 「それでは失礼します」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+@2
+#33_1
+!32
+
+jump_choice 5 ◆登る
+jump_choice 6 ◆山道へ移動
+@4
+@10
+@23
+
+kgd_layer2_set 1 Kgd\B_034.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 19
+
+jump_choice 7 ◆山道へ移動
+jump_choice 8 ◆屋敷内へ移動
+jump_choice 9 ◆村への道へ移動
+@9
+@12
+
+kgd_layer2_set 1 Kgd\B_042.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 10 ◆屋敷前へ移動
+jump_choice 11 ◆村へ移動
+@11
+@15
+@17
+
+kgd_layer2_set 1 Kgd\B_046.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+jump_choice 12 ◆屋敷前への道へ移動
+jump_choice 13 ◆海岸へ移動
+jump_choice 14 ◆港へ移動
+@14
+@18
+
+kgd_layer2_set 1 Kgd\B_062.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 15 ◆村へ移動
+jump_choice 16 ◆海岸へ移動
+@13
+@16
+@20
+
+kgd_layer2_set 1 Kgd\B_050.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 17 ◆村へ移動
+jump_choice 18 ◆港へ移動
+jump_choice 19 ◆物見やぐらへ移動
+@19
+
+kgd_layer2_set 1 Kgd\B_066.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 20 ◆海岸へ移動
+@8
+@25
+@26
+
+kgd_layer2_set 1 Kgd\B_030.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 3600 33
+jump_choice 21 大広間へ移動
+jump_choice 22 自室へ移動
+jump_choice 23 屋敷前へ移動
+#33_2
+
+kgd_layer3_set 0 Kgd\Sa_010.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 紗枝
+
+sfx_set 2 Vox\6720.wav
+sfx_play 2
+
+line_set 「双厳さま、おかえりなさいです」
+
+sfx_stop 2
+sfx_set 2 Vox\6719.wav
+sfx_play 2
+
+line_set 「お夕食の用意が整いましたが、お部屋の方へお持ちしてもよろしいですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ああ、たのむ・・・」
+
+section_jump_branch1 34
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 24
+@21
+
+kgd_layer2_set 1 Kgd\B_010.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 25 ◆廊下へ移動
+@22
+@24
+jump_branch1 3988 34
+
+kgd_layer2_set 1 Kgd\B_038.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 26 ◆廊下へ移動
+#34_3
+
+music_play 15
+
+kgd_layer2_set 1 Kgd\B_039.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 自室にもどる・・・。
+line_set すでに日は完全に落ち、
+line_set 部屋の中は暗闇につつまれている。
+
+nvl_line_clear
+
+line_set 双厳はいつも通りそうだろうと考えながら、
+line_set 部屋の敷居をまたいだ。
+line_set すると・・・。
+
+nvl_line_clear
+
+line_set 部屋には脂燭がともされており、やさしく包み込むような陰翳が部屋をゆらめいていた。
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 紗枝が前もって灯してくれたのだろうか・・・。
+
+adv_on
+
+name_set 紗枝
+
+sfx_set 2 Vox\6718.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+
+kgd_layer3_set 0 Kgd\Sa_010.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 紗枝
+
+sfx_set 2 Vox\6717.wav
+sfx_play 2
+
+line_set 「お食事をお持ちいたしましたです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Sa_005.kgd
+kgd_layer3_param 3 192 0 0 0 416 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+sfx_set 2 Vox\6716.wav
+sfx_play 2
+
+line_set 「ど、どうなされましたです・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「いや、なんでもない」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 双厳は食事を終えて少し考えていた。
+line_set それは生まれてから幾度となく繰り返された思考であった。
+line_set その答えもいつも同じものである。
+
+nvl_line_clear
+
+line_set 「俺は異形の者である」
+line_set 「人々と暮らす事はできない」
+
+nvl_line_clear
+
+line_set いつもならばここで終わりであった。
+line_set しかし今回は少し違った・・・。
+line_set そういった結論めいた事をいう気にはなれなかった。
+
+nvl_line_clear
+
+line_set 双厳は、古代、文宣王が論語の中でこういったと言われている言葉を思い出した。
+
+nvl_line_clear
+
+line_set 人は飛ぶ鳥と生きていけるだろうか？
+line_set 人は獣とともに生きていけるだろうか？
+line_set 私は何とともに生きていくべきであろうか？
+
+nvl_line_clear
+
+line_set 双厳は横になる・・・。
+line_set 目には紙燭によって生み出だされた明かりが陰翳の中をユラユラとゆらめいている。
+
+nvl_line_clear
+
+line_set ならば・・・、
+line_set 双厳は果たして何と共に生きるべきなのだろうか？
+line_set 何と共に生きていくことをゆるされているのだろうか？
+line_set 双厳と共に生きる事がゆるされた存在などあるだろうか？
+line_set あるとしたらそれは・・・。
+
+nvl_line_clear
+
+line_set なぜか双厳はこの地に自分と近いものを感じていた。
+line_set あんなに双厳に対して排除の視線を向けた島の住人にすら親近感を感じた。
+line_set それを感じる事とは双厳にとって単純にうれしいという事にはならない、
+line_set なぜならばそれは双厳が呪われた存在であり、
+line_set それに近いものを感じる島の住人もまた、
+line_set 世の中から祝福されぬ呪われた存在である事をあらわしているからだ・・・。
+
+nvl_line_clear
+
+line_set それは、この島にまつわる伝説の端々からも伺える。
+line_set この辺いったいの民はこの島とこの島に生をうけたものを恐れ排除し、
+line_set それでいながら畏敬の念をもっていた。
+line_set この島で生を受けたもの・・・、
+line_set あの紗枝も・・・。
+
+adv_on
+
+line_set 「だからどうした・・・」
+
+nvl_on
+
+line_set いくら紗枝もまた自分と同じように忌まわしき呪いの生を受けているとしても、
+line_set 自分と同じに生きていく事などできない。
+
+nvl_line_clear
+
+line_set 「俺の道は多くの血肉で敷き詰められている」
+line_set 「ばかばかしい・・・」
+line_set 「こんな島にいらぬ親近感など持つものではない」
+line_set 「それこそ命取りになるやもしれない」
+line_set 「・・・」
+
+adv_on
+
+music_stop
+
+sfx_set 0 Se\008.wav
+sfx_loop1 0
+
+line_set 「？」
+
+name_clear
+
+line_set ドドドドドドド
+
+name_set 双厳
+
+line_set 「な、なんだ？」
+line_set 「じ、地震？？？」
+
+kgd_layer1_fx 5
+
+nvl_on
+
+line_set 轟音とともに揺れる。
+line_set 双厳のいる部屋の端々からきしむ音が聞こえる。
+line_set 古いとはいえかなりしっかり作られているだろう阿波路家が崩れるとは考え難かった。
+line_set それに音ほどの揺れではないことが数秒でわかった。
+
+adv_on
+
+kgd_layer1_fx 5
+
+line_set 「な、なんだ・・・」
+line_set 「異常な轟音は・・・」
+
+nvl_on
+
+line_set それは地震の轟音というより爆発の轟音であった。
+
+adv_on
+
+sfx_loop2 0
+sfx_stop 0
+
+line_set 「・・・」
+line_set 「止まった・・・か？」
+
+nvl_on
+
+line_set 轟音はもう聞こえない・・・。
+line_set 揺れももう感じない・・・。
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳が張りつめた緊張を解こうとしたその瞬間。
+line_set 双厳の目にあるモノが飛び込んできた・・・。
+
+nvl_line_clear
+
+line_set 自室から見渡せる海。
+line_set その暗く沈んだ闇の中に、
+line_set そびえ立つ黄金の支柱を・・・。
+
+adv_on
+
+line_set 「・・・」
+line_set 「な、何だ・・・」
+line_set 「あれは・・・」
+
+kgd_layer1_set 1 Kgd\Be_007.kgd
+kgd_layer1_fx 6
+kgd_layer2_fade_unk 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 見たこともない光景であった・・・。
+line_set 海の向こうで巨大な火柱が立っていた。
+
+adv_on
+
+line_set 「な、なんだあれは・・・」
+
+nvl_on
+
+line_set 双厳がそれが海底火山であるということに気がつくのに数分の時間を要した。
+line_set それほどに双厳にとってこの光景は信じがたいものであったのだ。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+gallery_unlock 101
+
+ksd_set Ksd\101.ksd
+ksd_set Ksd\008.ksd
+ksd_end

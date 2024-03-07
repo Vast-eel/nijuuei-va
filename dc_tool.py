@@ -50,47 +50,48 @@ def match_voices():
     dont_voice = ["name_set ‘oŒµ", "name_set ‘D“ª", "name_set \•º‰q"]
 
     for file in os.listdir("Dreamcast"):
-        vo_dict = {}
-        with open(os.path.join("Dreamcast", file), "r", encoding="shift-jis") as voices:
-            for i, line in enumerate(voices.readlines()):
-                if i % 2 == 0:
-                    v = line.rstrip('\n').zfill(4)
-                else:
-                    d = line.rstrip('\n').split()
-                if i > 0:
-                    vo_dict[v] = d	# odd-numbered lines have voices, even-numbered lines have dialogue
-        fName = file.strip(".txt") + ".ksd.txt"
+        if file.endswith(".txt"):
+            vo_dict = {}
+            with open(os.path.join("Dreamcast", file), "r", encoding="shift-jis") as voices:
+                for i, line in enumerate(voices.readlines()):
+                    if i % 2 == 0:
+                        v = line.rstrip('\n').zfill(4)
+                    else:
+                        d = line.rstrip('\n').split()
+                    if i > 0:
+                        vo_dict[v] = d	# odd-numbered lines have voices, even-numbered lines have dialogue
+            fName = file.strip(".txt") + ".ksd.txt"
 
-        with (
-            open(os.path.join("Ksd/Decompiled", fName), "r", encoding="shift-jis") as ksd,
-            open(os.path.join("Ksd/Voiced", fName), "a", encoding="shift-jis") as output,
-        ):
-            txt_lines = ksd.read().split('\n')
-            txt_lines = [line for line in txt_lines if line]
-            name_tag = ''
-            
-
-            for index, line in enumerate(txt_lines):
-                if "name_set" in line and line not in dont_voice:
-                    name_tag = line.split(' ')[-1]
-                for v, d in vo_dict.items():
-                    try:
-                        matches = d[1] in line and d[0] == name_tag
-                    except IndexError:
-                        matches = d[-1] in line
-                    finally:
-                        if matches:
-                            ins = "sfx_set 2 " + "Vox\\" + v + ".wav"
-                            output.write(ins + "\nsfx_play 2\n")
-                            del vo_dict[v]
-                            break                   
+            with (
+                open(os.path.join("Ksd/Decompiled", fName), "r", encoding="shift-jis") as ksd,
+                open(os.path.join("Ksd/Voiced", fName), "a", encoding="shift-jis") as output,
+            ):
+                txt_lines = ksd.read().split('\n')
+                txt_lines = [line for line in txt_lines if line]
+                name_tag = ''
                 
-                output.write(line + '\n')
-                if d[-1] in line:
-                    output.write("sfx_stop 2\n")            
 
-            if len(vo_dict) > 0:
-                with (open(os.path.join("Ksd/Voiced/Rejects", fName), "w", encoding="shift-jis") as to_fix):            
+                for index, line in enumerate(txt_lines):
+                    if "name_set" in line and line not in dont_voice:
+                        name_tag = line.split(' ')[-1]
                     for v, d in vo_dict.items():
-                        to_fix.write(v + '\n' + '\t\t'.join(d) + '\n')    
+                        try:
+                            matches = d[1] in line and d[0] == name_tag
+                        except IndexError:
+                            matches = d[-1] in line
+                        finally:
+                            if matches:
+                                ins = "sfx_set 2 " + "Vox\\" + v + ".wav"
+                                output.write(ins + "\nsfx_play 2\n")
+                                del vo_dict[v]
+                                break                   
+                    
+                    output.write(line + '\n')
+                    if d[-1] in line:
+                        output.write("sfx_stop 2\n")            
+
+                if len(vo_dict) > 0:
+                    with (open(os.path.join("Ksd/Voiced/Rejects", fName), "w", encoding="shift-jis") as to_fix):            
+                        for v, d in vo_dict.items():
+                            to_fix.write(v + '\n' + '\t\t'.join(d) + '\n')    
 match_voices()                        

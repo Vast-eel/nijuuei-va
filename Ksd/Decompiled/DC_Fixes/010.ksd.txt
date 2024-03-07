@@ -1,0 +1,552 @@
+
+wait 2000
+
+music_play 15
+
+kgd_layer2_set 0 Kgd\B_035.kgd
+kgd_layer2_crossfade 2
+kgd_layer2_display
+
+nvl_on
+
+line_set 双厳が屋敷につくと日は完全に落ちて、あたりは暗闇に包まれていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「さてと・・・」
+line_set 「今日はこれぐらいにして自室に戻るか・・・」
+
+nvl_on
+
+line_set 双厳は自室に戻る事にした。
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_031.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Sa_001.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 紗枝
+
+line_set 「あ、双厳さま」
+
+name_set 双厳
+
+line_set 「紗枝か」
+
+name_set 紗枝
+
+line_set 「そろそろお夕食が出来あがりますですよ」
+
+name_set 双厳
+
+line_set 「そうか・・・」
+
+name_set 紗枝
+
+line_set 「楓玲さんも帰ってきたみたいですし」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「そういえば・・・」
+line_set 「紗枝が海岸で待ってる時に楓玲とは会えなかったのか？」
+
+name_set 紗枝
+
+line_set 「はいです」
+line_set 「なんか楓玲さん、舟に乗り遅れてしまったみたいなんです」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「その舟に遅れても淡炎島に行く事は可能なのか？」
+
+name_set 紗枝
+
+line_set 「たまたま本州からこの島に商船が来たので・・・」
+
+name_set 双厳
+
+line_set 「それはいつも来るのか？」
+
+name_set 紗枝
+
+line_set 「いいえ」
+line_set 「だいたい一ヶ月に一回ぐらいです」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なら本当にたまたまか・・・」
+
+name_set 紗枝
+
+line_set 「そうですね」
+line_set 「それより、双厳さまお夕食はどうしますですか？」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「すぐにでも支度してくれ」
+
+kgd_layer3_set 3 Kgd\Sa_002.kgd
+kgd_layer3_param 3 192 0 0 0 416 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+line_set 「はいです」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 紗枝はうれしそうに廊下から消えていった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer2_fade_unk 0
+kgd_layer2_set 0 Kgd\B_039.kgd
+kgd_layer2_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 双厳は食事をすませ自室でぼんやりと考え事をしていた。
+
+nvl_line_clear
+
+line_set 『しるし』と呼ばれる海底火山の事。
+line_set 『ヒルコ鳥居』と呼ばれる島を覆う鳥居の事。
+line_set そして、この島に伝わる伝説の事。
+
+nvl_line_clear
+
+line_set それらはいくら考えても、結論がでないものばかりであった。
+
+adv_on
+
+nvl_on
+
+line_set 仰向けになり天井を見上げながら双厳がつぶやく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ふう・・・」
+line_set 「わからないな・・・」
+
+nvl_on
+
+line_set 双厳は体全体を縁側の方に向ける。
+line_set そこに見える海は暗闇に沈んでいる。
+
+adv_on
+
+line_set 「・・・」
+line_set 「不気味な島だ・・・」
+
+nvl_on
+
+line_set 闇に沈んでいながら、海にはときおり白い筋のようなものが浮かんでいる。
+line_set もちろんそれは激流としか言いようがないほどの、淡炎島を包む海流が生む波しぶきだ。
+
+nvl_line_clear
+
+line_set 「地獄の底が見えるとしたらこんな感じかもしれないな・・・」
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+nvl_on
+
+line_set 「ん・・・・」
+line_set 「またか・・・・」
+
+nvl_line_clear
+
+line_set うっすらであるが、また歌のような声が聞こえる。
+
+adv_on
+
+line_set 「外から聞こえるな・・・」
+
+jump_choice 0 ◆確認しにいく
+jump_choice 1 ◆確認しない
+@1
+
+line_set 「・・・」
+line_set 「どうでもいい・・・」
+line_set 「たぶん誰かが歌っているのだろう」
+line_set 「それが一体どうしたというのだ・・・」
+
+nvl_on
+
+line_set 双厳はそのまま動かずにじっとしている。
+line_set すると歌声も聞こえなくなった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「聞こえなくなったな・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+nvl_line_clear
+
+line_set 双厳はそのまま眠りについた。
+
+adv_on
+
+jump_auto 2
+@0
+
+nvl_on
+
+line_set 双厳は声のする方向に足をむける。
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_031.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 「・・・」
+line_set 「あっちの方か・・・」
+
+nvl_line_clear
+
+line_set 双厳は廊下から庭に降りた。
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_027.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 庭から屋敷の裏側に回ると大きな蔵の前にでた。
+
+adv_on
+
+line_set 「さすがでかい屋敷を所有しているだけはあるな」
+line_set 「かなり大きい蔵だ」
+
+nvl_on
+
+line_set 目的を一瞬忘れるような大きな蔵であった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「聞こえる・・・」
+line_set 「この中から声は聞こえる・・・」
+
+nvl_on
+
+line_set 蔵の中からは少女の歌声のようなものが聞こえる。
+
+adv_on
+
+line_set 「・・・」
+line_set 「蔵の中に少女？」
+
+nvl_on
+
+line_set 志乃の娘だろうか？
+line_set それにしては、志乃からそのような話は一切聞いていない。
+
+adv_on
+
+line_set 「・・・」
+line_set 「どうやら、同じ歳ぐらいの娘が二人いるようだな」
+
+jump_choice 3 ◆このままいる
+jump_choice 4 ◆自室に帰る
+@4
+
+line_set 「・・・」
+line_set 「どうでもいい・・・」
+line_set 「たぶん誰かが歌っているのだろう」
+line_set 「それが一体どうしたというのだ・・・」
+
+nvl_on
+
+line_set 「それよりこんな場所をウロウロしているところを見られるほうが都合悪い」
+
+nvl_line_clear
+
+line_set 「自室に引き返そう」
+
+adv_on
+
+jump_auto 5
+@3
+
+section_jump_branch1 61
+
+music_play 4
+
+nvl_on
+
+line_set 双厳は少女達の歌声をそのまま聞いていた。
+line_set 少女達の歌声は双厳の心を強くうった。
+
+nvl_line_clear
+
+line_set 「かわいらしい歌声だな・・・」
+
+adv_on
+
+name_set 少女
+
+line_set 「誰かいるのですか？」
+
+nvl_on
+
+line_set 少女達の歌声が突然とまる。
+line_set どうやら、双厳の気配に気がついたらしい。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ああ、すまない・・・」
+line_set 「盗み聞きするつもりではなかったのだがな・・・」
+line_set 「歌声につれられて思わずな」
+
+name_set 少女
+
+line_set 「・・・」
+line_set 「どなたですか？」
+
+name_set 双厳
+
+line_set 「この屋敷に雇われた用心棒だ」
+
+name_set 少女
+
+line_set 「ようじんぼう？」
+line_set 「お姉ちゃん、ようじんぼうってなに？」
+line_set 「・・・」
+
+nvl_on
+
+line_set 蔵の中の少女達は姉妹であるのだろうか？それとも一方は姉として慕われているのだろうか？
+
+adv_on
+
+line_set 「ようじんぼうさんですか？」
+
+nvl_on
+
+line_set 少女達は『用心棒』という言葉をしらないようだ。
+line_set まあ、このようなところで隠されるように育てられた少女ならあり得ない事もないだろう。
+
+adv_on
+
+name_set 双厳
+
+line_set 「いや、用心棒は名前ではない」
+line_set 「名は二つ影双厳という」
+
+name_set 少女
+
+line_set 「ふたつかげそうげんさま？」
+
+name_set 双厳
+
+line_set 「そうだ、二つ影双厳だ」
+line_set 「双厳と呼んでくれ」
+
+name_set 少女
+
+line_set 「はい双厳さま」
+line_set 「で、名前じゃないのなら、ようじんぼうって何？」
+line_set 「こら、スイちゃん失礼でしょ、そんな聞き方」
+
+name_set 双厳
+
+line_set 「いや、かまわんさ」
+line_set 「用心棒というのは、金で雇われて依頼者の事を守る者だ」
+
+name_set 少女
+
+line_set 「依頼者って誰ですか？」
+
+name_set 双厳
+
+line_set 「今回の場合は阿波路家だな」
+
+name_set 少女
+
+line_set 「もしかして、お兄ちゃんは私たちを守るのがお仕事なの？」
+
+name_set 双厳
+
+line_set 「そうだな」
+line_set 「あんたらが阿波路の人間ならあんたらも守る事になるな」
+
+name_set 少女
+
+line_set 「じゃ、桔梗お姉ちゃんと同じなの？」
+
+nvl_on
+
+line_set 「桔梗・・・」
+line_set 「聞いたことない名前だな・・・」
+line_set 「そんなやつ用心棒の中にはいなかったが・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「桔梗？」
+line_set 「誰だそれは？」
+
+name_set 少女
+
+line_set 「桔梗お姉ちゃんは、スイとイルお姉ちゃんを守る、巫女の守護者だよ」
+
+name_set 双厳
+
+line_set 「守護者？」
+
+name_set 少女
+
+line_set 「桔梗お姉ちゃんは、ずっとずっとスイとイルお姉ちゃんを守ってるんだよ」
+
+name_set 双厳
+
+line_set 「ところで・・・」
+line_set 「そのイルとスイというのは？」
+
+name_set 少女
+
+line_set 「すみません」
+line_set 「双厳さまが名のってくださったのに・・・」
+line_set 「私たちの紹介が遅れました」
+
+name_set イル
+
+line_set 「私、イルといいます」
+
+name_set スイ
+
+line_set 「私はスイだよ、双厳お兄ちゃん」
+
+name_set 双厳
+
+line_set 「イルとスイは阿波路の娘さんなのかな」
+
+name_set イル
+
+line_set 「いいえ、日の巫女です」
+
+nvl_on
+
+line_set 「？」
+line_set 「日の巫女？」
+
+adv_on
+
+name_set 双厳
+
+line_set 「日の巫女というのは？」
+
+name_set イル
+
+line_set 「私とスイちゃんです」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 世間ずれしてないというのだろうか？
+line_set それにしても会話がかみ合わない・・・。
+
+adv_on
+
+line_set 「！」
+
+nvl_on
+
+line_set 誰かこちらに向かってくるようだ・・・。
+line_set このような時間にこのような場所でウロウロしている姿を見られては都合がわるい。
+
+adv_on
+
+line_set 「急用ができたんで、そろそろ帰らせてもらうぞ」
+
+name_set イル
+
+line_set 「え？もうお帰りになるのですか？」
+
+name_set スイ
+
+line_set 「え～、帰っちゃいや～」
+
+name_set イル
+
+line_set 「スイちゃんそんなわがままいって双厳さまを困らせてはだめです」
+
+name_set スイ
+
+line_set 「だってスイもっと双厳お兄ちゃんと話したいんだもん」
+
+name_set 双厳
+
+line_set 「邪魔したな」
+
+nvl_on
+
+line_set 双厳は近づく気配から逃げるようにその場から立ち去った。
+
+adv_on
+@5
+
+kgd_layer2_set 1 Kgd\B_039.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+line_set 「ふぅ・・・」
+line_set 「さて・・・そろそろ寝るか・・・」
+@2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+music_stop
+
+ksd_set Ksd\011.ksd
+ksd_end

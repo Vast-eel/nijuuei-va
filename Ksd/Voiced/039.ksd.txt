@@ -1,0 +1,2689 @@
+
+name_set 双厳
+
+line_set 「桔梗は十兵衛と一緒にいけ。」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2597.wav
+sfx_play 2
+
+line_set 「はい・・・」
+
+sfx_stop 2
+
+name_set 十兵衛
+
+line_set 「そうだな・・・」
+line_set 「お前は屋敷内を探してくれ」
+line_set 「俺と桔梗は庭を探す」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+
+name_set 十兵衛
+
+line_set 「なんかあったら、知らせてくれ」
+
+name_set 双厳
+
+line_set 「ああ、そうする」
+
+name_set 十兵衛
+
+line_set 「さぁ、いくぞ桔梗」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2596.wav
+sfx_play 2
+
+line_set 「あ、はい・・・」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer3_fadeout 1
+kgd_layer3_clear 1
+
+jump_auto 0
+@3
+
+kgd_layer2_set 1 Kgd\B_032.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@0
+
+jump_choice 1 ◆自室へ移動
+jump_choice 2 ◆大広間へ移動
+@1
+
+kgd_layer2_set 1 Kgd\B_040.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 698 282
+
+section_jump_branch1 282
+
+name_set 双厳
+
+line_set 「ここも向こうの世界とまるで変わらずか・・・」
+line_set 「まさに”鏡の世界”だな・・・」
+line_set 「こんな所にはいないな・・・」
+line_set 「他を捜すか・・・」
+#282_0
+
+jump_choice 3 ◆廊下へ移動
+@2
+
+kgd_layer2_set 1 Kgd\B_012.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 双厳が大広間に足を踏み入れると、そこには一人の女の姿があった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くくく・・・」
+line_set 「こんなところで会うとはな・・・」
+
+nvl_on
+
+line_set いつ頃だろうか、その姿を隠した存在、阿波路家の当主にして、島の全てを手中に持つ権力者。
+
+adv_on
+
+line_set 「志乃・・・」
+
+kgd_layer3_set 0 Kgd\Sh_001.kgd
+kgd_layer3_param 0 48 0 0 0 704 600
+kgd_layer3_display 0
+
+name_set 志乃
+
+sfx_set 2 Vox\2517.wav
+sfx_play 2
+
+line_set 「ふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2516.wav
+sfx_play 2
+
+line_set 「お久しぶりですね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ああ、ひさしぶりだぜ・・・」
+line_set 「会いたかったぜ」
+line_set 「いろいろと聞きたい事が多いからな・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2515.wav
+sfx_play 2
+
+line_set 「ふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2514.wav
+sfx_play 2
+
+line_set 「良いでしょう」
+
+sfx_stop 2
+sfx_set 2 Vox\2513.wav
+sfx_play 2
+
+line_set 「なんでも聞いてください」
+
+sfx_stop 2
+sfx_set 2 Vox\2512.wav
+sfx_play 2
+
+line_set 「いまさら貴方方が何をしても無駄ですからね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ほう・・・」
+line_set 「残念ながら拷問による尋問の必要はないようだな」
+
+nvl_on
+
+line_set 双厳は柄から手を離す。
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\2511.wav
+sfx_play 2
+
+line_set 「さて、なにがお聞きになりたいのですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「とりあえず・・・」
+
+jump_choice 4 ◆お前の目的は何だったんだ？
+@4
+
+line_set 「お前の目的・・・」
+line_set 「一体それはなんだ？」
+line_set 「岩の封印を守る阿波路家の家長でありながら、なぜ岩の封印を解くようなまねをした？」
+line_set 「そんな事したところでお前の利益になるような事はないと思うが？」
+
+name_set 志乃
+
+line_set 「・・・」
+
+sfx_set 2 Vox\2510.wav
+sfx_play 2
+
+line_set 「利益ですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだ」
+line_set 「岩の封印が解ければ、生きている人間はすべて死ぬことになる」
+line_set 「貴様が無影のようにこの世を道連れにしてまで何かに復讐したいのならいざしらず」
+line_set 「お前にそんな目的などないであろう」
+line_set 「ならばなぜこのような事をした？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2509.wav
+sfx_play 2
+
+line_set 「目的などありません・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「んな馬鹿な話はあるまい」
+line_set 「目的もなく世界を滅ぼすようなまねができるか？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2508.wav
+sfx_play 2
+
+line_set 「くす」
+
+sfx_stop 2
+sfx_set 2 Vox\2507.wav
+sfx_play 2
+
+line_set 「貴方には分かりますまい」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「あん？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2506.wav
+sfx_play 2
+
+line_set 「目的がないからこそ、世の中などなくなってほしいという考え方だってありえますわ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そんな馬鹿な話があるかよ」
+
+name_set 志乃
+
+sfx_set 2 Vox\2505.wav
+sfx_play 2
+
+line_set 「貴方には理解できないでしょうけど・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「手前、未亡人だとかいったな」
+line_set 「どうせ欲求不満で無影にたらし込まれたのであろうが・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2504.wav
+sfx_play 2
+
+line_set 「くす、下品ですね双厳さまは・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「下品？」
+line_set 「下品なのはてめぇの生き方だろうが・・・」
+line_set 「男に拐かされて、こんな事に手を貸しやがって」
+line_set 「なにが目的がないからだ・・・高尚ぶるのもたいがいにしやがれ・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2503.wav
+sfx_play 2
+
+line_set 「ふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2502.wav
+sfx_play 2
+
+line_set 「別に否定はしません」
+
+sfx_stop 2
+sfx_set 2 Vox\2501.wav
+sfx_play 2
+
+line_set 「私は無影さまを愛していましたから」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「愛しているだと・・・」
+line_set 「けっ虚無主義みたいな事ぬかしておいて、阿呆か貴様は・・・」
+line_set 「やはり無影にはめられて虜にでもなったんだろ？」
+line_set 「田舎女にありがちな話か？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2500.wav
+sfx_play 2
+
+line_set 「くす・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2499.wav
+sfx_play 2
+
+line_set 「なんとでも仰ってください」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「チッ・・・」
+line_set 「あいかわらず気に食わねぇやつだな・・・」
+line_set 「てめぇが無影を愛していようがいまいがヤツにとっては単なる奸計だ・・・」
+line_set 「あいつはそう言う男だ」
+line_set 「目的のためには手段を選ばない」
+line_set 「わかんねぇか？」
+line_set 「てめぇは利用されたんだよ」
+line_set 「愛の奸計ってやつによ・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2498.wav
+sfx_play 2
+
+line_set 「そんな事は百も承知ですわ」
+
+sfx_stop 2
+sfx_set 2 Vox\2497.wav
+sfx_play 2
+
+line_set 「ただ、私が無影さまを愛していた事は事実です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「チッ・・・」
+line_set 「これだから女はよ・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2496.wav
+sfx_play 2
+
+line_set 「ふふふ」
+
+sfx_stop 2
+sfx_set 2 Vox\2495.wav
+sfx_play 2
+
+line_set 「それは女、故でしょうか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ああ、そうだよ、こんな愚かな行いなど女の所行以外にありえない」
+
+name_set 志乃
+
+sfx_set 2 Vox\2494.wav
+sfx_play 2
+
+line_set 「くす」
+
+sfx_stop 2
+sfx_set 2 Vox\2493.wav
+sfx_play 2
+
+line_set 「もし、男が愛におぼれてその奸計に陥ることがないとするならば」
+
+sfx_stop 2
+sfx_set 2 Vox\2492.wav
+sfx_play 2
+
+line_set 「男という生き物はおしなべて鈍感という事になりますわ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「んだと？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2491.wav
+sfx_play 2
+
+line_set 「でも事実は違います」
+
+sfx_stop 2
+sfx_set 2 Vox\2490.wav
+sfx_play 2
+
+line_set 「男とて愛の奸計によって身を滅ぼします」
+
+sfx_stop 2
+sfx_set 2 Vox\2489.wav
+sfx_play 2
+
+line_set 「すべての人間が、その奸計の誘惑の前に恐れおののくでしょう」
+
+sfx_stop 2
+sfx_set 2 Vox\2488.wav
+sfx_play 2
+
+line_set 「たぶんそれが分からないのは」
+
+sfx_stop 2
+sfx_set 2 Vox\2487.wav
+sfx_play 2
+
+line_set 「男がでなく、貴方が鈍感だからと思いますよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「んだと？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2486.wav
+sfx_play 2
+
+line_set 「目的もなく生きなければならない者にはこの世は苦痛の固まりでしかありません」
+
+sfx_stop 2
+sfx_set 2 Vox\2485.wav
+sfx_play 2
+
+line_set 「その苦痛に耐えきれずにいるから」
+
+sfx_stop 2
+sfx_set 2 Vox\2484.wav
+sfx_play 2
+
+line_set 「人は愛という身を焼くような癒しを、求めるのではないのでしょうか」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「やれやれだぜ・・・」
+line_set 「馬鹿かてめぇは・・・」
+line_set 「愛におぼれて、世界を売ったあげくに説教までかますか？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2483.wav
+sfx_play 2
+
+line_set 「くす・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2482.wav
+sfx_play 2
+
+line_set 「そうですね・・・」
+
+sfx_stop 2
+
+jump_choice 5 ◆貴様は一体何者だ？
+@5
+
+name_set 双厳
+
+line_set 「少し気になっていたのだが・・・」
+line_set 「貴様は元々この島の人間ではないのであろう」
+line_set 「そのような事を島の住人が口にしているのを耳にした・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2481.wav
+sfx_play 2
+
+line_set 「そうですね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2480.wav
+sfx_play 2
+
+line_set 「貴方の言うとおり、私はこの島で生まれた者ではありません」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2479.wav
+sfx_play 2
+
+line_set 「私は元々は地方の豪族の娘でした」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なるほど、豪族ね・・・」
+
+nvl_on
+
+line_set 志乃が豪族の娘である、というのはうなずける話である。
+
+nvl_line_clear
+
+line_set いくら阿波路家の当主が高い教養を身につけなければならないといっても、
+line_set 志乃の古今東西に広がる見聞の知識は、島という隔離された人間のものとは思えなかった。
+
+nvl_line_clear
+
+line_set 古い儀礼に関する知識が多いのはうなずけるとしても、やはりごく最近起きた事件まで知っているのは、
+line_set 不思議としかいいようがなく、志乃と言葉を交わす度に双厳は違和感を感じていた。
+
+adv_on
+
+name_set 志乃
+
+sfx_set 2 Vox\2478.wav
+sfx_play 2
+
+line_set 「小さくはないが決して大きくもないという地位の豪族の立場は微妙なものです」
+
+sfx_stop 2
+sfx_set 2 Vox\2477.wav
+sfx_play 2
+
+line_set 「あらゆる巨大な力におびえながら、今日は東軍、明日は西軍とやっていたようです・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2476.wav
+sfx_play 2
+
+line_set 「そんな中、父は地盤を固めるためにある事を考えました」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なるほどな・・・」
+line_set 「話が見えてきた、それが淡炎島であったのだな」
+
+name_set 志乃
+
+sfx_set 2 Vox\2475.wav
+sfx_play 2
+
+line_set 「はい、その通りです」
+
+sfx_stop 2
+sfx_set 2 Vox\2474.wav
+sfx_play 2
+
+line_set 「父は、この淡炎島の宗教的な影響力に目を付けました」
+
+sfx_stop 2
+sfx_set 2 Vox\2473.wav
+sfx_play 2
+
+line_set 「その力を取り込み、もっと多くの影響力を得ようとしました」
+
+sfx_stop 2
+sfx_set 2 Vox\2472.wav
+sfx_play 2
+
+line_set 「それに使われたのが私です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なるほど、政略結婚か・・・」
+line_set 「別段めずらしくもないがな・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2471.wav
+sfx_play 2
+
+line_set 「馬鹿馬鹿しい事です・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2470.wav
+sfx_play 2
+
+line_set 「どうせその後、大阪城の戦いで豊臣側について滅ぼされる事になるのに・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「しかたあるまい、それは時の運だ」
+
+name_set 志乃
+
+sfx_set 2 Vox\2469.wav
+sfx_play 2
+
+line_set 「しかたがない？」
+
+sfx_stop 2
+sfx_set 2 Vox\2468.wav
+sfx_play 2
+
+line_set 「そうかもしれませんね」
+
+sfx_stop 2
+sfx_set 2 Vox\2467.wav
+sfx_play 2
+
+line_set 「私だって阿波路家でなければそう思えたかもしれません・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2466.wav
+sfx_play 2
+
+line_set 「しかし淡炎島は呪われた島です・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2465.wav
+sfx_play 2
+
+line_set 「この島が呪われているとしたら」
+
+sfx_stop 2
+sfx_set 2 Vox\2464.wav
+sfx_play 2
+
+line_set 「呪われているのは島自体でなく」
+
+sfx_stop 2
+sfx_set 2 Vox\2463.wav
+sfx_play 2
+
+line_set 「呪われているのはこの島の住人です」
+
+sfx_stop 2
+sfx_set 2 Vox\2462.wav
+sfx_play 2
+
+line_set 「馬鹿馬鹿しい因習などに縛られた愚かな人間こそが呪われているのです・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2461.wav
+sfx_play 2
+
+line_set 「前当主の私の夫は愚かな人間でありました」
+
+sfx_stop 2
+sfx_set 2 Vox\2460.wav
+sfx_play 2
+
+line_set 「阿波路の掟などに縛られて・・・」
+
+sfx_stop 2
+
+kgd_layer3_set 3 Kgd\Sh_002.kgd
+kgd_layer3_param 3 48 0 0 0 704 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set いままで表情など変えた事のない志乃の顔が突然悲しみに歪む・・・。
+
+adv_on
+
+sfx_set 2 Vox\2459.wav
+sfx_play 2
+
+line_set 「私と夫の間に生まれた子供は・・・双子ではありませんでした」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「この島で生まれた者は全員双子ではないのか？」
+line_set 「片方が水蛭子で・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2458.wav
+sfx_play 2
+
+line_set 「そのようなわけがありますまい」
+
+sfx_stop 2
+sfx_set 2 Vox\2457.wav
+sfx_play 2
+
+line_set 「私の子供は健全な普通の子でしたよ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2456.wav
+sfx_play 2
+
+line_set 「ありますとも」
+
+sfx_stop 2
+sfx_set 2 Vox\2455.wav
+sfx_play 2
+
+line_set 「私が調べたかぎりここ数百年は水蛭子で生まれる子供の率は確実に下がっています」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ほう・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2454.wav
+sfx_play 2
+
+line_set 「呪いなどと勝手に騒いでいるのはこの島の住人だけです」
+
+sfx_stop 2
+sfx_set 2 Vox\2453.wav
+sfx_play 2
+
+line_set 「実際には普通に生まれる子供もかなり増えてます」
+
+sfx_stop 2
+sfx_set 2 Vox\2452.wav
+sfx_play 2
+
+line_set 「特に外部の人間との間の子供はそのほとんどが双子ではありません」
+
+sfx_stop 2
+sfx_set 2 Vox\2451.wav
+sfx_play 2
+
+line_set 「双子で生まれるのは、この島同士の人間で生んだ子供にかぎってといっても差し支えありません」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2450.wav
+sfx_play 2
+
+line_set 「狭い島の中で何代も血族だけで交配を繰り返せばそんな事だって起こるでしょうに・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2449.wav
+sfx_play 2
+
+line_set 「そんな視野もこの島の人々にはないのです」
+
+sfx_stop 2
+sfx_set 2 Vox\2448.wav
+sfx_play 2
+
+line_set 「せめて伝説が好きならヒルコとやらの呪いが弱まっているとでも考えればいいものを・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2447.wav
+sfx_play 2
+
+line_set 「私は何度もそう主人に言ったにもかかわらず」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「その前当主である貴様の主人はそれをどのように考えたのだ？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2446.wav
+sfx_play 2
+
+line_set 「ヒルコの呪いからこの島が解放される事などあり得ない・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2445.wav
+sfx_play 2
+
+line_set 「双子でない子供には内面にヒルコが住み着いているといって・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「つまり水蛭子と融合して生まれたとでも考えたわけか・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2444.wav
+sfx_play 2
+
+line_set 「そうです・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2443.wav
+sfx_play 2
+
+line_set 「だから普通の子供は水蛭子として・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2442.wav
+sfx_play 2
+
+line_set 「殺すのです・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2441.wav
+sfx_play 2
+
+line_set 「この島で双子として生まれない子も、また水蛭子として殺すのです」
+
+sfx_stop 2
+sfx_set 2 Vox\2440.wav
+sfx_play 2
+
+line_set 「伝承における生まれ方以外はすべて例外として、これを排除します」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「実際はどうなんだ？」
+line_set 「本当に内部に水蛭子があるのか？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2439.wav
+sfx_play 2
+
+line_set 「さぁ？双子でない子はすぐに殺されますからね」
+
+sfx_stop 2
+sfx_set 2 Vox\2438.wav
+sfx_play 2
+
+line_set 「実際はどうであるかなど確かめるべくもありません・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「お前の子供も殺されたわけか・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2437.wav
+sfx_play 2
+
+line_set 「ええ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2436.wav
+sfx_play 2
+
+line_set 「三回ほど子を産みましたが・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2435.wav
+sfx_play 2
+
+line_set 「一度として双子ではなかったので・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「それでか？」
+line_set 「島の封印を解いたのは？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2434.wav
+sfx_play 2
+
+line_set 「さぁ、どうでしょうか？」
+
+sfx_stop 2
+sfx_set 2 Vox\2433.wav
+sfx_play 2
+
+line_set 「三度も子供を殺されてますとね、感情というものがよくわからなくなるのですよ」
+
+sfx_stop 2
+sfx_set 2 Vox\2432.wav
+sfx_play 2
+
+line_set 「自分が怒っているのか？」
+
+sfx_stop 2
+sfx_set 2 Vox\2431.wav
+sfx_play 2
+
+line_set 「自分がわらっているのか？」
+
+sfx_stop 2
+sfx_set 2 Vox\2430.wav
+sfx_play 2
+
+line_set 「自分が泣いているのか？」
+
+sfx_stop 2
+sfx_set 2 Vox\2429.wav
+sfx_play 2
+
+line_set 「全然分からないのです」
+
+sfx_stop 2
+sfx_set 2 Vox\2428.wav
+sfx_play 2
+
+line_set 「だから・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2427.wav
+sfx_play 2
+
+line_set 「私がこの島の住人を恨んでいるかどうかなど私には分かりませんわ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「だから生きる目的がなくなったと、そう言いたいのか？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2426.wav
+sfx_play 2
+
+line_set 「ふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2425.wav
+sfx_play 2
+
+line_set 「たぶんそれはないでしょうね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2424.wav
+sfx_play 2
+
+line_set 「昔から目的なんてありませんよ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2423.wav
+sfx_play 2
+
+line_set 「ここに嫁いだ時から・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2422.wav
+sfx_play 2
+
+line_set 「いいえ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2421.wav
+sfx_play 2
+
+line_set 「もしかしたら生まれた時から・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「くだらねぇな・・・」
+line_set 「そんなに生きてるのが嫌なら勝手に死にやがれ・・・」
+
+name_set 志乃
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「貴様がどう考えているかは知らん」
+line_set 「だが、これだけは事実だ」
+line_set 「この島に特殊な力が及んでいる」
+line_set 「現に、伝承通りの事が進んでいる」
+line_set 「本当に黄泉があるかどうかなど知らんが、確実にヤバイものが呼び出されている」
+line_set 「黒い太陽」
+line_set 「形のない島」
+
+name_set 志乃
+
+sfx_set 2 Vox\2420.wav
+sfx_play 2
+
+line_set 「そうですね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2419.wav
+sfx_play 2
+
+line_set 「そう考えれば、あの子達もやはり内部に水蛭子を潜ませていたかもしれませんね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2418.wav
+sfx_play 2
+
+line_set 「でも・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2417.wav
+sfx_play 2
+
+line_set 「でもね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2416.wav
+sfx_play 2
+
+line_set 「自分の子が鬼や邪でも、母親というのは子が可愛いもの・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2415.wav
+sfx_play 2
+
+line_set 「だから」
+
+sfx_stop 2
+sfx_set 2 Vox\2414.wav
+sfx_play 2
+
+line_set 「だから、他人が我が子を殺して良いなどという道理などありません・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ケッ」
+line_set 「同じように、貴様が黄泉の封印を解いて大勢の人間を殺していいなどという道理もあるまい」
+
+kgd_layer3_set 3 Kgd\Sh_001.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 志乃
+
+sfx_set 2 Vox\2413.wav
+sfx_play 2
+
+line_set 「ふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2412.wav
+sfx_play 2
+
+line_set 「双厳さまって思ったよりも道徳的なのですね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+jump_choice 6 ◆無影はどこにいる？
+@6
+
+line_set 「さて、本題だ・・・」
+line_set 「無影はどこにいる？」
+
+name_set 志乃
+
+sfx_set 2 Vox\2411.wav
+sfx_play 2
+
+line_set 「さぁ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「とぼけても無駄だぜ」
+line_set 「俺は絶対に貴様の口をわらすぜ」
+
+nvl_on
+
+line_set 双厳が柄に手をかける。
+
+adv_on
+
+line_set 「くくく・・・」
+line_set 「どちらかといえばこのくらいの余興があった方が俺は好きなんだぜ・・・」
+
+name_set 志乃
+
+sfx_set 2 Vox\2410.wav
+sfx_play 2
+
+line_set 「ふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2409.wav
+sfx_play 2
+
+line_set 「これでも口を割らす事は可能ですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「？！」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_clear
+kgd_layer3_clear 0
+
+music_stop
+
+sfx_set 0 Se\001.wav
+sfx_set 1 Se\013.wav
+sfx_set 2 Se\014.wav
+sfx_play 0
+
+nvl_on
+
+line_set 一瞬であった。
+line_set 一瞬の隙をついて志乃は膝に置いた短刀を抜き、そのまま胸を突き刺した。
+
+adv_on
+
+kgd_layer1_set 0 Kgd\En_094.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play 17
+
+nvl_on
+
+line_set 刃物は心の臓まで達していたのだろうか？
+line_set 志乃はほぼ即死状態であった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「チッ・・・」
+line_set 「最後まで合理的な女だぜ・・・」
+line_set 「切腹でもしてくれれば、口を割らす事もできたであろうに・・・」
+
+nvl_on
+
+line_set 古来から日本では人間の魂は腹の中にあると信じられていた。
+line_set だからこそ武士は死ぬときに腹を割いたのである。
+
+nvl_line_clear
+
+line_set だが実際のところは腹を割いてすぐに死ねるものではない、そのため切腹には介錯を必要としていた。
+
+nvl_line_clear
+
+line_set 志乃はそのため、
+line_set 口を割らない可能性が高い自決方法、
+line_set 心の臓を貫くという手段をとったのであろう。
+
+adv_on
+
+line_set 「くそ・・・」
+line_set 「無影の居場所はわからずじまいか・・・」
+line_set 「最後までうざってぇヤツだな・・・」
+
+nvl_on
+
+line_set 双厳は志乃の亡骸に近づく。
+
+adv_on
+
+name_clear
+
+line_set ドッ！！！
+
+nvl_on
+
+line_set 双厳はすでに動かなくなった、志乃の亡骸に剣を突き立てていく。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「うぜぇやろうだ！！」
+
+nvl_on
+
+line_set 「俺は・・・」
+line_set 「俺はなにをしている・・・」
+
+adv_on
+
+sfx_play 0
+
+name_clear
+
+line_set ドッ・・・
+
+kgd_layer1_set 1 Kgd\En_095.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+sfx_play 1
+
+line_set ガッ・・・
+
+kgd_layer1_set 1 Kgd\En_096.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+name_set 双厳
+
+line_set 「くくくく・・・」
+line_set 「志乃、貴様にはこんな死がお似合いだぜ」
+line_set 「バラバラに無惨に屍をさらせ！！」
+
+nvl_on
+
+line_set 「俺は・・・」
+line_set 「なぜ死んだ人間を刻んでいく・・・」
+line_set 「俺は・・・」
+
+nvl_line_clear
+
+line_set 双厳は志乃の死体をどんどん切り刻んでいく。
+
+adv_on
+
+line_set 「この馬鹿が死ななければこうやって切り刻んで口を割らしてやったのによぉ！！！」
+line_set 「いいところで死んでるんじゃねぇ！！」
+
+sfx_play 2
+
+name_clear
+
+line_set ドシャ・・・
+
+kgd_layer1_set 1 Kgd\En_097.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+sfx_play 0
+
+line_set ブチュ・・・
+
+kgd_layer1_set 1 Kgd\En_098.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 「なぜ・・・」
+line_set 「こんな事を・・・」
+
+nvl_line_clear
+
+line_set 美しかった志乃の死体は無惨にバラされていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くくく・・・」
+line_set 「てめぇはここでくたばってやがれよ！！！」
+
+nvl_on
+
+line_set 「もうやめろ・・・」
+line_set 「もうやめるんだ・・・」
+
+adv_on
+
+line_set 「やめろぉぉぉおおおおおおお！！！！！」
+
+nvl_on
+
+line_set 双厳は一人志乃の死体の前で叫ぶ・・・。
+
+adv_on
+
+sfx_stop 0
+sfx_stop 1
+sfx_stop 2
+
+kgd_layer1_set 1 Kgd\W_008.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+music_play 20
+
+line_set 「お、俺は・・・」
+line_set 「いったい・・・」
+
+nvl_on
+
+line_set 「クククク・・・・」
+line_set 「なぜ逃ゲるのダ・・・」
+
+adv_on
+
+line_set 「誰だ！」
+
+nvl_on
+
+line_set 「我ハ貴様に潜む可能性」
+
+adv_on
+
+line_set 「お前は誰だ！！！」
+
+nvl_on
+
+line_set 「なぜ可能性から逃げるノダ？」
+line_set 「ナゼ心を白く濁してしまうノダ？」
+
+nvl_line_clear
+
+line_set 「心を純化セヨ・・・」
+line_set 「さすれバ見えてクル事もある」
+
+nvl_line_clear
+
+line_set 「濁スナ・・・」
+line_set 「闇から逃げるナ・・・」
+
+adv_on
+
+line_set 「てめぇ・・・」
+line_set 「二重影だな！！」
+
+nvl_on
+
+line_set 「二重影ナドというのは我を生み出す儀式の名でしかない・・・」
+line_set 「我ハ貴様に宿る可能性ダ・・・」
+
+adv_on
+
+line_set 「うるさいだまれ！！！」
+line_set 「てめぇの可能性とやらは」
+line_set 「無抵抗な死体を刻む事か？」
+line_set 「その程度しかできない分際ででけぇ事ぬかすな！」
+
+nvl_on
+
+line_set 「我ハ貴様に潜む可能性」
+line_set 「濁スナ・・・」
+line_set 「闇から逃げるナ・・・」
+line_set 「心を純化セヨ・・・」
+
+adv_on
+
+line_set 「だまれ！！！」
+
+nvl_on
+
+line_set 双厳の頭の中で声がする。
+line_set たまらず双厳はその場から走り出す。
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_032.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 「サァ我と共に歩まん・・・」
+line_set 「人がそれ以上になる可能性ヲ・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「だまれ！！！」
+
+kgd_layer2_set 1 Kgd\B_036.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 「ナゼ逃げる？」
+
+adv_on
+
+name_set 双厳
+
+line_set 「だまれ！！！」
+
+nvl_on
+
+line_set 双厳はそのまま走り出す。
+
+adv_on
+
+name_set 声
+
+sfx_set 2 Vox\2595.wav
+sfx_play 2
+
+line_set 「双厳さま！！」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 後ろから誰かの声が聞こえてきたような気がしたが、双厳はそのまま走りだす。
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_016.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 「お前の心は白く濁っテいる・・・」
+line_set 「なぜ心を濁すノだ・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「だまれ！！」
+line_set 「だまれ！！！」
+
+kgd_layer2_set 1 Kgd\B_020.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 「どこマデ逃げる気だ？」
+
+adv_on
+
+name_set 双厳
+
+line_set 「はぁ・・・はぁ・・・」
+
+nvl_on
+
+line_set 二重影が双厳の意識を奪い、双厳の体を奪うのははじめての事ではなかった。
+
+nvl_line_clear
+
+line_set が、双厳はいままで以上に二重影を恐れた。
+line_set 今ここで二重影に体を奪われる事は、
+line_set 双厳に死以上の恐怖をあたえた。
+
+adv_on
+
+line_set 「貴様・・・いったい・・・」
+
+name_set 声
+
+sfx_set 2 Vox\2594.wav
+sfx_play 2
+
+line_set 「双厳さま！！」
+
+sfx_stop 2
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「桔梗・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2588.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「双厳・・・」
+line_set 「我ハ貴様に潜む可能性」
+line_set 「濁スナ・・・」
+line_set 「闇から逃げるナ・・・」
+line_set 「心を純化セヨ・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「う、うるさい！！」
+line_set 「だまれ！！！」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Ky_002.kgd
+kgd_layer3_param 3 108 0 0 0 584 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 桔梗が双厳のそばによる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「来るな！！！」
+line_set 「桔梗！！！」
+line_set 「俺に近づくな！！！！」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2563.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2552.wav
+sfx_play 2
+
+line_set 「私・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「？」
+
+kgd_layer3_set 3 Kgd\Ky_005.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 桔梗
+
+sfx_set 2 Vox\2590.wav
+sfx_play 2
+
+line_set 「見てました・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2589.wav
+sfx_play 2
+
+line_set 「貴方が志乃さまにした事を・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なら分かるであろう・・・」
+line_set 「俺は二重影に取り込まれかけている・・・」
+line_set 「俺に近づくな・・・危険だ・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+sfx_set 2 Vox\2545.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2587.wav
+sfx_play 2
+
+line_set 「私ね・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2586.wav
+sfx_play 2
+
+line_set 「志乃さまが嫌いでした・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2585.wav
+sfx_play 2
+
+line_set 「ずっと前から・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「な、なにを言ってるんだ・・・」
+line_set 「そんな事より早く逃げろ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2584.wav
+sfx_play 2
+
+line_set 「今まで私は淡炎島を守るための剣として生きてきました・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2583.wav
+sfx_play 2
+
+line_set 「人である前に、岩の守り部だったのです」
+
+sfx_stop 2
+sfx_set 2 Vox\2582.wav
+sfx_play 2
+
+line_set 「それはこの島を守る剣」
+
+sfx_stop 2
+sfx_set 2 Vox\2581.wav
+sfx_play 2
+
+line_set 「私はこの島を守る剣だった・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2580.wav
+sfx_play 2
+
+line_set 「だから人として・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2579.wav
+sfx_play 2
+
+line_set 「女として生きる志乃さまが嫌いだった・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2578.wav
+sfx_play 2
+
+line_set 「でもね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2577.wav
+sfx_play 2
+
+line_set 「でも今は・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「たのむ逃げてくれ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2576.wav
+sfx_play 2
+
+line_set 「今は違う・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2575.wav
+sfx_play 2
+
+line_set 「私はすぐに折れてしまう剣・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2574.wav
+sfx_play 2
+
+line_set 「誰も守れない剣・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2573.wav
+sfx_play 2
+
+line_set 「気がついたら・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2572.wav
+sfx_play 2
+
+line_set 「私、そうなっていました・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2571.wav
+sfx_play 2
+
+line_set 「だからあの時私は貴方に殺されたかった・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2570.wav
+sfx_play 2
+
+line_set 「それで綺麗に終われると思っていたの・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2569.wav
+sfx_play 2
+
+line_set 「剣として・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2568.wav
+sfx_play 2
+
+line_set 「貴方に殺される事で・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「な、なにを言っている・・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2567.wav
+sfx_play 2
+
+line_set 「でも・・・それすら許されなかった・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2566.wav
+sfx_play 2
+
+line_set 「だから・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2565.wav
+sfx_play 2
+
+line_set 「わかるの・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2564.wav
+sfx_play 2
+
+line_set 「今なら志乃さまの気持ちが・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「たのむ・・・逃げろ・・・」
+
+nvl_on
+
+line_set 「ソウカ・・・」
+line_set 「アノ女が・・・」
+line_set 「アノ女がお前の心を白く濁シタのか・・・」
+
+adv_on
+
+line_set 「ち、違う！！」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2543.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 二重影に取り込まれかけている双厳に桔梗はさらに近づく。
+
+nvl_line_clear
+
+line_set 「お前ハ今まで何度となく」
+line_set 「我に肉体ヲ奪われた・・・」
+line_set 「ソノ事ニお前が恐怖した事などなかった・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「違う！！」
+
+nvl_on
+
+line_set 「お前は今・・・」
+line_set 「確実に恐怖シテいる」
+
+adv_on
+
+line_set 「違う！！！」
+
+nvl_on
+
+line_set 「自分ノ死以上ニ恐怖している・・・」
+
+adv_on
+
+line_set 「違う！！！」
+
+nvl_on
+
+line_set 「この女を自らの手で殺す事ヲ・・・」
+
+adv_on
+
+line_set 「違う！！！」
+
+nvl_on
+
+line_set 「ダガ安心しろ・・・」
+line_set 「コノ女が死んで」
+line_set 「苦シイのは今だけだ・・・」
+line_set 「今、お前の心ガ白く濁っているから苦しいだけだ・・・」
+
+adv_on
+
+line_set 「やめろ！！」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2562.wav
+sfx_play 2
+
+line_set 「私は・・・やはり志乃さまを許せないけど・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2561.wav
+sfx_play 2
+
+line_set 「ケド・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2560.wav
+sfx_play 2
+
+line_set 「私・・・私ね・・・双厳さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2559.wav
+sfx_play 2
+
+line_set 「だって・・・私だって同じだもん・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2558.wav
+sfx_play 2
+
+line_set 「ゆるせないけど・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2557.wav
+sfx_play 2
+
+line_set 「志乃さまと同じだもん・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2556.wav
+sfx_play 2
+
+line_set 「愛する者のために世界を捧げてしまった志乃さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2555.wav
+sfx_play 2
+
+line_set 「なにもないから・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2554.wav
+sfx_play 2
+
+line_set 「愛する人に世界を捧げてしまった志乃さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2553.wav
+sfx_play 2
+
+line_set 「ゆるせないけど・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2544.wav
+sfx_play 2
+
+line_set 「私・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2551.wav
+sfx_play 2
+
+line_set 「ゆるせないけどね」
+
+sfx_stop 2
+sfx_set 2 Vox\2550.wav
+sfx_play 2
+
+line_set 「でも分かるの・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「あの女をコロセ・・・」
+line_set 「アノ女をコロセ・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「やめろ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2549.wav
+sfx_play 2
+
+line_set 「私には世界を捧げる事はできないけど・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2548.wav
+sfx_play 2
+
+line_set 「だから・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2547.wav
+sfx_play 2
+
+line_set 「志乃さまみたいに世界は捧げられないけど・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2546.wav
+sfx_play 2
+
+line_set 「でも・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「サスれば貴様の心は解放さレル・・・」
+line_set 「白キ濁りから解放される・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「ぐあああぁぁああああ！！！」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2531.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「たのむ・・・」
+line_set 「桔梗・・・」
+line_set 「ここから逃げてくれ・・・」
+line_set 「もうだめだ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2591.wav
+sfx_play 2
+
+line_set 「私・・・」
+
+sfx_stop 2
+
+kgd_layer1_set 1 Kgd\En_099.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_fade_unk 0
+kgd_layer3_clear 0
+
+music_play 7
+
+nvl_on
+
+line_set 桔梗は双厳の胸に飛び込む。
+
+adv_on
+
+name_set 双厳
+
+line_set 「て、てめぇ・・・」
+line_set 「な、何考えていやがる・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2523.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2542.wav
+sfx_play 2
+
+line_set 「貴方にこの命を捧げます・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2541.wav
+sfx_play 2
+
+line_set 「だから・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「き、桔梗？？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2540.wav
+sfx_play 2
+
+line_set 「この命を二重影の贄としてください・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「コロセ・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「桔梗・・・？」
+
+nvl_on
+
+line_set 「コノ女ヲコロセ・・・」
+
+adv_on
+
+name_set 桔梗
+
+sfx_set 2 Vox\2539.wav
+sfx_play 2
+
+line_set 「私を殺したいのでしょ？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ヤバイ逃げろ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2538.wav
+sfx_play 2
+
+line_set 「大丈夫です・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2537.wav
+sfx_play 2
+
+line_set 「だから・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2536.wav
+sfx_play 2
+
+line_set 「私の命を貴方のために使ってください・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「桔梗・・・」
+line_set 「逃げてくれ・・・」
+line_set 「たのむ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2535.wav
+sfx_play 2
+
+line_set 「いいえ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2534.wav
+sfx_play 2
+
+line_set 「逃げません」
+
+sfx_stop 2
+sfx_set 2 Vox\2533.wav
+sfx_play 2
+
+line_set 「私は・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2532.wav
+sfx_play 2
+
+line_set 「私はね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2522.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2530.wav
+sfx_play 2
+
+line_set 「貴方が好きです・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2529.wav
+sfx_play 2
+
+line_set 「貴方の事愛してるから・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2528.wav
+sfx_play 2
+
+line_set 「なにも貴方にあげられない私ですが・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2527.wav
+sfx_play 2
+
+line_set 「この命は使ってください・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2526.wav
+sfx_play 2
+
+line_set 「ね・・・双厳さま・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「桔梗・・・」
+
+nvl_on
+
+line_set 双厳は桔梗を抱きしめる。
+
+adv_on
+
+name_set 桔梗
+
+sfx_set 2 Vox\2525.wav
+sfx_play 2
+
+line_set 「？！」
+
+sfx_stop 2
+sfx_set 2 Vox\2524.wav
+sfx_play 2
+
+line_set 「双厳さま？！」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ばかやろう・・・」
+line_set 「てめぇを殺せるわけねぇだろ・・・」
+line_set 「なにもいらねぇよ・・・」
+line_set 「俺は世界を捧げられてもうれしかないさ・・・」
+line_set 「なにもいらない・・・」
+line_set 「だから・・・」
+line_set 「なにも捧げなくていいんだ・・・」
+line_set 「桔梗・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2521.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「桔梗・・・」
+line_set 「死のうとなんかするな・・・」
+line_set 「てめぇが死ぬと・・・俺はつらい・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2593.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「大丈夫だ・・・」
+line_set 「桔梗・・・」
+line_set 「俺の意識はここにある・・・」
+line_set 「つなぎとめられる・・・」
+line_set 「お前がここにいてくれるかぎり・・・」
+line_set 「だから・・・死ぬな・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\2592.wav
+sfx_play 2
+
+line_set 「双厳さま・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\2520.wav
+sfx_play 2
+
+line_set 「は、はい！！」
+
+sfx_stop 2
+sfx_set 2 Vox\2519.wav
+sfx_play 2
+
+line_set 「ありがとうございます」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 桔梗は双厳の胸に顔を埋める。
+
+nvl_line_clear
+
+line_set 双厳から二重影の声が遠ざかっていく・・・。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 二人はずっと抱きしめあっていた。
+
+nvl_line_clear
+
+line_set ・・・。
+line_set ・・・・・・。
+line_set ・・・・・・・・・。
+
+adv_on
+
+gallery_unlock 116
+
+ksd_set Ksd\116.ksd
+
+kgd_layer1_set 0 Kgd\W_008.kgd
+kgd_layer2_set 0 Kgd\B_032.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+music_play 10
+
+kgd_layer3_set 1 Kgd\Jy_007.kgd
+kgd_layer3_param 1 0 0 0 0 600 600
+kgd_layer3_display 1
+
+name_set 十兵衛
+
+line_set 「いままでどこにいたんだ双厳？」
+
+name_set 双厳
+
+line_set 「あ、ああ・・・」
+
+name_set 十兵衛
+
+line_set 「なんで、桔梗と一緒なんだよ」
+
+kgd_layer3_set 0 Kgd\Ky_008.Kgd
+kgd_layer3_param 0 216 0 0 0 584 600
+kgd_layer3_display 0
+
+name_set 桔梗
+
+sfx_set 2 Vox\2518.wav
+sfx_play 2
+
+line_set 「え？あ？そ、そのぉ・・・」
+
+sfx_stop 2
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「くくくく・・・」
+line_set 「まぁいいや・・・」
+
+name_set 双厳
+
+line_set 「な、なにがおかしいんだよ」
+
+name_set 十兵衛
+
+line_set 「あん？」
+line_set 「今のお前らの顔見たら俺でなくても笑うわ」
+
+name_set 双厳
+
+line_set 「チッ・・・」
+
+kgd_layer3_set 3 Kgd\Ky_002.kgd
+kgd_layer3_param 3 216 0 0 0 584 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「そんな事より・・・」
+line_set 「屋敷の庭を探してみたが、それらしいものはなかった」
+line_set 「屋敷内には何かあったか？」
+
+name_set 双厳
+
+line_set 「志乃がいた」
+
+name_set 十兵衛
+
+line_set 「なに？」
+
+name_set 双厳
+
+line_set 「すまねぇ・・・自決しちまった・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「死ぬ前に何か言ってたか？」
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「今まで俺は意識を二重影に奪われていたようでな・・・」
+line_set 「ここに来てからの記憶がかなりあやふやなんだ・・・」
+
+name_set 十兵衛
+
+line_set 「まぁ、しかたねぇだろ・・・」
+
+name_set 双厳
+
+line_set 「屋敷内に無影がいないのはたしかだな・・・」
+
+name_set 十兵衛
+
+line_set 「残るは・・・」
+
+name_set 双厳
+
+line_set 「東の遺跡か・・・」
+line_set 「大岩・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「どちらかにいるはずだ・・・」
+
+name_set 十兵衛
+
+line_set 「さてと・・・」
+line_set 「こうしてはいられない・・・」
+line_set 「いくぞ・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer3_fadeout 1
+kgd_layer3_clear 1
+
+jump_auto 7
+@9
+jump_auto 8
+@13
+@15
+
+kgd_layer2_set 1 Kgd\B_016.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 9 ◆大岩へ移動
+jump_choice 10 ◆森林へ移動
+jump_choice 11 ◆屋敷前へ移動
+@10
+@14
+
+kgd_layer2_set 1 Kgd\B_020.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 12 ◆遺跡へ移動
+jump_choice 13 ◆山道へ移動
+@12
+
+kgd_layer2_set 1 Kgd\B_024.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 27560 281
+
+section_jump_branch1 281
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「ここにはいないようだな・・・」
+
+name_set 双厳
+
+line_set 「たぶんここは封印の儀式の時に使う遺跡だ・・・」
+line_set 「奴らがここを使う気などないであろう・・・」
+line_set 「無影の目的は世界を滅ぼす事だからな・・・」
+
+name_set 十兵衛
+
+line_set 「急ぐぞ・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「これで最後だ・・・」
+#281_1
+
+jump_choice 14 ◆森林へ移動
+@11
+@20
+@27
+
+kgd_layer2_set 1 Kgd\B_036.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 15 ◆山道へ移動
+jump_choice 16 ◆屋敷内へ移動
+jump_choice 17 ◆村への道へ移動
+@16
+@22
+@26
+
+kgd_layer2_set 1 Kgd\B_032.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@7
+
+jump_choice 18 ◆自室へ移動
+jump_choice 19 ◆大広間へ移動
+jump_choice 20 ◆屋敷外へ移動
+@19
+@23
+
+kgd_layer2_set 1 Kgd\B_012.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 21 ◆志乃の部屋へ移動
+jump_choice 22 ◆廊下へ移動
+@21
+@25
+
+kgd_layer2_set 1 Kgd\B_008.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 23 ◆大広間へ移動
+jump_choice 24 ◆隠し地下室へ移動
+@24
+
+kgd_layer2_set 1 Kgd\B_070.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 25 ◆外へ出る
+@18
+
+kgd_layer2_set 1 Kgd\B_040.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 26 ◆廊下へ移動
+@17
+@29
+
+kgd_layer2_set 1 Kgd\B_044.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 27 ◆屋敷前へ移動
+jump_choice 28 ◆村へ移動
+@28
+@32
+@34
+
+kgd_layer2_set 1 Kgd\B_048.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 29 ◆屋敷前への道へ移動
+jump_choice 30 ◆海岸へ移動
+jump_choice 31 ◆港へ移動
+@31
+@35
+
+kgd_layer2_set 1 Kgd\B_064.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 32 ◆村へ移動
+jump_choice 33 ◆海岸へ移動
+@30
+@33
+@38
+@40
+
+kgd_layer2_set 1 Kgd\B_052.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 34 ◆村へ移動
+jump_choice 35 ◆港へ移動
+jump_choice 36 ◆物見やぐらへ移動
+jump_choice 37 ◆森林へ移動
+@36
+
+kgd_layer2_set 1 Kgd\B_068.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 38 ◆海岸へ移動
+@37
+@41
+
+kgd_layer2_set 1 Kgd\B_056.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 39 ◆遺跡へ移動
+jump_choice 40 ◆海岸へ移動
+@39
+
+kgd_layer2_set 1 Kgd\B_060.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 41 ◆森林へ移動
+@8
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+music_stop
+
+ksd_set Ksd\045.ksd
+ksd_end

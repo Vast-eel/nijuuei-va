@@ -1,0 +1,2243 @@
+
+wait 2000
+
+kgd_layer2_set 0 Kgd\B_030.kgd
+kgd_layer2_crossfade 2
+kgd_layer2_display
+
+jump_auto 0
+@29
+@32
+@33
+@35
+
+kgd_layer2_set 1 Kgd\B_050.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 1266 102
+
+kgd_layer2_set 1 Kgd\B_087.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 102
+
+nvl_on
+
+line_set 「なんだぁ、あの人だかり？」
+
+nvl_line_clear
+
+line_set 海岸に集まる人だかりを見つけ、双厳は寄ってみる。
+
+nvl_line_clear
+
+line_set どうやら村人たちが集まって談話しているらしい。
+
+adv_on
+
+name_set 村人
+
+line_set 「一体どうなっとるだ？」
+line_set 「うむ・・・」
+line_set 「こんな事は前代未聞じゃ」
+line_set 「しかし、どうにかせねば・・・」
+line_set 「何とかなるような代物でもないぞ？」
+
+nvl_on
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set 村人たちが口ぐちに何かを論議しあっている。
+line_set どうやら今日の蜃気楼と四日前に出た海底火山についてだという事が分かってくる。
+
+adv_on
+
+line_set 「あの”しるし”・・・」
+line_set 「そして”淡島”じゃ・・・」
+line_set 「どうする・・・」
+
+nvl_on
+
+line_set 双厳の脳裏に紗枝との記憶が思い起こされる。
+line_set あの時、確かに紗枝は不意に呟いていた。
+
+nvl_line_clear
+
+line_set 「淡島・・・」
+line_set 「確か紗枝が言っていたな」
+line_set 「この島の住人は、あの蜃気楼について何か知ってやがるのか？」
+
+adv_on
+
+line_set 「とにかく、何か起こってからでは遅いんじゃ」
+line_set 「そうだな。いろいろ準備もある」
+line_set 「しかし・・・」
+line_set 「ああ、このまま何も無いのならよいのじゃがな・・・」
+
+nvl_on
+
+line_set 村人たちは何度か蜃気楼の淡島を眺めながら、村の方へと立ち去って行った。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「しるし・・・」
+line_set 「淡島・・・」
+line_set 「まだこの島には何かありやがる・・・」
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_050.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+#102_0
+
+jump_choice 1 ◆村へ移動
+jump_choice 2 ◆港へ移動
+jump_choice 3 ◆物見やぐらへ移動
+jump_choice 4 ◆森林へ移動
+@34
+
+kgd_layer2_set 1 Kgd\B_058.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 2430 102
+jump_choice 5 ◆森林へ移動
+@14
+
+kgd_layer2_set 1 Kgd\B_002.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@13
+
+jump_choice 6 ◆登る
+jump_choice 7 ◆山道へ移動
+@6
+@11
+@12
+jump_branch1 1514 286
+
+kgd_layer1_set 1 Kgd\Be_009.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+
+jump_auto 8
+#286_2
+
+kgd_layer1_set 1 Kgd\Be_012.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+@8
+
+jump_choice 9 ◆反対側を見る
+jump_choice 10 ◆降りる
+@9
+jump_branch1 1602 286
+
+section_jump_branch1 286
+
+jump_auto 11
+#286_3
+
+section_jump_branch2 286
+
+jump_auto 12
+@10
+
+section_jump_branch2 286
+
+kgd_layer1_set 1 Kgd\W_002.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 13
+@7
+@16
+
+kgd_layer2_set 1 Kgd\B_014.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 14 ◆大岩へ移動
+jump_choice 15 ◆屋敷前へ移動
+@15
+@22
+@26
+
+kgd_layer2_set 1 Kgd\B_034.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 16 ◆山道へ移動
+jump_choice 17 ◆屋敷内へ移動
+jump_choice 18 ◆村への道へ移動
+@17
+@23
+@24
+@25
+
+kgd_layer2_set 1 Kgd\B_030.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@0
+
+jump_choice 19 ◆自室へ移動
+jump_choice 20 ◆大広間へ移動
+jump_choice 21 ◆蔵の前へ移動
+jump_choice 22 ◆屋敷外へ移動
+@19
+
+kgd_layer2_set 1 Kgd\B_075.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 23 ◆廊下へ移動
+@20
+
+kgd_layer2_set 1 Kgd\B_010.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 24 ◆廊下へ移動
+@21
+
+kgd_layer2_set 1 Kgd\B_026.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 25 ◆廊下へ移動
+@18
+@28
+
+kgd_layer2_set 1 Kgd\B_042.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 26 ◆屋敷前へ移動
+jump_choice 27 ◆村へ移動
+@1
+@27
+@31
+
+kgd_layer2_set 1 Kgd\B_046.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 28 ◆屋敷前への道へ移動
+jump_choice 29 ◆海岸へ移動
+jump_choice 30 ◆港へ移動
+@2
+@30
+
+kgd_layer2_set 1 Kgd\B_062.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 31 ◆村へ移動
+jump_choice 32 ◆海岸へ移動
+@3
+
+kgd_layer2_set 1 Kgd\B_066.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 33 ◆海岸へ移動
+@4
+@5
+
+kgd_layer2_set 1 Kgd\B_054.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 34 ◆遺跡へ移動
+jump_choice 35 ◆海岸へ移動
+#102_1
+
+music_stop
+
+name_set 双厳
+
+line_set 「・・・何の用だ？」
+
+nvl_on
+
+line_set 再度遺跡を調べてみようと来てみれば、突然の殺気。
+line_set しかし双厳にはこの殺気の主が分かっていた。
+
+adv_on
+
+line_set 「さっきは思いっきり殺気を向けてくれやがったな」
+
+nvl_on
+
+line_set 「俺を”殺したい”ってよ・・・」
+line_set 「でも、ここなら問題無いんじゃねぇのか？」
+
+adv_on
+
+fight_start
+
+force_save_menu
+
+kgd_layer3_set 0 Kgd\Ka_002.kgd
+kgd_layer3_param 0 216 0 0 0 368 600
+kgd_layer3_display 0
+
+music_play 18
+
+name_set 幽香
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 幽香がゆっくりと双厳の前に立ちはだかる。
+line_set 相変わらず感情の起伏が欠落しているその表情は、どこか冷たいものすら感じた。
+
+adv_on
+
+sfx_set 2 Vox\5053.wav
+sfx_play 2
+
+line_set 「双厳さま」
+
+sfx_stop 2
+sfx_set 2 Vox\5052.wav
+sfx_play 2
+
+line_set 「あなたは少々邪魔な存在となってきました」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ほう・・・」
+line_set 「なら俺を殺すか？」
+
+name_set 幽香
+
+line_set 「・・・」
+
+sfx_set 2 Vox\5051.wav
+sfx_play 2
+
+line_set 「殺しはしません・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5050.wav
+sfx_play 2
+
+line_set 「ただ・・・」
+
+sfx_stop 2
+
+kgd_layer1_set 1 Kgd\En_020.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_fade_unk 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 幽香は懐から奇妙な武器を取り出す。
+line_set それは円形状のものであった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くくく・・・」
+line_set 「そんな小さな武器で俺と戦うのか？」
+
+nvl_on
+
+line_set 双厳は自らの刀の鯉口を切りながら、幽香との距離をつめていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くくく・・・」
+line_set 「俺の兼定は普通の刀とはわけが違うぜ・・・」
+
+name_set 幽香
+
+sfx_set 2 Vox\5049.wav
+sfx_play 2
+
+line_set 「心配ご無用」
+
+sfx_stop 2
+sfx_set 2 Vox\5048.wav
+sfx_play 2
+
+line_set 「武器の強さは大小ではありませぬゆえ」
+
+sfx_stop 2
+
+name_clear
+
+line_set ジャキ！！
+
+kgd_layer1_set 1 Kgd\En_021.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 幽香の武器から刃が飛び出る。
+
+adv_on
+
+name_set 幽香
+
+sfx_set 2 Vox\5047.wav
+sfx_play 2
+
+line_set 「ではいきます！」
+
+sfx_stop 2
+
+nvl_on
+
+line_set その言葉の直後、幽香の武器が双厳にせまってきていた。
+
+adv_on
+
+jump_choice 36 ◆よける
+jump_choice 37 ◆受ける
+jump_fight_failure 38
+@36
+
+nvl_on
+
+line_set 双厳は幽香の投げた武器をよける。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set よけたはずの武器が突然向きをかえ、後方から双厳を襲う。
+
+adv_on
+
+line_set 「な、なに？？」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_stop
+
+sfx_set 0 Se\001.wav
+sfx_play 0
+
+kgd_layer1_set 0 Kgd\En_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_clear
+
+line_set ガシュ！
+
+nvl_on
+
+line_set 振り向いた双厳のちょうど喉元のあたりに幽香の武器は突き刺さる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「あがばぁ・・・」
+
+nvl_on
+
+line_set 喉をやぶられた双厳は、まともにしゃべる事が出来ない。
+
+adv_on
+
+name_set 幽香
+
+sfx_set 2 Vox\5046.wav
+sfx_play 2
+
+line_set 「山影です」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 山影とは、もともと無限流手裏剣術の奥義の一つである。
+line_set 目標物がよける事により、後ろにそれた手裏剣が、方向転換をして後ろからささるというものである。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ぐぅ・・・」
+
+nvl_on
+
+line_set 双厳はそのまま気を失った。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@37
+
+nvl_on
+
+line_set 双厳は襲い来る武器を刀でむかえうつ。
+
+adv_on
+
+name_clear
+
+line_set カキーン！！！！
+
+nvl_on
+
+line_set 双厳が薙ぎ落とす。
+
+adv_on
+
+name_set 双厳
+
+line_set 「手裏剣か？！」
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+
+nvl_on
+
+line_set さらに空気を引き裂く音がする。
+
+adv_on
+
+name_clear
+
+line_set カキン！
+line_set カシュン！
+line_set カコン！
+
+nvl_on
+
+line_set 次々に双厳は飛んでくる手裏剣を薙ぎ落としていく。
+
+adv_on
+
+name_clear
+
+line_set カキン！
+line_set カシュン！
+line_set カコン！
+line_set カキン！
+line_set カシュン！
+line_set カコン！
+
+name_set 双厳
+
+line_set 「そろそろ手裏剣もつきる頃であろう」
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+
+nvl_on
+
+line_set いっこうに手裏剣がつきる気配がない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+
+name_set 双厳
+
+line_set 「こ、これは・・・」
+
+nvl_on
+
+line_set 双厳は薙ぎ落としているはずの手裏剣が足元にひとつも落ちていない事実に気がついた。
+
+adv_on
+
+line_set 「よもや・・・」
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+
+name_clear
+
+line_set カキン！
+
+nvl_on
+
+line_set 双厳によって薙ぎ落とされたかに思えた手裏剣は、すべて幽香の手元にもどっていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「な、なんだこの武器は・・・」
+
+name_set 幽香
+
+sfx_set 2 Vox\5045.wav
+sfx_play 2
+
+line_set 「風輪といいます」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 幽香の使う風輪という武器は手裏剣のようなものに鋼鉄の糸のようなものが取り付けられているらしく、
+line_set 一度手元から離れた手裏剣は双厳を攻撃したのちまた手元にもどってくるようであった。
+
+nvl_line_clear
+
+line_set 「な、なんて武器だ・・・」
+line_set 「糸の長さが手裏剣の中で巻き付いて変わるのか？」
+
+adv_on
+
+sfx_set 2 Vox\5044.wav
+sfx_play 2
+
+line_set 「そろそろ本気をださせていただきます」
+
+sfx_stop 2
+sfx_set 2 Vox\5043.wav
+sfx_play 2
+
+line_set 「はじめ」
+
+sfx_stop 2
+sfx_set 2 Vox\5042.wav
+sfx_play 2
+
+line_set 「三ツ角」
+
+sfx_stop 2
+sfx_set 2 Vox\5041.wav
+sfx_play 2
+
+line_set 「ついで」
+
+sfx_stop 2
+sfx_set 2 Vox\5040.wav
+sfx_play 2
+
+line_set 「風穴」
+
+sfx_stop 2
+sfx_set 2 Vox\5038.wav
+sfx_play 2
+
+line_set 「ついで」
+
+sfx_stop 2
+sfx_set 2 Vox\5037.wav
+sfx_play 2
+
+line_set 「八文字」
+
+sfx_stop 2
+sfx_set 2 Vox\5036.wav
+sfx_play 2
+
+line_set 「最後に」
+
+sfx_stop 2
+sfx_set 2 Vox\5035.wav
+sfx_play 2
+
+line_set 「峰くずし」
+
+sfx_stop 2
+sfx_set 2 Vox\5034.wav
+sfx_play 2
+
+line_set 「でいかせていただきます」
+
+sfx_stop 2
+sfx_set 2 Vox\5033.wav
+sfx_play 2
+
+line_set 「それでは・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5032.wav
+sfx_play 2
+
+line_set 「はじめ」
+
+sfx_stop 2
+sfx_set 2 Vox\5031.wav
+sfx_play 2
+
+line_set 「三ツ角！」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 幽香はそういうと風輪を投げた。
+
+adv_on
+
+name_clear
+
+line_set シュン・・・
+line_set シュン・・・・
+line_set シュン・・・・・
+
+name_set 双厳
+
+line_set 「右三つ・・・」
+
+name_clear
+
+line_set シュン・・・
+line_set シュン・・・・
+line_set シュン・・・・・
+
+name_set 双厳
+
+line_set 「左三つ・・・」
+line_set 「計六つか！」
+line_set 「すべて受けきるのは困難か？」
+
+jump_choice 39 ◆後ろに飛び退く
+jump_choice 40 ◆受ける
+jump_fight_failure 41
+@39
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+nvl_on
+
+line_set 風輪が風を切る音がする。
+
+nvl_line_clear
+
+line_set 「？！」
+line_set 「おかしい」
+
+nvl_line_clear
+
+line_set 風輪の音はすべて双厳の元いた位置より少しずれて飛んでいく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「そうか」
+
+name_clear
+
+line_set カン！キン！コン！
+
+name_clear
+
+line_set カツン！カン！カキン！
+
+nvl_on
+
+line_set 双厳の右後ろと左後ろで風輪が何かにぶつかる音がする。
+line_set 双厳の跳躍はその音よりさらに後にまでいく。
+
+adv_on
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+nvl_on
+
+line_set 双厳の立っていた場所をそれぞれが、急所の位置で通過していく。
+
+adv_on
+
+name_clear
+
+line_set ザッ！
+
+nvl_on
+
+line_set 双厳が地べたに着地した時には風輪は幽香の腕に収まっていた。
+
+adv_on
+
+name_set 幽香
+
+sfx_set 2 Vox\5030.wav
+sfx_play 2
+
+line_set 「さすがでございますね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 幽香がうれしそうに笑う。
+
+adv_on
+
+name_set 双厳
+
+line_set 「なるほどね・・・」
+line_set 「三ツ角とはよくいったものだ・・・」
+line_set 「あらぬ方向に投げて何か対象物にぶつけて、方向を変えるって技か・・・」
+line_set 「ちょうど手裏剣が綺麗な三角形を描くわけだな」
+
+name_set 幽香
+
+sfx_set 2 Vox\5029.wav
+sfx_play 2
+
+line_set 「ふふふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5028.wav
+sfx_play 2
+
+line_set 「お見事でございます、その通りでございます」
+
+sfx_stop 2
+sfx_set 2 Vox\5027.wav
+sfx_play 2
+
+line_set 「では次」
+
+sfx_stop 2
+sfx_set 2 Vox\5025.wav
+sfx_play 2
+
+line_set 「風穴でございます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「って・・・」
+line_set 「俺にも攻撃させ・・・」
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+nvl_on
+
+line_set 双厳の言葉など聞こえぬがごとく幽香は次なる手裏剣を投げてくる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ちっ・・・」
+
+nvl_on
+
+line_set 風輪は地上から約１尺ほどの超低空で双厳に襲いかかる。
+
+nvl_line_clear
+
+line_set 「普通なら、飛び越えてよけそうなものだが・・・」
+
+adv_on
+
+jump_auto 42
+@40
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+nvl_on
+
+line_set 双厳に六個の風輪が襲いかかる。
+
+nvl_line_clear
+
+line_set 「すべて薙ぎ落としてやる」
+
+nvl_line_clear
+
+line_set 双厳は飛んでくる風輪を落とそうと剣を構える。
+line_set が・・・。
+
+adv_on
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+nvl_on
+
+line_set すべての風輪が双厳の横をかすめる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「な？」
+
+name_clear
+
+line_set カン！キン！コン！
+
+name_clear
+
+line_set カツン！カン！カキン！
+
+nvl_on
+
+line_set 双厳の右後ろと左後ろで風輪が何かにぶつかる音がする。
+
+adv_on
+
+name_set 双厳
+
+line_set 「し、しまった！」
+
+nvl_on
+
+line_set 双厳が気がついたときにはすでに遅かった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_stop
+
+sfx_set 0 Se\001.wav
+
+name_clear
+
+sfx_play 0
+
+line_set グサ！グサ！グサ！
+
+sfx_play 0
+
+line_set ドカ！グサ！ドカ！
+
+kgd_layer1_set 0 Kgd\En_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 双厳
+
+line_set 「ぐっ・・・」
+
+nvl_on
+
+line_set 双厳の体に投げられたすべての風輪が突き刺さる。
+
+adv_on
+
+line_set 「な、なるほどね・・・」
+line_set 「三ツ角とはよくいったものだ・・・」
+line_set 「あらぬ方向に投げて何か対象物にぶつけて、方向を変えるって技か・・・」
+line_set 「ちょうど手裏剣が綺麗な三角形を描くわけだな」
+
+name_set 幽香
+
+line_set 「・・・」
+
+name_clear
+
+line_set ドザ・・・
+
+nvl_on
+
+line_set 双厳はその場で倒れ込む。
+
+nvl_line_clear
+
+line_set 「しくじったな・・・」
+
+nvl_line_clear
+
+line_set 双厳の意識は徐々に遠のいていった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@42
+
+jump_choice 43 ◆飛び越える
+jump_choice 44 ◆横に飛ぶ
+jump_fight_failure 45
+@43
+
+nvl_on
+
+line_set 双厳は上に飛び越える。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「ぬぅ？」
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+nvl_on
+
+line_set 手裏剣は大きくホップして上にむかって飛んでいく。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_stop
+
+sfx_set 0 Se\001.wav
+
+name_clear
+
+sfx_play 0
+
+line_set グサ！グサ！グサ！
+
+sfx_play 0
+
+line_set ドカ！グサ！ドカ！
+
+kgd_layer1_set 0 Kgd\En_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 双厳
+
+line_set 「ぐっ・・・」
+
+nvl_on
+
+line_set 双厳の体にすべての風輪が突き刺さる。
+
+adv_on
+
+line_set 「まさか軌道が変化するとはな・・・」
+line_set 「ぬかった・・・」
+
+name_clear
+
+line_set ドザ・・・
+
+nvl_on
+
+line_set 双厳はその場で倒れ込む。
+
+nvl_line_clear
+
+line_set 「しくじったな・・・」
+
+nvl_line_clear
+
+line_set 双厳の意識は徐々に遠のいていった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@44
+
+nvl_on
+
+line_set 双厳は横に飛ぶ。
+line_set いかにもの低空が双厳には気にかかったからだ。
+
+adv_on
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+name_set 双厳
+
+line_set 「やはり・・・」
+
+nvl_on
+
+line_set 手裏剣は双厳の立っていた位置あたりで大きくホップして、上にむかって飛んでいく。
+
+nvl_line_clear
+
+line_set 「上に飛んでいたら串刺しだな・・・」
+
+nvl_line_clear
+
+line_set 幽香の手にまた風輪がもどっていく。
+
+nvl_line_clear
+
+line_set 「これ以上好きにさせるか！」
+
+nvl_line_clear
+
+line_set 双厳は幽香に襲いかかる。
+
+adv_on
+
+name_set 幽香
+
+line_set 「・・・」
+
+sfx_set 2 Vox\5024.wav
+sfx_play 2
+
+line_set 「どうやら双厳さまはお急ぎのようですね」
+
+sfx_stop 2
+sfx_set 2 Vox\5023.wav
+sfx_play 2
+
+line_set 「それでは」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 幽香の腕にすべての風輪がおさまる。
+
+adv_on
+
+sfx_set 2 Vox\5022.wav
+sfx_play 2
+
+line_set 「右から」
+
+sfx_stop 2
+sfx_set 2 Vox\5021.wav
+sfx_play 2
+
+line_set 「三ツ角」
+
+sfx_stop 2
+sfx_set 2 Vox\5020.wav
+sfx_play 2
+
+line_set 「風穴」
+
+sfx_stop 2
+sfx_set 2 Vox\5018.wav
+sfx_play 2
+
+line_set 「八文字」
+
+sfx_stop 2
+sfx_set 2 Vox\5017.wav
+sfx_play 2
+
+line_set 「十文字」
+
+sfx_stop 2
+sfx_set 2 Vox\5016.wav
+sfx_play 2
+
+line_set 「山影」
+
+sfx_stop 2
+sfx_set 2 Vox\5015.wav
+sfx_play 2
+
+line_set 「峰くずし」
+
+sfx_stop 2
+sfx_set 2 Vox\5014.wav
+sfx_play 2
+
+line_set 「すべてでいきます」
+
+sfx_stop 2
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+nvl_on
+
+line_set 双厳が間合いをつめる前に幽香の手から風輪が放たれる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「チィ！！！」
+line_set 「全部落としてやるぜ！！！」
+
+jump_choice 46 ◆突進
+jump_choice 47 ◆前進
+jump_fight_failure 48
+@46
+@47
+
+nvl_on
+
+line_set 双厳はそのまま幽香との距離を縮める。
+
+nvl_line_clear
+
+line_set ”三ツ角””風穴”はとりあえずわかっている。
+line_set 問題は残りの四つの風輪だ。
+
+adv_on
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+nvl_on
+
+line_set 双厳を風輪が襲う。
+
+adv_on
+
+jump_choice 49 ◆すべてよける
+jump_choice 50 ◆風乃抄
+jump_fight_failure 51
+@49
+
+nvl_on
+
+line_set すべてよけきる。
+
+adv_on
+
+name_clear
+
+line_set シュン
+
+nvl_on
+
+line_set まず双厳を三ツ角が襲う。
+
+adv_on
+
+name_clear
+
+line_set カキン！
+
+nvl_on
+
+line_set 跳ね返り方向を直角に変えて双厳にむかってくる風輪を薙ぎ落とす。
+
+nvl_line_clear
+
+line_set 「次は・・・風穴」
+
+nvl_line_clear
+
+line_set 下降から風輪が襲いかかる。
+
+nvl_line_clear
+
+line_set 「これを・・・」
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_stop
+
+sfx_set 0 Se\001.wav
+
+name_clear
+
+sfx_play 0
+
+line_set ドス！！
+
+kgd_layer1_set 0 Kgd\En_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 双厳の背中に激痛がはしる。
+
+adv_on
+
+name_clear
+
+line_set ドス！！
+
+name_clear
+
+line_set ドス！！！
+
+name_clear
+
+line_set ドス！！！！
+
+nvl_on
+
+line_set さらに風輪は双厳の体に突き刺さっていく。
+
+adv_on
+
+name_set 幽香
+
+sfx_set 2 Vox\5013.wav
+sfx_play 2
+
+line_set 「風穴」
+
+sfx_stop 2
+sfx_set 2 Vox\5011.wav
+sfx_play 2
+
+line_set 「八文字」
+
+sfx_stop 2
+sfx_set 2 Vox\5010.wav
+sfx_play 2
+
+line_set 「十文字」
+
+sfx_stop 2
+sfx_set 2 Vox\5009.wav
+sfx_play 2
+
+line_set 「山影」
+
+sfx_stop 2
+sfx_set 2 Vox\5008.wav
+sfx_play 2
+
+line_set 「が順番通りに襲うとはかぎりません」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 至極もっともであった。
+line_set 投げた順番と突き刺さる順番が同じであろうはずもなかった。
+
+adv_on
+
+name_set 幽香
+
+sfx_set 2 Vox\5007.wav
+sfx_play 2
+
+line_set 「どちらにしても一斉に投げられた風輪をよけられるものではありません」
+
+sfx_stop 2
+
+name_clear
+
+line_set ドザ・・・
+
+nvl_on
+
+line_set 双厳はその場で倒れ込む。
+
+nvl_line_clear
+
+line_set 「しくじったな・・・」
+
+nvl_line_clear
+
+line_set 双厳の意識は徐々に遠のいていった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@50
+
+nvl_on
+
+line_set 双厳は剣を構える。
+
+nvl_line_clear
+
+line_set 「あらゆる変化をする手裏剣をよけるのは不可能」
+line_set 「風乃抄ですべてを薙ぎ落とす！」
+
+adv_on
+
+name_set 双厳
+
+line_set 「来い！！！！！！！」
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+name_set 双厳
+
+line_set 「風乃抄！」
+
+name_clear
+
+line_set カキン！
+line_set パキン！
+line_set キン！
+line_set チキン！
+line_set パキン！
+line_set カン！
+
+nvl_on
+
+line_set すべての手裏剣を双厳の風乃抄は薙ぎ落とした。
+line_set 攻撃と防御が一体となった疾風剣、それをさらに複雑化させ攻防の極とされた風乃抄とは、
+line_set 絶対防御の剣術であり、これを極める事はあらゆる攻撃をうち負かす事を意味した。
+
+adv_on
+
+name_set 双厳
+
+line_set 「もらった！！！！」
+
+nvl_on
+
+line_set 双厳は幽香の懐に入った。
+line_set この場所では手裏剣は絶対に不利である。
+line_set 双厳は勝ちを確信していた。
+line_set 剣を振り下ろす双厳。
+
+adv_on
+
+name_clear
+
+line_set カキーン！！！
+
+name_set 双厳
+
+line_set 「な？」
+
+nvl_on
+
+line_set 振り下ろした双厳の剣が空中で止まる。
+
+adv_on
+
+name_set 幽香
+
+sfx_set 2 Vox\5006.wav
+sfx_play 2
+
+line_set 「さすが双厳さまでございます」
+
+sfx_stop 2
+sfx_set 2 Vox\5005.wav
+sfx_play 2
+
+line_set 「攻防一体の風乃抄見事でございます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 幽香
+
+sfx_set 2 Vox\5004.wav
+sfx_play 2
+
+line_set 「ですが・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\5003.wav
+sfx_play 2
+
+line_set 「私の風輪も攻撃だけでなく」
+
+sfx_stop 2
+sfx_set 2 Vox\5002.wav
+sfx_play 2
+
+line_set 「防御も考えられたものでございます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳の額からは冷や汗が流れる。
+
+nvl_line_clear
+
+line_set 「やばい」
+
+adv_on
+
+jump_choice 52 ◆そのまま
+jump_choice 53 ◆上に飛ぶ
+jump_fight_failure 54
+@52
+
+nvl_on
+
+line_set 双厳はその場で立ちつくした。
+
+adv_on
+
+name_set 幽香
+
+sfx_set 2 Vox\5001.wav
+sfx_play 2
+
+line_set 「残念ながらお別れです」
+
+sfx_stop 2
+sfx_set 2 Vox\5000.wav
+sfx_play 2
+
+line_set 「無影さまに殺すなといわれていたのですが」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「む、無影？」
+
+name_set 幽香
+
+sfx_set 2 Vox\4999.wav
+sfx_play 2
+
+line_set 「さよなら・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 幽香は両腕を交差させる。
+line_set その途端・・・。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_stop
+
+sfx_set 0 Se\001.wav
+sfx_play 0
+
+name_clear
+
+line_set バシャ！！！！
+
+kgd_layer1_set 0 Kgd\En_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 双厳の体がバラバラに四方に飛び散る。
+
+adv_on
+
+name_set 幽香
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4998.wav
+sfx_play 2
+
+line_set 「風輪は手裏剣部分だけが武器なのでなく、その鋼鉄の糸の部分も武器なのです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set つまり双厳は自ら、張り巡らされた死の糸の結界中に入っていたのであった。
+line_set もちろん、それを双厳が気づく時間などなかったであろう・・・。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@53
+
+nvl_on
+
+line_set 双厳は思いっきり上空に飛ぶ。
+line_set それを逃すまいと幽香が腕を交差させ、双厳を囲っていた鋼鉄の糸の結界をしめる。
+
+adv_on
+
+name_clear
+
+line_set バシュ！
+
+nvl_on
+
+line_set 軽く何かが裂ける音。
+
+adv_on
+
+name_clear
+
+line_set ザッ・・・
+
+nvl_on
+
+line_set 飛び退いた双厳が地面に着地する。
+
+adv_on
+
+name_set 双厳
+
+line_set 「苦っ・・・」
+
+nvl_on
+
+line_set 双厳の腕は何カ所か裂けている。
+line_set 風輪の糸によって裂かれた傷である。
+
+nvl_line_clear
+
+line_set 「この女・・・」
+line_set 「本当に強い・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「へへへへへ・・・」
+line_set 「面白くなってきたぜ・・・」
+
+name_set 幽香
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「あんたを少しでも女と思ったのは間違いだったな」
+line_set 「次は本気だぜ」
+
+jump_choice 55 ◆奥義を出す
+jump_fight_failure 56
+@55
+
+nvl_on
+
+line_set 双厳は刀を鞘にもどす。
+line_set そして、鞘のまま刀を垂直に構える。
+
+adv_on
+
+name_set 幽香
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「この秘太刀は滅多に出さないのだがな・・・」
+line_set 「へへへへへ・・・」
+line_set 「この島に渡ってから二度も使う事になるとはおもわなんだった」
+line_set 「・・・」
+line_set 「変移抜刀落水」
+line_set 「しかとみよ！」
+
+nvl_on
+
+line_set 鞘ごと垂直に構えた双厳が徐々に幽香に迫る。
+
+adv_on
+
+name_set 幽香
+
+sfx_set 2 Vox\4997.wav
+sfx_play 2
+
+line_set 「む・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 一変幽香の顔色が変わる。
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 幽香は双厳の前進に合わせどんどん後退していく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どうした・・・」
+line_set 「もう後がないぞ・・・」
+
+nvl_on
+
+line_set 幽香の背中には遺跡が立ちはだかっており、これ以上の後退は無理であった。
+
+adv_on
+
+line_set 「それでは受けてみよ！」
+
+nvl_on
+
+line_set 双厳が変移抜刀落水を放とうとしたその時、
+line_set 双厳は後方からものすごい妖気を感じた。
+
+adv_on
+
+music_stop
+
+line_set 「！？」
+line_set 「こ、この感じは・・・」
+
+kgd_layer1_set 1 Kgd\En_043.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+music_play 19
+
+name_set 声
+
+line_set 「くくく・・・」
+
+nvl_on
+
+line_set その気配は双厳にとって懐かしくもあった。
+line_set すでに双厳の皮膚の毛はすべて逆立っていた。
+line_set 髪の毛などはまさに怒髪天のごときであった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「お、お前は・・・」
+
+name_set 男
+
+line_set 「双厳、久しぶりだな・・・・」
+line_set 「十年ぶりぐらいかな？」
+line_set 「少しは腕を上げたようだな」
+
+name_set 双厳
+
+line_set 「貴様ぁぁぁぁぁぁ！！！！！！！！！！」
+
+nvl_on
+
+line_set 双厳は叫ぶ。
+
+adv_on
+
+line_set 「無影ぃいい！！！！！！！！！！」
+
+nvl_on
+
+line_set 振り向きざまに双厳は一太刀浴びせる。
+
+adv_on
+
+name_clear
+
+line_set カキーン！！！！
+
+name_set 無影
+
+line_set 「くくくく・・・」
+line_set 「相変わらず学ばぬ男だな」
+line_set 「俺に対してはいかなる攻撃も意味はないぞ」
+
+name_set 双厳
+
+line_set 「無影ぃ！！！！」
+line_set 「捜していたぞぉ！！！！！！！」
+line_set 「今度こそ貴様を殺してやる！！！！！！」
+
+name_clear
+
+line_set カキン！！！！
+line_set カン！
+line_set ガキーン！！！！！！！！！！
+
+nvl_on
+
+line_set 双厳からはいつもの戦いに対する冷静さなど完全に消え失せていた。
+line_set そこにあるのは、
+line_set 殺意と憎悪！
+line_set そして恐怖であった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「殺す！」
+
+name_set 無影
+
+line_set 「くくくくくく・・・」
+line_set 「また痛い目に遭いたいらしいな」
+line_set 「まったく・・・しつこい奴だ」
+
+nvl_on
+
+line_set 双厳らしくない態度に無影は気にとめる様子もなく、ただ淡々と言い放つ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「殺す！」
+line_set 「絶対に殺す！」
+
+name_clear
+
+line_set カキン！！！！
+line_set カン！
+line_set カン！！
+line_set カン！！！
+line_set ガキーン！！！
+line_set カキン！！！！
+line_set カン！
+line_set カン！！
+line_set ガキーン！！！！！！！！！！
+
+name_set 幽香
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 素人目には風乃抄でもうっているようにもみえたが、
+line_set 実際のところ双厳の剣は闇雲に振られているだけだった。
+line_set たしかに、その速度は超人的ですらあったが、力の配分や軌道など、すべてがデタラメであり、
+line_set 双厳自身、自分の振る刀の遠心力によって上半身を大きく揺るがしていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「無影！！！！！」
+
+nvl_on
+
+line_set 殺意と憎悪がそうさせたのか？
+line_set それとも恐怖であったのか？
+line_set 双厳は剣の基本も忘れ、ただひたすら無影に立ち向かっていた。
+
+adv_on
+
+name_set 無影
+
+line_set 「お前、剣の腕が落ちたのではないのか？」
+line_set 「それでよく今まで生きてこれたな」
+line_set 「くくく・・・本当におかしな奴だ」
+
+name_set 双厳
+
+line_set 「がぁ！！！！！」
+
+nvl_on
+
+line_set 双厳の怒りと殺意が膨れ上がっていきさらに冷静さを失わせていく。
+
+adv_on
+
+name_set 無影
+
+line_set 「まぁいい。悪いが、この女をここで殺らせるわけにはいかん」
+
+nvl_on
+
+line_set 無影が幽香の側に立つ。
+line_set 幽香は立ちあがり、無影の側に付いた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「逃がすか！！！！」
+line_set 「無影！！！！」
+
+nvl_on
+
+line_set さらに双厳が無影に斬りかかる。
+line_set しかしその一振りは、無影に届くどころか大きく空振り、そのまま双厳も地べたに手をつく。
+
+adv_on
+
+line_set 「ちぃ！？」
+
+name_set 無影
+
+line_set 「無惨だな・・・」
+line_set 「あいかわらずそうやって地べたを這いずり回って生きているのか・・・」
+
+name_set 双厳
+
+line_set 「無影！！！！！！！」
+
+name_set 無影
+
+line_set 「まだこちらの準備が整ってないんでな」
+line_set 「お前との勝負は、また次回まで持ち越しという事にしてやる」
+line_set 「それまで大人しくしてな」
+line_set 「くくくくく・・・」
+
+name_clear
+
+line_set シュン
+
+nvl_on
+
+line_set 無影の刀の鯉口がきられる。
+
+adv_on
+
+name_clear
+
+line_set ドス！！！
+
+name_set 双厳
+
+line_set 「がっ・・・」
+
+nvl_on
+
+line_set 双厳の肩に無影の刀がめり込む・・・。
+
+adv_on
+
+name_set 無影
+
+line_set 「安心しろ峰打ちだ」
+
+name_set 双厳
+
+line_set 「苦っ・・・」
+
+nvl_on
+
+line_set 双厳はその場でうずくまる。
+
+adv_on
+
+name_set 無影
+
+line_set 「くくくく・・・」
+line_set 「いつまでたっても成長しないなお前は・・・」
+
+name_set 双厳
+
+line_set 「む、無影・・・」
+
+name_set 無影
+
+line_set 「そうやっていつまでも這いずり回って、そして犬のようにくたばるがよい」
+line_set 「貴様程度の血で、この籠釣瓶を汚したくないからなぁ」
+
+name_set 双厳
+
+line_set 「く、くそ・・・」
+
+name_set 無影
+
+line_set 「ではさらばだ・・・」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_stop
+
+nvl_on
+
+line_set 無影の姿が徐々に消えていく。
+line_set 妖術のたぐいか？
+line_set それとも忍術のうちの隠形の術のたぐいか？
+line_set 双厳がそれを確かめる事はできなかった・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「無影！！！！！！！！」
+
+nvl_on
+
+line_set むなしく双厳の声がこだまする。
+
+adv_on
+
+fight_end
+
+ksd_set Ksd\022.ksd
+@38
+@41
+@45
+@48
+@51
+@54
+@56
+
+nvl_on
+
+line_set 双厳は幽香の動きについていけず、
+line_set なにもできなかった。
+
+adv_on
+
+name_set 幽香
+
+sfx_set 2 Vox\4996.wav
+sfx_play 2
+
+line_set 「もらいました！」
+
+sfx_stop 2
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・
+
+nvl_on
+
+line_set 幽香の武器が双厳に襲いかかる。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_stop
+
+sfx_set 0 Se\001.wav
+sfx_play 0
+
+name_clear
+
+sfx_play 0
+
+line_set グサ！グサ！グサ！
+
+sfx_play 0
+
+line_set ドカ！グサ！ドカ！
+
+kgd_layer1_set 0 Kgd\En_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 鈍い音がこだまする。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ぐぅ・・・」
+
+nvl_on
+
+line_set 双厳の視界は真っ赤に染まる。
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 大量の血が双厳の体から吹き出している。
+line_set その血しぶきは双厳から見えるものをすべて赤く染め上げていく。
+
+adv_on
+
+name_clear
+
+line_set ドサ・・・
+
+nvl_on
+
+line_set 双厳はその場で倒れ込む。
+
+nvl_line_clear
+
+line_set 「しくじったな・・・」
+
+nvl_line_clear
+
+line_set 双厳の意識は徐々に遠のいていった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+
+ksd_end

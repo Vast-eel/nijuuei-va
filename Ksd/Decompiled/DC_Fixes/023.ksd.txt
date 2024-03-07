@@ -1,0 +1,3517 @@
+
+sfx_set 0 Se\017.wav
+sfx_play 0
+
+kgd_layer1_set 0 Kgd\Da_008.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 4000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+sfx_stop 0
+
+kgd_layer1_set 0 Kgd\Be_011.kgd
+kgd_layer2_set 0 Kgd\B_001.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+section_jump_branch1 286
+
+music_play 4
+
+jump_auto 0
+@4
+@5
+@64
+jump_branch1 179 286
+
+kgd_layer1_set 1 Kgd\Be_008.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+
+jump_auto 1
+#286_0
+
+kgd_layer1_set 1 Kgd\Be_011.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+@0
+@1
+
+jump_branch1 1123 124
+
+section_jump_branch1 124
+
+nvl_on
+
+line_set 双厳は一人、大岩の上から淡島といわれる、蜃気楼をながめている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「淡島か・・・」
+line_set 「たしかに、形のない島となると蜃気楼の島であるな・・・」
+line_set 「形のない島か・・・」
+
+nvl_on
+
+line_set 双厳は取り止めもなく思考をめぐらせた。
+
+nvl_line_clear
+
+line_set 「なんで伊邪那岐と伊邪那美は淡島を生んだものと考えなかったのだろう・・・」
+
+nvl_line_clear
+
+line_set 次に淡島を生みき、
+line_set この亦、
+line_set 子の例には入れざりき。
+
+nvl_line_clear
+
+line_set 古事記では伊邪那岐と伊邪那美が最初に生んだ子供を生んだ子供として勘定にいれていない。
+line_set なかったものとなっている。
+
+adv_on
+
+line_set 「もし、嫌なものだから淡島を生んだものとして認めなかったとするなら」
+line_set 「水蛭子も認めないハズなのに・・・」
+line_set 「なぜ、水蛭子は生んだものとして、海に流し」
+line_set 「淡島は生んだことすら認めなかったのだろう」
+
+nvl_on
+
+line_set 双厳がそのような事を考えたところでしかたがなかった、いかんせん神が何千年前にした事である。
+line_set なぜ双厳にその事がわかろうか？
+
+adv_on
+
+line_set 「形がない島か・・・」
+
+music_stop
+music_play 13
+#124_1
+
+jump_choice 2 ◆反対側を見る
+jump_choice 3 ◆降りる
+@2
+jump_branch1 1179 286
+
+section_jump_branch1 286
+
+jump_auto 4
+#286_2
+
+section_jump_branch2 286
+
+jump_auto 5
+@3
+
+section_jump_branch2 286
+
+kgd_layer1_set 1 Kgd\W_003.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 6
+@11
+
+kgd_layer2_set 1 Kgd\B_021.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 1799 125
+jump_branch2 1799 124
+
+section_jump_branch1 125
+
+nvl_on
+
+line_set 双厳は昨夜見つけた遺跡へと足を運んだ。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「やっぱあの遺跡と酷似してやがるな・・・」
+
+nvl_line_clear
+
+line_set 双厳の知っている遺跡と、ここの遺跡の関連性。
+line_set それは生まれる子供が必ず双子である事に関係していると、双厳は思った。
+line_set 実際にその真意を確かめたわけではないが、それでも可能性が無いわけでもない。
+
+nvl_line_clear
+
+line_set 「しかし・・・」
+line_set 「本土でこんな風貌の遺跡なんて見た事がないな」
+
+nvl_line_clear
+
+line_set 諸国を旅していた双厳ですら、こんな遺跡を見るのは初めての経験だった。
+line_set そのためか、つい物珍しさが先行してしまう。
+
+adv_on
+@10
+#125_3
+!124
+
+jump_choice 7 ◆遺跡の中に入る
+jump_choice 8 ◆森林へ移動
+@7
+jump_branch2 1879 126
+
+kgd_layer1_set 1 Kgd\Be_017.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+!126
+
+jump_branch1 3751 126
+jump_branch2 3751 125
+
+section_jump_branch1 126
+
+nvl_on
+
+line_set 遺跡の周りを散策する双厳。
+line_set 入口の辺りに来たところで、ふと、ある事を思い出した。
+
+adv_on
+
+name_set 双厳
+
+line_set 「そういえば・・・」
+
+nvl_on
+
+line_set 確か入口に何か刻まれていたものがあった事を思い出す。
+line_set 暗いと分からないが、昼の明るさなら見えるもの。
+
+nvl_line_clear
+
+line_set 「昨日は桔梗に止められてよく見れなかったからな」
+
+adv_on
+
+kgd_layer1_set 1 Kgd\Be_017.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+nvl_on
+
+line_set それは二つあった。
+line_set 一つは、両の手を挙げた人間のような絵。
+line_set そしてもう一つ・・・。
+
+nvl_line_clear
+
+line_set 菱形に三本の線が下に伸び、左右の角を二本の線が上に伸びてその先はまた三本に別れている。
+line_set 菱形の頂点には人の頭らしいものが付いているも、何とも不思議な絵だった。
+
+nvl_line_clear
+
+line_set 「一つは人間に見えるが・・・」
+line_set 「もう一つは何だ？」
+
+nvl_line_clear
+
+line_set 双厳は奇妙な絵に首を傾げてしまう。
+line_set 他に何か刻まれていないか探してみる。
+line_set すると横壁や天井に、文字なのか絵なのかよく分からない古めかしいものが刻まれている。
+line_set 見れば見るほど混乱してしまいそうなものだった。
+
+nvl_line_clear
+
+line_set 「絵文字・・・とはまた違うようだ」
+line_set 「神代文字というやつか？」
+line_set 「・・・」
+
+adv_on
+
+line_set 「なんだかよく分からんが・・・」
+line_set 「もう一つの遺跡にも同じようなものが刻まれていたら・・・だ」
+
+nvl_on
+
+line_set それは双厳の予測がいよいよ現実性を帯びてくるということだ。
+line_set しかし、だからどうしたというわけでもない。
+
+nvl_line_clear
+
+line_set 「同じような形の遺跡が二つある・・・」
+line_set 「二つ・・・」
+line_set 「双子・・・」
+
+nvl_line_clear
+
+line_set この島には、幾つか、二つのシンボリックなものが存在する。
+line_set 一つは、
+
+nvl_line_clear
+
+line_set 「この島で生まれた者がかならず双子として生まれる事」
+line_set 「そして」
+
+nvl_line_clear
+
+line_set 二つ目は・・・。
+
+nvl_line_clear
+
+line_set 「双子に生まれながら、例外的に殺されない、日の巫女、イルとスイ」
+
+nvl_line_clear
+
+line_set 三つ目は・・・。
+
+nvl_line_clear
+
+line_set 「この淡炎島とそっくりな風貌をもつ、蜃気楼の島、淡島」
+line_set 「淡炎島と淡島はまるで双子の島のように並んでいるように見える」
+
+nvl_line_clear
+
+line_set そして最後が・・・。
+
+nvl_line_clear
+
+line_set 「この遺跡・・・」
+line_set 「もう一つの遺跡と瓜二つだ・・・」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「そこに何かあるのか・・・」
+
+adv_on
+#126_4
+!125
+
+jump_choice 9 ◆遺跡の外に出る
+@9
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 10
+@8
+@17
+
+kgd_layer2_set 1 Kgd\B_017.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 7444 127
+jump_branch2 7444 126
+
+section_jump_branch1 127
+
+kgd_layer3_set 0 Kgd\Jy_004.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 十兵衛
+
+line_set 「おう」
+line_set 「元気か双厳・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 元気もなにもあったものでない。
+line_set 昨日、用心棒の一人が異形によって謎の死を遂げ、
+line_set その事を知っていると思われる志乃が失踪したのである。
+line_set 元気なハズがあるまい。
+line_set 無邪気に馬鹿な挨拶を交わす十兵衛を双厳は睨みつけた。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Jy_002.kgd
+kgd_layer3_param 3 100 0 0 0 600 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「はははは・・・」
+line_set 「そう邪険な目でみるな」
+line_set 「別になにも知らないわけではない」
+
+name_set 双厳
+
+line_set 「でなければ隠密失格だ」
+line_set 「あれだけの騒ぎで・・・」
+
+name_set 十兵衛
+
+line_set 「はははは・・・」
+line_set 「結構昨日は大変だったようだな」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「朝方まで島中を駆けめぐったからな」
+line_set 「さすがに疲れた」
+
+name_set 十兵衛
+
+line_set 「くくくく・・・」
+line_set 「お前はアレをどうみる？」
+
+nvl_on
+
+line_set アレとはもちろん”骨を抜かれて死んだ用心棒”の事であろう。
+
+adv_on
+
+name_set 双厳
+
+line_set 「わからん・・・」
+line_set 「あんな死に方見たことがない・・・」
+
+kgd_layer3_set 3 Kgd\Jy_004.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「うむ」
+line_set 「やはり妖術の類かな」
+
+name_set 双厳
+
+line_set 「わからん・・・」
+
+name_set 十兵衛
+
+line_set 「この島の鳥居、なんて呼ばれているか知っているか？」
+
+name_set 双厳
+
+line_set 「水蛭子鳥居だろ」
+
+name_set 十兵衛
+
+line_set 「ああ・・・」
+line_set 「そうだ」
+line_set 「水蛭子鳥居だ」
+line_set 「あの死に方、水蛭子みたいだな・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set もちろん双厳もそう考えていた。
+
+adv_on
+
+line_set 「あれだけではない」
+line_set 「この島にはいくつも古事記の国生みにでてくるモノを模したものがある」
+
+name_set 十兵衛
+
+line_set 「葦の舟」
+line_set 「淡島」
+line_set 「水蛭子として生まれる、双子の片方・・・」
+
+name_set 双厳
+
+line_set 「ふっ・・・」
+line_set 「結構情報を集めているな・・・」
+
+name_set 十兵衛
+
+line_set 「ああ」
+line_set 「だがお前の反応をみるかぎりこのあたりの情報はすべて知っているようだな」
+
+name_set 双厳
+
+line_set 「まぁ、俺は俺でいろいろとこの島の事を調べたからな・・・」
+
+name_set 十兵衛
+
+line_set 「残念ながら、俺の方も志乃を見失った・・・」
+line_set 「かなりたくさんの隠密を忍ばせていたのだがな・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「どちらにしろ普通の隠密では、無理な話であろう」
+
+name_set 十兵衛
+
+line_set 「と、言うと？」
+
+name_set 双厳
+
+line_set 「たぶん、志乃は無影達と繋がっていた」
+
+name_set 十兵衛
+
+line_set 「なぜそう思う？」
+
+name_set 双厳
+
+line_set 「あいつは、俺がこの島に渡った時から俺の正体を知っていた」
+line_set 「俺が巷を騒がす二重影だと」
+line_set 「なのに、ヤツはこの島に俺を渡らせた」
+
+name_set 十兵衛
+
+line_set 「なぜだ？」
+
+name_set 双厳
+
+line_set 「たぶん・・・」
+line_set 「俺が必要だったのだろう」
+
+name_set 十兵衛
+
+line_set 「何に？」
+
+name_set 双厳
+
+line_set 「それはわからん・・・」
+line_set 「ただ・・・」
+line_set 「この島に渡ったとき志乃がこういった」
+line_set 「これから十二日間ある儀式がおこなわれる」
+line_set 「その間、この島にいろと」
+line_set 「その儀式に俺は必要だったのだろう・・・」
+line_set 「いや、俺でなく、俺達用心棒すべてが・・・」
+line_set 「何かの儀式に・・・」
+
+name_set 十兵衛
+
+line_set 「それは、なにか証拠があるのか？」
+
+name_set 双厳
+
+line_set 「ないさ・・・」
+line_set 「ただの勘だ・・・」
+line_set 「でもそれなりに根拠がある勘だがな」
+
+name_set 十兵衛
+
+line_set 「たしかに、志乃がお前を二重影と知りながら島に招いたり」
+line_set 「いっこうに目的の海賊が襲ってこなかったり」
+line_set 「用心棒が死んだ日から志乃が姿を消したり・・・」
+
+name_set 双厳
+
+line_set 「俺達」
+line_set 「この島に渡った用心棒すべてが、なにかしらの陰謀に巻き込まれたのかもな」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「それと・・・」
+line_set 「無影と、この島で起こる事・・・」
+line_set 「絶対に無関係ではあるまい」
+line_set 「あいつが裏でなにかしているのだろう」
+
+name_set 十兵衛
+
+line_set 「なにかしらの陰謀ってなんだ？」
+
+name_set 双厳
+
+line_set 「それはわからん」
+line_set 「もしかしたら、お前達が追っている、幕府転覆の秘策かもしれない」
+line_set 「ただ一つ言える事は・・・」
+line_set 「今のところ、俺達はやつらの手の内にあるという事だ・・・」
+line_set 「なんとかしなければなるまい」
+
+name_set 十兵衛
+
+line_set 「うむ・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+#127_5
+!126
+
+jump_choice 11 ◆遺跡へ移動
+jump_choice 12 ◆山道へ移動
+@12
+@25
+@65
+
+kgd_layer2_set 1 Kgd\B_013.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 11523 140
+jump_branch1 29397 139
+jump_branch1 11523 128
+jump_branch2 11523 127
+
+section_jump_branch1 128
+
+nvl_on
+
+line_set 「ん？」
+
+nvl_line_clear
+
+line_set 双厳の視界に映る一人の少女。
+
+kgd_layer3_set 0 Kgd\Mi_021.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+nvl_line_clear
+
+line_set 「あいつ、こんな所で何を・・・？」
+
+nvl_line_clear
+
+line_set 何やら落ち込んだ様子の少女に近づく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どうした？」
+
+kgd_layer3_set 3 Kgd\Mi_005.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「え？」
+line_set 「あ、二つ影！？」
+
+kgd_layer3_set 3 Kgd\Mi_001.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 命は双厳を見るや、すぐさま身構える。
+line_set その行為に、双厳も呆れ以外の何も浮かばない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「まだ懲りてねぇのか？」
+
+kgd_layer3_set 3 Kgd\Mi_012.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「う・・・」
+
+name_set 双厳
+
+line_set 「やめとけ」
+line_set 「それにお前には借りがあるしな」
+line_set 「別にお前を斬りたいとも思わねぇ」
+
+kgd_layer3_set 3 Kgd\Mi_026.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+line_set 「はぁ・・・」
+
+nvl_on
+
+line_set がっくりとうなだれ、双厳への警戒を解く命。
+line_set ため息混じりにあるその姿は、どことなく諦めのついたような表情だった。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+line_set 「こっちも戦意喪失したわ」
+
+name_set 双厳
+
+line_set 「無駄に殺しあっても仕方ねぇだろ？」
+
+name_set 命
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「なんだ？」
+
+kgd_layer3_set 3 Kgd\Mi_027.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「あ、いや・・・」
+line_set 「二つ影が真面目なこと言ってるから・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Mi_028.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「え、えっと・・・気を悪くしたなら謝るわ」
+
+name_set 双厳
+
+line_set 「・・・まぁいい」
+line_set 「それよりどうした？」
+line_set 「何、物思いにふけってやがる？」
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「あ・・・うん・・・」
+
+nvl_on
+
+line_set 命の表情が再び落ち込んだ様子に変わる。
+line_set その顔には不安の色が濃く映し出されていた。
+
+adv_on
+
+line_set 「・・・」
+line_set 「昨日の・・・見たでしょう？」
+
+name_set 双厳
+
+line_set 「・・・ああ」
+
+nvl_on
+
+line_set 昨日のというのは、もちろん骨の無い死体の事。
+line_set あの屋敷にいる者は必ず見たであろう。
+line_set それは人の死にしてはあまりにも惨いものだった。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_021.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「突然あんな事が起きて・・・」
+line_set 「なにがどうなってるのか分からなくなってきたのよ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+jump_choice 13 ◆分からなくてもいい
+jump_choice 14 ◆何を不安に思う？
+@13
+
+line_set 「分からなくともいいんじゃねぇか？」
+
+kgd_layer3_set 3 Kgd\Mi_028.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「え？」
+
+name_set 双厳
+
+line_set 「変に考えりゃ、それだけ周りに対して散漫になる」
+line_set 「それじゃ、いざという時に何もできねぇだろ？」
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「いつか分かる時がくる」
+line_set 「それまで分からないままの方がマシって事もあるぜ？」
+
+name_set 命
+
+line_set 「・・・そうね」
+line_set 「私、つい余計なことまで考え込んでしまうから・・・」
+line_set 「あなたの言うとおり、分からない方がいいのかも知れないわ」
+
+kgd_layer3_set 3 Kgd\Mi_020.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 命の表情にかすかな明るさが宿る。
+line_set 吹っ切れたわけではないが、少しは気が晴れた様子だった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「何か分かった時に悩んだ方がよっぽど気が楽だ」
+
+kgd_layer3_set 3 Kgd\Mi_022.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+jump_auto 15
+@14
+
+affection_plus 5
+
+line_set 「何を不安に思うことがあるんだよ？」
+line_set 「別に手前に関わってるわけでもねぇだろ？」
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「そうだけど・・・」
+line_set 「でも・・・」
+line_set 「もし、またあんな事が起きたらって・・・」
+
+nvl_on
+
+line_set それは命の不安な気持ちの表れでもあった。
+line_set 確かに一度起きたから終わりという法則など存在しない。
+line_set 再び同じような死体を拝むような事態が起こっても、それは不思議な事ではないのだ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ま、その時は俺が何とかしてやる」
+line_set 「俺としても、あんな死体を何度も見たいとは思わねぇしよ」
+
+kgd_layer3_set 3 Kgd\Mi_022.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「そう・・・」
+line_set 「その時は期待してるわ」
+
+nvl_on
+
+line_set 命の表情がにわかに明るさを取り戻す。
+line_set 双厳の励ましにより、少しは元気を取り戻した様子だった。
+
+adv_on
+@15
+
+name_set 命
+
+line_set 「ありがとう」
+line_set 「何だか変な話だけど、あなたに元気づけられたわ」
+
+name_set 双厳
+
+line_set 「辛気臭ぇ顔なんか見たくねぇからな」
+line_set 「少しは女らしく振る舞っとけ」
+
+kgd_layer3_set 3 Kgd\Mi_001.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「よ、余計なお世話よっ！」
+line_set 「まったく・・・」
+line_set 「ちょっと感心したら、すぐこれなんだから！」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 命はそのまま立ち去って行く。
+line_set しかしその姿は、すっかり命らしさを取り戻したものだった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「十兵衛の心境がだんだん分かってきたぜ・・・」
+#140_6
+#128_8
+!127
+
+jump_choice 16 ◆大岩へ移動
+jump_choice 17 ◆森林へ移動
+jump_choice 18 ◆屋敷前へ移動
+@18
+@48
+@56
+
+kgd_layer2_set 1 Kgd\B_033.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 17052 139
+jump_branch1 16894 138
+jump_branch1 17052 136
+jump_branch1 15764 135
+jump_branch1 17052 134
+jump_branch1 14748 133
+jump_branch1 17052 129
+jump_branch2 17052 128
+
+kgd_layer3_set 0 Kgd\Fu_011.kgd
+kgd_layer3_param 0 128 0 0 0 544 600
+kgd_layer3_display 0
+
+section_jump_branch1 129
+
+name_set 楓玲
+
+line_set 「あ、双厳・・・」
+
+nvl_on
+
+line_set 「今度はこいつか・・・」
+
+nvl_line_clear
+
+line_set 屋敷の前で、一人沈んだ顔の楓玲。
+line_set 双厳を見ても、いつもの元気らしさは影をひそめていた。
+line_set 命といい楓玲といい、妙に作為的なものを感じずにはいられない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どうした？」
+line_set 「いつもの楓玲らしくねぇぞ？」
+
+name_set 楓玲
+
+line_set 「・・・」
+line_set 「はぁ・・・」
+line_set 「あたし、今すっごいブルーなの。分かる？」
+
+name_set 双厳
+
+line_set 「見ればな」
+
+kgd_layer3_set 3 Kgd\Fu_008.kgd
+kgd_layer3_param 3 128 0 0 0 544 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「あたしは真剣なの！」
+
+nvl_on
+
+line_set 「落ち込んでるに真剣も何もあるかよ・・・」
+
+nvl_line_clear
+
+line_set しかしあえてその言葉を口に出すことはしなかった。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Fu_004.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+line_set 「昨日のあのグニャグニャした死体・・・」
+line_set 「あれ、前に見たよね？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 楓玲
+
+line_set 「やっぱりあの死体と何か関係があるんだよね」
+line_set 「ああ・・・もうっ！」
+line_set 「あたしってば、何でやっかいな事ばっかり首突っ込んじゃうんだろ？」
+
+jump_choice 19 ◆そういう体質なんだろ？
+jump_choice 20 ◆そんな事知るかよ
+@19
+
+name_set 双厳
+
+line_set 「元々そういう体質なんだろ？」
+line_set 「俺はてっきり楓玲がそういう奴だと思ってたぜ？」
+
+kgd_layer3_set 3 Kgd\Fu_008.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「そんな事あるわけないでしょ！」
+line_set 「こんな可愛い楓玲ちゃんが、不幸であるなんていいはずない！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 楓玲
+
+line_set 「大体あんなもの見ちゃったから落ち込んでるのよ」
+line_set 「双厳、あんた責任取ってよね！」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「お前なぁ・・・」
+
+nvl_on
+
+line_set さりげなく怒りを双厳に転化し始める楓玲。
+line_set さすがに双厳も呆れずにはいられない。
+
+nvl_line_clear
+
+line_set 「見たのは手前の勝手だし、何で俺が責任取らねぇといかんのよ・・・？」
+
+adv_on
+
+jump_auto 21
+@20
+
+name_set 双厳
+
+line_set 「そんな事、俺に言われても知るかよ」
+
+kgd_layer3_set 3 Kgd\Fu_006.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「あ、そうやって乙女の悩みを邪険に扱うんだ」
+line_set 「信じられな～い」
+line_set 「双厳って、サイテーだよねぇ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 楓玲
+
+line_set 「こういう男が、あたしみたいな清純っぽい娘を襲うんだよね」
+line_set 「気をつけよっと」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「自分で”清純”と言うかよ・・・」
+line_set 「誰がお前みたいな乳臭いガキ・・・」
+
+adv_on
+@21
+
+kgd_layer3_set 3 Kgd\Fu_001.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「ま、そこんとこは冗談としといて、本当に気になるよね」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 確かにあの時の子供との関連性を取り上げずにはいられない。
+line_set 双厳も楓玲も、あの時村で骨の無い子供を見た数少ない目撃者なのだ。
+
+adv_on
+
+line_set 「確かに何か繋がりがあるかもしれねぇ・・・」
+line_set 「実際、どうなんだろうなぁ」
+
+name_set 楓玲
+
+line_set 「うん・・・」
+
+nvl_on
+
+line_set 本当はヒルコ伝説のことを会話に出すべきだったが、双厳はあえてしなかった。
+line_set あれはあくまで双厳と桔梗との間で話された、伝説の一片にすぎない。
+line_set 本当にこの事件とヒルコが関係してるかどうかなど、定かではないのだ。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Fu_009.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+line_set 「ま、悩んでても仕方無いか」
+line_set 「やっぱり楓玲ちゃんは元気でいないとね！」
+
+name_set 双厳
+
+line_set 「・・・だな」
+
+name_set 楓玲
+
+line_set 「よし、気分転換に散歩してこよっと」
+line_set 「じゃあね～」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 楓玲は山道を駆けて行く。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「思いの他、昨日の一件は周りに影響を及ぼしてやがる」
+line_set 「・・・あの坊主・・・」
+line_set 「これで”何もありませんでした”じゃ済まされねぇぞ」
+
+adv_on
+
+jump_auto 22
+#133_14
+
+section_jump_branch1 134
+
+kgd_layer3_set 0 Kgd\Fu_011.kgd
+kgd_layer3_param 0 128 0 0 0 544 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 「・・・？」
+
+nvl_line_clear
+
+line_set 楓玲が何やら落ち込んでいるような場面に出くわしてしまう。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どうした？」
+line_set 「また昨日のことで悩み出したか？」
+
+name_set 楓玲
+
+line_set 「あ、双厳」
+line_set 「違うよ・・・」
+line_set 「ちょっとショック受けてさぁ・・・」
+
+name_set 双厳
+
+line_set 「？」
+
+name_set 楓玲
+
+line_set 「命ちゃんに挨拶したら、そのまま無視されちゃって・・・」
+
+name_set 双厳
+
+line_set 「命が？」
+line_set 「お前ら仲悪いのか？」
+
+name_set 楓玲
+
+line_set 「ううん」
+line_set 「仲はいいよ・・・」
+line_set 「・・・」
+line_set 「楓玲、お前何かやったんじゃねぇのか？」
+
+kgd_layer3_set 3 Kgd\Fu_008.kgd
+kgd_layer3_param 3 128 0 0 0 544 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「何もしてないって！」
+line_set 「ただ、急いでたような素振りだったんだけどね・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 楓玲
+
+line_set 「それでもあたしに一声掛けてくれてもいいと思わない？」
+
+name_set 双厳
+
+line_set 「・・・じゃあな」
+
+kgd_layer3_set 3 Kgd\Fu_005.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「え？」
+line_set 「ちょっと・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「命が急いでいたということは・・・」
+line_set 「・・・柳生の奴ら、何か掴んだか？」
+
+adv_on
+
+jump_auto 23
+#135_12
+
+section_jump_branch1 136
+
+nvl_on
+
+line_set 「桔梗か・・・」
+line_set 「ちょうどいい、先ほどの十兵衛たちの会話、真実かどうか聞いてみるか」
+
+adv_on
+
+name_set 双厳
+
+line_set 「ちょうどいいところで会ったな」
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+name_set 桔梗
+
+line_set 「・・・何か？」
+
+name_set 双厳
+
+line_set 「毎度お前に聞いてばかりで悪ぃとは思うが・・・いいか？」
+
+name_set 桔梗
+
+line_set 「・・・構いません」
+
+name_set 双厳
+
+line_set 「俺はお前がこの島のことをそれなりに知っているモンだと思っていた」
+line_set 「この島の当主に仕えてるぐらいだからな」
+line_set 「お前はこの島で行われようとしている事がいったい何なのか、知ってるのか？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「それは、この島の者なら誰でも知ってる事じゃねぇのか？」
+
+name_set 桔梗
+
+line_set 「・・・全てを知っているのは、阿波路家に関係する者だけです」
+
+name_set 双厳
+
+line_set 「じゃあ、お前も何か知ってるんだろ？」
+
+name_set 桔梗
+
+line_set 「・・・すみません」
+line_set 「今は何もお答えする事はできません」
+line_set 「ですが・・・」
+line_set 「何か起きるその前に、どうにかする所存です」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「失礼します」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 桔梗はそれ以上を言わず言わせず、その場から立ち去ってしまった。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「何も喋らねぇ奴を信じろってのか？」
+line_set 「ふざけるなよ」
+
+adv_on
+
+jump_auto 24
+#138_10
+
+section_jump_branch1 139
+
+name_set 双厳
+
+line_set 「？」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・・・・」
+
+adv_on
+
+line_set 「なんだ・・・」
+line_set 「今、どこからか刀を交える音がしたような気がしたが・・・」
+@22
+@23
+@24
+@49
+#139_9
+#136_11
+#134_13
+#129_15
+!128
+
+jump_choice 25 ◆山道へ移動
+jump_choice 26 ◆屋敷内へ移動
+jump_choice 27 ◆村への道へ移動
+@33
+
+kgd_layer2_set 1 Kgd\B_057.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 17865 130
+jump_branch2 17865 278
+
+section_jump_branch1 130
+
+nvl_on
+
+line_set 双厳は先ほど行ったものとは違う、もう一つの遺跡にやってきた。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「どうやらあの遺跡、ほぼ大岩を挟んで対角線上の位置にあるようだな」
+
+nvl_line_clear
+
+line_set 方角と大岩の位置を確かめると、大岩の向こう側にあの遺跡があるらしい。
+line_set ちょうど一本の線に乗るような位置に存在していた。
+
+nvl_line_clear
+
+line_set 「しかしまったく逆の方向に同じようなもの建てて、一体何の意味があるんだ？」
+line_set 「これも島の双子にまつわる件と関係あることか？」
+
+nvl_line_clear
+
+line_set この島にまつわる双子の話と同じような二つの遺跡。
+line_set いやがおうにも期待が掛かる。
+line_set 双厳自身、自分の呪いと何か関係があることを信じているのだから。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「そのために、確かめる事があったっけな」
+
+nvl_on
+
+line_set 双厳は遺跡の入口へと進んだ。
+
+adv_on
+
+jump_auto 28
+@32
+#130_16
+!278
+jump_choice 29 ◆遺跡の中に入る
+jump_choice 30 ◆森林へ移動
+@28
+@29
+
+kgd_layer1_set 1 Kgd\Be_017.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+jump_branch1 18557 131
+jump_branch2 18557 130
+
+section_jump_branch1 131
+
+name_set 双厳
+
+line_set 「へっ、やっぱそうかよ・・・」
+
+nvl_on
+
+line_set そこに刻まれているものは、もう一つの遺跡で見たものと同じ模様。
+line_set 一つは、両の手を挙げた人間のような絵。
+line_set そしてもう一つが、例の不思議な絵。
+line_set 周りも若干違うが、その雰囲気はまるで同じだった。
+
+nvl_line_clear
+
+line_set 「これであの遺跡とここの遺跡はほぼ同じものだと分かった」
+line_set 「だが・・・」
+
+nvl_line_clear
+
+line_set 何も双厳を先に導くような答えが出たわけではなかった。
+line_set 同じような遺跡がこの島に二つある。
+line_set これがこの島にまつわる双子の件と関係あるのか。
+line_set 明確としたものは何も出てはいない。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「疑問は少しずつ解けていっているのは確かだな」
+
+adv_on
+#131_17
+!130
+
+jump_choice 31 ◆遺跡の外に出る
+@31
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 32
+@30
+@40
+
+kgd_layer2_set 1 Kgd\B_053.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 19318 132
+jump_branch2 19318 131
+
+section_jump_branch1 132
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「桔梗か」
+line_set 「どうした？」
+
+name_set 桔梗
+
+line_set 「また・・・」
+line_set 「ここへ来ていたのですか・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ここに何か手掛かりがあると思ってな」
+line_set 「悪ぃが、少し探らせてもらった」
+
+name_set 桔梗
+
+line_set 「それで・・・何か分かりましたか？」
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「ちょっと聞きてぇんだがよ・・・」
+line_set 「この島には、あの遺跡と同じようなモンが他にもあるのか？」
+
+name_set 桔梗
+
+line_set 「はい」
+line_set 「丁度大岩の向こう側にも、同じものがありますが・・・」
+line_set 「本来はそちらも立ち入る事を禁じられています」
+
+name_set 双厳
+
+line_set 「そうか・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+#132_18
+!131
+
+jump_choice 33 ◆遺跡へ移動
+jump_choice 34 ◆海岸へ移動
+@34
+@51
+@54
+@63
+
+kgd_layer2_set 1 Kgd\B_049.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 24179 142
+jump_branch1 22899 141
+jump_branch1 24179 133
+jump_branch1 21133 273
+jump_branch1 24179 278
+jump_branch2 24179 129
+
+section_jump_branch1 278
+
+nvl_on
+
+line_set 海岸で海を見つめる少女がいる。
+line_set それは命であった。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Mi_003.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「あ・・・二つ影・・・」
+line_set 「また会ったわね」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「海を見ているのか？」
+
+kgd_layer3_set 3 Kgd\Mi_022.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「うん・・・」
+line_set 「なんかね・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Mi_027.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「二つ影って傷が治りやすい体質なの？」
+
+name_set 双厳
+
+line_set 「なぜだ？」
+
+name_set 命
+
+line_set 「うん？」
+line_set 「だって凄い怪我してもすぐに動けるじゃない」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+
+kgd_layer3_set 3 Kgd\Mi_030.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+line_set 「だからいつも傷だらけなの？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「でもいくら治りやすいからって無理しちゃだめだよ・・・」
+line_set 「なんか今も鎖骨がおかしいみたいだし・・・」
+
+nvl_on
+
+line_set 双厳の鎖骨の怪我は、見た目には着物に隠れ分からない。
+line_set 命は、無意識で鎖骨を庇う動きをする双厳の動きからそれを見抜いたのであろう。
+line_set それはかなりの洞察力である・・・。
+
+adv_on
+
+name_set 命
+
+line_set 「どんな丈夫な人だってほんの少しの傷口から雑菌が入れば死ぬことだってあるんだからね・・・」
+line_set 「・・・」
+line_set 「二つ影ならその程度の事知ってるだろうけど」
+line_set 「知ってても自分の事だと油断しちゃうからね・・・人間って・・・」
+
+name_set 双厳
+
+line_set 「ふふふ・・・」
+line_set 「まぁ心にとどめておこう・・・」
+
+kgd_layer3_set 3 Kgd\Mi_025.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「そうよ」
+line_set 「あなたは私の仇なんだから・・・」
+line_set 「だから・・・」
+line_set 「死んじゃだめだからね」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Mi_003.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「さてと、私もそろそろいかなきゃね」
+line_set 「んじゃね」
+line_set 「それとあんまり無理しちゃだめだよ」
+line_set 「十兵衛さまもあなたもそこのところはやたら似てるからね」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 35
+#273_22
+
+kgd_layer3_set 0 Kgd\Sa_005.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+section_jump_branch1 133
+
+nvl_on
+
+line_set 海岸には紗枝が立っている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「紗枝・・・」
+
+name_set 紗枝
+
+line_set 「双厳さま・・・」
+
+nvl_on
+
+line_set 紗枝はモノ悲しげな表情を浮かべている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「紗枝、志乃を見かけなかったか？」
+
+name_set 紗枝
+
+line_set 「・・・」
+line_set 「はい、見ませんです・・・」
+
+nvl_on
+
+line_set 紗枝は力無く答えた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「どうした紗枝、元気がないな」
+
+name_set 紗枝
+
+line_set 「・・・」
+line_set 「怖いです・・・」
+
+nvl_on
+
+line_set 「怖い？」
+line_set 「・・・」
+line_set 「なにがだ？？？」
+
+adv_on
+
+name_set 双厳
+
+line_set 「それはどういう事だ・・・」
+
+name_set 紗枝
+
+line_set 「しるしが出ましたです・・・」
+line_set 「そして淡島が現れましたです」
+line_set 「そして、水蛭子さまの呪いによって死者がでましたです・・・」
+line_set 「言い伝え通りです」
+
+name_set 双厳
+
+line_set 「言い伝え？」
+
+name_set 紗枝
+
+line_set 「はい・・・」
+
+name_set 双厳
+
+line_set 「なんの言い伝えだ？」
+
+name_set 紗枝
+
+line_set 「岩の封印が解けて、みんな死んでしまうという言い伝えです」
+
+name_set 双厳
+
+line_set 「みんな死ぬ？」
+line_set 「なんだそりゃ？？？」
+
+name_set 紗枝
+
+line_set 「紗枝、死にたくないです・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「なんて飛躍のある話だ・・・」
+line_set 「岩の封印が解けるとこの島の住人がすべて死んでしまうなんて」
+line_set 「紗枝の言葉の足りなさ故にそう聞こえるのだろうか？」
+
+adv_on
+
+line_set 「なんで岩の封印が解けるとみんな死んでしまうのだ？」
+
+name_set 紗枝
+
+line_set 「知らないです・・・」
+line_set 「でもみんな死んじゃうです・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「これ以上話しても無駄か・・・」
+
+adv_on
+
+line_set 「紗枝、これは知ってるか？」
+
+name_set 紗枝
+
+line_set 「なんですか？」
+
+name_set 双厳
+
+line_set 「あの大岩がなにを封印しているか？」
+
+name_set 紗枝
+
+line_set 「・・・」
+line_set 「わからないです・・・」
+line_set 「ただあの岩の封印が解けると、島の人間もそれ以外の人間も全員死んじゃうです」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「島だけでなく、すべての人間が死ぬ・・・」
+line_set 「そんな言い伝えなのか・・・」
+
+adv_on
+
+line_set 「怖いです・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 36
+#141_20
+
+kgd_layer3_set 0 Kgd\Sa_009.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+section_jump_branch1 142
+
+nvl_on
+
+line_set 海岸から海を望む紗枝の姿を見つける。
+line_set それは昨日と同じように、ただじっと淡島を見つめていた。
+line_set 今はあの時の不安げなものとは違い、どこか寂しげな表情に変わっていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「紗枝」
+
+kgd_layer3_set 3 Kgd\Sa_001.kgd
+kgd_layer3_param 3 192 0 0 0 416 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+line_set 「双厳さま・・・」
+
+nvl_on
+
+line_set 双厳を見ると、先ほどの寂しげな表情を隠すかのようにわずかに微笑んだ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「この島には舟が一隻も見当たらねぇようなんだが・・・」
+line_set 「何か心当たりは無いか？」
+
+kgd_layer3_set 3 Kgd\Sa_013.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 紗枝
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 紗枝の表情に再び陰りが見え出した。
+line_set 何ともいえない空気が漂ってしまう。
+
+adv_on
+
+line_set 「この島には、もう阿波路家の人間と一部の使用人しかいませんです」
+
+name_set 双厳
+
+line_set 「なに？」
+
+name_set 紗枝
+
+line_set 「あの・・・淡島が現れた時、この島には守部である阿波路家以外の者は、島を出ますです」
+line_set 「だから、もうこの島には阿波路家以外の村人たちは誰もいないはずなのです」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 紗枝
+
+line_set 「すみません・・・」
+line_set 「本当はもっと早くお知らせすべきだったと思いますのですが」
+line_set 「でも私は・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「紗枝が悪いわけじゃねぇよ」
+line_set 「気にしないことだな」
+
+name_set 紗枝
+
+line_set 「双厳さま・・・」
+
+nvl_on
+
+line_set 「そういう事かよ・・・」
+line_set 「すると奴ら、今頃・・・」
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+@35
+@36
+#142_19
+#133_21
+#278_23
+!129
+
+jump_choice 37 ◆村へ移動
+jump_choice 38 ◆港へ移動
+jump_choice 39 ◆物見やぐらへ移動
+jump_choice 40 ◆森林へ移動
+@58
+
+kgd_layer2_set 1 Kgd\B_071.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 27368 137
+jump_branch2 27368 136
+
+section_jump_branch1 137
+
+kgd_layer3_set 0 Kgd\Is_001.kgd
+kgd_layer3_param 0 20 0 0 0 664 600
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set スイ
+
+line_set 「あ、お兄ちゃんだ！」
+
+name_set イル
+
+line_set 「こんにちわ、双厳さま」
+
+nvl_on
+
+line_set 昨日の怯えた様子とは違い、二人ともずいぶん落ち着きを取り戻していた。
+line_set その様子はいつもと変わりない。
+
+nvl_line_clear
+
+line_set 「これなら普通に話ができるか」
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Is_002.kgd
+kgd_layer3_param 3 20 0 0 0 664 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+line_set 「昨日は失礼しました」
+line_set 「取り乱してしまい、双厳さまに対して失礼なことを・・・」
+
+kgd_layer3_set 3 Kgd\Is_014.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set スイ
+
+line_set 「スイも反省してるよー」
+line_set 「お兄ちゃん、ごめんね？」
+
+name_set 双厳
+
+line_set 「いや、別に気にしてねぇよ」
+line_set 「もう大丈夫なのか？」
+
+kgd_layer3_set 3 Kgd\Is_013.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set イル
+
+line_set 「はい、今はもう大丈夫です」
+
+name_set 双厳
+
+line_set 「ならいいが・・・」
+
+kgd_layer3_set 3 Kgd\Is_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set スイ
+
+line_set 「お兄ちゃんって、桔梗お姉ちゃんと同じくらい優しいね」
+
+name_set イル
+
+line_set 「そうですね」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「二人とも、桔梗との付き合いは長いのか？」
+
+name_set スイ
+
+line_set 「うん」
+line_set 「だっていつも一緒にいてくれたもん」
+
+name_set イル
+
+line_set 「私たちが物心ついた時には、すでに私たちのお世話をしていただいていますよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Is_013.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set スイ
+
+line_set 「お兄ちゃん、桔梗お姉ちゃんとケンカしてるの？」
+
+name_set 双厳
+
+line_set 「ん？　どうしてだ？」
+
+name_set スイ
+
+line_set 「だって・・・」
+line_set 「桔梗お姉ちゃんってお兄ちゃんの事であんまりお話してくれないし・・・」
+
+kgd_layer3_set 3 Kgd\Is_014.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set イル
+
+line_set 「スイちゃん！」
+line_set 「すみません。お気になさってたらごめんなさい」
+
+name_set 双厳
+
+line_set 「いや、別に構わん」
+
+name_set スイ
+
+line_set 「じゃあ、お兄ちゃんは桔梗お姉ちゃんのことは好き？」
+
+jump_choice 41 ◆お前たちと同じぐらいにな
+jump_choice 42 ◆ちょっと苦手だな
+@41
+
+affection_plus 4
+
+name_set 双厳
+
+line_set 「そうだな」
+line_set 「お前たちと同じぐらい・・・」
+line_set 「こんなところか？」
+
+kgd_layer3_set 3 Kgd\Is_010.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set スイ
+
+line_set 「そんなのやだぁ！」
+line_set 「お兄ちゃんはスイが好きなの！」
+
+name_set 双厳
+
+line_set 「なんだよそりゃ・・・」
+
+name_set イル
+
+line_set 「スイちゃん、双厳さまを困らせちゃダメよ」
+line_set 「双厳さまはみんなが好きなんだから」
+line_set 「ガマンしなきゃ・・・ね？」
+
+name_set スイ
+
+line_set 「うぅ～」
+line_set 「分かったぁ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「おいおい」
+line_set 「勝手な解釈するなよ・・・」
+
+adv_on
+
+jump_auto 43
+@42
+
+affection_minus 4
+
+name_set 双厳
+
+line_set 「どっちかっていうと、ありゃあ苦手な部類だな・・・」
+line_set 「愛想も良くねぇし」
+line_set 「あいつ、いつもあんな感じなのか？」
+
+name_set イル
+
+line_set 「双厳さまの知っているような桔梗さんでは無いと思いますが・・・」
+
+name_set スイ
+
+line_set 「桔梗お姉ちゃん、すっごく優しいんだよ？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set スイ
+
+line_set 「お兄ちゃんも、お姉ちゃんと仲良くしてね？」
+
+name_set イル
+
+line_set 「私からも・・・」
+line_set 「もし仲がよろしくないのでしたら、お願いします」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「・・・善処してみる」
+
+kgd_layer3_set 3 Kgd\Is_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set スイ
+
+line_set 「うんっ！」
+@43
+
+name_set 双厳
+
+line_set 「さて・・・」
+line_set 「そろそろ行くか」
+
+kgd_layer3_set 3 Kgd\Is_011.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set スイ
+
+line_set 「もう行っちゃうのぉ？」
+
+name_set イル
+
+line_set 「スイちゃん・・・」
+line_set 「わざわざありがとうございます」
+
+name_set 双厳
+
+line_set 「また時間を見つけて来てやるよ・・・」
+line_set 「じゃあな」
+
+kgd_layer3_set 3 Kgd\Is_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set スイ
+
+line_set 「ばいばーい」
+
+name_set イル
+
+line_set 「お待ちしております」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+#137_24
+!136
+
+jump_choice 44 ◆蔵から出る
+@26
+@59
+@61
+@62
+
+kgd_layer2_set 1 Kgd\B_029.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 29311 138
+jump_branch2 29311 137
+
+section_jump_branch1 138
+
+kgd_layer3_set 0 Kgd\Ro_004.kgd
+kgd_layer3_param 0 116 0 0 0 568 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 「あいつら・・・」
+
+nvl_line_clear
+
+line_set 双厳と廊下ではちあわせたのは、いつぞや村娘を襲っていた用心棒の集団だった。
+line_set その中には、幽香によって指を斬られた者も揃っている。
+
+nvl_line_clear
+
+line_set 「あれ以来、大人しくしているようだな」
+line_set 「さすがに懲りたか？」
+
+nvl_line_clear
+
+line_set 騒ぎを起こしたとも聞いていない。
+line_set それなりの反省の色を見せているようだった。
+
+adv_on
+
+name_set 用心棒
+
+line_set 「ああ、あんたか」
+line_set 「どうだ、これからハデにやろうと思うが？」
+line_set 「お主も我等に付き合わんか？」
+
+name_set 双厳
+
+line_set 「あん？」
+
+nvl_on
+
+line_set 用心棒たちはどこから持ち出してきたのか、酒をいくつか抱えていた。
+
+nvl_line_clear
+
+line_set 「こんな真っ昼間から酒だと？」
+line_set 「こいつら、何を考えてやがるんだ」
+
+adv_on
+
+name_set 双厳
+
+line_set 「こんな真っ昼間から酒かよ・・・」
+line_set 「どういうつもりだ？」
+
+name_set 用心棒
+
+line_set 「どうしたもこうしたもあるか！」
+line_set 「こんな辛気臭い島に、いつまでも居られるかよ」
+line_set 「帰る前の、別れの酒宴ということだ」
+
+name_set 双厳
+
+line_set 「・・・なに？」
+
+name_set 用心棒
+
+line_set 「大体、話が違ってるんだよ」
+line_set 「昨日の事件といい、オレ達を雇った当主も姿を眩ましやがった」
+line_set 「こんな薄気味悪い島、さっさと出て行くに限るぜ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「俺は別に島を出て行くのを引き止めやしねぇよ」
+line_set 「あと、酒の席は遠慮しとくぜ」
+
+nvl_on
+
+line_set 双厳にとって、この用心棒たちが外れようが構わなかった。
+line_set 逆に余計な心配や統率の取れそうに無い彼等をどうすべきかとも考えていたのだ。
+line_set 別に、責めるつもりも無いし、咎めるつもりも無かった。
+
+nvl_line_clear
+
+line_set 「勝手に出て行くんなら、別に止める理由もねぇ」
+
+adv_on
+
+name_set 用心棒
+
+line_set 「そうか」
+line_set 「お主も早く考えた方がいいぞ」
+line_set 「この島に居ても、何も楽しいことなど無いのだからな」
+line_set 「わはははははは！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 用心棒たちはそのまま大広間の方へ行ってしまう。
+line_set その後ろ姿を見て双厳は軽くため息をついてしまう。
+
+nvl_line_clear
+
+line_set 「・・・やれやれ」
+line_set 「これからうるさくなりそうだぜ」
+
+nvl_line_clear
+
+line_set 楓玲の愚痴を聞きそうな予感を胸に、双厳はその場を後にした。
+
+adv_on
+#138_25
+!137
+
+jump_choice 45 ◆自室へ移動
+jump_choice 46 ◆大広間へ移動
+jump_choice 47 ◆蔵の前へ移動
+jump_choice 48 ◆屋敷外へ移動
+#139_7
+
+section_jump_branch1 140
+
+name_set 双厳
+
+line_set 「？」
+
+nvl_on
+
+line_set 「気のせいか・・・？」
+
+nvl_line_clear
+
+line_set どこからか、刃を交える音が双厳の耳に飛び込んできた。
+line_set それは本当に一瞬の出来事だったし、確証があったわけでもない。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+adv_on
+
+name_clear
+
+line_set カキンッ！！
+
+nvl_on
+
+line_set 「！？」
+line_set 「こっちか？」
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_017.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+music_stop
+music_play 9
+
+nvl_on
+
+line_set その場はすでに戦いの最中だった。
+line_set お互い相手のスキを突きつつ攻撃を仕掛ける。
+line_set しかし技量が互角なためか、どちらも決定打には至らない。
+line_set その戦いを演じているのは、どちらも双厳の知る者同士だった。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「とっ！」
+
+name_set 幽香
+
+line_set 「・・・」
+
+kgd_layer1_set 1 Kgd\En_021.kgd
+kgd_layer1_fadein
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 烈迫の一撃が幽香を襲う。
+
+nvl_line_clear
+
+line_set 「あれは・・・」
+line_set 「逆袈裟」
+
+nvl_line_clear
+
+line_set 十兵衛の刃が、下方から幽香をめがけて振り上げられる。
+line_set 愛洲陰流にもある、秘太刀の一つだ。
+line_set しかし幽香はすんでのところでこれをかわし、手持ちの武器を投げつける。
+
+nvl_line_clear
+
+line_set 風輪。
+line_set それは、そうよばれた恐ろしい武器だ。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「ちぃ！」
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・・
+
+nvl_on
+
+line_set 宙を三つ、空を切り裂き十兵衛を襲う音がする。
+
+adv_on
+
+name_clear
+
+line_set カキン！
+line_set カン！
+line_set コン！
+
+nvl_on
+
+line_set 見事に風輪を落としていく。
+
+adv_on
+
+name_set 幽香
+
+line_set 「・・・」
+
+name_clear
+
+line_set シュン
+line_set シュン・・・
+line_set シュン・・・・・・
+
+nvl_on
+
+line_set つぎは違う方向から宙を三つ、空を切り裂き十兵衛を襲う音がする。
+
+adv_on
+
+name_clear
+
+line_set カキン！
+line_set カン！
+line_set コン！
+
+nvl_on
+
+line_set 返す刀で幽香の攻撃を弾き、そのまま突っ込む。
+
+nvl_line_clear
+
+line_set 「さすが十兵衛・・・」
+line_set 「柳生の麒麟児といわれただけはある・・・」
+
+nvl_line_clear
+
+line_set 双厳もこの風輪には手を焼いた。
+line_set 無限流と思われる手裏剣の奥義を取り入れた、風輪の技は相当な腕の剣豪ですら一撃の下に倒れかねない。
+
+nvl_line_clear
+
+line_set 十兵衛が間合いをつめる。
+line_set 幽香は双厳に使ったあの技を使う。
+
+adv_on
+
+name_set 双厳
+
+line_set 「危ない！！！」
+line_set 「十兵衛！！！」
+line_set 「飛べ！！！」
+
+nvl_on
+
+line_set 十兵衛は双厳の声に反応して空に飛び上がる。
+
+adv_on
+
+name_clear
+
+line_set シュン！
+
+nvl_on
+
+line_set 鋼鉄の糸が空を裂く音がする。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「あぶねぇ・・・」
+line_set 「あの糸も武器だったのか・・・」
+
+nvl_on
+
+line_set 幽香も間合いを取りなおし、お互いが決め手の無い勝負となっていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「腕はほぼ互角だな・・・」
+line_set 「どっちかが折れねぇと、この勝負終わらねぇぞ・・・」
+
+name_set 十兵衛
+
+line_set 「双厳！！！」
+
+nvl_on
+
+line_set 十兵衛は双厳の方を向かずにそのまま話かける。
+
+adv_on
+
+line_set 「お前は手をだすな！」
+line_set 「これは、俺とこいつの勝負だ！」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「わかった・・・」
+
+nvl_on
+
+line_set 武芸に生きる者同士の戦い、
+line_set 誰が手をだせるであろうか？
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「それにしても・・・」
+line_set 「やるな・・・」
+line_set 「異形の女・・・」
+
+name_set 幽香
+
+line_set 「・・・」
+
+nvl_on
+
+line_set お互いが目に見える疲労をしていた。
+line_set 体力のみならず、精神的にも負担が掛かっているようだ。
+
+adv_on
+
+line_set 「次で・・・」
+line_set 「・・・終わらせていただきます」
+
+name_set 十兵衛
+
+line_set 「・・・そりゃあいい」
+line_set 「こっちも長いこと戦ってやれるほど若くねぇんだ」
+
+nvl_on
+
+line_set 幽香に計六個の風輪がにぎられる、
+line_set そして、十兵衛に対して構える。
+line_set 十兵衛もまた、幽香の攻撃に備える構えを取った。
+
+nvl_line_clear
+
+line_set 「・・・」
+
+adv_on
+
+line_set 「・・・」
+
+name_set 幽香
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「・・・・・・」
+
+name_set 幽香
+
+line_set 「・・・・・・」
+line_set 「・・・しゅっ！」
+
+nvl_on
+
+line_set 幽香が先に仕掛けた。
+line_set 曲刃の飛び出た円盤状の風輪が、次々と十兵衛に迫り来る。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「かぁ！！！！！」
+
+nvl_on
+
+line_set 十兵衛は気合いの一声と共に次々とその円盤状の武器を刃で叩き落としていく。
+line_set 高速の風輪が簡単に落とされていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「速い・・・」
+line_set 「あれが柳生新陰流、乱剣・・・」
+
+nvl_on
+
+line_set 乱剣とよばれる剣は、愛洲陰流の風乃抄に似ている、
+line_set というよりは、これをもとに上泉や石舟斎が改良したのが乱剣であろう。
+
+adv_on
+
+name_set 幽香
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 跳ね返った風輪は、そのまま幽香の場所にもどってくる。
+
+adv_on
+
+line_set 「奥義！」
+line_set 「タマカゼ！！！！」
+
+nvl_on
+
+line_set 戻ってきた風輪をつかむ事なく、そのまま幽香は手のギリギリまで引き寄せ、十兵衛に放つ。
+line_set 遠心力でさらに速くなった風輪はすでに人間の反応速度を超えていた。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「がぁ！！！！！！」
+
+name_clear
+
+line_set ドス！ガス！ドス！
+
+name_set 双厳
+
+line_set 「！？」
+
+name_set 幽香
+
+line_set 「な？」
+
+nvl_on
+
+line_set 十兵衛は襲ってきた三つの風輪を腕に刺させた。
+
+adv_on
+
+line_set 「わ、わざと・・・」
+
+name_set 十兵衛
+
+line_set 「これでお前の右の風輪はすべて封じたぜ・・・」
+
+nvl_on
+
+line_set 刃は十兵衛の腕に深く刺さり、鮮血が吹き出る。
+
+adv_on
+
+line_set 「くっ・・・」
+
+nvl_on
+
+line_set 十兵衛は円盤と幽香を繋ぐ糸をその手に取ると、思いっきり引っ張った。
+
+adv_on
+
+line_set 「ふんっ！」
+
+name_set 幽香
+
+line_set 「あっ！？」
+
+nvl_on
+
+line_set 幽香が十兵衛に引き寄せられ、十兵衛は幽香を受け止める。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「おまえなぁ”戦う”ってのは、こういう事なんだ」
+line_set 「分かるか？」
+line_set 「誰かが必ず傷つく」
+line_set 「それは絶対だ」
+
+name_set 幽香
+
+line_set 「くっ・・・」
+
+nvl_on
+
+line_set 幽香は残りの風輪を左指にはめて回す。
+
+adv_on
+
+name_clear
+
+line_set ギュルルルルルル
+
+nvl_on
+
+line_set 風輪はその中心部に指を入れて高回転で回すことにより近距離の武器としても威力を発揮するようだ。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「いいかげんにしろや・・・」
+
+name_clear
+
+line_set バシュ！！！
+
+name_set 幽香
+
+line_set 「な、・・・」
+
+name_set 双厳
+
+line_set 「じ、十兵衛・・・」
+
+nvl_on
+
+line_set 鮮血が飛び散る。
+line_set なんと十兵衛は回転する風輪を、素手でつかんで止めた。
+
+adv_on
+
+name_set 幽香
+
+line_set 「な、なぜ・・・」
+line_set 「そんな、やり方を・・・」
+
+nvl_on
+
+line_set 十兵衛の手のひらはぐしゃぐしゃになっており、指も何本か落ちかけている。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「あんたの手裏剣・・・」
+line_set 「たしかに見事だ・・・」
+line_set 「だが・・・」
+line_set 「あんたの剣は、違うんだよ・・・」
+
+name_set 幽香
+
+line_set 「な、なにを、戦いの途中に・・・」
+
+nvl_on
+
+line_set 無表情であり続けた幽香が動揺している。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「あんたの剣は虚無だ・・・」
+line_set 「だから強い・・・」
+line_set 「しかし、その虚無感は、普通と違う」
+line_set 「剣の達人が行き着く”無”の境地とはほぼ遠い」
+line_set 「あんたの虚無感・・・」
+line_set 「それは」
+line_set 「悲しさだ」
+line_set 「あんたの剣には悲しさしかない・・・」
+line_set 「なんでだ？」
+
+name_set 幽香
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「あんたの剣はあらゆる感情が死んでいる」
+line_set 「なのに、あんたの剣を受けるたびに俺は」
+line_set 「あんたの泣声を聞いているような錯覚に陥る」
+
+name_set 幽香
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「悲しさしかない剣・・・」
+line_set 「そんな剣はふるっちゃいけない・・・」
+line_set 「あんたに分かってほしいんだよ」
+line_set 「誰かを傷つけても、死んだ子は帰ってこねぇって・・・」
+
+name_set 幽香
+
+line_set 「！？」
+line_set 「なぜ？それを？？？」
+
+nvl_on
+
+line_set 幽香の表情に変化が走る。
+line_set 何か思い当たる節があるというような、驚きの顔・・・。
+
+nvl_line_clear
+
+line_set 「子供・・・」
+line_set 「なんの話だ？」
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「どれだけ殺しても、ただ自分が虚しくなるだけだ」
+line_set 「無影が何を言ったかしらないが・・・」
+line_set 「お前の死んだ子供は生きかえらない」
+line_set 「目を覚ませ・・・」
+line_set 「おまえは、ただ無影の野郎に騙されてるだけなんだよ」
+
+name_set 幽香
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「だとして・・・」
+line_set 「あなたに何がわかるのですか！」
+
+nvl_on
+
+line_set 幽香は十兵衛から離れる。
+
+adv_on
+
+line_set 「次会った時は必ずあなたを殺します」
+line_set 「覚悟してください」
+
+name_set 十兵衛
+
+line_set 「くくくく・・・」
+line_set 「次でなく、今とどめを刺せよ」
+line_set 「俺はもう戦えないぜ・・・」
+
+name_set 幽香
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 幽香は無言でその場を立ち去る。
+
+adv_on
+
+music_stop
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+music_play 13
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「痛ててて・・・」
+
+nvl_on
+
+line_set しかし十兵衛は、そんな幽香を追わず、そのまま見送るだけだった。
+line_set 双厳は一人残った十兵衛の前に出てくる。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Jy_011.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「大丈夫か十兵衛！」
+
+name_set 十兵衛
+
+line_set 「お前も人のことは言えんな」
+line_set 「とんだ甘ちゃんだな・・・」
+
+name_set 双厳
+
+line_set 「それより、腕の方は？」
+
+nvl_on
+
+line_set 十兵衛の腕の傷はかなり深い、特に風輪を握って止めた時の傷は想像以上であった。
+
+adv_on
+
+line_set 「これ、何本か指つかないかもしれないぞ・・・」
+
+name_set 十兵衛
+
+line_set 「ははは・・・始めからそのつもりで止めたんだよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「まあ、なんとかなるだろう」
+line_set 「まだ、完全に斬れているわけではない」
+
+nvl_on
+
+line_set といっても、皮一枚でつながっているといったかんじである。
+line_set 染みてくる血液の量が、傷の深さを物語っていた。
+line_set 双厳は幾つかの薬草を使い指に治療を施すことにした。
+
+adv_on
+
+line_set 「・・・」
+line_set 「お前・・・いろいろと知ってるな・・・」
+line_set 「薬草まで詳しいとはな・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「俺に愛洲陰流を教えてくれた人から教わった」
+
+name_set 十兵衛
+
+line_set 「へぇ・・・」
+
+name_set 双厳
+
+line_set 「傷口を消毒する、少ししみるぞ」
+
+nvl_on
+
+line_set 双厳は高濃度のアルコールを十兵衛の傷口にかける。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「！！！！！！！！！！！！」
+
+name_set 双厳
+
+line_set 「毒は塗ってないようだ・・・」
+line_set 「よかったな・・・」
+
+nvl_on
+
+line_set 双厳はここで出来る限りの手当をする。
+
+adv_on
+
+line_set 「ほらこれでいいだろう」
+
+nvl_on
+
+line_set 双厳が十兵衛に肩を貸してやる。
+line_set しかし十兵衛の言葉に、感謝の気持ちなどあるはずもない。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「変な恩を売るくらいなら、俺達に協力しろ」
+line_set 「無影を殺る」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は幾秒かの沈黙の後に答えた。
+
+adv_on
+
+line_set 「無影とはすでに剣を交えた」
+
+name_set 十兵衛
+
+line_set 「！？」
+line_set 「マジか？」
+line_set 「それで、どうだった・・・」
+
+name_set 双厳
+
+line_set 「負けた・・・」
+
+name_set 十兵衛
+
+line_set 「そうか・・・」
+line_set 「やはり斬れなかったか・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「いや・・・」
+line_set 「ヤツを斬る方法があるやもしれぬ」
+
+name_set 十兵衛
+
+line_set 「マジかそれは？」
+
+name_set 双厳
+
+line_set 「可能性だがな・・・」
+line_set 「俺だって、無影にやられたあと十年以上も遊んでいたわけではない」
+
+name_set 十兵衛
+
+line_set 「この島でやられた時に思いついたのか？」
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「かなり前から考えていた」
+
+name_set 十兵衛
+
+line_set 「ならなぜ、戦った時に使わなかった？」
+
+name_set 双厳
+
+line_set 「使う前にやられた」
+
+name_set 十兵衛
+
+line_set 「なんだそりゃ？」
+line_set 「情けないなぁ」
+
+name_set 双厳
+
+line_set 「女にやられて怪我してるヤツにいわれたかない」
+line_set 「怪我人は黙ってろ」
+
+name_set 十兵衛
+
+line_set 「い、いや、あれはな・・・」
+
+name_set 双厳
+
+line_set 「とりあえず、無影を倒す手段があるのは俺だけだ、お前はヤツに手を出すな」
+
+name_set 十兵衛
+
+line_set 「それは出来ん」
+line_set 「俺だってヤツは親の仇なんだからな」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「まぁ、当分お前は動けないであろう」
+line_set 「その間に決着はつけておく」
+
+name_set 十兵衛
+
+line_set 「うむぅ・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_033.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 0 Kgd\Mi_025.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「十兵衛さまっ！？」
+
+nvl_on
+
+line_set 双厳たちが屋敷前まで帰ってくると、命が駆けつけて来る。
+
+adv_on
+
+line_set 「大丈夫ですかっ！？」
+
+name_set 十兵衛
+
+line_set 「大した事は無い」
+line_set 「そう騒ぐな」
+
+name_set 命
+
+line_set 「は、はぁ・・・」
+
+name_set 命
+
+line_set 「十兵衛さま、どうしましたっ！？」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「同じことを言わせるな」
+line_set 「とりあえず、手当てを頼む」
+
+kgd_layer3_set 3 Kgd\Mi_028.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「あ、はいっ！」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 命
+
+line_set 「十兵衛さま。こちらへ」
+
+name_set 十兵衛
+
+line_set 「いいや自分で歩ける」
+
+nvl_on
+
+line_set 双厳から命の肩に移そうとすると、十兵衛は一人であるき出す。
+line_set 後に、いそいで命も続く。
+line_set しかし命は立ち止まり、双厳の元へ戻ってきた。
+
+nvl_line_clear
+
+line_set 「ん・・・？」
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Mi_004.kgd
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「と、とりあえず十兵衛さまを運んで来てくれてありがとう・・・」
+line_set 「私からもお礼を言わせてもらうわ」
+
+name_set 双厳
+
+line_set 「まぁ・・・偶然居合わせたんでな」
+line_set 「しかし、あいつは口が悪いな」
+line_set 「もっと普通に喋れば、人当たりも良くなるだろうによ」
+
+kgd_layer3_set 3 Kgd\Mi_011.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「そ、そんなのあなたが言うような事じゃないでしょ！」
+line_set 「もぅ、感謝して損したわ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+jump_auto 49
+@38
+@55
+
+kgd_layer2_set 1 Kgd\B_061.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 40854 141
+jump_branch2 40854 140
+
+section_jump_branch1 141
+
+kgd_layer3_set 0 Kgd\Ro_004.kgd
+kgd_layer3_param 0 116 0 0 0 568 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 港で、数人の男が何やら見渡している。
+line_set その男たち、双厳には見覚えのある顔だった。
+
+adv_on
+
+line_set 「どうした？」
+line_set 「今頃は酒宴の最中じゃねぇのか？」
+
+name_set 用心棒
+
+line_set 「あんたか」
+line_set 「いや、島を出る時の舟の準備をと思って抜け出してきたんだがな」
+line_set 「舟が一隻も無いんだ」
+
+name_set 双厳
+
+line_set 「舟が無い？」
+
+nvl_on
+
+line_set 奇妙な話だった。
+line_set この島に来てからでも、どこかに必ず一隻ぐらいは舟があったはず。
+line_set それが一隻も無くなっているというのだ。
+
+adv_on
+
+name_set 用心棒
+
+line_set 「くっそぉ、どこにもありゃしねぇ」
+line_set 「こうなったら村の人間を締め上げるか」
+line_set 「その方がてっとり早いな」
+
+nvl_on
+
+line_set 用心棒たちは怒気をはらんでその場から立ち去って行った。
+
+nvl_line_clear
+
+line_set 「舟が一隻も無い・・・」
+line_set 「もしかして、この島に取り残されたのかもしれぬな・・・」
+line_set 「・・・」
+line_set 「・・・まさかな」
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+#141_26
+!140
+
+jump_choice 50 ◆村へ移動
+jump_choice 51 ◆海岸へ移動
+@37
+@50
+@57
+
+kgd_layer2_set 1 Kgd\B_045.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 41395 142
+
+nvl_on
+
+line_set 「・・・」
+line_set 「やはり思った通りか」
+
+nvl_line_clear
+
+line_set 村へ来ると、やはり港で会った用心棒たちが村人の姿を捜して駆けずり回っていた。
+line_set 双厳は何気ない態度で、その様子を傍観している。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Ro_004.kgd
+kgd_layer3_param 0 116 0 0 0 568 600
+kgd_layer3_display 0
+
+name_set 用心棒
+
+line_set 「ちっ、村の奴ら、どこ行きやがった？」
+line_set 「人っ子一人いやしねぇ！」
+line_set 「どうなってんだよ！？」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 紗枝の言っていたことを言ってやるでもなく、双厳はその場を後にした。
+
+adv_on
+
+jump_auto 52
+!142
+jump_choice 53 ◆屋敷前への道へ移動
+jump_choice 54 ◆海岸へ移動
+jump_choice 55 ◆港へ移動
+@27
+@53
+
+kgd_layer2_set 1 Kgd\B_041.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 56 ◆屋敷前へ移動
+jump_choice 57 ◆村へ移動
+@44
+@47
+
+kgd_layer2_set 1 Kgd\B_025.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 58 ◆蔵に入る
+jump_choice 59 ◆廊下へ移動
+@46
+@66
+
+kgd_layer2_set 1 Kgd\B_009.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 60 ◆志乃の部屋へ移動
+jump_choice 61 ◆廊下へ移動
+@45
+
+kgd_layer2_set 1 Kgd\B_074.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 62 ◆廊下へ移動
+@39
+
+kgd_layer2_set 1 Kgd\B_065.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 42134 273
+jump_branch2 42134 132
+
+section_jump_branch1 273
+
+nvl_on
+
+line_set 双厳は物見やぐらに立って海を見る。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「そういえば・・・」
+line_set 「舞とかいう少女を見かけなくなったな・・・」
+line_set 「やはりあれも島の住人であったのだろうな・・・」
+line_set 「島から住民がいなくなってから姿を見ない」
+line_set 「・・・」
+line_set 「香淡という少女も見かけなくなったな・・・」
+line_set 「まぁ・・・どうでもいいことなのだがな・・・」
+#273_27
+!132
+
+jump_choice 63 ◆海岸へ移動
+@16
+
+kgd_layer2_set 1 Kgd\B_001.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 43029 135
+jump_branch2 43029 134
+
+section_jump_branch1 135
+
+nvl_on
+
+line_set 「お、十兵衛に命・・・」
+line_set 「・・・何か話してやがるな」
+
+kgd_layer3_set 1 Kgd\Jy_007.kgd
+kgd_layer3_param 1 0 0 0 0 600 600
+kgd_layer3_display 1
+kgd_layer3_set 0 Kgd\Mi_017.kgd
+kgd_layer3_param 0 304 0 0 0 496 600
+kgd_layer3_display 0
+
+nvl_line_clear
+
+line_set 捜そうとしていた二人を見つけ、双厳は物陰からその様子を伺った。
+
+adv_on
+
+name_set 命
+
+line_set 「では、この島で起きている事件とは・・・」
+
+name_set 十兵衛
+
+line_set 「うむ」
+line_set 「全ては何かの封印を解くための、ある儀式という事だ」
+line_set 「どうやら昨日の事件といい、何者かが裏で動いてやがる」
+
+name_set 命
+
+line_set 「・・・」
+line_set 「次に何が起こるのでしょうか・・・？」
+
+name_set 十兵衛
+
+line_set 「・・・分からん・・・」
+line_set 「だが、その儀式とやらを暴き、次に起こる惨劇を止めねばならん」
+line_set 「それも迅速にな・・・」
+
+name_set 命
+
+line_set 「・・・心得てございます」
+
+nvl_on
+
+line_set 「奴らかなり探ってたようだな」
+line_set 「儀式・・・とか言ってやがるが、昨日の事件が儀式と呼べるものかよ？」
+line_set 「・・・」
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_fadeout 1
+kgd_layer3_clear 0
+kgd_layer3_clear 1
+@6
+#135_28
+!134
+
+jump_choice 64 ◆登る
+jump_choice 65 ◆山道へ移動
+@60
+
+kgd_layer2_set 1 Kgd\B_005.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 66 ◆大広間へ移動
+@52
+
+kgd_layer2_crossfade 1
+kgd_layer2_fade_unk 0
+
+ksd_set Ksd\024.ksd
+ksd_end

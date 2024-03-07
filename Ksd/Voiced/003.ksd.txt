@@ -1,0 +1,1320 @@
+
+wait 2000
+
+music_play 14
+
+kgd_layer2_crossfade 2
+kgd_layer2_display
+
+jump_auto 0
+@8
+
+kgd_layer2_set 1 Kgd\B_037.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@0
+
+jump_branch2 85 10
+jump_branch2 85 16
+jump_branch2 85 18
+jump_auto 1
+!10
+!16
+!18
+jump_branch2 197 0
+
+section_jump_branch1 0
+
+nvl_on
+
+line_set 阿波路家が用意した双厳の部屋だ。
+line_set 滞在中は好きにこの部屋を使ってもよい事になっている。
+
+adv_on
+!0
+
+jump_branch1 241 20
+jump_choice 2 ◆見る
+jump_choice 3 ◆廊下へ移動
+
+nvl_line_clear
+@5
+#20_0
+
+jump_choice 4 ◆廊下へ移動
+@2
+
+section_jump_branch1 20
+
+nvl_on
+
+line_set 双厳は部屋を見渡した。
+
+nvl_line_clear
+
+line_set 「かなり広い部屋だな」
+
+nvl_line_clear
+
+line_set 部屋から縁側に出る事ができ、
+line_set この部屋からは海が一望できた。
+
+nvl_line_clear
+
+line_set 「絶景だな・・・」
+line_set 「海が見渡せるとはな・・・」
+line_set 「大層な部屋だ・・・」
+
+adv_on
+
+jump_auto 5
+@3
+@4
+@12
+@15
+
+kgd_layer2_set 1 Kgd\B_029.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 638 1
+
+nvl_on
+
+line_set 双厳は廊下に出てみる。
+line_set あいかわらず広い屋敷だ。
+line_set 廊下はずっと奥まで続いている。
+
+adv_on
+
+section_jump_branch1 1
+
+jump_auto 6
+#1_1
+
+nvl_on
+
+line_set 廊下の長さが阿波路家の大きさをあらわしている。
+line_set この廊下を渡り阿波路家中を回ることが出来る。
+
+adv_on
+@6
+
+jump_choice 7 ◆大広間へ移動
+jump_choice 8 ◆自室へ移動
+jump_choice 9 ◆屋敷外へ移動
+@7
+
+kgd_layer2_set 1 Kgd\B_009.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 1311 3
+jump_branch1 1131 2
+
+section_jump_branch1 2
+
+nvl_on
+
+line_set 双厳は大広間に入る。
+line_set 大広間には誰もいない・・・。
+
+nvl_line_clear
+
+line_set 「本当に広いな」
+line_set 「いつも来客などを招いたりしたりするとここに通すのだろうか」
+line_set 「先ほども俺が通されたが・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「宴会でも開けそうだな・・・」
+
+nvl_on
+
+line_set 「さてどこにいくか？」
+
+adv_on
+
+jump_auto 10
+#2_3
+
+section_jump_branch1 3
+
+nvl_on
+
+line_set 双厳は大広間に入る。
+line_set あいかわらず誰もいない。
+
+nvl_line_clear
+
+line_set 「だだっぴろいところに一人でいると落ち着かないな・・・」
+line_set 「さてと・・・」
+line_set 「どこに行くかな」
+
+adv_on
+
+jump_auto 11
+#3_2
+
+nvl_on
+
+line_set 双厳は大広間に入る。
+line_set あいかわらず誰もいない。
+
+nvl_line_clear
+
+line_set 「ここには用事がない」
+line_set 「さてどこに行こうか？」
+
+adv_on
+@10
+@11
+
+jump_choice 12 ◆廊下へ移動
+@9
+@20
+@38
+
+kgd_layer2_set 1 Kgd\B_033.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 19
+
+jump_branch1 1806 4
+
+section_jump_branch1 4
+
+nvl_on
+
+line_set 双厳は屋敷の玄関をくぐり、
+line_set 屋敷前に出た。
+
+adv_on
+
+name_set 双厳
+
+line_set 「下に行くと村」
+line_set 「上に行くと・・・どこに行くんだ？」
+line_set 「そういえば海上からこの島を見たときに」
+line_set 「島の一番高いところにでかい岩がみえたな・・・」
+line_set 「あの岩はなんなんだろうか・・・」
+
+nvl_on
+
+line_set 「さて、どこに行こうか？」
+
+adv_on
+
+jump_auto 13
+#4_4
+
+nvl_on
+
+line_set 「屋敷前だ・・・」
+line_set 「屋敷の中に入るか？」
+line_set 「それともどうするか？」
+line_set 「さて、どこに行こうか？」
+
+adv_on
+@13
+
+jump_choice 14 ◆山道へ移動
+jump_choice 15 ◆屋敷内へ移動
+jump_choice 16 ◆村への道へ移動
+@14
+@23
+@26
+@28
+
+kgd_layer2_set 1 Kgd\B_013.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 2185 5
+
+section_jump_branch1 5
+
+nvl_on
+
+line_set 「やはりこの道、島の頂に通じる道らしいな」
+line_set 「このまま上に登れば、舟から見えた大岩にたどりつくかな？」
+line_set 「さて、どこに行こうか？」
+
+adv_on
+
+jump_auto 17
+#5_5
+jump_branch2 2469 19
+
+nvl_on
+
+line_set 屋敷からさらに山頂に向かう道を双厳は行く。
+line_set それなりに勾配がある坂は、登る者の足を何倍にも重く感じさせる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「結構距離があるんだよなぁ・・・」
+
+nvl_on
+
+line_set ここを登れば大岩がある山頂。
+line_set ここを下れば阿波路家の屋敷につく事になる。
+
+adv_on
+
+jump_auto 18
+!19
+
+nvl_on
+
+line_set 大岩がある山頂から山道をくだっていく双厳。
+line_set ここを降りきると阿波路の屋敷が見えてくる。
+line_set もちろん、この道をもどれば大岩のある山頂に行くことが出来る。
+
+adv_on
+@17
+@18
+
+jump_choice 19 ◆大岩へ移動
+jump_choice 20 ◆屋敷前へ移動
+@19
+
+kgd_layer2_set 1 Kgd\B_001.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+jump_branch1 3050 6
+
+section_jump_branch1 6
+
+nvl_on
+
+line_set 「ふぅ・・・」
+line_set 「結構急な勾配だったな・・・」
+
+nvl_line_clear
+
+line_set 阿波路の屋敷から頂上まではそれほどの距離ではなかったが、それなりに勾配のある坂であった・・・。
+
+nvl_line_clear
+
+line_set 「それにしても・・・」
+line_set 「でかいな・・・」
+
+nvl_line_clear
+
+line_set 山道を抜けると、空を覆う森林が切れ、そこから巨大な岩が姿をあらわした。
+
+nvl_line_clear
+
+line_set 「さて、どうする？」
+
+adv_on
+
+jump_auto 21
+#6_6
+
+nvl_on
+
+line_set 阿波路家から続く山道を登り切ると、
+line_set 大岩がみえてくる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「大岩だ・・・」
+
+nvl_on
+
+line_set 双厳は大岩についた。
+
+adv_on
+@21
+@29
+@30
+@31
+@32
+
+jump_branch2 3210 7
+jump_branch2 3246 8
+jump_branch2 3210 9
+jump_branch1 3298 9
+!7
+!9
+jump_choice 22 ◆見る
+jump_choice 23 ◆山道へ移動
+
+nvl_line_clear
+!8
+
+jump_choice 24 ◆見る
+jump_choice 25 ◆考える
+jump_choice 26 ◆山道へ移動
+
+nvl_line_clear
+@34
+@36
+#9_7
+
+jump_choice 27 ◆登る
+jump_choice 28 ◆山道へ移動
+@22
+@24
+jump_branch1 3828 7
+jump_branch1 3874 8
+
+section_jump_branch1 7
+
+nvl_on
+
+line_set 「凄いな・・・」
+
+nvl_line_clear
+
+line_set 双厳は目の前にそびえ立つ壁のような大岩の表面をなでてみた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「これは完全な一個体としての大岩のようだな」
+line_set 「こんな大岩、本州でも見たこたぁないな・・・」
+
+nvl_on
+
+line_set 大きさは幅２０丈分ぐらいはあるだろうか？
+line_set 高さも１０丈はゆうにあるようだ。
+
+nvl_line_clear
+
+line_set 「阿波路の屋敷より大きいかな？」
+
+nvl_line_clear
+
+line_set この大岩はたしかに、阿波路の屋敷より、
+line_set もしかしたら、
+line_set その敷地よりも大きかったかもしれない。
+
+nvl_line_clear
+
+line_set 「それにしても・・・」
+
+adv_on
+
+jump_auto 29
+#7_8
+jump_branch1 3874 8
+
+name_set 双厳
+
+line_set 「でかいな・・・」
+
+jump_auto 30
+#8_9
+#8_10
+
+section_jump_branch1 9
+
+line_set 「？」
+line_set 「この大岩・・・」
+line_set 「登れるようだな・・・」
+
+nvl_on
+
+line_set 大岩をよく見ると階段のようなものがある
+
+adv_on
+
+line_set 「たぶん勝手に登ると怒られるのだろうな？」
+
+jump_auto 31
+@25
+
+section_jump_branch1 8
+
+nvl_on
+
+line_set 双厳はこの大岩の事を考えてみた。
+
+nvl_line_clear
+
+line_set 「なんで、こんなでかい岩が島の頂にあるんだ？」
+
+nvl_line_clear
+
+line_set 大岩には鳥居が建っており、この島では宗教的なものとして扱われているのは一目瞭然であった。
+
+nvl_line_clear
+
+line_set 「見た感じ、宗教的に意味がありそうだな」
+line_set 「もしかしたら、この島の人間がこの巨石をここまでもってきたのかもしれないな」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「いや無理だな、この岩は・・・」
+line_set 「そんな大きさではない・・・」
+line_set 「人数、時間」
+line_set 「どんなに集めても無理だろうな・・・」
+
+nvl_on
+
+line_set 双厳は適当に頭に浮かんだ思考をすぐに否定し、
+line_set そして少しばかり本気で思考してみることにした。
+line_set 双厳からすればちょっとした暇つぶしみたいなものだったのだろうが、そんなことに考えをめぐらしてみる
+line_set のもそう悪い事ではない。
+
+adv_on
+
+line_set 「そういえば・・・」
+line_set 「ここよりさらに南の島で、津波のために高いところまで打ち上げられたという大岩を見たことがあるが」
+line_set 「たぶん、それの一種か・・・」
+
+nvl_on
+
+line_set もちろん双厳の言う岩は、ここにあるようなとんでもないレベルの巨石ではない。
+
+adv_on
+
+line_set 「昔に津波かなにかで海底の大岩がここまで打ち上げられたのだろう」
+line_set 「さぞかしでかい津波だったのだろう・・・」
+
+nvl_on
+
+line_set 双厳は一通り考えた後、一つの結論に達していた。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「もし、これが正しい想像なら少しばかり怖いな」
+line_set 「頂上にこの岩があるということは、島のどんなところにいても助からない津波が来たことがあるというこ
+line_set とになるのか・・・」
+line_set 「頂上、つまり一番高いところまで襲った津波だ」
+line_set 「この島のあらゆる場所にいても死しかなかっただろう・・」
+
+nvl_line_clear
+
+line_set 「・・・」
+
+adv_on
+
+line_set 「すこしぞっとするな・・・」
+
+nvl_on
+
+line_set これだけ巨大な岩をここまで持ってきた津波がきたら・・・。
+line_set その時、この島にいる人間にどんな選択肢があるのだろうか？
+
+adv_on
+
+line_set 「まあ、阿波路家がうわさ通り、神代から続くような古い家なら」
+line_set 「阿波路家が続いてるのだから」
+line_set 「その歴史の間にでかい津波に襲われた事はないのだろうけど・・・」
+
+nvl_on
+
+line_set 「そんな津波がきたら、まちがいなく島は全滅だ」
+line_set 「阿波路家が今のように残るわけもない」
+
+nvl_line_clear
+
+line_set 「うそでないことを祈ろう・・・」
+
+adv_on
+
+line_set 「それにしても、よく頂上にきれいに岩がとまったものだな」
+
+nvl_on
+
+line_set 大岩は島のほぼ中心、島の頂に鎮座している形となっている。
+
+adv_on
+
+line_set 「偶然にしても出来すぎだ・・・」
+line_set 「やはり人為的なもんか？」
+line_set 「・・・」
+line_set 「無理な話だよな・・・」
+line_set 「それは・・・」
+
+jump_auto 32
+@27
+jump_branch1 6786 10
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+nvl_on
+
+line_set 「関係ねぇ、関係ねぇ」
+line_set 「はじめっから神にも仏にも見放されてる体だ」
+
+adv_on
+
+kgd_layer1_set 1 Kgd\Be_002.kgd
+kgd_layer1_fadein
+kgd_layer1_display
+kgd_layer1_fx 1
+
+section_jump_branch1 10
+
+name_set 双厳
+
+line_set 「すげぇなぁ」
+line_set 「ほとんど全方角を一気に見渡せる」
+
+nvl_on
+
+line_set 双厳は大岩の頂上から眼下にひろがる海を一望する。
+
+nvl_line_clear
+
+line_set 「かなり海が澄んでいる」
+line_set 「海の底がみえる」
+line_set 「綺麗だな・・・」
+
+nvl_line_clear
+
+line_set この高さから、
+line_set 海底の珊瑚まで見ることが出来る。
+line_set 恐るべき透明度だ。
+line_set 本州の海ではまず考えられない。
+line_set さてどこにいこうか？
+
+adv_on
+
+jump_choice 33 ◆降りる
+@33
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 34
+#10_11
+
+kgd_layer1_set 1 Kgd\Be_002.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+nvl_on
+
+line_set 眼下に海がひろがる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「異常はないな・・・」
+
+nvl_on
+
+line_set 海上はこれといって変化もない。
+
+adv_on
+
+jump_choice 35 ◆降りる
+@35
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 36
+@16
+@41
+
+kgd_layer2_set 1 Kgd\B_041.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 7147 11
+
+section_jump_branch1 11
+
+nvl_on
+
+line_set 阿波路の屋敷から下る道。
+line_set そのまま降りると先ほどの村にでる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ここを下れば村にでるな」
+line_set 「さて、どこへいこうか？」
+
+jump_auto 37
+#11_12
+
+nvl_on
+
+line_set 阿波路の屋敷と村を結ぶ道だ。
+
+adv_on
+@37
+
+jump_choice 38 ◆屋敷前へ移動
+jump_choice 39 ◆村へ移動
+@39
+@45
+@49
+@54
+@57
+
+kgd_layer2_set 1 Kgd\B_045.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 7586 12
+
+section_jump_branch1 12
+
+nvl_on
+
+line_set 双厳は村にでる。
+
+nvl_line_clear
+
+line_set 「あまり裕福な村ではなさそうだな・・・」
+line_set 「というか・・・」
+line_set 「あんまり人がいない・・・」
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set 双厳はこの島に関わるもっとも重大なうわさを思い出していた。
+
+nvl_line_clear
+
+line_set 「村か・・・」
+line_set 「あのうわさは本当なのか？」
+line_set 「だとしたこの村の人間すべてが・・・」
+
+adv_on
+
+jump_auto 40
+#12_13
+
+nvl_on
+
+line_set 村はあいかわらず閑散としている。
+
+adv_on
+
+name_set 双厳
+
+line_set 「やはり」
+line_set 「誰もいないな・・・」
+@40
+
+jump_choice 41 ◆屋敷前への道へ移動
+jump_choice 42 ◆海岸へ移動
+jump_choice 43 ◆港へ移動
+@43
+@50
+@55
+@58
+
+kgd_layer2_set 1 Kgd\B_061.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 8127 13
+
+section_jump_branch1 13
+
+nvl_on
+
+line_set 「港だ・・・」
+line_set 「しかし・・・」
+
+nvl_line_clear
+
+line_set この島は四方を鳥居が囲んでいる。
+line_set つまりすべての海岸は鳥居でうまっているのだ。
+line_set この港ですら例にもれず鳥居でうめつくされている。
+
+nvl_line_clear
+
+line_set 「不便ではないのか？」
+line_set 「これでは舟の出し入れがかなりめんどくさいはずだが・・・」
+line_set 「この島の住人はなにを考えているのか・・・」
+
+adv_on
+
+jump_auto 44
+#13_14
+
+nvl_on
+
+line_set 港には誰もいない。
+line_set ただ打ちあげられた波が鳥居にぶつかる音だけが不気味にこだましている。
+
+adv_on
+@44
+
+jump_choice 45 ◆村へ移動
+jump_choice 46 ◆海岸へ移動
+@42
+@46
+@65
+@66
+
+kgd_layer2_set 1 Kgd\B_049.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 8628 14
+
+section_jump_branch1 14
+
+nvl_on
+
+line_set ここもやはり鳥居に埋め尽くされている。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「なるほど・・・」
+
+nvl_line_clear
+
+line_set ここの鳥居の数は港よりひどい。
+line_set つまり港はまだ、舟を出すために鳥居の建設を控えていたようである。
+
+nvl_line_clear
+
+line_set 「これじゃ、港以外のところから舟を出すのは不可能だな」
+line_set 「ますますこの島の住人が考えてる事がわからない」
+
+adv_on
+
+jump_auto 47
+#14_15
+
+nvl_on
+
+line_set 海岸は相変わらず鳥居で埋め尽くされている。
+line_set 不気味な光景だ・・・。
+
+nvl_line_clear
+
+line_set 「さて、どこへいく？」
+
+adv_on
+@47
+@60
+@61
+@62
+
+jump_branch1 8926 16
+jump_branch1 8832 15
+jump_choice 48 ◆見る
+jump_choice 49 ◆村へ移動
+jump_choice 50 ◆港へ移動
+jump_choice 51 ◆物見やぐらへ移動
+
+nvl_line_clear
+#15_17
+
+jump_choice 52 ◆見る
+jump_choice 53 ◆考える
+jump_choice 54 ◆村へ移動
+jump_choice 55 ◆港へ移動
+jump_choice 56 ◆物見やぐらへ移動
+
+nvl_line_clear
+#16_16
+
+jump_choice 57 ◆村へ移動
+jump_choice 58 ◆港へ移動
+jump_choice 59 ◆物見やぐらへ移動
+@48
+@52
+jump_branch1 9264 15
+
+section_jump_branch1 15
+
+nvl_on
+
+line_set 双厳はその辺に建てられている鳥居を観察していく。
+
+nvl_line_clear
+
+line_set 面白いことに鳥居を観察していくと、やたら古いものと新しいものがあるようである。
+
+nvl_line_clear
+
+line_set 「これなんかとんでもないホド古いな・・・」
+line_set 「・・・」
+line_set 「これなんて最近建てられたものだな・・・」
+
+adv_on
+
+jump_auto 60
+#15_18
+
+nvl_on
+
+line_set 「これだけ鳥居があると不気味だな」
+
+adv_on
+
+jump_auto 61
+@53
+
+section_jump_branch1 16
+
+nvl_on
+
+line_set 「うわさ通りだな・・・」
+
+nvl_line_clear
+
+line_set 近隣の村でそのように聞いていた。
+line_set 鳥居は少しずつ増えていくのだと・・・。
+
+nvl_line_clear
+
+line_set 双厳はこの島に渡る前に、
+line_set とある村で出会った老人が、
+line_set 恐怖で顔を引きつらせながらこの島の事を語った事を思い出していた。
+line_set その老人はかなりの高齢であったが呆けてはおらず、
+line_set 双厳も一目置くほど多岐にわたって様々な知識を有していた。
+
+nvl_line_clear
+
+line_set 老人　「あの島の住人は呪われているのじゃよ」
+line_set 老人　「いや・・・」
+line_set 老人　「我々はすべて呪われているのかもしれない」
+line_set 老人　「あの島はただそれが目に見える呪いとしてあ　　　らわれているにすぎないのかもしれんな」
+line_set 双厳　「ご老人」
+line_set 双厳　「その呪いというのは一体どのようなものなの　　　ですかな？」
+
+nvl_line_clear
+
+line_set 老人　「双子じゃよ」
+line_set 双厳　「双子？」
+line_set 老人　「そう双子じゃ」
+line_set 双厳　「・・・」
+line_set 双厳　「なぜ双子が呪いなのですか？」
+line_set 老人　「あの島ではな、生まれる子供がかならず双子　　　なのじゃよ」
+line_set 双厳　「かならず？」
+
+nvl_line_clear
+
+line_set 老人　「そう、かならずじゃ」
+line_set 老人　「恐ろしい事じゃ・・・」
+line_set 双厳　「・・・」
+line_set 双厳　「たしかに、かならず双子に生まれるというの　　　は奇妙だし呪いと言えない事はないだろう・・
+line_set 　　　・」
+line_set 双厳　「しかしだご老人よ」
+line_set 双厳　「なぜそのことをそれほど恐れるのです？」
+
+nvl_line_clear
+
+line_set 双厳　「話が飛躍しすぎているのではないかな？」
+line_set 老人　「くくくくく・・・」
+line_set 老人　「旅のお方は双子しか生まれないという恐怖を　　　知らないからそのように言えるのですよ」
+line_set 双厳　「・・・」
+line_set 老人　「現に島の連中は・・・」
+line_set 老人　「その恐怖に耐えられずに・・・」
+line_set 双厳　「耐えられずに？」
+
+nvl_line_clear
+
+line_set 老人　「恐ろしいことじゃ・・・」
+line_set 双厳　「・・・」
+line_set 老人　「・・・」
+line_set 老人　「間引くのじゃよ・・・」
+line_set 双厳　「間引く？」
+line_set 双厳　「生まれた子供をですかな？」
+line_set 老人　「そうじゃよ・・・」
+line_set 老人　「生まれた子供の片方をかならず親は間引かな　　　ければならないのじゃ」
+
+nvl_line_clear
+
+line_set 双厳　「・・・」
+line_set 老人　「これを呪われていると言わなくてなにを呪わ　　　れているというのじゃろうか・・・」
+line_set 双厳　「生まれた子供をかならず間引く・・・」
+line_set 双厳　「そんなことがあるのでしょうか？」
+line_set 老人　「あの島は四方を鳥居が囲んでいる・・・」
+line_set 双厳　「私もそのように聞いてます」
+line_set 双厳　「その姿はかなり面妖なものと聞きます」
+
+nvl_line_clear
+
+line_set 老人　「なぜあの数の鳥居が島を囲んでいるか知って　　　いますかな？」
+line_set 双厳　「いや・・・知りませんが」
+line_set 老人　「あの鳥居の数は、あの島で生を受けた人間の　　　数だけある」
+line_set 老人　「この意味が分かるかな？」
+line_set 双厳　「・・・」
+line_set 双厳　「つまり・・・」
+
+nvl_line_clear
+
+line_set 老人　「そうじゃ・・・」
+line_set 老人　「間引かれた子供の供養のために鳥居を海岸に　　　建てていくのじゃよ・・・」
+line_set 双厳　「・・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「供養か・・・」
+
+nvl_on
+
+line_set 双厳　「墓は建てないのですか？」
+line_set 老人　「墓か・・・」
+line_set 老人　「墓は建てない」
+line_set 双厳　「なぜです？」
+line_set 老人　「一刻もはやくその霊を海に帰したいからじゃ　　　ろうな」
+line_set 双厳　「・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「一理あるな」
+
+nvl_on
+
+line_set 「鳥居は霊的なものの通り道だ」
+line_set 「つまり忌むべき存在である殺された子供の霊は一刻もはやく海に帰したい」
+line_set 「殺された怨念によりいつ悪霊になるとも知れない子供の霊を鳥居により海にかえしたのであろう・・・」
+line_set 「そう考えられないことでもない」
+
+nvl_line_clear
+
+line_set 双厳　「・・・」
+line_set 双厳　「一つ気にかかります」
+line_set 老人　「なんですかな？」
+line_set 双厳　「なぜ双子の片方を殺すのですか？」
+line_set 双厳　「いくらなんでも理由がわからない」
+line_set 双厳　「悪霊になり島に災いを及ぼす可能性まである　　　のに、なぜ殺すのですかな？」
+line_set 双厳　「鳥居で島を囲ってまで、なぜ子供の片方を殺　　　すのですかな？」
+
+nvl_line_clear
+
+line_set 双厳　「そこが納得できない」
+line_set 老人　「・・・」
+line_set 老人　「そ、それは・・・」
+line_set 双厳　「それは？」
+line_set 老人　「それは言えませぬ」
+line_set 老人　「それを口にするのはかんべんして頂きたい」
+line_set 老人　「おそろしや・・・おそろしや・・・」
+line_set 双厳　「・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「あの時の老人は何をあんなに怖がっていたのだろうか？」
+
+nvl_line_clear
+
+line_set 双厳は、老人をあれほどの恐怖に陥れた怨念の島に立ちながら、くだんの鳥居を眺めている。
+
+adv_on
+
+jump_auto 62
+@51
+@56
+@59
+
+kgd_layer2_set 1 Kgd\B_065.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 13625 17
+
+section_jump_branch1 17
+
+nvl_on
+
+line_set 砂浜の海岸をさらに奥にすすむと切り立った崖の上にでた。
+line_set そこの崖には奇妙なものがあった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「これは・・・」
+line_set 「なんだ？」
+
+nvl_on
+
+line_set 石が積み重なれており、どうやらなにかの土台のように見える。
+
+nvl_line_clear
+
+line_set 「この位置なら・・・」
+line_set 「物見やぐらかなにかの土台の石垣かな？」
+line_set 「どうだかな・・・」
+
+adv_on
+
+jump_auto 63
+#17_19
+
+nvl_on
+
+line_set 「物見やぐらについた・・・」
+line_set 「さて、どこにいく？」
+
+adv_on
+@63
+@67
+
+jump_branch1 13735 18
+jump_choice 64 ◆見る
+jump_choice 65 ◆海岸へ移動
+
+nvl_line_clear
+#18_20
+
+jump_choice 66 ◆海岸へ移動
+@64
+
+section_jump_branch1 18
+
+nvl_on
+
+line_set 双厳はその石垣を近くで観察することにした。
+
+nvl_line_clear
+
+line_set 「結構古いもののようだ・・・」
+line_set 「たぶん、１０年や２０年前のもの・・・」
+line_set 「つまり戦国時代に作られたもんじゃないな」
+
+nvl_line_clear
+
+line_set ふと、双厳は石垣の向こうに人影を感じた。
+line_set 敵か味方かはわからぬが咄嗟に身構える。
+line_set が、相手はどうやらただの娘のようだ。
+line_set 地面にかがみ込んで何かをさがしている様子だ。
+line_set さらに近づくと左手に野草を握っている。
+line_set どうやら薬草か山菜かをつみ取っているようだ。
+
+nvl_line_clear
+
+line_set 娘はこちらに気がついたらしく、軽くほほえんで会釈を返した。
+line_set つられて、双厳も、軽くアゴをひくようにうなづき返す。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_015.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+name_set 娘
+
+sfx_set 2 Vox\6974.wav
+sfx_play 2
+
+line_set 「あの、お屋敷に呼ばれたお侍さまですよね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 正しく言うならば双厳は侍ではなく流浪の剣士なのだが、
+line_set そう説明する手間も必要も感じなかったので素直にこたえた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「まあそんなところだ」
+line_set 「薬草でも摘んでいるのか」
+
+name_set 娘
+
+sfx_set 2 Vox\6973.wav
+sfx_play 2
+
+line_set 「ええ・・・父が胸をわずらっていまして・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\6972.wav
+sfx_play 2
+
+line_set 「胸の病に効く草がここらへんに生えているんです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 薬草や野草の知識は双厳にとって生き抜くために必要不可欠なものである。
+line_set 当然その知識もかなりのものなのだが、娘の手には見たことのない草が握られていた。
+line_set この島特有の草なのだろう。
+line_set 長居するとは思えないが、いつどこでその知識が双厳の命を救うかもしれない。
+
+adv_on
+
+name_set 娘
+
+sfx_set 2 Vox\6971.wav
+sfx_play 2
+
+line_set 「あの・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なんだ」
+
+name_set 娘
+
+sfx_set 2 Vox\6970.wav
+sfx_play 2
+
+line_set 「いえ、あの、すごい目で草を眺めているなあって・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳は、真剣すぎるほどの眼差しでその草を眺めていた。
+line_set 娘がおびえるのも無理はない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「悪い、怖がらせてしまったな・・・」
+line_set 「珍しい草だったもんでな」
+
+name_set 娘
+
+sfx_set 2 Vox\6969.wav
+sfx_play 2
+
+line_set 「ふふふ、わたしみたいな小娘にあやまるなんてお侍さんらしくないですね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 実際に侍ではないのだから仕方がない。
+line_set だが、それがもとで自分の呪われた素性が明かされてしまうかもしれない。
+line_set またも双厳は言葉を飲み込んだ。
+
+adv_on
+
+name_set 娘
+
+sfx_set 2 Vox\6968.wav
+sfx_play 2
+
+line_set 「この草は煎じて食後に飲むとセキがおさまるんです」
+
+sfx_stop 2
+sfx_set 2 Vox\6967.wav
+sfx_play 2
+
+line_set 「ちょっとにがいんですけどね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 娘はそう言うと草を束ねてふところにしまい、立ち上がった。
+
+adv_on
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Kt_001.kgd
+kgd_layer3_param 0 228 0 0 0 344 600
+kgd_layer3_display 0
+
+name_set 娘
+
+sfx_set 2 Vox\6966.wav
+sfx_play 2
+
+line_set 「では家で父が待っていますので・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\6965.wav
+sfx_play 2
+
+line_set 「わたし、香淡といいます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「俺は双厳」
+line_set 「しばらくこの島にやっかいになる」
+
+name_set 香淡
+
+sfx_set 2 Vox\6964.wav
+sfx_play 2
+
+line_set 「強そうなお名前ですね」
+
+sfx_stop 2
+sfx_set 2 Vox\6963.wav
+sfx_play 2
+
+line_set 「悪い人たちが来たらやっつけちゃってくださいね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳は軽くうなづいた。
+line_set 香淡と名乗った娘はゆっくりと歩いて去っていった。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 67
+@1
+
+kgd_layer2_crossfade 1
+kgd_layer2_fade_unk 0
+
+ksd_set Ksd\004.ksd
+ksd_end

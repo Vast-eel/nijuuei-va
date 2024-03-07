@@ -1,0 +1,1810 @@
+
+wait 2000
+
+kgd_layer2_set 0 Kgd\B_069.kgd
+kgd_layer2_crossfade 2
+kgd_layer2_display
+
+music_play 11
+
+kgd_layer3_set 0 Kgd\Jy_007.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「何か分かったか？」
+
+name_set 十兵衛
+
+line_set 「いや・・・」
+line_set 「相変わらずだ・・・」
+
+name_set 双厳
+
+line_set 「そうか・・・」
+
+nvl_on
+
+line_set 双厳も書物をあさる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「双厳・・・」
+
+name_set 双厳
+
+line_set 「なんだ？」
+
+name_set 十兵衛
+
+line_set 「少しは寝たのか？」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「大岩の上で寝た」
+
+name_set 十兵衛
+
+line_set 「なんだそりゃ？」
+line_set 「こんな時によくあんな場所で寝れるな」
+
+name_set 双厳
+
+line_set 「いや逆にああいった場所の方が安心して寝れる」
+
+name_set 十兵衛
+
+line_set 「そんなものか？」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+nvl_on
+
+line_set 横になると下からは死角になり見えず。
+line_set 上からは近づく人間が丸見えになる、
+line_set しかも登る場所が一カ所しかないうえ、
+line_set 一個体である故に振動を伝えやすい大岩は、登る人間がいることを容易に伝える。
+
+nvl_line_clear
+
+line_set 命を狙われ続けている双厳にとってはある意味、
+line_set 自室で寝るよりは、安全な場所ともいえる大岩の方が安心して寝れるのであった。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+nvl_line_clear
+
+line_set 数時間が過ぎる。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「そろそろ」
+line_set 「申の刻ぐらいか・・・」
+line_set 「謎は解けずじまいか・・・」
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳はその場から立ち上がる。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「双厳」
+
+name_set 双厳
+
+line_set 「お前はじっとしていろ・・・」
+line_set 「その傷では動く事もままならないだろう」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「それに・・・」
+line_set 「呪いを断ち切る事は俺にしかできないであろう」
+
+name_set 十兵衛
+
+line_set 「なぜそう言える？」
+
+name_set 双厳
+
+line_set 「さぁな・・・」
+
+nvl_on
+
+line_set 双厳は軽く笑う。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「そうか・・・」
+
+name_set 双厳
+
+line_set 「今日こそあの化け物を斬るさ・・・」
+
+name_set 十兵衛
+
+line_set 「うむ・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_007.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 双厳は隠し部屋から出てきていた。
+line_set あれからかなりの書物を調べあげたが、
+line_set あいかわらず謎の全容は解けていない。
+
+nvl_line_clear
+
+line_set 呪いの謎を解くことができないということは、
+line_set 最後の手段を使う事を意味する。
+line_set 最後の手段。
+line_set 無影を倒すための秘策。
+line_set それを使う事は無影に双厳の最後の手の内をみせる事になる。
+line_set それでも双厳はやるしかなかった。
+
+nvl_line_clear
+
+line_set 「結局何も分かりゃしなかったが・・・」
+line_set 「手はある・・・」
+line_set 「手はあるさ・・・」
+line_set 「最後の手段がな・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+
+nvl_on
+
+line_set 双厳は少しばかり作戦を考える。
+
+nvl_line_clear
+
+line_set 「昨夜、直接池であの異形を待ち伏せしたために、彩を守る事ができなかった・・・」
+line_set 「楓玲を守るためには」
+line_set 「池で異形を待ち伏せするより」
+line_set 「楓玲を守っていたほうがいいだろう」
+
+nvl_line_clear
+
+line_set 「それのほうが確実に楓玲を守る事もできる」
+line_set 「こうなりゃ直接楓玲を守るのがいいだろう」
+
+nvl_line_clear
+
+line_set ”手立てが何もないまま死地に赴くわけではない”
+line_set 双厳は強く自分に言い聞かせる。
+
+nvl_line_clear
+
+line_set 双厳が志乃の部屋で少しばかり考え事をしていると、隠し部屋の階段を十兵衛があがってくる。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Jy_007.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 十兵衛
+
+line_set 「なんだ・・・」
+line_set 「まだいたのか？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「お前どこ行くんだ・・・」
+
+name_set 十兵衛
+
+line_set 「ちっ」
+line_set 「てめぇが出ていってから動こうとしたのにな」
+line_set 「見つかったか・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「楓玲とかいう嬢ちゃんを守るんだろ」
+line_set 「てめぇだけじゃ心許ないと思ってな」
+
+name_set 双厳
+
+line_set 「お前怪我は・・・」
+
+name_set 十兵衛
+
+line_set 「怪我？」
+line_set 「これか？」
+
+nvl_on
+
+line_set 十兵衛は包帯で巻かれた手を突き出す。
+
+adv_on
+
+line_set 「こんなもん怪我のうちにはいるかよ」
+
+name_set 双厳
+
+line_set 「両腕をやられていてなにを言ってやがる」
+
+name_set 十兵衛
+
+line_set 「たしかに両腕を怪我したが、片手は十分に剣を握れる」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「剣が一本でも握れれば十分だ」
+
+name_set 双厳
+
+line_set 「いいのか？」
+line_set 「あの呪いを発する異形だけではないぞ」
+line_set 「この島にはうじゃうじゃ異形が潜んでいる」
+line_set 「お前と互角に戦ったあの幽香だってまだ生きているのだぞ」
+
+name_set 十兵衛
+
+line_set 「互角？」
+line_set 「あの女と俺が？」
+line_set 「阿呆抜かせ・・・」
+line_set 「女相手に本気なんてだせるか」
+line_set 「あれは手を抜いたんだよ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「手を抜いて、両腕をやられたか・・・」
+
+kgd_layer3_set 3 Kgd\Jy_010.kgd
+kgd_layer3_param 3 100 0 0 0 600 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「うっ・・・」
+
+name_set 双厳
+
+line_set 「十兵衛・・・」
+line_set 「その身体で外に出れば間違いなく死ぬぞ」
+
+kgd_layer3_set 3 Kgd\Jy_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「間違いなく死ぬ？」
+line_set 「おいおい・・・」
+line_set 「勝手な事いわんでくれ」
+line_set 「この程度の傷であんな化け物どもに後れを取る柳生新陰流ではない」
+line_set 「やつらに柳生新陰流を使うのなら、片手ぐらいがちょうどよいハンデになるぐらいだ・・・」
+line_set 「それに・・・」
+line_set 「狙われてるのはあの嬢ちゃんなんだろ？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「まだ何にも知らなそうな嬢ちゃんじゃねぇか」
+line_set 「あんな若い娘を見殺しにしてたら寝付きも悪くもなるというもんだろ」
+line_set 「お前もいった通り島には無数の敵が潜んでいる」
+line_set 「お前一人であの娘を守れるものではない」
+
+name_set 双厳
+
+line_set 「十兵衛」
+
+name_set 十兵衛
+
+line_set 「その娘にしてやれる事といったら、こうして大の男が付くぐらいしかあるまい」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「俺も娘が二人いてな・・・」
+line_set 「どうもあの手の生意気で元気な娘をみると自分の娘を思いだしてしまう」
+
+name_set 双厳
+
+line_set 「十兵衛・・・」
+
+kgd_layer3_set 3 Kgd\Jy_010.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「ああ！！」
+line_set 「そんな辛気くさい顔するな！」
+line_set 「だからてめぇに見つかるのが嫌だったんだよ」
+line_set 「俺は死なねぇよ」
+line_set 「柳生の里の娘二人残してこの歳で死ねるか」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「そうだよな・・・」
+
+nvl_on
+
+line_set 双厳は軽く笑う。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Jy_007.kgd
+kgd_layer3_param 3 100 0 0 0 600 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「笑ってんなよ、薄気味悪い」
+line_set 「今はそんな余裕無いんだろ？」
+
+name_set 双厳
+
+line_set 「・・・ああ」
+
+name_set 十兵衛
+
+line_set 「で、肝心の嬢ちゃんはどこにいるんだ？」
+
+name_set 双厳
+
+line_set 「いや、まだ探していない・・・」
+line_set 「多分、屋敷のどっかにいるだろ・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「あの嬢ちゃん、えらくおびえていたな・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「まずいかもしれないぞ・・・」
+line_set 「ったく・・・とにかく捜すぞ」
+
+name_set 双厳
+
+line_set 「ああ」
+
+name_set 十兵衛
+
+line_set 「とりあえず屋敷内を探すぞ」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_play 8
+
+jump_auto 0
+@3
+
+kgd_layer2_set 1 Kgd\B_069.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 「ここにいるハズもないか・・・」
+
+adv_on
+
+jump_choice 1 ◆外へ出る
+@1
+@6
+
+kgd_layer2_set 1 Kgd\B_007.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 「どこにいるんだ・・・」
+
+adv_on
+@0
+
+jump_choice 2 ◆大広間へ移動
+jump_choice 3 ◆隠し地下室へ移動
+@2
+@27
+
+kgd_layer2_set 1 Kgd\B_011.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@8
+@9
+@10
+@11
+
+jump_choice 4 ◆見渡す
+jump_choice 5 ◆外を見る
+jump_choice 6 ◆志乃の部屋へ移動
+jump_choice 7 ◆廊下へ移動
+@4
+jump_branch1 6325 186
+
+section_jump_branch1 186
+
+nvl_on
+
+line_set 双厳は大広間で楓玲を探す。
+line_set これといって隠れる場所がない大広間はすぐに楓玲がいない事が確認できる。
+
+adv_on
+
+jump_auto 8
+#186_0
+
+section_jump_branch1 187
+
+nvl_on
+
+line_set やはり大広間にはいないようだ。
+
+adv_on
+
+jump_auto 9
+@5
+jump_branch1 6563 188
+
+section_jump_branch1 188
+
+nvl_on
+
+line_set 大広間の障子を開けると外が見える。
+line_set 双厳は障子を開けてみる。
+
+nvl_line_clear
+
+line_set 海が見渡せるが、人間のようなものは確認できない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ここにはいないか・・・」
+
+jump_auto 10
+#188_1
+
+section_jump_branch1 189
+
+nvl_on
+
+line_set 大広間の障子を開け外を確認するが、
+line_set 楓玲の姿は見えない。
+
+adv_on
+
+jump_auto 11
+@26
+
+kgd_layer2_set 1 Kgd\B_076.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@16
+@17
+@18
+@19
+@20
+@21
+
+jump_choice 12 ◆部屋を見渡す
+jump_choice 13 ◆押入れを探す
+jump_choice 14 ◆障子を開ける
+jump_choice 15 ◆廊下へ移動
+@12
+jump_branch1 6898 190
+
+section_jump_branch1 190
+
+nvl_on
+
+line_set 双厳は部屋を見渡す。
+
+adv_on
+
+name_set 双厳
+
+line_set 「いないな・・・」
+line_set 「俺の部屋に来てる・・・」
+line_set 「・・・ハズもねぇか」
+
+jump_auto 16
+#190_2
+
+section_jump_branch1 191
+
+nvl_on
+
+line_set 双厳はまた部屋を見渡した。
+
+adv_on
+
+name_set 双厳
+
+line_set 「いないな・・・」
+line_set 「もしかしたら俺の部屋にきているかと思ったのだが・・・」
+
+jump_auto 17
+@13
+jump_branch1 7216 192
+
+section_jump_branch1 192
+
+nvl_on
+
+line_set 押入をあけ中を確認するが、楓玲の姿は見えない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「あいつならこういうところに隠れていそうだとおもったのだが・・・」
+line_set 「いないか・・・」
+
+jump_auto 18
+#192_3
+
+section_jump_branch1 193
+
+nvl_on
+
+line_set 押入を双厳はあける。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+nvl_on
+
+line_set 中にはなにもない。
+
+adv_on
+
+line_set 「あいつならいてもよさそうなものだが・・・」
+
+jump_auto 19
+@14
+jump_branch1 7496 194
+
+section_jump_branch1 194
+
+nvl_on
+
+line_set 障子を開けると外がみえる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「海ぐらいしか見えないな・・・」
+
+jump_auto 20
+#194_4
+
+section_jump_branch1 195
+
+nvl_on
+
+line_set 障子を開けると外がみえる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「海ぐらいしか見えないな・・・」
+
+jump_auto 21
+@7
+@15
+@33
+
+kgd_layer2_set 1 Kgd\B_031.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 7711 187
+jump_branch2 7711 189
+jump_branch2 7711 191
+jump_branch2 7711 193
+jump_branch2 7711 195
+jump_branch2 7711 197
+jump_branch2 7711 200
+jump_branch2 7711 203
+jump_branch2 7711 205
+jump_auto 22
+!187
+!189
+!191
+!193
+!195
+!197
+!200
+!203
+!205
+jump_branch1 9059 196
+
+section_jump_branch1 196
+
+kgd_layer3_set 0 Kgd\Mi_005.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+sfx_set 2 Vox\4112.wav
+sfx_play 2
+
+line_set 「ど、どうしたのそんなに焦って・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「命、楓玲みなかったか？」
+
+name_set 命
+
+sfx_set 2 Vox\4111.wav
+sfx_play 2
+
+line_set 「う、うん、見なかったけど・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4110.wav
+sfx_play 2
+
+line_set 「な、なんで・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「楓玲のヤツがいないんだ」
+line_set 「あいつ今日、異形に命を狙われているのに・・・」
+
+kgd_layer3_set 3 Kgd\Mi_011.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4109.wav
+sfx_play 2
+
+line_set 「わ、私も探す・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「屋敷外にはまだ出るな」
+line_set 「異形がウロウロしているハズだ」
+line_set 「お前一人で出たらヤバイ」
+
+kgd_layer3_set 3 Kgd\Mi_017.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4108.wav
+sfx_play 2
+
+line_set 「う、うん・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4107.wav
+sfx_play 2
+
+line_set 「とりあえず楓玲さんの部屋とか探してみるわ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「そうしてくれ・・・」
+
+name_set 命
+
+sfx_set 2 Vox\4106.wav
+sfx_play 2
+
+line_set 「わかった」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 命はすぐに駆け出そうとした。
+
+adv_on
+
+name_set 双厳
+
+line_set 「命！」
+
+name_set 命
+
+sfx_set 2 Vox\4105.wav
+sfx_play 2
+
+line_set 「はい？」
+
+sfx_stop 2
+
+kgd_layer3_set 0 Kgd\Mi_006.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+sfx_set 2 Vox\4104.wav
+sfx_play 2
+
+line_set 「な、なに？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なにかあったらすぐに助けをよべ」
+line_set 「勝手な行動はするな・・・」
+line_set 「これ以上死人は増やしたくない」
+
+kgd_layer3_set 3 Kgd\Mi_004.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4103.wav
+sfx_play 2
+
+line_set 「う、うん、わかったわ」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 23
+#196_5
+
+section_jump_branch1 197
+
+name_set 双厳
+
+line_set 「くそっ・・・」
+line_set 「楓玲の奴、どこ行きやがった？」
+
+jump_auto 24
+@22
+
+kgd_layer3_set 1 Kgd\Jy_007.kgd
+kgd_layer3_param 1 0 0 0 0 600 600
+kgd_layer3_display 1
+
+name_set 十兵衛
+
+line_set 「双厳いたか？」
+
+name_set 双厳
+
+line_set 「いや、いない・・・」
+line_set 「どこにいるんだ・・・」
+
+nvl_on
+
+line_set 少しおくれて命が廊下の奥から走ってくる。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Mi_021.kgd
+kgd_layer3_param 0 304 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 十兵衛
+
+line_set 「命、楓玲は・・・」
+
+name_set 命
+
+sfx_set 2 Vox\4102.wav
+sfx_play 2
+
+line_set 「残念ながら見つかりません」
+
+sfx_stop 2
+
+name_set 十兵衛
+
+line_set 「そうか・・・」
+
+name_set 双厳
+
+line_set 「あいつ・・・」
+line_set 「もしかしたら外に・・・」
+
+name_set 十兵衛
+
+line_set 「うむ・・・」
+
+name_set 双厳
+
+line_set 「俺は外を探す事にする」
+line_set 「命は屋敷を探してくれ」
+
+kgd_layer3_set 3 Kgd\Mi_011.kgd
+kgd_layer3_param 3 304 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4101.wav
+sfx_play 2
+
+line_set 「うん」
+
+sfx_stop 2
+sfx_set 2 Vox\4100.wav
+sfx_play 2
+
+line_set 「わかったわ」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「十兵衛も俺と外を探すぞ・・・」
+line_set 「いいな」
+
+kgd_layer3_set 3 Kgd\Jy_005.kgd
+kgd_layer3_param 3 0 0 0 0 600 600
+kgd_layer3_crossfade 1
+kgd_layer2_blit 1 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「当たり前だろうが」
+
+name_set 双厳
+
+line_set 「一刻の猶予もない」
+line_set 「いくぞ」
+
+kgd_layer3_fadeout 1
+kgd_layer3_clear 1
+
+jump_auto 25
+@29
+
+nvl_on
+
+line_set 「屋敷内で探してない場所がまだまだある」
+line_set 「外にはでれない・・・」
+
+adv_on
+@23
+@24
+
+jump_choice 26 ◆自室へ移動
+jump_choice 27 ◆大広間へ移動
+jump_choice 28 ◆蔵の前へ移動
+jump_choice 29 ◆屋敷外へ移動
+@28
+@41
+
+kgd_layer2_set 1 Kgd\B_027.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 双厳は屋敷の庭を探す。
+
+adv_on
+@34
+@35
+@36
+@37
+@38
+@39
+
+jump_choice 30 ◆あたりを見渡す
+jump_choice 31 ◆蔵の屋根をみる
+jump_choice 32 ◆蔵に入る
+jump_choice 33 ◆廊下へ移動
+@30
+jump_branch1 10750 199
+jump_branch1 10556 198
+
+section_jump_branch1 198
+
+nvl_on
+
+line_set 双厳は庭の敷地内を探す。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くそっ、いないな・・・」
+line_set 「狙われてんのはお前なんだぞ・・・」
+line_set 「なんでいないんだ・・・」
+
+jump_auto 34
+#198_7
+
+section_jump_branch1 199
+
+nvl_on
+
+line_set 双厳はもう一度、庭の敷地内を探してみる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くそ・・・」
+line_set 「広いな・・・」
+
+nvl_on
+
+line_set 一通り庭を探してみたが楓玲はいない。
+
+adv_on
+
+line_set 「どこにいるんだあの阿呆・・・」
+
+jump_auto 35
+#199_6
+
+section_jump_branch1 200
+
+nvl_on
+
+line_set もう一度双厳は庭の敷地内を探してみる。
+line_set 植木の下、岩の影、池の底までも・・・。
+line_set が、楓玲の姿どころか、なにかしらの手がかりすら見あたらなかった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「くそ・・・」
+line_set 「あいつどこに消えたんだ・・・」
+
+jump_auto 36
+@31
+jump_branch1 11276 202
+jump_branch1 11148 201
+
+section_jump_branch1 201
+
+nvl_on
+
+line_set そう言えば命が屋根の上に登ってた事があったな・・・。
+
+nvl_line_clear
+
+line_set 双厳は蔵の屋根を下から見ていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「いないな・・・」
+
+jump_auto 37
+#201_9
+
+section_jump_branch1 202
+
+nvl_on
+
+line_set 双厳はもう一度蔵の屋根を見ていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+jump_auto 38
+#202_8
+
+section_jump_branch1 203
+
+nvl_on
+
+line_set 双厳はもう一度蔵の屋根を見ていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+jump_auto 39
+@32
+
+kgd_layer2_set 1 Kgd\B_073.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 12951 204
+
+section_jump_branch1 204
+
+nvl_on
+
+line_set 蔵の中にはイルとスイがいつも通りいる。
+line_set そして桔梗も・・・。
+
+adv_on
+
+kgd_layer3_set 1 Kgd\Ky_007.kgd
+kgd_layer3_param 1 158 0 0 0 584 600
+kgd_layer3_display 1
+kgd_layer3_set 0 Kgd\Is_001.kgd
+kgd_layer3_param 0 20 0 0 0 664 600
+kgd_layer3_display 0
+
+name_set スイ
+
+sfx_set 2 Vox\4122.wav
+sfx_play 2
+
+line_set 「どうしたのお兄ちゃん？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「楓玲見なかったか？」
+
+name_set イル
+
+sfx_set 2 Vox\4123.wav
+sfx_play 2
+
+line_set 「楓玲さんがどうかなさったのですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「あいつ消えやがった・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4121.wav
+sfx_play 2
+
+line_set 「いつですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「それはわからない・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4120.wav
+sfx_play 2
+
+line_set 「わ、私も手伝いましょうか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「いや、いい・・・」
+line_set 「お前はイルとスイを守れ」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「いや、嫌味で言ったのではない」
+line_set 「もしこれがイルとスイを奪うための陽動作戦ならば誰かがここで見張ってなければならないだろ」
+line_set 「その役はお前が適任だろう・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4119.wav
+sfx_play 2
+
+line_set 「すみません・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「俺の勘だとかならず無影達はイルとスイをさらいにくる」
+line_set 「岩の封印を解く最後の鍵はイルとスイだからだ」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4118.wav
+sfx_play 2
+
+line_set 「そうなんですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「まだ確証はないが」
+line_set 「十分あり得る事だ・・・」
+line_set 「詳しく説明している暇はないが・・・」
+line_set 「だからここにいろ」
+line_set 「イルやスイを守ってくれ」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4117.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+sfx_set 2 Vox\4116.wav
+sfx_play 2
+
+line_set 「わかりました」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なんかあったら教えてくれ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4115.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_fadeout 1
+kgd_layer3_clear 0
+kgd_layer3_clear 1
+
+nvl_on
+
+line_set 双厳は蔵を後にした。
+
+adv_on
+
+jump_auto 40
+#204_10
+
+section_jump_branch1 205
+
+kgd_layer3_set 1 Kgd\Ky_007.kgd
+kgd_layer3_param 1 158 0 0 0 584 600
+kgd_layer3_display 1
+kgd_layer3_set 0 Kgd\Is_029.kgd
+kgd_layer3_param 0 20 0 0 0 664 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 蔵の中にはイルとスイとそれを守る桔梗がいる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「楓玲はきてないよな」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4114.wav
+sfx_play 2
+
+line_set 「はい・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ここは頼んだぞ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4113.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_fadeout 1
+kgd_layer3_clear 0
+kgd_layer3_clear 1
+@40
+
+jump_choice 41 ◆蔵から出る
+@25
+@46
+@56
+
+kgd_layer2_set 1 Kgd\B_035.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 19
+
+jump_branch1 13790 206
+
+section_jump_branch1 206
+
+kgd_layer3_set 0 Kgd\Jy_005.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 屋敷の外に出た瞬間、
+line_set あたりに妖気が立ちこめているのに気がついた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「し、しまった・・・」
+line_set 「あの異形が・・・」
+
+name_set 十兵衛
+
+line_set 「呪いがはじまったのか？」
+line_set 「仕方ない、楓玲を探す前にあの池にいくぞ」
+line_set 「楓玲が殺される前に、ヤツを斬る」
+
+name_set 双厳
+
+line_set 「よし急ぐぞ！」
+
+nvl_on
+
+line_set 双厳と十兵衛は異形が出現する池まで走った。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 42
+#206_11
+
+name_set 双厳
+
+line_set 「急がなければ・・・」
+@42
+
+jump_choice 43 ◆山道へ移動
+jump_choice 44 ◆村への道へ移動
+@44
+@48
+
+kgd_layer2_set 1 Kgd\B_043.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 13945 19
+
+nvl_on
+
+line_set 「急がなければ・・・」
+
+adv_on
+
+jump_auto 45
+!19
+
+name_set 十兵衛
+
+line_set 「こっちではないだろう！」
+line_set 「急ぐぞ！」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+@45
+
+jump_choice 46 ◆屋敷前へ移動
+jump_choice 47 ◆村へ移動
+@47
+@51
+
+kgd_layer2_set 1 Kgd\B_047.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+nvl_on
+
+line_set 「楓玲が危ない・・・」
+
+adv_on
+
+jump_choice 48 ◆屋敷前への道へ移動
+jump_choice 49 ◆海岸へ移動
+jump_choice 50 ◆港へ移動
+@50
+
+kgd_layer2_set 1 Kgd\B_063.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+name_set 双厳
+
+line_set 「くそ・・・」
+line_set 「これじゃ遠回りだ・・・」
+
+jump_choice 51 ◆村へ移動
+jump_choice 52 ◆海岸へ移動
+@43
+@57
+@60
+
+kgd_layer2_set 1 Kgd\B_015.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 207
+
+jump_branch2 14420 19
+
+name_set 双厳
+
+line_set 「こっちの方向じゃないだろ」
+
+jump_auto 53
+!19
+
+name_set 双厳
+
+line_set 「急がなければ・・・」
+@53
+
+jump_choice 54 ◆大岩へ移動
+jump_choice 55 ◆森林へ移動
+jump_choice 56 ◆屋敷前へ移動
+@54
+
+kgd_layer2_set 1 Kgd\B_003.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+name_set 双厳
+
+line_set 「こんなところに用はないだろ」
+line_set 「このままでは楓玲が死ぬことになるぞ」
+
+jump_choice 57 ◆山道へ移動
+@55
+@61
+
+kgd_layer2_set 1 Kgd\B_019.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 14802 207
+
+name_set 十兵衛
+
+line_set 「こっちではないだろう！」
+line_set 「なにをしているんだ！」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+jump_auto 58
+!207
+
+name_set 双厳
+
+line_set 「急がなければ・・・」
+@58
+
+jump_choice 59 ◆遺跡へ移動
+jump_choice 60 ◆山道へ移動
+@59
+
+kgd_layer2_set 1 Kgd\B_023.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 207
+
+name_set 十兵衛
+
+line_set 「いい加減にしろ」
+line_set 「ここはあの池とまったく正反対だぞ」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+jump_choice 61 ◆森林へ移動
+@49
+@52
+
+kgd_layer2_set 1 Kgd\B_051.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 双厳と十兵衛は海岸にでた。
+line_set この浜を一直線に行けば、池のある森林にはいる事ができる・・・。
+
+adv_on
+
+music_stop
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「・・・・」
+
+name_set 双厳
+
+line_set 「ちっ・・・」
+line_set 「やはりきたか・・・」
+
+kgd_layer1_set 1 Kgd\En_062.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_fade_unk 0
+
+music_play 18
+
+nvl_on
+
+line_set 海岸線を走る双厳と十兵衛の前方に、多数の人影が見える。
+line_set 人影・・・、
+line_set 否、
+line_set それは異形達の影であった。
+
+adv_on
+
+line_set 「ちっ・・・」
+line_set 「このまま突っ切れるか？」
+
+name_set 十兵衛
+
+line_set 「ここは俺にまかせろ・・・」
+
+name_set 双厳
+
+line_set 「しかし・・・」
+line_set 「五人はいるぞ・・・」
+
+name_set 十兵衛
+
+line_set 「呪いを断ち切れるのはお前だけなんだろ」
+line_set 「ならば、お前がいくべきであろう」
+line_set 「ここは俺にまかせろ・・・」
+
+name_set 双厳
+
+line_set 「十兵衛・・・」
+line_set 「お前・・・」
+
+name_set 十兵衛
+
+line_set 「なに」
+line_set 「死にはせんよ・・・」
+line_set 「この程度の連中に殺されはせん」
+
+name_set 双厳
+
+line_set 「十兵衛・・・」
+line_set 「すまない・・・」
+
+nvl_on
+
+line_set 双厳と十兵衛は足をはやめる。
+line_set 異形の群を突っ切る気だ。
+
+adv_on
+
+music_play 9
+
+name_set 双厳
+
+line_set 「斬られたくなければ退け！！！」
+
+name_set 十兵衛
+
+line_set 「おおおおおおおおおお！！！！！！」
+
+name_clear
+
+line_set カキン！！
+line_set チン！！！
+line_set キン！！！
+
+nvl_on
+
+line_set 双厳達の影が異形の群とすれ違う刹那。
+line_set 剣のぶつかり合う音が海岸を包む。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「お前はそのまま走れ！！！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「十兵衛・・・」
+line_set 「すまん・・・」
+
+nvl_line_clear
+
+line_set そのまま走り去る双厳に対して、十兵衛は異形達の方向に向き返る。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「さぁ！！！」
+line_set 「お前らの相手はこの俺だ！！！」
+line_set 「かかてっこい！！」
+line_set 「存分に楽しませてやるぞ！！！！」
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+name_clear
+
+line_set カキン！！！
+line_set カン！！
+line_set チキン！！！！
+line_set ブシャ！！！！！！！！！！
+
+nvl_on
+
+line_set 双厳の後ろで鋼鉄がはじける音がする。
+line_set しかし双厳はふり返りもせずに走り続ける。
+line_set あの幽鬼の異形が出現する場所に・・・。
+
+adv_on
+
+kgd_layer2_set 0 Kgd\B_055.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+music_play 20
+
+nvl_on
+
+line_set 池はものすごい妖気で満ちている。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_045.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_fade_unk 0
+
+name_set 双厳
+
+line_set 「ま、間に合ったか・・・」
+
+nvl_on
+
+line_set 走りながら双厳は、
+line_set 池に異形の姿を発見する。
+
+nvl_line_clear
+
+line_set 走りながら双厳は抜刀する。
+
+adv_on
+
+line_set 「今度こそ斬ってやるぜ！！」
+
+name_set 異形
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「そ、そんな馬鹿な・・・」
+
+nvl_on
+
+line_set 徐々に異形の姿が消えていく。
+
+adv_on
+
+line_set 「ま、まてぇ！！！！！！！！！！！」
+line_set 「俺と勝負しろ！！！！！！！！！！！！」
+
+nvl_on
+
+line_set 双厳は走りながら異形に叫ぶが、
+line_set 異形はそんな双厳の叫びなど聞こえないかのようにその姿を消していく。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+line_set 「ま、まてぇぇぇ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！」
+
+name_set 異形
+
+line_set 「・・・・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「く、くそ！！！！！！」
+
+nvl_on
+
+line_set 双厳が池につく頃には異形の姿は消えていた。
+
+adv_on
+
+line_set 「まだ島には妖気が漂っている」
+line_set 「島のどこかに異形はいる」
+line_set 「まだ楓玲は生きているはずだ」
+line_set 「まだあきらめない！！！」
+
+nvl_on
+
+line_set 双厳はあの異形を、楓玲を探す事にした。
+
+adv_on
+
+line_set 「急がなければ・・・」
+
+ksd_set Ksd\032.ksd
+ksd_end

@@ -1,0 +1,3123 @@
+
+sfx_set 0 Se\017.wav
+sfx_play 0
+
+kgd_layer1_set 0 Kgd\Da_006.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 4000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+sfx_stop 0
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+nvl_line_clear
+
+line_set 何者かの侵入が双厳の意識を覚醒させる。
+
+nvl_line_clear
+
+line_set 「・・・！？」
+
+nvl_line_clear
+
+line_set 己へ向けられている殺気。
+line_set 先手をうって、双厳は侵入者に襲い掛かった。
+
+adv_on
+
+name_set 侵入者
+
+line_set 「きゃっ！？」
+
+kgd_layer1_set 0 Kgd\En_038.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play 14
+
+name_set 双厳
+
+line_set 「お前・・・」
+
+name_set 命
+
+line_set 「い、痛たたたた・・・」
+
+nvl_on
+
+line_set 「昨日の柳生の小娘・・・」
+
+nvl_line_clear
+
+line_set その姿には見覚えがあった。
+line_set 柳生十兵衛と共に行動する少女。
+line_set しかし昨日のおざなりな行動で、この少女の器などすでに知れている。
+line_set 双厳にとって脅威と感じるほどのものでもない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「何のつもりだ、お前？」
+
+name_set 命
+
+line_set 「！？」
+line_set 「二つ影っ！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「こ、殺しなさいよ！」
+
+name_set 双厳
+
+line_set 「・・・何だァ？」
+
+name_set 命
+
+line_set 「あなたは柳生の人達をたくさん殺した！」
+line_set 「それを今さら・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_clear
+
+line_set ドッ！
+
+name_set 命
+
+line_set 「ひっ！？」
+
+nvl_on
+
+line_set 刃が命の頬をかすめる。
+line_set 双厳の刀は深々と壁に突き刺さっていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「何が”殺しなさい”だ」
+line_set 「いっぱしの侍気取りでそんな事言ってるんだろうがな・・・」
+line_set 「やめとけ」
+line_set 「お前じゃ俺を殺ることはできねぇ」
+
+name_set 命
+
+line_set 「な、何を根拠に・・・！」
+
+name_set 双厳
+
+line_set 「たいそうな悲鳴あげといて分からねぇか？」
+line_set 「それがお前の”甘え”であって”弱さ”なんだよ」
+
+name_set 命
+
+line_set 「う・・・うるさいわね！」
+
+name_set 双厳
+
+line_set 「仇討ちなんて、くだらねぇ事考えるな」
+
+name_set 命
+
+line_set 「あ、あなたに言われたくないわっ！」
+line_set 「私は絶対に・・・あなたに殺された兄の仇を討つんだから！」
+
+name_set 双厳
+
+line_set 「ちっ・・・」
+line_set 「所詮は剣を持って生きる奴の気持ちなんざ分かんねぇか」
+
+name_set 命
+
+line_set 「あなたこそっ！」
+line_set 「私の気持ちなんか分かってないでしょう！？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は、突き立てた刀を抜き、ゆっくりと命から離れた。
+line_set 命はまたすぐに身構えるも、双厳は気にも留めない。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\W_001.kgd
+kgd_layer2_set 0 Kgd\B_037.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Mi_001.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+line_set 「そんなに斬りたきゃ、いつでも斬りに来い」
+line_set 「運が良けりゃ、悲願達成も夢じゃねぇぞ」
+
+name_set 命
+
+line_set 「そんな事言って・・・騙されないわ！」
+line_set 「今度は必ず仕留めてみせる」
+
+name_set 双厳
+
+line_set 「・・・できるモンならな・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「・・・」
+line_set 「あの小娘・・・」
+
+adv_on
+
+jump_route 0 1 0 1
+jump_auto 1
+@0
+
+kgd_layer3_set 0 Kgd\Fu_009.kgd
+kgd_layer3_param 0 128 0 0 0 544 600
+kgd_layer3_display 0
+
+name_set 楓玲
+
+line_set 「オッス！」
+
+nvl_on
+
+line_set 突然掛けられた声に振り向くと、そこに楓玲の姿があった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 楓玲
+
+line_set 「双厳って、モテるんだねぇ～」
+
+name_set 双厳
+
+line_set 「・・・あン？」
+
+name_set 楓玲
+
+line_set 「さっき双厳の部屋から出てきた女の子だれ？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「おんな？」
+
+nvl_on
+
+line_set 「ああ・・・」
+line_set 「柳生の女のことか」
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Fu_006.kgd
+kgd_layer3_param 3 128 0 0 0 544 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「・・・」
+line_set 「なにもったいぶってるのよ」
+
+name_set 双厳
+
+line_set 「よく知らん・・・」
+
+name_set 楓玲
+
+line_set 「そんなわけないでしょ」
+line_set 「なんであんまり知らない女の子が朝方あんたの部屋から出てくるのよ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「用心棒の一人だろ・・・」
+
+nvl_on
+
+line_set 楓玲に昨夜の事や柳生一族の事など説明する気にもなれない双厳は、楓玲の質問を適当にはぐらかす。
+
+adv_on
+
+name_set 楓玲
+
+line_set 「ふーん」
+line_set 「彼女名前なんて言うの？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「たしか命とかいったな・・・」
+
+name_set 楓玲
+
+line_set 「ふーん」
+line_set 「あっそ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 楓玲はなぜか不機嫌そうに答える。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Fu_009.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「しかし、双厳もモテモテだね～」
+line_set 「紗枝ちゃんとか命ちゃんとか・・・」
+line_set 「もぅ、朝から大変だ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「で、何しに来たんだ？」
+
+name_set 楓玲
+
+line_set 「別にぃ～」
+line_set 「ただ双厳のこと、からかいに来ただけだよ」
+
+name_set 双厳
+
+line_set 「・・・・・・」
+
+kgd_layer3_set 3 Kgd\Fu_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「な、なによぅ？」
+
+name_set 双厳
+
+line_set 「やれやれ・・・なに機嫌損ねてるんだ？」
+
+kgd_layer3_set 3 Kgd\Fu_005.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「べっ、別に損ねてなんかないよ」
+line_set 「な、なに馬鹿な事・・・」
+
+nvl_on
+
+line_set 「・・・分かり易い奴・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・・」
+
+kgd_layer3_set 3 Kgd\Fu_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「もぅ、なんでもないったら！」
+line_set 「あーもぅ・・・気分悪っ！」
+line_set 「帰る！」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「何だァ、アイツ・・・？」
+
+jump_auto 2
+@8
+
+kgd_layer2_set 1 Kgd\B_037.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@1
+@2
+
+jump_choice 3 ◆廊下へ移動
+@9
+
+kgd_layer2_set 1 Kgd\B_009.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 7926 83
+jump_branch1 5412 82
+jump_branch1 7926 79
+
+section_jump_branch1 79
+
+nvl_on
+
+line_set 志乃が側の障子を開き、一人景色を眺めている。
+line_set 遠くを見るような瞳は何かもの思いにふけっているようにも見えた。
+line_set 双厳が広間へ足を踏み入れると、志乃は不意に振り向いた。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Sh_001.kgd
+kgd_layer3_param 0 48 0 0 0 704 600
+kgd_layer3_display 0
+
+name_set 志乃
+
+line_set 「あら、双厳さま、おはようございます」
+
+name_set 双厳
+
+line_set 「・・・何か見えるのか？」
+
+name_set 志乃
+
+line_set 「いいえ。ただ景色を眺めていただけですわ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「周り一面、海しか見えねぇこの景色をか」
+line_set 「ふん・・・相変わらず食えねぇ女だ・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「そういえば、最近紗枝どのの姿を見かけねぇが・・・？」
+
+name_set 志乃
+
+line_set 「クス・・・」
+line_set 「色々と仕事が忙しいのでしょう」
+line_set 「用心棒の方達も随分と増えましたからね」
+
+name_set 双厳
+
+line_set 「・・・まだ増やすつもりなのか？」
+
+nvl_on
+
+line_set 何か引っ掛かる言い方だったので、双厳はそのまま志乃に追求する。
+line_set これ以上の増員など何の意味があるのだろうか。
+line_set すると志乃は微笑みつつ答えた。
+
+adv_on
+
+name_set 志乃
+
+line_set 「今日、最後の用心棒がいらっしゃる予定ですわ」
+
+name_set 双厳
+
+line_set 「最後か・・・それで、何人来るんだ？」
+
+name_set 志乃
+
+line_set 「おひとり・・・」
+line_set 「これ以上の用心棒は必要ではありませんので」
+line_set 「双厳さまも、これ以上ご心配されなくともよろしいですよ」
+
+name_set 双厳
+
+line_set 「心配ね・・・」
+line_set 「確かに、あんたの考えに俺が口を出すいわれは無いか」
+
+name_set 志乃
+
+line_set 「はい」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 4
+#82_1
+
+section_jump_branch1 83
+
+nvl_on
+
+line_set 「ちょうどいい・・・」
+
+nvl_line_clear
+
+line_set 大広間に踏み入ると、そこには志乃の姿があった。
+
+adv_on
+
+line_set 「ちょっといいか？」
+
+kgd_layer3_set 0 Kgd\Sh_001.kgd
+kgd_layer3_param 0 48 0 0 0 704 600
+kgd_layer3_display 0
+
+name_set 志乃
+
+line_set 「あら、双厳さま」
+
+name_set 双厳
+
+line_set 「耳に入れといてほしい事があるんだがな」
+line_set 「それと簡単な質問だ」
+
+name_set 志乃
+
+line_set 「ふふ・・・本当に双厳さまはよく私に何かお聞きになりますね」
+line_set 「そんなに私が信用足りませんか？」
+
+name_set 双厳
+
+line_set 「ああ、足りねぇ」
+line_set 「あんたが俺を信用してないのと同じだ」
+
+name_set 志乃
+
+line_set 「クスクス・・・」
+line_set 「言葉が過ぎましたね」
+line_set 「どうぞ、何なりとおっしゃってください」
+
+name_set 双厳
+
+line_set 「昨日来た用心棒の事だが・・・」
+line_set 「管理の方が行き届いてねぇみたいだが、いいのかよ？」
+
+name_set 志乃
+
+line_set 「と、言われますと？」
+
+name_set 双厳
+
+line_set 「奴ら、所詮はならず者の集まりだ」
+line_set 「そんな奴らが何もない環境下で大人しくしてるとも思えねぇがな」
+line_set 「現に村の方で一騒ぎ起こしやがった」
+
+name_set 志乃
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「そして幽香とかいう女・・・」
+line_set 「躊躇もなくそいつらの指を斬り落としやがった」
+
+name_set 志乃
+
+line_set 「ほほほ・・・」
+line_set 「殺してはいないのでしょう？」
+line_set 「ならば問題ありませんわ」
+
+name_set 双厳
+
+line_set 「殺す殺さないの問題じゃねぇんだよ」
+line_set 「指を斬られた侍なんざ、何の役にも立たねぇ」
+line_set 「まだ海賊らと一戦も交えてねぇのに、こんな事でいいのかよ？」
+
+name_set 志乃
+
+line_set 「双厳さまもその道を生きてこられたのでしたらご承知でしょう」
+line_set 「強い者こそが最後まで生き延びる資格を持つ」
+line_set 「その幽香さんがお強いのでしたら、別に何の問題もございません」
+line_set 「仲間内での強さというのも、時には見せつける必要がございます」
+
+name_set 双厳
+
+line_set 「・・・あんたが幽香とかいう女に入れ知恵したんじゃねぇのか？」
+
+name_set 志乃
+
+line_set 「何をでしょうか？」
+
+name_set 双厳
+
+line_set 「・・・何でもねぇ」
+line_set 「ま、そう言うなら構わねぇけどよ・・・」
+
+name_set 志乃
+
+line_set 「ご質問はそれだけでしょうか？」
+
+name_set 双厳
+
+line_set 「いや、桔梗・・・」
+line_set 「あとイルとスイのこともあるな」
+
+name_set 志乃
+
+line_set 「・・・」
+
+nvl_on
+
+line_set その言葉に、志乃の表情が僅かながら変化を見せる。
+line_set しかし普通では分からない微妙な変化でしかない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「桔梗って女だが・・・」
+line_set 「何でイルとスイを護るために存在してやがる？」
+line_set 「いや、それ以上に何でイルとスイを護る必要があんだよ？」
+
+name_set 志乃
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 志乃
+
+line_set 「・・・さぁ？」
+line_set 「私にも分かりません」
+
+name_set 双厳
+
+line_set 「おいおい、答えになってねぇぞ」
+
+name_set 志乃
+
+line_set 「私、用事を思い出しましたので、これで失礼致しますわ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 志乃はそれ以上何も言うでもなく、大広間から立ち去って行く。
+
+adv_on
+
+name_set 双厳
+
+line_set 「チッ・・・」
+
+nvl_on
+
+line_set 「何も語らずかよ・・・」
+line_set 「よほど触れてほしくねぇみたいだな」
+
+adv_on
+@4
+#83_0
+#79_2
+
+jump_choice 5 ◆廊下へ移動
+@3
+@5
+@28
+@30
+
+kgd_layer2_set 1 Kgd\B_029.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 9839 173
+jump_branch2 9839 79
+
+section_jump_branch1 173
+
+name_set 楓玲
+
+line_set 「あっ、双厳」
+
+kgd_layer3_set 0 Kgd\Fu_002.kgd
+kgd_layer3_param 0 128 0 0 0 544 600
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「何だよ？」
+
+jump_route 6 1 0 1
+jump_auto 7
+@6
+
+name_set 楓玲
+
+line_set 「あのさ・・・あっ！」
+
+kgd_layer3_set 3 Kgd\Fu_007.kgd
+kgd_layer3_param 3 128 0 0 0 544 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+line_set 「・・・う～・・・」
+
+nvl_on
+
+line_set 何を思い出しているのか、気難しい顔で双厳を見つめる。
+line_set 何か言いたげな顔をされたまま、会話が途切れてしまう。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どうした？」
+
+kgd_layer3_set 3 Kgd\Fu_009.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「・・・ま、いいや」
+line_set 「良かったねぇ、楓玲ちゃんが優しい娘でさ」
+
+name_set 双厳
+
+line_set 「・・・で、何だ？」
+@7
+
+kgd_layer3_set 3 Kgd\Fu_004.kgd
+kgd_layer3_param 3 128 0 0 0 544 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「うん、なんかさぁ・・・」
+line_set 「昨日来た用心棒達、夜うるさくない？」
+
+nvl_on
+
+line_set ウンザリした様子で訴え掛ける。
+line_set その言葉に双厳も昨夜のことを思い出していた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「奴らか・・・」
+line_set 「どうやら随分盛りあがってたようだな」
+
+name_set 楓玲
+
+line_set 「そうそう」
+line_set 「もぉ、うるさくて寝れないよ～」
+
+name_set 双厳
+
+line_set 「そうだな」
+
+nvl_on
+
+line_set 楓玲に合わせて相槌を打ってやる。
+line_set 実際は、双厳にとってどうでもいい問題でしかなかった。
+
+adv_on
+
+name_set 楓玲
+
+line_set 「なんかあの人達ってガラ悪いし・・・」
+line_set 「村の方に出ていったみたいだけど、なんかみんなで卑猥な事叫んでたし・・・」
+line_set 「やだなぁ～・・・ああいうのってさぁ」
+line_set 「絶対何かやらかすよ？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 確かに、昨日来た用心棒たちは双厳から見ても快い連中とは思えなかった。
+line_set 楓玲の言うように、双厳にも少しばかりの気がかりが思い浮かぶ。
+
+nvl_line_clear
+
+line_set 「注意を払っても悪くねぇか・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「よし、あいつら俺が見ててやろう」
+
+kgd_layer3_set 3 Kgd\Fu_002.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+line_set 「え？　本当？」
+
+name_set 双厳
+
+line_set 「ああ」
+
+name_set 楓玲
+
+line_set 「ありがと～」
+line_set 「双厳って優しいね～」
+
+name_set 双厳
+
+line_set 「持ち上げてんじゃねぇよ・・・」
+
+nvl_on
+
+line_set 「あの人数相手だ、楓玲じゃ何かと荷が重いだろう」
+line_set 「逆に返り討ちにあうのが関の山だしな・・・」
+
+adv_on
+
+name_set 楓玲
+
+line_set 「んじゃね～」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+#173_3
+!79
+
+jump_choice 8 ◆自室へ移動
+jump_choice 9 ◆大広間へ移動
+jump_choice 10 ◆蔵の前へ移動
+jump_choice 11 ◆屋敷外へ移動
+@45
+@46
+@48
+
+kgd_layer2_set 1 Kgd\B_045.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+jump_branch1 14891 81
+jump_branch2 14891 271
+
+section_jump_branch1 81
+
+name_set 声
+
+line_set 「いやぁぁぁっ！！」
+
+nvl_on
+
+line_set 村へ着いた途端にどこからともなく悲鳴が聞こえる。
+line_set それは双厳の耳にもはっきりと届いていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・すでにやらかしてやがるのか・・・」
+
+nvl_on
+
+line_set 村のちょっとした広場で騒ぎが起きているらしい。
+line_set 双厳も足早にその場へ向かった。
+
+nvl_line_clear
+
+line_set 家屋の影に身を潜め、様子を伺う。
+line_set それは香淡が用心棒らに乱暴されている現場だった。
+
+adv_on
+
+name_set 香淡
+
+line_set 「いやぁ、やめてくださいっ」
+
+name_set 用心棒
+
+line_set 「ぐへへへへへへ」
+line_set 「俺達がこの島を守ってやるんだ」
+line_set 「このくらいはサービスしろよぉ」
+
+name_set 香淡
+
+line_set 「やめて・・・やめてください・・・」
+
+nvl_on
+
+line_set 七人ほどの用心棒が香淡を襲っていた。
+line_set 嫌がる香淡を無理矢理に犯そうとしている。
+line_set しかも村の者は用心棒らを恐れて何もできずに遠巻きに見つめるだけだ。
+
+nvl_line_clear
+
+line_set 「七人か・・・」
+line_set 「多勢で一人を姦るっていうのもなァ・・・」
+
+adv_on
+
+jump_choice 12 ◆助けに行く
+jump_choice 13 ◆もう少し様子を見ている
+@13
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+music_stop
+
+gallery_unlock 102
+
+ksd_set Ksd\102.ksd
+
+kgd_layer1_set 0 Kgd\W_001.kgd
+kgd_layer2_set 0 Kgd\B_045.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+jump_auto 14
+@12
+
+music_stop
+
+name_set 双厳
+
+line_set 「ま・・・ただ見てるってワケにもいかねぇ」
+
+nvl_on
+
+line_set 双厳が用心棒達に寄ろうとしたその時、意外な人物の登場が歩を止めた。
+
+adv_on
+
+jump_auto 15
+@14
+
+nvl_on
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set ここまでくれば、たとえ斬ったとしても志乃への言い訳は立つだろう。
+line_set 双厳が用心棒達に寄ろうとしたその時、意外な人物の登場が歩を止めた。
+
+adv_on
+@15
+
+kgd_layer3_set 0 Kgd\Ka_001.kgd
+kgd_layer3_param 0 216 0 0 0 368 600
+kgd_layer3_display 0
+
+music_play 9
+
+nvl_on
+
+line_set 双厳の目に幽香が映る。
+line_set 幽香はフラリとその場へ躍り出た。
+
+adv_on
+
+name_set 幽香
+
+line_set 「・・・・・・」
+
+name_set 用心棒
+
+line_set 「あん？　何だお前？」
+line_set 「オレ達は今忙しいんだよ」
+line_set 「へっへっ・・・何か？　お前もオレ達の相手してくれんのか？」
+
+name_set 幽香
+
+line_set 「・・・」
+
+name_set 用心棒
+
+line_set 「どうした、何とか言えよ？」
+line_set 「それとも、もう興奮して濡れてんのかぁ？」
+line_set 「ぎゃははははは」
+line_set 「俺のコイツを姉ちゃんので満足させてくれよ」
+line_set 「ヒヒヒヒヒ」
+
+nvl_on
+
+line_set 双厳は、幽香が出たことによって傍観を与儀なくされる。
+line_set 幽香から受ける冷たい何かが、双厳が出て行くのを躊躇させていた。
+
+adv_on
+
+name_set 幽香
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 幽香が懐の辺りを衣服の上からそっと触れる。
+line_set そして物思いにふけるその様は、背筋も凍るような冷笑。
+line_set それは双厳にも紛れも無く感じられた、幽香が用心棒らに向ける殺気だった。
+
+nvl_line_clear
+
+line_set 「奴ら・・・あの女に殺られるぞ」
+
+adv_on
+
+name_set 用心棒
+
+line_set 「どうした、姉ちゃ・・・」
+line_set 「ぎゃああああああああっ！！」
+
+nvl_on
+
+line_set それはほんの一瞬の出来事だった。
+line_set 幽香に近づいた男が絶叫を上げる。
+line_set ボタボタと流れる鮮血が、乾いた地を赤土に染めていく。
+
+adv_on
+
+line_set 「な、なんだっ！？」
+line_set 「どうした・・・うわあっ！？」
+line_set 「こ、このアマぁっ！！」
+
+name_set 幽香
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 男の異物を根元から斬り落とした幽香は、感情の変化も無く立ち尽くしていた。
+line_set 側で悶え苦しむ男を見て、ただ無感情に見下す。
+line_set この事態に、すでに用心棒たち全員が感情剥き出しに幽香を取り囲んでいた。
+
+adv_on
+
+name_set 用心棒
+
+line_set 「こいつっ！」
+line_set 「うりゃあああっ！」
+
+name_set 幽香
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 幽香に四人の男が次々と斬りかかる。
+line_set しかし幽香は瞬く間にその迫り来る男たちの指を切断していた。
+line_set その一瞬の動作は、まるで風の流れるがごとく実に自然としたものだった。
+
+adv_on
+
+name_set 用心棒
+
+line_set 「う、うわっ！？」
+line_set 「うがあああっ！」
+line_set 「ゆ、指がぁぁっ！！」
+line_set 「かぁぁ・・・オレのオレの指ぃ・・・」
+
+nvl_on
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set 双厳も惨劇の場へと躍り出る。
+line_set これ以上は、さすがにマズいと思った。
+
+adv_on
+
+music_stop
+
+name_set 双厳
+
+line_set 「姉ちゃん、その辺で止めときなよ」
+
+name_set 幽香
+
+line_set 「・・・」
+
+music_play 14
+
+name_set 用心棒
+
+line_set 「な、何だぁ？」
+line_set 「お前もその女の仲間か？」
+
+nvl_on
+
+line_set 殺気立った用心棒たちが、双厳に向けて怒気をはらんだ言葉を投げ掛ける。
+line_set しかし双厳は至って平然と受け答えていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「バカか・・・ンなわけねぇだろ」
+line_set 「まぁ、お前らの仲間扱いされるのはもっと御免だがな」
+
+name_set 用心棒
+
+line_set 「な、なにぃ！？」
+line_set 「お前も殺されたいかよ！？」
+
+name_set 双厳
+
+line_set 「・・・死にたいなら構わねぇぞ」
+line_set 「それとも・・・お前らも指斬られて、侍として生き恥曝すか？」
+
+nvl_on
+
+line_set 双厳の睨みが用心棒たちを見据える。
+line_set その形相に、用心棒たちはただならぬ何かを感じ取っていた。
+
+adv_on
+
+name_set 用心棒
+
+line_set 「うぅ・・・」
+line_set 「お、おい・・・引き上げようぜ」
+line_set 「ああ・・・コイツらヤベェよ・・・」
+
+nvl_on
+
+line_set 用心棒たちは双厳と幽香を睨みつつも、その場から立ち去って行く。
+line_set 幽香は用心棒たちに乱暴された香淡に近寄り、衣服を羽織らせた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「さぁて・・・」
+line_set 「どういうつもりかキッチリ説明してもらおうか？」
+
+name_set 幽香
+
+line_set 「・・・別に・・・」
+line_set 「殺してはいないのだから、問題ありません・・・」
+
+nvl_on
+
+line_set あくまで淡々と語る幽香。
+line_set その態度に双厳は呆れすら浮かんだ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「あのなぁ・・・」
+line_set 「指を斬られれば、侍としては何も残んねぇ」
+line_set 「刀を握れない侍なんざ生きてる価値もねぇからな」
+line_set 「お前、それを知っていて斬りやがったろ？」
+
+name_set 幽香
+
+line_set 「要は殺さなければいいのです」
+line_set 「手足程度なら斬ってもよいと、聞き受けていますゆえ・・・」
+
+name_set 双厳
+
+line_set 「・・・誰にだよ？」
+
+name_set 幽香
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set その問いに答えるでもなく、幽香はその場から立ち去って行く。
+line_set 別にその後を追うつもりもなく、双厳は幽香が去って行くのを見送った。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・あの女・・・」
+
+nvl_on
+
+line_set 香淡も村人に連れられて、どこへともなく消えていった。
+
+adv_on
+#81_4
+!271
+
+jump_choice 16 ◆屋敷前への道へ移動
+jump_choice 17 ◆海岸へ移動
+jump_choice 18 ◆港へ移動
+@29
+@41
+
+kgd_layer2_set 1 Kgd\B_013.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 16954 82
+jump_branch2 16954 272
+
+section_jump_branch1 82
+
+nvl_on
+
+line_set 屋敷へと戻る道を双厳が歩いていると、先に見た顔を確認する。
+
+nvl_line_clear
+
+line_set 「あいつ・・・」
+line_set 「確か桔梗とか言ったな・・・」
+
+nvl_line_clear
+
+line_set 桔梗も双厳の姿を確認すると、静かに近づいて来た。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+line_set 「・・・何だ？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳の問いに、桔梗は何も答えず何の素振りも見せない。
+line_set ただ双厳を見据えているだけだ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「何もねぇなら・・・」
+
+name_set 桔梗
+
+line_set 「イルさまとスイさまは・・・」
+
+name_set 双厳
+
+line_set 「あん？」
+
+nvl_on
+
+line_set 双厳が桔梗の横を抜けようとした時、ようやく桔梗の言葉が双厳の歩を止めた。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「あなたの存在を大変お気に召されています」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「しかし・・・」
+line_set 「あなたからは、“死の匂い”しかしません・・・」
+
+nvl_on
+
+line_set 「・・・おもしろい事言いやがる」
+
+nvl_line_clear
+
+line_set 双厳の口元が僅かに緩む。
+line_set もちろん桔梗に読み取られるほどのものでは無い。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「私はイルさまスイさまを護りし者」
+line_set 「私としては、あなたを殺すことでイルさまスイさまの為になるものと思っていました」
+line_set 「しかしお館さまのご命令もあり、それを成すこと叶いません」
+
+name_set 双厳
+
+line_set 「つまりは・・・何だ、俺を殺したいのか？」
+
+name_set 桔梗
+
+line_set 「はい」
+
+name_set 双厳
+
+line_set 「しかし当主の言葉には逆らえんと？」
+
+name_set 桔梗
+
+line_set 「イルさまスイさまの為とすればこそ、自らの思うところにございますが・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳を真正面から”殺したい”と言ってくる桔梗。
+line_set それは双厳には理解し難い女だった。
+
+nvl_line_clear
+
+line_set 「・・・どうにも分かんねぇ・・・」
+
+nvl_line_clear
+
+line_set わざわざ本人に”殺したい”などと言うこともないだろう。
+line_set 闇討ちなり暗殺なり、殺す手段などいくらでもある。
+line_set それをこうして言ってくるということは・・・
+
+nvl_line_clear
+
+line_set 「よほど頭が回らねぇバカなのか？」
+line_set 「それとも、正々堂々と立ち合いたいだけなのか？」
+
+adv_on
+
+name_set 双厳
+
+line_set 「で、どうするつもりだ？」
+
+name_set 桔梗
+
+line_set 「別に・・・それだけです」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「何だァ？」
+
+nvl_on
+
+line_set 「脅し・・・のつもりか？」
+line_set 「イルとスイに近づくなって、あの女なりの遠回しな警告かもな」
+
+adv_on
+#82_5
+!272
+
+jump_choice 19 ◆大岩へ移動
+jump_choice 20 ◆屋敷前へ移動
+@10
+
+kgd_layer2_set 1 Kgd\B_025.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 21461 84
+jump_branch2 21461 83
+
+section_jump_branch1 84
+
+music_play 5
+
+nvl_on
+
+line_set 「この時分にここへ来るってのは、初めてだな」
+
+nvl_line_clear
+
+line_set 夜に訪れることで、イルとスイに会える。
+line_set それは双厳の勝手な思い込みだった。
+line_set そう思うと、昼間彼女らはどうしているのか？
+line_set 疑問といえば疑問だった。
+
+adv_on
+
+name_set スイ
+
+line_set 「あ、双厳お兄ちゃんだ」
+
+name_set イル
+
+line_set 「ようこそ、双厳さま」
+line_set 「今日はお早いのですね？」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+nvl_on
+
+line_set 「こいつらは昼も夜も関係無くこの蔵の中で過ごしているのか」
+line_set 「志乃が何も言わないとなると、聞き込みしかねぇと思ったが・・・」
+line_set 「・・・無理くせぇな・・・」
+
+adv_on
+
+name_set スイ
+
+line_set 「だったらいっぱいお話できるね」
+line_set 「スイねぇ、お兄ちゃんに聞きたいことあるんだよ」
+
+name_set 双厳
+
+line_set 「何だ？」
+line_set 「俺が分からねぇ事は御免だぞ」
+
+name_set スイ
+
+line_set 「あのね、お外ってどんな感じなのかなぁ？」
+
+name_set 双厳
+
+line_set 「・・・外？」
+line_set 「この島より外の世界のことか？」
+
+name_set スイ
+
+line_set 「ううん、そうじゃなくってぇ」
+line_set 「お空とか海とか・・・」
+line_set 「こことは違う外のこと」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「何が言いたいのか、いまいち分からん」
+
+name_set イル
+
+line_set 「スイちゃん、ちゃんと言わないと双厳さまも答えられないわ」
+
+name_set スイ
+
+line_set 「あぅぅ・・・」
+
+name_set イル
+
+line_set 「すみません。双厳さまを混乱させてしまって」
+
+name_set 双厳
+
+line_set 「いや、構わんが・・・」
+line_set 「つまりどういう事だ？」
+
+name_set イル
+
+line_set 「つまり・・・この蔵より外のことです」
+line_set 「私たちはこの蔵より外に出たことがありませんので・・・」
+line_set 「ここからは空と海しか見えませんから、私たちは何も分からなくて・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「あの女狐・・・」
+line_set 「この二人を一生こんなところに閉じ込めておくつもりかよ？」
+line_set 「何を考えてこんな事してやがる・・・？」
+
+adv_on
+
+name_set イル
+
+line_set 「宜しければ、お話願えませんでしょうか？」
+line_set 「私も・・・双厳さまのお話を聞きたくて・・・」
+
+name_set スイ
+
+line_set 「お兄ちゃん、お願い～」
+
+name_set 双厳
+
+line_set 「・・・ああ」
+line_set 「つまらん話でよければ、聞かせてやろうか」
+
+name_set イル
+
+line_set 「はい」
+line_set 「ありがとうございます」
+
+name_set スイ
+
+line_set 「やったぁ！」
+line_set 「お兄ちゃんのお話が聞けるぅ～」
+
+name_set 双厳
+
+line_set 「空ってのはな、ずっと遠くまで続いてるんだ」
+
+name_set スイ
+
+line_set 「ずっと・・・ずっと・・・？」
+
+name_set イル
+
+line_set 「どこまで続いているのでしょうか？」
+
+name_set 双厳
+
+line_set 「さぁな」
+line_set 「俺もどこまで続いてるのかなんざ、分かりゃしねぇよ」
+
+name_set スイ
+
+line_set 「ん～・・・」
+line_set 「じゃあ、海は？」
+
+name_set 双厳
+
+line_set 「海か・・・」
+line_set 「空と同じようなモンだ」
+
+name_set イル
+
+line_set 「どこまでも続いてる・・・ということですか？」
+
+name_set 双厳
+
+line_set 「ま、そんな感じかね」
+
+name_set スイ
+
+line_set 「続いてるんだぁ・・・」
+line_set 「見てみたいね、そういうの」
+
+name_set イル
+
+line_set 「そうだね・・・」
+
+music_stop
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「・・・！？」
+
+nvl_on
+
+line_set 双厳は何者かの気配を感じ、振り返る。
+line_set その先にいるのは・・・
+
+nvl_line_clear
+
+line_set 「・・・桔梗・・・」
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+music_play 14
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 桔梗は双厳が気付いた事を察したのか、その場から離れていった。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+jump_choice 21 ◆見過ごす
+jump_choice 22 ◆追いかける
+@21
+
+name_set イル
+
+line_set 「双厳さま、どうかされましたか？」
+
+name_set 双厳
+
+line_set 「ん・・・ああ、何でもねぇよ」
+
+nvl_on
+
+line_set 「別段追う必要もねぇか・・・」
+
+adv_on
+
+jump_auto 23
+@22
+
+name_set スイ
+
+line_set 「どうしたの、お兄ちゃん？」
+
+name_set 双厳
+
+line_set 「いや・・・悪ぃが話はここまでだ」
+line_set 「急用を思い出してな」
+
+name_set スイ
+
+line_set 「えぇ～！」
+line_set 「お兄ちゃん帰っちゃうのぉ？」
+
+name_set イル
+
+line_set 「スイちゃん！」
+line_set 「双厳さま、ありがとうございます」
+line_set 「楽しいお話でした」
+
+name_set 双厳
+
+line_set 「すまねぇ」
+line_set 「また機会があれば何か話してやる」
+
+name_set イル
+
+line_set 「はい」
+
+name_set スイ
+
+line_set 「絶対だよぉ？」
+line_set 「お兄ちゃんのこと、待ってるからね？」
+
+name_set 双厳
+
+line_set 「ああ」
+
+kgd_layer2_set 1 Kgd\B_029.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 「確かこっちに来たと思ったが・・・」
+line_set 「どこ行きやがった・・・？」
+
+nvl_line_clear
+
+line_set 辺りを軽く見渡す。
+line_set しかし桔梗の姿はどこにも無い。
+
+adv_on
+
+line_set 「屋敷から出て行ったのか？」
+
+nvl_on
+
+line_set 双厳が廊下から屋敷の外を見渡す。
+line_set すると屋敷を出て行く桔梗の姿を見つける。
+
+adv_on
+
+line_set 「・・・今、まさに出て行くところか」
+
+kgd_layer2_set 1 Kgd\B_033.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 屋敷の前まで来たが、もうすでに桔梗の姿は見当たらない。
+
+nvl_line_clear
+
+line_set 「タイミング悪すぎだな・・・」
+line_set 「どうにも、あの女とは縁がねぇようだ」
+
+adv_on
+
+jump_choice 24 ◆まだ追いかける
+jump_choice 25 ◆諦める
+@24
+
+nvl_on
+
+line_set 「いや・・・まだそんなに遠くへは行っちゃいねぇハズだ」
+line_set 「何より、あの場で俺を咎めるでもなく身を引いた事が気になる」
+
+nvl_line_clear
+
+line_set 前回イルとスイには近づくなと言ったにも関わらず、今回は何も言わなかった。
+line_set 双厳にしてはその辺りが気になって仕方がない。
+
+nvl_line_clear
+
+line_set 「・・・その辺を周ってみるか」
+
+adv_on
+
+jump_auto 26
+@25
+
+nvl_on
+
+line_set 「これ以上追っても無駄かもしれねぇ」
+line_set 「しかし・・・」
+line_set 「なんであの時、あいつは何も言わずに立ち去ったんだ？」
+line_set 「・・・」
+
+adv_on
+
+jump_auto 27
+#84_6
+!83
+jump_choice 28 ◆廊下へ移動
+@11
+@20
+@44
+
+kgd_layer2_set 1 Kgd\B_033.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 19
+
+jump_branch1 25024 276
+jump_branch2 25024 173
+
+section_jump_branch1 276
+
+nvl_on
+
+line_set 其処には今朝見た顔があった。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Mi_006.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「あっ！！二つ影！！！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳はそのまま無視して通り過ぎる。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 命
+
+line_set 「ちょ、ちょっとまちなさいよ！！」
+
+kgd_layer3_set 0 Kgd\Mi_001.kgd
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「ふぅ・・・」
+line_set 「いったいなんの用だ？」
+line_set 「あのねぇ！あなたねぇ！！！」
+
+nvl_on
+
+line_set なぜだか分からぬが命は怒っている・・・。
+
+adv_on
+
+name_set 命
+
+line_set 「なんども言うけど私はあなたの命を狙っているんだから！」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「だからどうした？」
+
+name_set 命
+
+line_set 「だからどうしたじゃなくて！！」
+line_set 「な、なんでそんな命を狙っている人間に背中みせて歩いてるのよ！！」
+line_set 「す、少しは警戒しなさいよ！！」
+
+name_set 双厳
+
+line_set 「ふぅ・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 命
+
+line_set 「ま、まちなさいよ！！」
+
+kgd_layer3_set 0 Kgd\Mi_001.kgd
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なんなんだよ・・・お前は・・・」
+
+name_set 命
+
+line_set 「そ、それは私のセリフよ！！」
+line_set 「なんであなたはそんなに隙を見せるのよ！！」
+line_set 「そんなんじゃ危ないじゃないの！！」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なんだそりゃ？」
+
+nvl_on
+
+line_set 奇妙な少女であった。
+line_set 命は双厳の命を狙っていたのだ、隙があるというのは彼女にとっては好都合のはず・・・。
+line_set にもかかわらず彼女は双厳のそのような態度をいちいち指摘した。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_011.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「け、今朝もそうだけど・・・」
+line_set 「なんでそんなに甘いの・・・」
+line_set 「私にとどめ刺さなかったり、今だって普通に背中みせたり・・・」
+line_set 「あなたは残虐非道な二つ影でしょ・・・」
+line_set 「なのに・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 命
+
+line_set 「ま、まちなさいよ！！」
+
+kgd_layer3_set 0 Kgd\Mi_026.kgd
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「あのなぁ・・・」
+
+name_set 命
+
+line_set 「はぁ・・・はぁ・・・」
+line_set 「さ、最後まで人の話を聞きなさい・・・」
+
+name_set 双厳
+
+line_set 「はぁ・・・」
+line_set 「いったいなんなんだよお前は・・・」
+
+name_set 命
+
+line_set 「はぁ・・・はぁ・・・」
+line_set 「わ、私の事はいいの・・・」
+line_set 「それよりあなたの事が今重要なの！！」
+
+nvl_on
+
+line_set 置いていかれるたびに全力で追いかける命の息は上がり汗もびっしょりであった。
+line_set それを一息つけてから命はしゃべりはじめる。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_035.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「二つ影！」
+line_set 「でも・・・どうであれ・・・あなたは私の仇！」
+line_set 「それを忘れないでね！」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「いったい何が言いたいんだ・・・」
+
+name_set 命
+
+line_set 「だ、だから！」
+line_set 「私に背中なんか見せちゃだめよ！！」
+
+name_set 双厳
+
+line_set 「なんでだよ・・・」
+
+kgd_layer3_set 3 Kgd\Mi_028.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「え？だって・・・」
+line_set 「なんか・・・」
+
+name_set 双厳
+
+line_set 「はぁ？」
+
+name_set 命
+
+line_set 「と、とにかく！！！」
+line_set 「あなたは残虐非道な二つ影である事は間違いないけど！」
+line_set 「汚い手を使うような人じゃないみたいだから、だから・・・正々堂々とあなたと戦うの！！」
+
+name_set 双厳
+
+line_set 「阿呆・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 命
+
+line_set 「だ、だから待ちなさいよぉ！！」
+
+kgd_layer3_set 0 Kgd\Mi_026.kgd
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なんなんだ・・・てめぇは・・・」
+
+name_set 命
+
+line_set 「はぁ、はぁ・・・」
+line_set 「だ、だから・・・私の事はいいの・・・」
+line_set 「とりあえず正々堂々とやるからね！」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「阿呆・・・」
+line_set 「てめぇみてぇな阿呆見てると反吐が出る」
+
+kgd_layer3_set 3 Kgd\Mi_001.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「な、なによ！！」
+line_set 「失礼な言い方ね！！」
+
+name_set 双厳
+
+line_set 「いっぱしの侍気取りでそんな事言ってるんだろうがな・・・」
+line_set 「やめとけ」
+
+kgd_layer3_set 3 Kgd\Mi_012.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「うっ・・・」
+
+nvl_on
+
+line_set いままで強気であった命の表情が突然暗くなる。
+
+adv_on
+
+line_set 「あ、あなたなんかに・・・言われたくないわよ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「わ、私だって・・・」
+
+name_set 双厳
+
+line_set 「けっ・・・」
+line_set 「勝手にやってろ・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+@26
+#276_7
+!173
+
+jump_choice 29 ◆山道へ移動
+jump_choice 30 ◆屋敷内へ移動
+jump_choice 31 ◆村への道へ移動
+@19
+jump_branch1 35087 84
+
+kgd_layer2_set 1 Kgd\B_001.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+jump_branch1 37752 80
+jump_branch1 25153 276
+jump_auto 32
+#276_10
+
+section_jump_branch1 80
+
+nvl_on
+
+line_set 大岩の頂上に誰かいる。
+
+nvl_line_clear
+
+line_set 「誰だ？」
+
+nvl_line_clear
+
+line_set 双厳は目を細め、岩の上に立つ人影を確認する。
+
+adv_on
+
+name_set 双厳
+
+line_set 「やたら華奢な身体・・・」
+line_set 「女か？」
+line_set 「ん？！」
+
+nvl_on
+
+line_set 昨晩あった時のように髪をおろしていたので、一瞬女かと見間違えたが、
+line_set 岩の上に立っていたのは、
+line_set 北条主税であった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「あいつか・・・」
+
+nvl_on
+
+line_set 双厳は昨夜のことを思い出す。
+
+nvl_line_clear
+
+line_set 「北条か・・・」
+line_set 「あいつ女装してまで」
+line_set 「俺を襲ったからな・・・」
+line_set 「またなんかあるとめんどくさいな・・・」
+
+nvl_line_clear
+
+line_set 双厳は、北条に見つからないように山を下りる事にした。
+line_set と思ったその時。
+
+adv_on
+
+name_set 北条
+
+line_set 「双厳殿！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「チッ・・・」
+line_set 「見つかったか・・・」
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Ho_006.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+name_set 北条
+
+line_set 「双厳殿！」
+line_set 「私から逃げるのですか？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「ふう・・」
+line_set 「めんどくさいのに捕まったな・・・」
+
+adv_on
+
+line_set 「・・・」
+line_set 「俺が貴様から逃げるだと？」
+
+name_set 北条
+
+line_set 「現に今私の姿を見て逃げたではないですか」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「だからなんだというのだ」
+line_set 「めんどくさいから逃げた」
+line_set 「ただそれだけだ・・・」
+line_set 「貴様など斬ってもなんの得にもならないからな」
+
+name_set 北条
+
+line_set 「剣士が剣を交えるのは損得勘定ではありません」
+line_set 「僕と勝負をしてください」
+
+name_set 双厳
+
+line_set 「自分勝手なやつだな・・・」
+line_set 「自分が戦いたいから戦う」
+line_set 「ガキの喧嘩じゃあるまいし・・・」
+
+name_set 北条
+
+line_set 「なにを言われてもかまいません」
+line_set 「戦ってください」
+line_set 「お願いします」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+line_set 「昨日“俺を襲うなら剣士として立ち会え”と言ってたではないですか？」
+line_set 「立ち合ってください」
+
+name_set 双厳
+
+line_set 「いっぱしの口を聞くな・・・」
+line_set 「昨日、俺の寝込みを襲おうとした輩が・・・」
+line_set 「てめぇを剣士と呼ぶか」
+line_set 「たった一日で」
+line_set 「女装してまで寝込みを襲おうとするヤツが」
+line_set 「いっぱしの剣士になったつもりか？」
+
+name_set 北条
+
+line_set 「そうです」
+line_set 「双厳殿がいう通りです」
+line_set 「僕は今まで剣士などではなかった」
+line_set 「僕は・・・」
+line_set 「昔から全然強くなれなかった」
+line_set 「柳生の里でもいつも馬鹿にされていた」
+line_set 「女みたいな身体で」
+line_set 「非力で・・・」
+line_set 「いつまでたっても基本しか教えてもらえなかった」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 北条
+
+line_set 「でもそれで強くなれると」
+line_set 「ずっと」
+line_set 「ずっと」
+line_set 「木刀をふるってきた」
+line_set 「いつかみんなみたいに強くなれると」
+line_set 「ずっと」
+line_set 「ずっと・・・」
+line_set 「基本だけを」
+line_set 「それでやっと認められて」
+line_set 「今回の指令をもらった」
+line_set 「と思ったら・・・」
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「女装してあなたの寝首をかくというものでした」
+line_set 「お笑いですよね」
+
+name_set 双厳
+
+line_set 「べらべらと相変わらず」
+line_set 「口ばかり動くヤツだな」
+line_set 「だからどうした！」
+line_set 「自分で非力だと思うなら剣など捨てろ！」
+line_set 「人には、剣で生きなければならぬ、などという法はない」
+
+name_set 北条
+
+line_set 「だめです！」
+line_set 「勝負してください！」
+line_set 「僕は剣士として生き！」
+line_set 「そして死にたい！」
+line_set 「そう信じて今までやってきた」
+line_set 「それをあなたにぶつけたい」
+line_set 「多くの人間を殺めてきたあなたの剣に」
+line_set 「僕の剣をぶつけてみたい！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 北条の目は真剣そのものであった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「ふぅ・・・」
+line_set 「剣士ならばいつ襲われても文句は言えない」
+line_set 「戦いたいのなら勝手に襲ってこい」
+
+kgd_layer3_set 3 Kgd\Ho_005.kgd
+kgd_layer3_param 3 164 0 0 0 472 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 北条
+
+line_set 「戦ってくれるのですか？」
+
+name_set 双厳
+
+line_set 「戦うのもなにも、突然襲われたら剣を抜かなければならないのが武に生きる者だ」
+
+kgd_layer3_set 3 Kgd\Ho_006.kgd
+kgd_layer3_param 3 164 0 0 0 472 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 北条
+
+line_set 「それでは武士道から・・・」
+
+name_set 双厳
+
+line_set 「いちいち耳障りな野郎だな」
+line_set 「武士道など関係ない」
+line_set 「やるのなら襲ってこい」
+line_set 「口を動かす前に」
+line_set 「身体を動かせ！」
+
+kgd_layer3_set 3 Kgd\Ho_007.kgd
+kgd_layer3_param 3 164 0 0 0 472 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 北条
+
+line_set 「・・・」
+line_set 「ではいかせていただきます」
+
+music_play 9
+
+nvl_on
+
+line_set 北条が剣を抜く。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ふむ・・・」
+
+nvl_on
+
+line_set 北条の型はやたら基本に忠実でそして美しかった。
+
+nvl_line_clear
+
+line_set 「基本だけを何年も続けてきた男の剣だな」
+line_set 「面白みはないが・・・」
+line_set 「隙はない」
+
+adv_on
+
+name_set 北条
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 二人は互いに向かい合う。
+
+adv_on
+
+name_set 北条
+
+line_set 「タァ！！」
+
+nvl_on
+
+line_set 先に動いたのは北条主税であった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「！！」
+
+name_clear
+
+line_set カキィィイイイン！！！
+
+nvl_on
+
+line_set 双厳の剣はいつ抜かれていたのだろうか？
+line_set 北条が打ち込んだときにはすでに剣が握られ、北条の剣を打ち流していた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「そんなもので人は殺せないぞ」
+
+name_set 北条
+
+line_set 「まだまだ！！」
+
+name_clear
+
+line_set カキン！
+line_set カシュ！！
+line_set チキン！！！
+
+nvl_on
+
+line_set 互いの剣が火花をちらす。
+
+nvl_line_clear
+
+line_set 「こいつの剣・・・」
+line_set 「柳生新陰流の第一部」
+line_set 「飛燕だけを愚直に続けてきた剣だな」
+
+nvl_line_clear
+
+line_set ”飛燕”
+line_set 愛洲陰流の第一部”猿飛”を上泉が改良し、
+line_set 新陰流の第一部としたものだ。
+line_set 柳生新陰流においてもこれは基本中の基本として一部におかれているが、
+line_set これだけを完全に極める者は少ない。
+
+nvl_line_clear
+
+line_set 柳生新陰流の開祖にして、
+line_set 「飛燕は詳しくは知らぬ」
+line_set といわしめたものであった。
+
+adv_on
+
+name_clear
+
+line_set カキン！
+line_set カシュ！！
+line_set チキン！！！
+
+name_set 双厳
+
+line_set 「こいつの動き・・・」
+line_set 「徐々に速くなってきている」
+
+nvl_on
+
+line_set 北条の動きは徐々に速くなっていく、
+line_set それは今まで稽古でしか使われていなかった”飛燕”が実践によって本物に変わっていく課程であった。
+
+nvl_line_clear
+
+line_set 「くっ・・・」
+line_set 「この動き・・・」
+line_set 「猿飛ほどの派手な動きはないが・・・」
+
+nvl_line_clear
+
+line_set 徐々に北条の剣が双厳を押していく。
+
+nvl_line_clear
+
+line_set ”飛燕”は”猿飛”が動きを中心にして組み立てられたのと同様に、
+line_set その極意は動きにあった。
+
+nvl_line_clear
+
+line_set 北条の動きにはそれといって特別な事がなかった。
+line_set だがそれこそが特別であった。
+
+nvl_line_clear
+
+line_set 双厳すら知らない事実であったが、
+line_set 柳生新陰流には、その動きだけを奥義とするものがあった。
+
+nvl_line_clear
+
+line_set ”一足一見”
+line_set もともとから柳生の奥義としてあったものではない。このもとは金春流にあったという。
+line_set もちろん、そんな奥義を基本しかさせられなかった北条が受けついだわけではない。
+
+nvl_line_clear
+
+line_set 北条は”飛燕”だけを愚直に何年も続けた事によりその境地に到達していたのだ。
+line_set つまり無自覚に”一足一見”に開眼していたのだ。
+
+adv_on
+
+line_set 「ちっ！」
+
+name_clear
+
+line_set カキン！
+line_set カシュ！！
+line_set チキン！！！
+line_set カキン！
+line_set カシュ！！
+line_set チキン！！！
+
+nvl_on
+
+line_set 北条の動きは、男性的な力強いものではなかったが、その動きは無駄がなく、優雅ですらあった。
+
+nvl_line_clear
+
+line_set ”一、一足一見の事、理あり”
+line_set ”金春流の謡能の心得にあり”
+line_set ”是兵法に実、面白き也”
+line_set と柳生の新陰流兵法目録事に書かれている。
+
+nvl_line_clear
+
+line_set その動きは能の猿能に極意があったといわれている。つまり踊る事のように優雅であった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「チィ・・・」
+
+name_clear
+
+line_set カキン！
+line_set カシュ！！
+line_set チキン！！！
+
+nvl_on
+
+line_set 徐々に双厳の顔つきがかわっていく。
+line_set すでに、その動きに双厳は手を抜く事など出来なかった。
+
+nvl_line_clear
+
+line_set 十兵衛も使わなかった柳生の極意が、
+line_set その部下であり、もっとも非力だと思われた北条から繰り出される。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ぬぅ・・・」
+
+nvl_on
+
+line_set 「だめだ・・・」
+line_set 「手がだせない・・・」
+line_set 「こいつの手の内にある・・・」
+
+nvl_line_clear
+
+line_set 双厳は自分の甘さを呪った。
+line_set 北条の動きなど見ずに、
+line_set 剣を抜いた瞬間に一撃の下斬っていればこのような事にはならなかったであろう。
+
+adv_on
+
+name_set 北条
+
+line_set 「トウ！ハァ！テイ！！！」
+
+name_clear
+
+line_set カキン！
+line_set カシュ！！
+line_set チキン！！！
+
+nvl_on
+
+line_set 北条はそんな双厳の表情の変化など気がつかずに無心に打ち込む。
+line_set 何百人もの人間を斬ってきた双厳の剣が、
+line_set 基本しか出来ずに実践も積んだことのない北条の剣に押されている。
+
+adv_on
+
+name_clear
+
+line_set カキン！
+line_set カシュ！！
+line_set チキン！！！
+
+nvl_on
+
+line_set さらに北条の動きが速く、
+line_set そして華麗になっていく。
+line_set それはすでに能そのものように美しかった。
+line_set すでに”一足一見”の間合いですすめられた戦いに双厳は為すすべもなかった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「く、くそ・・・」
+
+nvl_on
+
+line_set このままいけば双厳が北条の刃に倒れるのも時間の問題であった。
+line_set しかし、幸か不幸かそれは起こった。
+
+adv_on
+
+name_set 声
+
+line_set 「なにをしている！！！」
+
+name_set 北条
+
+line_set 「？！」
+
+nvl_on
+
+line_set その声の主は十兵衛であった。
+
+nvl_line_clear
+
+line_set 声によって北条の無心が解かれ、
+line_set 剣にわずかな隙ができる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ダァアアア！！！」
+
+nvl_on
+
+line_set 受ける事しかで出来なかった双厳の剣がはじめて攻撃にうつる。
+
+adv_on
+
+name_set 北条
+
+line_set 「うっ？！」
+
+nvl_on
+
+line_set 一度間合いがもとに戻ればいくら奥義の”一足一見”といえども、
+line_set 愛洲陰流のあらゆる奥義を使い、何度も真剣の勝負をしてきた双厳の敵ではなかった。
+
+adv_on
+
+name_clear
+
+line_set カキン！
+line_set カシュ！！
+
+nvl_on
+
+line_set 何度か剣がまじわる。
+line_set が、双厳の強剣に北条の剣は吹き飛ぶ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「もらった！！！！」
+
+music_stop
+
+name_clear
+
+line_set ドズッ！！！！
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 鈍い音とともに、
+line_set 北条はそのまま数メートル以上吹き飛ばされる。
+
+adv_on
+
+music_play 14
+
+kgd_layer3_set 0 Kgd\Jy_006.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 十兵衛
+
+line_set 「北条！！！」
+
+nvl_on
+
+line_set 倒れた北条のもとに十兵衛が駆け寄る。
+
+adv_on
+
+line_set 「だ、大丈夫か・・・」
+
+name_set 双厳
+
+line_set 「峰打ちだ・・・」
+line_set 「安心しろ・・・」
+
+nvl_on
+
+line_set 疲れ切った表情の双厳が十兵衛に近づきながら語る。
+
+adv_on
+
+line_set 「といっても手を抜ける状態じゃなかったからな・・・」
+line_set 「思いっきりぶん殴った・・・」
+line_set 「数日は起きられないだろう・・・」
+
+kgd_layer3_set 3 Kgd\Jy_004.kgd
+kgd_layer3_param 3 100 0 0 0 600 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「すまぬ・・・」
+line_set 「命や北条にはまだくわしくこの島で行われている儀式の意味を教えてなかったからな・・・」
+line_set 「幕府からきた指令をそのまま実行しようとしたのであろう・・・」
+
+nvl_on
+
+line_set 幕府からの元々の指令。
+line_set 異形および双厳を殺す事である。
+
+adv_on
+
+name_set 双厳
+
+line_set 「こいつ・・・」
+line_set 「なかなか面白い剣を使うな・・・」
+
+name_set 十兵衛
+
+line_set 「ああ・・」
+
+name_set 双厳
+
+line_set 「こいつを弱いとぬかしていた柳生の里の者共は大層な馬鹿どもだ・・・」
+line_set 「お前の声がなければ俺が斬られていたかもしれない・・・」
+
+name_set 十兵衛
+
+line_set 「ふふふ・・・」
+line_set 「声をかけない方がよかったかな？」
+
+name_set 双厳
+
+line_set 「かもな・・・」
+line_set 「しかし、お前で倒せなかった者を、北条が倒したとなっては問題があるんじゃないのか」
+
+name_set 十兵衛
+
+line_set 「はははは・・・」
+line_set 「ちがいない・・・」
+
+nvl_on
+
+line_set 十兵衛は北条を抱きかかえる。
+
+adv_on
+
+line_set 「ではこいつをつれていくか・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set 十兵衛
+
+line_set 「もう、こいつらがお前を襲うような事はさせない」
+line_set 「安心しろ」
+
+name_set 双厳
+
+line_set 「どうだか」
+
+name_set 十兵衛
+
+line_set 「あいかわらず信用がないな・・・」
+
+name_set 双厳
+
+line_set 「あるわけあるまい」
+
+nvl_on
+
+line_set 北条をし向けたのが十兵衛でないことはたしかであった。
+line_set もしそうであるなら、北条が有利の時に止めにはいったりはしない。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「じゃぁな・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 33
+#84_8
+
+kgd_layer2_set 1 Kgd\B_002.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 日も暮れかけた時分、桔梗が一人大岩の上で景色を見ている。
+line_set 双厳はそっと背後から近づいた。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+name_set 桔梗
+
+line_set 「・・・なんでしょうか？」
+
+name_set 双厳
+
+line_set 「特に用があるってわけじゃねぇけどよ・・・」
+line_set 「なぜあの時出てこなかった？」
+line_set 「昨晩と違い、またえらく態度が急変したじゃねぇか？」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「イルさまスイさまのためでもあります」
+line_set 「お二方があれほど楽しそうに笑っていらっしゃるのを、私は止めたく無かっただけ・・・」
+line_set 「ただそれだけです」
+
+name_set 双厳
+
+line_set 「・・・なるほどな」
+line_set 「じゃ、ここならいいんじゃねぇのか？」
+line_set 「何か言いたかったんだろ？」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「私に関わらないでください」
+
+name_set 双厳
+
+line_set 「これ以上、お前らに関われば容赦なく殺す・・・」
+line_set 「こんな感じか？」
+
+name_set 桔梗
+
+line_set 「あなた相手では、手を抜く真似などできません」
+line_set 「私は未熟ゆえ、あなたを殺してしまいかねませんので・・・」
+
+name_set 双厳
+
+line_set 「ほぉ・・・大した自信だ」
+line_set 「手前の未熟を知りつつ相手に言う言葉じゃねぇな」
+
+nvl_on
+
+line_set 気に障ったほどではないが、双厳は皮肉めいた言葉を言い放つ。
+line_set だが、桔梗は別にその皮肉を受けとめた様子も無かった。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「ですが、私には双厳さまを殺すなと志乃さまから言いつけられています」
+line_set 「殺したくとも、殺すことはまかりなりません」
+
+name_set 双厳
+
+line_set 「そうか？」
+line_set 「お前に刃を向ければ、戦わざるを得ない事態になると思わねぇか？」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「それでも、命令に逆らう事は致しません」
+
+jump_choice 34 ◆試してみるか？
+jump_choice 35 ◆自惚れるなよ
+jump_choice 36 ◆忠義を貫くか
+@34
+
+name_set 双厳
+
+line_set 「面白れぇ・・・」
+line_set 「何なら、ひとつ試してみるか？」
+
+nvl_on
+
+line_set 双厳が刀の柄に手をかける。
+line_set しかし桔梗は動じる様子もなく、振り返ってしまう。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「言ったはずです」
+line_set 「私はあなたとは戦えません」
+line_set 「志乃様の命令に背くは、私の本意ではありません」
+line_set 「では・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+jump_auto 37
+@35
+
+affection_minus 4
+
+name_set 双厳
+
+line_set 「自惚れてんなよ・・・」
+line_set 「本気で言ってるんなら、身のほどを知っといた方がいいぜ」
+
+nvl_on
+
+line_set 双厳が刀の柄に手をかける。
+line_set しかし桔梗は動じる様子もなく、振り返ってしまう。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「とにかく双厳さまと刃を交えることはできません」
+line_set 「では・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+jump_auto 38
+@36
+
+affection_plus 4
+
+name_set 双厳
+
+line_set 「御主人への忠義ねぇ・・・」
+line_set 「悪かぁねぇが、それだけじゃ片付かねぇ事もあるんだよ」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「お前みてぇな細腕に殺られるようじゃ、俺もこの先やってけねぇんだ」
+line_set 「殺したけりゃ、何もかも捨てた時に来い」
+line_set 「その時はマジで殺ってやるからよ」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 別に何か言うでもなく、桔梗は振り返る。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「とにかく双厳さまと刃を交えることはできません」
+line_set 「では・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+jump_auto 39
+@32
+@33
+@43
+#80_9
+jump_choice 40 ◆登る
+jump_choice 41 ◆山道へ移動
+@40
+
+kgd_layer1_set 1 Kgd\Be_008.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+jump_choice 42 ◆降りる
+@42
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 43
+@16
+@31
+
+kgd_layer2_set 1 Kgd\B_041.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 44 ◆屋敷前へ移動
+jump_choice 45 ◆村へ移動
+@18
+@49
+
+kgd_layer2_set 1 Kgd\B_061.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 46 ◆村へ移動
+jump_choice 47 ◆海岸へ移動
+@17
+@47
+@51
+
+kgd_layer2_set 1 Kgd\B_049.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 38281 272
+jump_branch2 38281 81
+
+section_jump_branch1 272
+
+kgd_layer3_set 0 Kgd\Ma_002.kgd
+kgd_layer3_param 0 252 0 0 0 296 600
+kgd_layer3_display 0
+
+name_set 舞
+
+line_set 「三十四・・・三十五・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「あいつまたやってるのか・・・」
+line_set 「・・・」
+line_set 「邪魔しちゃわるいな・・・」
+
+nvl_on
+
+line_set 双厳はその場から立ち去る。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+#272_11
+!81
+
+jump_choice 48 ◆村へ移動
+jump_choice 49 ◆港へ移動
+jump_choice 50 ◆物見やぐらへ移動
+@50
+
+kgd_layer2_set 1 Kgd\B_065.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 39186 271
+jump_branch2 39186 80
+
+section_jump_branch1 271
+
+kgd_layer3_set 0 Kgd\Ma_002.kgd
+kgd_layer3_param 0 252 0 0 0 296 600
+kgd_layer3_display 0
+
+name_set 舞
+
+line_set 「双厳ちゃん！」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「雲は四十二個だったよ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「そりゃ少なくないか・・・」
+
+name_set 舞
+
+line_set 「うん」
+line_set 「なんかね」
+line_set 「数えてたら、寝ちゃったんだよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「だから四十二個なの」
+
+name_set 双厳
+
+line_set 「てめぇが寝てた時も空に雲はあるのだから」
+line_set 「四十二個じゃねぇんじゃないのか？」
+
+name_set 舞
+
+line_set 「ううん」
+line_set 「私が寝ちゃうとお空も雲も消えるから」
+line_set 「いいんだよ」
+line_set 「空に雲は四十二個だよ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 舞
+
+line_set 「んじゃ私は仕事に行くね」
+
+name_set 双厳
+
+line_set 「今日の仕事はなんだ？」
+
+name_set 舞
+
+line_set 「うん」
+line_set 「波の数を数えるの」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「まぁがんばってくれ」
+
+name_set 舞
+
+line_set 「うん」
+line_set 「がんばるよ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+#271_12
+!80
+
+jump_choice 51 ◆海岸へ移動
+@23
+@27
+@37
+@38
+@39
+
+kgd_layer2_crossfade 1
+kgd_layer2_fade_unk 0
+
+ksd_set Ksd\018.ksd
+ksd_end

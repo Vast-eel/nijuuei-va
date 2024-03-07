@@ -1,0 +1,1518 @@
+
+wait 2000
+
+kgd_layer2_set 0 Kgd\B_034.kgd
+kgd_layer2_crossfade 2
+kgd_layer2_display
+
+jump_auto 0
+@23
+@31
+@54
+
+kgd_layer2_set 1 Kgd\B_034.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@0
+
+jump_branch1 5954 172
+jump_branch1 442 171
+jump_branch1 5954 169
+
+section_jump_branch1 169
+
+nvl_on
+
+line_set 双厳が屋敷を後にしようとすると日はすっかり西のほうにかたむきつつあった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「もう夕刻か・・・」
+line_set 「いそがなければ夜になる・・・」
+line_set 「夜になったら・・・」
+
+nvl_on
+
+line_set 夕刻の紅色は双厳をあせらせたが、
+line_set 双厳の行くあてなどない。
+line_set ただ闇雲に島を探索する事しかできなかった。
+
+nvl_line_clear
+
+line_set 足で稼げることもある・・・。
+
+adv_on
+
+jump_auto 1
+#171_1
+
+section_jump_branch1 172
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+name_set 桔梗
+
+line_set 「双厳さま」
+line_set 「なにかおわかりになりましたか？」
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「いまだになんの答えも導き出せない」
+line_set 「謎が増える一方だ・・・」
+
+name_set 桔梗
+
+line_set 「謎が増える・・・ですか」
+
+name_set 双厳
+
+line_set 「まったく厄介な島だよここは」
+
+name_set 桔梗
+
+line_set 「ふふ・・・」
+line_set 「私達はその厄介な島で生まれ育ったのですよ」
+
+name_set 双厳
+
+line_set 「ああそうだったな」
+
+name_set 桔梗
+
+line_set 「それで新しい謎というのは？」
+
+name_set 双厳
+
+line_set 「そうだ、桔梗に一つ聞いておきたい事がある」
+
+name_set 桔梗
+
+line_set 「はい、なんでしょうか？」
+
+name_set 双厳
+
+line_set 「透哲宿根というのを知っているか？」
+
+nvl_on
+
+line_set 桔梗の顔色が変わる。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「？！」
+line_set 「な、なんでそんな名前を？」
+
+name_set 双厳
+
+line_set 「調べてたら出てきた」
+
+name_set 桔梗
+
+line_set 「調べたら出たって・・・」
+line_set 「その名前はこの島では禁忌ですよ」
+line_set 「よくそんな名前を・・・」
+
+nvl_on
+
+line_set 「禁忌？」
+line_set 「そうなのか？」
+line_set 「志乃の部屋から続く地下室の書庫から調べ上げた名前だ」
+
+adv_on
+
+name_set 桔梗
+
+line_set 「ふぅ・・・」
+
+nvl_on
+
+line_set 桔梗は少々あきれ顔で双厳を見つめる。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「貴方様にはかないませんね」
+line_set 「禁忌であることは名前をだす事すら憚られるという事なのに教えろとは・・・」
+
+nvl_on
+
+line_set 「たしか、透哲宿根は神の怒りをかったという話は出ていたが」
+line_set 「千七百年以上たった今もってその名前を出すことがはばかられるぐらいの事をしでかしたのか？」
+
+adv_on
+
+name_set 双厳
+
+line_set 「ほう・・・名前が禁忌ねぇ」
+line_set 「そりゃ興味ある」
+line_set 「詳しく教えてくれ」
+
+name_set 桔梗
+
+line_set 「そうですね・・・」
+line_set 「いまさら隠し立てしても仕方がないでしょうから」
+line_set 「教えましょう・・・」
+line_set 「透哲宿根というのは大昔にいた阿波路の当主です」
+
+name_set 双厳
+
+line_set 「千七百年以上前か？」
+
+name_set 桔梗
+
+line_set 「年代まではわかりません・・・ただ大昔としか私はしりません」
+
+name_set 双厳
+
+line_set 「なんでこいつが禁忌なんだ」
+
+name_set 桔梗
+
+line_set 「大昔に透哲宿根という人望もあり頭もよい当主がいたのですが」
+line_set 「彼は人々のために、多くの呪術や妖術を使いましたが」
+line_set 「そのなかには多くの邪道も入っており」
+line_set 「最後には神の怒りをかって永久に黄泉をさすらう事になったといいます」
+
+name_set 双厳
+
+line_set 「邪道をつかって？」
+line_set 「それはどんなものなのだ？」
+
+name_set 桔梗
+
+line_set 「そこまではわかりません・・・」
+line_set 「私も言い伝え程度しかしりませんから」
+
+nvl_on
+
+line_set 「邪道・・・」
+line_set 「あの古文書には陰陽五行説とだけ書かれていた」
+line_set 「五行が邪道とはいえまい・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「もう一つ質問なんだが」
+line_set 「入姫神と出姫神というのはなんだ」
+
+name_set 桔梗
+
+line_set 「透哲宿根の双子の姉妹でものすごい力をもった巫女であったといいます」
+line_set 「阿波路の巫女の起源だといわれていますが・・・」
+line_set 「そんな事まで調べたのですか？」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「時間があればもっと詳しく調べられるのだがな」
+
+name_set 桔梗
+
+line_set 「ふふ・・・」
+line_set 「すでにあなたは私以上にこの島の秘密を知っていそうですね」
+
+name_set 双厳
+
+line_set 「知らなければこちらが死ぬことになるからな」
+
+name_set 桔梗
+
+line_set 「そうやって、あなたはこの島の禁忌をどんどん壊していく・・・」
+
+name_set 双厳
+
+line_set 「気にくわないか？」
+
+name_set 桔梗
+
+line_set 「はい・・・」
+line_set 「はじめは・・・」
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「でも・・・」
+
+name_set 双厳
+
+line_set 「でも？」
+
+name_set 桔梗
+
+line_set 「い、いいえ、なんでもありません」
+line_set 「そういえば・・・」
+line_set 「入姫神と出姫神ですが」
+
+name_set 双厳
+
+line_set 「ふむ」
+line_set 「なにか知っているのか？」
+
+name_set 桔梗
+
+line_set 「その後“日の巫女”となるものをイルとスイと名付けるようになったといいます」
+line_set 「現在のイルさまとスイさまは、３５代目だといいます」
+
+name_set 双厳
+
+line_set 「その”日の巫女”とはどうやって決めるのだ？」
+line_set 「世襲制か？」
+
+name_set 桔梗
+
+line_set 「いいえ、何十年か何百年かに一度“水蛭子”としてでなく生まれてくる双子の姉妹がいますので」
+line_set 「それが入姫神と出姫神として“日の巫女”となります」
+
+name_set 双厳
+
+line_set 「入姫神と出姫神として？」
+line_set 「なんだそりゃ生まれ変わりとでもいうのか？」
+
+name_set 桔梗
+
+line_set 「さぁ・・・そこまでは・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「そういえば」
+line_set 「神の怒りをかった透哲宿根のせいで」
+line_set 「入姫神と出姫神の霊は永久に淡炎島に縛られる事になったと守部之抄に書いてあったな・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「うむ・・・」
+
+nvl_on
+
+line_set 双厳はその場で考え込む。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「そういえば・・・」
+
+name_set 双厳
+
+line_set 「？」
+
+name_set 桔梗
+
+line_set 「西と東に聖域となっている神殿がありますよね」
+
+nvl_on
+
+line_set 「神殿・・・」
+line_set 「ああ、あの遺跡か」
+
+adv_on
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set 桔梗
+
+line_set 「あの神殿はそれぞれが入姫神と出姫神の神殿になっています」
+line_set 「東が出姫神の神殿」
+line_set 「西が入姫神の神殿」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「東が出姫神の神殿」
+line_set 「西が入姫神の神殿」
+
+nvl_on
+
+line_set 「東・・・出姫神の神殿」
+line_set 「西・・・入姫神の神殿」
+line_set 「出姫神と入姫神は”日の巫女”の起源・・・」
+
+nvl_line_clear
+
+line_set 「日・・・」
+line_set 「日は東からのぼり西に消える・・・」
+line_set 「日の出は東」
+line_set 「日の入りは西・・・」
+line_set 「？！」
+
+nvl_line_clear
+
+line_set 双厳は何かに気がついた。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「？！」
+line_set 「どうかなさいましたか？」
+
+name_set 双厳
+
+line_set 「くくく・・・」
+line_set 「この島の謎がわかりかけてきたぞ・・・」
+
+name_set 桔梗
+
+line_set 「ほ、本当ですか？」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「まだすべてがわかったわけではないが」
+line_set 「わかりかけてきた・・・」
+line_set 「”ヒルコ”の謎が」
+
+name_set 桔梗
+
+line_set 「なら用心棒の方々にかけられた呪いも・・・」
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「残念ながら解き方は未だもってわからない」
+line_set 「ただ、なぜ我々用心棒がこの島によばれたのか」
+line_set 「なぜ幕府転覆をたくらむ無影がこの島の儀式にかかわっているのか・・・」
+line_set 「なんとなくではあるがわかってきた」
+
+name_set 桔梗
+
+line_set 「そうなんですか？」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「まだ確証があるわけではないが・・・」
+line_set 「これから俺は用事があるので」
+line_set 「これでいいかな」
+
+name_set 桔梗
+
+line_set 「は、はい・・・」
+
+name_set 双厳
+
+line_set 「十兵衛と会わなければならないのでな」
+
+name_set 桔梗
+
+line_set 「わかりました」
+line_set 「それでは」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「さて、十兵衛に会っておくか」
+
+adv_on
+@1
+#172_0
+#169_2
+
+jump_choice 2 ◆山道へ移動
+jump_choice 3 ◆屋敷内へ移動
+jump_choice 4 ◆村への道へ移動
+@50
+
+kgd_layer2_set 1 Kgd\B_058.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 8141 170
+jump_branch2 8141 280
+
+section_jump_branch1 170
+
+nvl_on
+
+line_set 双厳は遺跡についた。
+line_set はじめに見つけた遺跡である。
+line_set この遺跡はちょうど島の西側にあり、
+line_set 双厳は心の中でこの遺跡ともう一つの遺跡を西の遺跡と東の遺跡とにわけて考えていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ふう・・・」
+line_set 「何度も調べているのだが」
+line_set 「いまだにこの遺跡がなんの遺跡であるかさっぱりわからん・・・」
+
+nvl_on
+
+line_set 双厳は遺跡を軽く調べなおす事にする。
+
+adv_on
+
+jump_choice 5 ◆遺跡のまわりを調べる
+@5
+
+nvl_on
+
+line_set 双厳は遺跡のまわりを調べなおす。
+line_set これといってあたらしい発見はない。
+
+adv_on
+
+line_set 「・・・」
+line_set 「古文書だとこの島は千七百年前にはすでに岩の守り部として存在していたという」
+line_set 「この遺跡もその時代に存在していたというのか・・・」
+
+nvl_on
+
+line_set たしかに遺跡の表面は年数を感じさせたが、
+line_set それが千数百年も昔のものであるかといわれてもわかるものではなかった。
+
+adv_on
+
+line_set 「他は・・・」
+
+jump_choice 6 ◆遺跡の入り口を調べる
+@6
+
+nvl_on
+
+line_set 双厳は遺跡の入り口付近を調べる事にした。
+
+nvl_line_clear
+
+line_set 遺跡の入り口はかなり広くとられており、
+line_set そこから３０尺ほど進んだところにくだんの壁画が描かれている。
+
+adv_on
+
+line_set 「？」
+line_set 「なんだ？」
+
+nvl_on
+
+line_set 双厳はあることに気がついた。
+
+adv_on
+
+line_set 「これはなんだ・・・」
+
+nvl_on
+
+line_set 入り口付近の壁はいくつものくり抜きがあるのだが、それはちょうど日が沈む時になると、
+line_set 奥の壁画に幾何学模様の光りの像を結ぶようになっていた。
+
+adv_on
+
+line_set 「偶然か？」
+line_set 「それとも・・・」
+
+nvl_on
+
+line_set 双厳は壁画をみることにする。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\Be_018.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+nvl_on
+
+line_set 島から見てちょうど西側に位置し、
+line_set 方向も西側を向けて作ってあるこの遺跡は、
+line_set 西日を受けることにより、壁画に光りの像をむすぶらしい。
+
+adv_on
+
+line_set 「・・・」
+line_set 「この時期限定であろうな・・・」
+
+nvl_on
+
+line_set 季節により日の落ちる場所は微妙に違う。
+line_set ということは、壁画に写る光の像がきれいにあらわれるのもこの時期限定であるのであろう。
+
+adv_on
+
+line_set 「偶然か・・・」
+line_set 「それとも・・・」
+
+nvl_on
+
+line_set 壁画に写る光の像は美しいものであったがそれがなんなのかはわからなかった。
+line_set たまたまこうなったともいえるし、計算してこうなったともいえる微妙なものであった。
+
+adv_on
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+line_set 「もう一つの遺跡はどうなんだ・・・」
+line_set 「ここと同じように西日をうけて光りの像を壁画に落とすのか？」
+
+nvl_on
+
+line_set 「日が落ちる前に調べたいな・・・」
+line_set 「いそいで行くか・・・」
+
+adv_on
+@53
+#170_3
+!280
+
+jump_choice 7 ◆遺跡の中に入る
+jump_choice 8 ◆森林へ移動
+@24
+
+kgd_layer2_set 1 Kgd\B_022.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 9236 170
+jump_branch1 9236 171
+
+section_jump_branch1 171
+
+nvl_on
+
+line_set 双厳はもう一つの遺跡。
+line_set 東側の遺跡についた。
+
+adv_on
+
+line_set 「まだ日は沈んでいない・・・」
+line_set 「調べられるな」
+
+nvl_on
+
+line_set 双厳はさっそく入り口付近を調べる。
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+nvl_on
+
+line_set 西側にあった遺跡同様に入り口付近の天井の壁はくりぬかれており、
+line_set 光を取り込むようになっているのだが、
+line_set 東側にある遺跡の入り口は東を向いており、西日の光を取り込まない構造になっていた。
+
+nvl_line_clear
+
+line_set 双厳は奥にある壁画を見てみる。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+line_set 「・・・」
+line_set 「ふむ・・・」
+
+nvl_on
+
+line_set 西日を取り込まない東の遺跡の壁画はすでに闇に包まれていた。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「東側を向いている・・・・」
+line_set 「ということは、もしかしたらこの壁画は朝日によって光の像を結ぶ事になるのだろうか？」
+
+nvl_line_clear
+
+line_set 西側の遺跡は、この時期に西日を取り込み内部にある壁画に光の像をむすぶ構造になっていた。
+
+nvl_line_clear
+
+line_set ならばこの東側の遺跡は朝日を取り込み内部の壁画に光りをむすぶのであろうか？
+
+nvl_line_clear
+
+line_set 「もしそうなら・・・」
+line_set 「壁画に光が落ちることは計算されたもの・・・」
+line_set 「なにかしらの意味があるという事になる」
+
+adv_on
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+@27
+#171_4
+!170
+
+jump_choice 9 ◆遺跡の中に入る
+jump_choice 10 ◆森林へ移動
+@39
+
+kgd_layer2_set 1 Kgd\B_069.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 16140 172
+
+nvl_on
+
+line_set 隠し部屋では十兵衛が書物の山と格闘している。
+
+adv_on
+
+name_set 双厳
+
+line_set 「どうだ？」
+line_set 「なにかわかったか？」
+
+kgd_layer3_set 0 Kgd\Jy_007.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 十兵衛
+
+line_set 「ああ・・・」
+line_set 「双厳・・・」
+line_set 「しかし凄いなこの本の数・・・」
+
+name_set 双厳
+
+line_set 「数だけでなく、かなり珍しいものも多い」
+
+name_set 十兵衛
+
+line_set 「そうそう、なかなか面白い本を見つけたぞ」
+line_set 「これなんだが・・・」
+
+nvl_on
+
+line_set 十兵衛は書物の中から一冊の古書を取り出す。
+
+adv_on
+
+name_set 双厳
+
+line_set 「なんだこりゃ・・・」
+line_set 「き・・ん・・・」
+
+name_set 十兵衛
+
+line_set 「金文考だ」
+
+name_set 双厳
+
+line_set 「なんの本だ」
+
+name_set 十兵衛
+
+line_set 「まぁ漢字学というやつだな」
+
+name_set 双厳
+
+line_set 「国学か？」
+
+name_set 十兵衛
+
+line_set 「いや、唐の話も数多く出ているからどちらかといえば国学とはいえないであろう」
+
+name_set 双厳
+
+line_set 「ふむ・・・」
+line_set 「それで、それがどうした？」
+
+name_set 十兵衛
+
+line_set 「”しるし”なのだが・・・」
+line_set 「お前どこまで知っている」
+
+name_set 双厳
+
+line_set 「”しるし”についてか・・・」
+line_set 「まず、海底火山の事を言うらしいということ」
+line_set 「もともとは”灼”とかいて”しるし”と読む事・・・」
+line_set 「そのぐらいか？」
+
+name_set 十兵衛
+
+line_set 「この金文考は漢字に関する事が、数多く書かれている」
+line_set 「ここに”しるし”についての記述がある」
+line_set 「意味は・・・」
+line_set 「他ときわだってよく目につくこと、また原因と結果との関係などが明白であることをいう」
+line_set 「”白し”と同根の語であるという」
+
+name_set 双厳
+
+line_set 「ふむ・・・」
+line_set 「それで・・・」
+
+name_set 十兵衛
+
+line_set 「それでな今度は”白”の部分を調べてみるとだな・・・」
+line_set 「”しろし”の語幹」
+line_set 「”しろし”はその形容詞」
+line_set 「”灼し”と同根の語で、よく目につく色をいう」
+line_set 「色というよりはむしろ色のぬけた状態をいい」
+line_set 「特別に白の色彩をしめすものではない」
+
+name_set 双厳
+
+line_set 「ほう・・・」
+line_set 「なるほど・・・」
+
+name_set 十兵衛
+
+line_set 「それでな」
+line_set 「阿波路に伝わる古文書にはな”しるし”の表記は”灼し”でなく”白し”とされている」
+
+name_set 双厳
+
+line_set 「そうなのか？」
+
+name_set 十兵衛
+
+line_set 「そうなんだよ」
+line_set 「海底火山を”灼し”と呼ぶのであれば納得も出来るのだが」
+line_set 「いちいち”白し”と書いてあるのが気になる」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「いくら同根の語といえども”灼し”でなく”白し”と使うのには何かありそうだな・・・」
+line_set 「そういえば・・・」
+line_set 「こんなものを作ったのだが・・・」
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 双厳は先ほど作った紙を取り出す。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_051.kgd
+kgd_layer1_fadein
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 十兵衛
+
+line_set 「なんだこりゃ？」
+
+name_set 双厳
+
+line_set 「この島で行われているという儀式は表の部と裏の部に別れているという」
+
+name_set 十兵衛
+
+line_set 「ふむ・・・」
+
+name_set 双厳
+
+line_set 「それでその日にちと用心棒が渡って来た日取りと死んでいった日取り・・・」
+line_set 「そしてこれから死んでいくだろう人間の日を書き出したものだ・・・」
+
+name_set 十兵衛
+
+line_set 「ふむ・・・」
+line_set 「一日目に一人・・・」
+line_set 「お前が淡炎島に渡って」
+
+name_set 双厳
+
+line_set 「二日目に”しるし”が出た・・・」
+
+name_set 十兵衛
+
+line_set 「三日目が一人、楓玲が淡炎島に渡り」
+line_set 「四日目五人」
+line_set 「北条や彩だな・・・」
+
+name_set 双厳
+
+line_set 「五日目十人の用心棒」
+line_set 「六日目一人の最後の用心棒が淡炎島に渡った」
+line_set 「ここまでで、儀式に使う生け贄がすべて用意された事になる」
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Jy_007.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「やはりこれらの人間はある儀式を完成させるための生け贄なのか？」
+
+name_set 双厳
+
+line_set 「そう考えるのが妥当であろう」
+line_set 「そうでなければわざわざこんな辺境の島にこれだけの人間は集められないだろう」
+line_set 「海賊退治の名目で人間が集められた」
+line_set 「その目的はある儀式を完成させる贄だ」
+
+name_set 十兵衛
+
+line_set 「ある儀式とは？」
+
+name_set 双厳
+
+line_set 「まだ断定は出来ないが」
+line_set 「たぶんお前と考えている事は一緒だ」
+
+name_set 十兵衛
+
+line_set 「幕府転覆・・・」
+
+name_set 双厳
+
+line_set 「転覆ですめばいいがな・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「この島の人間が守っているものは」
+line_set 「あの大岩だ」
+line_set 「あれは・・・」
+
+name_set 十兵衛
+
+line_set 「千引き岩だろ・・・」
+
+name_set 双厳
+
+line_set 「そうだ」
+line_set 「黄泉との道をふさぐ大岩だ」
+
+name_set 十兵衛
+
+line_set 「そんなものが本当にあるのか？」
+
+name_set 双厳
+
+line_set 「それはわからない・・・」
+line_set 「ただ・・・」
+line_set 「それを信じている人間が、多数存在するのはたしかだ」
+line_set 「その人間が岩の封印を解こうとしている」
+
+name_set 十兵衛
+
+line_set 「やはりそうなのか？」
+
+name_set 双厳
+
+line_set 「これほどの贄を必要とする儀式だ」
+line_set 「それぐらいしかあるまい」
+
+name_set 十兵衛
+
+line_set 「世界を終わらす気か？」
+
+name_set 双厳
+
+line_set 「そうかもしれない・・・」
+
+name_set 十兵衛
+
+line_set 「黄泉の道をひらけば死人が歩き回るような恐ろしい世界になる」
+
+name_set 双厳
+
+line_set 「それならいいが・・・」
+line_set 「黄泉の扉がひらけば、生と死の境界がなくなる事になる」
+line_set 「そうなれば・・・」
+
+name_set 十兵衛
+
+line_set 「そうなれば？」
+
+name_set 双厳
+
+line_set 「生は死のなかに拡散する」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「すべての生物が死ぬということだ」
+
+nvl_on
+
+line_set 双厳はまた紙を広げる。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_051.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+kgd_layer3_clear 0
+
+line_set 「それでだ・・・」
+line_set 「七日目から淡炎島に蜃気楼があらわれた」
+line_set 「これが”アワシマ”だ」
+
+name_set 十兵衛
+
+line_set 「古事記に出てくる形のない島”淡島”だな」
+
+name_set 双厳
+
+line_set 「七日目、六日目に来た用心棒一人が骨を抜かれて水蛭子のように死んだ」
+line_set 「八日目、五日目に来た用心棒十人が骨を抜かれて水蛭子のように死んだ」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「そして九日目」
+line_set 「今日だ・・・」
+line_set 「たぶん四日目に来た用心棒五人が骨を抜かれて水蛭子のように死ぬことになる」
+line_set 「北条や彩だ・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「十日目、三日目に来た用心棒」
+line_set 「楓玲が骨を抜かれて水蛭子のように死ぬ」
+line_set 「そして」
+line_set 「十一日目に空白が出来て」
+line_set 「十二日目に最初にきた俺が骨を抜かれて水蛭子のように死ぬ」
+line_set 「そして儀式が完成する」
+
+name_set 十兵衛
+
+line_set 「なんとしても止めなければ・・・」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+
+name_set 十兵衛
+
+line_set 「そうだな・・・」
+
+name_set 双厳
+
+line_set 「二日目の”しるし”なのだが」
+line_set 「ここは”白し”となるのか？」
+
+nvl_on
+
+line_set 双厳はその部分を書き直す。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_052.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+name_set 双厳
+
+line_set 「こうなるのか？」
+
+name_set 十兵衛
+
+line_set 「うむ・・・」
+
+name_set 双厳
+
+line_set 「これが、この呪われた儀式を解く鍵になるはずだ」
+
+name_set 十兵衛
+
+line_set 「うむ・・・」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set その後、双厳達は、この暗号のような紙を片手に膨大な書籍をあさるが、
+line_set 何一つそれ以上の発見は得られなかった。
+
+adv_on
+
+kgd_layer1_set 0 Kgd\W_004.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 Kgd\Jy_007.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「ふぅ・・・」
+line_set 「わからん・・・」
+
+name_set 十兵衛
+
+line_set 「うむ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「そろそろ時間だ・・・」
+
+name_set 十兵衛
+
+line_set 「うむ・・・」
+line_set 「間に合わなかったか・・・」
+
+name_set 双厳
+
+line_set 「いや、最後まであきらめるな」
+
+name_set 十兵衛
+
+line_set 「うむ・・・」
+
+name_set 双厳
+
+line_set 「ここでお前は調べモノをしていろ」
+line_set 「おれは少し外にでる」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「そうだな・・・」
+
+nvl_on
+
+line_set 「外に出る」これはもちろんあの異形を阻止する事を意味する。
+line_set むろんその役を十兵衛はもっともかって出たいハズであろう。
+line_set 今日自分の部下達が呪いによって殺されるのである。
+line_set しかし、怪我を負った十兵衛は足手まといにしかならなかった。
+
+nvl_line_clear
+
+line_set といっても双厳とてあの異形をとめる方法が見つからない以上は同じようなものではあったが。
+
+adv_on
+
+name_set 双厳
+
+line_set 「んじゃ、行って来る」
+
+name_set 十兵衛
+
+line_set 「うむ」
+line_set 「なにかわかりしだい教えよう・・・」
+
+name_set 双厳
+
+line_set 「うむ・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 11
+!172
+jump_choice 12 ◆外へ出る
+@16
+@17
+@19
+jump_branch1 16204 286
+
+kgd_layer1_set 1 Kgd\Be_009.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+
+jump_auto 13
+#286_5
+
+kgd_layer1_set 1 Kgd\Be_012.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+@13
+
+jump_choice 14 ◆反対側を見る
+jump_choice 15 ◆降りる
+@14
+jump_branch1 16292 286
+
+section_jump_branch1 286
+
+jump_auto 16
+#286_6
+
+section_jump_branch2 286
+
+jump_auto 17
+@15
+
+section_jump_branch2 286
+
+kgd_layer1_set 1 Kgd\W_004.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 18
+@21
+
+kgd_layer2_set 1 Kgd\B_002.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@18
+
+jump_choice 19 ◆登る
+jump_choice 20 ◆山道へ移動
+@2
+@20
+@25
+
+kgd_layer2_set 1 Kgd\B_014.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 21 ◆大岩へ移動
+jump_choice 22 ◆森林へ移動
+jump_choice 23 ◆屋敷前へ移動
+@10
+@22
+
+kgd_layer2_set 1 Kgd\B_018.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 24 ◆遺跡へ移動
+jump_choice 25 ◆山道へ移動
+@9
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+jump_choice 26 ◆遺跡の外に出る
+@26
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+jump_auto 27
+@3
+@33
+@34
+@36
+
+kgd_layer2_set 1 Kgd\B_030.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 28 ◆自室へ移動
+jump_choice 29 ◆大広間へ移動
+jump_choice 30 ◆蔵の前へ移動
+jump_choice 31 ◆屋敷外へ移動
+@29
+@38
+
+kgd_layer2_set 1 Kgd\B_010.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 32 ◆志乃の部屋へ移動
+jump_choice 33 ◆廊下へ移動
+@28
+
+kgd_layer2_set 1 Kgd\B_075.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 34 ◆廊下へ移動
+@30
+@37
+
+kgd_layer2_set 1 Kgd\B_026.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 35 ◆蔵に入る
+jump_choice 36 ◆廊下へ移動
+@35
+
+kgd_layer2_set 1 Kgd\B_072.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 37 ◆蔵から出る
+@12
+@32
+
+kgd_layer2_set 1 Kgd\B_006.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 38 ◆大広間へ移動
+jump_choice 39 ◆隠し地下室へ移動
+@43
+@47
+@55
+
+kgd_layer2_set 1 Kgd\B_046.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 40 ◆屋敷前への道へ移動
+jump_choice 41 ◆海岸へ移動
+jump_choice 42 ◆港へ移動
+@41
+@48
+@49
+@51
+
+kgd_layer2_set 1 Kgd\B_050.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 43 ◆村へ移動
+jump_choice 44 ◆港へ移動
+jump_choice 45 ◆物見やぐらへ移動
+jump_choice 46 ◆森林へ移動
+@42
+@44
+
+kgd_layer2_set 1 Kgd\B_062.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 47 ◆村へ移動
+jump_choice 48 ◆海岸へ移動
+@45
+
+kgd_layer2_set 1 Kgd\B_066.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 49 ◆海岸へ移動
+@8
+@46
+
+kgd_layer2_set 1 Kgd\B_054.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 50 ◆遺跡へ移動
+jump_choice 51 ◆海岸へ移動
+@7
+
+kgd_layer1_set 1 Kgd\Be_018.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+jump_choice 52 ◆遺跡の外に出る
+@52
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 53
+@4
+@40
+
+kgd_layer2_set 1 Kgd\B_042.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 18828 280
+jump_branch2 18828 169
+
+section_jump_branch1 280
+
+kgd_layer3_set 0 Kgd\Mi_015.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「あ・・・二つ影」
+line_set 「出かけるの？」
+
+name_set 双厳
+
+line_set 「ああ・・・少しな・・・足で稼げる事もあるからな・・・」
+
+kgd_layer3_set 3 Kgd\Mi_022.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・そうだね」
+line_set 「最後までがんばらなくちゃね・・・」
+
+name_set 双厳
+
+line_set 「お前は屋敷に帰るのか？」
+
+name_set 命
+
+line_set 「うん・・・」
+line_set 「いろいろと十兵衛さまに報告しなきゃいけない事があるから」
+
+name_set 双厳
+
+line_set 「そうだな・・・寒くならないうちに屋敷に帰らなきゃな・・・」
+
+kgd_layer3_set 3 Kgd\Mi_025.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「な、なによ、その言い方・・・」
+
+name_set 双厳
+
+line_set 「くくく・・・」
+line_set 「本当寒そうだぞ・・・その服」
+
+kgd_layer3_set 3 Kgd\Mi_018.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「う、うるさいわね！！」
+line_set 「は、恥ずかしい事いわないでよ！！！」
+
+name_set 双厳
+
+line_set 「くくく・・・」
+
+name_set 命
+
+line_set 「な、なによ！！」
+line_set 「もう！！」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「くくく・・・」
+line_set 「怒って帰っていったな」
+
+kgd_layer3_set 0 Kgd\Mi_033.kgd
+kgd_layer3_display 0
+
+name_set 命
+
+line_set 「そうそう二つ影・・・」
+
+name_set 双厳
+
+line_set 「？」
+
+name_set 命
+
+line_set 「暗くなるとなんかおかしな連中が出歩いてるみたいだから気をつけてね・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+nvl_on
+
+line_set おかしな連中・・・異形の事だろう。
+
+adv_on
+
+name_set 命
+
+line_set 「んじゃね・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「・・・」
+line_set 「本当におかしなやつだな・・・」
+line_set 「あいつは・・・」
+
+adv_on
+#280_7
+!169
+
+jump_choice 54 ◆屋敷前へ移動
+jump_choice 55 ◆村へ移動
+@11
+
+kgd_layer2_crossfade 1
+kgd_layer2_fade_unk 0
+
+music_stop
+
+ksd_set Ksd\028.ksd
+ksd_end

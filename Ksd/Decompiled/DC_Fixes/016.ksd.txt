@@ -1,0 +1,2696 @@
+
+kgd_layer1_set 0 Kgd\W_001.kgd
+kgd_layer2_set 0 Kgd\B_003.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+line_set 「・・・」
+line_set 「！？」
+line_set 「この感覚は！」
+
+name_set 異形
+
+line_set 「くひゃはははははははっははははっはははは」
+
+kgd_layer1_set 1 Kgd\En_018.kgd
+kgd_layer1_fx 6
+kgd_layer2_clear
+kgd_layer1_fadein
+
+music_play 20
+
+line_set 「今のは、幕府の犬か？」
+line_set 「あれは、新陰流だな？」
+line_set 「くくくくく」
+
+name_set 双厳
+
+line_set 「貴様か」
+
+name_set 異形
+
+line_set 「おもしろいもんじゃな」
+line_set 「新陰流とお前の剣術はどことなしに似ておるな」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なんの用だ」
+line_set 「その斜めの不格好な首を落としてもらいたいなら」
+line_set 「そこから出てこい」
+
+name_set 異形
+
+line_set 「くくくくくくく・・・」
+line_set 「いきがるな」
+line_set 「どうせお前はたいして生きる事はできない」
+line_set 「死ぬ身なのだからな」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 異形
+
+line_set 「ただ、おまえにはそれ相応の死が待っている」
+line_set 「あんな輩に殺されるなよ」
+line_set 「そう死にいそがなくても、ちゃんとお前の死は用意している」
+
+name_set 双厳
+
+line_set 「誰がだよ」
+
+name_set 異形
+
+line_set 「いひひひひひひひひひひひひひ・・・」
+line_set 「それは後のお楽しみさ」
+line_set 「楽しみだろ～」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+music_stop
+
+line_set 「チッ」
+line_set 「逃げられたか・・・」
+
+nvl_on
+
+line_set すでにあたりは静まりかえっている。
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_039.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+music_play 5
+
+line_set 「ふう」
+line_set 「・・・」
+line_set 「柳生か・・・」
+
+nvl_on
+
+line_set 双厳は幕府が自分を殺すために動いているとは半信半疑であった。
+line_set 双厳が多くの人間を殺してきたのはたしかだ。
+line_set それが不可抗力だと言っても無駄な事ぐらいもわかっている。
+line_set だから、いままであらゆる組織から狙われてきた。
+
+nvl_line_clear
+
+line_set もちろんその中には正式な大名、つまり藩などもふくまれており、
+line_set まさに組織だけでなく、国からも追われる身であるのもたしかであった。
+line_set が、はたして幕府が本腰をあげて自分など相手にするだろうか？
+
+adv_on
+
+line_set 「今のところ、事実なのは江戸柳生が動いている事だけだ・・・」
+line_set 「江戸柳生か・・・」
+
+nvl_on
+
+line_set 双厳にはその部分が引っかかっていた。
+line_set もちろん、個人的に双厳が江戸柳生に対して何かしらの怨念をもたれるべくもない。
+line_set それどころか、いままで江戸柳生と一切関わりなどなかった。
+
+adv_on
+
+line_set 「俺との関わりはない・・・」
+line_set 「それはたしかだ・・・」
+
+nvl_on
+
+line_set しかしそれ以外で引っかかる部分が双厳にはあった。
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳が多くの刺客の屍を乗り越えてここまで生きてこれた理由は何も、
+line_set 二重影という闇の力のおかげのみではない。
+line_set 否、それどころか、双厳が二重影の呪いを受けても取り込まれないで、
+line_set ここまで人間として生きてこれたのも、すべては双厳そのものが桁違いの不世出の剣の天才あり、
+line_set それを可能にする精神力故である。
+
+adv_on
+
+line_set 「やつらが俺に興味をしめしている理由はたぶん俺の剣術であろう」
+
+nvl_on
+
+line_set 双厳の使う剣術は、愛洲陰流という。
+line_set これはすでに失われたはずの幻の剣術であった。
+line_set 愛洲陰流は、猿の御前の末孫、愛洲日向守移香斎がひらいたものだといわれている。
+
+nvl_line_clear
+
+line_set 彼が三十六歳のとき、日向の鵜戸の岩屋に参篭して満願の未明に、神が猿の形で奥義をしめして、
+line_set 一巻の書を授けた。
+line_set そのため陰流の目録は猿の武技が書いてあるという奇妙なものであった。
+line_set この一巻の書より一流をひらいて、陰の流といい諸国を武者修行した。
+line_set それが愛洲陰流である。
+
+nvl_line_clear
+
+line_set この後、愛洲陰流は、上泉信綱に受け継がれ新陰流となり、
+line_set さらに柳生宗厳から柳生新陰流。
+line_set 奥山休賀から直心陰流。
+line_set 丸目蔵人からタイ捨陰流。
+line_set 疋田文五郎から疋田陰流と分派していった。
+
+nvl_line_clear
+
+line_set 双厳が使う愛洲陰流とは、それらの陰流のオリジナルともいえ、
+line_set 分派する課程で抜け落ちていったものをすべて残している。
+
+nvl_line_clear
+
+line_set 双厳がどのような経緯で、幻の剣術である愛洲陰流を継承しているかは謎が残るところであるが、
+line_set 兎にも角にも、双厳の剣術というのがある種の者達にとっては興味深いものであったのはたしかであった。
+
+nvl_line_clear
+
+line_set あの男が使っていたのはもちろん柳生新陰流である。
+
+adv_on
+
+line_set 「江戸柳生には、石舟斎から伝わっていない部分がかなりあるらしいな・・・」
+line_set 「ならば江戸柳生が俺の剣の噂を聞き、俺に興味を示すのもおかしくあるまい・・・」
+
+nvl_on
+
+line_set 双厳は幾時間かぼんやりと天井を眺めながら思いをめぐらした。
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・・・・・」
+
+nvl_on
+
+line_set 歌声が聞こえてくる・・・。
+
+adv_on
+
+line_set 「イルとスイの歌声か・・・」
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は今度は桔梗という名の少女の事を思い出した。
+
+adv_on
+
+line_set 「守護するものか・・・」
+line_set 「イルとスイとたいして歳も変わらないのに・・・」
+
+nvl_on
+
+line_set たしかに桔梗の腕は少女のそれとしてはかなりのものであった。
+line_set ここに雇われたどこの馬ともしれぬ浪人では桔梗にはかなわないだろう・・・。
+
+adv_on
+
+line_set 「なぜこんな辺境の島にこのような手練れが集まっているのか・・・」
+
+music_play 10
+@5
+@6
+@7
+@8
+@9
+@10
+@11
+@12
+
+jump_branch2 4215 123
+jump_branch2 4215 76
+jump_branch2 4215 77
+jump_branch2 4215 78
+jump_auto 0
+!123
+!76
+!77
+!78
+jump_choice 1 ◆浮浪者の事を考える
+jump_choice 2 ◆異形の者の事を考える
+jump_choice 3 ◆幽香の事を考える
+jump_choice 4 ◆骨のない子供の事を考える
+@1
+jump_branch1 5595 76
+
+section_jump_branch1 76
+
+nvl_on
+
+kgd_layer3_set 0 Kgd\Jy_009.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+line_set 双厳が強いと見ているのはまず、この島で浮浪者として潜入した男である。
+line_set 彼は柳生新陰流の使い手であった。
+line_set その正体は柳生十兵衛光厳であろう。
+
+pis_set 1 0
+
+line_set あれほどの手練れは柳生には、<0,尾張の利厳と兵助>、そして江戸の十兵衛をおいてほかにはいない。
+
+nvl_line_clear
+
+line_set 隠密という特色上、江戸の柳生十兵衛と考えるのが妥当であろう。
+line_set そして、江戸柳生だからこそ双厳の使う愛洲陰流に並々ならぬ興味をしめしたとも考えられた。
+
+nvl_line_clear
+
+line_set 「尾張の兵助が俺の剣術に興味を抱くわけないしな・・・」
+line_set 「尾張柳生は自らの剣こそ正統に陰流を継承し、発展させていると考えているはず・・・」
+line_set 「いまさら過去の遺物である愛洲陰流に興味などしめすことなど無いだろう」
+
+nvl_line_clear
+
+line_set 「しかし・・・」
+line_set 「江戸の十兵衛ならば十分にありうるな・・・」
+
+nvl_line_clear
+
+line_set 前にも述べたように、
+line_set 尾張柳生は柳生新陰流の剣術部分を、
+line_set 江戸柳生は柳生新陰流の政治部分を、
+line_set 継承したと言われていた。
+
+nvl_line_clear
+
+line_set 中には、柳生石舟斎から江戸柳生には伝わらず、尾張柳生のみに伝わった剣術の秘伝書も多くあった。
+
+nvl_line_clear
+
+line_set つまり、尾張の柳生こそ真の新陰流であり、江戸柳生は単に政治的に使用される剣術であるという見方は、
+line_set あながち間違いではなかったのである。
+
+nvl_line_clear
+
+line_set そんな江戸柳生が、双厳の使う愛洲陰流に興味をしめすことは当然とも言えた。
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+adv_on
+
+jump_auto 5
+#76_0
+
+nvl_on
+
+line_set 「他の事を考えよう・・・」
+
+adv_on
+
+jump_auto 6
+@2
+jump_branch1 5943 77
+
+section_jump_branch1 77
+
+nvl_on
+
+kgd_layer3_set 0 Kgd\En_018.kgd
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+line_set 何度か山で見かけた異形の者。
+
+nvl_line_clear
+
+line_set 「異形の者の強さは半端なものでない・・・」
+
+nvl_line_clear
+
+line_set 「特にあの化け物なら、ここに雇われた侍どもを十数秒で絶命させられるだろう・・・」
+line_set 「俺と・・・」
+line_set 「あの女をのぞいて・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+adv_on
+
+jump_auto 7
+#77_1
+
+nvl_on
+
+line_set 「他の事を考えよう・・・」
+
+adv_on
+
+jump_auto 8
+@3
+jump_branch1 6601 78
+
+section_jump_branch1 78
+
+line_set 「あの女・・・」
+
+nvl_on
+
+kgd_layer3_set 0 Kgd\Ka_001.kgd
+kgd_layer3_param 0 216 0 0 0 368 600
+kgd_layer3_display 0
+
+line_set 双厳はめずらしく恐怖を感じた。
+line_set 実際あそこであの女をくないで刺すべきであった。
+line_set が、それが出来なかった。
+
+nvl_line_clear
+
+line_set 「たぶん恐怖が、俺をためらわせたのだろう・・・」
+line_set 「あの女の殺気は半端なもんじゃない・・・」
+line_set 「へたしたらあの柳生十兵衛より厄介かもしれん」
+line_set 「あの女が今まで殺した人間の数は十や二十ではすまないだろう」
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+adv_on
+
+line_set 「ふぅ・・・」
+line_set 「この三人と戦う事にはならないように祈りたいな」
+
+nvl_on
+
+line_set まだ、イルとスイの歌声は続く・・・
+line_set 「イルとスイに近づくな・・・か」
+
+adv_on
+
+jump_auto 9
+#78_2
+
+nvl_on
+
+line_set 「他の事を考えよう・・・」
+
+adv_on
+
+jump_auto 10
+@4
+jump_branch1 8951 123
+
+section_jump_branch1 123
+
+nvl_on
+
+kgd_layer3_set 0 Kgd\En_022.kgd
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+line_set 「それよりも・・・」
+
+nvl_line_clear
+
+line_set 双厳はもっとも気になる事を思い出した。
+
+nvl_line_clear
+
+line_set 「ヒルコの事だ・・・」
+
+nvl_line_clear
+
+line_set この島には、無数の鳥居が立っている。
+line_set それは、ヒルコ鳥居とよばれていた。
+
+nvl_line_clear
+
+line_set 「ヒルコ・・・鳥居」
+line_set 「ただ単にそうよばれているわけではなかったようだな・・・」
+
+nvl_line_clear
+
+line_set 「ヒルコ・・・」
+line_set 「それは、水蛭子の事であろうな・・・」
+
+nvl_line_clear
+
+line_set 水蛭子とは古事記の国生みの神話に出てくる名前である。
+line_set 天つ神達は伊邪那岐と伊邪那美に国作りを命じた。
+line_set それにより高天ヶ原からおのごろ島に降臨した、
+line_set 伊邪那岐と伊邪那美は、最初に国生みをおこなった。それにより生まれたのが水蛭子である。
+
+nvl_line_clear
+
+line_set 「然れどもくみどもに興して生める子は、水蛭子」
+line_set 「この子は葦舟に入れて流して去てき・・・」
+
+nvl_line_clear
+
+line_set しかし水蛭子は骨のない奇形であったので、
+line_set 彼らは水蛭子を葦の舟に乗せて流したという。
+
+nvl_line_clear
+
+line_set 「骨のない子供」
+line_set 「それの霊を鎮めるために作られる鳥居」
+line_set 「それがヒルコ鳥居・・・」
+line_set 「これは偶然ではあるまい・・・」
+
+nvl_line_clear
+
+line_set 双厳が考えた通り、それは偶然などではなかった。
+
+nvl_line_clear
+
+line_set 「そういえば・・・」
+line_set 「この島ではもう一つまつわるものがあるな・・・」
+
+nvl_line_clear
+
+line_set 「この子は葦舟に入れて流して去てき・・・」
+
+nvl_line_clear
+
+line_set 「水蛭子をながした舟は葦の舟だ・・・」
+line_set 「我々を運搬した舟もまた葦の舟であった」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「それにしても・・・」
+line_set 「期せずしてこの島の謎が一つ解けたな・・・」
+
+nvl_line_clear
+
+line_set 双厳はこの島に渡る前に近隣の村の老人に聞かされた話を思い出していた。
+
+nvl_line_clear
+
+line_set ”あの島はただそれが目に見える呪いとしてあらわれているにすぎないのかもしれんな”
+line_set か・・・。
+
+nvl_line_clear
+
+line_set 「呪い」
+line_set 「つまり・・・」
+line_set 「淡炎島で生まれる子供は、かならず双子で生まれる・・・」
+line_set 「そしてその片方はかならず殺される」
+line_set 「なぜならば・・・」
+
+nvl_line_clear
+
+line_set そこまで言うと双厳は言葉を一度止めた。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「双子の片方が、骨のない水蛭子として生まれるからであろう・・・」
+line_set 「もしかしたら、鳥居は水蛭子として生まれた子供の供養などでなく」
+line_set 「伊邪那岐や伊邪那美が水蛭子を葦の舟にのせて流したように」
+line_set 「子供達の霊を海に流すためにに鳥居が建てられるのかもしれない・・・」
+
+nvl_line_clear
+
+line_set 「鳥居は霊の通り道だ」
+line_set 「水蛭子の子供達の霊は鳥居を通り、海に帰されるのかもしれない」
+line_set 「水蛭子が流された海に、その子供達も帰らされる・・・」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「ヒルコ鳥居とはつまり水蛭子鳥居の事だ・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+adv_on
+
+jump_auto 11
+#123_3
+
+nvl_on
+
+line_set 「他の事を考えよう・・・」
+
+adv_on
+
+jump_auto 12
+@0
+
+kgd_layer2_set 1 Kgd\B_027.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+music_play 4
+
+jump_branch1 12546 75
+
+section_jump_branch1 75
+
+nvl_on
+
+line_set 双厳は庭をぬけて蔵の前に出た。
+line_set イルとスイが昨日と同じように、なにか歌っているようだ。
+
+adv_on
+
+name_set イル
+
+line_set 「誰ですか？」
+
+name_set 双厳
+
+line_set 「！？」
+
+nvl_on
+
+line_set 双厳は少し驚いた。
+line_set 別に気配を消して蔵に近づいたわけではなかったが、それでも生来のクセで、
+line_set 双厳の行動はいつでも隠密的であった。
+line_set 平常時であろうと双厳の気配は素人にさとれるものではなかった。
+line_set それが、蔵の外と中という壁一枚隔てた場所でさとられたのだ、年端もいかぬ少女に・・・。
+
+adv_on
+
+name_set イル
+
+line_set 「誰ですか？」
+
+name_set 双厳
+
+line_set 「俺だ・・・」
+line_set 「双厳だ・・・」
+
+name_set スイ
+
+line_set 「あー双厳お兄ちゃん？」
+
+name_set イル
+
+line_set 「双厳さまですか？」
+
+name_set 双厳
+
+line_set 「ああ」
+
+name_set スイ
+
+line_set 「お兄ちゃんまた来てくれたんだ」
+
+name_set 双厳
+
+line_set 「いや、そこを通りかかったらお前らの歌声が聞こえてきたのでな・・・」
+line_set 「あの歌は何の歌なんだ？」
+
+name_set イル
+
+line_set 「歌ですか？」
+
+name_set 双厳
+
+line_set 「歌ではないのか？」
+
+name_set イル
+
+line_set 「あれは祝詞です」
+
+name_set 双厳
+
+line_set 「祝詞？」
+line_set 「あの神主とかがいうアレか？」
+
+pis_set 25 0
+
+name_set イル
+
+line_set 「はい」
+line_set 「<0,祝詞>です」
+
+name_set スイ
+
+line_set 「そうだよ」
+line_set 「あれはカミサマとお話する言葉だよ」
+
+name_set 双厳
+
+line_set 「そうか・・・」
+line_set 「そういえば、イルとスイは巫女だったもんな」
+
+name_set スイ
+
+line_set 「うん」
+line_set 「日の巫女だよ」
+
+name_set 双厳
+
+line_set 「イルとスイは神様の声が聞けるのかい」
+
+name_set スイ
+
+line_set 「聞こえるよ」
+line_set 「お兄ちゃんには聞こえないの？」
+
+name_set 双厳
+
+line_set 「そうだな」
+line_set 「お兄ちゃんには聞こえないな・・・」
+
+name_set スイ
+
+line_set 「そうなんだ」
+line_set 「スイにはいつでも聞こえるよ」
+line_set 「さっきもカミサマがお兄ちゃんがそこにいることを教えてくれたんだよ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「そうか・・・」
+
+name_set スイ
+
+line_set 「なんでお兄ちゃんにはカミサマの声が聞こえないの？」
+line_set 「こんなに近くにカミサマはいるのに」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「もしかしたらイルやスイの神様は近くにいるかもしれないな・・・」
+
+name_set イル
+
+line_set 「といいますと」
+line_set 「双厳さまのカミサマは近くにいらっしゃらないのですか？」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「俺の近くにはいないかもな・・・」
+
+name_set スイ
+
+line_set 「そんな事ないよ」
+line_set 「お兄ちゃんのカミサマも近くにいるよ」
+line_set 「すぐ近くにね」
+
+name_set 双厳
+
+line_set 「そうかもな・・・」
+line_set 「いや、たぶん近くにいるのかもしれないな・・・」
+
+name_set スイ
+
+line_set 「いるよ」
+line_set 「お兄ちゃんにも」
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「なにも語らない神がいるのかもしれないな」
+
+nvl_on
+
+line_set 「なにも語らず」
+line_set 「なにもせず」
+line_set 「なにも在せず」
+
+adv_on
+
+name_set イル
+
+line_set 「そして」
+line_set 「すべてを語り」
+line_set 「すべてをして」
+line_set 「すべてに在する」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set イルは双厳の心の中を読みとったのであろうか？
+line_set 双厳の心の中の言葉に続けるように語った。
+
+adv_on
+
+name_set イル
+
+line_set 「双厳さまのカミサマはそんなカミサマかもしれませんね」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「かもしれないな・・・」
+
+name_set スイ
+
+line_set 「ぶー」
+line_set 「二人だけで楽しそうー」
+line_set 「おねえちゃんずるい～」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「そういえばイルとスイは一体どんな関係なのであろうか？」
+line_set 「スイがイルの事を”おねえちゃん”と呼ぶところをみると姉妹なのだろうか？」
+
+adv_on
+
+name_set 双厳
+
+line_set 「イルとスイは姉妹なのか？」
+
+name_set イル
+
+line_set 「はい双子の姉妹です」
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 「双子？」
+line_set 「双子だと？」
+
+adv_on
+
+name_set イル
+
+line_set 「どうなさいました？」
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「なんでもない・・・」
+
+nvl_on
+
+line_set 「双子？」
+line_set 「この島に生きながらえている双子などいたのか？」
+
+nvl_line_clear
+
+line_set 双厳は動揺していた。
+line_set ”この島で生まれる者はすべて双子であり、かならず片方が殺される”
+line_set これはすでに確定した事実であった。
+
+nvl_line_clear
+
+line_set 実際、双厳は生まれた双子の片方が骨なしの化け物であったのをすでに目撃していた。
+line_set それが目の前に、殺されずに生きながらえる、双子がいるというのだ。
+
+adv_on
+
+jump_auto 13
+#75_4
+
+nvl_on
+
+line_set 双厳は歌声につられて思わずイルとスイがいる蔵の前まで出てきてしまった。
+
+adv_on
+
+line_set 「・・・」
+
+name_set イル
+
+line_set 「そこにいるのは双厳さまですか？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set スイ
+
+line_set 「双厳お兄ちゃんでしょ」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set スイ
+
+line_set 「お兄ちゃんが来るの楽しみにしてたんだよ」
+line_set 「今日はなんのお話してくれるの？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「まいったな・・・」
+line_set 「今日、桔梗にいわれたばかりなのになぁ」
+
+adv_on
+
+name_set イル
+
+line_set 「どうなされました双厳さま」
+
+name_set 双厳
+
+line_set 「なんでもない・・・」
+
+name_set イル
+
+line_set 「・・・」
+line_set 「双厳さま、なにか嫌な事でもあったのですか？」
+
+name_set 双厳
+
+line_set 「嫌な事？」
+line_set 「なぜだ？」
+
+name_set イル
+
+line_set 「双厳さまの声・・・」
+line_set 「沈んでいます」
+
+name_set スイ
+
+line_set 「うん」
+line_set 「なんか元気ないよ、お兄ちゃん」
+
+name_set 双厳
+
+line_set 「ふふふふ・・・」
+line_set 「なんでもないさ・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「こんな小娘達に心配されるとはな・・・」
+
+adv_on
+
+name_set スイ
+
+line_set 「うーん」
+line_set 「心配だなー」
+line_set 「そうだ」
+line_set 「お兄ちゃんが元気になるようにカミサマにお祈りしようよイルおねえちゃん」
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「カミサマにお祈りはいい・・・」
+
+name_set スイ
+
+line_set 「よくないよー」
+
+name_set 双厳
+
+line_set 「それよりも・・・」
+
+nvl_on
+
+line_set 双厳はなにか他に話題を変えようとしていた。
+
+adv_on
+
+line_set 「そういえば・・・」
+line_set 「スイとイルは姉妹なのか？」
+
+name_set イル
+
+line_set 「はい双子の姉妹です」
+
+name_set 双厳
+
+line_set 「？！」
+
+nvl_on
+
+line_set 「双子？」
+line_set 「双子だと？」
+
+adv_on
+
+name_set イル
+
+line_set 「どうなさいました？」
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「なんでもない・・・」
+
+nvl_on
+
+line_set 「双子？」
+line_set 「この島に生きながらえている双子などいたのか？」
+
+nvl_line_clear
+
+line_set 双厳は動揺していた。
+line_set ”この島で生まれる者はすべて双子であり、かならず片方が殺される”
+line_set これはすでに確定した事実であった。
+
+nvl_line_clear
+
+line_set 実際、双厳は生まれた双子の片方が骨なしの化け物であったのすでに目撃していた。
+line_set それが目の前に、殺されずに生きながらえる、双子がいるというのだ。
+
+adv_on
+@13
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「やはり、イルかスイ・・・」
+line_set 「いずれかが、骨なしの化け物なのか・・・」
+
+nvl_line_clear
+
+line_set 「いや・・・」
+line_set 「殺されてない以上もしかしたら二人とも正常なのかもしれない・・・」
+line_set 「だとしたら・・・」
+line_set 「この島の双子にまつわる呪いというのは・・・」
+
+nvl_line_clear
+
+line_set 双厳は思いを巡らせていた。
+line_set とその時。
+
+adv_on
+
+music_stop
+
+name_set 女
+
+line_set 「この悪党！！！」
+
+nvl_on
+
+line_set とつぜん女の声が夜の静けさを引き裂く。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？」
+
+name_set 女
+
+line_set 「あなたが二つ影ね！」
+line_set 「またいたいけな娘を誑かそうとでもしているのね！」
+
+kgd_layer1_set 1 Kgd\En_027.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer1_clear 1
+
+music_play 9
+
+nvl_on
+
+line_set 蔵の上に人間が立っている。
+
+nvl_line_clear
+
+line_set 「また変なのが出てきたな・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「誰だお前・・・」
+
+name_set 女
+
+line_set 「私は命！」
+line_set 「妖怪二重影を斬奸しにきたわ！」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なんだ・・・」
+line_set 「お前・・・」
+
+name_set 命
+
+line_set 「だから！」
+line_set 「命って言ってるでしょ！」
+line_set 「人の話聞きなさいよ！」
+
+name_set 双厳
+
+line_set 「何者だ？お前？」
+
+name_set 命
+
+line_set 「だからー、私は命！あなたを倒しに来たのよ！」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「俺を倒す？」
+line_set 「お前が？」
+
+name_set 命
+
+line_set 「あなたは私の兄を殺したわ！」
+line_set 「仇討ちよ！」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「仇討ち・・・」
+line_set 「そうか・・・」
+
+name_set 命
+
+line_set 「覚悟はいい？」
+
+name_set 双厳
+
+line_set 「覚悟？」
+line_set 「覚悟だと？」
+
+name_set 命
+
+line_set 「そうよ！」
+
+name_set 双厳
+
+line_set 「一つだけ忠告しておく」
+line_set 「俺は相手が女子供でも手加減なんて高級なまねは出来ない」
+line_set 「俺と戦ったら」
+line_set 「死ぬことになるぞ」
+
+name_set 命
+
+line_set 「上等じゃない！」
+line_set 「行くわよ！」
+
+music_stop
+
+name_set 北条
+
+line_set 「なにをしてるのですか！」
+
+kgd_layer3_set 0 Kgd\Ho_003.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+music_play 15
+
+name_set 命
+
+line_set 「あ、主税・・・」
+
+name_set 北条
+
+line_set 「命さま、何故ここにいるのですか」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 命
+
+line_set 「・・・」
+line_set 「邪魔しないで！」
+line_set 「二重影は私が倒すわ」
+
+name_set 北条
+
+line_set 「命さま！」
+
+name_set 命
+
+line_set 「お兄さまはこの化け物に殺されたのよ！」
+line_set 「私が仇討ちをしなければ誰がするの」
+
+name_set 北条
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「仇討ちか・・・」
+line_set 「北条、いいじゃねぇかよ」
+line_set 「それによ・・・」
+line_set 「すでに、お前らの正体はばれているんだぜ」
+
+name_set 北条
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「十兵衛とは剣を交えた」
+line_set 「うわさ通りなかなかの腕だったぜ」
+
+name_set 北条
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「なんなら、まってやってもいいぜ」
+line_set 「お前とこの女じゃ心許ないだろ」
+line_set 「柳生十兵衛もつれてきたらどうだ？」
+line_set 「三人がかりなら俺を倒せるかもしれないぜ」
+
+name_set 北条
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「連れて来るもなにもなかったな・・・」
+
+name_set 北条
+
+line_set 「？」
+
+name_set 双厳
+
+line_set 「隠れてないで出てこいよ」
+line_set 「柳生十兵衛！」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer3_set 2 Kgd\Jy_007.kgd
+kgd_layer3_param 2 100 0 0 0 600 600
+kgd_layer3_display 2
+kgd_layer3_set 1 Kgd\Ho_003.kgd
+kgd_layer3_param 1 0 0 0 0 472 600
+kgd_layer3_display 1
+kgd_layer3_set 0 Kgd\Ay_002.kgd
+kgd_layer3_param 0 384 0 0 0 416 600
+kgd_layer3_display 0
+
+line_set 「・・・」
+line_set 「あんたも柳生の手の者だったのか」
+
+name_set 彩
+
+line_set 「ふふふ、そうね」
+line_set 「思ったより早くばれてしまったみたいね」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「さすがだな・・・」
+line_set 「俺の気配を察するとはな・・・」
+line_set 「さすがだな」
+
+name_set 双厳
+
+line_set 「お世辞はいいじゃねぇか」
+line_set 「それより昼間の続きといこうじゃないか」
+line_set 「決着がついてないぜ」
+
+name_set 十兵衛
+
+line_set 「お前は我ら柳生新陰流をなめているのか」
+line_set 「お前の剣が、愛洲陰流を継承しているとはいえ」
+line_set 「柳生新陰流とて、上泉信綱の新陰流から正式に印可を受けた柳生石舟斎がひらいたもの」
+line_set 「愛洲陰流にとて後れをとることはない」
+line_set 「柳生新陰流とてけっしてなめたもんじゃない」
+line_set 「まして、この人数で勝てると思うか」
+
+name_set 双厳
+
+line_set 「くくくく」
+line_set 「十兵衛」
+line_set 「なかなかどうして」
+line_set 「お前はすごい男だ」
+line_set 「天下の柳生新陰流を簡単に”なめたもんじゃない”と言うか」
+line_set 「くくくくくく」
+line_set 「逆説的な言いかただな・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「たしかに、お前ら柳生新陰流にくらべれば俺の陰の流こそ真に陰流の流れを汲む剣術だからな」
+line_set 「だから、お前も俺に興味をしめしたのだろう」
+
+name_set 十兵衛
+
+line_set 「上泉信綱以前の陰流に、陰流の裏の部、陰の部があるとは聞いていたがな」
+line_set 「やはりお前の剣は・・・」
+line_set 「・・・」
+line_set 「柳生新陰流は上泉の新陰流の流れをくむ」
+line_set 「さらに新陰流は愛洲陰流の流れをくむ」
+line_set 「つまり現存する陰流」
+line_set 「柳生新陰流、直心陰流、疋田陰流、タイ捨陰流」
+line_set 「その源流はすべて愛洲陰流にあるといえる」
+line_set 「その源流である愛洲陰流から新陰流に伝わらなかった部分も多くあるという」
+
+name_set 双厳
+
+line_set 「伝わらない？」
+line_set 「くくくく・・・」
+line_set 「伝えなかったの間違いじゃないのか？」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「お前もいったとおり」
+line_set 「上泉信綱以前の陰流に、陰流の裏の部、陰の部がある」
+line_set 「たしかに上泉がひらいた新陰流には、この陰の部はない」
+line_set 「しかし愛洲陰流の陰の部は上泉には伝わったと考えるのが妥当だ」
+line_set 「上泉は稀代の天才剣術家だ」
+line_set 「その上泉が愛洲陰流のすべてを受け継つげなかったとは考えにくい」
+line_set 「ならばなぜその後の陰流に陰の部がないのか？」
+line_set 「上泉はそれを伝えなかった」
+line_set 「と考えるのが妥当ではないか？」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「陰の部を受け継ぐ俺はそんな気がする」
+
+name_set 十兵衛
+
+line_set 「たしかにそのとおりだ・・・」
+line_set 「上泉伊勢守信綱公以後の陰流には陰の部はない」
+line_set 「それは信綱公が陰の部を邪道として退けたからだと伝わっている」
+line_set 「だから今となっては、陰流の陰の部も含む愛洲陰流そのものを伝える者は現代にはいない」
+line_set 「と思われていた」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「が、最近、その愛洲陰流を使う者がいるという情報を耳にした」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「それが二つ影双厳、お前だ・・・」
+
+name_set 双厳
+
+line_set 「くくくく」
+line_set 「お前らには陰流の源流を受け継ぐ者がさぞかしめずらしいだろ」
+line_set 「そして隠密家業で暮らしている江戸柳生にはさぞかし興味深いであろうな」
+
+nvl_on
+
+line_set 双厳と十兵衛の話は、北条、命にはさっぱり理解できないらしく、二人ともポカンとしている。
+
+nvl_line_clear
+
+line_set それはただ知らない話をしているから理解できないというより、
+line_set 信じがたい事を話しているからこそ理解できないという趣であった。
+
+nvl_line_clear
+
+line_set 上泉信綱の新陰流を継承し柳生石舟斎が柳生新陰流とした事は、
+line_set 柳生の者であれば知っていて当然であった。
+line_set さらに上泉信綱が愛洲元香斎から陰流を学び新陰流としたのも知っていた。
+
+nvl_line_clear
+
+line_set 問題は愛洲陰流に裏の部、陰の部があり、それを双厳が使っているという事であった。
+line_set さらに双厳がそれを正統な流れとして発言したことにある。
+line_set もしそれが正統であるとしたら現存する陰流はすべてが正統なものではないという事になる。
+line_set それは柳生新陰流だけでなく、新陰流までもがそうであるという事になる。
+
+nvl_line_clear
+
+line_set 十兵衛もそれに対して反論するでもなく認めるでもなく、ただ受け入れているという事がさらに、
+line_set 命や北条を困惑させた。
+
+nvl_line_clear
+
+line_set ただ彩だけが否定するわけでも肯定するわけでもなく二人のやりとりを見つめていた。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「しかしうぬぼれるな」
+line_set 「貴様がいくら陰流の裏、つまり陰流をやぶるための剣術である、陰の部を継承しているとはいえ」
+line_set 「現状はお前にとって不利以外のものではない」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「いま、お前は四人の柳生の剣士にかこまれている」
+line_set 「お前が勝つ見込みは万に一つもありえない」
+
+kgd_layer3_set 3 Kgd\Ay_008.kgd
+kgd_layer3_param 3 384 0 0 0 416 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 彩
+
+line_set 「か、陰流をやぶる陰の部？」
+
+name_set 北条
+
+line_set 「そ、そんなものが・・・」
+
+name_set 彩
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「勝ち目がない？」
+line_set 「くくくくく・・・」
+line_set 「そうか？」
+
+kgd_layer3_fadeout 0
+kgd_layer3_fadeout 1
+kgd_layer3_clear 0
+kgd_layer3_clear 1
+
+name_set 十兵衛
+
+line_set 「なにがおかしい」
+
+name_set 双厳
+
+line_set 「四人というが」
+line_set 「そこの二人はとても戦える状態ではなさそうだぞ」
+line_set 「どうやら、俺達の会話が相当ショックだったみたいだぜ」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「それに」
+line_set 「もしお前ら四人が総掛かりで俺に襲ったとしても」
+line_set 「おれは倒せないぜ」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「俺がその気になれば」
+line_set 「お前ら四人どころか」
+line_set 「その気になればこの島の人間をすべて残滅させる事だって出来るぜ」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「俺を誰だと思ってるんだよ・・・」
+line_set 「おれは二つ影双厳だぜ」
+line_set 「なぜ二つ影と名のっているか・・・」
+line_set 「情報通の柳生さんなら知っているだろ」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「この意味が分かるだろ」
+line_set 「幕府の隠密として情報を集めているお前なら」
+line_set 「俺が単なる陰の流れの使い手でないことぐらい」
+
+name_set 十兵衛
+
+line_set 「ふふふふふふふ」
+line_set 「二重影か？」
+
+name_set 双厳
+
+line_set 「そうだ」
+line_set 「お前らの手下を全滅させたアレだよ」
+line_set 「お前も見たのであろう」
+line_set 「あいつらの死体を・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 十兵衛と双厳が互いににらみ合ったまま立ちつくす。それが何分か続いたであろうか。
+line_set 先に動いたのは十兵衛であった。
+
+adv_on
+
+line_set 「双厳」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「もうお前なら俺の目的の半分は分かっているのだろう」
+
+name_set 双厳
+
+line_set 「陰の部」
+line_set 「それがほしいのであろう」
+line_set 「うわさによると」
+line_set 「石舟斎から江戸柳生に伝わらない秘伝書の多くが尾張柳生には伝わったというではないか」
+line_set 「それらすべての陰流をやぶる裏の技、陰の部がお前らには必要なのだろ」
+
+name_set 十兵衛
+
+line_set 「ふふふふふふ」
+line_set 「そうだ」
+
+name_set 双厳
+
+line_set 「残念ながら、お前らに教えてやる事は出来ない」
+line_set 「俺が失われたハズの愛洲陰流を受け継ぐのはそれなりの理由がある」
+line_set 「陰の部は、秘伝中の秘伝だ」
+line_set 「この剣術は人に伝えるべきモノではない」
+line_set 「これは人が使うべき剣術ではない」
+line_set 「愛洲陰流は俺を最後に封印する」
+line_set 「上泉がそうしたようにだ」
+
+name_set 十兵衛
+
+line_set 「ふふふふ」
+line_set 「そう話を急ぐな」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「もうお前から愛洲陰流を奪おうなどとは思わない」
+line_set 「お前を相手にしては命がいくつあっても足りなさそうだからな」
+
+name_set 双厳
+
+line_set 「ほう」
+line_set 「あきらめたのか」
+line_set 「なら早々にこの地より立ち退け」
+
+name_set 十兵衛
+
+line_set 「いや、俺らの目的はそれだけではない」
+line_set 「というか、お前の愛洲陰流は今回の目的の副産物でしかない」
+line_set 「この島に渡った目的・・・」
+line_set 「お前を襲った真の理由はそれではない」
+
+name_set 双厳
+
+line_set 「？」
+line_set 「真の目的だと？」
+line_set 「二重影である俺の抹殺か？」
+
+name_set 十兵衛
+
+line_set 「くくくくくく」
+line_set 「お前など殺したところで、柳生にも幕府にもなんの得にはならんよ」
+line_set 「お前がいくら二重影という化け物を抱えていて、それが何百人何千人殺したところで」
+line_set 「この太平の世は傾かないよ」
+
+name_set 双厳
+
+line_set 「ならば、なぜ俺を襲う」
+
+name_set 十兵衛
+
+line_set 「一つはお前の剣術を見ること」
+line_set 「つまり、愛洲陰流を見極める事だ」
+line_set 「この理由はお前はすべて知っているだろう」
+line_set 「重要なのはもう一つだ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「もう一つはお前の裏をさぐるためだ」
+
+name_set 双厳
+
+line_set 「裏？」
+
+name_set 十兵衛
+
+line_set 「そうだ」
+line_set 「お前の行動を裏で操っている者だ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「しかしそれは」
+line_set 「どうやら、勘違いだったらしい」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「その裏で操る者というのはなんだ」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「見たろ？」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「お前もこの島で見ただろ」
+
+name_set 双厳
+
+line_set 「なにをだ？」
+
+name_set 十兵衛
+
+line_set 「異形の者さ」
+line_set 「人でない者たちさ」
+
+nvl_on
+
+line_set 双厳の脳裏に、島で出会った異形の者の姿がよぎる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「お前はあれの正体を知っているのか？」
+
+name_set 十兵衛
+
+line_set 「だいたいな・・・」
+
+name_set 双厳
+
+line_set 「だいたい？」
+
+name_set 十兵衛
+
+line_set 「ああ、だいたいだ・・・」
+line_set 「柳生の隠密が調べた範囲ではな・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「あれはこの島のモノではない」
+line_set 「ある目的がありこの島に渡ってきた闇の軍団の一人だ」
+
+name_set 双厳
+
+line_set 「闇の軍団・・・」
+
+name_set 北条
+
+line_set 「十兵衛さま！」
+line_set 「このような輩にそのような最高機密を・・・」
+
+name_set 十兵衛
+
+line_set 「うるさいだまってろ！」
+line_set 「今、二つ影双厳と話をしているんだ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「その闇の軍団とは？」
+
+name_set 十兵衛
+
+line_set 「詳しくはいえない・・・」
+line_set 「だから闇の軍団とでも呼んでおこう」
+line_set 「とりあえず、お前も見た通り普通の人間じゃない」
+line_set 「そんな輩がこの島をウロウロしている」
+
+name_set 双厳
+
+line_set 「ウロウロ？」
+
+name_set 十兵衛
+
+line_set 「そうだ」
+line_set 「一人ではない、かなりの数の異形がこの島に潜伏している」
+
+name_set 双厳
+
+line_set 「なんの目的でだ」
+
+name_set 十兵衛
+
+line_set 「残念ながらそれは言えない」
+line_set 「幕府の最高機密だ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「まぁ、詳しくはいえないが」
+line_set 「そいつらの目的が幕府にとって都合がよくない」
+line_set 「これだけはいっておこうか」
+
+name_set 双厳
+
+line_set 「ほう」
+
+name_set 十兵衛
+
+line_set 「そうだ」
+line_set 「もの凄くよくないんだな、これが」
+line_set 「幕府が転覆するぐらい」
+line_set 「あ、やべ」
+line_set 「言っちゃいけない事言っちまった」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 十兵衛はわざと”転覆”などというショッキングな言葉を織り交ぜ、
+line_set 双厳の顔色をうかがいながら話を続ける。
+
+nvl_line_clear
+
+line_set が、双厳はまったくの無反応であった。
+
+adv_on
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「まぁ」
+line_set 「だから、ぜひこいつらの目的を潰さなければならない」
+line_set 「幕府の飼い犬である江戸柳生としてはな」
+
+name_set 双厳
+
+line_set 「それと俺を襲ったのが何の関係があるのだ」
+
+name_set 十兵衛
+
+line_set 「こいつらがこの島に渡ったのが、お前がこの島に渡る一ヶ月前だ・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「わかるだろ」
+line_set 「我々がその動きを探っているときに、二つ影双厳がこの地に来たんだ」
+line_set 「二つ影双厳・・・」
+line_set 「裏の世界ではまず知らないヤツがいないほどの大悪党だ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「このタイミングで二つ影双厳がこの島に渡れば・・・」
+line_set 「俺達でなくても何かあると思うだろ」
+
+name_set 双厳
+
+line_set 「俺がその化け物軍団の仲間と考えたわけか」
+
+name_set 十兵衛
+
+line_set 「お前の情報もかなり幕府の方に来てたからな」
+line_set 「二つの影がある殺人鬼として・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「ずっと俺の手下の隠密が探っていたのだが」
+line_set 「どうやらお前はこいつらと関係がないとわかったんでな」
+
+name_set 双厳
+
+line_set 「それで？」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「なにが言いたい？」
+line_set 「とっとと用件を話せ」
+line_set 「幕府の最高機密を、そこまでの事を話したんだ」
+line_set 「なにか俺に用事があるのだろ」
+
+name_set 十兵衛
+
+line_set 「話が早いな」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「俺達と組まないか？」
+
+name_set 双厳
+
+line_set 「断る」
+
+name_set 十兵衛
+
+line_set 「いやいや」
+line_set 「最後まで話を聞け」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「お前が二重影の呪いを解くために旅をしているのは既に知っている」
+line_set 「影がお前の体を乗っ取ろうとしているのだろう」
+line_set 「どうだ？」
+line_set 「あたっているだろ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「俺達柳生一族は日本中に情報網を張り巡らしている」
+line_set 「これをフル活用すればお前の呪いの謎くらいすぐに解けるだろう」
+line_set 「俺達と組めばお前の呪いを解いてやる」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「おもしろい話だな」
+
+name_set 十兵衛
+
+line_set 「そうだろ？」
+
+name_set 双厳
+
+line_set 「俺とその異形の化け物を戦わせて共倒れを狙っているわけか」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「疑い深いな」
+
+name_set 双厳
+
+line_set 「疑い深い？」
+line_set 「どこにそんな話信用するやつがいるかよ」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「とりあえず今日のところは引く」
+line_set 「だが、返答しだいでは」
+line_set 「柳生すべてを敵に回すことになるぞ」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「日本中どこにいても狙われるというものがどういうものか」
+line_set 「よく考えるんだな」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 十兵衛
+
+line_set 「おい命」
+
+kgd_layer3_fadeout 2
+kgd_layer3_clear 2
+kgd_layer1_set 1 Kgd\En_028.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+name_set 命
+
+line_set 「は、はい」
+
+name_set 十兵衛
+
+line_set 「そんなところに登ってないで早く降りろ！」
+
+name_set 命
+
+line_set 「は、はい」
+line_set 「お、降りたいのですけど・・・」
+
+name_set 十兵衛
+
+line_set 「どうした」
+
+name_set 命
+
+line_set 「高すぎて・・・」
+line_set 「降りられませ～ん・・・」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「北条！」
+
+name_set 北条
+
+line_set 「はい」
+
+name_set 十兵衛
+
+line_set 「命があそこから降りるの手伝ってやれ」
+
+name_set 北条
+
+line_set 「はい」
+
+name_set 十兵衛
+
+line_set 「それと・・・」
+line_set 「お前が命を見張っておけ」
+line_set 「勝手なまねはさせるな」
+
+name_set 北条
+
+line_set 「はい」
+
+kgd_layer1_set 1 Kgd\W_001.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Jy_007.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 十兵衛
+
+line_set 「双厳、良い返事を待っているぞ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「十兵衛」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「日本中どこにいても狙われる感覚・・・」
+line_set 「そんなものはいつでも感じてるぜ」
+line_set 「二重影の呪いはお前らが考える程やわなものじゃない・・・」
+line_set 「答えなど変わらんぞ」
+line_set 「いつでも殺しにこい」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_play 4
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ふう・・・」
+
+name_set イル
+
+line_set 「双厳さま・・・」
+
+name_set 双厳
+
+line_set 「イルか・・・」
+
+name_set スイ
+
+line_set 「双厳お兄ちゃんもみんなに化け物化け物といじめられているの？」
+
+name_set 双厳
+
+line_set 「ふっ」
+line_set 「いじめられているか・・・」
+
+name_set イル
+
+line_set 「双厳さま？」
+
+name_set 双厳
+
+line_set 「安心しろ、たしかに俺は化け物だがいじめられてなどいない」
+
+name_set スイ
+
+line_set 「お兄ちゃんは化け物なんかじゃないよ！」
+line_set 「お兄ちゃんはいい人だよ！」
+
+name_set 双厳
+
+line_set 「ふふふふ、スイ」
+line_set 「お前俺の姿なんて見てないだろ」
+line_set 「もしかしたらとんでもない化け物かもしれないぞ」
+
+name_set スイ
+
+line_set 「違うもん」
+line_set 「お兄ちゃんは化け物じゃないよ」
+
+name_set イル
+
+line_set 「スイちゃん・・・」
+
+name_set スイ
+
+line_set 「だって、そうなんだもん！」
+line_set 「お兄ちゃんが」
+line_set 「お兄ちゃんがどんな姿形でも」
+line_set 「お兄ちゃんは化け物なんかじゃないよ！」
+line_set 「だって、だって」
+line_set 「シク、シク」
+
+name_set イル
+
+line_set 「スイちゃん・・・」
+
+name_set スイ
+
+line_set 「だって、みんなで双厳お兄ちゃんの事を・・・」
+line_set 「ひどいよ・・・」
+line_set 「うえ～ん」
+
+name_set イル
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set イル
+
+line_set 「ごめんなさい」
+line_set 「スイちゃんが取り乱してしまって・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+line_set 「・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+line_set 「何度もいいません」
+line_set 「ここには近づかないでください」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ああ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_set 1 Kgd\B_039.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+music_play 15
+
+line_set 「ふう・・・」
+
+nvl_on
+
+line_set 双厳はイルやスイの事を考えていた。
+line_set あの少女達もやはり異物として人々に恐れられていたのだろうか・・・。
+
+adv_on
+
+line_set 「それにしても・・・」
+
+nvl_on
+
+line_set 双厳は一つ引っかかっていた。
+line_set どうやらこの島で生まれた者はすべてが双子でありその片方がかならず殺されるのは真実であるようだ。
+line_set なら、何故イルやスイは殺されないのか？
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳が部屋で考えに耽っていると、
+line_set 別の部屋から大声が聞こえてくる。
+
+adv_on
+
+line_set 「・・・」
+line_set 「今日きた連中か・・・」
+
+nvl_on
+
+line_set どうやら、今日きた連中は宴会を開いているようだ。
+
+adv_on
+
+line_set 「にぎやかだな・・・」
+
+nvl_on
+
+line_set 双厳は考えるのを中断して寝入る事にした。
+
+adv_on
+
+line_set 「・・・」
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+nvl_on
+
+line_set 双厳が寝息を立て始めて数時たったのであろうか？
+
+nvl_line_clear
+
+line_set 双厳は廊下から人の気配を感じて目を覚ます。
+line_set 長い間狙われ続けている双厳には賊の寝込みを襲う手段すら叶わない。
+
+nvl_line_clear
+
+line_set 双厳はそのまま起きずに布団の中でジッとする。
+line_set それは危険な行為であったが、何者が潜んでいるか双厳には興味があった。
+
+nvl_line_clear
+
+line_set 「誰だ・・・」
+
+nvl_line_clear
+
+line_set 双厳の部屋に誰か入ってくる。
+
+nvl_line_clear
+
+line_set 「あれは？」
+
+nvl_line_clear
+
+line_set そこには美しい女性が立っていた。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「誰だ・・・」
+line_set 「見たことがないぞ・・・・・」
+
+nvl_line_clear
+
+line_set 何の目的であろうか？
+line_set 美しい女性はそのまま双厳のほうに近づく。
+
+nvl_line_clear
+
+line_set 「どうする・・・」
+line_set 「このままだと危ない・・・」
+
+adv_on
+
+jump_choice 14 ◆起きる
+jump_choice 15 ◆起きない
+@14
+
+name_set 双厳
+
+line_set 「誰だ！」
+
+nvl_on
+
+line_set 双厳はすぐに飛び起きる。
+
+adv_on
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 Kgd\Ho_009.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+name_set 女
+
+line_set 「あっ・・・」
+line_set 「す、すみません・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「誰だ？てめぇは・・・」
+
+name_set 女
+
+line_set 「・・・」
+line_set 「あ、あの・・・」
+line_set 「私、阿波路に使えている者でして・・・」
+line_set 「それで・・・」
+line_set 「当主の命令で・・・」
+line_set 「その・・・」
+
+nvl_on
+
+line_set 「阿波路の命令だと・・・」
+line_set 「ということは・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「帰れ・・・」
+
+name_set 女
+
+line_set 「え？」
+
+name_set 双厳
+
+line_set 「俺は今、そんな気分ではない」
+line_set 「とっと失せろ・・・」
+line_set 「それと志乃に伝えておけ」
+line_set 「以後このような事は不要と・・・」
+
+name_set 女
+
+line_set 「そ、そう言う訳には・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「なんだこいつ・・・」
+line_set 「こいつ胸元になにか隠していやがる・・・」
+line_set 「あれは・・・」
+
+adv_on
+
+name_set 女
+
+line_set 「私、このままでは帰れません・・・」
+
+name_set 双厳
+
+line_set 「このままでは帰れぬ？」
+line_set 「ほう・・・」
+line_set 「手ぶらでは帰れぬという事か？」
+
+name_set 女
+
+line_set 「え？」
+
+name_set 双厳
+
+line_set 「俺の首無しでは帰れないのか？」
+
+name_set 女
+
+line_set 「ちっ！」
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 女は胸元に隠してあった短刀に手をかける。
+line_set どうやら、双厳の首を狙う刺客であった。
+
+adv_on
+
+jump_choice 16 ◆受け流す
+@16
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 Kgd\Ho_009.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 襲いかかる短刀を手早く捌く双厳。
+line_set 短刀は簡単に女の手から落ちる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「てめぇ何者だ・・・」
+
+name_set 女
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「だんまりが決め込めるほど世の中甘くはないぜ」
+
+name_set 女
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「そうかい」
+line_set 「なら死ね！！」
+
+name_set 女
+
+line_set 「？！」
+
+nvl_on
+
+line_set 突如奪った短刀を女に投げつける。
+
+adv_on
+
+name_clear
+
+line_set ドッ！！
+
+name_set 女
+
+line_set 「あ・・・」
+
+nvl_on
+
+line_set それは頬をかすめ、壁に突き刺さる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「てめぇ・・・見たことがあるな・・・」
+
+nvl_on
+
+line_set 双厳はこの女性を見たことがあるのに気がつく。
+line_set それは・・・意外な人物であった。
+
+adv_on
+
+pis_set 13 0
+
+line_set 「くくく・・・」
+line_set 「<0,くの一の術>か・・・」
+
+name_set 女
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「うまく化けたな・・・」
+line_set 「北条・・・」
+
+name_set 北条
+
+line_set 「・・・」
+line_set 「殺してください・・・」
+
+name_set 双厳
+
+line_set 「ほう・・・」
+line_set 「いい心構えだ・・・」
+line_set 「と、いいたいところだが・・・」
+line_set 「短刀が頬をかすった程度でビビるようなヤツは剣士とはみとめられねぇな・・・」
+
+name_set 北条
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「帰れ・・・」
+line_set 「目障りだ・・・」
+
+name_set 北条
+
+line_set 「・・・」
+line_set 「殺す価値もないと・・・」
+line_set 「そう仰るのですか・・・」
+
+name_set 双厳
+
+line_set 「ああ・・・そうだ」
+
+name_set 北条
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 北条がうつむく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「殺してほしければ」
+line_set 「女装で寝込みなどおそわず、堂々と立ち会え」
+line_set 「それができないようなヤツを斬れぬわ、我が愛刀九字兼定につまらぬ曇りが生じる・・・」
+
+name_set 北条
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 北条はそのまま出ていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「十兵衛の差し金か？」
+line_set 「・・・」
+line_set 「どちらにしてもあいつらを信用する事はできないな・・・」
+line_set 「この島でも枕を高くしては寝れないようだな」
+
+nvl_on
+
+line_set 双厳は布団にはいらずに畳の上で横になる。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「迷惑な話だな・・・」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・・・」
+line_set 「・・・・・・・・・・」
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+jump_auto 17
+@15
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 Kgd\Ho_009.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 双厳はそのままじっとする。
+
+nvl_line_clear
+
+line_set 「こいつ・・・」
+line_set 「見たことがある・・・」
+
+nvl_line_clear
+
+line_set 双厳はたしかにこの女性を知っていた。
+
+nvl_line_clear
+
+line_set 「こいつは・・・」
+
+nvl_line_clear
+
+line_set もしその人物と全く面識がなければ流石の双厳すらそれが男であることを見抜けなかったであろう。
+
+nvl_line_clear
+
+line_set その美しい女性の正体は北条であった。
+
+nvl_line_clear
+
+line_set 「寝込みを襲いにきたか・・・」
+line_set 「しかし女装までするとは手の込んだ事を・・・」
+
+nvl_line_clear
+
+line_set 双厳はそのまま気がつかないふりをして寝続ける。
+line_set 北条は双厳の枕元にたつ。
+
+adv_on
+
+name_set 双厳
+
+line_set 「なんの用だ？」
+line_set 「嬢ちゃん」
+
+name_set 北条
+
+line_set 「え？」
+
+name_set 双厳
+
+line_set 「こんな夜遅くに・・・」
+line_set 「俺を殺しにきたのか？」
+
+name_set 北条
+
+line_set 「い、いいえ違います！！」
+
+name_set 双厳
+
+line_set 「くくく・・・」
+
+nvl_on
+
+line_set 双厳は北条だと気がつかないふりをする。
+
+adv_on
+
+line_set 「くくく・・・」
+line_set 「ウソを言っても無駄だ・・・」
+line_set 「てめぇ、俺の寝込みを襲いにきたのであろう」
+
+name_set 北条
+
+line_set 「ち、違います・・・」
+
+name_set 双厳
+
+line_set 「違わねぇだろ・・・」
+
+name_set 北条
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「だったらてめぇは誰だよ？」
+line_set 「てめぇみたいな女、見たことないぜ」
+
+nvl_on
+
+line_set 双厳はわざと気がつかないふりをする。
+
+adv_on
+
+name_set 北条
+
+line_set 「・・・」
+line_set 「あ、あの・・・」
+line_set 「私、阿波路に使えている者でして・・・」
+line_set 「それで・・・」
+line_set 「当主の命令で・・・」
+line_set 「その・・・」
+line_set 「だ、抱いていただきたくて・・・」
+
+name_set 双厳
+
+line_set 「ほう・・・」
+line_set 「最近、紗枝があらわれないと思ったら貴様が新しい夜伽の女か・・・」
+
+name_set 北条
+
+line_set 「えっ？あ、はい・・・」
+
+name_set 双厳
+
+line_set 「なら・・・」
+
+nvl_on
+
+line_set 双厳は布団をはずし下半身を指さす。
+
+adv_on
+
+name_set 北条
+
+line_set 「そ、双厳さま・・・」
+
+name_set 双厳
+
+line_set 「抱かれたいんだろ・・・」
+line_set 「とりあえずここにあるものに奉仕してくれよ」
+
+name_set 北条
+
+line_set 「えっ？」
+line_set 「奉仕って・・・」
+
+name_set 双厳
+
+line_set 「俺のチ○コをくわえろって言ってるんだよ」
+
+name_set 北条
+
+line_set 「！！！！！！」
+
+name_set 双厳
+
+line_set 「どうした？」
+line_set 「できないのか？」
+line_set 「てめぇはそのために来たんじゃねぇのか？」
+
+name_set 北条
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 真っ赤になる北条。
+line_set 当たり前である。
+line_set いくらなんでもそんな事などできないであろう。
+line_set 男のものをくわえるのである。
+
+adv_on
+
+name_set 双厳
+
+line_set 「おや？」
+line_set 「できないのか？」
+
+name_set 北条
+
+line_set 「・・・」
+line_set 「い、いいえ・・・」
+line_set 「ご奉仕させていただきます」
+
+nvl_on
+
+line_set すべてをあきらめた北条は双厳の下半身の方に体を移動させる。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_fade_unk 0
+
+music_stop
+
+gallery_unlock 105
+
+ksd_set Ksd\105.ksd
+
+jump_branch2 37627 285
+
+nvl_on
+
+line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+adv_on
+
+game_over
+@17
+!285
+
+music_stop
+
+ksd_set Ksd\017.ksd
+ksd_end

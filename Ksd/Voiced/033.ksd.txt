@@ -1,0 +1,810 @@
+
+music_play 8
+
+jump_auto 0
+@5
+
+kgd_layer2_set 1 Kgd\B_003.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+section_jump_branch1 226
+
+nvl_on
+
+line_set 楓玲はいない・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「楓玲！！！！」
+@4
+
+jump_choice 1 ◆登る
+jump_choice 2 ◆山道へ移動
+@1
+
+kgd_layer1_set 1 Kgd\Be_010.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+section_jump_branch1 227
+
+nvl_on
+
+line_set 双厳は大岩の上に登る。
+
+adv_on
+
+name_set 双厳
+
+line_set 「楓玲！！！」
+
+nvl_on
+
+line_set 岩から叫ぶ双厳、
+line_set しかし返事はない。
+
+adv_on
+
+jump_choice 3 ◆降りる
+@3
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 4
+@2
+@10
+@13
+
+kgd_layer2_set 1 Kgd\B_015.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 228
+
+nvl_on
+
+line_set 山道を駆けながら双厳は楓玲の名前を呼び続ける。
+
+adv_on
+
+name_set 双厳
+
+line_set 「楓玲！！」
+line_set 「楓玲！！！！！」
+
+jump_choice 5 ◆大岩へ移動
+jump_choice 6 ◆森林へ移動
+jump_choice 7 ◆屋敷前へ移動
+@11
+@22
+
+kgd_layer2_set 1 Kgd\B_043.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 229
+
+nvl_on
+
+line_set 双厳はひたすら走る。
+
+adv_on
+
+name_set 双厳
+
+line_set 「楓玲！」
+line_set 「楓玲いないか！！！！」
+
+jump_choice 8 ◆屋敷前へ移動
+jump_choice 9 ◆村へ移動
+@7
+@8
+
+kgd_layer2_set 1 Kgd\B_035.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@0
+
+section_jump_branch1 19
+section_jump_branch1 230
+
+nvl_on
+
+line_set 楓玲はいない。
+
+adv_on
+
+jump_choice 10 ◆山道へ移動
+jump_choice 11 ◆村への道へ移動
+@6
+@17
+
+kgd_layer2_set 1 Kgd\B_019.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 231
+
+name_set 双厳
+
+line_set 「楓玲！！」
+line_set 「いないのか！！！！」
+
+nvl_on
+
+line_set 森に双厳の声だけがこだまする。
+
+adv_on
+
+jump_choice 12 ◆遺跡へ移動
+jump_choice 13 ◆山道へ移動
+@20
+@31
+
+kgd_layer2_set 1 Kgd\B_055.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 232
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「あの異形はもう消えたのか・・・」
+line_set 「くそ！！！」
+
+nvl_on
+
+line_set 双厳はすぐに走り出した。
+
+adv_on
+
+jump_choice 14 ◆遺跡へ移動
+jump_choice 15 ◆海岸へ移動
+@12
+
+kgd_layer2_set 1 Kgd\B_023.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 233
+
+name_set 双厳
+
+line_set 「楓玲いないのか？」
+line_set 「楓玲！！！！」
+@18
+
+jump_choice 16 ◆遺跡の中を調べる
+jump_choice 17 ◆森林へ移動
+@16
+
+section_jump_branch1 234
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+nvl_on
+
+line_set 遺跡の内部は完全な暗闇の中にあった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「楓玲！」
+line_set 「楓玲いないのか！！！」
+
+nvl_on
+
+line_set 双厳の呼びかけに答えるものはいない。
+
+adv_on
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+jump_auto 18
+@14
+
+kgd_layer2_set 1 Kgd\B_059.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 235
+
+name_set 双厳
+
+line_set 「楓玲いないのか？」
+line_set 「楓玲！！！！」
+@21
+
+jump_choice 19 ◆遺跡の中を調べる
+jump_choice 20 ◆森林へ移動
+@19
+
+kgd_layer1_fx 0
+kgd_layer1_blackout
+kgd_layer2_clear
+
+section_jump_branch1 236
+
+nvl_on
+
+line_set 遺跡の内部は完全な暗闇の中にあった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「楓玲！」
+line_set 「楓玲いないのか！！！」
+
+nvl_on
+
+line_set 双厳の呼びかけに答えるものはいない。
+
+adv_on
+
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+jump_auto 21
+@9
+@25
+@28
+
+kgd_layer2_set 1 Kgd\B_047.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+section_jump_branch1 237
+
+name_set 双厳
+
+line_set 「楓玲！！」
+
+nvl_on
+
+line_set 誰もいない集落を双厳は楓玲の名前を呼びながら走っていく。
+
+adv_on
+
+jump_choice 22 ◆屋敷前への道へ移動
+jump_choice 23 ◆海岸へ移動
+jump_choice 24 ◆港へ移動
+@24
+@29
+
+kgd_layer2_set 1 Kgd\B_063.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 238
+
+nvl_on
+
+line_set ここにも楓玲はいない。
+
+adv_on
+
+jump_choice 25 ◆村へ移動
+jump_choice 26 ◆海岸へ移動
+@15
+@23
+@26
+@32
+
+kgd_layer2_set 1 Kgd\B_051.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 2209 226
+jump_branch2 2209 227
+jump_branch2 2209 228
+jump_branch2 2209 229
+jump_branch2 2209 230
+jump_branch2 2209 231
+jump_branch2 2209 232
+jump_branch2 2209 233
+jump_branch2 2209 234
+jump_branch2 2209 235
+jump_branch2 2209 236
+jump_branch2 2209 237
+jump_branch2 2209 238
+jump_branch2 2209 239
+jump_branch2 2209 240
+jump_auto 27
+!226
+!227
+!228
+!229
+!230
+!231
+!232
+!233
+!234
+!235
+!236
+!237
+!238
+!239
+!240
+
+section_jump_branch1 239
+
+nvl_on
+
+line_set 双厳は海岸線を走っていく。
+
+adv_on
+
+name_set 双厳
+
+line_set 「楓玲！！」
+line_set 「いないのか！！！！！」
+
+nvl_on
+
+line_set 双厳の声は、すぐに波の音によってかき消されてしまう。
+
+adv_on
+
+line_set 「楓玲！！！」
+line_set 「楓玲！！！！！！！！」
+
+nvl_on
+
+line_set 双厳は波に声がかき消されないように、声をだし続ける。
+
+adv_on
+
+jump_choice 28 ◆村へ移動
+jump_choice 29 ◆港へ移動
+jump_choice 30 ◆物見やぐらへ移動
+jump_choice 31 ◆森林へ移動
+@30
+
+kgd_layer2_set 1 Kgd\B_067.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 240
+
+nvl_on
+
+line_set 双厳は物見やぐらまで来た。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「楓玲・・・」
+
+jump_choice 32 ◆海岸へ移動
+@27
+
+music_play 11
+
+nvl_on
+
+line_set すでに空が紫に変わっていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「夜明けか・・・」
+
+name_clear
+
+line_set ドサ！！！
+
+nvl_on
+
+line_set 双厳はその場に崩れるように倒れた・・・・。
+
+nvl_line_clear
+
+line_set 「なんてこった・・・」
+line_set 「北条、彩に続き・・・」
+line_set 「楓玲まで守る事ができなかったのか・・・」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「俺は・・・」
+
+nvl_line_clear
+
+line_set 双厳は一晩中島を走り回った疲れが、朝日を見ることによりどっと出た。
+line_set 朝日が昇る事は、すべてが終わった事を意味するからである。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「もう楓玲は・・・」
+line_set 「死んでいるのであろう・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「帰るか・・・」
+
+nvl_on
+
+line_set 双厳は屋敷に向かい歩き出す。
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_031.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+kgd_layer3_set 1 Kgd\Jy_007.kgd
+kgd_layer3_param 1 100 0 0 0 600 600
+kgd_layer3_display 1
+
+name_set 双厳
+
+line_set 「じゅ、十兵衛？」
+line_set 「お前生きてたのか？」
+
+name_set 十兵衛
+
+line_set 「当たり前だろうが・・・」
+line_set 「なんで俺が死ななければならないんだ」
+
+name_set 双厳
+
+line_set 「だってお前・・・」
+line_set 「かなりの深手であったではないか」
+
+name_set 十兵衛
+
+line_set 「深手？」
+line_set 「なんだそりゃ？」
+line_set 「無傷とは流石にいかないかったが」
+line_set 「そんな致命傷になるような傷は受けてはいないぞ」
+
+name_set 双厳
+
+line_set 「だってお前・・・」
+line_set 「あんなに血が・・・」
+
+name_set 十兵衛
+
+line_set 「血？」
+line_set 「なにいってるんだお前・・・」
+
+name_set 双厳
+
+line_set 「なにって・・・」
+
+name_set 十兵衛
+
+line_set 「阿呆が」
+line_set 「あれだけの異形を斬ったんだ」
+line_set 「返り血を浴びて当然だろうが」
+
+name_set 双厳
+
+line_set 「か、返り血？？」
+line_set 「あれは返り血だったのか？」
+
+name_set 十兵衛
+
+line_set 「返り血と致命傷の見分けもつかないで、お前よくそれで今まで生きてこれたな」
+
+name_set 双厳
+
+line_set 「う、うるせい・・・」
+line_set 「て、てめぇが死にそうな声だすからだろ！」
+
+name_set 十兵衛
+
+line_set 「だから疲れただけだって言っただろ！」
+line_set 「疲れて声が出なかったんだよ！！」
+
+name_set 双厳
+
+line_set 「疲れただと？」
+line_set 「はぁ・・・」
+line_set 「これだから爺は・・・」
+
+kgd_layer3_set 3 Kgd\Jy_006.kgd
+kgd_layer3_param 3 100 0 0 0 600 600
+kgd_layer3_crossfade 1
+kgd_layer2_blit 1 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「てめぇ！」
+line_set 「俺の事爺呼ばわりしたな！」
+line_set 「あんまりお前と大差ないだろ！！」
+
+name_set 双厳
+
+line_set 「俺はまだ二十代だ」
+line_set 「てめぇなんぞ三十代だろうが！」
+
+name_set 十兵衛
+
+line_set 「てめぇだってあと少しで三十だろうが！」
+
+name_set 双厳
+
+line_set 「まだ三十ではない」
+line_set 「お前はすでに三十すぎだ！」
+
+name_set 十兵衛
+
+line_set 「んだと！！！！！」
+
+name_set 命
+
+sfx_set 2 Vox\4099.wav
+sfx_play 2
+
+line_set 「二人とも静かにしてください！！！！」
+
+sfx_stop 2
+
+kgd_layer3_param 1 0 0 0 0 600 600
+kgd_layer3_set 3 Kgd\Jy_007.kgd
+kgd_layer3_param 3 0 0 0 0 600 600
+kgd_layer3_crossfade 1
+kgd_layer2_blit 1 3
+kgd_layer3_clear 3
+kgd_layer3_set 0 Kgd\Mi_025.kgd
+kgd_layer3_param 0 304 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 十兵衛
+
+line_set 「み、命・・・」
+
+name_set 双厳
+
+line_set 「命・・・」
+
+name_set 命
+
+sfx_set 2 Vox\4098.wav
+sfx_play 2
+
+line_set 「なに二人とも子供みたいに喧嘩してるんですか！」
+
+sfx_stop 2
+sfx_set 2 Vox\4097.wav
+sfx_play 2
+
+line_set 「そんなにうるさいと楓玲さんが目を覚ますでしょ！！！」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「楓玲？！」
+line_set 「楓玲が生きているのか？」
+
+name_set 十兵衛
+
+line_set 「ああ・・・」
+line_set 「いま大広間で寝かせている」
+
+name_set 双厳
+
+line_set 「な、なぜ・・・」
+line_set 「なぜ楓玲は助かった？」
+
+name_set 十兵衛
+
+line_set 「それはわからん・・・」
+line_set 「呪いが解けたのか・・・」
+line_set 「俺達の予想が外れたのか・・・」
+line_set 「それとも何かあるのか・・・」
+line_set 「全然わからない・・・」
+
+kgd_layer3_set 3 Kgd\Mi_020.kgd
+kgd_layer3_param 3 304 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4096.wav
+sfx_play 2
+
+line_set 「楓玲さん、天井裏に隠れていたのよ」
+
+sfx_stop 2
+sfx_set 2 Vox\4095.wav
+sfx_play 2
+
+line_set 「見つけた時は泣き疲れてすでに寝てたけどね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 命が双厳に笑いながら話しかける。
+
+adv_on
+
+name_set 双厳
+
+line_set 「天井裏？？？？」
+line_set 「あいつは猫か？」
+
+kgd_layer3_set 3 Kgd\Mi_022.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4094.wav
+sfx_play 2
+
+line_set 「ふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4093.wav
+sfx_play 2
+
+line_set 「そうとう怖かったんでしょうね」
+
+sfx_stop 2
+sfx_set 2 Vox\4092.wav
+sfx_play 2
+
+line_set 「もしかしたら天井裏に隠れてたから異形も楓玲さんをみつけられなかったのかも」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そんなわけはあるまい」
+
+name_set 十兵衛
+
+line_set 「まぁ、とりあえず嬢ちゃんは助かったみたいだ」
+line_set 「よかったな」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+
+name_set 命
+
+sfx_set 2 Vox\4091.wav
+sfx_play 2
+
+line_set 「二つ影、楓玲さんの顔みておく？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_fadeout 1
+kgd_layer3_clear 0
+kgd_layer3_clear 1
+kgd_layer2_set 1 Kgd\B_011.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 大広間の真ん中で楓玲は寝かされている。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_065.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_fade_unk 0
+
+music_play 5
+
+name_set 双厳
+
+line_set 「いい気なモンだな・・・」
+
+name_set 十兵衛
+
+line_set 「まったく、人騒がせなお嬢ちゃんだ・・・」
+
+name_set 命
+
+sfx_set 2 Vox\4090.wav
+sfx_play 2
+
+line_set 「仕方ありませんよ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4089.wav
+sfx_play 2
+
+line_set 「やっぱり怖かったと思いますし」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「しかし、これであの異形・・・・」
+line_set 「現れたのに、なぜ楓玲を殺さなかったんだ？」
+
+name_set 十兵衛
+
+line_set 「・・・」
+line_set 「もしかしたら、呪いが解けたのかもしれない」
+
+name_set 双厳
+
+line_set 「どうだかな」
+line_set 「だが、何とかなったのは確かみてぇだ」
+
+name_set 十兵衛
+
+line_set 「ああ」
+
+nvl_on
+
+line_set 朝焼けの陽がすっかりのぼっている。
+line_set もう異形が楓玲を襲う事はないと思われる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 双厳らにとっては、なぜ坊主が楓玲を狙いに来なかったのか分からない。
+line_set それでもこうして乗り切った事は、双厳たちに安堵の息をもたらすものだった。
+
+adv_on
+
+music_stop
+
+ksd_set Ksd\034.ksd
+ksd_end

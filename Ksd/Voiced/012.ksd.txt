@@ -1,0 +1,795 @@
+
+wait 2000
+
+kgd_layer2_set 0 Kgd\B_038.kgd
+kgd_layer2_crossfade 2
+kgd_layer2_display
+
+jump_auto 0
+@10
+@28
+@29
+
+kgd_layer2_set 1 Kgd\B_046.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 4335 52
+
+section_jump_branch1 52
+
+nvl_on
+
+line_set 村の入り口にさしかかる。
+line_set いつもと様子が少し違う。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「めずらしいな・・・」
+line_set 「いつもまったく人の気配がしないのに・・・」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・」
+line_set 「たしかに人の気配がする」
+line_set 「あっちか・・・」
+
+nvl_line_clear
+
+line_set 双厳は村の中心の辻までさしかかる。
+
+nvl_line_clear
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set そこには村人が数人集まって、なにか話し合っているようである。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「なんか深刻そうな話だな・・・」
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_084.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 1 ◆近づいて聞いてみる
+jump_choice 2 ◆隠れて近くまで寄ってみる
+@1
+
+nvl_on
+
+line_set 双厳はそのまま足を村人が集まる辻に向けた。
+line_set すると・・・。
+
+adv_on
+
+name_set 村人
+
+line_set 「だから、あの浮浪者・・・」
+line_set 「つかまえて・・・」
+
+nvl_on
+
+line_set 「浮浪者・・・」
+line_set 「あの海岸にいたやつか・・・」
+
+adv_on
+
+line_set 「シッ」
+line_set 「お侍さんだ・・・」
+line_set 「聞かれる・・・」
+
+nvl_on
+
+line_set 双厳があるていど近づくと村人達は話をやめた。
+line_set そうとう村の人間以外に話しを聞かれたくないのだろう。
+
+adv_on
+
+line_set 「散ろう・・・」
+
+kgd_layer2_set 1 Kgd\B_046.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+nvl_on
+
+line_set 村人達はすぐに各家に散らばっていった。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+
+jump_auto 3
+@2
+
+nvl_on
+
+line_set 双厳は気配を消し村人に近づく。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「８、９人ほどか・・・」
+
+nvl_line_clear
+
+line_set 村人は確認出来るかぎり９人、若者から老人までその取り合わせはまちまちだ。
+line_set 小さい村である、
+line_set たぶんこの島の主要な男はほとんど集まっているのではないのだろうか。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「あれは・・・」
+
+nvl_line_clear
+
+line_set よくみると村人達は、各々に棒や鎌などの獲物を手にしている。
+line_set それでいながら稲刈りなどの仕事をするという雰囲気ではなかった。
+
+nvl_line_clear
+
+line_set 「殺気だっている・・・」
+
+nvl_line_clear
+
+line_set 顔の表情、獲物を握る手、身体の動き、村人から伝わるそれは、まるでいくさ前のそれであった。
+
+nvl_line_clear
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set 双厳は村人から数メートルのところで身を潜めた。
+line_set 聞き耳をたてる双厳。
+line_set 村人の声が双厳の耳に入る。
+
+adv_on
+
+pis_set 28 0
+
+name_set 村人達
+
+line_set 「外部の者が多く来すぎだ」
+line_set 「ここ何百年でも、こんなに多く人間が来た事はないハズだ・・・」
+line_set 「しかもこんな時期に・・・」
+line_set 「６０年周期にあたる白の土気か」
+line_set 「灼は出ている」
+line_set 「まちがいない」
+line_set 「しかもこんなにはっきりと灼がでる事など何百年に一度あるかどうか・・・」
+line_set 「当主さまはなにを考えているのか・・・」
+line_set 「<0,祭り>も近いというのに」
+
+name_set 村人達
+
+line_set 「今年の淡島祭は・・・」
+line_set 「たぶん出るだろう」
+line_set 「淡島があらわれますかね」
+line_set 「言い伝え通りの事が起きている」
+line_set 「今回のは、かなり蓋が揺らぐだろう」
+line_set 「ならば・・・」
+line_set 「そうじゃろう」
+line_set 「淡島祭の間は何人も外には出てはいかんだろう」
+line_set 「そうじゃ、そうでなければ死者どもに身体を奪われかねんぞ」
+line_set 「しかし、今年の淡島祭は外部の人間がかなり島に居続けるでしょう」
+line_set 「その人間達をどうするか・・・」
+line_set 「祭りの前に皆殺しにするのは・・・」
+line_set 「無理だろう・・・」
+line_set 「相手は武芸者だ、一人二人なら可能だが、あの人数ともなると・・・」
+line_set 「それに・・・」
+line_set 「人間だけでなく、かなりの数の異形の者もこの島に入り込んでいるようじゃ」
+
+nvl_on
+
+line_set 「人間以外？異形？」
+
+adv_on
+
+name_set 村人
+
+line_set 「いったいどうなっているんじゃ」
+line_set 「祭り中に外をうろつかれてはたまらん」
+line_set 「せめて、当主さまにお願いして祭りの間だけでも、あの侍達を屋敷に・・・」
+line_set 「なにが当主さまだ」
+line_set 「あいつは所詮外部の者だ」
+line_set 「何考えてるか分かったものじゃない」
+line_set 「海賊の被害など」
+line_set 「あいつが自作自演したものじゃないのか？」
+line_set 「シッ」
+line_set 「めったな事は言うな」
+line_set 「今の当主が誰であれ、我々岩の守部は代々阿波路家に仕えるのが定め」
+line_set 「信じるしかあるまい」
+line_set 「しかし・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「海賊被害が自作自演？」
+line_set 「志乃は島の住人からそのように思われているのか」
+line_set 「それにしても・・・」
+line_set 「なにか、この島で行われる祭りの事を話しているらしいが」
+line_set 「内容がさっぱりわからない」
+
+adv_on
+
+pis_set 27 0
+
+name_set 村人
+
+line_set 「あの侍ども、はたして祭りの間に外にでないという禁忌をまもれるか？」
+line_set 「無理矢理閉じこめるというのは・・・」
+line_set 「いや危険は避けたい」
+line_set 「まず、当主さまにお願いして侍どもを祭りの期間外にださないようにするという事で・・・」
+line_set 「そうですな」
+line_set 「それより・・・」
+line_set 「この島に流れ着いた浮浪者だが・・・」
+line_set 「あれは始末しよう」
+line_set 「元々島に流れ着いたモノはすべて島の住民のモノとなるのがしきたり」
+line_set 「殺すのは問題ないでしょう」
+line_set 「そうですな」
+line_set 「生きている人間などでなく<0,エビス>であったらよかったのですがね・・・」
+
+nvl_on
+
+line_set 「こいつら、海岸にいた浮浪者を殺す気らしいな」
+line_set 「物騒な連中だぜ・・・」
+
+adv_on
+
+kgd_layer2_set 1 Kgd\B_046.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@3
+#52_0
+
+jump_choice 4 ◆屋敷前への道へ移動
+jump_choice 5 ◆海岸へ移動
+jump_choice 6 ◆港へ移動
+@15
+
+kgd_layer2_set 1 Kgd\B_002.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+jump_branch1 7260 53
+jump_branch2 7260 52
+
+section_jump_branch1 53
+
+nvl_on
+
+line_set あの浮浪者がいる。
+line_set 双厳が山の頂上に近づくとすぐに気がついたらしく、こちらに向かって走ってくる。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Jy_012.kgd
+kgd_layer3_param 0 120 0 0 0 560 600
+kgd_layer3_display 0
+
+name_set 浮浪者
+
+line_set 「こりゃ、どうも先ほどのお侍さん」
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「島の連中がこの浮浪者の命を狙っている・・・」
+line_set 「それをこいつに教えるべきかどうか・・・」
+
+nvl_line_clear
+
+line_set 双厳は悩んでいた。
+line_set 教える事によりこの浮浪者が島の住人から逃げまわる事によって、双厳の行動の邪魔になりはしないか？
+
+nvl_line_clear
+
+line_set 「しかし」
+line_set 「こいつが島の住人につかまって処刑される事で、次の矛先が自分たちに向かわないという保証もない」
+line_set 「この段階でどちらが正しいともいえない・・・」
+
+adv_on
+
+line_set 「おい」
+
+name_set 浮浪者
+
+line_set 「はい？」
+
+name_set 双厳
+
+line_set 「なるべく島の住人には近づくな」
+
+name_set 浮浪者
+
+line_set 「なぜでございますか？」
+
+name_set 双厳
+
+line_set 「お前は島の住人から狙われている」
+
+name_set 浮浪者
+
+line_set 「へ？」
+line_set 「狙われるって・・・いったい」
+
+name_set 双厳
+
+line_set 「俺もよくは分からないが」
+line_set 「島の住人とってお前は邪魔な存在らしい」
+line_set 「だから殺そうと考えているらしい」
+
+name_set 浮浪者
+
+line_set 「いくら邪魔者でもいきなり殺すっていうのは」
+
+name_set 双厳
+
+line_set 「いや世の中いろいろな風習や習慣がある、それを土足で踏み込む者があれば」
+line_set 「殺す事だってありうる、ましてや信仰に関わることならば」
+
+name_set 浮浪者
+
+line_set 「はぁ」
+line_set 「私には難しい話はよくわかりませんが」
+line_set 「とりあえず、島のやつらが私を殺そうとしているのですね」
+
+name_set 双厳
+
+line_set 「ああそうだ」
+
+name_set 浮浪者
+
+line_set 「・・・」
+line_set 「なら私はどうすりゃいいですかい」
+
+name_set 双厳
+
+line_set 「この仕事が終わればすべての侍はかえされる、そのときに一緒に帰ればいい」
+line_set 「たぶんそのときならば無傷で帰してくれるだろう」
+
+name_set 浮浪者
+
+line_set 「それは、いつぐらいですか」
+
+name_set 双厳
+
+line_set 「よくはわからん・・・」
+line_set 「ただ・・・」
+
+name_set 浮浪者
+
+line_set 「ただ？」
+
+name_set 双厳
+
+line_set 「たぶん数日後に行われる祭りが終わった時、暦の上で冬に入った時だろう」
+
+name_set 浮浪者
+
+line_set 「なんで冬になるとかえれるのですか」
+
+name_set 双厳
+
+line_set 「わからん」
+line_set 「俺の単なる勘だ」
+line_set 「ただ・・・」
+
+name_set 浮浪者
+
+line_set 「ただ？」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「お前にいったところで分かりはしない」
+line_set 「気にするな」
+line_set 「それよりお前は数日間身を隠せ」
+line_set 「そうすればなにも問題はおきない」
+
+nvl_on
+
+line_set 確かに単なる勘であった、しかし完全に適当な勘であったわけではない。
+line_set 双厳はすでにこの島の信仰が歴など特に古代唐の陰陽五行の影響が色濃くみえる事を薄々勘づきはじめて
+line_set いた。
+line_set 秋の時期にあたる土用、少なくともこの島ではそれが重要な意味をもっているのだけはたしかであった。
+
+nvl_line_clear
+
+line_set ならば、その土用が終わる時、つまり暦の上で冬になればこの島における特別な時間が終わる事になる。
+line_set そうなれば、この島は普通の島にもどる。
+line_set その時にはすべてが終わっている。双厳はそんな気がしていた。
+
+adv_on
+
+name_set 浮浪者
+
+line_set 「暦の上で冬というと・・・」
+
+name_set 双厳
+
+line_set 「あと１１日間だ」
+line_set 「その期間、お前は姿をかくせ」
+
+name_set 浮浪者
+
+line_set 「へ、へい・・・」
+line_set 「んじゃ、とりあえず身を隠す場所でも探してみますです」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+@14
+#53_1
+!52
+
+jump_choice 7 ◆登る
+jump_choice 8 ◆山道へ移動
+@5
+@30
+@31
+
+kgd_layer2_set 1 Kgd\B_050.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 9105 54
+jump_branch2 9105 53
+
+section_jump_branch1 54
+
+kgd_layer3_set 0 Kgd\Ay_001.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 彩
+
+sfx_set 2 Vox\6189.wav
+sfx_play 2
+
+line_set 「あら」
+
+sfx_stop 2
+sfx_set 2 Vox\6188.wav
+sfx_play 2
+
+line_set 「双厳さまもまだ見回ってらっしゃったのですか？」
+
+sfx_stop 2
+sfx_set 2 Vox\6187.wav
+sfx_play 2
+
+line_set 「熱心ですね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「あんたこそ・・・」
+
+name_set 彩
+
+sfx_set 2 Vox\6186.wav
+sfx_play 2
+
+line_set 「私は初日ですから」
+
+sfx_stop 2
+sfx_set 2 Vox\6185.wav
+sfx_play 2
+
+line_set 「ちゃんと見回りしてないと後々困りますもの」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+
+name_set 彩
+
+line_set 「・・・」
+
+sfx_set 2 Vox\6184.wav
+sfx_play 2
+
+line_set 「綺麗ですね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「海か？」
+
+name_set 彩
+
+sfx_set 2 Vox\6183.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうか？」
+line_set 「私には不気味に見えるが・・・」
+
+name_set 彩
+
+sfx_set 2 Vox\6182.wav
+sfx_play 2
+
+line_set 「そうですか？」
+
+sfx_stop 2
+sfx_set 2 Vox\6181.wav
+sfx_play 2
+
+line_set 「双厳さまなら綺麗と思うとおもったのですが・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なぜだ？」
+
+kgd_layer3_set 3 Kgd\Ay_003.kgd
+kgd_layer3_param 3 192 0 0 0 416 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 彩
+
+sfx_set 2 Vox\6180.wav
+sfx_play 2
+
+line_set 「くす・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\6179.wav
+sfx_play 2
+
+line_set 「さぁ？」
+
+sfx_stop 2
+sfx_set 2 Vox\6178.wav
+sfx_play 2
+
+line_set 「なぜでしょ？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 彩
+
+sfx_set 2 Vox\6177.wav
+sfx_play 2
+
+line_set 「この島は、どっちつかずな感じがします」
+
+sfx_stop 2
+sfx_set 2 Vox\6176.wav
+sfx_play 2
+
+line_set 「曖昧で・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\6175.wav
+sfx_play 2
+
+line_set 「中間で・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「？」
+line_set 「どっちつかず？」
+
+name_set 彩
+
+sfx_set 2 Vox\6174.wav
+sfx_play 2
+
+line_set 「いいえ」
+
+sfx_stop 2
+sfx_set 2 Vox\6173.wav
+sfx_play 2
+
+line_set 「なんでもありません」
+
+sfx_stop 2
+sfx_set 2 Vox\6172.wav
+sfx_play 2
+
+line_set 「さて」
+
+sfx_stop 2
+sfx_set 2 Vox\6171.wav
+sfx_play 2
+
+line_set 「もう日も暮れますから帰りますか」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「俺はもう少し見ていこう」
+
+name_set 彩
+
+sfx_set 2 Vox\6170.wav
+sfx_play 2
+
+line_set 「そうですか」
+
+sfx_stop 2
+sfx_set 2 Vox\6169.wav
+sfx_play 2
+
+line_set 「では私は失礼して・・・」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「・・・」
+line_set 「どっちつかず・・・」
+line_set 「曖昧・・・」
+line_set 「中間・・・」
+line_set 「奇妙な事を言う女だな・・・」
+
+adv_on
+
+jump_auto 9
+#54_2
+!53
+jump_choice 10 ◆村へ移動
+jump_choice 11 ◆港へ移動
+jump_choice 12 ◆物見やぐらへ移動
+@7
+
+kgd_layer1_set 1 Kgd\Be_009.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+jump_choice 13 ◆降りる
+@13
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 14
+@8
+@17
+
+kgd_layer2_set 1 Kgd\B_014.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 15 ◆大岩へ移動
+jump_choice 16 ◆屋敷前へ移動
+@16
+@23
+@27
+
+kgd_layer2_set 1 Kgd\B_034.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch1 19
+
+jump_choice 17 ◆山道へ移動
+jump_choice 18 ◆屋敷内へ移動
+jump_choice 19 ◆村への道へ移動
+@18
+@24
+@25
+@26
+
+kgd_layer2_set 1 Kgd\B_030.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 20 ◆自室へ移動
+jump_choice 21 ◆大広間へ移動
+jump_choice 22 ◆蔵の前へ移動
+jump_choice 23 ◆屋敷外へ移動
+@20
+
+kgd_layer2_set 1 Kgd\B_038.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@0
+
+jump_choice 24 ◆廊下へ移動
+@21
+
+kgd_layer2_set 1 Kgd\B_010.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 25 ◆廊下へ移動
+@22
+
+kgd_layer2_set 1 Kgd\B_026.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 26 ◆廊下へ移動
+@4
+@19
+
+kgd_layer2_set 1 Kgd\B_042.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 27 ◆屋敷前へ移動
+jump_choice 28 ◆村へ移動
+@6
+@11
+
+kgd_layer2_set 1 Kgd\B_062.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 29 ◆村へ移動
+jump_choice 30 ◆海岸へ移動
+@12
+
+kgd_layer2_set 1 Kgd\B_066.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 31 ◆海岸へ移動
+@9
+
+kgd_layer2_crossfade 1
+kgd_layer2_fade_unk 0
+
+ksd_set Ksd\013.ksd
+ksd_end

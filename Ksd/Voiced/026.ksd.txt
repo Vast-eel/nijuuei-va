@@ -1,0 +1,4790 @@
+
+sfx_set 0 Se\017.wav
+sfx_play 0
+
+kgd_layer1_set 0 Kgd\Da_009.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 4000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+sfx_stop 0
+
+kgd_layer2_set 0 Kgd\B_001.kgd
+kgd_layer1_set 0 Kgd\Be_008.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play 13
+
+nvl_on
+
+line_set 双厳は大岩の上から、”しるし”とよばれる海底火山を見ている。
+
+nvl_line_clear
+
+line_set 「しるしか・・・」
+line_set 「”灼”と書いて”しるし”・・・」
+line_set 「なにかあるのだろうが・・・」
+
+nvl_line_clear
+
+line_set この島は多くの謎に満ちていた。
+line_set 多く、神話を模した名前や風習。
+line_set 十二日間おこなわれていると言われながら、まったくその様子のない”儀式”。
+line_set 謎の死を遂げる用心棒達。
+
+nvl_line_clear
+
+line_set それは、それぞれが別々にありながら、なにか一つのものとして括られるような気が双厳にはしていた。
+line_set すべての点が、つながり線になり、一つの紋章を浮き出させるような、そんな気がしていた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「すべてがバラバラで存在する謎のように見えるが・・・」
+line_set 「それは一つで結ばれる気がする・・・」
+@4
+@5
+@6
+@7
+@8
+@9
+
+jump_branch2 811 151
+jump_branch2 811 152
+jump_branch2 811 153
+jump_auto 0
+!151
+!152
+!153
+jump_choice 1 ◆謎の死を遂げた用心棒の事を考える
+jump_choice 2 ◆日の巫女と日流子について考える
+jump_choice 3 ◆儀式について考える
+@1
+jump_branch1 2933 151
+
+section_jump_branch1 151
+
+nvl_on
+
+line_set 「ひどいものだった・・・」
+line_set 「諸国を巡り歩いた俺ですらあんなものは見たことがない・・・」
+
+nvl_line_clear
+
+kgd_layer3_set 0 Kgd\En_055.kgd
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+line_set 十人にも及ぶ人間が骨を抜かれ地べたに張り付きながら絶命してゆく姿・・・。
+line_set そんなものなど誰が見たことがあるだろうか？
+
+nvl_line_clear
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+line_set 「あの死に方・・・」
+line_set 「やはり水蛭子を模した呪いとしか考えられないな・・・」
+line_set 「骨が抜かれた用心棒達・・・」
+line_set 「骨が生まれながらにない子供達・・・」
+
+nvl_line_clear
+
+line_set ”骨のない”という表現をこの島ではやたら使う事になる。
+line_set 古事記における水蛭子。
+line_set 生まれながらに骨のない子供。
+line_set 骨を抜かれ絶命した用心棒。
+
+adv_on
+
+name_set 双厳
+
+line_set 「これは水蛭子で結ばれるのであろう・・・」
+
+nvl_on
+
+line_set 「それにしても・・・」
+
+nvl_line_clear
+
+line_set 双厳は用心棒の死で引っかかっている部分があった。それはその死の順番であった。
+
+nvl_line_clear
+
+line_set 「桔梗が”四日前の、十人の用心棒”という言い方をしなければ気がつきもしなかっただろう」
+line_set 「”～日前”という区切りは」
+line_set 「その日にきた用心棒が一区切りで数えられているという事だ」
+line_set 「たしかに、始めに死んだ用心棒は最後の日に来た一人の浪人であった」
+line_set 「次に死んだのが、その前日に来ていた、十人の用心棒であった・・・」
+
+adv_on
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「ここで気にかかるのは・・・」
+line_set 「桔梗が、その日死ぬ人間を予告していたということだ」
+
+adv_on
+
+line_set 「やつは知っていたんだ・・・」
+line_set 「次に誰が死ぬかを・・・」
+
+nvl_on
+
+line_set 「といっても、”もし”という言葉を使っていたわけだから、確証があったわけではあるまいが」
+line_set 「ただそんな予感めいた事があるというのは確かだ」
+
+adv_on
+
+line_set 「桔梗は俺の知らない事を幾つか知っている」
+
+nvl_on
+
+line_set 「もし、この島に渡った用心棒すべてにあの呪いがかかるとしたら・・・」
+
+adv_on
+
+line_set 「今日、北条や彩が危ない・・・」
+
+nvl_on
+
+line_set 「そして・・・」
+line_set 「明日に楓玲が・・・」
+
+adv_on
+
+line_set 「最後には、初日にこの島に渡った用心棒である俺か・・・」
+
+nvl_on
+
+line_set 「なんとしても、この呪いの謎を解かなければ」
+line_set 「ただ死を待つのみとなるやもしれん・・・」
+
+adv_on
+
+line_set 「といっても・・・」
+
+nvl_on
+
+line_set 現状では、いくら双厳が悩んだところで謎がいかなるものであるかはまったく不明であった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「ふむ・・・」
+
+jump_auto 4
+#151_0
+
+nvl_on
+
+line_set 「ふむ・・・」
+
+adv_on
+
+jump_auto 5
+@2
+jump_branch1 4563 152
+
+section_jump_branch1 152
+
+name_set 双厳
+
+line_set 「この島では、ヒルコを”水蛭子”とだけでなく”干る子”もしくは”日流子”という太陽神として」
+line_set 「あがめているのは確かだと思ったのだが・・・」
+
+nvl_on
+
+line_set 双厳が昨日志乃の部屋で見つけた古文書には、
+line_set たしかに、ヒルコを”日流子”としてとらえていた。
+line_set あの本がこの島に伝わる伝説であると、双厳には思えたし、
+line_set 事実そうでなければ、あのような古文書がこのような辺境の島にあるとも思えなかった。
+
+adv_on
+
+line_set 「そうであれば、イルとスイが”日の巫女”として双子でありながら」
+line_set 「殺されない理由の説明がつくはずなのに・・・」
+
+nvl_on
+
+line_set しかし、実際にはイルとスイが仕える神は、二つの要素をもつ神であり、
+line_set あの古文書で出てくる”日流子”にはない性質をもつ太陽神であった。
+
+adv_on
+
+line_set 「それとも、あの古文書に書かれていない事実が”日流子”にはあるのだろうか？」
+
+nvl_on
+
+line_set いくら悩んだところで答えの出るものではなかった。
+
+nvl_line_clear
+
+line_set 「この島では生まれた子供は必ず双子で生まれ、そして必ず殺される」
+line_set 「骨が生まれた時から無い奇形児、”水蛭子”の呪いを受けて生まれるからだ」
+line_set 「しかし例外的に、そのまま育てられる双子もいる」
+
+nvl_line_clear
+
+line_set 「それが、イルとスイだ」
+line_set 「彼女達は”日の巫女”とよばれる」
+line_set 「つまりそれは日流子の巫女」
+line_set 「日流子に使える巫女と考えられる」
+line_set 「殺される運命にある双子は水蛭子を模し」
+line_set 「そして、殺されない運命にある双子は日流子の巫女として、阿波路家の蔵で封じ込められる」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+nvl_line_clear
+
+line_set 「こう考えればすべての辻褄が合うのであるのだが・・・」
+line_set 「まだ、何かあるのだろうか？」
+line_set 「それともこの考え方自体がまったくの見当はずれであるのか？」
+
+adv_on
+
+line_set 「・・・」
+line_set 「全然わからん・・・」
+
+jump_auto 6
+#152_1
+
+nvl_on
+
+line_set 「全然わからん・・・」
+
+adv_on
+
+jump_auto 7
+@3
+jump_branch1 5639 153
+
+section_jump_branch1 153
+
+name_set 双厳
+
+line_set 「そういえば・・・」
+line_set 「初日に俺が島に渡った時に、志乃がこのような事をいっていたな・・・」
+
+nvl_on
+
+line_set 「これから１２日間大切な祭があります」
+line_set 「その祭のあいだ、海賊からこの島を守っていただければ結構なのです」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「儀式というのは、いったいどのようなものなのだろうか？」
+line_set 「その儀式とやらを一度も見ていない・・・」
+line_set 「どこでその重要な儀式というのはおこなわれているのだ・・・」
+line_set 「それに・・・」
+
+nvl_line_clear
+
+line_set 双厳は村人達が、言っていた”祭”という言葉を思い出した。
+
+adv_on
+
+line_set 「島の住民はたしか、この島で”祭”がおこなわれるといっていた」
+line_set 「しかし、そのようなものは一度も目にしていない」
+line_set 「それどころか・・・」
+
+nvl_on
+
+line_set 島の住人は”祭”が行われるという言葉だけを残し、島から消え失せた。
+
+adv_on
+
+line_set 「・・・」
+line_set 「どこかでその儀式というのは行われているのか？」
+line_set 「それとも・・・」
+
+nvl_on
+
+line_set 双厳はいくらか考えてみたが、やはり答えらしいものは思いつかなかった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「もしかしたら、とんでもない事にでも巻き込まれたのかもしれないな・・・」
+line_set 「俺は・・・」
+
+jump_auto 8
+#153_2
+
+nvl_on
+
+line_set 「もしかしたら、とんでもない事にでも巻き込まれたのかもしれないな・・・」
+
+adv_on
+
+jump_auto 9
+@13
+@14
+@65
+jump_branch1 5773 286
+
+kgd_layer1_set 1 Kgd\Be_008.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+
+jump_auto 10
+#286_3
+
+kgd_layer1_set 1 Kgd\Be_011.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer1_clear 1
+kgd_layer2_clear
+@0
+@10
+
+jump_choice 11 ◆反対側を見る
+jump_choice 12 ◆降りる
+@11
+jump_branch1 5861 286
+
+section_jump_branch1 286
+
+jump_auto 13
+#286_4
+
+section_jump_branch2 286
+
+jump_auto 14
+@12
+
+section_jump_branch2 286
+
+kgd_layer1_set 1 Kgd\W_004.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 15
+@29
+@37
+@64
+@77
+
+kgd_layer2_set 1 Kgd\B_029.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 12977 168
+jump_branch1 13425 167
+jump_branch1 9209 166
+jump_branch1 13425 154
+
+section_jump_branch1 154
+
+nvl_on
+
+line_set 「・・・」
+line_set 「いやに静かだな・・・」
+
+nvl_line_clear
+
+line_set 辺りに人の気配は感じられなかった。
+line_set いつも騒がしいわけでは無かったが、それでもいつもより静かだった。
+line_set この島には阿波路家の者と一部の関係者しか残っていない。
+line_set それらの者達も屋敷から出ているのかと思われたが・・・。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4531.wav
+sfx_play 2
+
+line_set 「双厳殿」
+
+sfx_stop 2
+
+nvl_on
+
+line_set すぐにその思いは否定される。
+line_set 向かいから来た北条に声を掛けられ、双厳は立ち止まった。
+line_set 北条が双厳を見る顔は、どこか不思議そうなものだ。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Ho_001.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+sfx_set 2 Vox\4530.wav
+sfx_play 2
+
+line_set 「どうされました？」
+
+sfx_stop 2
+sfx_set 2 Vox\4529.wav
+sfx_play 2
+
+line_set 「誰かお捜しですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「いや・・・」
+line_set 「この屋敷、他に誰も居ねぇようだな・・・？」
+
+name_set 北条
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4528.wav
+sfx_play 2
+
+line_set 「連夜の事もあって、残りの者はこの島から出て行くための舟を探しています」
+
+sfx_stop 2
+sfx_set 2 Vox\4527.wav
+sfx_play 2
+
+line_set 「だから誰の姿も見ないのでしょう」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・お前たちも出て行くか？」
+line_set 「この島からよ・・・？」
+
+name_set 北条
+
+sfx_set 2 Vox\4526.wav
+sfx_play 2
+
+line_set 「いえ、私たちは十兵衛さまと共にあります」
+
+sfx_stop 2
+sfx_set 2 Vox\4525.wav
+sfx_play 2
+
+line_set 「柳生の者として生きる以上は、最後まで十兵衛さまと共にありたいと思います」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・忠義か・・・」
+line_set 「青臭ぇ言葉だが・・・それもアリかもな」
+
+sfx_set 2 Vox\4508.wav
+sfx_play 2
+
+line_set 「それにしても・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳は北条を見る。
+
+adv_on
+
+line_set 「俺にやられた傷は大丈夫だったようだな・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4524.wav
+sfx_play 2
+
+line_set 「あははは・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4523.wav
+sfx_play 2
+
+line_set 「あれから歩くことも出来ませんでしたからね」
+
+sfx_stop 2
+sfx_set 2 Vox\4522.wav
+sfx_play 2
+
+line_set 「やっと今日少し動けるようになりましたよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「まぁ、次戦うまでにはもう少し腕を上げておくことだな」
+line_set 「そうでなければ、また二、三日寝込む事になるぞ」
+
+name_set 北条
+
+sfx_set 2 Vox\4521.wav
+sfx_play 2
+
+line_set 「えっ？」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 北条は双厳の言葉に耳を疑った。
+line_set ”もう一度戦うまでには”
+line_set 双厳のこの言葉は、逆説ながらも北条の剣をそれなりに認めている事になったからだ。
+
+nvl_line_clear
+
+line_set 北条の剣など柳生の里で少しでも認めるものなど皆無といえた。
+line_set 北条自身も自分の剣など箸にも棒にもかからぬものと考えていた。
+
+nvl_line_clear
+
+line_set それが、百戦錬磨の鬼神のごとき双厳が自分の剣を認めてくれたのである。
+line_set 次に戦う時まで腕を上げておけと・・・。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Ho_002.kgd
+kgd_layer3_param 3 164 0 0 0 472 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+sfx_set 2 Vox\4520.wav
+sfx_play 2
+
+line_set 「そ、双厳殿」
+
+sfx_stop 2
+sfx_set 2 Vox\4464.wav
+sfx_play 2
+
+line_set 「あ、ありがとうございます」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 北条はうれしそうに双厳に頭をさげた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「ば、馬鹿、なに礼なんかしてるんだよ」
+line_set 「気持ち悪い・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4518.wav
+sfx_play 2
+
+line_set 「い、いや・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4472.wav
+sfx_play 2
+
+line_set 「あはははは・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「なんだこいつ・・・」
+line_set 「気持ち悪い・・・」
+
+adv_on
+
+sfx_set 2 Vox\4516.wav
+sfx_play 2
+
+line_set 「それでは双厳殿」
+
+sfx_stop 2
+sfx_set 2 Vox\4515.wav
+sfx_play 2
+
+line_set 「私も用事がありますので」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 北条はそう言い残し、
+line_set 双厳の前から消えていった。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「この島に十兵衛と共に残るねぇ・・・」
+
+nvl_on
+
+line_set 北条の態度は、一匹狼的立場の双厳にとっては分かり難いものだった。
+line_set しかしこの島に残る意志というものは、双厳にとってもどことなく嬉しく感じる。
+
+nvl_line_clear
+
+line_set 「だが、この島にはもう一隻の舟たりとも存在していねぇ」
+line_set 「舟を探しに行っても無駄だろうが・・・」
+
+nvl_line_clear
+
+line_set それは全て徒労にしか終わらない。
+line_set だが双厳は、あえて北条にその事実を告げなかった。
+
+adv_on
+
+jump_auto 16
+#166_7
+
+section_jump_branch1 167
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「何やってんだよ？」
+
+nvl_on
+
+line_set 双厳はため息をついて楓玲に声を掛ける。
+line_set すると楓玲はゆっくりと双厳に向いた。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Fu_011.kgd
+kgd_layer3_param 0 128 0 0 0 544 600
+kgd_layer3_display 0
+
+name_set 楓玲
+
+sfx_set 2 Vox\4575.wav
+sfx_play 2
+
+line_set 「双厳・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ったく・・・」
+line_set 「お前って奴は、本当にコロコロ態度が豹変するな」
+
+name_set 楓玲
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「で、今度はどうしたよ？」
+line_set 「また北条殿に見向きもされなかったとか言うなよ？」
+
+kgd_layer3_set 3 Kgd\Fu_012.kgd
+kgd_layer3_param 3 128 0 0 0 544 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+sfx_set 2 Vox\4574.wav
+sfx_play 2
+
+line_set 「私・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4573.wav
+sfx_play 2
+
+line_set 「骨抜けちゃうのかなぁ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳の表情が引き締まる。
+line_set どうやら今回は笑い事で流されるような事じゃないらしい。
+line_set 双厳はその事を察知した。
+
+adv_on
+
+name_set 楓玲
+
+sfx_set 2 Vox\4572.wav
+sfx_play 2
+
+line_set 「あんなたくさんの人がみんな同じ骨無しの死体だなんて」
+
+sfx_stop 2
+sfx_set 2 Vox\4571.wav
+sfx_play 2
+
+line_set 「もしかして次はあたしかもしれないし・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+jump_choice 17 ◆余計な心配するな
+jump_choice 18 ◆そうかもな
+jump_choice 19 ◆考え過ぎだな
+@17
+
+line_set 「余計な心配してんじゃねぇよ」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4570.wav
+sfx_play 2
+
+line_set 「え？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「誰もがあんなになると決まったわけじゃねぇ」
+line_set 「楓玲がああなるとも、まだ決まったわけじゃねぇだろ？」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4569.wav
+sfx_play 2
+
+line_set 「それは・・・そうだけどさ」
+
+sfx_stop 2
+sfx_set 2 Vox\4568.wav
+sfx_play 2
+
+line_set 「でもっ・・・！」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ガキが一丁前に自分の死に様考えてんじゃねぇよ」
+line_set 「人間死ぬ時なんざ、あっという間の出来事だ」
+line_set 「その時が来るまで、勝手な予想しても仕方ねぇだろ？」
+
+name_set 楓玲
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「そうなる前に何とかすりゃいいんだ」
+line_set 「それだけの事だ」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4567.wav
+sfx_play 2
+
+line_set 「・・・うん」
+
+sfx_stop 2
+
+jump_auto 20
+@18
+
+affection_minus 1
+
+name_set 双厳
+
+line_set 「ああ・・・そうかもしれねぇなぁ」
+line_set 「次にお前がああなる可能性だって、捨て切れねぇ」
+
+name_set 楓玲
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 楓玲
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「ちっ・・・」
+line_set 「まだ決まったわけじゃねぇだろうが」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4566.wav
+sfx_play 2
+
+line_set 「え？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「次は自分がああなるとか、いつ誰が決めた？」
+line_set 「もしかして次は俺かもしれねぇし、あれで終わりかもしれねぇ」
+line_set 「勝手に次は自分だって決め付けてんじゃねぇよ」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4565.wav
+sfx_play 2
+
+line_set 「で、でも・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「要は止めればいいんだろうが」
+line_set 「ああなる前にな」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4564.wav
+sfx_play 2
+
+line_set 「う・・・うん」
+
+sfx_stop 2
+
+jump_auto 21
+@19
+
+affection_plus 1
+
+name_set 双厳
+
+line_set 「そりゃあちっとばかし考え過ぎじゃねぇか？」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4563.wav
+sfx_play 2
+
+line_set 「え？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだろうよ？」
+line_set 「何であんな死に方されたからって次も続くと思える？」
+line_set 「次もああなるとは限らねぇだろ」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4562.wav
+sfx_play 2
+
+line_set 「で、でもさ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「死に方選べられるんなら、今まで死んだ奴らは世話ねぇよ」
+line_set 「好んであんな死に方したいと思うか？」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4561.wav
+sfx_play 2
+
+line_set 「・・・思わない」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「だったらあんな死に方だけはしたくねぇって祈っとくんだな」
+line_set 「もしかして、最悪の結果だけは免れるかもしれねぇぞ」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4560.wav
+sfx_play 2
+
+line_set 「・・・うん」
+
+sfx_stop 2
+@20
+@21
+
+kgd_layer3_set 3 Kgd\Fu_009.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+sfx_set 2 Vox\4559.wav
+sfx_play 2
+
+line_set 「はぁー・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4558.wav
+sfx_play 2
+
+line_set 「そうだよねぇ、何悩んでんだろ、あたし」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「お前が勝手に悩んでただけじゃねぇか」
+
+kgd_layer3_set 3 Kgd\Fu_005.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+sfx_set 2 Vox\4557.wav
+sfx_play 2
+
+line_set 「う・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4556.wav
+sfx_play 2
+
+line_set 「ほ、ほら可愛い乙女ってのはいつでも悩めるものなのよっ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Fu_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 楓玲
+
+sfx_set 2 Vox\4555.wav
+sfx_play 2
+
+line_set 「・・・何よ、その疑いの眼差しは？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「いや、別に」
+
+name_set 楓玲
+
+sfx_set 2 Vox\4554.wav
+sfx_play 2
+
+line_set 「もぉっ！」
+
+sfx_stop 2
+sfx_set 2 Vox\4553.wav
+sfx_play 2
+
+line_set 「そんじゃあねっ！」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 「骨の抜けた死体になるか・・・」
+line_set 「ゾッとしねぇな」
+
+adv_on
+
+jump_auto 22
+#168_5
+
+kgd_layer3_set 0 Kgd\Ho_003.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 景色を眺めながら物思いにふけっている北条の姿があった。
+line_set 何を考えているのか、その表情にはいつものような雰囲気は見られない。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4514.wav
+sfx_play 2
+
+line_set 「一度ならず二度までも・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4513.wav
+sfx_play 2
+
+line_set 「果たして次は誰が骨を抜かれて死ぬのか・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 不安げに考える北条に声を掛けるでもなく、双厳はその場を後にした。
+
+adv_on
+
+jump_auto 23
+@16
+@22
+#167_6
+#154_8
+jump_choice 24 ◆自室へ移動
+jump_choice 25 ◆大広間へ移動
+jump_choice 26 ◆蔵の前へ移動
+jump_choice 27 ◆屋敷外へ移動
+@25
+@59
+@61
+
+kgd_layer2_set 1 Kgd\B_009.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 28942 154
+jump_branch1 28942 155
+
+section_jump_branch1 155
+
+kgd_layer3_set 0 Kgd\Ky_007.kgd
+kgd_layer3_param 0 108 0 0 0 584 600
+kgd_layer3_display 0
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 大広間で桔梗と顔を合わせる。
+line_set 相変わらずの桔梗に、双厳は何か話を振ってみた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「もうこの島に一隻も舟が無いことは知ってるんだろ？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4668.wav
+sfx_play 2
+
+line_set 「・・・はい」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「連日起こってるような事態を目の当たりにしてよ・・・」
+line_set 「それでも、この島から出て行く気はねぇのかよ？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4667.wav
+sfx_play 2
+
+line_set 「・・・この島から逃げたところで、呪いから逃れられるわけではありません」
+
+sfx_stop 2
+sfx_set 2 Vox\4666.wav
+sfx_play 2
+
+line_set 「もっと根本的なところから手を打たないと・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4665.wav
+sfx_play 2
+
+line_set 「正直・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4664.wav
+sfx_play 2
+
+line_set 「私も、どうしたらいいのか・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「さて、どうしたモノかね・・・」
+line_set 「俺も、知っていても知らないふりして何も教えてくれない人間がいるので困るな・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「一つ聞いていいか？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「桔梗はヒルコというのを知っているか？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4663.wav
+sfx_play 2
+
+line_set 「古事記の国生みにでてくる、骨のない神の事ですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「うむ、その通りだ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4662.wav
+sfx_play 2
+
+line_set 「それがなにか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「この島では、このヒルコにまつわるものがやたらある」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「たとえば」
+line_set 「葦でできた舟」
+line_set 「島全体を囲むヒルコ鳥居とよばれる鳥居」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4661.wav
+sfx_play 2
+
+line_set 「そうですね・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「さらに・・・」
+line_set 「生まれながらに骨がない子供たち・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「なぜかはわからんが・・・」
+line_set 「この島の人間はかならず、双子で生まれて、そしてかならず、その片方が骨なしとして生まれる」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 桔梗の表情がピクリともしない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「そして、昨日死んだ１０人の用心棒を含め、謎の死をとげた用心棒はすべて」
+line_set 「骨を抜かれ死んでいる」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4660.wav
+sfx_play 2
+
+line_set 「なにがいいたいのですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ふふ・・・」
+line_set 「察しがいいな」
+line_set 「ならば本題といこうか」
+line_set 「なぜお前は昨日、死ぬ人間を予告出来たのだ？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4659.wav
+sfx_play 2
+
+line_set 「予告といいますと・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「お前、五日前に来た用心棒十人が死ぬかもしれないと言っていただろう」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4658.wav
+sfx_play 2
+
+line_set 「予告など・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4657.wav
+sfx_play 2
+
+line_set 「ただのなんとなくです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なんとなくね・・・」
+line_set 「なんとなく、あの十人の用心棒が死ぬのがわかったのか」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4656.wav
+sfx_play 2
+
+line_set 「はい・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ほう・・・」
+line_set 「なら、質問を変えようか・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「ヒルコの話に戻るが・・・」
+line_set 「我々・・・少なくとも俺などを含む本州の人間が知っている古事記のヒルコは」
+line_set 「伊邪那岐と伊邪那美が最初に生んだ神であり、そして骨がないから海に流されたというものだ」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4655.wav
+sfx_play 2
+
+line_set 「そうですね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「この場合”水蛭子”と書いて、ヒルコといわれている」
+line_set 「一説によると、摂津国西宮に流れ着いて、戎（エビス）として祭られたというから」
+line_set 「”水蛭子”の文字の中に”蛭子”（エビス）の文字が入っているともいわれている」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「聞いた話なのだが・・・」
+line_set 「ヒルコというのは干る神つまり”干る子”として太陽神として祭られる事があるという」
+
+name_set 桔梗
+
+line_set 「？！」
+
+nvl_on
+
+line_set いままで眉一つ動かさなかった桔梗の表情にはじめて驚きのいろが伺えた。
+
+adv_on
+
+name_set 双厳
+
+line_set 「桔梗、こんな神話聞いた事がないか？」
+line_set 「伊邪那岐と伊邪那美が最初に生んだ神は、日の神であった」
+line_set 「この日の神は、伊邪那岐と伊邪那美の最初の力を受け継いだために」
+line_set 「あまりに強く、その強い熱によって、すべてのものを干上がらせてしまった」
+line_set 「すべてを干上がらせる神を伊邪那岐と伊邪那美は”干る子”と呼んだ」
+line_set 「困り果てた伊邪那岐と伊邪那美はこの”干る子”を岩で叩き骨を砕き、海に流した」
+line_set 「これより”干る子”は流され、この名を”日流子”と呼ぶ事になった」
+
+nvl_on
+
+line_set 双厳は昨日読んだ古文書の書かれていた奇妙な国生みの伝説を話した。
+
+adv_on
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set あからさまに桔梗の表情に動揺のそれが伺える。
+line_set 桔梗の表情は、双厳がつかんでいる謎の答えの鍵が、間違いではない事を証明する形となった。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「やはり俺が考えた事はあながち間違いではなさそうだな」
+
+nvl_line_clear
+
+line_set 双厳はそのまま桔梗に話を続ける。
+
+adv_on
+
+name_set 双厳
+
+line_set 「この島では古事記の国生みに模した名前・・・」
+line_set 「特に伊邪那岐・伊邪那美が最初に生んだカミの名前がいくつか出てくる”アワシマ””ヒルコ”・・・」
+line_set 「この島の民俗において、この二神はものすごく重要な意味があるのだろう」
+line_set 「それはいい」
+line_set 「しかし、一つ気になる事がある」
+line_set 「これだけ島の民俗に深く根付いているのに」
+line_set 「なぜ、この島の宗教儀式を司る阿波路家の巫女であるイルとスイは」
+line_set 「この”アワシマ”にも”ヒルコ”にも仕えないのだろうか？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 桔梗はなにも答えない。
+
+adv_on
+
+name_set 双厳
+
+line_set 「イルとスイは”日の巫女”だ」
+line_set 「つまり太陽に仕える巫女だ」
+line_set 「それならば”アワシマ”にも”ヒルコ”にも関係がない」
+line_set 「と普通なら考えるだろう」
+line_set 「なぜなら我々が知る古事記では”アワシマ”も”ヒルコ”も太陽とは関係がない」
+line_set 「古事記でそれといえるのは」
+line_set 「オオヒルメムチノカミ（天照大神）」
+line_set 「アマテルミタマノカミ（天火明神）」
+line_set 「アメノヒボコカミ（天日槍神）」
+line_set 「アマツヒコネカミ（天津彦根神）ぐらいだろう」
+line_set 「だが・・・」
+line_set 「この島では”ヒルコ”を”日流子”つまり日の化身として捉えている」
+line_set 「つまり、”日流子”は太陽神なのだ」
+line_set 「この島の日の巫女が仕える神とは」
+line_set 「先ほどいった、我々が知る神でなく」
+line_set 「太陽神であるヒルコとつまり”干る子”であり”日流子”なのであろう」
+line_set 「桔梗・・・」
+line_set 「俺が何も知らないとでも思ったか？」
+line_set 「俺はすでにこの島における呪いの幾つかの謎を解いている」
+
+nvl_on
+
+line_set もちろん、双厳のこの発言は単なるブラフであった。
+line_set たしかに双厳は断片的に幾つかの謎を解いてはいたが、
+line_set それは、いつまでたっても断片であり全体ではなかった。
+
+nvl_line_clear
+
+line_set そして、なんといっても双厳の推理はなんの確証もなく、
+line_set それはいつまでたっても推理の域を脱してはいなかった。
+line_set 双厳は自分の推理に確証をもたせるために桔梗にこのようなブラフをかましているともいえた。
+
+adv_on
+
+line_set 「俺の推理では、骨を抜かれて死ぬ人間はこんな数ではすまない」
+line_set 「今日、北条や彩などの六日前に来た連中が死ぬことになる」
+line_set 「明日は楓玲」
+line_set 「そして・・・」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「あの呪い・・・」
+line_set 「ヒルコの呪いにより」
+line_set 「ここによばれた用心棒は、遅かれ早かれ全員殺される事になる」
+line_set 「それが、何のために殺されるかはわからない」
+line_set 「もしかしたら、それが志乃がいう儀式であったのかもしれない」
+line_set 「そしてこの島の住人がいっていた」
+line_set 「”祭”なのかしれない」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4654.wav
+sfx_play 2
+
+line_set 「それは違います！」
+
+sfx_stop 2
+sfx_set 2 Vox\4653.wav
+sfx_play 2
+
+line_set 「この島でおこなう“祭”それはそのようなものではありません」
+
+sfx_stop 2
+sfx_set 2 Vox\4652.wav
+sfx_play 2
+
+line_set 「本来なら、阿波路が行う十二日間に及ぶ儀式も・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「本来なら？」
+line_set 「桔梗、正直に話してもらえないか？」
+line_set 「この島の謎」
+line_set 「そして、この島で行われている儀式を」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4651.wav
+sfx_play 2
+
+line_set 「双厳さまが言う“この島の謎”というのは、あなたさま以上に知るところはありません」
+
+sfx_stop 2
+sfx_set 2 Vox\4650.wav
+sfx_play 2
+
+line_set 「それは本当です」
+
+sfx_stop 2
+sfx_set 2 Vox\4649.wav
+sfx_play 2
+
+line_set 「私がお話できる事は」
+
+sfx_stop 2
+sfx_set 2 Vox\4648.wav
+sfx_play 2
+
+line_set 「この島ではなぜか生まれるものは必ず双子であり」
+
+sfx_stop 2
+sfx_set 2 Vox\4647.wav
+sfx_play 2
+
+line_set 「そしてその片方が骨なしの奇形として生まれます」
+
+sfx_stop 2
+sfx_set 2 Vox\4646.wav
+sfx_play 2
+
+line_set 「この島の住人は子供が産まれるたびに鳥居を作り」
+
+sfx_stop 2
+sfx_set 2 Vox\4645.wav
+sfx_play 2
+
+line_set 「子供が産まれたと同時にこの鳥居を建てます」
+
+sfx_stop 2
+sfx_set 2 Vox\4644.wav
+sfx_play 2
+
+line_set 「そして、その片方は“水蛭子”とよばれ、石で打って殺します」
+
+sfx_stop 2
+sfx_set 2 Vox\4643.wav
+sfx_play 2
+
+line_set 「鳥居は打ち殺された“水蛭子”の霊を島にとどまることなく海に帰すために建てられます」
+
+sfx_stop 2
+sfx_set 2 Vox\4642.wav
+sfx_play 2
+
+line_set 「それがなぜ鳥居であるかはわかりません」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なぜそのような呪いがこの島の住人にふりかかるのだ？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4641.wav
+sfx_play 2
+
+line_set 「それはわかりません」
+
+sfx_stop 2
+sfx_set 2 Vox\4640.wav
+sfx_play 2
+
+line_set 「ただそれは」
+
+sfx_stop 2
+sfx_set 2 Vox\4639.wav
+sfx_play 2
+
+line_set 「ヒルコの呪いだといいます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうか・・・」
+line_set 「それより”日の巫女”についてなんだが」
+line_set 「イルとスイに聞いたのだが、彼女達が仕える神は、二つの性質をもっているという」
+line_set 「しかし”日流子”には二つの性質などないようだ」
+line_set 「イルとスイが仕える神とははたして”日流子”なのか？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4638.wav
+sfx_play 2
+
+line_set 「イルさまスイさまはあなたさまが推理したように“日の巫女”でございます」
+
+sfx_stop 2
+sfx_set 2 Vox\4637.wav
+sfx_play 2
+
+line_set 「イルさまの仕える日とはつまり“日流子”です」
+
+sfx_stop 2
+sfx_set 2 Vox\4636.wav
+sfx_play 2
+
+line_set 「スイさまが仕える日とはつまり“オオヒルメムチノカミ”です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「オオヒルメムチノカミ？天照大神か？」
+line_set 「それはおかしい」
+line_set 「二つの神に仕えているのか？」
+line_set 「おれは二つの性質を持つ神に仕えていると聞いているぞ」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4635.wav
+sfx_play 2
+
+line_set 「これは同じ太陽神であり同じものです」
+
+sfx_stop 2
+sfx_set 2 Vox\4634.wav
+sfx_play 2
+
+line_set 「だから、イルさまスイさまは“性質の違う神”という言い方をなさったのではないでしょうか？」
+
+sfx_stop 2
+sfx_set 2 Vox\4633.wav
+sfx_play 2
+
+line_set 「すくなくとも私は」
+
+sfx_stop 2
+sfx_set 2 Vox\4632.wav
+sfx_play 2
+
+line_set 「そう聞き及んでいます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set そうであろうか？
+line_set たしかに双厳には、桔梗が嘘をついているようには見えなかった。
+line_set しかし納得はいかなかった。
+line_set なぜなら、同じモノならいちいち二つにわける必要がないからだ。
+
+nvl_line_clear
+
+line_set しかし実際は、
+line_set イルは日流子に、
+line_set スイは天照大神に、
+line_set それぞれに仕えている。
+line_set それは何か意味があるからではないだろうか？
+line_set 二つに引き裂かれ、二神となった太陽神にはなにかある・・・。
+line_set 双厳はそうにらんでいた。
+
+adv_on
+
+line_set 「わかった・・・」
+line_set 「次に聞きたいのは”祭”の事だが」
+line_set 「俺は、この島でそれが行われているのは見たことがないが・・・」
+line_set 「いったいなんなんだ」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4631.wav
+sfx_play 2
+
+line_set 「双厳さまもご存じのように阿波路は“岩の守り部”です・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4630.wav
+sfx_play 2
+
+line_set 「というか、阿波路はそれを司るだけであり、いわばこの島の住人すべてが」
+
+sfx_stop 2
+sfx_set 2 Vox\4629.wav
+sfx_play 2
+
+line_set 「“岩の守り部”の末裔です」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「岩の守り部の末裔か・・・」
+line_set 「岩というのは、この島の中心にあるあの大岩だな」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4628.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「お前達が何千もの間、守っているというあの大岩、あれはいったいなんの岩なのだ？」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4627.wav
+sfx_play 2
+
+line_set 「この島の言い伝えでは」
+
+sfx_stop 2
+sfx_set 2 Vox\4626.wav
+sfx_play 2
+
+line_set 「あれは黄泉との道をふさぐ大岩だといいます」
+
+sfx_stop 2
+
+pis_set 21 0
+
+name_set 双厳
+
+line_set 「黄泉をふさぐ大岩？」
+line_set 「すると、あれは古事記に出てくる・・・」
+line_set 「黄泉をふさぐ<0,千引の岩>（チビキノイワ）であるというわけだな」
+
+nvl_on
+
+line_set 古事記にはこのような話がある。
+line_set 多くの神や国を生んだ伊邪那美は最後に火之迦倶土神を生むことになるが、
+line_set 火の神である火之迦倶土神を生んだ伊邪那美は陰部を焼かれて死んでしまう事になる。
+line_set 伊邪那岐は悲しみのあまり死んだ伊邪那美に会いに黄泉の国へ訪れるのであるが、
+
+nvl_line_clear
+
+line_set その変わり果てた伊邪那美の姿を見ておそれをなして逃げ出すこととなる。
+line_set 伊邪那美の追っ手の黄泉醜女や雷神の追跡を、
+line_set 『黒御鬘』
+line_set 『湯津津間櫛』
+line_set 『桃子三箇』
+line_set の呪術そして十拳剣によってなんとか逃げ切った伊邪那岐は、
+line_set 伊邪那美のいる黄泉の国とをつなぐ道を千引の岩（チビキノイワ）で封印したといわれている。
+
+adv_on
+
+line_set 「ならここは黄泉の入り口がある島という事になるのか？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4625.wav
+sfx_play 2
+
+line_set 「伝説通りなら」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ふふふふふ・・・」
+line_set 「大昔は黄泉というのは地続きであったというが」
+line_set 「いきなりあの大岩がそれの黄泉への入り口を封印している岩だといわれてもな・・・」
+line_set 「現実感がなさすぎだな」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4624.wav
+sfx_play 2
+
+line_set 「そうですね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4623.wav
+sfx_play 2
+
+line_set 「あくまでも伝説ですからね・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4622.wav
+sfx_play 2
+
+line_set 「それでも・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4621.wav
+sfx_play 2
+
+line_set 「それでも、私たち島の者にとってはそれは伝説でなく事実なのです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4620.wav
+sfx_play 2
+
+line_set 「我々にとって事実である以上」
+
+sfx_stop 2
+sfx_set 2 Vox\4619.wav
+sfx_play 2
+
+line_set 「我々岩の守り部はこの岩を守り続けなければなりません」
+
+sfx_stop 2
+sfx_set 2 Vox\4618.wav
+sfx_play 2
+
+line_set 「この島で行われている“祭”とはこの封印の力を守る儀式なのです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「それはどういうものだ？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4617.wav
+sfx_play 2
+
+line_set 「秋の土用の頃、ちょうど神無月の前、十二日間に行われます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「神無月・・・」
+line_set 「それには意味があるのか？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4616.wav
+sfx_play 2
+
+line_set 「たぶん何かあるとは思いますが詳しくはわかりません」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「神無月か・・・」
+
+nvl_on
+
+line_set 神無月とは旧暦で十月の和名である。
+line_set 神無月とはその文字の通り、神がいない時期である。
+line_set この月は神不在の月であるために昔の人間は結婚するのも控えたという。
+line_set この月、不在となる日本中の八百万の神は出雲に集まるという。
+line_set そのため出雲だけは神無月を神有月、もしくは神在月と表記した。
+
+nvl_line_clear
+
+line_set 「神々が出雲に集まる前におこなわれるというのにはかならず意味があるはずだが・・・」
+
+adv_on
+
+line_set 「詳しくはどんな事を行うのだ？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4615.wav
+sfx_play 2
+
+line_set 「基本的には伊邪那岐が黄泉の国にいる伊邪那美から逃げて大岩で黄泉の入り口を塞ぐまでを再現します」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「再現？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4614.wav
+sfx_play 2
+
+line_set 「まあ、まねごとですね」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 祭りとは神話を人間がまねて再現し、その力を取り戻そうとするものが大半である。
+line_set その役になりきるものから、ただ口で再現するものまでいろいろなバリエーションが見受けられる。
+
+adv_on
+
+sfx_set 2 Vox\4613.wav
+sfx_play 2
+
+line_set 「“祭”の詳しい方法は、本来外部の人間には知られてはいけないのですが・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4612.wav
+sfx_play 2
+
+line_set 「すでにそんなことを言ってもいられないようなので話します」
+
+sfx_stop 2
+sfx_set 2 Vox\4611.wav
+sfx_play 2
+
+line_set 「祭はまず」
+
+sfx_stop 2
+sfx_set 2 Vox\4610.wav
+sfx_play 2
+
+line_set 「始めの六日間を表の部」
+
+sfx_stop 2
+sfx_set 2 Vox\4609.wav
+sfx_play 2
+
+line_set 「後の六日間を裏の部として行われます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「計十二日間も行うのか？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4608.wav
+sfx_play 2
+
+line_set 「そうですね」
+
+sfx_stop 2
+sfx_set 2 Vox\4607.wav
+sfx_play 2
+
+line_set 「始めの六日間を表の部」
+
+sfx_stop 2
+sfx_set 2 Vox\4606.wav
+sfx_play 2
+
+line_set 「これは村人と阿波路の人間で行われます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ならばそれはすでに行われてたのか？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4605.wav
+sfx_play 2
+
+line_set 「そうです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「まったく見ることがなかったが・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4604.wav
+sfx_play 2
+
+line_set 「見せないように行いますからね」
+
+sfx_stop 2
+sfx_set 2 Vox\4603.wav
+sfx_play 2
+
+line_set 「決して島の者以外には見せません」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「なるほど」
+
+name_set 双厳
+
+line_set 「ならば残り六日の裏の部というのはまだ行われていないのか？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4602.wav
+sfx_play 2
+
+line_set 「たぶん・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「たぶんだと？」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4601.wav
+sfx_play 2
+
+line_set 「すみません」
+
+sfx_stop 2
+sfx_set 2 Vox\4600.wav
+sfx_play 2
+
+line_set 「裏の部は」
+
+sfx_stop 2
+sfx_set 2 Vox\4599.wav
+sfx_play 2
+
+line_set 「阿波路家だけでおこなわれるものです」
+
+sfx_stop 2
+sfx_set 2 Vox\4598.wav
+sfx_play 2
+
+line_set 「当主だけが知ることを許された秘伝の儀式ゆえに」
+
+sfx_stop 2
+sfx_set 2 Vox\4597.wav
+sfx_play 2
+
+line_set 「私はそれが何なのか、いつ行われるか」
+
+sfx_stop 2
+sfx_set 2 Vox\4596.wav
+sfx_play 2
+
+line_set 「まったく知りません」
+
+sfx_stop 2
+sfx_set 2 Vox\4595.wav
+sfx_play 2
+
+line_set 「ただ、それも岩の封印を強めるものであり」
+
+sfx_stop 2
+sfx_set 2 Vox\4594.wav
+sfx_play 2
+
+line_set 「邪悪な儀式ではないはずなのです」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 「”はず”か・・・」
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「だいたいの事はわかった」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4593.wav
+sfx_play 2
+
+line_set 「すみません・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4592.wav
+sfx_play 2
+
+line_set 「あまり力になれなくて・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ふふふ・・・」
+line_set 「気にするな」
+
+name_set 桔梗
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「だが俺達もむざむざ死ぬわけにもいかないのでな」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4591.wav
+sfx_play 2
+
+line_set 「私も出来る限りの事はします」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「うむ・・・」
+
+name_set 桔梗
+
+sfx_set 2 Vox\4590.wav
+sfx_play 2
+
+line_set 「それでは、私もやらなければいけない事があるのでこの辺で・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「俺も調べなければならない事が多くのこっている」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+line_set 「さて・・・」
+line_set 「どうするかな・・・」
+#155_9
+!154
+
+jump_choice 28 ◆志乃の部屋へ移動
+jump_choice 29 ◆廊下へ移動
+@24
+
+kgd_layer2_set 1 Kgd\B_074.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 34546 155
+jump_branch1 34546 174
+
+nvl_on
+
+line_set 双厳は自室に戻り考えを整理する事にした。
+
+adv_on
+@33
+@34
+@35
+@36
+
+jump_branch2 29109 156
+jump_branch2 29109 157
+
+section_jump_branch1 174
+
+jump_auto 30
+!156
+!157
+jump_choice 31 ◆日の巫女について考える
+jump_choice 32 ◆島の儀式について考える
+@31
+jump_branch1 29617 156
+
+section_jump_branch1 156
+
+nvl_on
+
+line_set 「桔梗のおかげでかなりの事がわかってきた」
+line_set 「やはり日の巫女というのは”日流子”の巫女であったか・・・」
+line_set 「しかしわからない部分も多い」
+line_set 「イルやスイは二つの性質を持つ神だと言っていた」
+line_set 「それが桔梗の話だと」
+line_set 「イルは日流子」
+line_set 「スイは天照大神に」
+line_set 「仕えているという」
+
+nvl_line_clear
+
+line_set 「どっちが正しいのだろうか？」
+line_set 「二つに引き裂かれ、二神となった太陽神にはなにかあるはずなのだが・・・」
+
+adv_on
+
+jump_auto 33
+#156_11
+
+nvl_on
+
+line_set 「どっちが正しいのだろうか？」
+
+adv_on
+
+jump_auto 34
+@32
+jump_branch1 34378 157
+
+section_jump_branch1 157
+
+nvl_on
+
+line_set 桔梗の話だと、儀式には表の部と裏の部があり、それが各六日間、計十二日間行われるらしい。
+
+nvl_line_clear
+
+line_set 「表が村人達によって」
+line_set 「裏が阿波路家によって・・・」
+
+nvl_line_clear
+
+line_set 双厳はこの裏と表というのに引っかかっていた。
+
+nvl_line_clear
+
+line_set 「見る機会はなかったが」
+line_set 「桔梗の言うとおり村人によって執り行われた”祭”は邪悪なものでなく」
+line_set 「岩の封印を強めるものであったのであろう」
+line_set 「島の住人はたしかに双厳を含む用心棒にたいして排除の姿勢はとっていたが」
+line_set 「それは岩の守り部として当然の事であったはずだ」
+
+nvl_line_clear
+
+line_set 「先祖代々から”祭”によって守ってきたという意識のある島の住人にとって」
+line_set 「神聖な儀式の最中に外部の人間がうろついているなど許せるはずもない」
+line_set 「村人達の心情」
+line_set 「それは桔梗が双厳にしめした態度にあらわれていたといえる」
+
+adv_on
+
+name_set 双厳
+
+line_set 「この島の住人はなにかの変化を望んではいない」
+line_set 「そんな島の住人が岩の封印を解く儀式などするはずもない」
+line_set 「実際、”しるし””淡島”と続く、異常事態に彼らは動揺していた・・・」
+
+nvl_on
+
+line_set 「問題は阿波路で行われるという”裏の部”だ」
+line_set 「これを執り行っているのは」
+line_set 「阿波路の当主である志乃だ・・・」
+
+adv_on
+
+line_set 「表と裏か・・・」
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+line_set 「？！」
+line_set 「裏と表？」
+
+nvl_on
+
+line_set 双厳はある事に気がついた。
+
+adv_on
+
+line_set 「俺が来た日の志乃は十二日間の儀式が行われるといっていた」
+line_set 「という事は・・・」
+
+nvl_on
+
+line_set 双厳が来た日から十二日間の儀式がはじまったといえる。
+
+adv_on
+
+line_set 「！」
+
+nvl_on
+
+line_set 双厳は紙と筆を用意する。
+
+adv_on
+
+line_set 「まず・・・」
+line_set 「表を六日間」
+line_set 「裏を六日間とする」
+
+nvl_on
+
+line_set 双厳は白紙に表の六日間と裏の六日間にわけて数字を振り分ける。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_048.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer1_clear 1
+
+name_set 双厳
+
+line_set 「まず、俺が初日にきて・・・」
+line_set 「次の日は誰も島には渡って来ないで・・・」
+
+nvl_on
+
+line_set 双厳は用心棒が来た日にちを正確に書きだしていく。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_049.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+line_set 「・・・」
+line_set 「表の儀式が行われる六日間にすべての用心棒が出そろっている・・・」
+line_set 「そして・・・」
+
+nvl_on
+
+line_set 裏の部にすでに死んだ人間を、
+line_set さらにこれから死ぬと思われる人間とその日にちを書き出していく。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_050.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「思った通りだ・・・」
+
+nvl_on
+
+line_set 「表と裏・・・」
+line_set 「表の日にちに集められた用心棒が」
+line_set 「鏡合わせのように逆順に呪い殺されている」
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set なぜか二日目だけが空白である事が双厳は気になったが、そのまま考えを巡らせる。
+
+adv_on
+
+line_set 「まだなにかある・・・」
+line_set 「なにかあるはずだ！」
+line_set 「そうだな・・・」
+line_set 「たとえば・・・」
+line_set 「この表と裏がわけられる日に起きた事・・・」
+line_set 「そんなものがあれば・・・」
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・・・・」
+line_set 「！？」
+line_set 「そうだ！」
+
+nvl_on
+
+line_set 「この裏と表をわけるのもの・・・」
+line_set 「それは・・・」
+
+adv_on
+
+kgd_layer1_set 1 Kgd\Be_015.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+line_set 「淡島だ！」
+
+nvl_on
+
+line_set この裏と表の境目から淡島とよばれる蜃気楼が出現した。
+
+adv_on
+
+line_set 「そういえば」
+line_set 「島の住人や紗枝はやたらあの淡島に畏敬の念をしめしていた」
+line_set 「あの淡島とよばれる蜃気楼はただの蜃気楼ではないとは思ってはいたが・・・」
+line_set 「もしかしたら、用心棒が殺される呪いの予兆なのかもしれない・・・」
+line_set 「だとしたらあれはなにかしらの儀式によって呼び出されたもの？？？？」
+
+nvl_on
+
+line_set 「あり得ない事ではない」
+line_set 「あれが普通の蜃気楼でない以上」
+line_set 「あの蜃気楼・・・」
+line_set 「”淡島”の出現と呪いによって殺されていく用心棒とはなにかしらの関連があると考えるべきだ」
+
+adv_on
+
+line_set 「ならば・・・」
+line_set 「それを呼び出すものがなにか・・・」
+line_set 「？！」
+line_set 「ある！」
+line_set 「たしかにある！」
+line_set 「”淡島”を呼び出す予兆それは！」
+line_set 「”しるし”だ！」
+line_set 「そうか」
+line_set 「”しるし”とは”淡島”を呼び出すしるしであったのか」
+line_set 「？！」
+line_set 「これがでた日・・・」
+
+nvl_on
+
+line_set 双厳は白紙に書かれた日にちで唯一あいていた二日目に急いで書き込む。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_051.kgd
+kgd_layer1_crossfade 0
+kgd_layer1_fadein
+kgd_layer1_clear 1
+
+line_set 「そうだ・・・」
+line_set 「俺が来た翌日に”しるし”がでた」
+line_set 「つまりこの日は”しるし”が出る日なんだ」
+
+nvl_on
+
+line_set これにより儀式が行われる十二日間の日取りすべてが埋まった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+line_set 「なんだこれは・・・」
+
+nvl_on
+
+line_set 双厳は埋められた数字や文字を見直すが、
+line_set そこからは、答えも法則性らしきものもなにも導きだせなかった。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「ふむ・・・」
+line_set 「書き出してみればなにかわかると思ったのだが」
+line_set 「そう簡単にはいかないな・・・」
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・・・・」
+line_set 「・・・・・・・・・・・・・・・」
+
+nvl_line_clear
+
+line_set 双厳は書き出した数字と文字を幾時間睨みつけていたが最後まで答えはでなかった。
+
+adv_on
+
+line_set 「ふむ・・・」
+line_set 「いいところまではいったつもりであったのだが」
+line_set 「まだ足りない部分があるのか？」
+line_set 「それとも根本的に間違っているのか？」
+line_set 「うむ～」
+line_set 「・・・」
+line_set 「・・・・・・・・・・・・」
+line_set 「・・・・・・・・・・・・・・・」
+line_set 「だめだ、いくら考えてもらちがあかない」
+
+kgd_layer1_set 1 Kgd\W_004.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 35
+#157_12
+
+nvl_on
+
+line_set 「だめだ、いくら考えてもらちがあかない」
+
+adv_on
+
+jump_auto 36
+@30
+
+nvl_on
+
+line_set 相当な時間を思考によって費やした双厳は、外に出ることにした。
+
+adv_on
+
+line_set 「頭ばかり使っていると疲れる・・・」
+#174_10
+!155
+
+jump_choice 37 ◆廊下へ移動
+@47
+@50
+@52
+@85
+
+kgd_layer2_set 1 Kgd\B_049.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 36659 279
+jump_branch1 34917 161
+jump_branch1 36659 159
+jump_branch2 36659 158
+
+kgd_layer3_set 0 Kgd\Ro_004.kgd
+kgd_layer3_param 0 116 0 0 0 568 600
+kgd_layer3_display 0
+
+section_jump_branch1 159
+
+nvl_on
+
+line_set 「・・・」
+
+nvl_line_clear
+
+line_set この島からの脱出を図ろうとしているのだろう、三人の侍の姿を見掛ける。
+line_set 恐らく島中を歩き周り、舟を探しているのだろうが・・・。
+line_set その姿を見つつ、何か声を掛けるでもなく、その場を後にする。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 38
+#161_14
+
+section_jump_branch1 279
+
+nvl_on
+
+line_set 海岸には命がいる。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Mi_007.kgd
+kgd_layer3_param 0 152 0 0 0 496 600
+kgd_layer3_display 0
+
+name_set 命
+
+sfx_set 2 Vox\4589.wav
+sfx_play 2
+
+line_set 「あっ、二つ影・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ふふふ・・・」
+line_set 「昨日もここで会ったな・・・」
+
+name_set 命
+
+sfx_set 2 Vox\4588.wav
+sfx_play 2
+
+line_set 「そうだっけ？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「寒くないのか？そんな格好で・・・」
+
+nvl_on
+
+line_set といいながら双厳は命の太股に目をやる。
+line_set 海風に晒された太股はほんのり赤みがかり寒そうであった。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Mi_008.kgd
+kgd_layer3_param 3 152 0 0 0 496 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4587.wav
+sfx_play 2
+
+line_set 「か、格好の事は言わないでよ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4586.wav
+sfx_play 2
+
+line_set 「は、恥ずかしいんだから・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「赤くなってるぞ・・・」
+line_set 「ふともも・・・」
+
+kgd_layer3_set 3 Kgd\Mi_009.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4585.wav
+sfx_play 2
+
+line_set 「え？」
+
+sfx_stop 2
+
+kgd_layer3_set 3 Kgd\Mi_008.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+sfx_set 2 Vox\4584.wav
+sfx_play 2
+
+line_set 「へ、変なところ見ないでよ！！」
+
+sfx_stop 2
+sfx_set 2 Vox\4583.wav
+sfx_play 2
+
+line_set 「だ、大丈夫だから！！」
+
+sfx_stop 2
+
+nvl_on
+
+line_set そう言いながら命は手で太股を隠す。
+
+adv_on
+
+name_set 双厳
+
+line_set 「あまり長時間こんなところにいると体壊すぞ」
+
+kgd_layer3_set 3 Kgd\Mi_014.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4582.wav
+sfx_play 2
+
+line_set 「う、うん・・・」
+
+sfx_stop 2
+
+line_set 「・・・」
+line_set 「・・・・・・」
+
+nvl_on
+
+line_set 命は双厳を見つめる。
+
+adv_on
+
+name_set 双厳
+
+line_set 「？」
+line_set 「どうした？」
+
+kgd_layer3_set 3 Kgd\Mi_009.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4581.wav
+sfx_play 2
+
+line_set 「え？」
+
+sfx_stop 2
+sfx_set 2 Vox\4580.wav
+sfx_play 2
+
+line_set 「な、なんでもないよ」
+
+sfx_stop 2
+sfx_set 2 Vox\4579.wav
+sfx_play 2
+
+line_set 「あはははは・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「さてと・・・俺もいくか・・・」
+
+kgd_layer3_set 3 Kgd\Mi_019.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4578.wav
+sfx_play 2
+
+line_set 「なんか二つ影って・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「あん？」
+
+kgd_layer3_set 3 Kgd\Mi_009.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 命
+
+sfx_set 2 Vox\4577.wav
+sfx_play 2
+
+line_set 「な、なんでもないよ」
+
+sfx_stop 2
+sfx_set 2 Vox\4576.wav
+sfx_play 2
+
+line_set 「あはははは・・・」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+@38
+#279_13
+#159_15
+!158
+
+jump_choice 39 ◆村へ移動
+jump_choice 40 ◆港へ移動
+jump_choice 41 ◆物見やぐらへ移動
+jump_choice 42 ◆森林へ移動
+@39
+@81
+@84
+
+kgd_layer2_set 1 Kgd\B_045.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+section_jump_branch2 19
+
+jump_branch2 38968 274
+jump_branch1 38968 160
+
+section_jump_branch1 160
+
+kgd_layer3_set 0 Kgd\Ay_005.kgd
+kgd_layer3_param 0 192 0 0 0 416 600
+kgd_layer3_display 0
+
+name_set 双厳
+
+line_set 「・・・」
+
+name_set 彩
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4552.wav
+sfx_play 2
+
+line_set 「双厳さん、もしかしたら今日でお別れになるかもしれませんね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「お前知っているのか・・・」
+
+name_set 彩
+
+sfx_set 2 Vox\4551.wav
+sfx_play 2
+
+line_set 「ふふふ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4550.wav
+sfx_play 2
+
+line_set 「私だって柳生の隠密です」
+
+sfx_stop 2
+sfx_set 2 Vox\4549.wav
+sfx_play 2
+
+line_set 「そのくらいの事、知ってますよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_set 3 Kgd\Ay_004.kgd
+kgd_layer3_param 3 192 0 0 0 416 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 彩
+
+sfx_set 2 Vox\4548.wav
+sfx_play 2
+
+line_set 「でも、私は最後まであきらめません」
+
+sfx_stop 2
+sfx_set 2 Vox\4547.wav
+sfx_play 2
+
+line_set 「かならず異形達のたくらみを阻止してみせます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ふふ・・・」
+line_set 「そうだな」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「かならず阻止か・・・」
+
+nvl_line_clear
+
+line_set 双厳は彩を少しうらやましく思えた。
+line_set ”かならず生き残る”ではなく、
+line_set ”かならず異形のたくらみを阻止する”といえる彩を・・・。
+
+adv_on
+
+kgd_layer3_set 3 Kgd\Ay_001.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 彩
+
+sfx_set 2 Vox\4546.wav
+sfx_play 2
+
+line_set 「それでは失礼します」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「ああ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_branch2 38968 58
+
+kgd_layer3_set 0 Kgd\Ay_001.kgd
+kgd_layer3_display 0
+
+name_set 彩
+
+sfx_set 2 Vox\4545.wav
+sfx_play 2
+
+line_set 「そうそう・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4544.wav
+sfx_play 2
+
+line_set 「もしここから生きて帰れたら」
+
+sfx_stop 2
+sfx_set 2 Vox\4543.wav
+sfx_play 2
+
+line_set 「双厳さん」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なんだ？」
+
+kgd_layer3_set 3 Kgd\Ay_007.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 彩が頬を赤らめながら双厳の耳元でささやく。
+
+adv_on
+
+name_set 彩
+
+line_set 「また、私のオチ○チ○を可愛がってくださいね」
+
+name_set 双厳
+
+line_set 「？！」
+line_set 「いや・・・あれは・・・」
+
+kgd_layer3_set 3 Kgd\Ay_001.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 彩
+
+line_set 「ふふ・・・」
+line_set 「冗談ですよ」
+line_set 「私みたいな中途半端なんてもう抱きたくはないでしょう」
+
+jump_choice 43 ◆そんなことはない
+jump_choice 44 ◆なにも答えない
+@43
+
+name_set 双厳
+
+line_set 「そんな事はないさ・・・」
+line_set 「いつでも抱いてやる」
+
+kgd_layer3_set 3 Kgd\Ay_003.kgd
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 彩
+
+line_set 「ふふふ・・・」
+line_set 「ありがとう」
+line_set 「その日のためにいっぱい精子ためておくわ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「それは少し・・・」
+
+name_set 彩
+
+line_set 「うふふ・・・」
+
+sfx_set 2 Vox\4537.wav
+sfx_play 2
+
+line_set 「じゃあね」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+jump_auto 45
+@44
+
+sfx_set 2 Vox\4541.wav
+sfx_play 2
+
+line_set 「そろそろ私も行かなきゃ」
+
+sfx_stop 2
+sfx_set 2 Vox\4540.wav
+sfx_play 2
+
+line_set 「まごまごしてたら呪い殺されちゃうしね」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「そうだな・・・」
+
+name_set 彩
+
+line_set 「んじゃね」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+@45
+#160_16
+!274
+!58
+
+jump_choice 46 ◆屋敷前への道へ移動
+jump_choice 47 ◆海岸へ移動
+jump_choice 48 ◆港へ移動
+@41
+
+kgd_layer2_set 1 Kgd\B_065.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 41591 161
+jump_branch1 39803 160
+jump_branch1 41591 274
+jump_branch2 41591 159
+
+section_jump_branch1 274
+
+nvl_on
+
+line_set 双厳はそこで意外な少女と会う。
+
+adv_on
+
+name_set 双厳
+
+line_set 「お、お前・・・」
+
+kgd_layer3_set 0 Kgd\Ma_002.kgd
+kgd_layer3_param 0 252 0 0 0 296 600
+kgd_layer3_display 0
+
+name_set 舞
+
+sfx_set 2 Vox\4536.wav
+sfx_play 2
+
+line_set 「双厳ちゃんこんにちわ～」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「お前・・・島から出たのでは・・・」
+
+name_set 舞
+
+sfx_set 2 Vox\4535.wav
+sfx_play 2
+
+line_set 「？」
+
+sfx_stop 2
+sfx_set 2 Vox\4534.wav
+sfx_play 2
+
+line_set 「なんで舞ちゃんが島から出るの？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「いや、島の住人はすべて島から出たぞ」
+
+name_set 舞
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4533.wav
+sfx_play 2
+
+line_set 「でもなんで舞も出なきゃいけないの？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「いや・・・」
+
+name_set 舞
+
+sfx_set 2 Vox\4532.wav
+sfx_play 2
+
+line_set 「さてと舞ちゃんは今日もお仕事だよ」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「・・・」
+line_set 「頭が弱いから島に残されたのであろうか・・・」
+
+adv_on
+
+jump_auto 49
+#160_18
+
+section_jump_branch1 161
+
+kgd_layer3_set 0 Kgd\Ho_001.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+name_set 北条
+
+sfx_set 2 Vox\4512.wav
+sfx_play 2
+
+line_set 「あっ双厳殿」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なにかわかったか？」
+
+name_set 北条
+
+sfx_set 2 Vox\4511.wav
+sfx_play 2
+
+line_set 「いいえ」
+
+sfx_stop 2
+sfx_set 2 Vox\4510.wav
+sfx_play 2
+
+line_set 「全然です」
+
+sfx_stop 2
+sfx_set 2 Vox\4509.wav
+sfx_play 2
+
+line_set 「参りましたね・・・」
+
+sfx_stop 2
+
+line_set 「それにしても・・・」
+
+sfx_set 2 Vox\4507.wav
+sfx_play 2
+
+line_set 「次はいったい誰が・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set どうやら北条は次に誰が死ぬのか知らないらしい。
+
+nvl_line_clear
+
+line_set 「彩は知っていたのに・・・」
+line_set 「北条は知らないのか・・・」
+
+nvl_line_clear
+
+line_set それは彩と北条の隠密としての能力差なのか、立場上の問題なのかは双厳にはわからなかった。
+line_set もしかしたら、単純に怪我をしていた北条に話をする機会がなかったのかもしれない。
+
+nvl_line_clear
+
+line_set 「自分が今日死ぬこと、これは知るべきなのか知らないべきなのか・・・」
+
+nvl_line_clear
+
+line_set 双厳には答えがだせなかった。
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4506.wav
+sfx_play 2
+
+line_set 「私もこの島に渡った時から、この命は無かったものとして考えているのですが・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4505.wav
+sfx_play 2
+
+line_set 「あんなものを見せられては・・・」
+
+sfx_stop 2
+
+kgd_layer3_set 3 Kgd\Ho_003.kgd
+kgd_layer3_param 3 164 0 0 0 472 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+nvl_on
+
+line_set 北条がうつむく。
+
+adv_on
+
+sfx_set 2 Vox\4504.wav
+sfx_play 2
+
+line_set 「でもやつらの野望の阻止だけはしなければ・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだな」
+
+name_set 北条
+
+sfx_set 2 Vox\4503.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+sfx_set 2 Vox\4502.wav
+sfx_play 2
+
+line_set 「出来る限りの事はします」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 北条がきえる。
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+nvl_on
+
+line_set 北条は剣士として、自分の死と向かい合うべきなのか、それとも・・・。
+
+adv_on
+
+line_set 「自分が死ぬことを、知りそれに立ち向かう・・・」
+line_set 「最後までそれを知らずに死と向かい合う事なく死んでいく・・・」
+line_set 「どちらが幸せなのか、どちらが正しいのか」
+
+nvl_on
+
+line_set 果たして、今日中に彩や北条にかけられた呪いを解く事が出来るのであろうか？
+
+adv_on
+
+line_set 「やるしかあるまい・・・」
+@49
+#161_17
+#274_19
+!159
+
+jump_choice 50 ◆海岸へ移動
+@42
+@83
+
+kgd_layer2_set 1 Kgd\B_053.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 42986 162
+jump_branch2 42986 279
+
+section_jump_branch1 162
+
+nvl_on
+
+line_set 双厳は気に掛かっている事を確かめるべく、この場を訪れていた。
+line_set 普段なら気にも留めないこの場所で、ただ見つめる先は・・・。
+
+adv_on
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「ここからあの異形は出て来たっけな・・・」
+
+nvl_on
+
+line_set 双厳は、この池で昨夜あった異形を思い出していた。
+
+nvl_line_clear
+
+line_set 「無影のように実体がない異形・・・」
+line_set 「そういえば・・・」
+
+nvl_line_clear
+
+line_set 双厳は桔梗の話していた事を思い出した。
+
+nvl_line_clear
+
+line_set ”呪いが人の形をして実体化したもの”
+
+nvl_line_clear
+
+line_set 桔梗の話では、あれは人の形に見えるが呪いそのものであるという。
+
+nvl_line_clear
+
+line_set 「そのわりに」
+line_set 「その”呪い”を”あの人”と呼んでいたな・・・」
+
+adv_on
+
+line_set 「あの異形・・・」
+line_set 「いったい何者なんだ・・・」
+
+nvl_on
+
+line_set 見つめる池は、穏やかな波間に揺れていた。
+line_set 双厳はその池を見据えたまま、ただ一人で考えにふける。
+
+nvl_line_clear
+
+line_set 「あの異形が現れて・・・」
+line_set 「それから色々起こり出しやがった」
+
+nvl_line_clear
+
+line_set あまりにもタイミングの良過ぎる状況。
+line_set むしろ、異形が現れたからこそ起こり出した異変といえる。
+
+nvl_line_clear
+
+line_set 「あの、骨の抜かれた死体・・・」
+line_set 「全てはあの異形の仕業に違いないなのはたしかなのだが・・・」
+
+nvl_line_clear
+
+line_set ここまでくると、疑うなという方がおかしい。
+line_set 昨夜の現場にあの異形がいたことも、双厳の確信を強める要因だった。
+
+nvl_line_clear
+
+line_set 「なのにもかかわらず・・・」
+line_set 「いまだにアレがなんであるのかわからない」
+
+adv_on
+
+line_set 「あの奇妙な呪文みたいなもの・・・」
+line_set 「・・・」
+line_set 「あの異形を止める事ができたら・・・」
+#162_20
+!279
+
+jump_choice 51 ◆遺跡へ移動
+jump_choice 52 ◆海岸へ移動
+@82
+
+kgd_layer1_set 1 Kgd\Be_017.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+jump_branch2 44296 162
+jump_branch1 44296 163
+
+section_jump_branch1 163
+
+name_set 双厳
+
+line_set 「この遺跡に刻まれている絵も、まだ謎のままだったな・・・」
+
+nvl_on
+
+line_set 双厳にとって本来の目的であるはずの”呪いを解く方法”は、何の進歩も見せていない。
+line_set この島に何か関係があると思い、単身この淡炎島に渡り・・・。
+line_set その手掛かりが掴めたかもしれないと、この遺跡を見つける。
+line_set しかし、結局のところは何も分からずじまいでしかなかった。
+
+nvl_line_clear
+
+line_set 「それどころじゃないのもたしかだがな・・・」
+
+nvl_line_clear
+
+line_set すでに二重影の呪いを解く事よりも、この島から生きて出る事の方が問題になってきている。
+
+nvl_line_clear
+
+line_set 「”ヒルコ”の呪いを解かなければ」
+line_set 「俺もこの島で死ぬ事となる・・・」
+
+nvl_line_clear
+
+line_set 双厳は二つの絵を見比べる。
+line_set 相変わらず対照的な二つの絵は、何を表しているのか分からない。
+
+nvl_line_clear
+
+line_set 「片方は人間っぽく見える」
+line_set 「だが、もう片方が・・・」
+
+nvl_line_clear
+
+line_set 何度見てもよく分からない。
+line_set それが果たして何を意味しているのか。
+line_set どう見ても人間のそれとは違う。
+line_set しかしこの対になっている絵、必ず何かしらの意味がある・・・。
+line_set 双厳はそう踏んでいた。
+
+adv_on
+
+line_set 「・・・」
+line_set 「もう一度、古文書を調べ直した方がいいのかもしれねぇな」
+
+nvl_on
+
+line_set 志乃の部屋にある数多くの古文書は、まだまだ目をとおしていないものも多数存在する。
+
+nvl_line_clear
+
+line_set 「この遺跡にかかわる古文書」
+line_set 「その辺りを洗い直した方がいい」
+
+nvl_line_clear
+
+line_set 双厳はその場を後にした。
+
+adv_on
+#163_21
+!162
+
+jump_choice 53 ◆遺跡の外に出る
+@53
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 54
+@28
+@62
+
+kgd_layer2_set 1 Kgd\B_005.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 46002 163
+jump_branch1 45952 165
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は志乃の部屋で往生していた。
+
+nvl_line_clear
+
+line_set 「”ヒルコ”を”日流子”とした古文書」
+line_set 「それ以外に何か手掛かりとなるものは無いか」
+
+nvl_line_clear
+
+line_set 志乃の所持物に何か無いかと思ったが、案の定何も見つからない。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「当然といえば当然か」
+line_set 「見える所に置くような、そんな親切な女じゃねぇだろうよ」
+
+nvl_line_clear
+
+line_set 双厳は再び部屋を物色する。
+line_set 大して何も無い部屋だからこそ、何かある可能性が高い。
+line_set 志乃の部屋を探しているのも、もちろん志乃という女への疑念に他ならない。
+line_set その辺りを踏まえての行動である。
+
+nvl_line_clear
+
+line_set 「大体、あの女が何考えてるか知ったことじゃねぇ・・・」
+
+nvl_line_clear
+
+line_set 双厳が壁伝いに歩き、
+line_set そこにかけられた掛け軸を双厳は何気なくさわって見る。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\En_053.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer1_clear 1
+
+line_set 「ん？」
+line_set 「なんだこれは・・・」
+
+nvl_on
+
+line_set なんでもない掛け軸であった。
+line_set ヒルコにもアワシマにも・・・、
+line_set それどころか古事記にすら関係ない。
+
+adv_on
+
+line_set 「ふむ」
+@57
+
+jump_branch1 45301 164
+jump_choice 55 ◆見る
+
+nvl_line_clear
+#164_23
+
+jump_choice 56 ◆調べる
+@55
+
+section_jump_branch1 164
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+line_set 「掛け軸だな」
+
+jump_auto 57
+@56
+
+section_jump_branch1 165
+
+nvl_on
+
+line_set 双厳はその掛け軸をめくってみる。
+
+adv_on
+
+line_set 「？！」
+line_set 「これは・・・」
+
+kgd_layer1_set 1 Kgd\En_054.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 掛け軸の奥に一枚の扉があった。
+
+adv_on
+
+line_set 「扉？」
+
+nvl_on
+
+line_set 人一人入れる程度の小さな扉。
+
+adv_on
+
+line_set 「ふむ・・・」
+
+nvl_on
+
+line_set 掛け軸の奥にある、不自然な扉。
+line_set 双厳はその扉を開いてみる。
+line_set するとその奥には、果てしなく続きそうな闇の空間が見える。
+
+adv_on
+
+kgd_layer1_set 1 Kgd\W_004.kgd
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+line_set 「なるほどな・・・」
+line_set 「そういう事か・・・」
+line_set 「あの女が考えそうな事だな・・・」
+
+nvl_on
+
+line_set 双厳は呆れ顔でその奥へと進んで行った。
+
+adv_on
+
+jump_auto 58
+#165_22
+jump_choice 59 ◆大広間へ移動
+jump_choice 60 ◆隠し地下室へ移動
+
+nvl_line_clear
+!163
+
+jump_choice 61 ◆大広間へ移動
+@58
+@60
+
+kgd_layer2_set 1 Kgd\B_069.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch1 53041 166
+
+section_jump_branch1 166
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「それらしい部屋だな・・・」
+
+nvl_on
+
+line_set その部屋は書斎のような部屋だった。
+line_set 多くの本が部屋を埋めつくし、その文献の豊富さを伺わせる。
+
+adv_on
+
+line_set 「・・・」
+line_set 「なんだこりゃ？」
+
+nvl_on
+
+line_set 数多くの書物の他に、拷問道具のようなものも多く存在する。
+
+adv_on
+
+line_set 「あの女の趣味か？」
+
+nvl_on
+
+line_set 拷問道具・・・。
+line_set というにはやたら性的な拷問道具が多かった。
+
+adv_on
+
+line_set 「・・・」
+line_set 「まぁ、これをやつが何に使っていたなんて事はどうでもいいな・・・」
+line_set 「さてと・・・」
+
+nvl_on
+
+line_set 双厳は適当に本などを物色する。
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+line_set 「ふむ・・・」
+
+nvl_on
+
+line_set この部屋には、ありとあらゆる文献が揃っていた。
+
+adv_on
+
+line_set 「奇談から伝奇といわれる物」
+line_set 「神異禄から仏教説話」
+line_set 「異端言語説、見聞」
+line_set 「医学関係から本草綱目集」
+line_set 「忍術から妖術」
+line_set 「さらに剣術の秘伝書までもある」
+line_set 「・・・」
+line_set 「見たことねぇ代物までありやがる・・・」
+line_set 「どうやってこんなに集めたんだ・・・」
+
+pis_set 20 0
+
+nvl_on
+
+line_set 「これは<0,南法>の秘伝書か？」
+line_set 「こんなものがこんな辺境で見られるとは・・・」
+line_set 「唐の古文書まで取りそろえているか」
+
+adv_on
+
+line_set 「これだけのものをこの一族はどうやって集めたんだ？」
+
+nvl_on
+
+line_set ここにあるということは、志乃の所持物と考えるべきである。
+line_set といっても、志乃が一代で集めたものではないはずである、というか一代で集められるものではない。
+
+adv_on
+
+line_set 「阿波路家が代々集めてきた書籍であろう」
+line_set 「志乃の豊富な知識も、全てはここから持ち出されたものか・・・」
+line_set 「それにしても・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「あの女、本当に何者だ・・・？」
+line_set 「これだけのものを読むにはかなりの教養が必要であろう」
+
+nvl_line_clear
+
+line_set ますます志乃への疑念と正体に拍車がかかる。
+line_set 双厳にとって、志乃という女が何者かもよく分かっていない。
+
+adv_on
+
+line_set 「・・・と、こんな事してる場合じゃねぇな」
+
+nvl_on
+
+line_set 双厳は辺りを調べ始める。
+line_set もちろん、何か手掛かりになりそうな文献を探すためだ。
+
+nvl_line_clear
+
+line_set 「・・・」
+line_set 「・・・・・・・・・」
+line_set 「・・・・・・・・・・・・」
+
+nvl_line_clear
+
+line_set 何か無いものかと探す双厳。
+line_set そんな無言の行為がしばらく続いた。
+
+adv_on
+
+line_set 「・・・？」
+line_set 「これは・・・」
+
+nvl_on
+
+line_set ふと、双厳の動きが止まった。
+line_set その手には、一冊の書物。
+line_set 古めいたその本を手に取った双厳は、
+line_set その書物を開く。
+
+adv_on
+
+line_set 「守部之抄・・・」
+line_set 「島の守り部についての書物か？」
+line_set 「なんだ？」
+line_set 「これ漢文じゃねーか」
+
+nvl_on
+
+line_set 双厳はその本を読み進んでいく。
+
+adv_on
+
+line_set 「・・・」
+line_set 「・・・・・・・・・」
+line_set 「・・・・・・・・・・・・」
+line_set 「くそ・・・」
+line_set 「読めない場所があるな・・・」
+
+nvl_on
+
+line_set 書いた人間があまりに達筆であった事、
+line_set そしてあまりに古い文献であった事、
+line_set 双厳には読解不可能な場所が多々あった。
+
+adv_on
+
+pis_set 19 0
+
+line_set 「・・・」
+line_set 「書かれたのが」
+line_set 「<0,皇紀>５６０年・・・」
+line_set 「千七百年以上前に書かれた書物・・・」
+
+nvl_on
+
+line_set 「・・・」
+line_set 「・・・・・・」
+line_set 「・・・・・・・・・」
+
+adv_on
+
+line_set 「まさかな・・・」
+
+nvl_on
+
+line_set もし何千年も前の本であるなら、何度か写本されたものであろう。
+line_set どうみても数百年前に書かれたものだ。
+line_set そこにはこのような事が書かれていた。
+
+nvl_line_clear
+
+line_set 今から千七百年前、ちょうど西暦でいえば紀元前１００年ほど前に、
+line_set この淡炎島に一人の呪術師がいた。
+line_set その名を透哲宿根といった。
+line_set 彼は阿波路の当主であり、古今東西の呪術を自由に操った。
+line_set 中国の呪術を多く取り込み、岩の封印をさらに強固なものとした。
+
+adv_on
+
+line_set 「・・・」
+line_set 「この島の当主は単なる宗教儀式を司るものでなく」
+line_set 「代々あらゆる呪術を使う万能な妖術師であったのであろう」
+line_set 「だからこそこの書庫には古今東西あらゆる書物が集められているのであろうな・・・」
+
+nvl_on
+
+line_set 透哲宿根には二人の美しい娘がいた。
+line_set その名を入姫神と出姫神といった。
+
+adv_on
+
+line_set 「入姫神と出姫神・・・」
+line_set 「？！」
+line_set 「これは・・・」
+line_set 「入と出？」
+line_set 「イルとスイ？」
+line_set 「これはイルとスイなのか？」
+
+nvl_on
+
+line_set 「”日の巫女”は代々、イルとスイと名付けられるのであろうか？」
+line_set 「いや・・・」
+line_set 「この文面を読む限りは透哲と言われる人物の娘を限定してこのように名付けたようだ・・・」
+line_set 「ならば」
+line_set 「これに模して、代々日の巫女は”イル”と”スイ”と名付けられるのであろう」
+
+nvl_line_clear
+
+line_set それまでは、伊邪那岐が黄泉に伊邪那美に会いに行き逃げ帰り岩で封印する話を
+line_set 人間が模して儀式を行うというものであったが、
+line_set この透哲宿根は中国の哲理である陰陽五行説を多く取り込みこれを改良した。
+line_set 娘達の協力もあり、この多くの儀式を成功させた。
+
+nvl_line_clear
+
+line_set 「陰陽五行・・・」
+line_set 「そういえば、この島では”古事記”の模写の他に多くの五行説がまじっている」
+
+adv_on
+
+line_set 「紗枝が言っていた六十年周期は間違いなく六十花甲子であろうこれは陰陽五行における周期の考え方だ」
+
+nvl_on
+
+line_set 六十花甲子とは、十干の干は幹、十二支の支は枝、これは『幹枝』を意味する。
+line_set 古代中国から、この十と十二が組み合わされ、その最小公倍数、６０の周期で日が数えられたという。
+line_set 十干十二支の組み合わせは甲子からはじまり癸亥に終わる。
+line_set この組み合わせを『六十花甲子』とよぶのである。
+
+nvl_line_clear
+
+line_set この６０周期は一つの始まりと終わりをあらわす周期であると考えるとよい。
+line_set 六十花甲子によってみちびきだされる重要点は６０年周期に一巡「死」を迎えるという事である。
+
+adv_on
+
+line_set 「他にも何かあるのか・・・」
+line_set 「・・・」
+line_set 「？！」
+line_set 「なんだこりゃ・・・」
+
+nvl_on
+
+line_set この後のページは突然白紙となっていた。
+
+adv_on
+
+line_set 「なんだ・・・」
+line_set 「原文が欠けていて写本にするときにその部分を空白としたのか？」
+line_set 「それとも・・・」
+
+nvl_on
+
+line_set 数枚の空白の後にその続きが書かれている。
+
+nvl_line_clear
+
+line_set 透哲宿根は自分の知識によって行った儀式により入姫神と出姫神をころしてしまう事になる。
+
+adv_on
+
+line_set 「・・・」
+line_set 「なんだこの白い部分はまるで」
+line_set 「透哲宿根が陰陽五行を取り入れておこなった封印の儀式の説明を省いているようだな・・・」
+
+nvl_on
+
+line_set 透哲宿根が改良した儀式の事も、
+line_set 入姫神と出姫神をころしてしまう事になる儀式に関しても何もかかれていない。
+
+adv_on
+
+line_set 「？！」
+line_set 「なんだ？」
+line_set 「またか・・・」
+
+nvl_on
+
+line_set さらに数ページの空白が続く。
+
+adv_on
+
+line_set 「くそ・・・」
+line_set 「なんて不親切な本なんだ・・・」
+
+nvl_on
+
+line_set 数枚の白紙をめくっていくと最後のページにたどり着く。
+line_set 話の結末だけは書かれているようだ。
+
+adv_on
+
+line_set 「これだけでも読めれば・・・」
+
+nvl_on
+
+line_set 双厳はその話の結末部分を読む。
+
+nvl_line_clear
+
+line_set これを怒った神は入姫神と出姫神の霊を黄泉には入れずに、永久にこの島にさまよわせた。
+line_set それ以来透哲宿根の霊は黄泉を永久にさまよい続け、
+line_set 永久に入姫神と出姫神の霊は、淡炎島に縛られる事になる。
+
+adv_on
+
+line_set 「・・・」
+line_set 「これを怒った？」
+line_set 「神はいったい透哲宿根に対して何を怒ったんだ？」
+
+nvl_on
+
+line_set 結末部分を読んでも双厳には話のあらましを理解することはできなかった。
+
+adv_on
+
+line_set 「ただわかる事は」
+line_set 「透哲宿根が何かをしでかして神の怒りをかい」
+line_set 「永久に黄泉をさまよう事になったというわけだな」
+line_set 「しかし・・・」
+
+nvl_on
+
+line_set 「いつみても神話の神様つーのは酷だな・・・」
+line_set 「透哲宿根だけならまだしも」
+line_set 「ただその娘であっただけで」
+line_set 「入姫神と出姫神の霊などは黄泉にも渡らせずに永久にこの島にしばりつけたというのだからな」
+line_set 「透哲宿根よりもよほど過酷だ・・・」
+
+nvl_line_clear
+
+line_set 「それにしても・・・」
+
+nvl_line_clear
+
+line_set 「永久にこの島に縛り続けられる入姫神と出姫神というのはどういう事だろうか？」
+line_set 「不老不死にでもなって永久に生きているのか？」
+line_set 「それともどこかに封印されているのか？」
+line_set 「どういう事なのだろうか？」
+
+adv_on
+
+line_set 「ふむ・・・」
+line_set 「わからん・・・」
+line_set 「少し外の空気でも吸うか・・・」
+
+nvl_on
+
+line_set 双厳は外に出ることにした。
+
+adv_on
+#166_24
+
+jump_choice 62 ◆外へ出る
+@26
+@79
+
+kgd_layer2_set 1 Kgd\B_025.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 56300 167
+jump_branch1 56300 168
+
+section_jump_branch1 168
+
+kgd_layer3_set 0 Kgd\Jy_007.kgd
+kgd_layer3_param 0 100 0 0 0 600 600
+kgd_layer3_display 0
+
+name_set 十兵衛
+
+line_set 「どうだ、何か分かったか？」
+
+name_set 双厳
+
+line_set 「お前、その傷で出歩いて大丈夫かよ？」
+
+name_set 十兵衛
+
+line_set 「生憎この程度の傷で休んでられるほど暇じゃないんでな」
+line_set 「調べなきゃならん事は山ほどあるんだ」
+line_set 「で、質問に答えろよ」
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「判ってはきている。きているが・・・」
+
+name_set 十兵衛
+
+sfx_set 2 Vox\4466.wav
+sfx_play 2
+
+line_set 「？」
+
+sfx_stop 2
+
+line_set 「きてるが・・・何だ？」
+
+name_set 双厳
+
+line_set 「呪いの件といい、まだどれも確信の持てるモンが一つもねぇ」
+
+name_set 十兵衛
+
+line_set 「八方塞りか・・・」
+line_set 「調べられる事は調べ尽くしたのか？」
+
+name_set 双厳
+
+line_set 「いや膨大すぎてだめだ・・・」
+line_set 「あれ調べあげたら十年や二十年はかかる」
+
+name_set 十兵衛
+
+line_set 「そんなにあるのかこの家には」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「好き者ならたまらないのだろうけどな・・・」
+line_set 「今の俺には逆に資料がありすぎる事がつらい」
+
+name_set 十兵衛
+
+line_set 「情報が多すぎてか・・・」
+line_set 「もっと人間を動員できればよいのだが・・・」
+
+name_set 双厳
+
+line_set 「はっ？」
+line_set 「いくら隠密集めても無駄だろう」
+line_set 「ほとんど古文書の類だぜ」
+line_set 「隠密にそんな教育施していないだろう」
+
+name_set 十兵衛
+
+line_set 「学者でもよぶ時間があればいいのだが」
+
+name_set 双厳
+
+line_set 「時間もなにも」
+line_set 「この外に出れないものを、どうやって呼び出すんだよ」
+
+name_set 十兵衛
+
+line_set 「いや」
+line_set 「連絡は出来る・・・」
+line_set 「しかし問題は時間だ・・・」
+
+name_set 双厳
+
+line_set 「後数日でこの島の儀式は終わる」
+line_set 「そうなれば・・・」
+
+name_set 十兵衛
+
+line_set 「何が起こるのやら・・・」
+
+name_set 双厳
+
+line_set 「はははは・・・」
+line_set 「一つだけわかっている事は」
+line_set 「完了すれば俺達用心棒全員は確実に死ぬということだけだな」
+
+name_set 十兵衛
+
+line_set 「・・・」
+
+name_set 双厳
+
+line_set 「そうだ・・」
+line_set 「お前少しは漢文読めるだろ」
+
+name_set 十兵衛
+
+line_set 「ああ・・・」
+line_set 「あまり学問は得意じゃないが・・・」
+
+name_set 双厳
+
+line_set 「志乃の部屋にある掛け軸から隠し部屋があるから」
+
+name_set 十兵衛
+
+line_set 「なに？」
+line_set 「本当か？」
+
+name_set 双厳
+
+line_set 「ああ・・・」
+line_set 「いままでそこで調べてた」
+
+kgd_layer3_set 3 Kgd\Jy_010.kgd
+kgd_layer3_param 3 100 0 0 0 600 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「なぜそれをはやく言わん！」
+
+name_set 双厳
+
+line_set 「いや」
+line_set 「いったところでお前ら隠密に読めるものでもなさそうだったからな・・・」
+line_set 「それに一人で調べたかったんでな」
+line_set 「先に見つけた人間の特権だ」
+
+name_set 十兵衛
+
+line_set 「ちっ・・・」
+line_set 「まだ完全に俺らの事信用してないのか？」
+
+name_set 双厳
+
+line_set 「当然だろ？」
+line_set 「敵だった隠密を心底信頼するほど俺はお人好しじゃないぜ」
+line_set 「知らない間に重要な古文書を抜かれてドロンじゃ割にあわないからな」
+line_set 「お前にとっては無影のたくらみを阻止する事が目的であって」
+line_set 「俺達呪いをかけられた用心棒達の救出でない」
+line_set 「まぁ」
+line_set 「とりあえず、重要そうな本は確認しておいた」
+
+name_set 十兵衛
+
+line_set 「ちっ」
+line_set 「まぁいい・・・」
+
+name_set 双厳
+
+line_set 「志乃の隠し部屋でとりあえず調べものをしてくれ」
+
+kgd_layer3_set 3 Kgd\Jy_007.kgd
+kgd_layer3_param 3 100 0 0 0 600 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 十兵衛
+
+line_set 「で、そこでなにかわかった事は？」
+
+name_set 双厳
+
+line_set 「とりあえず、降りた階段から左端の守部之抄という本があるから読んでおけ」
+line_set 「なにかの資料にはなるはずだ」
+
+name_set 十兵衛
+
+line_set 「うむ」
+
+name_set 双厳
+
+line_set 「一通り読んだらまた会おう」
+line_set 「その時情報交換だ」
+
+name_set 十兵衛
+
+line_set 「そうだな」
+line_set 「じゃ、俺は行く」
+
+name_set 双厳
+
+line_set 「うむ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 十兵衛はきびすを返してその場から立ち去っていく。
+line_set 双厳も少し間を置いてその場を後にした。
+
+adv_on
+#168_25
+!167
+
+jump_choice 63 ◆蔵に入る
+jump_choice 64 ◆廊下へ移動
+@67
+
+kgd_layer2_set 1 Kgd\B_001.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_branch2 60605 174
+jump_branch1 60605 158
+
+section_jump_branch1 158
+
+nvl_on
+
+line_set 北条が大岩にいる。
+line_set 身体がやっと動くようになり、今までの分まで働こうと動き回っているようだ。
+
+adv_on
+
+kgd_layer3_set 0 Kgd\Ho_001.kgd
+kgd_layer3_param 0 164 0 0 0 472 600
+kgd_layer3_display 0
+
+name_set 北条
+
+sfx_set 2 Vox\4501.wav
+sfx_play 2
+
+line_set 「あっ」
+
+sfx_stop 2
+sfx_set 2 Vox\4500.wav
+sfx_play 2
+
+line_set 「双厳殿・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「動きまわってるようだな」
+
+name_set 北条
+
+sfx_set 2 Vox\4499.wav
+sfx_play 2
+
+line_set 「はい」
+
+sfx_stop 2
+sfx_set 2 Vox\4498.wav
+sfx_play 2
+
+line_set 「いままで休んでましたからね」
+
+sfx_stop 2
+sfx_set 2 Vox\4497.wav
+sfx_play 2
+
+line_set 「それに今は十兵衛さまがあまり動けない様子だし・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「そうだな・・・」
+line_set 「俺も調べなきゃいけない事が多いし・・・」
+line_set 「さてと・・・」
+
+nvl_on
+
+line_set 双厳はそう言うと、歩きだそうとした。
+line_set しかし北条はその双厳の姿を見つめ動こうとしない。
+
+adv_on
+
+line_set 「ん？」
+line_set 「なんだ用事があるのか？」
+
+name_set 北条
+
+sfx_set 2 Vox\4496.wav
+sfx_play 2
+
+line_set 「い、いいえ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4495.wav
+sfx_play 2
+
+line_set 「別に・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なら、仕事したほうがいいんじゃねぇのか」
+line_set 「こんなところで油売っている場合じゃねぇだろうが・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4494.wav
+sfx_play 2
+
+line_set 「双厳殿は・・・」
+
+sfx_stop 2
+
+nvl_on
+
+line_set 双厳の言葉を無視して北条がしゃべり出す。
+
+adv_on
+
+sfx_set 2 Vox\4493.wav
+sfx_play 2
+
+line_set 「なぜ剣を振るうのですか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「はぁ？」
+line_set 「俺がなぜ剣を振るうか？」
+line_set 「そんな事に理由なんてねぇよ・・・」
+line_set 「己の身を守るために剣を振るうだけだ」
+
+name_set 北条
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4492.wav
+sfx_play 2
+
+line_set 「そうでしょうか？」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「あん？」
+
+name_set 北条
+
+sfx_set 2 Vox\4491.wav
+sfx_play 2
+
+line_set 「双厳殿と剣を交わし・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4490.wav
+sfx_play 2
+
+line_set 「なんだかわからないケド・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4489.wav
+sfx_play 2
+
+line_set 「なんかいろいろな事を感じました」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「感じた？」
+line_set 「剣を交えてる時に？」
+line_set 「そりゃ、おめぇが真剣で戦った事がないからだろ」
+line_set 「真剣で戦うのがはじめてだったから、勝手にそこに意味を見いだしていただけだ・・・」
+line_set 「剣を交える事になんの意味もない」
+line_set 「そこにあるのは」
+line_set 「生きるか死ぬかだけだ・・・」
+line_set 「お前も慣れればなにも感じなくなる」
+
+name_set 北条
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4488.wav
+sfx_play 2
+
+line_set 「たしかにそうかもしれませんケド・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4487.wav
+sfx_play 2
+
+line_set 「ただ、僕が貴方の剣からいろいろな事を思ったのはたしかです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「何、思ったんだよ」
+
+name_set 北条
+
+line_set 「・・・」
+
+sfx_set 2 Vox\4486.wav
+sfx_play 2
+
+line_set 「さぁ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4485.wav
+sfx_play 2
+
+line_set 「なんでしょう・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「阿呆かお前・・・」
+
+name_set 北条
+
+sfx_set 2 Vox\4484.wav
+sfx_play 2
+
+line_set 「言葉じゃうまくいえないけど」
+
+sfx_stop 2
+sfx_set 2 Vox\4483.wav
+sfx_play 2
+
+line_set 「ただ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4482.wav
+sfx_play 2
+
+line_set 「いいな」
+
+sfx_stop 2
+sfx_set 2 Vox\4481.wav
+sfx_play 2
+
+line_set 「と思いました」
+
+sfx_stop 2
+sfx_set 2 Vox\4480.wav
+sfx_play 2
+
+line_set 「双厳殿の剣は・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「なんだそりゃ」
+
+name_set 北条
+
+sfx_set 2 Vox\4479.wav
+sfx_play 2
+
+line_set 「うわさ通り」
+
+sfx_stop 2
+sfx_set 2 Vox\4478.wav
+sfx_play 2
+
+line_set 「残虐で」
+
+sfx_stop 2
+sfx_set 2 Vox\4477.wav
+sfx_play 2
+
+line_set 「冷酷で」
+
+sfx_stop 2
+sfx_set 2 Vox\4476.wav
+sfx_play 2
+
+line_set 「ものすごく恐ろしい剣だけど・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4475.wav
+sfx_play 2
+
+line_set 「でも・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4474.wav
+sfx_play 2
+
+line_set 「いいですよ・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4473.wav
+sfx_play 2
+
+line_set 「双厳殿と剣を交えられて本当にうれしかったです」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+
+nvl_on
+
+line_set 双厳は完全にあきれていた。
+
+nvl_line_clear
+
+line_set 「やっぱり、こいつ峰打ちではなく殺しておいたほうがよかったか？」
+
+adv_on
+
+name_set 北条
+
+sfx_set 2 Vox\4517.wav
+sfx_play 2
+
+line_set 「あはははは・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4471.wav
+sfx_play 2
+
+line_set 「さすがに双厳殿もあきれてしまわれたようですね」
+
+sfx_stop 2
+sfx_set 2 Vox\4470.wav
+sfx_play 2
+
+line_set 「すみません」
+
+sfx_stop 2
+sfx_set 2 Vox\4469.wav
+sfx_play 2
+
+line_set 「引き留めてしまって・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4468.wav
+sfx_play 2
+
+line_set 「ただ、今話しておかないと、永久に言えないような気がして・・・」
+
+sfx_stop 2
+sfx_set 2 Vox\4467.wav
+sfx_play 2
+
+line_set 「なんでかはわからないケド・・・」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「・・・」
+line_set 「とりあえず生きる事だな・・・」
+
+name_set 北条
+
+line_set 「？」
+
+name_set 双厳
+
+line_set 「生きてこの島から出ることだ・・・」
+line_set 「そうすれば、またいくらでも勝負してやる」
+
+kgd_layer3_set 3 Kgd\Ho_002.kgd
+kgd_layer3_param 3 164 0 0 0 472 600
+kgd_layer3_crossfade 0
+kgd_layer2_blit 0 3
+kgd_layer3_clear 3
+
+name_set 北条
+
+sfx_set 2 Vox\4465.wav
+sfx_play 2
+
+line_set 「は、はい！」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「生きてこのまま剣を振り続けたら」
+line_set 「あるいは強くなるかもしん」
+
+name_set 北条
+
+sfx_set 2 Vox\4519.wav
+sfx_play 2
+
+line_set 「あ、ありがとうございます」
+
+sfx_stop 2
+
+name_set 双厳
+
+line_set 「強くなれば少しはその能書きもなくなるかもな」
+
+name_set 北条
+
+sfx_set 2 Vox\4463.wav
+sfx_play 2
+
+line_set 「はい！」
+
+sfx_stop 2
+sfx_set 2 Vox\4462.wav
+sfx_play 2
+
+line_set 「それでは失礼します」
+
+sfx_stop 2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 「生きる事・・・」
+line_set 「北条は今日一日を生きる事が出来るのだろうか？」
+
+adv_on
+@15
+#158_26
+!174
+
+jump_choice 65 ◆登る
+jump_choice 66 ◆山道へ移動
+@66
+@71
+@76
+
+kgd_layer2_set 1 Kgd\B_013.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 67 ◆大岩へ移動
+jump_choice 68 ◆森林へ移動
+jump_choice 69 ◆屋敷前へ移動
+@68
+@73
+
+kgd_layer2_set 1 Kgd\B_017.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 70 ◆遺跡へ移動
+jump_choice 71 ◆山道へ移動
+@70
+
+kgd_layer2_set 1 Kgd\B_021.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@75
+
+jump_choice 72 ◆遺跡の中に入る
+jump_choice 73 ◆森林へ移動
+@72
+
+kgd_layer1_set 1 Kgd\Be_017.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+
+jump_choice 74 ◆遺跡の外に出る
+@74
+
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
+jump_auto 75
+@27
+@69
+@80
+
+kgd_layer2_set 1 Kgd\B_033.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 76 ◆山道へ移動
+jump_choice 77 ◆屋敷内へ移動
+jump_choice 78 ◆村への道へ移動
+@63
+
+kgd_layer2_set 1 Kgd\B_071.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 79 ◆蔵から出る
+@46
+@78
+
+kgd_layer2_set 1 Kgd\B_041.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 80 ◆屋敷前へ移動
+jump_choice 81 ◆村へ移動
+@51
+
+kgd_layer2_set 1 Kgd\B_057.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+@54
+
+jump_choice 82 ◆遺跡の中に入る
+jump_choice 83 ◆森林へ移動
+@40
+@48
+
+kgd_layer2_set 1 Kgd\B_061.kgd
+kgd_layer2_crossfade 0
+kgd_layer2_fadein
+kgd_layer2_fade_unk 1
+
+jump_choice 84 ◆村へ移動
+jump_choice 85 ◆海岸へ移動
+@23
+
+kgd_layer2_crossfade 1
+kgd_layer2_fade_unk 0
+
+ksd_set Ksd\027.ksd
+ksd_end
