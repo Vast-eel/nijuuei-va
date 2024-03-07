@@ -27,7 +27,7 @@ If you're playing the game on Linux, the game won't have sprite transitions due 
 ## Editing
 I've included the scripts written for the purposes of this patch. ksd_tool and kpd_tool are for the main scripts and Nijyuei.kpd, while dc_tool has two functions for getting voiced lines from the Dreamcast version's .BIN files and matching them with ksd_tool's decompiled scripts respectively. See the repo's wiki for technical details.
 
-I've applied most of the Dreamcast version's script fixes to the PC version's files. The revised scripts are under Ksd\Decompiled\DC_Fixes. They're used as the base for the voice patch.
+I've applied most of the Dreamcast version's script fixes to the PC version's files. The revised scripts are under Ksd\Decompiled\DC_Fixes. They're used as the base for the voice patch, the scripts of which you can see under Ksd/Voiced.
 
 The game automatically linebreaks text after 23 characters in dialogue boxes and after 48 in PIS text.
 
