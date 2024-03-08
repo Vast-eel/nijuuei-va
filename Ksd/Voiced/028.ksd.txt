@@ -3212,6 +3212,8 @@ line_set 志乃の隠し部屋に入ってくる。
 
 adv_on
 
+name_set 双厳
+
 line_set 「なんの用だ・・・」
 line_set 「俺はいま忙しい・・・」
 
