@@ -1857,7 +1857,7 @@ adv_on
 
 name_set 舞
 
-sfx_set 2 Vox\3315.wav
+sfx_set 2 Vox\3560.wav
 sfx_play 2
 
 line_set 「うーん」
@@ -4411,7 +4411,7 @@ line_set 「貴様は一体・・・」
 
 name_set 舞
 
-sfx_set 2 Vox\3560.wav
+sfx_set 2 Vox\3433.wav
 sfx_play 2
 
 line_set 「うーん」
