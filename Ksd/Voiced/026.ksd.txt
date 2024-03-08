@@ -389,10 +389,10 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch1 12977 168
-jump_branch1 13425 167
-jump_branch1 9209 166
-jump_branch1 13425 154
+jump_branch1 12951 168
+jump_branch1 13399 167
+jump_branch1 9183 166
+jump_branch1 13399 154
 
 section_jump_branch1 154
 
@@ -490,13 +490,7 @@ name_set 双厳
 
 line_set 「・・・忠義か・・・」
 line_set 「青臭ぇ言葉だが・・・それもアリかもな」
-
-sfx_set 2 Vox\4508.wav
-sfx_play 2
-
 line_set 「それにしても・・・」
-
-sfx_stop 2
 
 nvl_on
 
@@ -1093,8 +1087,8 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch2 28942 154
-jump_branch1 28942 155
+jump_branch2 28916 154
+jump_branch1 28916 155
 
 section_jump_branch1 155
 
@@ -2171,8 +2165,8 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch2 34546 155
-jump_branch1 34546 174
+jump_branch2 34520 155
+jump_branch1 34520 174
 
 nvl_on
 
@@ -2184,8 +2178,8 @@ adv_on
 @35
 @36
 
-jump_branch2 29109 156
-jump_branch2 29109 157
+jump_branch2 29083 156
+jump_branch2 29083 157
 
 section_jump_branch1 174
 
@@ -2195,7 +2189,7 @@ jump_auto 30
 jump_choice 31 ◆日の巫女について考える
 jump_choice 32 ◆島の儀式について考える
 @31
-jump_branch1 29617 156
+jump_branch1 29591 156
 
 section_jump_branch1 156
 
@@ -2228,7 +2222,7 @@ adv_on
 
 jump_auto 34
 @32
-jump_branch1 34378 157
+jump_branch1 34352 157
 
 section_jump_branch1 157
 
@@ -2529,10 +2523,10 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch1 36659 279
-jump_branch1 34917 161
-jump_branch1 36659 159
-jump_branch2 36659 158
+jump_branch1 36633 279
+jump_branch1 34891 161
+jump_branch1 36633 159
+jump_branch2 36633 158
 
 kgd_layer3_set 0 Kgd\Ro_004.kgd
 kgd_layer3_param 0 116 0 0 0 568 600
@@ -2792,8 +2786,8 @@ kgd_layer2_fade_unk 1
 
 section_jump_branch2 19
 
-jump_branch2 38968 274
-jump_branch1 38968 160
+jump_branch2 38942 274
+jump_branch1 38942 160
 
 section_jump_branch1 160
 
@@ -2906,7 +2900,7 @@ line_set 「ああ」
 kgd_layer3_fadeout 0
 kgd_layer3_clear 0
 
-jump_branch2 38968 58
+jump_branch2 38942 58
 
 kgd_layer3_set 0 Kgd\Ay_001.kgd
 kgd_layer3_display 0
@@ -3049,7 +3043,7 @@ kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
 jump_branch1 41591 161
-jump_branch1 39803 160
+jump_branch1 39777 160
 jump_branch1 41591 274
 jump_branch2 41591 159
 
@@ -3181,9 +3175,12 @@ sfx_play 2
 line_set 「参りましたね・・・」
 
 sfx_stop 2
+sfx_set 2 Vox\4508.wav
+sfx_play 2
 
 line_set 「それにしても・・・」
 
+sfx_stop 2
 sfx_set 2 Vox\4507.wav
 sfx_play 2
 
@@ -4032,8 +4029,8 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch2 56300 167
-jump_branch1 56300 168
+jump_branch2 56274 167
+jump_branch1 56274 168
 
 section_jump_branch1 168
 
@@ -4062,13 +4059,7 @@ line_set 「判ってはきている。きているが・・・」
 
 name_set 十兵衛
 
-sfx_set 2 Vox\4466.wav
-sfx_play 2
-
 line_set 「？」
-
-sfx_stop 2
-
 line_set 「きてるが・・・何だ？」
 
 name_set 双厳
@@ -4613,7 +4604,12 @@ line_set 「とりあえず生きる事だな・・・」
 
 name_set 北条
 
+sfx_set 2 Vox\4466.wav
+sfx_play 2
+
 line_set 「？」
+
+sfx_stop 2
 
 name_set 双厳
 

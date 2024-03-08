@@ -3521,12 +3521,7 @@ line_set ドス！ガス！ドス！
 
 name_set 双厳
 
-sfx_set 2 Vox\4755.wav
-sfx_play 2
-
 line_set 「！？」
-
-sfx_stop 2
 
 name_set 幽香
 
@@ -3560,12 +3555,7 @@ line_set 刃は十兵衛の腕に深く刺さり、鮮血が吹き出る。
 
 adv_on
 
-sfx_set 2 Vox\4760.wav
-sfx_play 2
-
 line_set 「くっ・・・」
-
-sfx_stop 2
 
 nvl_on
 
@@ -3599,7 +3589,12 @@ line_set 「それは絶対だ」
 
 name_set 幽香
 
+sfx_set 2 Vox\4760.wav
+sfx_play 2
+
 line_set 「くっ・・・」
+
+sfx_stop 2
 
 nvl_on
 
@@ -3724,8 +3719,12 @@ line_set 「誰かを傷つけても、死んだ子は帰ってこねぇって・・・」
 
 name_set 幽香
 
+sfx_set 2 Vox\4755.wav
+sfx_play 2
+
 line_set 「！？」
 
+sfx_stop 2
 sfx_set 2 Vox\4754.wav
 sfx_play 2
 

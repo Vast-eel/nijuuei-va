@@ -800,12 +800,7 @@ music_stop
 
 name_set 双厳
 
-sfx_set 2 Vox\3750.wav
-sfx_play 2
-
 line_set 「！？」
-
-sfx_stop 2
 
 nvl_on
 
@@ -846,12 +841,7 @@ adv_on
 
 name_set 双厳
 
-sfx_set 2 Vox\3746.wav
-sfx_play 2
-
 line_set 「なぜ・・・」
-
-sfx_stop 2
 
 name_set 桔梗
 
@@ -2061,7 +2051,12 @@ line_set パキーン！！
 
 name_set 桔梗
 
+sfx_set 2 Vox\3750.wav
+sfx_play 2
+
 line_set 「！？」
+
+sfx_stop 2
 
 kgd_layer1_set 1 Kgd\En_001.kgd
 kgd_layer1_fadein
@@ -2170,8 +2165,13 @@ line_set 「これから戦おうとする人間の目ではない」
 name_set 桔梗
 
 line_set 「・・・」
+
+sfx_set 2 Vox\3746.wav
+sfx_play 2
+
 line_set 「なぜ・・・」
 
+sfx_stop 2
 sfx_set 2 Vox\3745.wav
 sfx_play 2
 

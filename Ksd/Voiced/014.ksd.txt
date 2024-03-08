@@ -687,10 +687,10 @@ kgd_layer2_fade_unk 1
 
 section_jump_branch1 19
 
-jump_branch1 8509 71
-jump_branch1 6733 70
-jump_branch1 8509 65
-jump_branch2 8509 64
+jump_branch1 8483 71
+jump_branch1 6707 70
+jump_branch1 8483 65
+jump_branch2 8483 64
 
 section_jump_branch1 65
 
@@ -776,12 +776,7 @@ sfx_stop 2
 
 name_set ëoåµ
 
-sfx_set 2 Vox\5856.wav
-sfx_play 2
-
 line_set ÅuÇ†Ç†Åv
-
-sfx_stop 2
 
 kgd_layer3_fadeout 0
 kgd_layer3_clear 0
@@ -1009,8 +1004,8 @@ kgd_layer2_fade_unk 1
 
 section_jump_branch2 19
 
-jump_branch1 11214 66
-jump_branch2 11214 269
+jump_branch1 11188 66
+jump_branch2 11188 269
 
 section_jump_branch1 66
 
@@ -1230,8 +1225,8 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch1 11979 67
-jump_branch2 11979 270
+jump_branch1 11953 67
+jump_branch2 11953 270
 
 section_jump_branch1 67
 
@@ -1337,8 +1332,8 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch1 13994 68
-jump_branch2 13994 67
+jump_branch1 13968 68
+jump_branch2 13968 67
 
 section_jump_branch1 68
 
@@ -1513,8 +1508,8 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch1 14729 69
-jump_branch2 14729 68
+jump_branch1 14703 69
+jump_branch2 14703 68
 
 section_jump_branch1 69
 
@@ -1594,8 +1589,8 @@ kgd_layer2_fade_unk 1
 section_jump_branch2 19
 
 jump_branch1 20796 72
-jump_branch1 16212 70
-jump_branch2 16212 69
+jump_branch1 16186 70
+jump_branch2 16186 69
 
 section_jump_branch1 70
 
@@ -1740,8 +1735,12 @@ kgd_layer3_clear 3
 
 name_set ñkè
 
+sfx_set 2 Vox\5856.wav
+sfx_play 2
+
 line_set ÅuÇ†Ç†Åv
 
+sfx_stop 2
 sfx_set 2 Vox\5855.wav
 sfx_play 2
 

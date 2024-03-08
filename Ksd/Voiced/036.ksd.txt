@@ -1759,13 +1759,7 @@ sfx_stop 2
 name_set 双厳
 
 line_set 「・・・」
-
-sfx_set 2 Vox\3445.wav
-sfx_play 2
-
 line_set 「！？」
-
-sfx_stop 2
 
 nvl_on
 
@@ -4132,7 +4126,12 @@ line_set 天に構えた剣を双厳は鞘に戻す。
 
 adv_on
 
+sfx_set 2 Vox\3445.wav
+sfx_play 2
+
 line_set 「！？」
+
+sfx_stop 2
 
 name_set 双厳
 

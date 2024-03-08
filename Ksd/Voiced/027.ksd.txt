@@ -590,13 +590,7 @@ line_set 「日・・・」
 line_set 「日は東からのぼり西に消える・・・」
 line_set 「日の出は東」
 line_set 「日の入りは西・・・」
-
-sfx_set 2 Vox\4413.wav
-sfx_play 2
-
 line_set 「？！」
-
-sfx_stop 2
 
 nvl_line_clear
 
@@ -606,8 +600,12 @@ adv_on
 
 name_set 桔梗
 
+sfx_set 2 Vox\4413.wav
+sfx_play 2
+
 line_set 「？！」
 
+sfx_stop 2
 sfx_set 2 Vox\4412.wav
 sfx_play 2
 

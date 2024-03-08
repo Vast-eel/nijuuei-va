@@ -737,7 +737,7 @@ line_set 「可能性を見ヨ・・・」
 
 adv_on
 
-jump_branch1 33296 252
+jump_branch1 33244 252
 
 music_play 4
 
@@ -1560,12 +1560,7 @@ sfx_stop 2
 
 name_set 双厳
 
-sfx_set 2 Vox\0424.wav
-sfx_play 2
-
 line_set 「？！」
-
-sfx_stop 2
 
 nvl_on
 
@@ -1627,12 +1622,7 @@ line_set 次第に他の感覚も覚醒していく・・・。
 
 nvl_line_clear
 
-sfx_set 2 Vox\0435.wav
-sfx_play 2
-
 line_set 「これは・・・」
-
-sfx_stop 2
 
 nvl_line_clear
 
@@ -2413,8 +2403,13 @@ line_set 「お兄ちゃんは悪くないよ・・・」
 sfx_stop 2
 
 line_set 「だって・・」
+
+sfx_set 2 Vox\0435.wav
+sfx_play 2
+
 line_set 「これは・・・」
 
+sfx_stop 2
 sfx_set 2 Vox\0434.wav
 sfx_play 2
 
@@ -2624,12 +2619,7 @@ line_set 「スイを頼んだぞ・・・」
 
 name_set 十兵衛
 
-sfx_set 2 Vox\0355.wav
-sfx_play 2
-
 line_set 「？！」
-
-sfx_stop 2
 
 nvl_on
 
@@ -2826,7 +2816,12 @@ sfx_stop 2
 
 name_set スイ
 
+sfx_set 2 Vox\0424.wav
+sfx_play 2
+
 line_set 「？！」
+
+sfx_stop 2
 
 nvl_on
 
@@ -2984,13 +2979,7 @@ sfx_stop 2
 
 name_set 双厳
 
-sfx_set 2 Vox\0667.wav
-sfx_play 2
-
 line_set 「くくく・・・」
-
-sfx_stop 2
-
 line_set 「ならあんたには黄泉の道が分かるのか？」
 
 name_set 舞
@@ -3573,7 +3562,12 @@ line_set 「ソノママ陵辱サレロ・・・」
 
 name_set 舞
 
+sfx_set 2 Vox\0355.wav
+sfx_play 2
+
 line_set 「？！」
+
+sfx_stop 2
 
 nvl_on
 

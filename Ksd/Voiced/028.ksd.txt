@@ -219,12 +219,8 @@ adv_on
 
 name_set 北条
 
-sfx_set 2 Vox\4302.wav
-sfx_play 2
-
 line_set 「・・・」
 
-sfx_stop 2
 sfx_set 2 Vox\4347.wav
 sfx_play 2
 
@@ -240,13 +236,7 @@ sfx_stop 2
 
 name_set 双厳
 
-sfx_set 2 Vox\4299.wav
-sfx_play 2
-
 line_set 「・・・」
-
-sfx_stop 2
-
 line_set 「ああ、そうだ」
 
 name_set 北条
@@ -671,12 +661,7 @@ music_play 20
 
 name_set 双厳
 
-sfx_set 2 Vox\4312.wav
-sfx_play 2
-
 line_set 「？！」
-
-sfx_stop 2
 
 nvl_on
 
@@ -786,7 +771,7 @@ adv_on
 
 name_set 北条
 
-sfx_set 2 Vox\4287.wav
+sfx_set 2 Vox\4313.wav
 sfx_play 2
 
 line_set 「双厳殿・・・」
@@ -853,8 +838,12 @@ line_set 「兵！」
 
 name_set 北条
 
+sfx_set 2 Vox\4312.wav
+sfx_play 2
+
 line_set 「？！」
 
+sfx_stop 2
 sfx_set 2 Vox\4311.wav
 sfx_play 2
 
@@ -990,7 +979,7 @@ adv_on
 
 name_set 北条
 
-sfx_set 2 Vox\4278.wav
+sfx_set 2 Vox\4309.wav
 sfx_play 2
 
 line_set 「双厳殿・・・」
@@ -1042,7 +1031,7 @@ line_set 「なにやってるんだよ」
 
 name_set 北条
 
-sfx_set 2 Vox\4261.wav
+sfx_set 2 Vox\4307.wav
 sfx_play 2
 
 line_set 「ふふふ・・・」
@@ -1054,7 +1043,7 @@ sfx_play 2
 line_set 「なんででしょうかね・・・」
 
 sfx_stop 2
-sfx_set 2 Vox\4240.wav
+sfx_set 2 Vox\4305.wav
 sfx_play 2
 
 line_set 「なんか・・・」
@@ -1473,7 +1462,12 @@ line_set 「？！」
 
 name_set 北条
 
+sfx_set 2 Vox\4302.wav
+sfx_play 2
+
 line_set 「・・・」
+
+sfx_stop 2
 
 nvl_on
 
@@ -1507,8 +1501,12 @@ line_set 「北条！」
 
 name_set 北条
 
+sfx_set 2 Vox\4299.wav
+sfx_play 2
+
 line_set 「・・・」
 
+sfx_stop 2
 sfx_set 2 Vox\4298.wav
 sfx_play 2
 
@@ -1618,7 +1616,7 @@ sfx_play 2
 line_set 「僕はね・・・」
 
 sfx_stop 2
-sfx_set 2 Vox\4313.wav
+sfx_set 2 Vox\4287.wav
 sfx_play 2
 
 line_set 「双厳殿・・・」
@@ -1679,7 +1677,7 @@ sfx_play 2
 line_set 「でもね」
 
 sfx_stop 2
-sfx_set 2 Vox\4309.wav
+sfx_set 2 Vox\4278.wav
 sfx_play 2
 
 line_set 「双厳殿・・・」
@@ -1804,7 +1802,7 @@ sfx_play 2
 line_set 「女装して双厳殿の寝込みを襲うなんていう任務でしたけどね・・・」
 
 sfx_stop 2
-sfx_set 2 Vox\4220.wav
+sfx_set 2 Vox\4261.wav
 sfx_play 2
 
 line_set 「ふふふ・・・」
@@ -1958,7 +1956,7 @@ sfx_play 2
 line_set 「生きようとする人・・・」
 
 sfx_stop 2
-sfx_set 2 Vox\4305.wav
+sfx_set 2 Vox\4240.wav
 sfx_play 2
 
 line_set 「なんか・・・」
@@ -2102,7 +2100,7 @@ sfx_play 2
 line_set 「なんていったら十兵衛さまに怒られるかな・・・」
 
 sfx_stop 2
-sfx_set 2 Vox\4307.wav
+sfx_set 2 Vox\4220.wav
 sfx_play 2
 
 line_set 「ふふふ・・・」
@@ -2452,9 +2450,6 @@ name_set 十兵衛
 line_set 「いいや・・・」
 line_set 「見事な死に際であった」
 
-name_set 彩
-name_clear
-
 kgd_layer1_set 1 Kgd\En_060.kgd
 kgd_layer1_fx 6
 kgd_layer1_fadein
@@ -2527,7 +2522,7 @@ sfx_stop 2
 sfx_set 2 Vox\4373.wav
 sfx_play 2
 
-line_set 彩　　　「彩はこの任務を最後まで全うすること		ができなさそうです」
+line_set 彩　　　「彩はこの任務を最後まで全うすることがで　　　　きなさそうです」
 
 sfx_stop 2
 
@@ -2544,11 +2539,11 @@ sfx_stop 2
 sfx_set 2 Vox\4371.wav
 sfx_play 2
 
-line_set 彩　　　「彩はもう自分の形を保っている事すら		できそうもありません」
+line_set 彩　　　「彩はもう自分の形を保っている事すらでき　　　　そうもありません」
 
-sfx_stop 2
+sfx_stop 1
 
-line_set 十兵衛　「あ、あきらめるな！！」
+section_jump_branch2 32
 
 nvl_line_clear
 
@@ -2561,6 +2556,7 @@ sfx_stop 2
 
 line_set 十兵衛　「な、なんだ・・・彩・・・」
 
+sfx_stop 2
 sfx_set 2 Vox\4369.wav
 sfx_play 2
 
@@ -2575,7 +2571,7 @@ nvl_line_clear
 sfx_set 2 Vox\4368.wav
 sfx_play 2
 
-line_set 彩　　　「彩は自分の醜い屍を人の目に晒したく		ないのでございます」
+line_set 彩　　　「彩は自分の醜い屍を人の目に晒したくない　　　　のでございます」
 
 sfx_stop 2
 sfx_set 2 Vox\4367.wav
@@ -2662,7 +2658,7 @@ sfx_stop 2
 sfx_set 2 Vox\4356.wav
 sfx_play 2
 
-line_set 彩　　　「楓玲ちゃんや・・・双厳さんを助けてあ		げてくださいね」
+line_set 彩　　　「楓玲ちゃんや・・・双厳さんを助けてあげ　　　　てくださいね」
 
 sfx_stop 2
 sfx_set 2 Vox\4355.wav

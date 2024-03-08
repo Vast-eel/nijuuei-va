@@ -2943,12 +2943,7 @@ sfx_stop 2
 
 name_set 双厳
 
-sfx_set 2 Vox\6199.wav
-sfx_play 2
-
 line_set 「・・・」
-
-sfx_stop 2
 
 nvl_on
 
@@ -3135,8 +3130,12 @@ line_set 「俺にかまうな」
 
 name_set 北条
 
+sfx_set 2 Vox\6199.wav
+sfx_play 2
+
 line_set 「・・・」
 
+sfx_stop 2
 sfx_set 2 Vox\6198.wav
 sfx_play 2
 
@@ -3301,12 +3300,7 @@ line_set 「・・・・・・・」
 
 name_set 双厳
 
-sfx_set 2 Vox\6294.wav
-sfx_play 2
-
 line_set 「？」
-
-sfx_stop 2
 
 nvl_on
 
@@ -3430,7 +3424,12 @@ line_set 「ならいいや」
 
 name_set 楓玲
 
+sfx_set 2 Vox\6294.wav
+sfx_play 2
+
 line_set 「？」
+
+sfx_stop 2
 
 name_set 双厳
 

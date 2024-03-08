@@ -88,7 +88,10 @@ def match_voices():
                     
                     output.write(line + '\n')
                     if d[-1] in line:
-                        output.write("sfx_stop 2\n")            
+                        output.write("sfx_stop 2\n")  
+                        
+                    if line[:4] != txt_lines[index-1][:4]:
+                        output.write('\n')                                   
 
                 if len(vo_dict) > 0:
                     with (open(os.path.join("Ksd/Voiced/Rejects", fName), "w", encoding="shift-jis") as to_fix):            

@@ -2424,8 +2424,8 @@ kgd_layer2_fade_unk 1
 
 section_jump_branch1 19
 
-jump_branch1 29704 276
-jump_branch2 29704 173
+jump_branch1 29710 276
+jump_branch2 29710 173
 
 section_jump_branch1 276
 
@@ -2477,6 +2477,8 @@ name_set 双厳
 
 line_set 「ふぅ・・・」
 line_set 「いったいなんの用だ？」
+
+name_set 命
 
 sfx_set 2 Vox\5573.wav
 sfx_play 2
@@ -2921,7 +2923,7 @@ jump_choice 29 ◆山道へ移動
 jump_choice 30 ◆屋敷内へ移動
 jump_choice 31 ◆村への道へ移動
 @19
-jump_branch1 41041 84
+jump_branch1 41047 84
 
 kgd_layer2_set 1 Kgd\B_001.kgd
 kgd_layer2_crossfade 0
@@ -2930,8 +2932,8 @@ kgd_layer2_fade_unk 1
 
 section_jump_branch2 19
 
-jump_branch1 44174 80
-jump_branch1 29833 276
+jump_branch1 44180 80
+jump_branch1 29839 276
 jump_auto 32
 #276_10
 
@@ -4227,8 +4229,8 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch1 44729 272
-jump_branch2 44729 81
+jump_branch1 44735 272
+jump_branch2 44735 81
 
 section_jump_branch1 272
 
@@ -4273,8 +4275,8 @@ kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 
-jump_branch1 46022 271
-jump_branch2 46022 80
+jump_branch1 46028 271
+jump_branch2 46028 80
 
 section_jump_branch1 271
 
