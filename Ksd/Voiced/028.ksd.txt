@@ -2541,7 +2541,7 @@ sfx_play 2
 
 line_set 彩　　　「彩はもう自分の形を保っている事すらでき　　　　そうもありません」
 
-sfx_stop 1
+sfx_stop 2
 
 section_jump_branch2 32
 
@@ -2556,7 +2556,6 @@ sfx_stop 2
 
 line_set 十兵衛　「な、なんだ・・・彩・・・」
 
-sfx_stop 2
 sfx_set 2 Vox\4369.wav
 sfx_play 2
 
