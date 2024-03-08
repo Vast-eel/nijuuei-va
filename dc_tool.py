@@ -47,7 +47,7 @@ def get_voices():
             os.remove(os.path.join(outPath, file))                
 
 def match_voices():
-    dont_voice = ["name_set ëoåµ", "name_set ëDì™", "name_set è\ï∫âq"]
+    #dont_voice = ["name_set ëoåµ", "name_set ëDì™", "name_set è\ï∫âq"]
 
     for file in os.listdir("Dreamcast"):
         if file.endswith(".txt"):
@@ -72,7 +72,7 @@ def match_voices():
                 
 
                 for index, line in enumerate(txt_lines):
-                    if "name_set" in line and line not in dont_voice:
+                    if "name_set" in line: #and line not in dont_voice:
                         name_tag = line.split(' ')[-1]
                     for v, d in vo_dict.items():
                         try:

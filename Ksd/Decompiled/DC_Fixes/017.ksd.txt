@@ -1771,6 +1771,9 @@ name_set 双厳
 
 line_set 「ふぅ・・・」
 line_set 「いったいなんの用だ？」
+
+name_set 命
+
 line_set 「あのねぇ！あなたねぇ！！！」
 
 nvl_on

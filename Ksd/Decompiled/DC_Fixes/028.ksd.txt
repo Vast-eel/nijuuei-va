@@ -1676,9 +1676,6 @@ name_set 十兵衛
 line_set 「いいや・・・」
 line_set 「見事な死に際であった」
 
-name_set 彩
-name_clear
-
 kgd_layer1_set 1 Kgd\En_060.kgd
 kgd_layer1_fx 6
 kgd_layer1_fadein
@@ -1737,13 +1734,13 @@ nvl_line_clear
 line_set 十兵衛　「彩・・・」
 line_set 彩　　　「すみません・・・」
 line_set 彩　　　「十兵衛さま」
-line_set 彩　　　「彩はこの任務を最後まで全うすること		ができなさそうです」
+line_set 彩　　　「彩はこの任務を最後まで全うすることがで　　　　きなさそうです」
 line_set 十兵衛　「な、なにを弱気な・・・」
 
 nvl_line_clear
 
 line_set 彩　　　「十兵衛さま・・・」
-line_set 彩　　　「彩はもう自分の形を保っている事すら		できそうもありません」
+line_set 彩　　　「彩はもう自分の形を保っている事すらでき　　　　そうもありません」
 line_set 十兵衛　「あ、あきらめるな！！」
 
 nvl_line_clear
@@ -1755,7 +1752,7 @@ line_set 十兵衛　「な、なんだ言ってみろ・・・」
 
 nvl_line_clear
 
-line_set 彩　　　「彩は自分の醜い屍を人の目に晒したく		ないのでございます」
+line_set 彩　　　「彩は自分の醜い屍を人の目に晒したくない　　　　のでございます」
 line_set 彩　　　「私はもう幾分も人の形ではいられません」
 line_set 彩　　　「私が死んだ後・・・」
 line_set 彩　　　「この小屋ごと・・・」
@@ -1780,7 +1777,7 @@ line_set 十兵衛　「なんだ・・・」
 nvl_line_clear
 
 line_set 彩　　　「ちゃんと呪いを解いてくださいね」
-line_set 彩　　　「楓玲ちゃんや・・・双厳さんを助けてあ		げてくださいね」
+line_set 彩　　　「楓玲ちゃんや・・・双厳さんを助けてあげ　　　　てくださいね」
 line_set 彩　　　「私や北条くんはだめでしたが・・・」
 line_set 彩　　　「あの人達だけでも・・・」
 line_set 彩　　　「救ってください」
