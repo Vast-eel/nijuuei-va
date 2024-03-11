@@ -27,7 +27,7 @@ I've included the scripts written for the purposes of this patch. ksd_tool and k
 
 I've applied most of the Dreamcast version's script fixes to the PC version's files. The revised scripts are under Ksd\Decompiled\DC_Fixes. They're used as the base for the voice patch, the scripts of which you can see under Ksd\Voiced.
 
-### Linux troubleshooting
+## Linux troubleshooting
 If you're running Nijuuei through DxWnd, make sure to disable the "Emulate Win9X heap" option in the Libs tab of the preset to prevent crashes.
 
 Other than that, it should run perfectly fine through Wine if you have Japanese fonts and locale properly set up (see [this](https://learnjapanese.moe/vn-linux/) guide). I last tested it on 9.4 in WoW64 mode.
