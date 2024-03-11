@@ -97,7 +97,7 @@ class KageScriptData:
                 (0x3F00, 'I', "jump_fight_failure"),                
                 (0x4000, '', "op_play"),
                 (0x4100, 'h', "anim_play"),
-                (0x4200, '', "game_clear"),
+                (0x4200, '', "ed_play"),
                 (0x4300, '', "force_save_menu"),
                 (0x4400, 'I', "wait"))
 

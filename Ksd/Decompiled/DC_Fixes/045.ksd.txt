@@ -10177,7 +10177,7 @@ adv_on
 kgd_layer1_fx 0
 kgd_layer1_clear 0
 
-game_clear
+ed_play
 
 wait 2000
 
