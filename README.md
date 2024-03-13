@@ -32,6 +32,6 @@ Other than that, it should run perfectly fine through Wine if you have Japanese 
 
 By default the font rendering is a bit messed up (see wiki as to why). Use the nocd exe to fix this.
 
-As Wine has yet to implement ddraw7's WaitForVerticalBlank function, the game will run too fast for sprite transitions to properly display. You *can* force it to slow down by changing DxWnd's vsync mode to Frequency, but I wouldn't recommend it.
+As Wine has yet to implement ddraw7's WaitForVerticalBlank function, the game will run too fast for sprite transitions to properly display. You *can* force it to slow down by changing DxWnd's vsync mode to Frequency, but I wouldn't recommend it. You can have working transitions by setting the DxWnd renderer to D3D9, but this will make the game crash on animations as usual.
 
 The in-game volume sliders don't work. If you think the music's too loud compared to the voices, go into the CDAudio tab, tick Set emulated CD volume, then go into the Sound tab and change CD volume to your liking.
