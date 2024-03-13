@@ -20,8 +20,6 @@ Right click the preset, press Modify and change the path to the nocd .exe file w
 
 Go into the CDAudio tab and select the "Rip CD Audio" option and run the game once. After that, set it to "Use audio files". This way the game will use .wav files DxWnd puts in the root folder without needing to have the second disc inserted at all times.
 
-Due to running the game in fullscreen and forcibly windowing it with DxWnd, the right click menu will be misaligned with your mouse cursor. If this bothers you, disable the options that force windowing in the preset's properties and change the screen mode to windowed in-game. This will make the game go fullscreen for animations, though.
-
 ## Editing
 I've included the scripts written for the purposes of this patch. ksd_tool and kpd_tool are for the main scripts and Nijyuei.kpd, while dc_tool has two functions for getting voiced lines from the Dreamcast version's .BIN files and matching them with ksd_tool's decompiled scripts respectively. See the repo's wiki for technical details.
 
