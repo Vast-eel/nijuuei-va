@@ -1,4 +1,3 @@
-
 wait 2000
 
 nvl_on
@@ -8,15 +7,15 @@ line_set あたりはすでに紅に染まりつつあった。
 adv_on
 
 kgd_layer1_set 0 Kgd\En_069.kgd
+
 kgd_layer1_display
 kgd_layer1_fx 1
-
 nvl_on
 
 line_set 夕焼けに伸びる二人の影・・・。
+
 line_set 二人は楽しそうにはしゃいでいる。
 line_set それはまるで永久に続く踊りのように思えた。
-
 adv_on
 
 name_set 双厳
@@ -26,48 +25,44 @@ line_set 「・・・」
 nvl_on
 
 line_set 先ほどまで、イルやスイの無邪気な姿を見て、
+
 line_set すべての呪縛を忘れていた双厳も、
 line_set 青空が赤くなるにつれて心の中にかげりを見せていく・・・。
-
 nvl_line_clear
 
 line_set 「・・・」
+
 line_set 「俺が明日生き残れなければ、俺がこいつらを守ってやることは出来なくなるな・・・」
 line_set 「十兵衛や桔梗にすべてをたくさなければならなくなるのか・・・」
-
 nvl_line_clear
 
 line_set 双厳の死が刻々と近づいてくる。
-line_set そして双厳の死は儀式の完成をあらわす。
 
+line_set そして双厳の死は儀式の完成をあらわす。
 nvl_line_clear
 
 line_set 「儀式が完成されたら」
+
 line_set 「無影はイルとスイをさらいにくるはずだ・・・」
 line_set 「最終的には彼女たちの力が必要だからだ」
-
 nvl_line_clear
 
 line_set 双厳は重い顔つきでイルとスイを眺める。
-line_set そんな表情に気が付かないスイが双厳に話しかける。
 
+line_set そんな表情に気が付かないスイが双厳に話しかける。
 adv_on
 
 name_set スイ
 
 sfx_set 2 Vox\3939.wav
 sfx_play 2
-
 line_set 「凄いよお兄ちゃん！」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3938.wav
 sfx_play 2
-
 line_set 「空が青から赤くなってるよ！！！！」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「ああ・・・」
@@ -76,69 +71,55 @@ name_set スイ
 
 sfx_set 2 Vox\3937.wav
 sfx_play 2
-
 line_set 「なんでなの？」
-
 sfx_stop 2
 
 name_set 双厳
 
 line_set 「さぁな・・・」
-line_set 「よくわからん・・・」
 
+line_set 「よくわからん・・・」
 name_set スイ
 
 sfx_set 2 Vox\3936.wav
 sfx_play 2
-
 line_set 「不思議だね、なんで外の世界はこんなに不思議にあふれてるの？」
-
 sfx_stop 2
 
 name_set 双厳
 
 line_set 「そうだな・・・」
-line_set 「なんでだろうな・・・・」
 
+line_set 「なんでだろうな・・・・」
 name_set スイ
 
 sfx_set 2 Vox\3935.wav
 sfx_play 2
-
 line_set 「空が青く見えるのだって不思議なのに」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3934.wav
 sfx_play 2
-
 line_set 「空が赤く見えたりもするんだよ」
-
 sfx_stop 2
 sfx_set 2 Vox\3933.wav
 sfx_play 2
-
 line_set 「これって」
-
 sfx_stop 2
 sfx_set 2 Vox\3932.wav
 sfx_play 2
-
 line_set 「空が赤くなっているの？」
-
 sfx_stop 2
 sfx_set 2 Vox\3931.wav
 sfx_play 2
-
 line_set 「私の目の中が赤くなっているの？」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「そうだな・・・」
+
 line_set 「たぶん空が赤くなっているんだ・・・」
 line_set 「もしかしたらスイの目の中が赤くなったのかもしれんがな」
-
 nvl_on
 
 line_set 双厳は笑いながら答える。
@@ -149,57 +130,41 @@ name_set スイ
 
 sfx_set 2 Vox\3930.wav
 sfx_play 2
-
 line_set 「ほ、ほんと？」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3929.wav
 sfx_play 2
-
 line_set 「お、お姉ちゃん、私の目赤くない？」
-
 sfx_stop 2
-
 name_set イル
 
 sfx_set 2 Vox\3949.wav
 sfx_play 2
-
 line_set 「ふふふ・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3948.wav
 sfx_play 2
-
 line_set 「たしかにスイちゃんの目赤くなってるよ」
-
 sfx_stop 2
 sfx_set 2 Vox\3947.wav
 sfx_play 2
-
 line_set 「空が赤くなってスイちゃんの目も赤くなったのか」
-
 sfx_stop 2
 sfx_set 2 Vox\3946.wav
 sfx_play 2
-
 line_set 「スイちゃんの目が赤くなったから空が赤くなったのか」
-
 sfx_stop 2
 sfx_set 2 Vox\3945.wav
 sfx_play 2
-
 line_set 「どっちなのかしらね、ふふふ・・・」
-
 sfx_stop 2
-
 name_set スイ
 
 sfx_set 2 Vox\3928.wav
 sfx_play 2
-
 line_set 「ど、どっちだろ？」
-
 sfx_stop 2
 
 name_set 双厳
@@ -210,17 +175,13 @@ name_set イル
 
 sfx_set 2 Vox\3944.wav
 sfx_play 2
-
 line_set 「くす・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3943.wav
 sfx_play 2
-
 line_set 「そうですね」
-
 sfx_stop 2
-
 nvl_on
 
 line_set 夕日が沈みかけている。
@@ -230,86 +191,67 @@ adv_on
 name_set 双厳
 
 line_set 「さてと・・・」
-line_set 「そろそろかえるぞ」
 
+line_set 「そろそろかえるぞ」
 name_set スイ
 
 sfx_set 2 Vox\3927.wav
 sfx_play 2
-
 line_set 「えーもう帰るのー」
-
 sfx_stop 2
 
 name_set イル
 
 sfx_set 2 Vox\3942.wav
 sfx_play 2
-
 line_set 「スイちゃんわがまま言わないの」
-
 sfx_stop 2
 
 name_set スイ
 
 sfx_set 2 Vox\3926.wav
 sfx_play 2
-
 line_set 「うー」
-
 sfx_stop 2
 
 name_set イル
 
 sfx_set 2 Vox\3941.wav
 sfx_play 2
-
 line_set 「双厳さま、今日はありがとうございました」
-
 sfx_stop 2
 
 name_set 双厳
 
 line_set 「いやかまわんさ・・・」
+
 line_set 「俺も最近疲れてたんでな・・・」
 line_set 「よい休みになったさ」
-
 kgd_layer1_fx 0
-kgd_layer1_clear 0
 
+kgd_layer1_clear 0
 wait 2000
 
-kgd_layer1_set 0 Kgd\W_006.kgd
-kgd_layer2_set 0 Kgd\B_072.kgd
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 Kgd\Is_004.kgd
-kgd_layer3_param 0 20 0 0 0 664 600
-kgd_layer3_display 0
+kgd_layer1_set 0 Kgd\Dc_Irusui04.kgd
 
+kgd_layer1_display
+kgd_layer1_fx 1
 name_set スイ
 
 sfx_set 2 Vox\3925.wav
 sfx_play 2
-
 line_set 「あー楽しかった」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3924.wav
 sfx_play 2
-
 line_set 「お兄ちゃん、また行こうね？」
-
 sfx_stop 2
-
 name_set イル
 
 sfx_set 2 Vox\3940.wav
 sfx_play 2
-
 line_set 「ぜひお願いします」
-
 sfx_stop 2
 
 name_set 双厳
@@ -319,23 +261,34 @@ line_set 「ああ」
 nvl_on
 
 line_set 初めて外で身体を動かし、二人共疲労気味だったが終始笑顔だった。
-line_set それだけ外の世界に憧れていたという事が伺える。
 
+line_set それだけ外の世界に憧れていたという事が伺える。
 adv_on
 
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+wait 2000
+
+kgd_layer1_set 0 Kgd\W_006.kgd
+
+kgd_layer2_set 0 Kgd\B_072.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+wait 2000
+
 kgd_layer2_set 1 Kgd\B_026.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 music_play 13
 
 kgd_layer3_set 0 Kgd\Ky_002.kgd
+
 kgd_layer3_param 0 108 0 0 0 584 600
 kgd_layer3_display 0
-
 name_set 双厳
 
 line_set 「・・・」
@@ -344,100 +297,90 @@ name_set 桔梗
 
 sfx_set 2 Vox\3923.wav
 sfx_play 2
-
 line_set 「二つ影双厳さま」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3922.wav
 sfx_play 2
-
 line_set 「あなたにお話がございます」
-
 sfx_stop 2
 sfx_set 2 Vox\3921.wav
 sfx_play 2
-
 line_set 「失礼ですが、お付き合い願えませんでしょうか？」
-
 sfx_stop 2
-
 nvl_on
 
 line_set 桔梗は無表情で双厳に言い放つ。
-line_set その顔は双厳が桔梗とまだ会いたての時にみせた冷たい表情であった。
 
+line_set その顔は双厳が桔梗とまだ会いたての時にみせた冷たい表情であった。
 adv_on
 
 name_set 双厳
 
 line_set 「・・・」
-line_set 「案内しな」
 
+line_set 「案内しな」
 name_set 桔梗
 
 sfx_set 2 Vox\3920.wav
 sfx_play 2
-
 line_set 「はい」
-
 sfx_stop 2
 
 kgd_layer3_fadeout 0
+
 kgd_layer3_clear 0
 kgd_layer2_set 1 kgd\B_002.kgd
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 nvl_on
 
 line_set 先ほど同様に大岩は夕焼けを受ける風景のなかにあるが、
-line_set それは先ほどの風景と似ていながらもその感触は似て非なるものであった。
 
+line_set それは先ほどの風景と似ていながらもその感触は似て非なるものであった。
 nvl_line_clear
 
 line_set 世界は美しき紅の色から、面妖などす黒い赤にかわっている。
-line_set それは世界が闇の沈む刹那を現しているかのようであった。
 
+line_set それは世界が闇の沈む刹那を現しているかのようであった。
 nvl_line_clear
 
 line_set 赤き暗闇の中に相対してたたずむ二人。
-line_set それはもちろん、双厳と桔梗の姿であった。
 
+line_set それはもちろん、双厳と桔梗の姿であった。
 adv_on
 
 kgd_layer3_set 0 Kgd\Ky_007.kgd
+
 kgd_layer3_param 0 108 0 0 0 584 600
 kgd_layer3_display 0
-
 name_set 桔梗
 
 sfx_set 2 Vox\3919.wav
 sfx_play 2
-
 line_set 「すみません、わざわざ付き合っていただいて」
-
 sfx_stop 2
 
 name_set 双厳
 
 line_set 「いや、別に構わんさ・・・」
+
 line_set 「謎解きごっこも終わったんでな・・・」
 line_set 「けっこう暇だった・・・」
-
 nvl_on
 
 line_set 謎解きごっこ・・・。
+
 line_set それはもちろん、そんなものとはほど遠い壮絶なものであった。
 line_set しかし、呪いの全貌は明かせても、
 line_set 呪いの解除の方法が見つからないのであればそれは双厳にとっては遊んでいたと変わりはしない。
-
 nvl_line_clear
 
 line_set 生と死のなかで生きてきた双厳にとっては経過など関係ない、
+
 line_set どれだけ”がんばれた”など関係ない、
 line_set 結果こそがすべてなのだった。
-
 adv_on
 
 name_set 桔梗
@@ -453,8 +396,8 @@ adv_on
 name_set 双厳
 
 line_set 「・・・」
-line_set 「やはりやるのか・・・」
 
+line_set 「やはりやるのか・・・」
 name_set 桔梗
 
 line_set 「・・・」
@@ -467,52 +410,41 @@ name_set 桔梗
 
 sfx_set 2 Vox\3918.wav
 sfx_play 2
-
 line_set 「私は人である前に岩の守り部です」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3917.wav
 sfx_play 2
-
 line_set 「人をやめ、鬼と化そうとも・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3916.wav
 sfx_play 2
-
 line_set 「私は岩の守り部、岩を守らなければなりません」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
+
 line_set 「なるほど・・・」
 line_set 「立派な心構えだ・・・」
-
 name_set 桔梗
 
 line_set 「・・・」
 
 sfx_set 2 Vox\3755.wav
 sfx_play 2
-
 line_set 「双厳さま・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
-line_set 「なんだ・・・」
 
+line_set 「なんだ・・・」
 name_set 桔梗
 
 sfx_set 2 Vox\3914.wav
 sfx_play 2
-
 line_set 「最後に質問があります・・・」
-
 sfx_stop 2
 
 name_set 双厳
@@ -523,17 +455,13 @@ name_set 桔梗
 
 sfx_set 2 Vox\3913.wav
 sfx_play 2
-
 line_set 「私は島の守り部としてここに立っています」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3912.wav
 sfx_play 2
-
 line_set 「が、貴方はなぜここに立っているのですか？」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -542,17 +470,15 @@ name_set 桔梗
 
 sfx_set 2 Vox\3911.wav
 sfx_play 2
-
 line_set 「貴方の剣は何のために振るわれているのですか・・・」
-
 sfx_stop 2
 
 name_set 双厳
 
 line_set 「・・・」
+
 line_set 「チッ・・・」
 line_set 「どいつもこいつもそれか・・・」
-
 name_set 桔梗
 
 line_set 「・・・」
@@ -560,8 +486,8 @@ line_set 「・・・」
 name_set 双厳
 
 line_set 「これだから人を殺していないヤツの剣は嫌いなんだよ・・・」
-line_set 「なんでお前らはいつでも理由を欲しがるんだ？」
 
+line_set 「なんでお前らはいつでも理由を欲しがるんだ？」
 name_set 桔梗
 
 line_set 「・・・」
@@ -569,8 +495,8 @@ line_set 「・・・」
 name_set 双厳
 
 line_set 「俺の剣に理由などない」
-line_set 「水が高いところから低いところに流れるのはなにか意味あるか？」
 
+line_set 「水が高いところから低いところに流れるのはなにか意味あるか？」
 name_set 桔梗
 
 line_set 「・・・」
@@ -578,98 +504,82 @@ line_set 「・・・」
 name_set 双厳
 
 line_set 「意味なんてない」
+
 line_set 「あるのは」
 line_set 「流れる水の心だけだ・・・」
-
 name_set 桔梗
 
 line_set 「・・・」
 
 sfx_set 2 Vox\3910.wav
 sfx_play 2
-
 line_set 「流れる水の心ですか・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「そうだ・・・」
-line_set 「それだけだ・・・」
 
+line_set 「それだけだ・・・」
 kgd_layer3_set 3 Kgd\Ky_009.kgd
+
 kgd_layer3_param 3 108 0 0 0 584 600
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set 桔梗
 
 sfx_set 2 Vox\3909.wav
 sfx_play 2
-
 line_set 「ふふ・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3908.wav
 sfx_play 2
-
 line_set 「分かりません・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3907.wav
 sfx_play 2
-
 line_set 「貴方様の言われる事は難しくてよく分かりかねます・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
 
 kgd_layer3_set 3 Kgd\Ky_004.kgd
+
 kgd_layer3_param 3 108 0 0 0 584 600
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set 桔梗
 
 sfx_set 2 Vox\3906.wav
 sfx_play 2
-
 line_set 「所詮、貴方と私では立場が違う者・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3905.wav
 sfx_play 2
-
 line_set 「分かり合える事などなかったという事ですね」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「そうだな・・・」
 
 kgd_layer3_set 3 Kgd\Ky_002.kgd
+
 kgd_layer3_param 3 108 0 0 0 584 600
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set 桔梗
 
 line_set 「・・・」
 
 sfx_set 2 Vox\3904.wav
 sfx_play 2
-
 line_set 「そろそろ・・・」
-
 sfx_stop 2
-
 nvl_on
 
 line_set 夕日がさらに沈み、世界は完全な闇の中にその姿を消そうとしていた。
@@ -679,44 +589,36 @@ adv_on
 name_set 双厳
 
 line_set 「そうだな・・・」
-line_set 「そろそろだな・・・」
 
+line_set 「そろそろだな・・・」
 name_set 桔梗
 
 sfx_set 2 Vox\3903.wav
 sfx_play 2
-
 line_set 「あなたも全力で来てください」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3902.wav
 sfx_play 2
-
 line_set 「これは立ち合いです」
-
 sfx_stop 2
 sfx_set 2 Vox\3901.wav
 sfx_play 2
-
 line_set 「私はあなたに“殺す”という行為を甘んじて受けてもらいたくありません」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
+
 line_set 「くくく・・・」
 line_set 「お前に殺し合いの心構えを教授されるとはな」
 line_set 「安心しろ」
 line_set 「この手の命のやりとりはしょっちゅうだ」
-
 name_set 桔梗
 
 sfx_set 2 Vox\3900.wav
 sfx_play 2
-
 line_set 「安心しました・・・」
-
 sfx_stop 2
 
 name_set 双厳
@@ -730,8 +632,8 @@ line_set 「・・・」
 nvl_on
 
 line_set 「・・・」
-line_set 「・・・・・・」
 
+line_set 「・・・・・・」
 nvl_line_clear
 
 line_set 「なんだ・・・」
@@ -739,8 +641,8 @@ line_set 「なんだ・・・」
 nvl_line_clear
 
 line_set 桔梗の目には覚悟が伺えた・・・。
-line_set しかし、それは双厳がいままで戦ってきた人間の目ではなかった・・・。
 
+line_set しかし、それは双厳がいままで戦ってきた人間の目ではなかった・・・。
 nvl_line_clear
 
 line_set 「・・・」
@@ -759,9 +661,7 @@ name_set 桔梗
 
 sfx_set 2 Vox\3899.wav
 sfx_play 2
-
 line_set 「・・・では、行きます」
-
 sfx_stop 2
 
 music_play 9
@@ -769,12 +669,13 @@ music_play 9
 nvl_on
 
 line_set 桔梗が双厳に飛び込んでくる。
+
 line_set あまりにも正攻法な飛び込み。
 line_set 抜刀された剣が双厳を襲う。
-
 adv_on
 
 jump_route 0 4 0 3
+
 @2
 
 section_jump_branch1 251
@@ -782,8 +683,8 @@ section_jump_branch1 251
 nvl_on
 
 line_set 双厳は桔梗の剣を受ける。
-line_set その時・・・。
 
+line_set その時・・・。
 adv_on
 
 name_clear
@@ -805,9 +706,9 @@ line_set 「！？」
 nvl_on
 
 line_set 双厳の一撃に、桔梗の身体が力無く崩れていく。
+
 line_set 桔梗の剣はその中程からきれいに砕け、
 line_set そのまま双厳の刃を桔梗の身体が受け止める形となったのだ。
-
 adv_on
 
 name_set 双厳
@@ -815,12 +716,12 @@ name_set 双厳
 line_set 「て、てめぇ！！！！」
 
 kgd_layer1_set 1 Kgd\En_074.kgd
+
 kgd_layer1_fx 6
 kgd_layer1_fadein
 kgd_layer1_clear 1
 kgd_layer2_fade_unk 0
 kgd_layer3_clear 0
-
 music_play 12
 
 name_set 桔梗
@@ -834,9 +735,9 @@ line_set 「貴様・・・剣に細工してやがったな・・・」
 nvl_on
 
 line_set 桔梗の剣はあまりにももろく砕けた・・・。
+
 line_set それは双厳の力によるものでも、
 line_set 桔梗の未熟さによるものでもなかった。
-
 adv_on
 
 name_set 双厳
@@ -849,111 +750,80 @@ line_set 「・・・」
 
 sfx_set 2 Vox\3898.wav
 sfx_play 2
-
 line_set 「こうするしかなかったのです・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3897.wav
 sfx_play 2
-
 line_set 「こうするしか・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「こんな事してなんの意味があるんだ！」
-line_set 「なぜ剣に細工などした！」
 
+line_set 「なぜ剣に細工などした！」
 name_set 桔梗
 
 sfx_set 2 Vox\3896.wav
 sfx_play 2
-
 line_set 「私には貴方は殺せなかった・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3797.wav
 sfx_play 2
-
 line_set 「だから・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3894.wav
 sfx_play 2
-
 line_set 「こうするしかなかったのです・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「なんでだ！」
-line_set 「なぜお前が死ななければならないんだ！」
 
+line_set 「なぜお前が死ななければならないんだ！」
 name_set 桔梗
 
 sfx_set 2 Vox\3893.wav
 sfx_play 2
-
 line_set 「私は岩の守り部として生まれました・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3892.wav
 sfx_play 2
-
 line_set 「人である前に、岩の守り部だったのです」
-
 sfx_stop 2
 sfx_set 2 Vox\3891.wav
 sfx_play 2
-
 line_set 「それはこの島を守る剣」
-
 sfx_stop 2
 sfx_set 2 Vox\3890.wav
 sfx_play 2
-
 line_set 「私はこの島を守る剣なのです」
-
 sfx_stop 2
 sfx_set 2 Vox\3889.wav
 sfx_play 2
-
 line_set 「もし・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3888.wav
 sfx_play 2
-
 line_set 「もしこの剣が・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3887.wav
 sfx_play 2
-
 line_set 「使い物にならなければ・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3886.wav
 sfx_play 2
-
 line_set 「その剣が・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3885.wav
 sfx_play 2
-
 line_set 「すぐに折れてしまうようなものなら・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3884.wav
 sfx_play 2
-
 line_set 「その剣は必要ありません・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「ちっ・・・」
@@ -961,62 +831,46 @@ line_set 「ちっ・・・」
 nvl_on
 
 line_set 双厳は桔梗の受けた傷を確認するが、それは完全な致命傷であった。
+
 line_set 肩から裂けた傷は腹のあたりまで達している。
 line_set 逆に即死でなく桔梗が最後の言葉を残せるほうが不思議なほどであった・・・。
-
 adv_on
 
 name_set 桔梗
 
 sfx_set 2 Vox\3883.wav
 sfx_play 2
-
 line_set 「なぜ貴方様は・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3882.wav
 sfx_play 2
-
 line_set 「岩の守り部として生まれ」
-
 sfx_stop 2
 sfx_set 2 Vox\3881.wav
 sfx_play 2
-
 line_set 「岩の守り部として死ぬ運命にある私に・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3880.wav
 sfx_play 2
-
 line_set 「人の心を植え付けたのですか・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3879.wav
 sfx_play 2
-
 line_set 「なぜ私から運命を断ち切ったのですか・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3878.wav
 sfx_play 2
-
 line_set 「だって・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3877.wav
 sfx_play 2
-
 line_set 「だって私・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3876.wav
 sfx_play 2
-
 line_set 「心なんて欲しくはなかった・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1025,41 +879,29 @@ name_set 桔梗
 
 sfx_set 2 Vox\3875.wav
 sfx_play 2
-
 line_set 「私は剣です・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3874.wav
 sfx_play 2
-
 line_set 「この島を守る剣です」
-
 sfx_stop 2
 sfx_set 2 Vox\3873.wav
 sfx_play 2
-
 line_set 「剣に心なんて必要ですか？」
-
 sfx_stop 2
 sfx_set 2 Vox\3818.wav
 sfx_play 2
-
 line_set 「くす・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3871.wav
 sfx_play 2
-
 line_set 「剣は人を殺せればいい・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3870.wav
 sfx_play 2
-
 line_set 「違いますか？」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1070,89 +912,60 @@ line_set 「・・・」
 
 sfx_set 2 Vox\3869.wav
 sfx_play 2
-
 line_set 「心なんて邪魔です・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3868.wav
 sfx_play 2
-
 line_set 「心はいつだって人を弱くします・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3867.wav
 sfx_play 2
-
 line_set 「心はいつだって私を苦しめます・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3866.wav
 sfx_play 2
-
 line_set 「心なんてなければいいのに・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3865.wav
 sfx_play 2
-
 line_set 「生まれた時から」
-
 sfx_stop 2
 sfx_set 2 Vox\3864.wav
 sfx_play 2
-
 line_set 「ずっと」
-
 sfx_stop 2
 sfx_set 2 Vox\3863.wav
 sfx_play 2
-
 line_set 「ずっと・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3862.wav
 sfx_play 2
-
 line_set 「岩の封印を守るために・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3861.wav
 sfx_play 2
-
 line_set 「人を殺す術だけを習ってきました・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3860.wav
 sfx_play 2
-
 line_set 「それに私はこたえてきた・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3859.wav
 sfx_play 2
-
 line_set 「だって・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3827.wav
 sfx_play 2
-
 line_set 「私・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3857.wav
 sfx_play 2
-
 line_set 「私、この島を守る剣になりたかった・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3856.wav
 sfx_play 2
-
 line_set 「この島のイルさまやスイさま・・・そして島の人達を守る剣になりたかった・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1161,35 +974,25 @@ name_set 桔梗
 
 sfx_set 2 Vox\3855.wav
 sfx_play 2
-
 line_set 「だって・・・いままでそのために生きてきたんですもん・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3854.wav
 sfx_play 2
-
 line_set 「なのに・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3853.wav
 sfx_play 2
-
 line_set 「なのに・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3773.wav
 sfx_play 2
-
 line_set 「私・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3851.wav
 sfx_play 2
-
 line_set 「私・・・・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1198,35 +1001,25 @@ name_set 桔梗
 
 sfx_set 2 Vox\3759.wav
 sfx_play 2
-
 line_set 「私は・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3849.wav
 sfx_play 2
-
 line_set 「折れてしまった剣・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3848.wav
 sfx_play 2
-
 line_set 「人を守る事も・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3847.wav
 sfx_play 2
-
 line_set 「己を守る事もできない・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3846.wav
 sfx_play 2
-
 line_set 「折れてしまった剣・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1235,101 +1028,69 @@ name_set 桔梗
 
 sfx_set 2 Vox\3845.wav
 sfx_play 2
-
 line_set 「私ね・・・双厳さま」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3844.wav
 sfx_play 2
-
 line_set 「そんな折れてしまった剣でもね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3843.wav
 sfx_play 2
-
 line_set 「最後は・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3842.wav
 sfx_play 2
-
 line_set 「最後ぐらいは・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3841.wav
 sfx_play 2
-
 line_set 「綺麗に終われると思ってたの・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3840.wav
 sfx_play 2
-
 line_set 「剣として・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3839.wav
 sfx_play 2
-
 line_set 「最後は・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3838.wav
 sfx_play 2
-
 line_set 「なんの感情もなく貴方の刃の前に散れるってね・・・そう思ってたの・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3837.wav
 sfx_play 2
-
 line_set 「最後ぐらいは無表情で死ねると思ってた・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3836.wav
 sfx_play 2
-
 line_set 「だからね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3835.wav
 sfx_play 2
-
 line_set 「死ぬのは怖くなかったの・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3834.wav
 sfx_play 2
-
 line_set 「怖いと思わなかったの・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3778.wav
 sfx_play 2
-
 line_set 「でも・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3832.wav
 sfx_play 2
-
 line_set 「だめみたい・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3831.wav
 sfx_play 2
-
 line_set 「今、私は怖い・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3830.wav
 sfx_play 2
-
 line_set 「このまま消えていく事が・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1338,79 +1099,57 @@ name_set 桔梗
 
 sfx_set 2 Vox\3829.wav
 sfx_play 2
-
 line_set 「最後ぐらい剣として死にたかったな・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3828.wav
 sfx_play 2
-
 line_set 「それすら叶わなかったけどね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3858.wav
 sfx_play 2
-
 line_set 「私・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3826.wav
 sfx_play 2
-
 line_set 「私ね・・・双厳さま・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3825.wav
 sfx_play 2
-
 line_set 「全然だめだった・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3824.wav
 sfx_play 2
-
 line_set 「みんなを守る剣として・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3823.wav
 sfx_play 2
-
 line_set 「生きられなかった・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3822.wav
 sfx_play 2
-
 line_set 「最後まで中途半端で終わるみたい・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3821.wav
 sfx_play 2
-
 line_set 「人としても・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3820.wav
 sfx_play 2
-
 line_set 「剣としても・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3819.wav
 sfx_play 2
-
 line_set 「中途半端で・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「あ、安心しろ・・・」
+
 line_set 「桔梗・・・」
 line_set 「お前は・・・」
 line_set 「お前は剣であった・・・」
 line_set 「立派に剣であったさ・・・」
-
 nvl_on
 
 line_set 双厳の声が震えている・・・。
@@ -1421,32 +1160,25 @@ name_set 桔梗
 
 sfx_set 2 Vox\3803.wav
 sfx_play 2
-
 line_set 「くす・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3817.wav
 sfx_play 2
-
 line_set 「双厳さまって案外嘘つきなんだね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3816.wav
 sfx_play 2
-
 line_set 「最後に気休めなんて・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3815.wav
 sfx_play 2
-
 line_set 「貴方らしくないよ・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「いいや・・・」
+
 line_set 「違うさ・・・」
 line_set 「桔梗・・・」
 line_set 「剣にだって・・・」
@@ -1458,7 +1190,6 @@ line_set 「その瞬間まで・・・」
 line_set 「人を斬り続ける剣にもまた・・・」
 line_set 「人以上に心があるのさ・・・」
 line_set 「あるはずだよ・・・」
-
 nvl_on
 
 line_set 桔梗の顔に冷たい雫が落ちる・・・。
@@ -1471,47 +1202,32 @@ line_set 「・・・」
 
 sfx_set 2 Vox\3814.wav
 sfx_play 2
-
 line_set 「双厳さまってやさしいんだね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3813.wav
 sfx_play 2
-
 line_set 「私のために・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3812.wav
 sfx_play 2
-
 line_set 「私のために泣いてくれてるんだね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3811.wav
 sfx_play 2
-
 line_set 「ありがと・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3810.wav
 sfx_play 2
-
 line_set 「でもね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3809.wav
 sfx_play 2
-
 line_set 「そのやさしさが人を苦しめる時もあるんだよ・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3808.wav
 sfx_play 2
-
 line_set 「その涙が人を苦しめる時だってあるんだよ・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1520,29 +1236,21 @@ name_set 桔梗
 
 sfx_set 2 Vox\3807.wav
 sfx_play 2
-
 line_set 「たぶん・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3806.wav
 sfx_play 2
-
 line_set 「剣に心なんてないよ・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3805.wav
 sfx_play 2
-
 line_set 「剣はただ振られて・・・最後は捨てられるだけ・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3804.wav
 sfx_play 2
-
 line_set 「でも剣にとってはそれが幸せなんだよ・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1551,85 +1259,61 @@ name_set 桔梗
 
 sfx_set 2 Vox\3788.wav
 sfx_play 2
-
 line_set 「くす・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3802.wav
 sfx_play 2
-
 line_set 「ごめんね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3801.wav
 sfx_play 2
-
 line_set 「最後まで素直じゃなくて・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3800.wav
 sfx_play 2
-
 line_set 「双厳さまの言うことの反対ばかり言って・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3799.wav
 sfx_play 2
-
 line_set 「せっかくね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3798.wav
 sfx_play 2
-
 line_set 「せっかく双厳さまがやさしくしてくれるのにね・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「なぜ・・・」
-line_set 「あんな事を・・・」
 
+line_set 「あんな事を・・・」
 name_set 桔梗
 
 sfx_set 2 Vox\3895.wav
 sfx_play 2
-
 line_set 「だから・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3796.wav
 sfx_play 2
-
 line_set 「言ったでしょ・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3795.wav
 sfx_play 2
-
 line_set 「“所詮、貴方と私では立場が違う者・・・分かり合える事などなかったという事”だって・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3794.wav
 sfx_play 2
-
 line_set 「双厳さまには・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3793.wav
 sfx_play 2
-
 line_set 「双厳さまにはわからないよ・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3792.wav
 sfx_play 2
-
 line_set 「私みたいな人間の心なんて・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1638,23 +1322,17 @@ name_set 桔梗
 
 sfx_set 2 Vox\3791.wav
 sfx_play 2
-
 line_set 「あなたに・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3790.wav
 sfx_play 2
-
 line_set 「あなたに理解できないほど・・・弱い心だってあるんだよ」
-
 sfx_stop 2
 sfx_set 2 Vox\3789.wav
 sfx_play 2
-
 line_set 「すぐに折れてしまうほど弱い心だって・・・ね」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「桔梗・・・」
@@ -1662,82 +1340,57 @@ line_set 「桔梗・・・」
 name_set 桔梗
 
 line_set 「・・・」
+
 line_set 「・・・・・・」
 line_set 「・・・・・・・・・」
-
 sfx_set 2 Vox\3872.wav
 sfx_play 2
-
 line_set 「くす・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3787.wav
 sfx_play 2
-
 line_set 「なんか・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3786.wav
 sfx_play 2
-
 line_set 「なんかね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3785.wav
 sfx_play 2
-
 line_set 「もうだめみたい・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3784.wav
 sfx_play 2
-
 line_set 「もう何も見えない・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3783.wav
 sfx_play 2
-
 line_set 「何も見えなくなってきちゃった・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3782.wav
 sfx_play 2
-
 line_set 「もう・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3781.wav
 sfx_play 2
-
 line_set 「もう・・・だめなのかな・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3780.wav
 sfx_play 2
-
 line_set 「もう少し双厳さまと話していたかったのになぁ・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3779.wav
 sfx_play 2
-
 line_set 「もう少しだけ話をしていたかったな・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3833.wav
 sfx_play 2
-
 line_set 「でも・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3777.wav
 sfx_play 2
-
 line_set 「もうだめみたい・・・」
-
 sfx_stop 2
-
 nvl_on
 
 line_set 桔梗がうわごとのようにつぶやく・・・。
@@ -1752,71 +1405,51 @@ name_set 桔梗
 
 sfx_set 2 Vox\3776.wav
 sfx_play 2
-
 line_set 「私ね双厳さま・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3775.wav
 sfx_play 2
-
 line_set 「私ね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3774.wav
 sfx_play 2
-
 line_set 「分かったような口きいてたけど・・・ね」
-
 sfx_stop 2
 sfx_set 2 Vox\3852.wav
 sfx_play 2
-
 line_set 「私・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3772.wav
 sfx_play 2
-
 line_set 「何も知らな・・・いんだよ」
-
 sfx_stop 2
 sfx_set 2 Vox\3771.wav
 sfx_play 2
-
 line_set 「何も・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3770.wav
 sfx_play 2
-
 line_set 「この空が・・・どこまで続いてるのか・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3769.wav
 sfx_play 2
-
 line_set 「この海が・・・どこまで続いてるのか・・・も・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3768.wav
 sfx_play 2
-
 line_set 「全然・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3767.wav
 sfx_play 2
-
 line_set 「全然・・・知らないんだよ・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「馬鹿野郎・・・」
+
 line_set 「そんな事、俺だって知らねぇよ・・・」
 line_set 「そんな事が分かって死ねるやつなんていないんだよ・・・」
-
 nvl_on
 
 line_set 双厳の声はもう桔梗には届いていないようであった。
@@ -1827,69 +1460,52 @@ name_set 桔梗
 
 sfx_set 2 Vox\3766.wav
 sfx_play 2
-
 line_set 「空と・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3765.wav
 sfx_play 2
-
 line_set 「海が・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3764.wav
 sfx_play 2
-
 line_set 「どこまである・・・か・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3763.wav
 sfx_play 2
-
 line_set 「そんなこと・・・すら知らずに・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3762.wav
 sfx_play 2
-
 line_set 「馬鹿だよね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3761.wav
 sfx_play 2
-
 line_set 「人を・・・殺す事ばかり考えてて・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3760.wav
 sfx_play 2
-
 line_set 「そんな事すら・・・知ら・・・ないなんてね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3850.wav
 sfx_play 2
-
 line_set 「私は・・・」
-
 sfx_stop 2
-
 line_set 「・・・」
 line_set 「・・」
 line_set 「・」
-
 nvl_on
 
 line_set 桔梗の目からわずかにこぼれていた光の灯火が消えていく・・・。
-line_set 徐々に桔梗の声が聞き取れないものとなっていく。
 
+line_set 徐々に桔梗の声が聞き取れないものとなっていく。
 adv_on
 
 name_set 双厳
 
 line_set 「なんだ？」
-line_set 「なにが言いたい？」
 
+line_set 「なにが言いたい？」
 name_set 桔梗
 
 line_set 「・・・」
@@ -1904,34 +1520,25 @@ name_set 桔梗
 
 sfx_set 2 Vox\3758.wav
 sfx_play 2
-
 line_set 「イルさまと・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3757.wav
 sfx_play 2
-
 line_set 「スイさまを・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3756.wav
 sfx_play 2
-
 line_set 「お願いします・・・ね・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3915.wav
 sfx_play 2
-
 line_set 「双厳さま・・・」
-
 sfx_stop 2
-
 line_set 「・・・・・・」
 line_set 「・・・・・」
 line_set 「・・・・」
 line_set 「・・・」
-
 name_set 双厳
 
 line_set 「・・・」
@@ -1940,9 +1547,7 @@ name_set 桔梗
 
 sfx_set 2 Vox\3754.wav
 sfx_play 2
-
 line_set 「こころ・・・を・・・」
-
 sfx_stop 2
 
 name_set 双厳
@@ -1953,26 +1558,20 @@ name_set 桔梗
 
 sfx_set 2 Vox\3753.wav
 sfx_play 2
-
 line_set 「こころを・・・ありがとう・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3752.wav
 sfx_play 2
-
 line_set 「たのしかった・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3751.wav
 sfx_play 2
-
 line_set 「ありがと・・・」
-
 sfx_stop 2
-
 kgd_layer1_fx 0
-kgd_layer1_clear 0
 
+kgd_layer1_clear 0
 name_set 双厳
 
 line_set 「桔梗？」
@@ -1994,6 +1593,7 @@ adv_on
 name_set 双厳
 
 line_set 「なんで・・・」
+
 line_set 「なんでだ・・・」
 line_set 「なんでお前は・・・」
 line_set 「こんな馬鹿なまねを・・・」
@@ -2004,7 +1604,6 @@ line_set 「なぜ・・・」
 line_set 「生きてるだけではだめなんだ・・・」
 line_set 「なんでなんだ・・・」
 line_set 「桔梗・・・」
-
 nvl_on
 
 line_set まだ暖かいが徐々に冷たくなっていく桔梗の頬を、双厳の涙が濡らす・・・。
@@ -2018,19 +1617,22 @@ line_set 「なぜ・・・」
 nvl_on
 
 line_set 桔梗の顔はなぜか穏やかであった。
+
 line_set 眠っているように、
 line_set その顔は穏やかであった・・・。
-
 nvl_line_clear
 
 line_set 双厳は無言で桔梗を抱き上げる。
-line_set 物言わず、そのまま立ち去っていった。
 
+line_set 物言わず、そのまま立ち去っていった。
 adv_on
 
 jump_auto 1
+
 @0
+
 jump_choice 2 ◆剣を抜く
+
 jump_choice 3 ◆剣を抜かない
 @3
 
@@ -2039,10 +1641,10 @@ name_set 双厳
 line_set 「・・・」
 
 kgd_layer1_fx 0
+
 kgd_layer1_blackout
 kgd_layer2_clear
 kgd_layer3_clear 0
-
 music_stop
 
 name_clear
@@ -2053,40 +1655,38 @@ name_set 桔梗
 
 sfx_set 2 Vox\3750.wav
 sfx_play 2
-
 line_set 「！？」
-
 sfx_stop 2
 
 kgd_layer1_set 1 Kgd\En_001.kgd
+
 kgd_layer1_fadein
 kgd_layer2_clear
 kgd_layer1_fx 1
 kgd_layer1_display
-
 wait 2000
 
 kgd_layer1_fadein
+
 kgd_layer2_display
 kgd_layer1_fx 7
 kgd_layer1_clear 1
 kgd_layer3_set 0 Kgd\Ky_005.kgd
 kgd_layer3_display 0
-
 music_play 5
 
 nvl_on
 
 line_set 双厳の左肩に桔梗の一撃が決まる。
-line_set がそれにしては奇妙な音があたりにこだまする。
 
+line_set がそれにしては奇妙な音があたりにこだまする。
 adv_on
 
 name_set 双厳
 
 line_set 「やはりそうか・・・」
-line_set 「てめぇ・・・死ぬ気だったのだろう・・・」
 
+line_set 「てめぇ・・・死ぬ気だったのだろう・・・」
 name_set 桔梗
 
 line_set 「・・・」
@@ -2094,15 +1694,15 @@ line_set 「・・・」
 nvl_on
 
 line_set 桔梗の剣は刀身の半分ほどが双厳の肩に刺してはいるものの、
-line_set 剣の刀身の半身はすで砕けてしまっている。
 
+line_set 剣の刀身の半身はすで砕けてしまっている。
 adv_on
 
 name_set 双厳
 
 line_set 「剣に細工をしたな・・・」
-line_set 「すぐに折れるように・・・」
 
+line_set 「すぐに折れるように・・・」
 nvl_on
 
 line_set 双厳に突き刺さった剣から桔梗の手に血がしたたり落ちる。
@@ -2113,22 +1713,18 @@ name_set 桔梗
 
 sfx_set 2 Vox\3749.wav
 sfx_play 2
-
 line_set 「な、なんで・・・」
-
 sfx_stop 2
+
 sfx_set 2 Vox\3748.wav
 sfx_play 2
-
 line_set 「避けられたはずなのに・・・？」
-
 sfx_stop 2
-
 nvl_on
 
 line_set 桔梗は自分の一撃が双厳の身体を深く傷つけたことに狼狽していた。
-line_set その手がかすかに震え、桔梗の手から刀が離される。
 
+line_set その手がかすかに震え、桔梗の手から刀が離される。
 adv_on
 
 name_set 双厳
@@ -2139,20 +1735,18 @@ name_set 桔梗
 
 sfx_set 2 Vox\3747.wav
 sfx_play 2
-
 line_set 「そ、そんな事は・・・」
-
 sfx_stop 2
 
 name_set 双厳
 
 line_set 「剣が人斬ったぐらいで真っ二つにわれるか？」
+
 line_set 「はじめっからそのように細工をしていたのだろう・・・」
 line_set 「お前と向き合った時・・・」
 line_set 「たしかにお前からは死の覚悟が感じ取れた・・・」
 line_set 「が・・・」
 line_set 「殺気は不思議となかった・・・」
-
 name_set 桔梗
 
 line_set 「・・・」
@@ -2160,54 +1754,42 @@ line_set 「・・・」
 name_set 双厳
 
 line_set 「あれは自害する人間の目だ・・・」
-line_set 「これから戦おうとする人間の目ではない」
 
+line_set 「これから戦おうとする人間の目ではない」
 name_set 桔梗
 
 line_set 「・・・」
 
 sfx_set 2 Vox\3746.wav
 sfx_play 2
-
 line_set 「なぜ・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3745.wav
 sfx_play 2
-
 line_set 「なぜあなたは・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3744.wav
 sfx_play 2
-
 line_set 「いつもわたしのしようとする事に邪魔をするのですか・・・」
-
 sfx_stop 2
-
 name_set 双厳
 
 line_set 「・・・」
+
 line_set 「しらねぇよ・・・」
 line_set 「俺は俺の思った通りに行動しているだけだ」
-
 name_set 桔梗
 
 line_set 「・・・」
 
 sfx_set 2 Vox\3743.wav
 sfx_play 2
-
 line_set 「なんであなたはそう・・・」
-
 sfx_stop 2
 sfx_set 2 Vox\3742.wav
 sfx_play 2
-
 line_set 「邪魔ばかりするのです・・・」
-
 sfx_stop 2
-
 nvl_on
 
 line_set その場で桔梗は崩れ落ちる・・・。
@@ -2217,8 +1799,8 @@ adv_on
 name_set 双厳
 
 line_set 「とりあえず自害の手伝いなぞまっぴらごめんだ・・・」
-line_set 「お前が本当に立ち会いをする気がなければ俺は剣を抜かん・・・」
 
+line_set 「お前が本当に立ち会いをする気がなければ俺は剣を抜かん・・・」
 name_set 桔梗
 
 line_set 「・・・」
@@ -2234,10 +1816,12 @@ line_set 双厳はその場を立ち去った。
 adv_on
 
 kgd_layer1_fx 0
+
 kgd_layer1_clear 0
 kgd_layer2_fade_unk 0
 kgd_layer3_clear 0
 @1
 
 ksd_set Ksd\036.ksd
+
 ksd_end

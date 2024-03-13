@@ -164,14 +164,9 @@ kgd_layer1_clear 0
 
 wait 2000
 
-kgd_layer1_set 0 Kgd\W_006.kgd
-kgd_layer2_set 0 Kgd\B_072.kgd
+kgd_layer1_set 0 Kgd\Dc_Irusui04.kgd
 kgd_layer1_display
-kgd_layer2_display
 kgd_layer1_fx 1
-kgd_layer3_set 0 Kgd\Is_004.kgd
-kgd_layer3_param 0 20 0 0 0 664 600
-kgd_layer3_display 0
 
 name_set スイ
 
@@ -193,8 +188,19 @@ line_set それだけ外の世界に憧れていたという事が伺える。
 
 adv_on
 
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+kgd_layer1_set 0 Kgd\W_006.kgd
+kgd_layer2_set 0 Kgd\B_072.kgd
+kgd_layer1_display
+kgd_layer2_display
+kgd_layer1_fx 1
+
+wait 2000
+
 kgd_layer2_set 1 Kgd\B_026.kgd
 kgd_layer2_crossfade 0
 kgd_layer2_fadein

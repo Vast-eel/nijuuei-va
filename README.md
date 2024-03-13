@@ -7,7 +7,7 @@ Partially based on [gscScriptCompAndDecompiler](https://github.com/TesterTestero
 ### Voice patch
 Save files from an unmodified version of the game may or may not crash depending on when you saved, so starting from the beginning is recommended.
 
-Download [this](https://drive.google.com/drive/folders/1MMvA8k8tal3h6U4hwnW04e3lv066tYhq?usp=sharing) and put the Vox folder in the Nijuuei root folder.
+Download [the voice files](https://drive.google.com/drive/folders/1MMvA8k8tal3h6U4hwnW04e3lv066tYhq?usp=sharing) and [new CGs](https://drive.google.com/drive/folders/1BjcOJ1DyLqLQnqyrM4gnU0PocGN4yKh8?usp=sharing) then put the folders in the Nijuuei root folder.
 
 Download script files from the Releases section and overwrite the files in the game's Ksd directory with the new files.
 

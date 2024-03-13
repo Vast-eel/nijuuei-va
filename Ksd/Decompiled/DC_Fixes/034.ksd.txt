@@ -3055,12 +3055,12 @@ line_set 「お願い致します」
 
 kgd_layer3_fadeout 0
 kgd_layer3_clear 0
-kgd_layer2_set 1 Kgd\B_013.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-kgd_layer3_set 0 Kgd\Is_001.kgd
-kgd_layer3_display 0
+
+kgd_layer1_set 1 Kgd\Dc_Irusui01.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer2_set 0 Kgd\B_013.kgd
 
 name_set イル
 
@@ -3079,10 +3079,13 @@ name_set スイ
 line_set 「うん・・・」
 line_set 「本当は出ようって、思ってたんだけど・・・」
 
-kgd_layer3_set 3 Kgd\Is_002.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Is_002.kgd
+kgd_layer3_display 0
+kgd_layer2_blit 0 0
 
 name_set イル
 

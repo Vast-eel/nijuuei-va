@@ -1784,6 +1784,12 @@ line_set 彩は双厳の疑問を察知したように自分の武器に話題を振った。
 
 adv_on
 
+kgd_layer1_set 1 Kgd\Dc_Aya01.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer3_clear 0
+
 line_set 「面白い武器でしょ」
 
 name_set 双厳
@@ -1877,8 +1883,11 @@ name_set 双厳
 
 line_set 「ああ・・・」
 
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+
 #51_9
 !50
 

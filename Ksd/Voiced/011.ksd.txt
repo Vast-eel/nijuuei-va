@@ -1,16 +1,15 @@
-
 sfx_set 0 Se\017.wav
-sfx_play 0
 
+sfx_play 0
 kgd_layer1_set 0 Kgd\Da_004.kgd
+
 kgd_layer1_display
 kgd_layer1_fx 1
-
 wait 4000
 
 kgd_layer1_fx 0
-kgd_layer1_clear 0
 
+kgd_layer1_clear 0
 wait 2000
 
 sfx_stop 0
@@ -20,16 +19,16 @@ jump_branch2 238 24
 nvl_on
 
 line_set uEEEv
-line_set uEEEEEEv
 
+line_set uEEEEEEv
 adv_on
 
 kgd_layer1_set 0 Kgd\W_001.kgd
+
 kgd_layer2_set 0 Kgd\B_037.kgd
 kgd_layer1_display
 kgd_layer2_display
 kgd_layer1_fx 1
-
 music_play 14
 
 name_set ‘oŒµ
@@ -43,17 +42,19 @@ line_set ‘oŒµ‚Í–Ú‚ğŠo‚Ü‚µ‚½B
 adv_on
 
 jump_auto 0
+
 !24
 
 nvl_on
 
 line_set uEEEv
+
 line_set uŠO‚©‚ç‹C”z‚ª‚·‚év
 line_set u‚±‚Ì‹C”z‚ÍEEEv
-
 adv_on
 
 jump_choice 1 Ÿ‹N‚«‚é
+
 jump_choice 2 Ÿ‹N‚«‚È‚¢
 @1
 
@@ -68,6 +69,7 @@ line_set ‘oŒµ‚Í‹C”z‚ğ@’m‚µ‚Ä”ò‚Ñ‹N‚«‚éB
 adv_on
 
 kgd_layer1_set 0 Kgd\W_001.kgd
+
 kgd_layer2_set 0 Kgd\B_037.kgd
 kgd_layer1_display
 kgd_layer2_display
@@ -75,45 +77,36 @@ kgd_layer1_fx 1
 kgd_layer3_set 0 Kgd\Sa_012.kgd
 kgd_layer3_param 0 192 0 0 0 416 600
 kgd_layer3_display 0
-
 music_play 14
 
 name_set Ñ}
 
 sfx_set 2 Vox\6405.wav
 sfx_play 2
-
 line_set u‚ ‚ÁEEEv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6404.wav
 sfx_play 2
-
 line_set u‘oŒµ‚³‚ÜEEE‚¨A‚¨‚Í‚æ‚¤‚²‚´‚¢‚Ü‚·‚Å‚·v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uÑ}EEEv
+
 line_set u‚È‚ñ‚¾EEEv
 line_set uÑ}‚©EEEv
-
 name_set Ñ}
 
 sfx_set 2 Vox\6403.wav
 sfx_play 2
-
 line_set u‚Í‚¢v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6402.wav
 sfx_play 2
-
 line_set uÑ}‚Å‚²‚´‚¢‚Ü‚·v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uHv
@@ -121,8 +114,8 @@ line_set uHv
 nvl_on
 
 line_set Ñ}‚Í­‚µŠç‚ğã‹C‚³‚¹‚Ä‚¢‚éEEEB
-line_set S‚È‚µ‚©­‚µ‚Ó‚é‚¦‚Ä‚¢‚éEEEB
 
+line_set S‚È‚µ‚©­‚µ‚Ó‚é‚¦‚Ä‚¢‚éEEEB
 adv_on
 
 line_set uÑ}‚Ç‚¤‚©‚µ‚½‚Ì‚©Hv
@@ -131,17 +124,13 @@ name_set Ñ}
 
 sfx_set 2 Vox\6401.wav
 sfx_play 2
-
 line_set u‚¢A‚¢‚¦v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6400.wav
 sfx_play 2
-
 line_set u‚»A‘oŒµ‚³‚Ü‚ğ‹N‚±‚µ‚É‚«‚Ü‚µ‚½‚Å‚·v
-
 sfx_stop 2
-
 nvl_on
 
 line_set Ñ}‚Í‚È‚º‚©‚ ‚¹‚Á‚Ä‚¢‚é‚æ‚¤‚¾‚Á‚½B
@@ -150,14 +139,12 @@ adv_on
 
 sfx_set 2 Vox\6399.wav
 sfx_play 2
-
 line_set u‚»A‘oŒµ‚³‚Ü‹N‚«‚Ä‚¢‚ç‚Á‚µ‚á‚é‚æ‚¤‚È‚Ì‚Å‚±‚ê‚Å¸—ç‚µ‚Ü‚·‚Å‚·v
-
 sfx_stop 2
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 nvl_on
 
 line_set Ñ}‚Í˜L‰º‚Ì•û‚É‹}‚¢‚ÅÁ‚¦‚Ä‚µ‚Ü‚Á‚½EEEB
@@ -169,39 +156,43 @@ name_set ‘oŒµ
 line_set uEEEv
 
 jump_auto 3
+
 @2
 
 affection_plus 0
 
-jump_branch1 1391 23
+jump_branch1 1207 23
 
 gallery_unlock 106
 
 ksd_set Ksd\106.ksd
 
 kgd_layer1_set 0 Kgd\W_001.kgd
+
 kgd_layer2_set 0 Kgd\B_037.kgd
 kgd_layer1_display
 kgd_layer2_display
 kgd_layer1_fx 3
-
 music_play 14
 
 jump_auto 4
+
 #23_0
-jump_branch1 1470 42
+
+jump_branch1 1286 42
 
 gallery_unlock 107
 
 ksd_set Ksd\107.ksd
 
 kgd_layer1_set 0 Kgd\W_001.kgd
+
 kgd_layer2_set 0 Kgd\B_037.kgd
 kgd_layer1_display
 kgd_layer2_display
 kgd_layer1_fx 3
-
 jump_auto 5
+
 #42_1
 
 gallery_unlock 108
@@ -209,19 +200,21 @@ gallery_unlock 108
 ksd_set Ksd\108.ksd
 
 kgd_layer1_set 0 Kgd\W_001.kgd
+
 kgd_layer2_set 0 Kgd\B_037.kgd
 kgd_layer1_display
 kgd_layer2_display
 kgd_layer1_fx 3
-
 jump_auto 6
+
 @5
+
 @6
 
 kgd_layer3_set 0 Kgd\Sa_012.kgd
+
 kgd_layer3_param 0 192 0 0 0 416 600
 kgd_layer3_display 0
-
 music_play 14
 
 name_set Ñ}
@@ -233,11 +226,11 @@ name_set ‘oŒµ
 line_set u‚ ‚ EEEv
 
 kgd_layer3_set 3 Kgd\Sa_002.kgd
+
 kgd_layer3_param 3 192 0 0 0 416 600
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set Ñ}
 
 line_set u‚æ‚©‚Á‚½‚Å‚·v
@@ -265,19 +258,19 @@ name_set ‘oŒµ
 line_set u‚È‚ñ‚Å‚¾EEEv
 
 kgd_layer3_set 3 Kgd\Sa_012.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set Ñ}
 
 line_set u‚¦‚Á‚¾‚Á‚ÄEEEv
 
 kgd_layer3_set 3 Kgd\Sa_002.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 line_set u‚¤‚Óv
 
 name_set ‘oŒµ
@@ -285,17 +278,15 @@ name_set ‘oŒµ
 line_set uEEEv
 
 kgd_layer3_set 3 Kgd\Sa_001.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set Ñ}
 
 sfx_set 2 Vox\6398.wav
 sfx_play 2
-
 line_set u‚³‚ÄAd–‚É–ß‚è‚Ü‚·‚Å‚·v
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -306,23 +297,19 @@ name_set Ñ}
 
 sfx_set 2 Vox\6397.wav
 sfx_play 2
-
 line_set uƒnƒC‚Å‚·v
-
 sfx_stop 2
 
 name_set Ñ}
 
 sfx_set 2 Vox\6396.wav
 sfx_play 2
-
 line_set u‚»‚ê‚¶‚á‘oŒµ‚³‚Üv
-
 sfx_stop 2
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 nvl_on
 
 line_set Ñ}‚ÍŒ³‹C—Ç‚­•”‰®‚ğŒã‚É‚µ‚½B
@@ -330,47 +317,51 @@ line_set Ñ}‚ÍŒ³‹C—Ç‚­•”‰®‚ğŒã‚É‚µ‚½B
 nvl_line_clear
 
 line_set u‚³‚Ä‚ÆEEEv
-line_set u‚»‚ë‚»‚ës“®‚·‚é‚©EEEv
 
+line_set u‚»‚ë‚»‚ës“®‚·‚é‚©EEEv
 nvl_line_clear
 
 line_set u‚³‚ÄA‚Ç‚±‚É‚¢‚±‚¤‚©Hv
 
 jump_auto 7
+
 @14
 
 kgd_layer2_set 1 Kgd\B_037.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
 @0
+
 @3
+
 @4
+
 @7
 
 jump_choice 8 Ÿ˜L‰º‚ÖˆÚ“®
+
 @15
 
 kgd_layer2_set 1 Kgd\B_009.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
-jump_branch1 6057 46
+jump_branch1 5301 46
 
 kgd_layer3_set 0 Kgd\Sh_001.kgd
+
 kgd_layer3_param 0 48 0 0 0 704 600
 kgd_layer3_display 0
-
 section_jump_branch1 46
 
 name_set u”T
 
 sfx_set 2 Vox\6282.wav
 sfx_play 2
-
 line_set u‚¨‚Í‚æ‚¤‚²‚´‚¢‚Ü‚·‘oŒµ‚³‚Üv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -387,17 +378,13 @@ name_set u”T
 
 sfx_set 2 Vox\6281.wav
 sfx_play 2
-
 line_set u‚»‚¤‚¢‚¦‚ÎEEEv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6280.wav
 sfx_play 2
-
 line_set u¡“ú‚Í‚Tl‚Ù‚ÇV‚µ‚¢—pS–_‚Ì•û‚ª‚¢‚ç‚Á‚µ‚á‚¢‚Ü‚·v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u˜Hv
@@ -406,42 +393,34 @@ name_set u”T
 
 sfx_set 2 Vox\6279.wav
 sfx_play 2
-
 line_set u‘oŒµ‚³‚Ü‚ÌÀ—Í‚ğ‹^‚¤‚í‚¯‚Å‚Í‚È‚¢‚Ì‚Å‚·‚ªv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6278.wav
 sfx_play 2
-
 line_set u‚³‚·‚ª‚ÉA‚¨ˆêl‚Å”\l‚ÌŠC‘¯‚ğ‘Šè‚É‚·‚é‚í‚¯‚É‚à‚¢‚©‚È‚¢‚Å‚µ‚å‚¤‚©‚çv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚¢‚âA‚í‚©‚ç‚Ê‚Å‚à‚È‚¢v
+
 line_set u‚¢‚­‚çA‰´‚ª©•ª‚Åwˆêl‚Å‚à‘åä•vx‚Æ‚¢‚Á‚½‚Æ‚±‚ë‚ÅM—p‚Å‚«‚Ê‚¾‚ë‚¤v
 line_set u‚³‚·‚ª‚ÉA“–å“a‚à‰´ˆêl‚Å‚ÍS‹–‚È‚¢‚Æ‚¢‚¤‚Ì‚à‚í‚©‚ç‚ñ‚Å‚à‚È‚¢v
 line_set u‰´‚ÌÀ—Í‚Ì‚Ù‚Ç‚à‚í‚©‚ç‚ñ‚µ‚ÈEEEv
 line_set u‚µ‚©‚µv
 line_set u‚ ‚Ü‚è“¾‘Ì‚Ì‚µ‚ê‚È‚¢‚à‚Ì‚ğ‘å—Ê‚ÉŒÙ‚¤‚Ì‚Í‚Ç‚¤‚©‚Æ‚àv‚¤‚ªv
 line_set u“ª‚Ì—Ç‚¢“–å“a‚Ì‚±‚ÆA‚»‚Ì•Ó‚Í”²‚©‚è‚ª‚È‚¢‚ÆM‚¶‚Ä‚¢‚é‚ªEEEv
-
 name_set u”T
 
 sfx_set 2 Vox\6277.wav
 sfx_play 2
-
 line_set u‚Ó‚Ó‚Ó‚Ó‚Óv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6276.wav
 sfx_play 2
-
 line_set u‚»‚ê‚Í‚Ç‚¤‚à‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚É‚Ç‚ñ‚È”y‚È‚Ì‚©‚Èv
@@ -450,23 +429,17 @@ name_set u”T
 
 sfx_set 2 Vox\6275.wav
 sfx_play 2
-
 line_set u‚³‚ EEEv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6274.wav
 sfx_play 2
-
 line_set u‚æ‚­‚í‚©‚è‚Ü‚¹‚ñv
-
 sfx_stop 2
 sfx_set 2 Vox\6273.wav
 sfx_play 2
-
 line_set ud–‚Ì‰\‚ğ•·‚¢‚½—¬˜Q‚Ì˜Ql‚³‚Ü’B‚Å‚Í‚È‚¢‚Å‚µ‚å‚¤‚©Hv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -474,30 +447,26 @@ line_set uEEEv
 nvl_on
 
 line_set u‚±‚¢‚ÂEEEv
+
 line_set u‚È‚ß‚Ä‚é‚Ì‚©EEEv
 line_set u—¬˜Q‚Ì˜‚ªŠC‘¯‚Æ‘å·‚È‚¢–‚È‚Ç‚±‚Ì—‚È‚ç“–‘R•ª‚©‚Á‚Ä‚¢‚é‚¾‚ë‚¤v
 line_set u‚Ç‚¤‚¢‚¤‚Â‚à‚è‚¾EEEv
-
 adv_on
 
 line_set uEEEv
-line_set u‚»‚Ì“¾‘Ì‚Ì’m‚ê‚È‚¢“z‚ç‚Æãè‚­‚â‚ê‚ÆŒ¾‚¤‚í‚¯‚©Hv
 
+line_set u‚»‚Ì“¾‘Ì‚Ì’m‚ê‚È‚¢“z‚ç‚Æãè‚­‚â‚ê‚ÆŒ¾‚¤‚í‚¯‚©Hv
 name_set u”T
 
 sfx_set 2 Vox\6272.wav
 sfx_play 2
-
 line_set u‚»‚¤‚Å‚·‚ËA‚È‚é‚×‚­’‡—Ç‚­‚µ‚Ä‚à‚ç‚¢‚½‚¢‚à‚Ì‚Å‚·‚Ëv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6271.wav
 sfx_play 2
-
 line_set uŠC‘¯‚Å‚È‚­A’‡ŠÔ“¯m‚ÅE‚µ‚ ‚Á‚½‚Ì‚Å‚Í‚µ‚©‚½‚ ‚è‚Ü‚¹‚ñ‚©‚ç‚Ëv
-
 sfx_stop 2
-
 nvl_on
 
 line_set uEEEv
@@ -511,9 +480,9 @@ line_set u‚Ü‚ ‚QA‚R‚Ol’ö“x‚È‚ç‚Î’‡ŠÔ‚¾‚ë‚¤‚ªŠC‘¯‚¾‚ë‚¤‚ªP‚Á‚Ä‚«‚Ä‚à‚È‚ñ‚Æ‚©‚
 nvl_on
 
 line_set ‚à‚¿‚ë‚ñ‘oŒµ‚ÌŒ¾‚Á‚Ä‚¢‚é–‚Íƒnƒbƒ^ƒŠ‚Å‚Í‚È‚©‚Á‚½‚ªA•’Ê‚É•·‚¢‚½‚Ì‚Å‚Í‘oŒµ‚Ì‚±‚Ì”­Œ¾‚È‚Çƒnƒbƒ^ƒŠ
+
 line_set ˆÈŠO‚Ì‰½‚Æ‚à‚¢‚¦‚È‚©‚Á‚½B
 line_set ‚É‚à‚©‚©‚í‚ç‚¸Au”T‚Í‚»‚Ì”­Œ¾‚ğ^‚Éó‚¯‚é‚©‚Ì‚æ‚¤‚É˜b‚µ‚ğ‘±‚¯‚éB
-
 adv_on
 
 pis_set 30 0
@@ -522,24 +491,20 @@ name_set u”T
 
 sfx_set 2 Vox\6270.wav
 sfx_play 2
-
 line_set u‚»‚ê‚Í‘f°‚ç‚µ‚¢A<0,r–Ø–”‰E‰q–å>‚³‚Ü‚Ì‚æ‚¤‚Å‚·‚ív
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set ur–Ø–”‰E‰q–å‚Æ‚ÍEEEv
+
 line_set uŒ®‰®‚Ì’Ò‚Ì˜b‚È‚Ç‚æ‚­’m‚Á‚Ä‚¨‚ç‚ê‚Ü‚·‚Èv
 line_set u‚±‚Ì‚æ‚¤‚ÈêŠ‚É‚¨Z‚İ‚È‚Ì‚ÉA¢‘Š‚Ì‚±‚Æ‚ğ‚æ‚­Œ©‚Ä‚¨‚ç‚ê‚év
-
 name_set u”T
 
 sfx_set 2 Vox\6269.wav
 sfx_play 2
-
 line_set u‚±‚Ì‚æ‚¤‚ÈêŠ‚¾‚©‚ç‚±‚»‚Å‚·‚ív
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -550,37 +515,29 @@ name_set u”T
 
 sfx_set 2 Vox\6268.wav
 sfx_play 2
-
 line_set u‰É‚Å‚·‚©‚çv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‰É‚Æ‚¢‚Á‚Ä‚àA‚»‚Ì‚æ‚¤‚È–‚ğ’m‚é‚É‚Í‚»‚ê‘Š‰‚Ì˜J—Í‚ğ‚Æ‚à‚È‚¢‚Ü‚µ‚å‚¤v
-line_set u“Á‚ÉA‚»‚Ì‚æ‚¤‚ÈÅ‹ß‚Ì˜b‚È‚Ç‚ÍEEEv
 
+line_set u“Á‚ÉA‚»‚Ì‚æ‚¤‚ÈÅ‹ß‚Ì˜b‚È‚Ç‚ÍEEEv
 name_set u”T
 
 sfx_set 2 Vox\6267.wav
 sfx_play 2
-
 line_set u‚»‚¤‚Å‚à‚²‚´‚¢‚Ü‚¹‚ñ‚ív
-
 sfx_stop 2
+
 sfx_set 2 Vox\6266.wav
 sfx_play 2
-
 line_set uˆ¢”g˜H‚Í‚±‚Ì•Óˆê‘Ñ‚Ì‘ºX‚ÆŒğ—¬‚ª‚ ‚è‚Ü‚·‚µv
-
 sfx_stop 2
 sfx_set 2 Vox\6265.wav
 sfx_play 2
-
 line_set u“Á‚ÉŠC˜H‚©‚ç‚Í‚¢‚¿‘‚­FX‚Èî•ñ‚ª“ü‚è‚Ü‚·v
-
 sfx_stop 2
-
 nvl_on
 
 line_set u”T‚Í‘oŒµ‚ÉÅŒã‚Ü‚ÅŒ¾‚í‚·‚±‚Æ‚È‚­“š‚¦‚½B
@@ -591,51 +548,54 @@ name_set u”T
 
 sfx_set 2 Vox\6264.wav
 sfx_play 2
-
 line_set u‚»‚ë‚»‚ëA„‚à‚µ‚È‚¯‚ê‚Î‚¢‚¯‚È‚¢‚±‚Æ‚ª‚ ‚è‚Ü‚·‚Ì‚ÅA‚±‚Ì•Ó‚ÅEEEv
-
 sfx_stop 2
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 nvl_on
 
 line_set u‚ ‚Ì—A‚ ‚È‚Ç‚ê‚È‚¢EEEv
+
 line_set u‰´‚Ì³‘Ì‚Í”–XŠ´‚¶‚Ä‚¢‚é‚ç‚µ‚¢‚ªEEEv
 line_set u‚»‚ê‚Å‚¢‚È‚ª‚çA‚ ‚Ì‚æ‚¤‚É’§”­‚·‚é‚æ‚¤‚È”­Œ¾‚Î‚©‚è‚·‚év
 line_set u‚ ‚ê‚Å‚ÍA‚ ‚½‚©‚àV‚µ‚­ŒÙ‚Á‚½˜‚Í‰´‚É‘Î‚·‚éh‹q‚Ì—l‚É‚·‚ç•·‚±‚¦‚év
 line_set u‚Æ‚¢‚Á‚Ä‚àEEEv
-
 nvl_line_clear
 
 line_set u‚ ‚ê‚Ù‚Ç“ª‚Ì—Ç‚¢—‚ªA‚İ‚·‚İ‚·è‚Ì“à‚ğ‚İ‚¹‚é‚æ‚¤‚È”n­‚È‚Ü‚Ë‚à‚·‚é‚Ü‚¢v
+
 line_set u‚È‚ç‚ÎEEEv
 line_set uˆê‘Ì‚È‚ñ‚Ì–Ú“I‚ÅA‰´‚Ì‚æ‚¤‚È‘¶İ‚ÌN“ü‚ğ‹–‚µ‚½‚ñ‚¾v
 line_set u‚â‚Â‚Ì‚¢‚¤‚æ‚¤‚É’Pƒ‚È‰É‚Â‚Ô‚µ‚È‚Ì‚©Hv
 line_set u‚»‚ê‚Æ‚àEEEv
-
 adv_on
+
 #46_2
 
 jump_choice 9 Ÿ˜L‰º‚ÖˆÚ“®
+
 @8
+
 @9
+
 @40
+
 @45
 
 kgd_layer2_set 1 Kgd\B_029.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
+jump_branch1 9834 47
 
-jump_branch1 11812 47
-jump_branch2 11812 46
-
+jump_branch2 9834 46
 kgd_layer3_set 0 Kgd\Fu_009.kgd
+
 kgd_layer3_param 0 128 0 0 0 544 600
 kgd_layer3_display 0
-
 section_jump_branch1 47
 
 pis_set 29 0
@@ -644,22 +604,20 @@ name_set •–—æ
 
 sfx_set 2 Vox\6395.wav
 sfx_play 2
-
 line_set u‚ ‚ÁA<0,ƒTƒ“ƒsƒ““z>‚Ì‘oŒµ‚³‚ñv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‰´‚ªƒTƒ“ƒsƒ““z‚È‚ç‚¨‘O‚àƒTƒ“ƒsƒ““z‚¾v
-line_set u‚±‚Ìd–‚Ì•ñV‚Í“¯‚¶‚¾‚ë‚¤‚ªv
 
+line_set u‚±‚Ìd–‚Ì•ñV‚Í“¯‚¶‚¾‚ë‚¤‚ªv
 kgd_layer3_set 3 Kgd\Fu_002.kgd
+
 kgd_layer3_param 3 128 0 0 0 544 600
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 nvl_on
 
 line_set •–—æ‚Í‚»‚Ì“š‚¦‚ğ‘Ò‚Á‚Ä‚Ü‚µ‚½‚Æ‚Î‚©‚è‚ÉA‚É‚Á‚±‚è‚ÆÎ‚¤B
@@ -670,29 +628,21 @@ name_set •–—æ
 
 sfx_set 2 Vox\6394.wav
 sfx_play 2
-
 line_set u‚Ó‚Ó‚Ó‚Ó‚Ó‚Ó‚Óv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6393.wav
 sfx_play 2
-
 line_set u‚ ‚È‚½‚Æ„‚ğˆê‚É‚µ‚Ä‚à‚ç‚¢‚½‚­‚Í‚È‚¢‚ív
-
 sfx_stop 2
 sfx_set 2 Vox\6392.wav
 sfx_play 2
-
 line_set u‚à‚Æ‚à‚ÆÀ—Í‚ªˆá‚¤‚©‚ç‚©‚µ‚ç‚Ë`v
-
 sfx_stop 2
 sfx_set 2 Vox\6391.wav
 sfx_play 2
-
 line_set uŒÙ‚¢å‚Ì•]‰¿‚àˆá‚¤‚æ‚¤‚Ëv
-
 sfx_stop 2
-
 nvl_on
 
 line_set ‘oŒµ‚Í‚Â‚©‚ê‚½Šç‚Å“š‚¦‚éB
@@ -707,59 +657,47 @@ name_set •–—æ
 
 sfx_set 2 Vox\6390.wav
 sfx_play 2
-
 line_set u‚­‚­‚­‚­‚­v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6389.wav
 sfx_play 2
-
 line_set u‚æ‚­•·‚¢‚Ä‚­‚ê‚½‚íIv
-
 sfx_stop 2
 sfx_set 2 Vox\6388.wav
 sfx_play 2
-
 line_set u‚¨‚Ç‚ë‚¯A•n–RlIv
-
 sfx_stop 2
 sfx_set 2 Vox\6387.wav
 sfx_play 2
-
 line_set u„‚Í‘O‹à‚Å‚±‚ê‚¾‚¯‚à‚ç‚Á‚½‚Ì‚æv
-
 sfx_stop 2
-
 nvl_on
 
 line_set •–—æ‚Í‘O‹à‚Ì¬”»‚Ì•ï‚İ‚ğ‚İ‚¹‚Ñ‚ç‚©‚·B
-line_set Šm‚©‚É‘å‹à‚Å‚Í‚ ‚é‚ªA‘oŒµ‚Ì‚»‚ê‚Æ‚Ü‚Á‚½‚­“¯‚¶•ª—Ê‚Å‚ ‚éB
 
+line_set Šm‚©‚É‘å‹à‚Å‚Í‚ ‚é‚ªA‘oŒµ‚Ì‚»‚ê‚Æ‚Ü‚Á‚½‚­“¯‚¶•ª—Ê‚Å‚ ‚éB
 adv_on
 
 kgd_layer3_set 3 Kgd\Fu_009.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 sfx_set 2 Vox\6386.wav
 sfx_play 2
-
 line_set u‚ ‚È‚½‚Ì‚æ‚¤‚È•n–Rl‚É‚ÍŒ©‚½‚±‚Æ‚È‚¢‚¨‹à‚Å‚µ‚å‚¤‚Ë`v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6385.wav
 sfx_play 2
-
 line_set u‚Ó‚ÓA‚·‚²‚¢‚Å‚µ‚åv
-
 sfx_stop 2
-
 nvl_on
 
 line_set ‚½‚Ô‚ñ•–—æ‚É‚Æ‚Á‚ÄŒ©‚½‚±‚Æ‚à‚È‚¢‘å‹à‚Å‚ ‚Á‚½‚Ì‚Å‚ ‚ë‚¤A
-line_set ‚¾‚©‚ç‚±‚Ì‚æ‚¤‚È‘å‹à‚ª‘Sˆõ‚É”z‚ç‚ê‚é‚È‚Ç‚Æ‚¢‚¤–‚ª‘z‘œ‚Å‚«‚È‚¢‚Ì‚¾‚ë‚¤‚©B
 
+line_set ‚¾‚©‚ç‚±‚Ì‚æ‚¤‚È‘å‹à‚ª‘Sˆõ‚É”z‚ç‚ê‚é‚È‚Ç‚Æ‚¢‚¤–‚ª‘z‘œ‚Å‚«‚È‚¢‚Ì‚¾‚ë‚¤‚©B
 nvl_line_clear
 
 line_set u©•ª‚¾‚¯A‚à‚ç‚Á‚½‚Æ‚Å‚àv‚Á‚Ä‚é‚Ì‚©‚±‚Ì”n­‚ÍEEEv
@@ -767,19 +705,18 @@ line_set u©•ª‚¾‚¯A‚à‚ç‚Á‚½‚Æ‚Å‚àv‚Á‚Ä‚é‚Ì‚©‚±‚Ì”n­‚ÍEEEv
 adv_on
 
 jump_choice 10 Ÿ‰´‚à‚Ü‚Á‚½‚­“¯‚¶‚¾‚¯‚Ì‹à‚ğ‚à‚ç‚Á‚½‚¼
+
 jump_choice 11 Ÿ‚·‚²‚¢‚ÈAŒÙ‚¢å‚ÌŠú‘Ò‚É“Y‚¦‚È‚«‚á‚È
 @10
 
 kgd_layer3_set 3 Kgd\Fu_010.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 sfx_set 2 Vox\6384.wav
 sfx_play 2
-
 line_set u‚¤A‚¤‚»v
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -787,24 +724,22 @@ name_set ‘oŒµ
 line_set u‚¤‚»‚Â‚¢‚Ä‚Ç‚¤‚·‚é‚ñ‚¾‚æA‚»‚ñ‚È‚±‚Æv
 
 kgd_layer3_set 3 Kgd\Fu_007.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 sfx_set 2 Vox\6383.wav
 sfx_play 2
-
 line_set u‚­‚â‚µ‚¢‚©‚ç‰R‚Â‚¢‚Ä‚ñ‚Å‚µ‚åIv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set uEEEv
-line_set u‚Ù‚êv
 
+line_set u‚Ù‚êv
 nvl_on
 
 line_set ‘oŒµ‚Í‹¹Œ³‚©‚ç“ñ“ú‘O‚Éu”T‚©‚ç‘O‹à‚Æ‚µ‚Ä‚¢‚½‚¾‚¢‚½¬”»‚ğ•–—æ‚É‚İ‚¹‚½B
@@ -812,103 +747,85 @@ line_set ‘oŒµ‚Í‹¹Œ³‚©‚ç“ñ“ú‘O‚Éu”T‚©‚ç‘O‹à‚Æ‚µ‚Ä‚¢‚½‚¾‚¢‚½¬”»‚ğ•–—æ‚É‚İ‚¹‚½B
 adv_on
 
 kgd_layer3_set 3 Kgd\Fu_008.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 sfx_set 2 Vox\6382.wav
 sfx_play 2
-
 line_set u‚°‚ÁIv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set uEEEv
+
 line_set u•–—æEEEv
 line_set u‰º•i‚È‹Á‚«•û‚¾‚Èv
 line_set u‚°‚Áv
 line_set u‚Í‚È‚¢‚¾‚ëv
 line_set uˆê‰—‚È‚ñ‚¾‚µv
-
 name_set •–—æ
 
 sfx_set 2 Vox\6381.wav
 sfx_play 2
-
 line_set u‚¤A‚¤‚é‚³‚¢‚í‚Ëv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6380.wav
 sfx_play 2
-
 line_set u‚ ‚ñ‚½‚É—‚¤‚ñ‚Ê‚ñ‚È‚ñ‚ÄŒ¾‚í‚ê‚½‚­‚È‚¢‚í‚æv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚½‚µ‚©‚Év
+
 line_set u‚¨‘O‚ª—‚ç‚µ‚­‚µ‚æ‚¤‚ª‚µ‚Ü‚¢‚ªŠÖŒW‚È‚¢‚ª‚Èv
 line_set u‚¨‚Ü‚¦‚İ‚½‚¢‚ÈƒKƒLv
-
 name_set •–—æ
 
 sfx_set 2 Vox\6379.wav
 sfx_play 2
-
 line_set u‚ÈA‚È‚ñ‚Å‚·‚Á‚Äv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6378.wav
 sfx_play 2
-
 line_set u‚±‚Ìh–³‚µ˜QlIv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚¾‚©‚çEEEv
+
 line_set u‚»‚ê‚Í‚¨‘O‚à“¯‚¶‚¾‚ëv
 line_set u—¬‚êÒ‚È‚ñ‚¾‚©‚çv
-
 name_set •–—æ
 
 sfx_set 2 Vox\6377.wav
 sfx_play 2
-
 line_set u‚ÈA‚È‚ª‚ê‚à‚Ì‚Å‚àv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6376.wav
 sfx_play 2
-
 line_set u‚íA„‚Í—T•Ÿ‚æv
-
 sfx_stop 2
 sfx_set 2 Vox\6375.wav
 sfx_play 2
-
 line_set u‚±‚ñ‚È‚É‚¨‹à‚¿Iv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚¾‚©‚çEEEv
-line_set u‚»‚ê‚Í‰´‚à“¯‚¶‚¾‚¯‚à‚Á‚Ä‚é‚©‚çv
 
+line_set u‚»‚ê‚Í‰´‚à“¯‚¶‚¾‚¯‚à‚Á‚Ä‚é‚©‚çv
 name_set •–—æ
 
 sfx_set 2 Vox\6374.wav
 sfx_play 2
-
 line_set u‚Ş‚ŞEEEv
-
 sfx_stop 2
 
 nvl_on
@@ -925,86 +842,68 @@ name_set •–—æ
 
 sfx_set 2 Vox\6373.wav
 sfx_play 2
-
 line_set u‚ÈA‚È‚É‚æv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‚»‚¤‚Æ‚¤•n–Rl‚È‚ñ‚¶‚á‚È‚¢‚©v
-line_set u‚±‚Ì’ö“x‚Ì¬”»‚Å‚Æ‚è‚İ‚¾‚µ‚Äv
 
+line_set u‚±‚Ì’ö“x‚Ì¬”»‚Å‚Æ‚è‚İ‚¾‚µ‚Äv
 kgd_layer3_set 3 Kgd\Fu_005.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 sfx_set 2 Vox\6372.wav
 sfx_play 2
-
 line_set u‚ÈA‚È‚È‚È‚È‚È‚È‚É‚ğŒ¾‚Á‚Ä‚é‚Ìv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6371.wav
 sfx_play 2
-
 line_set u‚íA‚í‚í‚í‚í‚í‚í‚½‚µ‚Í—T•Ÿ‚æv
-
 sfx_stop 2
 sfx_set 2 Vox\6370.wav
 sfx_play 2
-
 line_set u‚±‚ñ‚È‚É‚¨‹à‚à‚Á‚Ä‚é‚µv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚¾‚©‚çA‚»‚ê‚Í‰´‚à‚Á‚Ä‚é‚µEEEv
-line_set u¡‚à‚ç‚Á‚½‚¨‹à‚¾‚µEEEv
 
+line_set u¡‚à‚ç‚Á‚½‚¨‹à‚¾‚µEEEv
 name_set •–—æ
 
 sfx_set 2 Vox\6369.wav
 sfx_play 2
-
 line_set u‚ ‚¤A‚ ‚¢A•n–R‚¶‚á‚È‚¢‚ív
-
 sfx_stop 2
+
 sfx_set 2 Vox\6368.wav
 sfx_play 2
-
 line_set uŒˆ‚µ‚Ä•n–R‚¶‚á‚È‚¢‚ív
-
 sfx_stop 2
 sfx_set 2 Vox\6367.wav
 sfx_play 2
-
 line_set u’†—¬‚æv
-
 sfx_stop 2
 sfx_set 2 Vox\6366.wav
 sfx_play 2
-
 line_set u‚¤‚¿‚Í’†—¬‚¾‚Á‚½‚ív
-
 sfx_stop 2
 sfx_set 2 Vox\6365.wav
 sfx_play 2
-
 line_set u‚¨•ê‚³‚ñ‚à‚»‚¤Œ¾‚Á‚Ä‚½‚à‚ñv
-
 sfx_stop 2
-
 nvl_on
 
 line_set uEEEv
+
 line_set u‘Š“–‚Ì•n–R‰Æ’ë‚Éˆç‚Á‚½‚Ì‚©EEEv
 line_set u‚Ü‚ A‚¢‚¢‚â‚±‚ñ‚È¬–º”n­‚É‚µ‚Ä‚Ä‚àd•û‚È‚¢v
-
 adv_on
 
 name_set ‘oŒµ
@@ -1015,30 +914,25 @@ name_set •–—æ
 
 sfx_set 2 Vox\6364.wav
 sfx_play 2
-
 line_set u‚ A‚¤A‚¤‚ñv
-
 sfx_stop 2
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 jump_auto 12
+
 @11
 
 sfx_set 2 Vox\6363.wav
 sfx_play 2
-
 line_set u‚Ó‚Á‚Ó‚Ó‚ñv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6362.wav
 sfx_play 2
-
 line_set u‚·‚²‚¢‚Å‚µ‚åv
-
 sfx_stop 2
-
 nvl_on
 
 line_set u‚±‚Ì”n­A–{‹C‚Å‚¤‚ê‚µ‚ª‚Á‚Ä‚¢‚é‚ÈEEEv
@@ -1056,63 +950,54 @@ line_set ‘oŒµ‚Í‹¹Œ³‚©‚ç“ñ“ú‘O‚Éu”T‚©‚ç‘O‹à‚Æ‚µ‚Ä‚¢‚½‚¾‚¢‚½¬”»‚ğ•–—æ‚É‚İ‚¹‚½B
 adv_on
 
 kgd_layer3_set 3 Kgd\Fu_008.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 line_set uHIv
 
 sfx_set 2 Vox\6361.wav
 sfx_play 2
-
 line_set u‚»A‚»‚ê‚Á‚ÄEEEv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚ ‚êv
+
 line_set u‚È‚ñ‚©A—T•Ÿ‚ÈƒnƒY‚Ì•–—æ‚Ì‘O‹àv
 line_set u‰´‚Æ“¯‚¶Šz‚Å‚È‚¢‚©‚¢Hv
-
 kgd_layer3_set 3 Kgd\Fu_005.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 sfx_set 2 Vox\6360.wav
 sfx_play 2
-
 line_set uƒMƒNv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6359.wav
 sfx_play 2
-
 line_set u‚ A‚ ‚¤v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚È‚ñ‚¾‚ë‚¤‚È`v
+
 line_set u’p‚¸‚©‚µ‚¢‚È‚Ÿ`v
 line_set u‚ ‚Ì’ö“x‚Ì‚¨‹à‚Å‚¤‚©‚ê‚·‚¬‚Äv
 line_set u‘Sˆõ‚ª‚ ‚ÌŠz‚à‚ç‚¦‚é‚Æ‚Íl‚¦‚ç‚ê‚È‚©‚Á‚½‚Ì‚©‚ÈHv
 line_set u‚»‚¤‚¾‚Æ‚·‚é‚ÆEEEv
 line_set u‚à‚µ‚©‚µ‚ÄA‚¨‘O‚Á‚Äv
-
 name_set •–—æ
 
 sfx_set 2 Vox\6358.wav
 sfx_play 2
-
 line_set u‚àA‚à‚à‚à‚à‚µ‚©‚µ‚Ä‚Á‚ÄA‚ÈA‚È‚É‚æv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -1123,67 +1008,51 @@ name_set •–—æ
 
 sfx_set 2 Vox\6357.wav
 sfx_play 2
-
 line_set u‚ÈA‚È‚È‚È‚È‚È‚È‚É‚ğŒ¾‚Á‚Ä‚é‚Ìv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6356.wav
 sfx_play 2
-
 line_set u‚íA‚í‚í‚í‚í‚í‚í‚½‚µ‚Í—T•Ÿ‚æv
-
 sfx_stop 2
 sfx_set 2 Vox\6355.wav
 sfx_play 2
-
 line_set u‚±‚ñ‚È‚É‚¨‹à‚à‚Á‚Ä‚é‚µv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚¾‚©‚çA‚»‚ê‚Í‰´‚à‚Á‚Ä‚é‚µEEEv
-line_set u¡‚à‚ç‚Á‚½‚¨‹à‚¾‚µEEEv
 
+line_set u¡‚à‚ç‚Á‚½‚¨‹à‚¾‚µEEEv
 name_set •–—æ
 
 sfx_set 2 Vox\6354.wav
 sfx_play 2
-
 line_set u‚ ‚¤A‚ ‚¢A•n–R‚¶‚á‚È‚¢‚ív
-
 sfx_stop 2
+
 sfx_set 2 Vox\6353.wav
 sfx_play 2
-
 line_set uŒˆ‚µ‚Ä•n–R‚¶‚á‚È‚¢‚ív
-
 sfx_stop 2
 sfx_set 2 Vox\6352.wav
 sfx_play 2
-
 line_set u’†—¬‚æv
-
 sfx_stop 2
 sfx_set 2 Vox\6351.wav
 sfx_play 2
-
 line_set u‚¤‚¿‚Í’†—¬‚¾‚Á‚½‚ív
-
 sfx_stop 2
 sfx_set 2 Vox\6350.wav
 sfx_play 2
-
 line_set u‚¨•ê‚³‚ñ‚à‚»‚¤Œ¾‚Á‚Ä‚½‚à‚ñv
-
 sfx_stop 2
-
 nvl_on
 
 line_set uEEEv
+
 line_set u‘Š“–‚Ì•n–R‰Æ’ë‚Éˆç‚Á‚½‚Ì‚©EEEv
 line_set u‚Ü‚ A‚¢‚¢‚â‚±‚ñ‚È¬–º”n­‚É‚µ‚Ä‚Ä‚àd•û‚È‚¢v
-
 adv_on
 
 name_set ‘oŒµ
@@ -1194,39 +1063,42 @@ name_set •–—æ
 
 sfx_set 2 Vox\6349.wav
 sfx_play 2
-
 line_set u‚ A‚¤A‚¤‚ñv
-
 sfx_stop 2
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 jump_auto 13
+
 #47_3
+
 !46
+
 jump_choice 14 Ÿ©º‚ÖˆÚ“®
+
 jump_choice 15 Ÿ‘åLŠÔ‚ÖˆÚ“®
 jump_choice 16 Ÿ‘ ‚Ì‘O‚ÖˆÚ“®
 jump_choice 17 Ÿ‰®•~ŠO‚ÖˆÚ“®
 @25
+
 @31
 
 kgd_layer2_set 1 Kgd\B_061.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
+jump_branch1 10507 48
 
-jump_branch1 12485 48
-jump_branch2 12485 267
-
+jump_branch2 10507 267
 section_jump_branch1 48
 
 nvl_on
 
 line_set `‚É‚ÍM‚ª~‚Ü‚Á‚Ä‚¢‚éB
-line_set —á‚ÌM‚Å‚ ‚éB
 
+line_set —á‚ÌM‚Å‚ ‚éB
 adv_on
 
 name_set ‘oŒµ
@@ -1236,10 +1108,10 @@ line_set uEEEv
 nvl_on
 
 line_set M‚Ì‚Ü‚í‚è‚É‚Í‚Tl‚Ù‚Ç‚Ì˜‚ª‚¢‚éB
+
 line_set ­—Ê‚ÌÏ‚İ‰×‚ğ‚¨‚ë‚µ‚Ä‚¢‚éB
 line_set ‚½‚Ô‚ñA‚¢‚Ü‚µ‚ª‚½‚Ì“’…‚È‚Ì‚Å‚ ‚ë‚¤‚©B
 line_set ˆÄ“àŒW‚Å‚ ‚éÑ}‚à‚Ü‚¾‚±‚±‚É‚Í‚¢‚È‚¢‚æ‚¤‚¾B
-
 nvl_line_clear
 
 line_set u‘D“ª‚ªˆÄ“à‚·‚é–‚É‚È‚Á‚Ä‚¢‚é‚Ì‚©‚à‚µ‚ê‚È‚¢‚ªEEEv
@@ -1247,68 +1119,72 @@ line_set u‘D“ª‚ªˆÄ“à‚·‚é–‚É‚È‚Á‚Ä‚¢‚é‚Ì‚©‚à‚µ‚ê‚È‚¢‚ªEEEv
 nvl_line_clear
 
 jump_choice 18 ŸˆÄ“à‚ğ‚©‚Á‚Ä‚Å‚é
+
 jump_choice 19 Ÿ‚±‚Ì‚Ü‚Ü–³‹‚·‚é
 @18
 
 nvl_on
 
 line_set uˆÄ“à‚ğ‚©‚Á‚Ä‚Å‚éHv
+
 line_set u‚¤‚»‚¾‚ëv
 line_set u‚Î‚©‚Î‚©‚µ‚¢EEEv
 line_set u‚»‚ñ‚È–‚µ‚Ä‚È‚É‚É‚È‚éHv
-
 adv_on
 
 jump_auto 20
+
 @19
 
 nvl_on
 
 line_set u‚Ü‚ A“–‘R‚¾v
-line_set u‰´‚É‚ÍŠÖŒW‚È‚¢–‚¾v
 
+line_set u‰´‚É‚ÍŠÖŒW‚È‚¢–‚¾v
 adv_on
+
 @20
+
 #48_4
+
 !267
 
 jump_choice 21 Ÿ‘º‚ÖˆÚ“®
+
 jump_choice 22 ŸŠCŠİ‚ÖˆÚ“®
 @21
+
 @30
+
 @44
 
 kgd_layer2_set 1 Kgd\B_045.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 section_jump_branch2 19
 
-jump_branch1 17348 49
-jump_branch2 17348 268
+jump_branch1 14226 49
 
+jump_branch2 14226 268
 kgd_layer3_set 0 Kgd\Fu_001.kgd
+
 kgd_layer3_param 0 128 0 0 0 544 600
 kgd_layer3_display 0
-
 section_jump_branch1 49
 
 name_set •–—æ
 
 sfx_set 2 Vox\6348.wav
 sfx_play 2
-
 line_set u‚ ‚Áv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6347.wav
 sfx_play 2
-
 line_set u‘oŒµv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -1323,9 +1199,7 @@ name_set •–—æ
 
 sfx_set 2 Vox\6346.wav
 sfx_play 2
-
 line_set u‚È‚ñ‚©A¡“úV‚µ‚¢˜‚ª—ˆ‚é‚ñ‚Å‚µ‚åv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -1335,52 +1209,44 @@ line_set u‚ ‚ v
 nvl_on
 
 line_set ‚¢‚¿‚¢‚¿˜b‚µ‚©‚¯‚Ä‚­‚é•–—æ‚Í‘oŒµ‚É‚Æ‚Á‚Ä‚¤‚´‚Á‚½‚¢‘¶İ‚Å‚ ‚Á‚½B
-line_set ‘oŒµ‚Í•–—æ‚Ì¿–â‚É‚¼‚ñ‚´‚¢‚É“š‚¦‚éB
 
+line_set ‘oŒµ‚Í•–—æ‚Ì¿–â‚É‚¼‚ñ‚´‚¢‚É“š‚¦‚éB
 adv_on
 
 name_set •–—æ
 
 sfx_set 2 Vox\6345.wav
 sfx_play 2
-
 line_set u‚©‚Á‚±‚¢‚¢l‚¢‚é‚©‚È‚Ÿv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set uEEEv
-line_set u‚È‚ñ‚¾‚»‚êHv
 
+line_set u‚È‚ñ‚¾‚»‚êHv
 nvl_on
 
 line_set ‚È‚é‚×‚­ŠÖ‚í‚ç‚È‚¢‚æ‚¤‚É‚µ‚æ‚¤‚Æ‚µ‚Ä‚¢‚½‘oŒµ‚Å‚ ‚Á‚½‚ªA
-line_set ‚³‚·‚ª‚É‚±‚ÌˆêŒ¾‚É‚Í”½‰‚¹‚¸‚É‚Í‚¢‚ç‚ê‚È‚©‚Á‚½B
 
+line_set ‚³‚·‚ª‚É‚±‚ÌˆêŒ¾‚É‚Í”½‰‚¹‚¸‚É‚Í‚¢‚ç‚ê‚È‚©‚Á‚½B
 adv_on
 
 name_set •–—æ
 
 sfx_set 2 Vox\6344.wav
 sfx_play 2
-
 line_set u‚»‚Ì‚Ü‚Ü‚ÌˆÓ–¡‚¾‚æv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6343.wav
 sfx_play 2
-
 line_set u¡‚Ìd–ê‚É‚Í‚ë‚­‚È’j‚ª‚¢‚È‚¢‚©‚çv
-
 sfx_stop 2
 sfx_set 2 Vox\6342.wav
 sfx_play 2
-
 line_set u‚©‚Á‚±‚¢‚¢l‚¢‚È‚¢‚©‚È‚Æv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚¨A‚¨‚Ü‚¦‚È‚ŸEEEv
@@ -1389,31 +1255,25 @@ name_set •–—æ
 
 sfx_set 2 Vox\6341.wav
 sfx_play 2
-
 line_set u‚È‚É‚æv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set uw‚È‚É‚æx‚¶‚á‚È‚­‚ÄEEEv
-line_set uˆê‰–½‚ª‚¯‚Ìd–‚È‚ñ‚¾‚©‚ç‚³‚Ÿv
 
+line_set uˆê‰–½‚ª‚¯‚Ìd–‚È‚ñ‚¾‚©‚ç‚³‚Ÿv
 name_set •–—æ
 
 sfx_set 2 Vox\6340.wav
 sfx_play 2
-
 line_set u‚¾‚©‚çHv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6339.wav
 sfx_play 2
-
 line_set u‚È‚ÉH‚à‚Á‚Æ‚Ü‚¶‚ß‚É‚â‚ê‚Æ‚Å‚à‚¢‚¢‚½‚¢‚ÌHv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚ ‚ A‚»‚¤‚¾‚ÈEEEv
@@ -1422,109 +1282,92 @@ name_set •–—æ
 
 sfx_set 2 Vox\6338.wav
 sfx_play 2
-
 line_set u‚ ‚ñ‚½‚ÉŒ¾‚í‚ê‚½‚©‚È‚¢‚í‚æv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6337.wav
 sfx_play 2
-
 line_set u‚ ‚ñ‚½‚Ì•û‚ª‚Ç‚¤Œ©‚Ä‚à•s^–Ê–Ú‚¶‚á‚È‚¢v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚»‚¤‚¾‚æv
-line_set u‚»‚Ì’Ê‚è‚¾v
 
+line_set u‚»‚Ì’Ê‚è‚¾v
 name_set •–—æ
 
 sfx_set 2 Vox\6336.wav
 sfx_play 2
-
 line_set u‚Á‚ÄEEEv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6335.wav
 sfx_play 2
-
 line_set u‚ ‚ñ‚½EEEv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚¾‚©‚çA‰´‚Í•s^–Ê–Ú‚¾‚©‚çv
+
 line_set u‚¹‚ß‚Ä‚¨‘O‚ª‚Ü‚¶‚ß‚É“­‚­‚×‚«‚¾‚ëv
 line_set u‚¶‚á‚È‚¢‚ÆA‚±‚Ì“‡‚ÌŠë‹@‚Í‹~‚¦‚È‚¢‚ºv
-
 kgd_layer3_set 3 Kgd\Fu_007.kgd
+
 kgd_layer3_param 3 128 0 0 0 544 600
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 line_set uEEEv
 
 sfx_set 2 Vox\6334.wav
 sfx_play 2
-
 line_set u‚Ù‚ñ‚ÆA‚ ‚ñ‚½‚Á‚ÄƒTƒCƒe[‚Ëv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uƒTƒCƒe[‚©EEEv
+
 line_set u‚©‚à‚ÈEEEv
 line_set u‚¨‘O‚Ù‚Çƒrƒ“ƒ{[‚¶‚á‚È‚¢‚¯‚Ç‚Èv
-
 kgd_layer3_set 3 Kgd\Fu_005.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 sfx_set 2 Vox\6333.wav
 sfx_play 2
-
 line_set u‚ÈA‚È‚É‚æv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6332.wav
 sfx_play 2
-
 line_set u„‚Íƒrƒ“ƒ{[‚¶‚á‚È‚¢‚í‚æv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚ ‚Á‚»‚¤v
 
 kgd_layer3_set 3 Kgd\Fu_008.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 sfx_set 2 Vox\6331.wav
 sfx_play 2
-
 line_set uw‚ ‚Á‚»‚¤x‚Á‚ÄA‚ ‚ñ‚½‚»‚Ìl‚ğ¬”n­‚É‚µ‚½‚æ‚¤‚È”½‰‚Í‚È‚É‚æIv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‚Ü‚ A‚¢‚¢‚¶‚á‚È‚¢‚©v
-line_set u`‚ÉF’j’B‚ª—ˆ‚Ä‚é‚æHv
 
+line_set u`‚ÉF’j’B‚ª—ˆ‚Ä‚é‚æHv
 nvl_on
 
 line_set u‚½‚Ô‚ñEEEv
@@ -1532,25 +1375,21 @@ line_set u‚½‚Ô‚ñEEEv
 adv_on
 
 kgd_layer3_set 3 Kgd\Fu_002.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 sfx_set 2 Vox\6330.wav
 sfx_play 2
-
 line_set uƒzAƒzAƒzƒ“ƒgHv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6329.wav
 sfx_play 2
-
 line_set u‚©‚Á‚±‚¢‚¢l—ˆ‚Ä‚é‚ÌHv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -1562,81 +1401,61 @@ line_set ‚³‚·‚ª‚Ì‘oŒµ‚àA‚ ‚Ü‚è‚É‚¤‚ê‚µ‚»‚¤‚È•–—æ‚Ì•\î‚Éˆ ‘R‚Æ‚·‚éB
 adv_on
 
 kgd_layer3_set 3 Kgd\Fu_008.kgd
+
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 sfx_set 2 Vox\6328.wav
 sfx_play 2
-
 line_set u‚ÈA‚È‚É‚æA‚»‚ÌŠçIv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6327.wav
 sfx_play 2
-
 line_set u‚¢‚¢‚Å‚µ‚åv
-
 sfx_stop 2
 sfx_set 2 Vox\6326.wav
 sfx_play 2
-
 line_set u„‚¾‚Á‚Ä‰³—‚È‚Ì‚æv
-
 sfx_stop 2
 sfx_set 2 Vox\6325.wav
 sfx_play 2
-
 line_set u‚¢‚¢’j‚Æ‚Ë‚ñ‚²‚ë‚É‚à‚È‚è‚½‚¢‚í‚æv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚Ë‚ñ‚²‚ëEEEv
-line_set u‚¨‘O‚Á‚ÄEEEv
 
+line_set u‚¨‘O‚Á‚ÄEEEv
 name_set •–—æ
 
 sfx_set 2 Vox\6324.wav
 sfx_play 2
-
 line_set u‚ [A‚»‚¤‚»‚¤‚³‚Á‚«‚©‚çƒ€ƒJ‚Â‚¢‚Ä‚½‚ñ‚¾‚¯‚Çv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6323.wav
 sfx_play 2
-
 line_set u„‚Ì–A‚¨‘O‚Æ‚©Œ¾‚¤‚Ì‚â‚ß‚Ä‚­‚ê‚È‚¢v
-
 sfx_stop 2
 sfx_set 2 Vox\6322.wav
 sfx_play 2
-
 line_set u„‚É‚Í•–—æ‚¿‚á‚ñ‚Æ‚¢‚¤–¼‘O‚ª‚ ‚é‚ñ‚¾‚©‚çv
-
 sfx_stop 2
 sfx_set 2 Vox\6321.wav
 sfx_play 2
-
 line_set u‚ ‚È‚½‚ÉA‚¨‘O‚Æ‚©ŒÄ‚Î‚ê‚Ä‚é‚Æv
-
 sfx_stop 2
 sfx_set 2 Vox\6320.wav
 sfx_play 2
-
 line_set u‚Ü‚é‚ÅA„‚Æ‚ ‚È‚½‚Æ‚ª“Á•Ê‚ÈŠÖŒW‚İ‚½‚¢‚¶‚á‚È‚¢‚Ì‚æv
-
 sfx_stop 2
 sfx_set 2 Vox\6319.wav
 sfx_play 2
-
 line_set uŠ¨ˆá‚¢‚³‚ê‚é‚Æ¢‚é‚ív
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -1648,33 +1467,27 @@ line_set ‘oŒµ‚Í‚ ‚Ü‚è‚Ì‚Î‚©‚Î‚©‚µ‚³‚É‚»‚Ìê‚ğ—§‚¿‹‚ë‚¤‚Æ‚·‚éB
 adv_on
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 name_set •–—æ
 
 sfx_set 2 Vox\6318.wav
 sfx_play 2
-
 line_set u‚¿‚å‚Á‚ÆIIv
-
 sfx_stop 2
 
 kgd_layer3_set 0 Kgd\Fu_008.kgd
-kgd_layer3_display 0
 
+kgd_layer3_display 0
 sfx_set 2 Vox\6317.wav
 sfx_play 2
-
 line_set u‚Ü‚¿‚È‚³‚¢‚æIv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6316.wav
 sfx_play 2
-
 line_set u‚ ‚ñ‚½I‚¢‚Â‚à˜b‚Ì“r’†‚Å“¦‚°‚é‚¶‚á‚È‚¢Iv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -1683,97 +1496,75 @@ name_set •–—æ
 
 sfx_set 2 Vox\6315.wav
 sfx_play 2
-
 line_set u‚¢‚¢‚±‚ÆIv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6314.wav
 sfx_play 2
-
 line_set u‚à‚¤ˆê“xŒ¾‚¤‚©‚ç‚¿‚á‚ñ‚Æ•·‚«‚È‚³‚¢‚æIv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚ [v
+
 line_set u•ª‚©‚Á‚½•ª‚©‚Á‚½v
 line_set u‚¨‘O‚Ì–‚¨‘O‚Á‚Ä‚æ‚Î‚Ë‚¥‚æv
-
 name_set •–—æ
 
 sfx_set 2 Vox\6313.wav
 sfx_play 2
-
 line_set u‚Á‚Ä‚¢‚Á‚Ä‚é‚»‚Î‚©‚çŒ¾‚Á‚Ä‚é‚¶‚á‚È‚¢Iv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‚¤‚é‚¹‚¢‚È[v
+
 line_set u’N‚àv‚¢‚Í‚µ‚Ë[‚æv
 line_set u‚¨‘O‚ªv‚¤‚Ù‚Ç‘¼l‚Í‚¨‘O‚Ì–‚È‚ñ‚¼Œ©‚Ä‚Ë[v
-
 name_set •–—æ
 
 sfx_set 2 Vox\6312.wav
 sfx_play 2
-
 line_set u‚ A‚ ‚ñ‚½‚Ë[v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6311.wav
 sfx_play 2
-
 line_set u–{“–‚É¸—ç‚È’j‚Ëv
-
 sfx_stop 2
 sfx_set 2 Vox\6310.wav
 sfx_play 2
-
 line_set u‚ÜA‚Ü‚ A‚¢‚¢‚ív
-
 sfx_stop 2
 sfx_set 2 Vox\6309.wav
 sfx_play 2
-
 line_set u‚©‚Á‚±‚¢‚¢‚¨˜‚³‚ñ‚ª‚«‚½‚çA‚à‚¤‚ ‚È‚½‚Æ˜b‚µ‚Ä‚ ‚°‚È‚¢‚©‚çv
-
 sfx_stop 2
 sfx_set 2 Vox\6308.wav
 sfx_play 2
-
 line_set u‚»‚Ì‚Æ‚«‚É‚È‚Á‚ÄŒã‰÷‚·‚ê‚Î‚¢‚¢‚ív
-
 sfx_stop 2
 sfx_set 2 Vox\6307.wav
 sfx_play 2
-
 line_set u‚ ‚ A•–—æ‚¿‚á‚ñ‚É‚â‚³‚µ‚­‚µ‚Ä‚¢‚ê‚Î‚æ‚©‚Á‚½‚Á‚Äv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
-line_set u‚Õ‚Áv
 
+line_set u‚Õ‚Áv
 name_set •–—æ
 
 sfx_set 2 Vox\6306.wav
 sfx_play 2
-
 line_set u‚¢A¡Î‚Á‚½‚È‚Ÿv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6305.wav
 sfx_play 2
-
 line_set u‚·A‚·‚²‚­”n­‚É‚µ‚ÄÎ‚Á‚½‚ÈIv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚¾‚Á‚ÄEEE‚È‚Ÿv
@@ -1783,8 +1574,8 @@ name_set •–—æ
 line_set uEEEv
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 nvl_on
 
 line_set •–—æ‚Í“{‚è‚È‚ª‚çÁ‚¦‚½B
@@ -1792,57 +1583,58 @@ line_set •–—æ‚Í“{‚è‚È‚ª‚çÁ‚¦‚½B
 nvl_line_clear
 
 line_set uEEEv
+
 line_set u‚µ‚©‚µv
 line_set u‚È‚ñ‚Å‚ ‚ñ‚Èƒ„ƒc‚ª‚±‚ñ‚Èd–‚µ‚Ä‚é‚ñ‚¾‚ë‚¤v
-
 adv_on
+
 #49_5
+
 !268
 
 jump_choice 23 Ÿ‰®•~‘O‚Ö‚Ì“¹‚ÖˆÚ“®
+
 jump_choice 24 ŸŠCŠİ‚ÖˆÚ“®
 jump_choice 25 Ÿ`‚ÖˆÚ“®
 @22
+
 @24
+
 @42
 
 kgd_layer2_set 1 Kgd\B_049.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
+jump_branch1 20167 50
 
-jump_branch1 23523 50
-jump_branch1 18415 49
-jump_branch1 23523 268
-jump_branch2 23523 48
-
+jump_branch1 15059 49
+jump_branch1 20167 268
+jump_branch2 20167 48
 section_jump_branch1 268
 
 name_set º
 
 sfx_set 2 Vox\6228.wav
 sfx_play 2
-
 line_set u‘oŒµ‚¿‚á`‚ñv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set uEEEv
-line_set u‚±‚Ìº‚ÍEEEv
 
+line_set u‚±‚Ìº‚ÍEEEv
 kgd_layer3_set 0 Kgd\Ma_002.kgd
+
 kgd_layer3_param 0 252 0 0 0 296 600
 kgd_layer3_display 0
-
 name_set •‘
 
 sfx_set 2 Vox\6227.wav
 sfx_play 2
-
 line_set u‚Ü‚½‰ï‚Á‚½‚Ë‚¥v
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -1853,9 +1645,7 @@ name_set •‘
 
 sfx_set 2 Vox\6226.wav
 sfx_play 2
-
 line_set u‚È‚É‚µ‚Ä‚é‚ÌHv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -1866,17 +1656,13 @@ name_set •‘
 
 sfx_set 2 Vox\6225.wav
 sfx_play 2
-
 line_set ud–Hv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6224.wav
 sfx_play 2
-
 line_set ud–‚Á‚Ä‚¨U•à‚Ì–Hv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -1885,9 +1671,7 @@ name_set •‘
 
 sfx_set 2 Vox\6223.wav
 sfx_play 2
-
 line_set u‚¨U•à‚Á‚Ä‚¨d–‚¾‚Á‚½‚ñ‚¾`v
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -1898,17 +1682,13 @@ name_set •‘
 
 sfx_set 2 Vox\6222.wav
 sfx_play 2
-
 line_set u‚È‚ç•‘‚à‚¨d–‚µ‚Ä‚é‚ñ‚¾‚Ëv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6221.wav
 sfx_play 2
-
 line_set u•‘‚ËA‚¨U•à‚Ì“r’†‚È‚ñ‚¾‚æv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -1917,27 +1697,26 @@ name_set •‘
 
 sfx_set 2 Vox\6220.wav
 sfx_play 2
-
 line_set u‚³‚ŸAd–‘±‚¯‚é‚¼‚§IIv
-
 sfx_stop 2
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 nvl_on
 
 line_set •‘‚ÍU•à‚Å‚à‚µ‚Ä‚¢‚½‚Ì‚Å‚ ‚ë‚¤B
-line_set ‚»‚Ì‚Ü‚Üd–‚ÆÌ‚µ‚½U•à‚Éo‚©‚¯‚Ä‚¢‚Á‚½B
 
+line_set ‚»‚Ì‚Ü‚Üd–‚ÆÌ‚µ‚½U•à‚Éo‚©‚¯‚Ä‚¢‚Á‚½B
 adv_on
 
 name_set ‘oŒµ
 
 line_set uEEEv
-line_set u‚ ‚éˆÓ–¡³‚µ‚¢‚©‚ç‰½‚àŒ¾‚¦‚ñ‚ÈEEEv
 
+line_set u‚ ‚éˆÓ–¡³‚µ‚¢‚©‚ç‰½‚àŒ¾‚¦‚ñ‚ÈEEEv
 jump_auto 26
+
 #49_7
 
 section_jump_branch1 50
@@ -1945,58 +1724,58 @@ section_jump_branch1 50
 nvl_on
 
 line_set uEEEv
-line_set u‚È‚ñ‚¾A‚ ‚êv
 
+line_set u‚È‚ñ‚¾A‚ ‚êv
 nvl_line_clear
 
 line_set ŠCŠİ‚É’j‚ª‚¢‚éB
+
 line_set ‚¢‚Ü‚Ü‚Å“‡‚ÅŒ©‚½Šç‚Å‚Í‚È‚¢B
 line_set ’j‚Ì•—–e‚Í“‡‚Ì‘ºl‚æ‚è‰˜‚ç‚µ‚­—¬‚êl‚Å‚ ‚é‚æ‚¤‚Év‚¦‚½B
-
 nvl_line_clear
 
 line_set u‚µ‚©‚µEEEv
+
 line_set u‚±‚ñ‚È“‡‚É—¬‚êÒ‚Æ‚ÍEEEv
 line_set u‚±‚¢‚Â‚àˆ¢”g˜H‚ÉŒÙ‚í‚ê‚½•Œ|Ò‚©v
-
 nvl_line_clear
 
 line_set ‚±‚Ì‘ãA—¬‚êÒ‚Æ‚¢‚¦‚Î‚»‚Ì‘å”¼‚ªŒ|Ò‚Å‚ ‚Á‚½B
-line_set ‚»‚Ì’†‚É‚Í‚à‚¿‚ë‚ñ•‚ğŒ|‚Æ‚·‚é•Œ|Ò‚àŠÜ‚Ü‚ê‚éB•Œ|Ò‚Æ‚¢‚¦‚Ç‚àŒ|‚ª•t‚­‚Ì‚¾‚©‚çŒ|Ò‚È‚Ì‚Å‚ ‚éB
 
+line_set ‚»‚Ì’†‚É‚Í‚à‚¿‚ë‚ñ•‚ğŒ|‚Æ‚·‚é•Œ|Ò‚àŠÜ‚Ü‚ê‚éB•Œ|Ò‚Æ‚¢‚¦‚Ç‚àŒ|‚ª•t‚­‚Ì‚¾‚©‚çŒ|Ò‚È‚Ì‚Å‚ ‚éB
 nvl_line_clear
 
 line_set uŠÛ˜‚¾‚ÈEEEv
-line_set u‚±‚¢‚ÂEEEv
 
+line_set u‚±‚¢‚ÂEEEv
 nvl_line_clear
 
 line_set •‚Ì’†‚É•Ší‚ğ‰B‚µ‚Á‚Ä‚¢‚é‚Æ‚àl‚¦‚ç‚ê‚é‚ªA‚¾‚Æ‚µ‚Ä‚àA‚»‚ê‚Ù‚Ç‘å‚«‚ÈŠl•¨‚ğ‰B‚µ‚Ä‚¢‚é•—‚É‚ÍŒ©
+
 line_set ‚¦‚È‚¢B
 line_set ‚Ç‚ñ‚È‚É‚¤‚Ü‚­‰B‚µ‚Ä‚¢‚æ‚¤‚ªA‘oŒµ‚Ì‚æ‚¤‚Èˆê—¬‚Ì•Œ|Ò‚É‚ÍAˆê”­‚Å‚í‚©‚Á‚Ä‚µ‚Ü‚¤B
 line_set •Ší‚ğ‰B‚µ‚Ä‚¢‚é‚Æ‚Ç‚¤‚µ‚Ä‚àg‘Ì‚Ì‚Ç‚±‚©‚É‚¢‚ç‚Ê—Í‚ª“ü‚Á‚Ä‚µ‚Ü‚¤‚à‚Ì‚È‚Ì‚¾B
-
 nvl_line_clear
 
 line_set u¬‚³‚È•Ší‚È‚ç‰B‚µ‚Ä‚¢‚é‚©‚à‚µ‚ê‚È‚¢‚ªEEEv
+
 line_set u‚µ‚©‚µA‚»‚ñ‚È‚à‚Ì‚Å•‚É¶‚«‚é–‚Í¢“ï‚¾v
 line_set u‚¾‚Æ‚µ‚½‚çv
 line_set u‚½‚¾‚Ì•‚˜QÒ‚©EEEv
-
 nvl_line_clear
 
 line_set ‚½‚µ‚©‚ÉAjˆê–{‚Ål‚ÍE‚¹‚éB
+
 line_set ”“H‚Ì…‚Ål‚ğE‚·–‚à‚Å‚«‚éB
 line_set ‚ªA‚»‚ê‚Ío—ˆ‚é‚Æ‚¢‚¤’ö“x‚Ì‚à‚Ì‚Å‚µ‚©‚È‚¢B
 line_set E‚µ‚ğê–å‚Æ‚µ‚ÄE‚µ‚Ì‹Zp‚¾‚¯‚ğ¶‚«‚é—Æ‚Æ‚·‚éÒ‚É‚Æ‚Á‚Ä‚Í‚»‚ñ‚È‚à‚Ì‚ÍˆêŒÂ‚Ìè’i‚Å‚µ‚©‚È‚¢B
 line_set ‚»‚ê‚Ì‚İ‚ğE‚µ‚Ìè’i‚Æ‚·‚é‚æ‚¤‚ÈÒ‚È‚Ç—¬‚µ‚Ì•Œ|Ò‚É‚ÍŠF–³‚Å‚ ‚Á‚½B
-
 nvl_line_clear
 
 line_set ‘oŒµ‚Í‚±‚Ì’j‚É’ˆÓ[‚­‹ß‚Ã‚­B
+
 line_set ’j‚©‚çE‹C‚Ì‚æ‚¤‚È‚à‚Ì‚ÍŠ´‚¶‚ç‚ê‚È‚¢‚µA
 line_set ‚È‚É‚æ‚è‚à‚±‚Ì’j‚Ì”w’†‚ÍŒ„‚¾‚ç‚¯‚Å‚ ‚Á‚½B
-
 adv_on
 
 name_set ‘oŒµ
@@ -2004,44 +1783,45 @@ name_set ‘oŒµ
 line_set u‚±‚Ì’j‚ÍEEEv
 
 jump_choice 27 Ÿ‚½‚¾Ò‚Å‚È‚¢‹C‚ª‚·‚é
+
 jump_choice 28 Ÿ‚½‚¾‚Ì•‚˜QÒ‚¾
 @27
 
 line_set u‚¨‚¢v
-line_set u‚¨‘Ov
 
+line_set u‚¨‘Ov
 name_set •‚˜QÒ
 
 line_set u‚¦A‚ v
-line_set u„‚Å‚·‚©Hv
 
+line_set u„‚Å‚·‚©Hv
 kgd_layer3_set 0 Kgd\Jy_012.kgd
+
 kgd_layer3_param 0 120 0 0 0 560 600
 kgd_layer3_display 0
-
 nvl_on
 
 line_set ‹ß‚­‚ÅŒ©‚ê‚ÎŒ©‚é‚Ù‚Ç•Œ|Ò‚Æ‚Ív‚¦‚È‚¢•—–e‚Å‚ ‚Á‚½B
+
 line_set •—–e‚¾‚¯‚Å‚Í‚È‚©‚Á‚½A‘oŒµ‚ª‚±‚±‚Åˆê‘¾“—‚Ñ‚¹‚ê‚ÎŠÔˆá‚¢‚È‚­‚±‚Ì’j‚Í^‚Á“ñ‚Â‚É‚È‚éB
 line_set ‚»‚ê‚Ù‚Ç‚É‚±‚Ì’j‚ÍŒ„‚¾‚ç‚¯‚Å–³–h”õ‚Å‚ ‚Á‚½B
 line_set •’Ê‚È‚ç‚±‚Ì’j‚É‚È‚ñ‚Ì‹^˜f‚à‚¢‚¾‚©‚È‚©‚Á‚½B
 line_set •’Ê‚È‚çEEEB
-
 adv_on
 
 name_set ‘oŒµ
 
 line_set u‚¨‘O‚Ív
-line_set u‰½Ò‚¾Hv
 
+line_set u‰½Ò‚¾Hv
 nvl_on
 
 line_set ‘oŒµ‚Í“G‚ğ‘Šè‚É‚µ‚Ä‚¢‚é‚Ì‚Æ‚©‚í‚ç‚¸AE‹C‚É–‚¿‚½‘Ô“x‚Å¿–â‚ğ‚È‚°‚©‚¯‚½B
+
 line_set ‚Å‚È‚¯‚ê‚Î–³‘Ê‚È¿–â‚ÅI‚í‚é‚Ì‚Å‚ ‚éB
 line_set ‚±‚Ì’j‚Ì³‘Ì‚È‚ÇA–{l‚É•·‚¢‚½‚Æ‚µ‚Ä‚ài‚»‚ê‚ª‚Ç‚ñ‚È“š‚¦‚¾‚Æ‚µ‚Ä‚àj‰½‚ÌˆÓ–¡‚à‚È‚¢B
 line_set –{“–‚Å‚ ‚é‚©‚Ç‚¤‚©‚È‚ÇŠm‚©‚ß‚æ‚¤‚ª‚È‚¢‚©‚ç‚¾B
 line_set “Á‚É‚»‚¢‚Â‚ªˆê—¬‚Å‚ ‚éê‡AŠ®‘S‚ÉE‹C‚ğE‚·–‚ª‰Â”\‚¾‚©‚ç‚¾B
-
 nvl_line_clear
 
 line_set u‚È‚ç‚ÎA–{‹C‚Å“š‚¦‚³‚¹‚ê‚Î‚¢‚¢v
@@ -2051,13 +1831,13 @@ adv_on
 name_set •‚˜QÒ
 
 line_set u‚¦A‚ v
-line_set u‚½‚¾‚Ì—¬‚êÒ‚Å‚²‚´‚¢‚Ü‚·‚ªEEEv
 
+line_set u‚½‚¾‚Ì—¬‚êÒ‚Å‚²‚´‚¢‚Ü‚·‚ªEEEv
 name_set ‘oŒµ
 
 line_set u‚»‚¤‚©v
-line_set u‚È‚ç‚Îv
 
+line_set u‚È‚ç‚Îv
 name_set •‚˜QÒ
 
 line_set uHv
@@ -2083,8 +1863,8 @@ line_set u‚Ó‚ñIv
 nvl_on
 
 line_set ‘oŒµ‚Í•‚˜QÒ‚ÉŒ•‚ğU‚è‰º‚ë‚·B
-line_set ‚»‚ê‚Ííl‚Å‚Í‘¨‚¦‚é–‚Ìo—ˆ‚È‚¢‘¬“x‚Å‚ ‚Á‚½B
 
+line_set ‚»‚ê‚Ííl‚Å‚Í‘¨‚¦‚é–‚Ìo—ˆ‚È‚¢‘¬“x‚Å‚ ‚Á‚½B
 adv_on
 
 name_set •‚˜QÒ
@@ -2118,8 +1898,8 @@ adv_on
 name_set •‚˜QÒ
 
 line_set u‚ÓA‚Ó‚Í‚Ÿv
-line_set u‚ÍA‚Í‚ŸA‚¢A¶‚«‚Ä‚¢‚éEEEv
 
+line_set u‚ÍA‚Í‚ŸA‚¢A¶‚«‚Ä‚¢‚éEEEv
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -2133,20 +1913,20 @@ adv_on
 name_set •‚˜QÒ
 
 line_set u‚ÈA‚È‚É‚È‚³‚¢‚Ü‚·‚©v
-line_set u‚¨‚Ç‚ë‚­‚Å‚È‚¢‚Å‚·‚©Iv
 
+line_set u‚¨‚Ç‚ë‚­‚Å‚È‚¢‚Å‚·‚©Iv
 name_set ‘oŒµ
 
 line_set u‰´‚ÍA‚±‚Ì“‡‚É—pS–_‚Æ‚µ‚ÄŒÙ‚í‚ê‚½˜‚¾v
+
 line_set u‚ ‚â‚µ‚¢ƒ„ƒc‚Ía‚é‚æ‚¤‚É‚¢‚í‚ê‚Ä‚¢‚év
 line_set u•”ŠOÒ‚ª“‡‚Ì’†‚ğ‚¤‚ë‚¿‚å‚ë‚µ‚Ä‚¢‚ê‚Îa‚év
 line_set u‚±‚ÌˆÓ–¡‚ª•ª‚©‚é‚©v
-
 name_set •‚˜QÒ
 
 line_set u‚ÖA‚Ö‚¢v
-line_set u‚µ‚©‚µEEEv
 
+line_set u‚µ‚©‚µEEEv
 name_set ‘oŒµ
 
 line_set u‚µ‚©‚µHv
@@ -2154,49 +1934,50 @@ line_set u‚µ‚©‚µHv
 name_set •‚˜QÒ
 
 line_set uM‚ª“ï”j‚µ‚Ä‚µ‚Ü‚Á‚ÄA‚±‚Ì“‡‚É—¬‚ê‚Â‚¢‚½‚Ì‚ÅEEEv
-line_set u‚·‚®‚É‚¢‚È‚­‚È‚ê‚ÆŒ¾‚í‚ê‚Ü‚µ‚Ä‚àEEEv
 
+line_set u‚·‚®‚É‚¢‚È‚­‚È‚ê‚ÆŒ¾‚í‚ê‚Ü‚µ‚Ä‚àEEEv
 name_set ‘oŒµ
 
 line_set u“‡‚ÌÒ‚É‚Å‚àM‚Å–{B‚É‘—‚Á‚Ä‚­‚ê‚é‚æ‚¤‚É—Š‚ßv
-line_set u“‡‚ÌZl‚à‚¨‘O‚Ì‚æ‚¤‚È•”ŠOÒ‚ª‚¢‚é‚­‚ç‚¢‚È‚çA‚»‚Ì‚­‚ç‚¢‚ÌèŠÔ‚ğÉ‚µ‚Ş‚Ü‚¢v
 
+line_set u“‡‚ÌZl‚à‚¨‘O‚Ì‚æ‚¤‚È•”ŠOÒ‚ª‚¢‚é‚­‚ç‚¢‚È‚çA‚»‚Ì‚­‚ç‚¢‚ÌèŠÔ‚ğÉ‚µ‚Ş‚Ü‚¢v
 name_set •‚˜QÒ
 
 line_set u‚¢‚âA‚·‚Å‚É“‡‚ÌÒ‚É‚Í‚½‚Ì‚ñ‚¾‚Ì‚Å‚·‚ªv
+
 line_set u’N‚à•·‚¢‚Ä‚­‚ê‚È‚¢‚Ì‚Å‚·v
 line_set u‚È‚ñ‚Å‚àA“y—p‚ÌŠúŠÔ‚Í“‡‚ÌlŠÔ‚ÍŒˆ‚µ‚ÄŠC‚Éo‚È‚¢‚ç‚µ‚­‚ÄEEEv
-
 nvl_on
 
 line_set uEEEv
-line_set u‚±‚Ì“‡‚ÌZl‚ÍA“y—p‚ÌŠúŠÔ‚ÍŠC‚É‚Å‚È‚¢‚Ì‚©EEEv
 
+line_set u‚±‚Ì“‡‚ÌZl‚ÍA“y—p‚ÌŠúŠÔ‚ÍŠC‚É‚Å‚È‚¢‚Ì‚©EEEv
 adv_on
 
 name_set ‘oŒµ
 
 line_set uEEEv
+
 line_set u•ª‚©‚Á‚½v
 line_set u‚Æ‚è‚ ‚¦‚¸v
 line_set u‚ ‚Ü‚è‚¤‚ë‚¿‚å‚ë‚µ‚È‚¢‚Å‚Ù‚µ‚¢v
 line_set u¡“x‚Í–{“–‚Éa‚é–‚É‚È‚è‚©‚Ë‚È‚¢‚Ì‚Å‚Èv
-
 name_set •‚˜QÒ
 
 line_set u‚ÖA‚Ö‚¢v
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 jump_auto 29
+
 @28
 
 nvl_on
 
 line_set u–â‘è‚È‚¢‚¾‚ë‚¤v
-line_set u‚¢‚­‚ç‚È‚ñ‚Å‚à‚±‚ñ‚È–³–h”õ‚È•Œ|Ò‚à‚¢‚È‚¢‚¾‚ë‚¤v
 
+line_set u‚¢‚­‚ç‚È‚ñ‚Å‚à‚±‚ñ‚È–³–h”õ‚È•Œ|Ò‚à‚¢‚È‚¢‚¾‚ë‚¤v
 nvl_line_clear
 
 line_set •‚˜QÒ‚Í‘oŒµ‚É‹C‚ª‚Â‚­‚Æ‚ ‚¿‚ç‚©‚ç‹ß‚Ã‚¢‚Ä‚«‚½B
@@ -2204,9 +1985,9 @@ line_set •‚˜QÒ‚Í‘oŒµ‚É‹C‚ª‚Â‚­‚Æ‚ ‚¿‚ç‚©‚ç‹ß‚Ã‚¢‚Ä‚«‚½B
 adv_on
 
 kgd_layer3_set 0 Kgd\Jy_012.kgd
+
 kgd_layer3_param 0 120 0 0 0 560 600
 kgd_layer3_display 0
-
 name_set •‚˜QÒ
 
 line_set u‚¨‚âA‚¨˜‚³‚Ü‚¶‚á‚È‚¢‚Å‚·‚©v
@@ -2226,8 +2007,8 @@ line_set u‚È‚ñ‚Ì—p‚¾v
 name_set •‚˜QÒ
 
 line_set u‚¢A‚¢‚âA„‚Í’P‚È‚é—¬‚êÒ‚È‚Ì‚Å‚·‚ªEEEv
-line_set u‚¨˜‚³‚Ü‚à‚±‚±‚Ì•û‚Å‚Í‚È‚¢‚Å‚µ‚åHv
 
+line_set u‚¨˜‚³‚Ü‚à‚±‚±‚Ì•û‚Å‚Í‚È‚¢‚Å‚µ‚åHv
 name_set ‘oŒµ
 
 line_set u‚ ‚ A‚±‚Ì“‡‚É—pS–_‚Æ‚µ‚ÄŒÙ‚í‚ê‚Ä‚¢‚év
@@ -2235,59 +2016,66 @@ line_set u‚ ‚ A‚±‚Ì“‡‚É—pS–_‚Æ‚µ‚ÄŒÙ‚í‚ê‚Ä‚¢‚év
 name_set •‚˜QÒ
 
 line_set u„A—·‚Ì“r’†‚ÅM‚ª“ï”j‚µ‚Ü‚µ‚Ä‚Ëv
+
 line_set u‚±‚Ì“‡‚É•Y’…‚µ‚½‚ñ‚Å‚·v
 line_set u–{B‚Ì•û‚É‹A‚è‚½‚¢‚Ì‚Å‚·‚ªv
 line_set u‚¨˜‚³‚ÜA‚Ç‚¤‚â‚Á‚Ä‹A‚Á‚½‚ç‚æ‚ë‚µ‚¢‚Å‚·‚©‚Ëv
-
 name_set ‘oŒµ
 
 line_set u‚µ‚ç‚ñv
-line_set u“‡‚ÌÒ‚É‚Å‚à—Š‚ßv
 
+line_set u“‡‚ÌÒ‚É‚Å‚à—Š‚ßv
 name_set •‚˜QÒ
 
 line_set u‚¢‚âA‚·‚Å‚É“‡‚ÌÒ‚É‚Í‚½‚Ì‚ñ‚¾‚Ì‚Å‚·‚ªv
+
 line_set u’N‚à•·‚¢‚Ä‚­‚ê‚È‚¢‚Ì‚Å‚·v
 line_set u‚È‚ñ‚Å‚àA“y—p‚ÌŠúŠÔ‚Í“‡‚ÌlŠÔ‚ÍŒˆ‚µ‚ÄŠC‚Éo‚È‚¢‚ç‚µ‚­‚ÄEEEv
-
 nvl_on
 
 line_set uEEEv
-line_set u‚±‚Ì“‡‚ÌZl‚ÍA“y—p‚ÌŠúŠÔ‚ÍŠC‚É‚Å‚È‚¢‚Ì‚©EEEv
 
+line_set u‚±‚Ì“‡‚ÌZl‚ÍA“y—p‚ÌŠúŠÔ‚ÍŠC‚É‚Å‚È‚¢‚Ì‚©EEEv
 adv_on
 
 name_set ‘oŒµ
 
 line_set u„‚ÍA‚±‚Ì“‡‚É—pS–_‚Æ‚µ‚ÄŒÙ‚í‚ê‚Ä‚¢‚év
-line_set u‚ ‚Ü‚èA‚±‚Ì“‡‚Å‚¤‚ë‚¿‚å‚ë‚µ‚È‚¢‚Å‚à‚ç‚¢‚½‚¢v
 
+line_set u‚ ‚Ü‚èA‚±‚Ì“‡‚Å‚¤‚ë‚¿‚å‚ë‚µ‚È‚¢‚Å‚à‚ç‚¢‚½‚¢v
 name_set •‚˜QÒ
 
 line_set u‚ÍA‚Í‚¢v
 
 kgd_layer3_fadeout 0
+
 kgd_layer3_clear 0
 @26
+
 @29
+
 #50_6
+
 #268_8
+
 !48
 
 jump_choice 30 Ÿ‘º‚ÖˆÚ“®
+
 jump_choice 31 Ÿ`‚ÖˆÚ“®
 jump_choice 32 Ÿ•¨Œ©‚â‚®‚ç‚ÖˆÚ“®
 @36
+
 @39
 
 kgd_layer2_set 1 Kgd\B_013.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
+jump_branch1 23104 51
 
-jump_branch1 27370 51
-jump_branch2 27370 50
-
+jump_branch2 23104 50
 section_jump_branch1 51
 
 nvl_on
@@ -2297,16 +2085,14 @@ line_set R“¹‚©‚çˆêl‚Ì—‚ª•à‚¢‚Ä‚­‚éB
 adv_on
 
 kgd_layer3_set 0 Kgd\Ay_002.kgd
+
 kgd_layer3_param 0 192 0 0 0 416 600
 kgd_layer3_display 0
-
 name_set —
 
 sfx_set 2 Vox\6263.wav
 sfx_play 2
-
 line_set u‚Ç‚¤‚à‚Í‚¶‚ß‚Ü‚µ‚Äv
-
 sfx_stop 2
 
 nvl_on
@@ -2326,18 +2112,16 @@ line_set ‘oŒµ‚Í‚»‚ê‚É‘Î‚µ‚ÄŒ¾—t‚Å‚È‚­Œy‚­‰ïß‚ğ‚·‚éB
 nvl_line_clear
 
 line_set uEEEv
+
 line_set u‚±‚Ì—EEEv
 line_set u“‡‚ÌÒ‚Å‚Í‚È‚¢‚ÈEEEv
-
 adv_on
 
 name_set —
 
 sfx_set 2 Vox\6262.wav
 sfx_play 2
-
 line_set u‘oŒµ‚³‚Ü‚Å‚·‚Ëv
-
 sfx_stop 2
 
 nvl_on
@@ -2360,49 +2144,37 @@ name_set —
 
 sfx_set 2 Vox\6261.wav
 sfx_play 2
-
 line_set u‚ ‚çA‚²‚ß‚ñ‚È‚³‚¢v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6260.wav
 sfx_play 2
-
 line_set u©ŒÈĞ‰î‚ª’x‚ê‚½‚í‚Ëv
-
 sfx_stop 2
 sfx_set 2 Vox\6259.wav
 sfx_play 2
-
 line_set u¡“ú‚©‚çˆ¢”g˜H‰Æ‚Ì•û‚Å‚¨¢˜b‚É‚È‚éÊ‚Æ‚¢‚¤‚à‚Ì‚Å‚·v
-
 sfx_stop 2
 sfx_set 2 Vox\6258.wav
 sfx_play 2
-
 line_set u‚æ‚ë‚µ‚­‚Ëv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
-line_set u‚ ‚ñ‚½‚àˆ¢”g˜H‚ÉŒÙ‚í‚ê‚½—pS–_‚©Hv
 
+line_set u‚ ‚ñ‚½‚àˆ¢”g˜H‚ÉŒÙ‚í‚ê‚½—pS–_‚©Hv
 name_set Ê
 
 sfx_set 2 Vox\6257.wav
 sfx_play 2
-
 line_set u‚Í‚¢v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6256.wav
 sfx_play 2
-
 line_set u‘oŒµ‚³‚Ü‚Ì–‚Íˆ¢”g˜H‚Ìu”T“a‚©‚ç•·‚¢‚Ä‚Ü‚·‚æv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uu”T‚©‚çEEEv
@@ -2411,17 +2183,13 @@ name_set Ê
 
 sfx_set 2 Vox\6255.wav
 sfx_play 2
-
 line_set u‘å•Ï—Š‚à‚µ‚¢•û‚Æ•·‚¢‚Ä‚Ü‚µ‚½‚ªv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6254.wav
 sfx_play 2
-
 line_set u‚»‚Ì’Ê‚è‚Å‚·‚Ëv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -2430,9 +2198,7 @@ name_set Ê
 
 sfx_set 2 Vox\6253.wav
 sfx_play 2
-
 line_set u¡“ú‚©‚çd–’‡ŠÔ‚Å‚·‚Ëv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -2442,8 +2208,8 @@ line_set u‚ ‚ EEEv
 nvl_on
 
 line_set uEEEv
-line_set ud–’‡ŠÔ‚©EEEv
 
+line_set ud–’‡ŠÔ‚©EEEv
 nvl_line_clear
 
 line_set ‘oŒµ‚ÍÊ‚ğŠÏ@‚·‚éB
@@ -2455,9 +2221,9 @@ line_set u–Ê”’‚¢•Ší‚¾‚ÈEEEv
 nvl_line_clear
 
 line_set Ê‚Ì•Ší‚ª‘oŒµ‚Ì–Ú‚É‚Æ‚Ü‚éB
+
 line_set ’Z‚ß‚Ì“‚Å‚ ‚é‚æ‚¤‚¾‚ªA•¿‚ÌŒ`ó‚ªŠï–­‚Å‚ ‚Á‚½Bè‚Å‚Â‚©‚Ş‚É‚Í•¿‚ª‚â‚½‚ç‚É‘¾‚¢A‚Æ‚Ä‚à‚¶‚á‚È‚¢‚ª
 line_set è‚Å‚Â‚©‚ß‚é‚à‚Ì‚Å‚È‚¢B
-
 nvl_line_clear
 
 line_set u‚ ‚ñ‚È•Ší‚Ç‚¤‚â‚Á‚Äg‚¤‚Ì‚¾‚ë‚¤EEEv
@@ -2465,42 +2231,42 @@ line_set u‚ ‚ñ‚È•Ší‚Ç‚¤‚â‚Á‚Äg‚¤‚Ì‚¾‚ë‚¤EEEv
 nvl_line_clear
 
 line_set uEEEv
+
 line_set u•–—æ‚àŠï–­‚Èg‚È‚è‚Å‚ ‚Á‚½‚ªv
 line_set u‚±‚Ì—‚Ì•Ší‚à•‰‚¯‚¸‚ÉŠï–­‚ÈŒ`‚¾‚ÈEEEv
-
 nvl_line_clear
 
 line_set ’W‰Š“‡‚ª•Ó‹«ŒÌ‚É‚Å‚ ‚ë‚¤‚©H
-line_set ‚±‚±‚ÉW‚Ü‚é”y‚ÍA–{B‚Å‚ÍŒ©‚ç‚ê‚È‚¢Šï–­‚ÈÒ‚ª‘½‚¢B
 
+line_set ‚±‚±‚ÉW‚Ü‚é”y‚ÍA–{B‚Å‚ÍŒ©‚ç‚ê‚È‚¢Šï–­‚ÈÒ‚ª‘½‚¢B
 adv_on
 
 name_set Ê
 
 sfx_set 2 Vox\6252.wav
 sfx_play 2
-
 line_set u‚­‚·EEEv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6251.wav
 sfx_play 2
-
 line_set u„‚ª˜‚É‚©‚¯‚Ä‚¢‚é‚à‚Ì‚ª‚ß‚¸‚ç‚µ‚¢‚Å‚·‚©Hv
-
 sfx_stop 2
-
 nvl_on
 
 line_set Ê‚Í‘oŒµ‚Ì‹^–â‚ğ@’m‚µ‚½‚æ‚¤‚É©•ª‚Ì•Ší‚É˜b‘è‚ğU‚Á‚½B
 
 adv_on
 
+kgd_layer1_set 1 Kgd\Dc_Aya01.kgd
+
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer3_clear 0
 sfx_set 2 Vox\6250.wav
 sfx_play 2
-
 line_set u–Ê”’‚¢•Ší‚Å‚µ‚åv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -2511,17 +2277,13 @@ name_set Ê
 
 sfx_set 2 Vox\6249.wav
 sfx_play 2
-
 line_set u‚Ó‚Ó‚Óv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6248.wav
 sfx_play 2
-
 line_set u‚»‚¤‚ËEEEv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚ ‚ñ‚½A–{B‚ÌlŠÔ‚©Hv
@@ -2530,43 +2292,33 @@ name_set Ê
 
 sfx_set 2 Vox\6247.wav
 sfx_play 2
-
 line_set u‚­‚·EEEv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6246.wav
 sfx_play 2
-
 line_set u‚»‚ñ‚È–‹C‚É‚È‚é‚Ì‚Å‚·‚©Hv
-
 sfx_stop 2
 sfx_set 2 Vox\6245.wav
 sfx_play 2
-
 line_set u•Ê‚É‚¢‚¢‚¶‚á‚È‚¢‚Å‚·‚©v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚¢‚âv
-line_set u‚½‚¾•·‚¢‚½‚¾‚¯‚¾AŒ¾‚¢‚½‚­‚È‚¢‚È‚çŒ¾‚í‚È‚­‚Ä‚à‚¢‚¢v
 
+line_set u‚½‚¾•·‚¢‚½‚¾‚¯‚¾AŒ¾‚¢‚½‚­‚È‚¢‚È‚çŒ¾‚í‚È‚­‚Ä‚à‚¢‚¢v
 name_set Ê
 
 sfx_set 2 Vox\6244.wav
 sfx_play 2
-
 line_set u‚­‚·v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6243.wav
 sfx_play 2
-
 line_set u‚Ô‚Á‚«‚ç‚Ú‚¤‚ÈŒ¾‚¢•û‚Å‚·‚Ëv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -2575,87 +2327,65 @@ name_set Ê
 
 sfx_set 2 Vox\6242.wav
 sfx_play 2
-
 line_set u‚Å‚à‚»‚ñ‚È‘oŒµ‚³‚Ü‚ÍŒ™‚¢‚¶‚á‚È‚¢‚ív
-
 sfx_stop 2
+
 sfx_set 2 Vox\6241.wav
 sfx_play 2
-
 line_set u’‡—Ç‚­‚â‚Á‚Ä‚¢‚¯‚»‚¤EEEv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
-line_set u‚ ‚ñ‚½‚±‚»AŠÜ‚İ‚Ì‚ ‚éŒ¾‚¢•û‚ğ‚·‚é‚Èv
 
+line_set u‚ ‚ñ‚½‚±‚»AŠÜ‚İ‚Ì‚ ‚éŒ¾‚¢•û‚ğ‚·‚é‚Èv
 name_set Ê
 
 sfx_set 2 Vox\6240.wav
 sfx_play 2
-
 line_set u‚Ó‚Ó‚Ó‚ÓEEEv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6239.wav
 sfx_play 2
-
 line_set u‚»‚¤‚ËEEEv
-
 sfx_stop 2
 sfx_set 2 Vox\6238.wav
 sfx_play 2
-
 line_set u‚»‚¤‚©‚à‚Ëv
-
 sfx_stop 2
 sfx_set 2 Vox\6237.wav
 sfx_play 2
-
 line_set u‚Ü‚ ‚¢‚¢‚¶‚á‚È‚¢‚Å‚·‚©v
-
 sfx_stop 2
 sfx_set 2 Vox\6236.wav
 sfx_play 2
-
 line_set u’‡—Ç‚­‚â‚è‚Ü‚µ‚å‚¤‚æv
-
 sfx_stop 2
 sfx_set 2 Vox\6235.wav
 sfx_play 2
-
 line_set uí‚¢‚É‚È‚ê‚ÎA‚±‚Ì•Ší‚ÌˆÓ–¡‚à•ª‚©‚é‚µv
-
 sfx_stop 2
 sfx_set 2 Vox\6234.wav
 sfx_play 2
-
 line_set u‚à‚µ‚©‚µ‚½‚çA„‚ª‚Ç‚±‚Ìog‚©‚à‚í‚©‚é‚©‚àv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
-line_set u•Ší‚Å‚»‚ñ‚È–•ª‚©‚é‚à‚Ì‚Å‚Í‚ ‚é‚Ü‚¢v
 
+line_set u•Ší‚Å‚»‚ñ‚È–•ª‚©‚é‚à‚Ì‚Å‚Í‚ ‚é‚Ü‚¢v
 name_set Ê
 
 sfx_set 2 Vox\6233.wav
 sfx_play 2
-
 line_set u‚¾‚©‚çv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6232.wav
 sfx_play 2
-
 line_set uw‚©‚à‚Ëx‚Á‚ÄŒ¾‚Á‚½‚Ìv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -2664,9 +2394,7 @@ name_set Ê
 
 sfx_set 2 Vox\6231.wav
 sfx_play 2
-
 line_set u‚¶‚áA„‚à‚»‚ë‚»‚ëd–‚ğ‚µ‚È‚¯‚ê‚Î‚¢‚¯‚È‚¢‚Ì‚ÅEEEv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -2677,9 +2405,7 @@ name_set Ê
 
 sfx_set 2 Vox\6230.wav
 sfx_play 2
-
 line_set u’n‚Ì—˜‚ğ’m‚é‚Ì‚Í•º–@‚ÌŠî–{’†‚ÌŠî–{‚Å‚·‚©‚ç‚Ëv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -2690,83 +2416,96 @@ name_set Ê
 
 sfx_set 2 Vox\6229.wav
 sfx_play 2
-
 line_set u‚Å‚Í¸—ç‚µ‚Ü‚·‚Ëv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‚ ‚ EEEv
 
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
+kgd_layer1_fadein
+
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
 #51_9
+
 !50
 
 jump_choice 33 Ÿ‘åŠâ‚ÖˆÚ“®
+
 jump_choice 34 Ÿ‰®•~‘O‚ÖˆÚ“®
 @33
 
 kgd_layer2_set 1 Kgd\B_001.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 section_jump_branch2 19
 
-jump_branch1 28199 50
+jump_branch1 24319 50
+
 @38
+
 jump_choice 35 Ÿ“o‚é
+
 jump_choice 36 ŸR“¹‚ÖˆÚ“®
 @35
 
 kgd_layer1_set 1 Kgd\Be_008.kgd
+
 kgd_layer1_fx 6
 kgd_layer1_fadein
 kgd_layer2_clear
-
 jump_choice 37 Ÿ~‚è‚é
+
 @37
 
 kgd_layer1_fadein
+
 kgd_layer2_display
 kgd_layer1_fx 7
 kgd_layer1_clear 1
-
 jump_auto 38
+
 @12
+
 @13
+
 @17
+
 @34
+
 @43
 
 kgd_layer2_set 1 Kgd\B_033.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 section_jump_branch1 19
 
 jump_choice 39 ŸR“¹‚ÖˆÚ“®
+
 jump_choice 40 Ÿ‰®•~“à‚ÖˆÚ“®
 jump_choice 41 Ÿ‘º‚Ö‚Ì“¹‚ÖˆÚ“®
 @32
 
 kgd_layer2_set 1 Kgd\B_065.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
+jump_branch1 24181 267
 
-jump_branch1 28061 267
-jump_branch2 28061 47
-
+jump_branch2 24181 47
 section_jump_branch1 267
 
 kgd_layer3_set 0 Kgd\Ma_002.kgd
+
 kgd_layer3_param 0 252 0 0 0 296 600
 kgd_layer3_display 0
-
 nvl_on
 
 line_set ‚»‚±‚É‚Íğ“ú‚ ‚Á‚½­—‚ª‚½‚Á‚Ä‚¢‚éB
@@ -2781,9 +2520,7 @@ name_set •‘
 
 sfx_set 2 Vox\4536.wav
 sfx_play 2
-
 line_set u‘oŒµ‚¿‚á‚ñ‚±‚ñ‚É‚¿‚í`v
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -2794,73 +2531,69 @@ name_set •‘
 
 sfx_set 2 Vox\5868.wav
 sfx_play 2
-
 line_set u‚ñ‚¶‚á‚Ë‚¥EEEv
-
 sfx_stop 2
 
 kgd_layer3_fadeout 0
-kgd_layer3_clear 0
 
+kgd_layer3_clear 0
 name_set ‘oŒµ
 
 line_set uEEE‘oŒµ‚¿‚á‚ñEEE‚©EEEv
+
 line_set u‚â‚Í‚è“ª‚ªã‚¢‚Ì‚©Hv
 #267_11
+
 !47
 
 jump_choice 42 ŸŠCŠİ‚ÖˆÚ“®
+
 @23
+
 @41
 
 kgd_layer2_set 1 Kgd\B_041.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 jump_choice 43 Ÿ‰®•~‘O‚ÖˆÚ“®
+
 jump_choice 44 Ÿ‘º‚ÖˆÚ“®
 @16
 
 kgd_layer2_set 1 Kgd\B_025.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 jump_choice 45 Ÿ˜L‰º‚ÖˆÚ“®
+
 #50_10
 
 kgd_layer3_set 0 Kgd\Ho_002.kgd
+
 kgd_layer3_param 0 164 0 0 0 472 600
 kgd_layer3_display 0
-
 name_set ˜
 
 sfx_set 2 Vox\6219.wav
 sfx_play 2
-
 line_set u‚ ‚Áv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6218.wav
 sfx_play 2
-
 line_set u‚ ‚È‚½Iv
-
 sfx_stop 2
 sfx_set 2 Vox\6217.wav
 sfx_play 2
-
 line_set u‚ ‚È‚½‚Å‚·‚æIv
-
 sfx_stop 2
 sfx_set 2 Vox\6216.wav
 sfx_play 2
-
 line_set u‚ ‚È‚½‚à‚±‚Ì“‡‚ÉŒÙ‚í‚ê‚½—pS–_‚Å‚·‚©Hv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -2876,9 +2609,9 @@ line_set R“¹‚ÌÊ‚É‘±‚«AR’¸‚Å‚Ü‚½V‚µ‚¢˜‚Éo‰ï‚Á‚½B
 nvl_line_clear
 
 line_set u‚½‚µ‚©EEEv
+
 line_set uŒÜl‚Ù‚Ç¡“ú“‡‚É“n‚Á‚½‚Æ•·‚¢‚Ä‚¢‚½‚ªEEEv
 line_set u‚±‚¢‚Â‚à‚»‚Ìˆêl‚©EEEv
-
 nvl_line_clear
 
 line_set ‚±‚Ì˜‚Í‘oŒµ‚æ‚èŠô‚Â‚©”N‰º‚ÉŒ©‚¦‚½B
@@ -2890,55 +2623,47 @@ line_set u‚Æ‚Ä‚àA‚±‚ñ‚Èd–‚ÅH‚Á‚Ä‚«‚½‚Æ‚Ív‚¦‚È‚¢˜‚¾‚Èv
 adv_on
 
 line_set ul‚Éq‚Ë‚é‚Ì‚Å‚ ‚ê‚Îv
-line_set u©•ª‚Ì–‚ğ‚Ü‚¸˜b‚¹v
 
+line_set u©•ª‚Ì–‚ğ‚Ü‚¸˜b‚¹v
 kgd_layer3_set 3 Kgd\Ho_001.kgd
+
 kgd_layer3_param 3 164 0 0 0 472 600
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set ˜
 
 sfx_set 2 Vox\6215.wav
 sfx_play 2
-
 line_set u‚±‚ê‚Í‚·‚İ‚Ü‚¹‚ñv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6214.wav
 sfx_play 2
-
 line_set u„‚Í–kğåÅ‚Æ‚¢‚¢‚Ü‚·v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‘å‘w‚È–¼‘O‚¾‚ÈEEEv
-line_set u‰´‚ÍA“ñ‚Â‰e‘oŒµ‚Æ–¼æ‚Á‚Ä‚¢‚év
 
+line_set u‰´‚ÍA“ñ‚Â‰e‘oŒµ‚Æ–¼æ‚Á‚Ä‚¢‚év
 name_set –kğ
 
 sfx_set 2 Vox\6213.wav
 sfx_play 2
-
 line_set u‘oŒµ‚³‚Ü‚Æ‚¨‚æ‚Ñ‚·‚ê‚Î‚¢‚¢‚Å‚·‚©‚Ëv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‚ ‚ v
-line_set u‚»‚ê‚Å‚©‚Ü‚í‚È‚¢v
 
+line_set u‚»‚ê‚Å‚©‚Ü‚í‚È‚¢v
 name_set –kğ
 
 sfx_set 2 Vox\6212.wav
 sfx_play 2
-
 line_set u‚Ç‚¤‚Å‚·‚©‚ËA‚±‚Ì“‡v
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -2948,8 +2673,8 @@ line_set uEEEv
 nvl_on
 
 line_set ‚à‚¿‚ë‚ñ–kğ‚Í“‡‚ÌŒiF‚ğŒ¾‚Á‚Ä‚¢‚é‚Ì‚Å‚Í‚È‚¢B
-line_set ‚±‚Ì“‡‚Ì’n‚Ì—˜‚Ì–‚ğ–K‚Ë‚Ä‚¢‚é‚Ì‚¾B
 
+line_set ‚±‚Ì“‡‚Ì’n‚Ì—˜‚Ì–‚ğ–K‚Ë‚Ä‚¢‚é‚Ì‚¾B
 adv_on
 
 line_set uˆ«‚­‚Í‚È‚¢‚¾‚ë‚¤v
@@ -2958,63 +2683,47 @@ name_set –kğ
 
 sfx_set 2 Vox\6211.wav
 sfx_play 2
-
 line_set u‚»‚¤‚Å‚·‚Ëv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6210.wav
 sfx_play 2
-
 line_set u‚±‚±‚ÍŠC—¬‚ª‚«‚Â‚¢‚¤‚¦‚Év
-
 sfx_stop 2
 sfx_set 2 Vox\6209.wav
 sfx_play 2
-
 line_set uã—¤‚Å‚«‚é‚æ‚¤‚ÈêŠ‚ª‚¢‚­‚Â‚à‚È‚¢v
-
 sfx_stop 2
 sfx_set 2 Vox\6208.wav
 sfx_play 2
-
 line_set u‘å”¼‚ªØ‚è—§‚Á‚½ŠR‚Åv
-
 sfx_stop 2
 sfx_set 2 Vox\6207.wav
 sfx_play 2
-
 line_set u‚»‚ÌŠR‚ğ“o‚ë‚¤‚Æ‚µ‚Ä‹ß‚Ã‚¢‚Ä—ˆ‚½M‚Í‚½‚Ô‚ñŠR‚É‘Å‚¿•t‚¯‚ç‚ê‚ÄˆêŠª‚ÌI‚í‚è‚Å‚µ‚å‚¤v
-
 sfx_stop 2
 sfx_set 2 Vox\6206.wav
 sfx_play 2
-
 line_set u‘¯‚ªU‚ß‚Ş‚Æ‚µ‚½‚ç‚â‚Í‚èŠCŠİ‚©`‚©EEEv
-
 sfx_stop 2
-
 nvl_on
 
 line_set u‚Ü‚ AŠî–{“I‚È•º–@‚Å‚Í‚ ‚év
+
 line_set u‚µ‚©‚µAŠî–{ˆÈã‚Ì‚à‚Ì‚Å‚Í‚È‚¢v
 line_set uŠëŒ¯‚ğÈ‚İ‚È‚¯‚ê‚Î‚¢‚­‚ç‚Å‚àŠR‚©‚çU‚ß‚Ä‚­‚éè”¤‚Í‚ ‚év
 line_set u‚Ü‚ŸA“G‚ªŠC‘¯‚È‚ç‚Î‚»‚ñ‚ÈS”z‚È‚Ç‚µ‚È‚­‚Ä‚¢‚¢‚Ì‚¾‚ªv
-
 adv_on
 
 sfx_set 2 Vox\6191.wav
 sfx_play 2
-
 line_set u`‚È‚ç’¹‹‚ÉˆÍ‚Ü‚ê‚Ä‚¢‚é‚½‚ßŠİ‚É‚Ü‚ÅM‚ğ‚ ‚°‚é–‚Í¢“ïv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6190.wav
 sfx_play 2
-
 line_set uŠİ‚É‚ ‚ª‚é‚Ü‚Å‚É‘å”¼‚Ì‘¯‚ğ‹|‚Å“¢‚Ä‚Ü‚·v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -3022,12 +2731,12 @@ line_set uEEEv
 nvl_on
 
 line_set ‘oŒµ‚Í•à‚«o‚·B
+
 line_set ‘oŒµ‚ÍŒ³Xˆêl‚Å‚±‚Ìd–‚ğó‚¯‚½‚Â‚à‚è‚Å‚ ‚Á‚½B
 line_set ‚»‚µ‚ÄA”Ş‚Ìí—ª‚É‚Í”Şˆêl‚Å\•ª‚Å‚ ‚Á‚½B
 line_set ‚È‚º‚È‚ç‚ÎA’‡ŠÔ‚Æ‚ÍŒ¾‚Á‚Ä‚İ‚Ä‚àŠ‘F‚Í‹à‚ÅŒÙ‚í‚ê‚½Ò“¯mAS‚©‚çM‚¶‚é‹C‚É‚Í‚È‚ê‚È‚©‚Á‚½B
 line_set ‚»‚ê‚æ‚è‚à‚È‚É‚æ‚è‚àA
 line_set ‚±‚Ì“é‚ê“é‚ê‚µ‚¢•º–@Ò‚Æ‹c˜_‚ğí‚í‚¹‚é‚È‚Ç‚Æ”n­”n­‚µ‚¢–‚È‚Ç‚µ‚½‚­‚È‚©‚Á‚½‚µA
-
 nvl_line_clear
 
 line_set ‚Ü‚µ‚Ä‚â‚±‚Ì•º–@Ò‚Ì‚ ‚è‚ª‚½‚¢uß‚È‚Ç”q’®‚·‚é‹C‚É‚Í‚Æ‚Ä‚à‚È‚ê‚È‚©‚Á‚½B
@@ -3039,30 +2748,28 @@ line_set u‚»‚ê‚ÉEEEv
 nvl_line_clear
 
 line_set ‘oŒµ‚ÍA‚±‚Ìd–©‘Ì‚É‹^˜f‚ğŠ´‚¶‚Ä‚¢‚½B
-line_set ‚»‚ê‚Íu”T‚Ì‘Ô“x‚¤‚ñ‚Ê‚ñ‚¾‚¯‚Å‚È‚­A’·”N‚Ìí‚¢‚É‚æ‚éŠ¨‚Ì‚æ‚¤‚È‚à‚Ì‚Å‚ ‚Á‚½B
 
+line_set ‚»‚ê‚Íu”T‚Ì‘Ô“x‚¤‚ñ‚Ê‚ñ‚¾‚¯‚Å‚È‚­A’·”N‚Ìí‚¢‚É‚æ‚éŠ¨‚Ì‚æ‚¤‚È‚à‚Ì‚Å‚ ‚Á‚½B
 adv_on
 
 kgd_layer3_fadeout 0
+
 kgd_layer3_clear 0
 kgd_layer2_set 1 Kgd\B_013.kgd
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 name_set –kğ
 
 sfx_set 2 Vox\6205.wav
 sfx_play 2
-
 line_set u‚ÜA‚Ü‚Á‚Ä‚­‚¾‚³‚¢‚æv
-
 sfx_stop 2
 
 kgd_layer3_set 0 Kgd\Ho_001.kgd
+
 kgd_layer3_param 0 164 0 0 0 472 600
 kgd_layer3_display 0
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -3071,39 +2778,31 @@ name_set –kğ
 
 sfx_set 2 Vox\6204.wav
 sfx_play 2
-
 line_set u‚Ç‚¤v‚¢‚Ü‚·‚©H„‚Ìl‚¦•ûv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‚Ç‚¤‚àv‚í‚ñ‚æv
+
 line_set u–kğ“a‚ª‚»‚¤l‚¦‚é‚Ì‚Å‚ ‚ê‚Î‚»‚Ì‚æ‚¤‚É“®‚¯‚Î‚¢‚¢v
 line_set u‰´‚ÍŒN‚Ì‚â‚è•û‚ÉŠÖ—^‚µ‚È‚¢v
 line_set uŸè‚É‚µ‚½‚Ü‚¦v
-
 name_set –kğ
 
 sfx_set 2 Vox\6203.wav
 sfx_play 2
-
 line_set u‚¿A‚¿‚å‚Á‚Æ‚Ü‚Á‚Ä‚­‚¾‚³‚¢‚æv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6202.wav
 sfx_play 2
-
 line_set u‚»‚ê‚Í‚¨‚©‚µ‚¢‚¶‚á‚È‚¢‚Å‚·‚©v
-
 sfx_stop 2
 sfx_set 2 Vox\6201.wav
 sfx_play 2
-
 line_set u‚à‚µA„‚Ìl‚¦‚ª‚ ‚Á‚Ä‚¢‚é‚Ì‚È‚çA‚»‚Ììí‚ğ•·‚­‚×‚«‚Å‚Í‚È‚¢‚Å‚·‚©v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -3112,9 +2811,7 @@ name_set –kğ
 
 sfx_set 2 Vox\6200.wav
 sfx_play 2
-
 line_set u‚»‚µ‚ÄAŠÔˆá‚¢‚ª‚ ‚é‚Ì‚È‚çŒİ‚¢‚É˜b‚µ‡‚¢v
-
 sfx_stop 2
 
 nvl_on
@@ -3126,29 +2823,23 @@ adv_on
 name_set ‘oŒµ
 
 line_set u‚»‚ñ‚È‚É‹c˜_‚ª‚µ‚½‚¢‚Ì‚Å‚ ‚ê‚Î‘¼‚Ìƒ„ƒc‚Æ‚â‚Á‚Ä‚­‚êv
-line_set u‰´‚É‚©‚Ü‚¤‚Èv
 
+line_set u‰´‚É‚©‚Ü‚¤‚Èv
 name_set –kğ
 
 sfx_set 2 Vox\6199.wav
 sfx_play 2
-
 line_set uEEEv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6198.wav
 sfx_play 2
-
 line_set u‚·A‚·‚İ‚Ü‚¹‚ñEEEv
-
 sfx_stop 2
 sfx_set 2 Vox\6197.wav
 sfx_play 2
-
 line_set u‚Â‚¢EEEv
-
 sfx_stop 2
-
 nvl_on
 
 line_set —‚¿‚Ş–kğ‚É–Ú‚à‚­‚ê‚¸‚É‘oŒµ‚Í•à‚«o‚·B
@@ -3156,17 +2847,17 @@ line_set —‚¿‚Ş–kğ‚É–Ú‚à‚­‚ê‚¸‚É‘oŒµ‚Í•à‚«o‚·B
 nvl_line_clear
 
 line_set u•–—æ‚Æ‚¢‚¢–kğ‚Æ‚¢‚¢A‚â‚½‚ç“é‚ê“é‚ê‚µ‚¢ƒ„ƒc‚ª‘½‚¢‚ÈEEEv
-line_set u‚ ‚¢‚Â‚çA‚Ü‚é‚Å—pS–_‚Û‚­‚È‚¢EEEv
 
+line_set u‚ ‚¢‚Â‚çA‚Ü‚é‚Å—pS–_‚Û‚­‚È‚¢EEEv
 adv_on
 
 kgd_layer3_fadeout 0
+
 kgd_layer3_clear 0
 kgd_layer2_set 1 Kgd\B_033.kgd
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -3175,20 +2866,18 @@ name_set –kğ
 
 sfx_set 2 Vox\6196.wav
 sfx_play 2
-
 line_set u‘oŒµ‚³‚Üv
-
 sfx_stop 2
 
 kgd_layer3_set 0 Kgd\Ho_001.kgd
+
 kgd_layer3_param 0 164 0 0 0 472 600
 kgd_layer3_display 0
-
 nvl_on
 
 line_set u‚È‚ñ‚¾‚±‚¢‚ÂEEEv
-line_set u‚ ‚ê‚¾‚¯Œ¾‚í‚ê‚Ä‚Ü‚¾‚Â‚¢‚Ä‚­‚é‚©EEEv
 
+line_set u‚ ‚ê‚¾‚¯Œ¾‚í‚ê‚Ä‚Ü‚¾‚Â‚¢‚Ä‚­‚é‚©EEEv
 adv_on
 
 name_set ‘oŒµ
@@ -3199,17 +2888,13 @@ name_set –kğ
 
 sfx_set 2 Vox\6195.wav
 sfx_play 2
-
 line_set uæ‚Ù‚Ç‚Í‚·‚İ‚Ü‚¹‚ñ‚Å‚µ‚½v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6194.wav
 sfx_play 2
-
 line_set u„‚Î‚©‚è‚µ‚á‚×‚è’Ê‚µ‚Ä‚µ‚Ü‚Á‚Äv
-
 sfx_stop 2
-
 nvl_on
 
 line_set uEEEv
@@ -3227,6 +2912,7 @@ line_set ‘oŒµ‚ÍåÅ‚ğ–³‹‚µ‚Ä‰®•~‚É“ü‚éB
 adv_on
 
 kgd_layer3_fadeout 0
+
 kgd_layer3_clear 0
 kgd_layer2_set 1 Kgd\B_029.kgd
 kgd_layer2_crossfade 0
@@ -3235,7 +2921,6 @@ kgd_layer2_fade_unk 1
 kgd_layer3_set 1 Kgd\Ho_001.kgd
 kgd_layer3_param 1 164 0 0 0 472 600
 kgd_layer3_display 1
-
 nvl_on
 
 line_set –kğ‚ğŠ®‘S‚É–³‹‚·‚é‘oŒµ‚ğA–kğ‚Í·X‚É‚Â‚¯‰ñ‚µ‚½B
@@ -3246,9 +2931,7 @@ name_set –kğ
 
 sfx_set 2 Vox\6193.wav
 sfx_play 2
-
 line_set u‘oŒµ‚³‚Ü‚Í‚Ç‚±‚Ì‚¨¶‚Ü‚ê‚È‚Ì‚Å‚·‚©Hv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -3259,9 +2942,7 @@ name_set –kğ
 
 sfx_set 2 Vox\6192.wav
 sfx_play 2
-
 line_set u‘oŒµ‚³‚Ü‚Í¬‚³‚¢ ‚Ç‚ñ‚È‚¨q‚³‚ñ‚¾‚Á‚½‚Ì‚Å‚·‚©Hv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -3275,29 +2956,27 @@ line_set u‚±‚¢‚ÂEEEv
 adv_on
 
 kgd_layer3_param 1 0 0 0 0 472 600
+
 kgd_layer3_set 0 Kgd\Fu_009.kgd
 kgd_layer3_param 0 256 0 0 0 544 600
 kgd_layer3_display 0
-
 name_set •–—æ
 
 sfx_set 2 Vox\6304.wav
 sfx_play 2
-
 line_set u‚¨‚Á‚·A”n­˜v
-
 sfx_stop 2
 
 nvl_on
 
 line_set uEEEv
-line_set u‚³‚ç‚É”n­‚ª‚«‚½EEEv
 
+line_set u‚³‚ç‚É”n­‚ª‚«‚½EEEv
 adv_on
 
 line_set uEEEv
-line_set uEEEEEEEv
 
+line_set uEEEEEEEv
 name_set ‘oŒµ
 
 line_set uHv
@@ -3305,23 +2984,21 @@ line_set uHv
 nvl_on
 
 line_set •–—æ‚Ì“®‚«‚ª“Ë‘R~‚Ü‚éB
-line_set ‚»‚Ì–Úü‚Í–kğåÅ‚É’‚ª‚ê‚Ä‚¢‚éB
 
+line_set ‚»‚Ì–Úü‚Í–kğåÅ‚É’‚ª‚ê‚Ä‚¢‚éB
 adv_on
 
 kgd_layer3_set 3 Kgd\Fu_005.kgd
+
 kgd_layer3_param 3 256 0 0 0 544 600
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
-
 name_set •–—æ
 
 sfx_set 2 Vox\6303.wav
 sfx_play 2
-
 line_set u‘oŒµ‚³‚ñv
-
 sfx_stop 2
 
 name_set ‘oŒµ
@@ -3332,9 +3009,7 @@ name_set •–—æ
 
 sfx_set 2 Vox\6302.wav
 sfx_play 2
-
 line_set u­‚µ‚æ‚ë‚µ‚¢‚Å‚·‚©Hv
-
 sfx_stop 2
 
 nvl_on
@@ -3344,66 +3019,54 @@ line_set •–—æ‚Í‘oŒµ‚É‹ß‚Ã‚­‚ÆA‚»‚Ì‚Ü‚Ü‘oŒµ‚ğ˜L‰º‚Ì’[‚Ü‚Å‚¨‚¢‚â‚èA‚»‚±‚Å¬º‚Å‘
 adv_on
 
 kgd_layer3_fadeout 0
+
 kgd_layer3_clear 0
 kgd_layer3_set 0 Kgd\Fu_013.kgd
 kgd_layer3_param 0 0 0 0 0 800 600
 kgd_layer3_display 0
-
 sfx_set 2 Vox\6301.wav
 sfx_play 2
-
 line_set u‚¿‚å‚¢‚Æ‚¿‚å‚¢‚Æv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6300.wav
 sfx_play 2
-
 line_set u‚ ‚Ì‚©‚Á‚±‚¢‚¢˜’N‚æv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚ ‚ñv
+
 line_set u–kğåÅ‚¾‚æv
 line_set u¡“ú‚«‚½˜‚¾‚ëEEEv
-
 name_set •–—æ
 
 sfx_set 2 Vox\6299.wav
 sfx_play 2
-
 line_set u‚»A‚»‚¤‚È‚ñHHv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6298.wav
 sfx_play 2
-
 line_set u‚¤‚í[‚ÁAƒ‰ƒbƒL[™v
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
+
 line_set u‚ ‚ñ‚È‚Ì‚ª‚¢‚¢‚Ì‚©EEEv
 line_set u‚¨‘OEEEv
-
 name_set •–—æ
 
 sfx_set 2 Vox\6297.wav
 sfx_play 2
-
 line_set u‚ ‚½‚è‘O‚¶‚á‚È‚¢v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6296.wav
 sfx_play 2
-
 line_set u‚ ‚ñ‚È”ü­”N–Å‘½‚É‚¢‚È‚¢‚í‚æv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚»‚¤‚È‚Ì‚©Hv
@@ -3412,56 +3075,47 @@ name_set •–—æ
 
 sfx_set 2 Vox\6295.wav
 sfx_play 2
-
 line_set u‚»‚¤‚æv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‚»‚¤‚©Iv
-line_set u‚È‚ç‚¢‚¢‚âv
 
+line_set u‚È‚ç‚¢‚¢‚âv
 name_set •–—æ
 
 sfx_set 2 Vox\6294.wav
 sfx_play 2
-
 line_set uHv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‚ñ‚¶‚áv
+
 line_set u‚±‚Ì”n­’j‚Í”C‚¹‚½v
 line_set u‚È‚ñ‚Æ‚©‚µ‚Ä‚­‚êv
-
 name_set •–—æ
 
 sfx_set 2 Vox\6293.wav
 sfx_play 2
-
 line_set u‚¦A‚Ç‚¤‚µ‚½‚Ìv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set uƒEƒUƒC‚ñ‚¾‚æA‚±‚Ì”n­‚ªv
-line_set u‰´‚Ì‚±‚Æ‚Â‚¯‰ñ‚·‚ñ‚¾‚æv
 
+line_set u‰´‚Ì‚±‚Æ‚Â‚¯‰ñ‚·‚ñ‚¾‚æv
 name_set •–—æ
 
 line_set uEEEv
 
 sfx_set 2 Vox\6292.wav
 sfx_play 2
-
 line_set u‚ ‚ñ‚½v
-
 sfx_stop 2
-
 nvl_on
 
 line_set •–—æ‚ª‘oŒµ‚ğáÉ‚İ‚Â‚¯‚éB
@@ -3476,31 +3130,25 @@ name_set •–—æ
 
 sfx_set 2 Vox\6291.wav
 sfx_play 2
-
 line_set uåÅ‚³‚Ü‚ğ‚¨‚»‚Á‚½‚Å‚µ‚åv
-
 sfx_stop 2
 
 name_set ‘oŒµ
 
 line_set u‚Í‚ŸHv
-line_set u‚È‚ñ‚¾‚æ‚»‚êv
 
+line_set u‚È‚ñ‚¾‚æ‚»‚êv
 name_set •–—æ
 
 sfx_set 2 Vox\6290.wav
 sfx_play 2
-
 line_set u‚»‚¤‚¶‚á‚È‚«‚áv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6289.wav
 sfx_play 2
-
 line_set u‚ ‚ñ‚½‚İ‚½‚¢‚È‚Ş‚³‚¢’j‚ÉåÅ‚³‚Ü‚ª‚Ü‚Æ‚í‚è‚Â‚­‚í‚¯‚È‚¢‚ív
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
@@ -3519,69 +3167,57 @@ name_set •–—æ
 
 sfx_set 2 Vox\6288.wav
 sfx_play 2
-
 line_set u‚ÇA‚Ç‚±‚Ü‚Å‚â‚Á‚½‚Ì‚æv
-
 sfx_stop 2
+
 sfx_set 2 Vox\6287.wav
 sfx_play 2
-
 line_set u‚¨A‚¨‚µ‚¦‚È‚³‚¢‚æv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set uEEEv
+
 line_set u•–—æEEEv
 line_set u‚È‚É‚ğ•@‘§r‚­‹»•±‚µ‚Ä‚¢‚év
-
 name_set •–—æ
 
 sfx_set 2 Vox\6286.wav
 sfx_play 2
-
 line_set u‚¬‚­v
-
 sfx_stop 2
+
 sfx_set 2 Vox\6285.wav
 sfx_play 2
-
 line_set u‚ÍA•@‘§‚È‚ñ‚©‚ ‚ç‚­‚µ‚Ä‚È‚¢‚í‚æEEEv
-
 sfx_stop 2
 sfx_set 2 Vox\6284.wav
 sfx_play 2
-
 line_set u‚½A‚½‚¾„‚ÍEEEv
-
 sfx_stop 2
-
 name_set ‘oŒµ
 
 line_set u‚Ü‚ A‚Ç[‚Å‚à‚¢‚¢‚âv
-line_set u‚Æ‚è‚ ‚¦‚¸Œã‚Í‚½‚Ì‚ñ‚¾v
 
+line_set u‚Æ‚è‚ ‚¦‚¸Œã‚Í‚½‚Ì‚ñ‚¾v
 kgd_layer3_fadeout 0
+
 kgd_layer3_clear 0
 kgd_layer3_set 0 Kgd\Fu_008.kgd
 kgd_layer3_param 0 256 0 0 0 544 600
 kgd_layer3_display 0
-
 name_set •–—æ
 
 sfx_set 2 Vox\6283.wav
 sfx_play 2
-
 line_set u‚ A”n­‘oŒµ‚Ü‚¿‚È‚³‚¢‚æv
-
 sfx_stop 2
 
 kgd_layer3_fadeout 0
+
 kgd_layer3_fadeout 1
 kgd_layer3_clear 0
 kgd_layer3_clear 1
-
 nvl_on
 
 line_set ‘oŒµ‚Í‚»‚Ìê‚©‚ç“¦‚°‚é‚æ‚¤‚É©º‚ÉŒü‚©‚Á‚½B
@@ -3589,15 +3225,15 @@ line_set ‘oŒµ‚Í‚»‚Ìê‚©‚ç“¦‚°‚é‚æ‚¤‚É©º‚ÉŒü‚©‚Á‚½B
 adv_on
 
 kgd_layer2_set 1 Kgd\B_037.kgd
+
 kgd_layer2_crossfade 0
 kgd_layer2_fadein
 kgd_layer2_fade_unk 1
-
 name_set ‘oŒµ
 
 line_set u‚Ó‚¤EEEv
-line_set u‚È‚ñ‚¾‚©‚È‚ŸEEEv
 
+line_set u‚È‚ñ‚¾‚©‚È‚ŸEEEv
 nvl_on
 
 line_set ‘oŒµ‚Í©º‚É˜‚ğ‰º‚ë‚·B
@@ -3605,9 +3241,9 @@ line_set ‘oŒµ‚Í©º‚É˜‚ğ‰º‚ë‚·B
 nvl_line_clear
 
 line_set u‚Ç‚¢‚Â‚à‚±‚¢‚Â‚à‹Ù’£Š´‚ÉŒ‡‚¯‚éEEEv
+
 line_set u‚â‚½‚ç—pS–_L‚­‚È‚¢‚È‚¢‚â‚Â‚ç‚Î‚©‚è‚¾EEEv
 line_set u‚±‚ê‚Í‚½‚Ü‚½‚Ü‚È‚Ì‚©Hv
-
 adv_on
 
 line_set uu”T‚Í‚ ‚ñ‚È”n­˜‚ğW‚ß‚Ä‚Ç‚¤‚·‚é‚Â‚à‚è‚È‚ñ‚¾Hv
@@ -3615,21 +3251,22 @@ line_set uu”T‚Í‚ ‚ñ‚È”n­˜‚ğW‚ß‚Ä‚Ç‚¤‚·‚é‚Â‚à‚è‚È‚ñ‚¾Hv
 nvl_on
 
 line_set ‘oŒµ‚Íu”T‚Ì–‚ğv‚¢•‚‚©‚×‚½EEEB
-line_set ‘S‚­³‘Ì‚ª‚Â‚©‚ß‚È‚¢—‚Å‚ ‚éB
 
+line_set ‘S‚­³‘Ì‚ª‚Â‚©‚ß‚È‚¢—‚Å‚ ‚éB
 nvl_line_clear
 
 line_set uEEEv
+
 line_set uEEEEEv
 line_set uEEEEEEEv
-
 adv_on
 
 line_set u‚³‚ÄA‚»‚ë‚»‚ë“ú‚à•é‚ê‚Ä‚­‚é ‚¾EEEv
+
 line_set u­‚µŒ©‰ñ‚è‚Å‚à‚·‚é‚©‚Èv
-
 kgd_layer2_crossfade 1
-kgd_layer2_fade_unk 0
 
+kgd_layer2_fade_unk 0
 ksd_set Ksd\012.ksd
+
 ksd_end
