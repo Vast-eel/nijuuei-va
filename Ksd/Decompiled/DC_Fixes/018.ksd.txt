@@ -501,10 +501,12 @@ name_set 双厳
 
 line_set 「紗枝は、この島以外の世界を見てみたいとは思わねぇか？」
 
-kgd_layer3_set 3 Kgd\Sa_012.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_set 1 Kgd\Dc_Sae02.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
 
 name_set 紗枝
 
@@ -536,7 +538,6 @@ line_set 「私・・・」
 kgd_layer1_fx 0
 kgd_layer1_clear 0
 kgd_layer2_fade_unk 0
-kgd_layer3_clear 0
 
 music_stop
 
