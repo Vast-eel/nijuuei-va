@@ -1031,9 +1031,9 @@ line_set 次は双厳が十兵衛に攻撃をしかけようとする。
 line_set 十兵衛が身構える。
 adv_on
 
-jump_choice 39 天の構えから
+jump_choice 39 ◆天の構えから
 
-jump_choice 40 地の構えから
+jump_choice 40 ◆地の構えから
 jump_fight_failure 41
 @39
 

@@ -36,18 +36,18 @@ jump_branch2 405 22
 jump_auto 0
 !21
 jump_branch2 433 22
-jump_choice 1 ◆海岸を思い出す。
+jump_choice 1 ◆海岸を思い出す
 
 nvl_on
 !22
 
-jump_choice 2 ◆大岩を思い出す。
+jump_choice 2 ◆大岩を思い出す
 
 nvl_on
 !22
 
-jump_choice 3 ◆海岸を思い出す。
-jump_choice 4 ◆大岩を思い出す。
+jump_choice 3 ◆海岸を思い出す
+jump_choice 4 ◆大岩を思い出す
 @1
 @3
 
