@@ -14,6 +14,48 @@ wait 2000
 
 sfx_stop 0
 
+nvl_on
+
+line_set ・・・
+line_set ・・・・・・
+line_set ・・・・・・・・・
+
+adv_on
+
+kgd_layer1_set 0 Kgd\Dc_Irusui05.kgd
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 少女
+
+sfx_set 2 Vox\6406.wav
+sfx_play 2
+line_set 「ねぇ、お姉ちゃん、歌でも詠おう」
+sfx_stop 2
+
+sfx_set 2 Vox\6407.wav
+sfx_play 2
+line_set 「えぇ、詠いましょう」
+sfx_stop 2
+
+nvl_on
+
+line_set 少女達は歌う。
+line_set 誰が言うでもなく覚えている歌。
+line_set 柔かな歌声が蔵中に響く。
+line_set 狭く薄暗い中、少女達はお互い寄り添いあい誰に捧げるでもなく、歌を詠う。
+
+nvl_line_clear
+
+line_set その声は、微かに部屋を抜け、外の風に溶け込んでいく。
+line_set その旋律に耳を傾けるものは、この島の中にはいない。
+line_set 少女達は、ただ自分の感情の赴くまま、暗闇の中詠いつづけるのだった・・・。
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
 jump_branch2 238 24
 
 nvl_on
