@@ -2178,7 +2178,7 @@ line_set かなりの飛距離を記録して、少女は地面に激突した。
 
 adv_on
 
-kgd_layer1_set 1 Kgd\En_063.kgd
+kgd_layer1_set 1 Kgd\Dc_Fuurei01.kgd
 kgd_layer1_fx 6
 kgd_layer1_fadein
 kgd_layer2_clear
