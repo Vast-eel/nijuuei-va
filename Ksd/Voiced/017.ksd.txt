@@ -277,9 +277,10 @@ jump_route 0 1 0 1
 jump_auto 1
 @0
 
-kgd_layer3_set 0 Kgd\Fu_009.kgd
-kgd_layer3_param 0 128 0 0 0 544 600
-kgd_layer3_display 0
+kgd_layer1_set 1 Kgd\Dc_Fuurei02.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
 
 name_set 楓玲
 
@@ -334,11 +335,14 @@ line_set 「柳生の女のことか」
 
 adv_on
 
-kgd_layer3_set 3 Kgd\Fu_006.kgd
-kgd_layer3_param 3 128 0 0 0 544 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Fu_006.kgd
+kgd_layer3_param 0 128 0 0 0 544 600
+kgd_layer3_display 0
+kgd_layer2_blit 0 0
 
 name_set 楓玲
 
@@ -427,6 +431,7 @@ line_set 楓玲はなぜか不機嫌そうに答える。
 adv_on
 
 kgd_layer3_set 3 Kgd\Fu_009.kgd
+kgd_layer3_param 3 128 0 0 0 544 600
 kgd_layer3_crossfade 0
 kgd_layer2_blit 0 3
 kgd_layer3_clear 3
