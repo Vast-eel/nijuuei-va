@@ -649,7 +649,7 @@ kgd_layer3_clear 3
 
 name_set 楓玲
 
-sfx_set 2 Vox\3008.wav
+sfx_set 2 Vox\3033.wav
 sfx_play 2
 
 line_set 「え？」
@@ -3404,10 +3404,12 @@ line_set 「よせ・・・」
 
 name_set 楓玲
 
-sfx_set 2 Vox\3007.wav
+sfx_set 2 Vox\3008.wav
 sfx_play 2
 
 line_set 「え？」
+
+sfx_stop 2
 
 nvl_on
 
@@ -3434,7 +3436,12 @@ line_set 「・・・」
 
 name_set 楓玲
 
+sfx_set 2 Vox\3007.wav
+sfx_play 2
+
 line_set 「え？　どういう事なの？」
+
+sfx_stop 2
 
 nvl_on
 

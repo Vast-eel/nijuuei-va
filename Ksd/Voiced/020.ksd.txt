@@ -3486,7 +3486,7 @@ sfx_stop 2
 
 name_set スイ
 
-sfx_set 2 Vox\5214.wav
+sfx_set 2 Vox\5226.wav
 sfx_play 2
 
 line_set 「え？」
@@ -4387,7 +4387,12 @@ sfx_stop 2
 
 name_set スイ
 
+sfx_set 2 Vox\5214.wav
+sfx_play 2
+
 line_set 「え？　お兄ちゃん？」
+
+sfx_stop 2
 
 nvl_on
 
