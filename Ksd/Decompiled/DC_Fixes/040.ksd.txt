@@ -488,6 +488,12 @@ line_set いままで表情など変えた事のない志乃の顔が突然悲しみに歪む・・・。
 
 adv_on
 
+kgd_layer1_set 1 Kgd\Dc_Shino01.kgd
+kgd_layer1_fx 6
+kgd_layer1_fadein
+kgd_layer2_clear
+kgd_layer3_clear 0
+
 line_set 「私と夫の間に生まれた子供は・・・双子ではありませんでした」
 
 name_set 双厳
@@ -647,10 +653,12 @@ name_set 双厳
 line_set 「ケッ」
 line_set 「同じように、貴様が黄泉の封印を解いて大勢の人間を殺していいなどという道理もあるまい」
 
-kgd_layer3_set 3 Kgd\Sh_001.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
+kgd_layer1_fadein
+kgd_layer2_display
+kgd_layer1_fx 7
+kgd_layer1_clear 1
+kgd_layer3_set 0 Kgd\Sh_001.kgd
+kgd_layer3_display 0
 
 name_set 志乃
 
