@@ -266,12 +266,16 @@ class KageScriptData:
             if output_name == None:
                 self.output_name = Path(Path.cwd(), "Exported/Ksd", (Path(file_name).stem + ".txt"))
                 Path("Exported/Ksd").mkdir(parents = True, exist_ok = True)
+            else:
+                self.output_name = output_name
             self.output = open(self.output_name, mode="w", encoding="cp932")
         elif flag == 1:
             self.file = open(file_name, mode="r", encoding="cp932")
             if output_name == None:
                 self.output_name = Path(Path.cwd(), "Imported/Ksd", (Path(file_name).stem + ".ksd"))
                 Path("Imported/Ksd").mkdir(parents = True, exist_ok = True)
+            else:
+                self.output_name = output_name
             self.output = open(self.output_name, mode="wb")
 
 
@@ -380,9 +384,9 @@ class KageScriptData:
 
             if unknown_opcode == 0:
                 for i in args_struct:
-                    if ((i == 'h') or (i == 'H')):
+                    if i == 'h' or i == 'H':
                         offset += 2
-                    elif ((i == 'i') or (i == 'I')):
+                    elif i == 'i' or i == 'I':
                         offset += 4
 
                 if self.commands[index] in self.string_opcodes.values():

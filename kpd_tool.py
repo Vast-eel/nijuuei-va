@@ -26,12 +26,16 @@ class KagePhraseData:
             if output_name == None:
                 self.output_name = Path(Path.cwd(), "Exported/", (Path(file_name).stem + ".txt"))
                 Path("Exported/").mkdir(parents = True, exist_ok = True)
+            else:
+                self.output_name = output_name
             self.output = open(self.output_name, mode="w", encoding="cp932")
         elif flag == 1:
             self.file = open(file_name, mode="r", encoding="cp932")
             if output_name == None:
                 self.output_name = Path(Path.cwd(), "Imported/", (Path(file_name).stem + ".kpd"))
                 Path("Imported/").mkdir(parents = True, exist_ok = True)
+            else:
+                self.output_name = output_name
             self.output = open(self.output_name, mode="wb")
 
 
