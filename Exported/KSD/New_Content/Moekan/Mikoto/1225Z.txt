@@ -1,0 +1,1899 @@
+kgd_layer1_set 0 W1225.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 2000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1225.KGD
+
+name_clear
+
+line_set ゆっさっゆっさっゆっさ…
+
+name_set 貴広
+
+line_set 「！？」
+
+name_set 命
+
+voice_play v10551.wav
+
+line_set 「貴広、起きろ～。朝だぞ～」
+
+kgd_layer1_set 0 BG027.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 MI004.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「う…うん……」
+line_set 「今日は日曜だろ……」
+line_set 「もう少し寝かせてくれ」
+
+nvl_on
+
+line_set 早朝、突然の揺れに目を覚ますと、命がベッドに手を着きピョンピョンと跳ねていた。
+line_set 貴広は薄目を開けて命を確認すると、寝返りを打って布団を被り、目を瞑った。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+name_set 命
+
+voice_play v10552.wav
+
+line_set 「遊ぶ約束ー！！」
+
+name_set 貴広
+
+line_set 「あんな寝ぼけてて、よく憶えてるな…」
+line_set 「後で遊んでやるから、もう少し寝かせてくれ…」
+
+name_set 命
+
+voice_play v10553.wav
+
+line_set 「遊ぶの～」
+
+name_clear
+
+line_set モソモソモソ…
+
+name_set 命
+
+voice_play v10554.wav
+
+line_set 「あそぶの～～、あそぶの～」
+
+nvl_on
+
+line_set 耳元で命が同じ言葉を繰り返すが、貴広は無視して寝息を立て始めた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「く～…く～…く～…」
+
+name_set 命
+
+voice_play v10555.wav
+
+line_set 「あそぶの～…」
+
+name_set 貴広
+
+line_set 「す～…す～…す～…」
+
+music_play_moekan 022.WAV
+
+
+kgd_layer1_set 0 BG027.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+sfx_set 0 SE043.WAV
+sfx_play 0 0
+
+kgd_layer1_fx 9
+
+name_clear
+
+line_set バシッ！！！
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「いて！！」
+line_set 「な、なんだ！？」
+
+kgd_layer3_set 0 KI005.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「あ、霧島」
+
+nvl_on
+
+line_set 頭部への強烈な衝撃に飛び起きた貴広は、ベッドサイドで怒りに肩を震わせている霧島に気付いた。
+line_set 貴広には、なぜ霧島が怒っているのか理解できなかった。
+
+adv_on
+
+name_set 霧島
+
+voice_play v10556.wav
+
+line_set 「あなたは何をやってるんでちゅか…」
+
+name_set 貴広
+
+line_set 「は？」
+line_set 「何かしたか、俺？」
+
+name_set 霧島
+
+voice_play v10557.wav
+
+line_set 「女の子をベッドに連れ込むなんて…」
+
+name_set 貴広
+
+line_set 「はぁ？？」
+line_set 「なに言って……ん？左腕が重い…」
+line_set 「なっ！！？？」
+
+nvl_on
+
+line_set 貴広が左腕を見ると、命がベッドの中で寝息を立てながら、左腕にしがみついていた。
+line_set ベッドに潜り込んで、貴広を起こそうとしていた命は、そのまま寝てしまったらしい。
+
+adv_on
+
+name_set 貴広
+
+line_set 「霧島！これはコイツが勝手に！！」
+
+name_set 霧島
+
+voice_play v10558.wav
+
+line_set 「問答無用でちゅ！！！」
+
+kgd_layer1_fx 9
+
+sfx_set 0 SE044.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ドゴッ！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 霧島のバインダーの、頭部垂直落下攻撃にベッドが大きく軋む。
+line_set 弾みで命がコロリとベッドから転げ落ちた。
+line_set 瞼を擦りながら欠伸をして、起きあがる命。
+
+adv_on
+
+kgd_layer3_set 3 MI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10559.wav
+
+line_set 「ふあ～…」
+
+voice_play v10560.wav
+
+line_set 「おはよ～」
+
+name_set 貴広
+
+line_set 「おはよ～じゃねぇよ」
+line_set 「お前のおかげで、ヒデェ目に遭った…いつつつ…」
+
+nvl_on
+
+line_set 貴広は額に浮かんだ赤い筋を撫でながらぼやいた。
+
+adv_on
+
+kgd_layer3_set 3 KI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10561.wav
+
+line_set 「大丈夫でちゅか、命ちゃん」
+
+kgd_layer3_set 3 MI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10562.wav
+
+line_set 「何が～？」
+
+kgd_layer3_set 3 MI002.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10563.wav
+
+line_set 「あ、貴広起きてる、遊ぼう！！」
+
+name_set 貴広
+
+line_set 「お前なぁ……」
+
+nvl_on
+
+line_set その後、命の辿々しい説明と貴広の補助でどうにか霧島の怒りは収まった。
+
+adv_on
+
+kgd_layer3_set 3 KI009.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10564.wav
+
+line_set 「なるほど、そうでちたか」
+
+voice_play v10565.wav
+
+line_set 「でも、命ちゃん、もう所長のベッドに潜り込んじゃいけまちぇんよ」
+
+kgd_layer3_set 3 MI004.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10566.wav
+
+line_set 「うん！わかった！！」
+
+kgd_layer3_set 3 MI003.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10567.wav
+
+line_set 「でもなんで？」
+
+kgd_layer3_set 3 KI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10568.wav
+
+line_set 「そ、それはでちゅね…」
+
+voice_play v10569.wav
+
+line_set 「え～っと…」
+
+voice_play v10570.wav
+
+line_set 「所長のバカが移りまちゅよ」
+
+kgd_layer3_set 3 MI002.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10571.wav
+
+line_set 「貴広ってバカなの！？」
+
+name_set 貴広
+
+line_set 「あのなぁ…霧島、それはあまりにも非道い理由付けじゃないか？」
+
+kgd_layer3_set 3 KI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10572.wav
+
+line_set 「と、とにかくダメでちゅよ」
+
+kgd_layer3_set 3 MI002.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10573.wav
+
+line_set 「わかった！！」
+
+voice_play v10574.wav
+
+line_set 「じゃ、遊ぼう！」
+
+name_set 貴広
+
+line_set 「ホントに解ってるのかねぇ…」
+line_set 「あ、今日はちょっと調べものがあるんだった」
+line_set 「遊ぶのは後でな」
+
+kgd_layer3_set 3 MI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10575.wav
+
+line_set 「え～～」
+
+name_set 貴広
+
+line_set 「霧島、命の相手をしててくれ」
+
+kgd_layer3_set 3 KI013.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10576.wav
+
+line_set 「え、はい、わかりまちた」
+
+kgd_layer3_set 3 MI007.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10577.wav
+
+line_set 「むぅ…」
+
+name_set 貴広
+
+line_set 「ちゃんと後で遊んでやるから」
+line_set 「な？」
+
+nvl_on
+
+line_set 貴広は、むくれた顔をしている命の頭を撫でて、顔を覗き込んだ。
+
+adv_on
+
+kgd_layer3_set 3 MI010.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10578.wav
+
+line_set 「絶対だよ…」
+
+name_set 貴広
+
+line_set 「ああ」
+
+kgd_layer3_set 3 KI012.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10579.wav
+
+line_set 「それでは失礼しまちゅ」
+
+voice_play v10580.wav
+
+line_set 「さ、行きまちょう、命ちゃん」
+
+kgd_layer3_set 3 MI010.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10581.wav
+
+line_set 「うん」
+
+voice_play v10582.wav
+
+line_set 「貴広、絶対だからね」
+
+name_set 貴広
+
+line_set 「わかってるって」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 霧島と命が部屋を出ていった後、貴広は手早く身支度を整えると、ヘリポートへ向かった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG012.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 023.WAV
+
+
+name_set 貴広
+
+line_set 「おやじさん、いるか？」
+
+nvl_on
+
+line_set 貴広は人気のないヘリポートで、おやじさんを呼んだ。
+
+adv_on
+
+kgd_layer3_set 0 SO026.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+voice_play v10583.wav
+
+line_set 「おう、貴広」
+
+name_set 貴広
+
+line_set 「やっぱりここだったか」
+
+name_set おやじさん
+
+voice_play v10584.wav
+
+line_set 「なんだよ、所長室にでも呼んだら、こっちから出向いたのによ」
+
+name_set 貴広
+
+line_set 「今日は休日だからな、そんな手間をかけさせるわけにもいかんよ」
+line_set 「それより、昨日の話しだが…」
+
+kgd_layer3_set 3 SO030.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10585.wav
+
+line_set 「メンテ室だろ？」
+
+voice_play v10586.wav
+
+line_set 「ちゃんと使えるようにしてあるよ。ほら鍵だ」
+
+voice_play v10587.wav
+
+line_set 「ま、お前に言うのもなんだが、とっ捕まるようなヘマはするなよ」
+
+name_set 貴広
+
+line_set 「わかっているよ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_play_moekan 012.WAV
+
+
+kgd_layer1_set 0 BG041.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「さて…」
+
+nvl_on
+
+line_set あらゆるネットワークから隔離されているはずの萌えっ娘島であるが、
+line_set 密かに貴広やおやじさんの手によって、情報を得られるようになっていた。
+line_set しかし、電力不足や違法であるため、限られた時にしか使えなかった。
+line_set 貴広は小気味よく、カチャカチャとキーを叩いていく。
+line_set モニターに映された画像が、何度か入れ替わり最終的に止まってしまった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おかしいな…」
+
+nvl_on
+
+line_set 再びキーを叩く貴広。
+line_set さっきとは違う画像が入れ替わり、画面にはまた同じ画像が出てきた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ふ～む…」
+
+name_set おやじさん
+
+voice_play v10588.wav
+
+line_set 「どうだ？なにを調べてるんだ？」
+
+kgd_layer3_set 0 SO030.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set メンテ室の扉が開き、おやじさんが顔を出した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「第壱号島のメインフレームに侵入しようとしたんだが、できないんだ」
+
+name_set おやじさん
+
+voice_play v10589.wav
+
+line_set 「なんだ、セキュリティが強化されたのか？」
+
+name_set 貴広
+
+line_set 「そうじゃないんだ」
+line_set 「欧州の大学から豪州の情報センターを経由したり…」
+line_set 「大陸の情報センターから大昔の人工衛星、旧米軍のミルネットを経由したりしたんだが…」
+line_set 「第壱号島の存在そのものが消えているみたいだ」
+line_set 「そこで止まってしまう」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10590.wav
+
+line_set 「なんだって？」
+
+voice_play v10591.wav
+
+line_set 「ちょっと替わってみろ」
+
+nvl_on
+
+line_set 貴広は席をおやじさんに譲り、おやじさんは手慣れた手つきでキーボードを叩いた。
+line_set しかし、画面に出てきたのは、貴広と同じモノだった。
+
+adv_on
+
+name_set おやじさん
+
+voice_play v10592.wav
+
+line_set 「う～む…」
+
+name_set 貴広
+
+line_set 「気になるな…」
+line_set 「おやじさん、第壱号島の画像ってみれるか？」
+
+name_set おやじさん
+
+voice_play v10593.wav
+
+line_set 「やってみよう」
+
+voice_play v10594.wav
+
+line_set 「何かが起きているのであれば、上空から写しているはずだ」
+
+voice_play v10595.wav
+
+line_set 「よし、人工衛星からの画像を探してみよう」
+
+nvl_on
+
+line_set おやじさんの指が、まるで旋律を奏でるように華麗に動く。
+line_set モニター内の画像が立ち上がっては消えてを繰り返す。
+line_set 薄暗いメンテ室で貴広とおやじさんは、食い入るようにモニターを見つめた。
+
+adv_on
+
+name_set おやじさん
+
+voice_play v10596.wav
+
+line_set 「きた！！」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_play_moekan 013.WAV
+
+
+kgd_layer1_set 1 DC010.KGD
+kgd_layer2_clear
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「なんだこれは？」
+
+name_set おやじさん
+
+voice_play v10597.wav
+
+line_set 「第壱号島を人工衛星から写したものだ」
+
+name_set 貴広
+
+line_set 「何もないじゃないか！？」
+line_set 「緯度経度が間違いじゃないのか？」
+
+name_set おやじさん
+
+voice_play v10598.wav
+
+line_set 「いや…間違っていない、これが正真正銘第壱号島だ」
+
+nvl_on
+
+line_set その画像には真っ青な海が広がり、そこに小さな島が点在しているようにしか見えなかった。
+line_set しかし、よく見ると不自然な形の島がいくつかあった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「………」
+
+nvl_on
+
+line_set 貴広は少し背をそらし、遠目からその画像を見つめた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「その渦潮を中心に円形が見えるな…」
+line_set 「第壱号島が円形にえぐり取られている」
+line_set 「…極東日没か！？」
+line_set 「島を一つ沈めるなんて、奴しかできないだろう」
+
+name_set おやじさん
+
+voice_play v10599.wav
+
+line_set 「その可能性もあるが、それにしちゃ本社がずいぶんと静かな気がするが…」
+
+nvl_on
+
+line_set 第壱号島を写した画像が乱れて消える。
+
+adv_on
+
+kgd_layer2_set_moekan 1225.KGD
+kgd_layer1_set 1 BG041.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「ふむ…」
+line_set 「第壱号島だけじゃないかもしれん」
+line_set 「おやじさん、他の連絡の途絶えた島も調べてもらえるか？」
+
+name_set おやじさん
+
+voice_play v10600.wav
+
+line_set 「任せとけ」
+
+voice_play v10601.wav
+
+line_set 「リアルタイムの画像は、今日は無理だが…」
+
+voice_play v10602.wav
+
+line_set 「これだけのことが起きてるんだ、本社に色々と情報が集まってるだろう」
+
+voice_play v10603.wav
+
+line_set 「それをちょっと拝見させてもらうか…」
+
+voice_play v10604.wav
+
+line_set 「ちょっと待ってろ」
+
+nvl_on
+
+line_set 再びおやじさんの指が、カチャカチャという無機質な旋律を奏でる。
+
+adv_on
+
+name_set おやじさん
+
+voice_play v10605.wav
+
+line_set 「結構やられてるみたいだな…」
+
+name_set 貴広
+
+line_set 「おやじさん、連絡の取れない島をリストアップできるか？」
+
+name_set おやじさん
+
+voice_play v10606.wav
+
+line_set 「おう、できるぜ」
+
+nvl_on
+
+line_set カチャカチャとおやじさんがキーボードを数回叩くと、島の号数が一列に表示された。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ふむ…」
+line_set 「ありがとう、おやじさん。本社に感付かれる前に引き上げよう」
+
+name_set おやじさん
+
+voice_play v10607.wav
+
+line_set 「おう」
+
+nvl_on
+
+line_set 貴広は手早く島の号数を紙に書き取って、端末機を閉じさせた。
+line_set 無言で号数を見つめる貴広。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おやじさん、もうちょっと付き合ってくれ」
+
+name_set おやじさん
+
+voice_play v10608.wav
+
+line_set 「ああ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG004.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 MI002.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 命
+
+voice_play v10609.wav
+
+line_set 「貴広、遊ぼう！」
+
+nvl_on
+
+line_set 貴広とおやじさんが地下から上がってきたところに、丁度命と出くわし、命がしがみついてくる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「今は忙しいから後でな」
+
+kgd_layer3_set 3 MI010.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10610.wav
+
+line_set 「また後で？」
+
+voice_play v10611.wav
+
+line_set 「付いていくのもダメ？」
+
+name_set 貴広
+
+line_set 「それもちょっとな…」
+line_set 「後で、後でな？」
+
+kgd_layer3_set 3 MI007.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10612.wav
+
+line_set 「む～～…」
+
+name_set 貴広
+
+line_set 「じゃ、おやじさん行こう」
+
+nvl_on
+
+line_set 命は口を尖らし、拗ねた顔をしていたが、貴広はおやじさんと所長室に向かった。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 貴広はおやじさんと所長室に入り、霧島も呼んだ。
+line_set 机を三人で囲み、真ん中に地図を広げた。
+
+adv_on
+
+kgd_layer1_set 1 DC011.KGD
+kgd_layer2_clear
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 霧島
+
+voice_play v10613.wav
+
+line_set 「どうしたんでちゅか？　そんな真剣な顔ちて」
+
+name_set 貴広
+
+line_set 「第壱号島には、まだ連絡が取れないんだよな？」
+
+name_set 霧島
+
+voice_play v10614.wav
+
+line_set 「はい」
+
+name_set 貴広
+
+line_set 「気になってたんで、おやじさんと調べてたんだ」
+
+name_set 霧島
+
+voice_play v10615.wav
+
+line_set 「おやじさんの腕は信用してまちゅが、なるべく危険な行為は止めてくだちゃいね…」
+
+name_set おやじさん
+
+voice_play v10616.wav
+
+line_set 「すまね」
+
+name_set 貴広
+
+line_set 「自重するよ」
+line_set 「ま、それはひとまず置いといて…」
+line_set 「で、連絡の取れなくなっている島は他にもあることがわかった」
+
+name_set 霧島
+
+voice_play v10617.wav
+
+line_set 「え…」
+
+kgd_layer1_set 1 DC012.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「まず、ここが第壱号島だ」
+
+nvl_on
+
+line_set そう言って、貴広は地図に赤いペンで、島に印を付けた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「そして、おやじさんにリストアップしてもらった島に、印を付けていくと…」
+
+nvl_on
+
+line_set 貴広は地図に一つ一つ赤い点を付ける。
+line_set なんの関連性もないような号数だったが、地図上に示してみると、ある物が見えてきた。
+
+adv_on
+
+kgd_layer1_set 1 DC013.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set おやじさん
+
+voice_play v10618.wav
+
+line_set 「多少歪んじゃいるが、ラインが見えるな…」
+
+name_set 貴広
+
+line_set 「俺もこうなりそうな事は予想できたんだ」
+line_set 「そして端からラインを伸ばすと…」
+
+name_set 霧島
+
+voice_play v10619.wav
+
+line_set 「この島でちゅね…」
+
+name_set 貴広
+
+line_set 「では、反対側を伸ばすと…」
+
+name_set 霧島
+
+voice_play v10620.wav
+
+line_set 「！」
+
+voice_play v10621.wav
+
+line_set 「アリスインチェインズ…」
+
+name_set おやじさん
+
+voice_play v10622.wav
+
+line_set 「アリスインチェインズの本部か…」
+
+voice_play v10623.wav
+
+line_set 「アリスインチェインズとこの島を結ぶライン…」
+
+name_set 貴広
+
+line_set 「こうなるとは、俺もビックリだ…」
+
+kgd_layer1_set 1 DC014.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 命
+
+voice_play v10624.wav
+
+line_set 「あー！あたしここ知ってるよー！！」
+
+name_set 貴広
+
+line_set 「命！？」
+line_set 「いつの間に！？」
+
+name_set おやじさん
+
+voice_play v10625.wav
+
+line_set 「！？」
+
+name_set 霧島
+
+voice_play v10626.wav
+
+line_set 「え！？」
+
+nvl_on
+
+line_set いつの間に部屋に入ったのか、命がおやじさんと霧島の間から顔をだして、地図を指さした。
+
+adv_on
+
+name_set 命
+
+voice_play v10627.wav
+
+line_set 「ドアは叩いたよ」
+
+voice_play v10628.wav
+
+line_set 「このバッテンがあたしんチで、こっちがこの島？」
+
+name_set 貴広
+
+line_set 「命。俺たちは今、大事な会議中だ、出て行きなさい」
+
+name_set 命
+
+voice_play v10629.wav
+
+line_set 「う～…後で遊んでくれるって言ったのに…」
+
+name_set 貴広
+
+line_set 「もう少し後だ」
+
+name_set 命
+
+voice_play v10630.wav
+
+line_set 「もう少しってどれくらい？」
+
+name_set 貴広
+
+line_set 「命」
+
+name_set 命
+
+voice_play v10631.wav
+
+line_set 「…わかった～」
+
+kgd_layer1_set 1 DC013.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+sfx_set 0 SE015.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガチャ…バタン…
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 命は貴広達に背を向け、トボトボと部屋から出て行った。
+line_set パタパタと走る音が遠ざかる。
+
+adv_on
+
+name_set おやじさん
+
+voice_play v10632.wav
+
+line_set 「焦ったぜ…丁度アリスの話をしてたところだったからな…」
+
+name_set 貴広
+
+line_set 「うむ…」
+line_set 「あんなんでも、一応アリスだからな…」
+
+name_set 霧島
+
+voice_play v10633.wav
+
+line_set 「しょうがないでちゅよね…」
+
+kgd_layer2_set_moekan 1225.KGD
+kgd_layer1_set 1 BG023.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+music_play_moekan 012.WAV
+
+
+kgd_layer3_set 0 SO018.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+voice_play v10634.wav
+
+line_set 「……貴広、あの嬢ちゃんが来たのはいつだっけな…」
+
+name_set 貴広
+
+line_set 「四日前だな…」
+line_set 「まさか命が？」
+line_set 「たった二日間でこれだけの島を破壊して、ここに来たというのか？」
+
+name_set おやじさん
+
+voice_play v10635.wav
+
+line_set 「第壱号島をあんな風にしてしまう力を持っていたとしたら、可能なんじゃないか？」
+
+name_set 貴広
+
+line_set 「なんのために？」
+
+name_set おやじさん
+
+voice_play v10636.wav
+
+line_set 「わからん」
+
+name_set 貴広
+
+line_set 「アリスでこんな力があるとしたら……ファーストアリスくらいじゃないのか？」
+line_set 「命がファーストアリス？」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10637.wav
+
+line_set 「いや…アイツは…ファーストは言葉の通じるような奴じゃない」
+
+nvl_on
+
+line_set おやじさんはブルッと震え、左腕をさすった。
+
+nvl_line_clear
+
+line_set ファーストアリス、Ａｌｉｃｅ事件…
+line_set ピクシーズ解体以前、ＬＡＢは一体の人造人間の製造に成功した。
+line_set 呼称をＦｉｒｓｔ　Ａｌｉｃｅ。
+line_set しかし、製造は成功したものの、制御に失敗。
+line_set 強大な力を与えられていたファーストアリスは暴走し、当時のカンパニー首都を消滅させた。
+line_set カンパニーは総力を挙げ、このファーストアリスを厳重な地下施設に封印した。
+line_set その間の経過は混乱のため、あまり情報が残っていないが、Ｎガールが総投入されたとも噂される。
+
+nvl_line_clear
+
+line_set これを通称「Ａｌｉｃｅ事件」と呼び、封印された地を「アリスインチェイン」と呼んだ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「そうか…おやじさんは、あの時その現場にいたんだっけな」
+line_set 「俺は確か、他の任務で直接見ることはなかったが…」
+
+name_set おやじさん
+
+voice_play v10638.wav
+
+line_set 「昔の話だがな…」
+
+voice_play v10639.wav
+
+line_set 「アイツの力は島どころじゃない、世界がひっくり返るんじゃないかと思ったぜ…」
+
+name_set 貴広
+
+line_set 「命がそんな力を持っているのだろうか…？」
+
+name_set おやじさん
+
+voice_play v10640.wav
+
+line_set 「わからねぇ…だが、嬢ちゃんがファーストじゃないことは確かだ」
+
+kgd_layer3_set 3 KI001.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10641.wav
+
+line_set 「セカンドアリス…」
+
+name_set 貴広
+
+line_set 「は？アリスの現トップか？命が？」
+line_set 「あれがアリスのトップだなんて、それは冗談でも笑えんぞ」
+
+name_set 霧島
+
+voice_play v10642.wav
+
+line_set 「でちゅ…よね。あはは…」
+
+kgd_layer3_set 3 SO018.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10643.wav
+
+line_set 「セカンドはファーストの力を制御できた代物だという噂を聞いたが…」
+
+voice_play v10644.wav
+
+line_set 「本当かどうか…」
+
+name_set 貴広
+
+line_set 「それなら、ますます命はセカンドではないだろう」
+line_set 「トップだったら厳重な管理のもとに、絶対服従にしてるだろうからな」
+line_set 「休みでふらついてる奴とは、到底思えない」
+
+name_set おやじさん
+
+voice_play v10645.wav
+
+line_set 「だな…」
+
+name_set 貴広
+
+line_set 「ただ、あそこまで強気だった飯島から連絡が、急に途絶えた事が気になるな…」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10646.wav
+
+line_set 「明日、アリスの本拠地を衛星から見てみよう」
+
+voice_play v10647.wav
+
+line_set 「なにかわかるかもしれん」
+
+name_set 貴広
+
+line_set 「そうだな」
+line_set 「おやじさんも霧島も、休みに呼び出してすまなかった」
+
+name_set おやじさん
+
+voice_play v10648.wav
+
+line_set 「なに、気にするこたぁねえよ」
+
+kgd_layer3_set 3 KI012.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10649.wav
+
+line_set 「私も仕事してまちたから」
+
+name_set 貴広
+
+line_set 「そう言ってもらうと助かる」
+
+kgd_layer3_set 3 SO026.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10650.wav
+
+line_set 「じゃ、明日な」
+
+name_set 貴広
+
+line_set 「ああ、よろしく頼む」
+
+name_set おやじさん
+
+voice_play v10651.wav
+
+line_set 「任せとけって」
+
+kgd_layer3_set 3 KI012.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10652.wav
+
+line_set 「私も失礼しまちゅね」
+
+voice_play v10653.wav
+
+line_set 「命ちゃんが、所長を待ってるみたいでちゅから」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set おやじさんは軽く手を挙げ廊下へ、霧島は一礼して秘書室へ出ていった。
+line_set おやじさんと入れ替わりに命がピョコンと部屋に入ってきた。
+
+adv_on
+
+music_play_moekan 006.WAV
+
+
+kgd_layer3_set 0 MI003.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 命
+
+voice_play v10654.wav
+
+line_set 「終わった？」
+
+name_set 貴広
+
+line_set 「ああ、待たせたな」
+
+kgd_layer3_set 3 MI002.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10655.wav
+
+line_set 「えへへ～」
+
+nvl_on
+
+line_set 貴広に頭を撫でられて、命は嬉しそうにニパッと笑った。
+
+adv_on
+
+name_set 命
+
+voice_play v10656.wav
+
+line_set 「何して遊ぶ？」
+
+name_set 貴広
+
+line_set 「そうだな…今日は静かに遊ぶか」
+line_set 「あやとりを教えてやるよ。知ってるか？」
+
+name_set 命
+
+voice_play v10657.wav
+
+line_set 「ううん、しらな～い」
+
+voice_play v10658.wav
+
+line_set 「あやとりって何？」
+
+name_set 貴広
+
+line_set 「ニホンニアにあった、紐遊びの一種なんだが…」
+line_set 「確かこの辺に紐が入ってたと思うが…」
+
+nvl_on
+
+line_set 貴広は机の引き出しを開け、中から荷物を縛る細めの紐を取り出し、二本切り分け、輪っかを作った。
+
+adv_on
+
+name_set 貴広
+
+line_set 「見てろ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_clear
+kgd_layer1_set 1 DC015.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 紐を指にかけ、器用に十本の指を動かし、紐で形を作る。
+line_set 紐は絡み合い、解け合い、色々な形に変わっていく。
+
+adv_on
+
+name_set 貴広
+
+line_set 「これが山、そしてこれが川、これがハシゴ、これがホウキ、でもって…よっ…」
+
+name_set 命
+
+voice_play v10659.wav
+
+line_set 「おわ～」
+
+name_set 貴広
+
+line_set 「これが東京タワー」
+line_set 「昔、ニホンニアにあった電波塔だ」
+
+name_set 命
+
+voice_play v10660.wav
+
+line_set 「こんなにペラペラなの？」
+
+name_set 貴広
+
+line_set 「ふふ…本物は鉄骨で作られた３３３メートルの鉄塔だよ」
+
+name_set 命
+
+voice_play v10661.wav
+
+line_set 「おもしろーい！！」
+
+voice_play v10662.wav
+
+line_set 「どうやるの？どうやるの？」
+
+name_set 貴広
+
+line_set 「こうして指に紐をかけて…こうして、こうすると山だ」
+
+name_set 命
+
+voice_play v10663.wav
+
+line_set 「うんうん」
+
+nvl_on
+
+line_set 貴広はゆっくりと指を動かし、命に見せる。
+line_set 命も辿々しくもあるが、瞬きもせず貴広の指を観察して、同じように動かして紐を形作る。
+
+adv_on
+
+name_set 貴広
+
+line_set 「命、アリスインチェインズに何があったか知らないか？」
+
+nvl_on
+
+line_set 貴広はあやとりを命に見せつつ、何気なく聞いてみた。
+
+adv_on
+
+name_set 命
+
+voice_play v10664.wav
+
+line_set 「ん～…わかんない」
+
+nvl_on
+
+line_set その答えが質問に対してなのか、あやとりのやり方に対してなのか、貴広には解りかねたが、
+line_set 今は、あやとりに夢中になっている命に聞いても、まともな答えは返ってこないと諦めた。
+
+adv_on
+
+kgd_layer2_set_moekan 1225.KGD
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG024.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer1_set 1 DC016.KGD
+kgd_layer2_clear
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 命
+
+voice_play v10665.wav
+
+line_set 「ふあ……」
+
+nvl_on
+
+line_set 命が東京タワーを完成させたところで、大きな欠伸を一つした。
+line_set 気が付けば辺りは茜色に染まっていた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ああ…もうこんな時間か」
+line_set 「眠たくなったか？」
+
+name_set 命
+
+voice_play v10666.wav
+
+line_set 「そんなことないよ…んにゅにゅ…」
+
+nvl_on
+
+line_set そう言う命の頭はフラフラと船を漕いでいる。
+line_set 貴広はそっと命の指から紐を抜き取り、引き出しにしまった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「さ、夕食を食べに行くか？」
+
+name_set 命
+
+voice_play v10667.wav
+
+line_set 「んにゅ…ゴハン…」
+
+name_set 貴広
+
+line_set 「ほれ、行くぞ」
+
+nvl_on
+
+line_set 貴広の声に、命は瞼を擦りながらフラフラと左右に揺れながら立ち上がる。
+line_set 貴広は半ば抱えるようにして、命と食堂に向かった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1225.KGD
+kgd_layer1_set 0 BG032.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+
+kgd_layer3_set 0 KA002.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set かずさ
+
+voice_play v10668.wav
+
+line_set 「あら？早いね旦那」
+
+name_set 貴広
+
+line_set 「コイツが寝てしまう前に、食事を摂らせようと思ってな」
+line_set 「すぐ作れるか？」
+
+name_set かずさ
+
+voice_play v10669.wav
+
+line_set 「あらあら」
+
+voice_play v10670.wav
+
+line_set 「わかった、サッと作るね」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set かずさは、貴広に寄りかかるようにして立っている命を見て微笑み、厨房へ入っていった。
+line_set 貴広は命を椅子に座らせ、自分も席に着く。
+
+adv_on
+
+kgd_layer3_set 0 KA005.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set かずさ
+
+voice_play v10671.wav
+
+line_set 「お待たせ」
+
+name_set 貴広
+
+line_set 「相変わらず速いな…」
+line_set 「それに今日はあの怪鳥声を出さなかったな」
+
+kgd_layer3_set 3 KA002.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v10672.wav
+
+line_set 「命ちゃんを起こしちゃうといけないしね」
+
+name_set 貴広
+
+line_set 「なんだ、声を出さなくても出来るんじゃないか」
+
+name_set かずさ
+
+voice_play v10673.wav
+
+line_set 「気合いの入れ方の違いよ」
+
+voice_play v10674.wav
+
+line_set 「美味しいことには変わりはないけどね」
+
+voice_play v10675.wav
+
+line_set 「さ、旦那も命ちゃんも、冷めないうちにどうぞ♪」
+
+name_set 貴広
+
+line_set 「うむ」
+
+kgd_layer3_set 3 MI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10676.wav
+
+line_set 「うん…んにゅ～…」
+
+voice_play v10677.wav
+
+line_set 「あむ……もぐ……もぐ………もぐ………」
+
+name_set 貴広
+
+line_set 「こりゃ、食べ終わるのにいつまで掛かるかわからんな」
+
+kgd_layer3_set 3 KA002.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v10678.wav
+
+line_set 「ふふ…」
+
+name_set 貴広
+
+line_set 「？」
+line_set 「なんかおもしろいか？」
+
+name_set かずさ
+
+voice_play v10679.wav
+
+line_set 「なんか旦那と命ちゃん、親子みたいだなぁって思って」
+
+voice_play v10680.wav
+
+line_set 「ということは、食事を作る私はお母さん？旦那の奥さん？」
+
+name_set 貴広
+
+line_set 「カンベンしてくれ。こんな騒がしい嫁に子供じゃ、体がもたん」
+
+name_set かずさ
+
+voice_play v10681.wav
+
+line_set 「えへへ…」
+
+voice_play v10682.wav
+
+line_set 「あらら、命ちゃんがご飯に顔を突っ込んじゃうよ」
+
+kgd_layer3_set 3 MI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 貴広
+
+line_set 「おっとっと、飯ぐらいまともに食べてくれよ」
+
+name_set 命
+
+voice_play v10683.wav
+
+line_set 「ん～…」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 貴広は、半分寝てる状態の命に食事を摂らせるのに悪戦苦闘しつつ、なんとか食べ終わらせると、
+line_set 抱え上げて、かずさに冷やかされながら食堂を後にした。
+
+adv_on
+
+kgd_layer1_set 0 BG005.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 MI011.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「ほら、ちゃんと歩かないとつまずくぞ」
+
+name_set 命
+
+voice_play v10684.wav
+
+line_set 「ん…えへへ～」
+
+name_set 貴広
+
+line_set 「どうした？　なんか面白かったか？」
+
+name_set 命
+
+voice_play v10685.wav
+
+line_set 「貴広ってパパみたいだ」
+
+name_set 貴広
+
+line_set 「パパ？！」
+
+nvl_on
+
+line_set 意外な答えに、貴広は目を見開き、素っ頓狂な声を上げた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「命のパパってのは、俺に似てるのか？」
+
+name_set 命
+
+voice_play v10686.wav
+
+line_set 「ううん、命のパパはいないんだって。飯島が言ってた」
+
+voice_play v10687.wav
+
+line_set 「でも、どんな人がパパか、ご本で読んだよ」
+
+voice_play v10688.wav
+
+line_set 「一緒に遊んでくれたり、大事な会議をしたり、ママに怒られたり、貴広にピッタリ！」
+
+voice_play v10689.wav
+
+line_set 「貴広はパパだよね」
+
+name_set 貴広
+
+line_set 「え、あ、ああ…」
+
+nvl_on
+
+line_set 「う～む…遊んだり会議をしたりってのは解るが、ママに怒られたりてのは…」
+line_set 「やっぱり霧島とのことを言ってるんだろうな…」
+line_set 「パパの条件にそんなのが入ってる本て、いったい…」
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 貴広は割り当てられた部屋に命を寝かせ、安らかな寝顔の命のおでこを撫でた。
+
+adv_on
+
+name_set 命
+
+voice_play v10690.wav
+
+line_set 「おやすみなさい、パパ…」
+
+name_set 貴広
+
+line_set 「え？…ま、いいか」
+line_set 「おやすみ」
+
+nvl_on
+
+line_set 部屋の灯りを消したところで言った命の呟きに、貴広は一瞬ギョッとしたが、
+line_set 肩をすくめ、微笑んで返事した。
+
+adv_on
+
+music_stop1
+
+kgd_layer2_clear
+
+ksd_set 1226Z.KSD
+ksd_end

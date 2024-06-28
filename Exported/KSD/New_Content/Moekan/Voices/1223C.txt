@@ -1,0 +1,621 @@
+story_progress 358
+
+kgd_layer1_set 0 W1223.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer1_solidcolor -1 255
+wait 2000
+
+kgd_layer1_fx 2
+
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1223.KGD
+music_play_moekan 016.WAV
+
+nvl_on
+
+line_set 遠くに海鳥の声が聞こえ、朝の光が瞼を起きろと刺激する。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ん…」
+
+kgd_layer1_set 0 BG027.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 3
+kgd_layer1_solidcolor 0 0
+name_set 貴広
+
+line_set 「朝か…」
+
+name_set ？？？
+
+voice_play 20694.wav
+
+line_set 「すぅ…すぅ…すぅ……」
+
+name_set 貴広
+
+line_set 「…」
+
+kgd_layer2_clear
+
+gallery_unlock 167
+
+kgd_layer1_set 1 N127.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「ほ……」
+
+nvl_on
+
+line_set 貴広は腕にしがみついて寝る鈴希の姿とその感触に安堵の息をもらした。
+
+adv_on
+
+name_set 貴広
+
+line_set 「鈴希、朝だぞ」
+
+name_set 鈴希
+
+voice_play 20695.wav
+
+line_set 「ん…」
+
+nvl_on
+
+line_set 鈴希は朝日が眩しかったのか、貴広の腕に顔を押しつける。
+
+line_set 鈴希の細い息が貴広の肌をくすぐった。
+adv_on
+
+name_set 貴広
+
+line_set 「ほら、起きろ」
+
+nvl_on
+
+line_set 貴広は微笑みながら鈴希の頭をポンポンと叩いた。
+
+adv_on
+
+name_set 鈴希
+
+voice_play 20696.wav
+
+line_set 「ふあ…」
+
+nvl_on
+
+line_set 鈴希は眠そうに、まぶたをこすりながらベッドから下りた。
+
+adv_on
+
+kgd_layer1_set 1 BG027.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1223.KGD
+kgd_layer3_set 0 SU009.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 貴広
+
+line_set 「おはようさん」
+
+name_set 鈴希
+
+voice_play 20697.wav
+
+line_set 「お…おはよう…」
+
+name_set 貴広
+
+line_set 「さ、着替えて食事にしよう」
+
+name_set 鈴希
+
+voice_play 20698.wav
+
+line_set 「うん」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG004.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+name_set おやじさん
+
+voice_play v09453.wav
+
+voice_play v09453.wav
+line_set 「貴広！」
+
+kgd_layer3_set 0 SO028.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 貴広
+
+line_set 「なんだ、おやじさんか」
+
+line_set 「どうかしたのか？」
+name_set おやじさん
+
+voice_play v09454.wav
+
+voice_play v09454.wav
+line_set 「昨日リニアの嬢ちゃんが来て、目の調子が悪いから診てくれって言うからよ」
+
+voice_play v09455.wav
+
+voice_play v09455.wav
+line_set 「別に異常はなかったんだが、なにかあったのか？」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「いや、別にないよ」
+line_set 「あいつの勘違いかなんかだろ」
+kgd_layer3_set 3 SO018.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09456.wav
+
+voice_play v09456.wav
+line_set 「それならいいんだが」
+
+name_set 貴広
+
+line_set 「…おやじさん、鈴希は見えるか？」
+
+name_set おやじさん
+
+voice_play v09457.wav
+
+voice_play v09457.wav
+line_set 「は？」
+
+voice_play v09458.wav
+
+voice_play v09458.wav
+line_set 「すずき？」
+
+name_set 貴広
+
+line_set 「ここにいるヤツだ」
+
+kgd_layer3_set 3 SU001.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+nvl_on
+
+line_set 貴広はそう言って隣を指差した。
+
+line_set 鈴希は貴広のジャケットを掴んだまま、おやじさんを見上げている。
+adv_on
+
+kgd_layer3_set 3 SO031.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09459.wav
+
+voice_play v09459.wav
+line_set 「お！？いたのか！？」
+
+voice_play v09460.wav
+
+voice_play v09460.wav
+line_set 「初めて見る顔だな、新人か？」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「あ、ああ…」
+kgd_layer3_set 3 SO026.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09461.wav
+
+voice_play v09461.wav
+line_set 「よろしくな、えっと…なんて名前だっけな…」
+
+name_set 貴広
+
+line_set 「鈴希だ」
+
+name_set おやじさん
+
+voice_play v09462.wav
+
+voice_play v09462.wav
+line_set 「おお、鈴希の嬢ちゃんだな」
+
+voice_play v09463.wav
+
+voice_play v09463.wav
+line_set 「よろしく」
+
+nvl_on
+
+line_set おやじさんは笑いながら鈴希の頭を撫でた。
+
+adv_on
+
+name_set おやじさん
+
+voice_play v09464.wav
+
+voice_play v09464.wav
+line_set 「じゃあ、リニアの嬢ちゃんに異常ねぇって、貴広からも言っておいてくれ」
+
+voice_play v09465.wav
+
+voice_play v09465.wav
+line_set 「その方が安心するだろう」
+
+name_set 貴広
+
+line_set 「わかった」
+
+name_set おやじさん
+
+voice_play v09466.wav
+
+voice_play v09466.wav
+line_set 「じゃあな」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+nvl_on
+
+line_set 去っていくおやじさんの目には、すでに鈴希の姿は映っていなかった。
+
+adv_on
+
+kgd_layer3_set 0 SU001.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 鈴希
+
+line_set 「…」
+
+name_set 貴広
+
+line_set 「……」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+nvl_on
+
+line_set 貴広は食事を済ますと鈴希をつれて医務室に向かった。
+
+adv_on
+
+kgd_layer1_set 0 BG051.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 017.WAV
+
+name_set 貴広
+
+line_set 「かずさ」
+
+kgd_layer2_clear
+
+gallery_unlock 169
+
+kgd_layer1_set 1 N129.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 貴広は鈴希をベッドに座らせて、かずさの前にしゃがみこむ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「かずさ、他の者が鈴希に気付かないようになっている」
+
+line_set 「これはまさか…」
+nvl_on
+
+line_set かずさは聞こえるか聞こえないかまで声をひそめて言った。
+
+adv_on
+
+name_set かずさ
+
+line_set 「………」
+
+line_set 「鈴希ちゃんの存在が希薄になってきてるのね…」
+name_set 貴広
+
+line_set 「やはり…」
+
+line_set 「どうにかならないのか…」
+name_set かずさ
+
+line_set 「これは私にも、どうにもならない…」
+
+line_set 「鈴希ちゃんの存在が消えてしまうのは明日なのか…次の瞬間なのか…」
+line_set 「でも、記憶からも消えてしまうから、悲しみもすぐに消える…」
+name_set 貴広
+
+line_set 「ふざけるな！！　そんなことがいいわけないだろ！！」
+
+name_set かずさ
+
+line_set 「…」
+
+name_clear
+
+line_set クイ…
+
+name_set 貴広
+
+line_set 「？」
+
+kgd_layer1_set 1 BG051.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1223.KGD
+kgd_layer3_set 0 SU025.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+nvl_on
+
+line_set 興奮してしまった貴広は袖を引っ張られる感覚に後ろを振り向いた。
+
+line_set 後ろから心配そうな顔をした鈴希が袖を掴んでいたのだった。
+adv_on
+
+name_set 鈴希
+
+voice_play 20700.wav
+
+line_set 「かずさを怒らないで…」
+
+name_set 貴広
+
+line_set 「あ、いや…怒ったわけじゃないんだ…怒ったわけじゃ…」
+
+line_set 「すまん…つい声を荒げてしまった」
+name_set かずさ
+
+line_set 「…」
+
+nvl_on
+
+line_set かずさも悲しげに瞳を伏せた。
+
+line_set かずさなりの励ましであったのだろう。
+adv_on
+
+name_set 貴広
+
+line_set 「悪気はなかったことはわかっていたんだが…すまん」
+
+line_set 「…」
+line_set 「今日は仕事は休みだ」
+line_set 「鈴希、なにがしたい？」
+kgd_layer3_set 3 SU022.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 鈴希
+
+voice_play 20701.wav
+
+line_set 「ん…」
+
+line_set 「…」
+voice_play 20703.wav
+
+line_set 「貴広がいてくれればいい…」
+
+name_set 貴広
+
+line_set 「そうか…」
+
+line_set 「じゃあ、一緒にいよう」
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_set 1 BG004.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 016.WAV
+
+nvl_on
+
+line_set 貴広は鈴希と手を繋いで屋敷内を見回った。
+
+line_set 不思議と、誰もそれを見なかった。
+line_set 鈴希の存在に気づけなくなっていたのだ。
+line_set 貴広に言われて気づくのがほとんどであった。
+adv_on
+
+kgd_layer1_set 1 BG023.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「ふぅ……」
+
+nvl_on
+
+line_set 貴広はギシリと音を立てて椅子に深く腰掛け、溜息をもらす。
+
+nvl_line_clear
+
+line_set 「想像以上に鈴希の存在は薄くなっているらしい…」
+
+line_set 「本当にどうにかならんのか…」
+adv_on
+
+name_set 貴広
+
+line_set 「ん？」
+
+line_set 「どこだ！？鈴希！！」
+line_set 「鈴希！！」
+nvl_on
+
+line_set 椅子を後ろに倒して立ち上がる貴広。
+
+adv_on
+
+kgd_layer3_set 0 SU005.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 鈴希
+
+line_set 「？」
+
+nvl_on
+
+line_set 鈴希が机の向こうから顔を出して、不思議そうな顔をした。
+
+adv_on
+
+name_set 貴広
+
+line_set 「はぁ～…驚かすなよ…」
+
+line_set 「なにしてるんだ？」
+kgd_layer3_set 3 SU001.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 鈴希
+
+voice_play 20705.wav
+
+line_set 「雑巾がけ…」
+
+nvl_on
+
+line_set 見ると、鈴希は雑巾で机の足を拭いていた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「俺の見えるところでやってくれ…お願いだ…」
+
+name_set 鈴希
+
+voice_play 20706.wav
+
+line_set 「わかった…」
+
+nvl_on
+
+line_set そう言うと鈴希は貴広側に回り込み、机の足をコシコシと拭き始めた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「まあいいか…」
+
+nvl_on
+
+line_set 鈴希の頭を優しく撫でる貴広。
+
+line_set 目の前に置いて、その手で触れても不安が消えることはなかった。
+adv_on
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+wait 1000
+
+kgd_layer1_set 0 BG029.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_clear
+gallery_unlock 164
+
+kgd_layer1_set 1 N124.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 寝室で横になる貴広。
+
+line_set 横には鈴希がすでに寝息を立てている。
+adv_on
+
+name_set 鈴希
+
+voice_play 20707.wav
+
+line_set 「すぅ…すぅ…すぅ…」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set 貴広はそっと鈴希の頭を撫でた。
+
+line_set 貴広は眠るのが怖かった。
+line_set 起きた時に鈴希はもういないのではないかと思うと、なかなか寝付けなかった。
+line_set それでも鈴希の気持ちよさげな寝顔を見ているうちにいつの間にか眠りについていた。
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+ksd_set 1224C.KSD
+
+ksd_end

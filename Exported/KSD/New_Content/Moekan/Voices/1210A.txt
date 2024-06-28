@@ -1,0 +1,2188 @@
+story_progress 275
+
+kgd_layer1_set 0 W1210.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+wait 2000
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+gallery_unlock 367
+
+kgd_layer1_set 0 N327.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 005.WAV
+
+nvl_on
+
+line_set 「ここの風景……」
+
+nvl_line_clear
+
+line_set 「知っている…」
+
+nvl_line_clear
+
+line_set 「俺は……」
+
+nvl_line_clear
+
+line_set そこは、まったく知らない風景……。
+
+nvl_line_clear
+
+line_set でも、そこは、見慣れた風景……。
+
+nvl_line_clear
+
+line_set 朽ち果てた、大きな自転車が見える……。
+
+nvl_line_clear
+
+line_set 世界の夢を見る、少女の躯が眠る……。
+
+nvl_line_clear
+
+line_set 遠くで鳴り響く、鐘の音……。
+
+nvl_line_clear
+
+line_set 世界の果てにある、遠い言葉……。
+
+nvl_line_clear
+
+line_set 遠い言葉……。
+
+adv_on
+
+name_set ？？？
+
+voice_play 51276.wav
+
+line_set 「貴広さん……」
+
+music_stop1
+
+kgd_layer1_set 1 BG027.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1210.KGD
+name_set 貴広
+
+line_set 「？！」
+
+nvl_on
+
+line_set 「……」
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+line_set 「なんか……、変な夢を見た……」
+line_set 「……」
+line_set 「…………」
+line_set 「ような気がするが……」
+music_play_moekan 023.WAV
+
+nvl_on
+
+line_set ゆっくりとベッドからはい上がると、ベット元にある時計に目をやる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「６時半か…結構早く起きたな…」
+
+name_set 貴広
+
+line_set 「そうだな…リニアになんか食べ物でももっていってやるか…」
+
+line_set 「自分であまり動けないだろうしな…」
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+line_set 貴広はすぐにシャワーを浴びて自室を出た。
+
+adv_on
+
+kgd_layer1_set 0 BG004.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 KI001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 霧島
+
+voice_play 40742.wav
+
+line_set 「所長…、早いでちゅね…」
+
+name_set 貴広
+
+line_set 「お前こそ、こんな時間からもうスーツなんだな」
+
+name_set 霧島
+
+voice_play 40743.wav
+
+line_set 「いろいろと仕事が多くて……」
+
+name_set 貴広
+
+line_set 「すまないな…」
+
+kgd_layer3_set 3 KI012.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40744.wav
+
+line_set 「わがままな上司を持つと大変でちゅよ…」
+
+name_set 貴広
+
+line_set 「迷惑をかけているな……」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+name_set 貴広
+
+line_set 「…」
+
+line_set 「さてと……」
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+line_set 貴広は食堂で朝食セットを買って、リニアの元に向かう。
+
+adv_on
+
+kgd_layer1_set 0 BG004.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+sfx_set 0 SE014.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set コン…コン……
+
+sfx_stop 0
+
+sfx_unset 0
+name_set 貴広
+
+line_set 「リニア起きているか？」
+
+name_clear
+
+line_set 「…」
+
+name_set 貴広
+
+line_set 「勝手に入るぞ……」
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+sfx_set 0 SE015.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set がちゃ…
+
+sfx_stop 0
+
+sfx_unset 0
+kgd_layer1_set 0 BG060.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 009.WAV
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set どうやらリニアはまだ寝ているらしい。
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 83
+
+kgd_layer1_set 1 N043.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「リニア！」
+
+name_set リニア
+
+voice_play 51277.wav
+
+line_set 「す～」
+
+name_set 貴広
+
+line_set 「気持ちよさそうに寝ているな…」
+
+line_set 「とりあえず、この朝食を置いておくか…」
+line_set 「鮭とご飯はいいが…みそ汁が冷えてしまうのが気にかかるが…」
+line_set 「冷えたみそ汁を飲んで死ぬという事もあるまい」
+gallery_unlock 82
+
+kgd_layer1_set 1 N042.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 51278.wav
+
+line_set 「あれ…貴広さんですか？」
+
+name_set 貴広
+
+line_set 「目が覚めたか？」
+
+gallery_unlock 79
+
+kgd_layer1_set 1 N039.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 51279.wav
+
+line_set 「はい、おはようございます……」
+
+name_set 貴広
+
+line_set 「どうだ調子は？」
+
+gallery_unlock 84
+
+kgd_layer1_set 1 N044.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 51280.wav
+
+line_set 「もしかして…、リニアの様子を見にわざわざこんな朝早く…」
+
+name_set 貴広
+
+line_set 「いや、朝早く来たのはたまたま目が覚めたからだ……」
+
+gallery_unlock 87
+
+kgd_layer1_set 1 N047.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 51281.wav
+
+line_set 「本来なら、リニアが貴広さんを起こしに行かなければならないのに……」
+
+name_set 貴広
+
+line_set 「とりあえず、そんな反省は後だ…、メシが冷えるからとっとと食え…」
+
+gallery_unlock 84
+
+kgd_layer1_set 1 N044.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 51282.wav
+
+line_set 「え？もしかして、この朝食はリニアのために…？」
+
+name_set 貴広
+
+line_set 「これも仕事だ」
+
+line_set 「出来損ないのメイドのせいで仕事が増えてたまらんがな……」
+gallery_unlock 87
+
+kgd_layer1_set 1 N047.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 51283.wav
+
+line_set 「ごめんなさい…。今日から、ちゃんと仕事をします。もう動けますから…」
+
+name_set 貴広
+
+line_set 「アホか…そうやって貴様は俺の仕事を増やしていく気なのか」
+
+line_set 「貴様が動けば動くほど、俺の仕事が増える」
+line_set 「だから、当分は休みの日だ、人に迷惑かけるぐらいならベットでおとなしくしていろ」
+name_set リニア
+
+voice_play 51284.wav
+
+line_set 「はい……すみません…」
+
+name_set 貴広
+
+line_set 「ったく…体を壊して、少しは学んだと思っていたが、まだそんな認識なのか…お前は」
+
+line_set 「バカは死んでも直らないというが、本当にお前のバカは直らなそうだな」
+name_set リニア
+
+voice_play 51285.wav
+
+line_set 「直りませんか…」
+
+name_set 貴広
+
+line_set 「ああ、お前のバカは直らんな…」
+
+name_clear
+
+line_set きゅ～
+
+name_set リニア
+
+voice_play 51286.wav
+
+line_set 「あ…」
+
+name_set 貴広
+
+line_set 「…」
+
+gallery_unlock 84
+
+kgd_layer1_set 1 N044.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set リニアのお腹の音が鳴る。
+
+nvl_line_clear
+
+line_set 「お腹が鳴るなんてどこまでアンドロイドくさくないアンドロイドなんだろうか？」
+
+adv_on
+
+name_set 貴広
+
+line_set 「ほら…とっとと食え、メシが冷える。せっかく俺様が買ってきたメシだ」
+
+name_set リニア
+
+voice_play 51287.wav
+
+line_set 「そうだ…貴広さんも御いっしょにどうですか？」
+
+name_set 貴広
+
+line_set 「ああ、俺ならもう食った、さっきお前のＡ朝食を買って来るときにな…」
+
+line_set 「だから、もういい…」
+name_set リニア
+
+voice_play 51288.wav
+
+line_set 「そうなんですか…、貴広さんとお食事をご一緒できたらよかったですね……」
+
+name_set 貴広
+
+line_set 「まあ、そういう事なんでな…」
+
+name_clear
+
+line_set ぐぅ～
+
+name_set 貴広
+
+line_set 「あ…」
+
+name_set リニア
+
+line_set 「……」
+
+name_set 貴広
+
+line_set 「……」
+
+name_set リニア
+
+line_set 「………」
+
+name_set 貴広
+
+line_set 「…………」
+
+gallery_unlock 87
+
+kgd_layer1_set 1 N047.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_clear
+
+line_set ぐい…
+
+name_set 貴広
+
+line_set 「ん？」
+
+nvl_on
+
+line_set 立ち去ろうとする貴広の背広の裾をリニアの手がつかんでいる。
+
+adv_on
+
+name_set リニア
+
+voice_play 51291.wav
+
+line_set 「あの…、リニアのワガママ聞いてくださりませんか？」
+
+name_set 貴広
+
+line_set 「なんだそりゃ？」
+
+name_set リニア
+
+voice_play 51292.wav
+
+line_set 「あの…本で、病気になると、少しだけワガママを聞いてもらえるって書いてありました…」
+
+voice_play 51293.wav
+
+line_set 「リニアも、今日、一つのワガママを言ってはだめでしょうか…」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set 貴広が振り向く。
+
+adv_on
+
+name_set リニア
+
+voice_play 51294.wav
+
+line_set 「だ、だめですか？」
+
+name_set 貴広
+
+line_set 「しかたないな…このバカメイドめ…」
+
+nvl_on
+
+line_set 貴広はリニアのベットに座る。
+
+adv_on
+
+name_set リニア
+
+voice_play 51295.wav
+
+line_set 「えへへへ…、よかった……」
+
+gallery_unlock 72
+
+kgd_layer1_set 1 N032.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 51296.wav
+
+line_set 「お箸…お箸…」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set 微妙にだが、まだリニアの手は震えているようであった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おいノロマ、手が動かなくて、箸がつかみ難いんであろう…」
+
+name_set リニア
+
+voice_play 51297.wav
+
+line_set 「え？あ？そ、そんな…」
+
+nvl_on
+
+line_set 貴広は箸を持ってやる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ご主人様はお前のワガママ聞いてやっているのだから、いちいち口答えするなアホ！」
+
+name_set リニア
+
+voice_play 51298.wav
+
+line_set 「え、あ……、ごめんなさいです…」
+
+name_set 貴広
+
+line_set 「ほれ…食わしてやるから、貴様は口だけをアホの子みたいに開けておれ」
+
+gallery_unlock 74
+
+kgd_layer1_set 1 N034.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 51299.wav
+
+line_set 「あ、はい…あうあ～」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「本当にアホの子みたいだぞ…」
+name_set リニア
+
+voice_play 51300.wav
+
+line_set 「だ、だって貴広さんが…」
+
+name_set 貴広
+
+line_set 「うるさい！ほら！口をアホの子みたいに開けれ！」
+
+name_set リニア
+
+voice_play 51301.wav
+
+line_set 「あうあ～」
+
+name_set 貴広
+
+line_set 「ぷぷぷぷ…無様な…」
+
+name_set リニア
+
+voice_play 51302.wav
+
+line_set 「あうあ～」
+
+name_set 貴広
+
+line_set 「それ…」
+
+name_set リニア
+
+voice_play 51303.wav
+
+line_set 「あむ…」
+
+voice_play 51304.wav
+
+line_set 「けほ…けほ…」
+
+name_set 貴広
+
+line_set 「あ…すまん…なんか大口開けているとのどチンコに鮭を当てたくなってな…さすがに咽せたか？」
+
+name_set リニア
+
+voice_play 51305.wav
+
+line_set 「けほ…けほ…だ、大丈夫ですよ…けほ…」
+
+gallery_unlock 72
+
+kgd_layer1_set 1 N032.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「そうか…むしゃ、むしゃ…」
+
+name_set リニア
+
+voice_play 51306.wav
+
+line_set 「ああああああ、鮭がどんどんなくなっていきますぅ……」
+
+nvl_on
+
+line_set リニアは少し悲しそうに無くなっていく鮭を見つめる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「俺と食うなんて言うからこんな事になるんだよ……パクパク…」
+
+name_set リニア
+
+voice_play 51307.wav
+
+line_set 「でも、でも、貴広さんとお食事したかったのですもの……」
+
+name_set 貴広
+
+line_set 「はい、はい、ほれ、次はご飯…」
+
+gallery_unlock 73
+
+kgd_layer1_set 1 N033.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 51308.wav
+
+line_set 「あ、あ～ん」
+
+name_set 貴広
+
+line_set 「違う！アホの子の顔で！！！」
+
+name_set リニア
+
+voice_play 51309.wav
+
+line_set 「あ、あう…あうあ～」
+
+name_set 貴広
+
+line_set 「くくくく…アホの顔しやがって…」
+
+name_set リニア
+
+voice_play 51310.wav
+
+line_set 「う……、わ、笑わないでください……」
+
+name_set 貴広
+
+line_set 「うるさい、貴様のワガママを聞いているのだからそれぐらいの要求は、お前もこなせ」
+
+name_set リニア
+
+voice_play 51311.wav
+
+line_set 「あ、あう…」
+
+name_set 貴広
+
+line_set 「ほら…口を大きくあけろ、アホの子の顔だ」
+
+name_set リニア
+
+voice_play 51312.wav
+
+line_set 「あ、あうあ～あ～」
+
+name_set 貴広
+
+line_set 「ほれ！」
+
+name_set リニア
+
+voice_play 51313.wav
+
+line_set 「むぅ？！！けほっけほっ…」
+
+gallery_unlock 72
+
+kgd_layer1_set 1 N032.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「むう…さすがに米の塊をのどチンコに当てたのはまずかったか？」
+
+name_set リニア
+
+voice_play 51314.wav
+
+line_set 「けほ…けほ…けほ…」
+
+nvl_on
+
+line_set リニアは涙顔で咳き込む。
+
+adv_on
+
+name_set 貴広
+
+line_set 「しかたないな…ご主人様がなぜこんな事をしなければならないのか…」
+
+nvl_on
+
+line_set 貴広はベットの元にあった水差しでリニアの口に水を運んでやる。
+
+adv_on
+
+name_set リニア
+
+voice_play 51315.wav
+
+line_set 「あ、ありがとうございました…貴広さんがあまりに早く食べるのでリニアも急いで食べたのですが」
+
+name_set 貴広
+
+line_set 「なんだ…急いで食べようとして咽せたのか…」
+
+line_set 「のどチンコに当てたから咽せたと思ったのだが…」
+line_set 「まぁ、俺の真似して急いで食おうとしても無駄だ、人にはスピードってものがあるからな」
+name_set リニア
+
+voice_play 51316.wav
+
+line_set 「スピードですか？」
+
+name_set 貴広
+
+line_set 「そうだ…人にはそれぞれ生きるスピードつーのがあるわけだ」
+
+line_set 「それに準じて食べる速度も違うんだよ、お前はノロマだから、ノロマはノロマらしく食べるんだ」
+line_set 「アホの子の顔してな」
+name_set リニア
+
+voice_play 51317.wav
+
+line_set 「あ、アホの子の顔は貴広さんがやらしているような気が……」
+
+name_set 貴広
+
+line_set 「うるさい！とっとと食え！！ほら口開けろ！！」
+
+name_set リニア
+
+voice_play 51318.wav
+
+line_set 「あ、は、はい…、あ～ん」
+
+name_set 貴広
+
+line_set 「だから！アホの子の顔だって言っておるだろうが！！！！」
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+gallery_unlock 79
+
+kgd_layer1_set 0 N039.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+name_set リニア
+
+voice_play 51319.wav
+
+line_set 「えへへへへ、ありがとうございました。リニアのワガママ聞いてくださって…」
+
+nvl_on
+
+line_set リニアは布団の中でうれしそうに微笑む。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ああ…」
+
+name_set リニア
+
+voice_play 51320.wav
+
+line_set 「貴広さんがこんなにやさしくしてくださったからには、リニア今日一日おとなしく寝てます」
+
+voice_play 51321.wav
+
+line_set 「がんばって、風邪を治しますよ」
+
+name_set 貴広
+
+line_set 「いや、風邪じゃないだろ……お前のは……」
+
+line_set 「まぁ…お前が寝ていればこの屋敷にも平和が訪れるから、願ったりかなったりだが」
+name_set リニア
+
+voice_play 51322.wav
+
+line_set 「ううう……、反論が出来ません……。鬱です…」
+
+name_set 貴広
+
+line_set 「まぁ、いいや」
+
+line_set 「養生してろよ」
+name_set リニア
+
+voice_play 51323.wav
+
+line_set 「はい、ありがとうございました」
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG084.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 012.WAV
+
+kgd_layer2_set_moekan 1210.KGD
+
+name_set 整備士
+
+line_set 「あ、所長」
+
+nvl_on
+
+line_set おやじさんのところの若い整備士とすれ違う。
+
+adv_on
+
+name_set 貴広
+
+line_set 「目にくま作ってるな…、徹夜か？」
+
+name_set 整備士
+
+line_set 「いや、おやじさんの方が大変ですよ、いろいろと奔走しているみたいですよ」
+
+line_set 「なんせ、電話線がない場所ですからね」
+name_set 貴広
+
+line_set 「電話線があったとしても、そんなものは使えないさ…」
+
+line_set 「カンパニーの作ったモノはまず信用出来ないからな…」
+line_set 「その代わり、この島の地下には電話回線なんかよりいい物がたくさんあるだろう……」
+name_set 整備士
+
+line_set 「しかし、すごいですね、所長…。さすがは情報部特殊情報課特伊部隊といったところですね」
+
+line_set 「この島にあんなものがあるなんて……」
+line_set 「あれって？旧米軍のものですか？」
+name_set 貴広
+
+line_set 「まぁ、そんなところだな…」
+
+name_set 整備士
+
+line_set 「しかし、すごいっスよ。世界中から部品の情報が集まってきてます…」
+
+line_set 「さすが、ＰＩＸＩＥＳがスパイ活動しているだけはありますね」
+name_set 貴広
+
+line_set 「ばか、そんな軽々しく口にするな…。一昔前だったら、口封じで殺してるぞ…」
+
+name_set 整備士
+
+line_set 「うわぁ、こわ…」
+
+nvl_on
+
+line_set と怖がるポーズをとるが、もちろん本気で怖がっているわけではない。
+
+line_set ＰＩＸＩＥＳ時代の貴広を知っているものなら、冗談だとしても冗談と聞こえないが、
+line_set 今の貴広しか知らない、整備士とっては、貴広の『殺している』なんて言葉は、
+line_set なんのリアリティもないものだからだ…。
+adv_on
+
+name_set 貴広
+
+line_set 「そうだ、怖いぞ…。だから、みんなには黙っていてくれよ」
+
+name_set 整備士
+
+line_set 「なに言ってるんですか、自白剤を打たれたってしゃべりませんよ」
+
+line_set 「なんせ、我らが天使を守るためなんですから！」
+name_set 貴広
+
+line_set 「くくくく、天使か…、お前達はまだそんな事を言っているのか…」
+
+name_set 整備士
+
+line_set 「あ、なに笑っているんですか、所長だってゆるしませんよ、そんな台詞は！」
+
+name_set 貴広
+
+line_set 「すまん、すまん…」
+
+name_set 整備士
+
+line_set 「でも、リニアさんを絶対に救って、みせますよ…」
+
+line_set 「なんていっても」
+line_set 「彼女の悲しむ姿なんて、俺たち見たくないスからね……」
+name_set 貴広
+
+line_set 「……」
+
+name_set 整備士
+
+line_set 「それに…」
+
+line_set 「元ＰＩＸＩＥＳのエースの神崎貴広と」
+line_set 「ＬＡＢの元筆頭工学博士だったおやじさんがいるのですから」
+line_set 「不可能なんてないスよ……」
+name_set 貴広
+
+line_set 「元ＬＡＢの研究員だったって……」
+
+line_set 「おやじさん、その過去は相当嫌っているみたいだから、あんまり口にださない方がいいぞ……」
+name_set 整備士
+
+line_set 「あ、そうだった……、これ言うとおやじさんにスゲー怒られるんスよ……」
+
+line_set 「でも、ロボット工学の神と言われた人なんですから、ＬＡＢにいて当然じゃないですか…」
+line_set 「なんで怒るのかな……」
+name_set 貴広
+
+line_set 「まぁ、人にはそれぞれ触れられたくない過去があるものさ……」
+
+line_set 「特に、カンパニーの中心に関わっていたなら、なおさら……」
+name_set 整備士
+
+line_set 「？」
+
+name_set 貴広
+
+line_set 「ああ、すまない……、個人的な話だ……」
+
+line_set 「それより、お前も、仕事の途中じゃないのか？」
+name_set 整備士
+
+line_set 「あ、そうだ！！！」
+
+line_set 「とりあえず、これからまだやらなきゃいけない仕事がたくさんあるので、これで失礼するっす！！」
+name_set 貴広
+
+line_set 「ああ、がんばってくれ…」
+
+kgd_layer1_set 1 BG041.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer3_set 0 SO026.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set おやじさん
+
+voice_play v04714.wav
+
+voice_play v04714.wav
+line_set 「おお、貴広か…」
+
+name_set 貴広
+
+line_set 「どうだ？」
+
+name_set おやじさん
+
+voice_play v04715.wav
+
+voice_play v04715.wav
+line_set 「ははは、さすがだな…、お前の力は」
+
+voice_play v04716.wav
+
+voice_play v04716.wav
+line_set 「順調に部品はそろっているようだぞ」
+
+name_set 貴広
+
+line_set 「そうか…、まぁ、俺の力ではなく、ＰＩＸＩＥＳの連中の力だがな…」
+
+kgd_layer3_set 3 SO028.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v04717.wav
+
+voice_play v04717.wav
+line_set 「しかし、どうやって連絡をするんだ？電話も無線も使わずに…」
+
+name_set 貴広
+
+line_set 「ふふふ…、それは企業秘密だ…、教えられない」
+
+line_set 「まぁ、スパイというのはあらゆる連絡手段をもっているからな…」
+line_set 「ハイテクだけが連絡手段ではないさ、ローテクだって十分に使える」
+name_set おやじさん
+
+voice_play v04718.wav
+
+voice_play v04718.wav
+line_set 「え？ローテクって？のろしでもあげるのか？？」
+
+name_set 貴広
+
+line_set 「はははは、使った事もあるが、今回はさすがに使えないさ…」
+
+line_set 「まぁ、手段はローテクだが、その中身はハイテクなのだがな……」
+name_set おやじさん
+
+voice_play v04719.wav
+
+voice_play v04719.wav
+line_set 「だが、ここからだな…」
+
+name_set 貴広
+
+line_set 「ここから…」
+
+name_set おやじさん
+
+voice_play v04720.wav
+
+voice_play v04720.wav
+line_set 「ああ、ここまでは、カンパニー外からでも手に入れられるものだ…」
+
+voice_play v04721.wav
+
+voice_play v04721.wav
+line_set 「だが、これからいくつかは、たぶんカンパニーぐらいしかもっていないだろうな…」
+
+name_set 貴広
+
+line_set 「なるほど…」
+
+name_set おやじさん
+
+voice_play v04722.wav
+
+voice_play v04722.wav
+line_set 「ここからかなり苦戦するはずだ…」
+
+name_set 貴広
+
+line_set 「わかった、ＰＩＸＩＥＳの連中にもそう言っておくさ…」
+
+name_set おやじさん
+
+voice_play v04723.wav
+
+voice_play v04723.wav
+line_set 「そうだな…」
+
+name_set 貴広
+
+line_set 「他に俺に手伝える事はないか？」
+
+name_set おやじさん
+
+voice_play v04724.wav
+
+voice_play v04724.wav
+line_set 「ああ、あるよ…」
+
+name_set 貴広
+
+line_set 「なんだ？」
+
+name_set おやじさん
+
+voice_play v04725.wav
+
+voice_play v04725.wav
+line_set 「嬢ちゃんのところに行って元気づけてやってくれ」
+
+voice_play v04726.wav
+
+voice_play v04726.wav
+line_set 「それは、お前にしか出来ない事だからな」
+
+name_set 貴広
+
+line_set 「……」
+
+line_set 「ああ、分かったよ…」
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+music_play_moekan 009.WAV
+
+sfx_set 0 SE014.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set コンコン…
+
+sfx_stop 0
+
+sfx_unset 0
+name_set 貴広
+
+line_set 「リニア…いるか？」
+
+name_set リニア
+
+voice_play 51324.wav
+
+line_set 「あ…貴広さんですか…少々おまちください…」
+
+sfx_set 0 SE015.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set ガチャ…
+
+sfx_stop 0
+
+sfx_unset 0
+kgd_layer1_set 0 BG060.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 RI014.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set リニア
+
+voice_play 51325.wav
+
+line_set 「わざわざ来て頂いて…、言ってくだされば、リニアの方から出向きましたのに…」
+
+name_set 貴広
+
+line_set 「そうだよ…。お前がそうやって動きたがるから」
+
+line_set 「ほれ…本を持ってきてやったぞ」
+name_set リニア
+
+voice_play 51326.wav
+
+line_set 「ほ、本ですか？わぁ、ありがとうございます」
+
+nvl_on
+
+line_set 貴広は持ってきた数冊の本をリニアにわたす。
+
+adv_on
+
+kgd_layer3_set 3 RI021.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51327.wav
+
+line_set 「わ、わ、わ…」
+
+nvl_on
+
+line_set 本を渡されたリニアが転びそうになる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おっと…」
+
+kgd_layer3_set 3 RI020.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51328.wav
+
+line_set 「あ…」
+
+nvl_on
+
+line_set 貴広は倒れそうになったリニアを支えてやる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「相変わらず非力だな…貴様は…」
+
+line_set 「この程度の本の数でよろめくとは…」
+name_set リニア
+
+voice_play 51329.wav
+
+line_set 「あ、す、すみません」
+
+nvl_on
+
+line_set リニアはすぐに貴広の腕の中からはなれる。
+
+line_set リニアの顔は真っ赤になっている。
+adv_on
+
+name_set 貴広
+
+line_set 「お前が、どんな本なら読めるか、分からなかったんでな…俺の本棚から、適当にもってきた…」
+
+kgd_layer3_set 3 RI012.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51330.wav
+
+line_set 「う…なんか難しそうな本もまざっていますね…」
+
+name_set 貴広
+
+line_set 「数学的な本の方がアンドロイドは読みやすいのではないのか？そんな話を聞いた事があったぞ」
+
+kgd_layer3_set 3 RI015.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51331.wav
+
+line_set 「え、えと…ぷ、ぷりんきぴあ・まてまていか？？？？　だ、題名でしょうか…これ？」
+
+name_set 貴広
+
+line_set 「ああ、『数学原理』な、ラッセルとホワイト・ヘッドの共著だ…」
+
+kgd_layer3_set 3 RI001.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51332.wav
+
+line_set 「あはは、な、なんか面白い名前の人ですね…呪文みたいな…題名の本ですし…」
+
+voice_play 51333.wav
+
+line_set 「でも、リニア、アンドロイドですが、数学的なご本はあまり苦手っぽいです…。ん？　あの…これ？」
+
+name_set 貴広
+
+line_set 「それは、昔あった童謡の詩集だ…英語の原文で書かれているがな…」
+
+line_set 「今じゃ、メロディもなくなったものも多いらしい…そんなもの読めるのか？」
+name_set リニア
+
+voice_play 51334.wav
+
+line_set 「はい…なんか…知っている曲もあるみたいですし」
+
+name_set 貴広
+
+line_set 「他にも雪の女王とか鏡の国のアリスとかもあるぞ…嵐が丘なんかもあるぞ」
+
+line_set 「あと、最近おすすめなのが空飛ぶ二十面相で…」
+kgd_layer3_set 3 RI015.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+nvl_on
+
+line_set リニアは童謡の詩集をじっと見つめていた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「どうした？その本がどうかしたか？」
+
+name_set リニア
+
+voice_play 51335.wav
+
+line_set 「え？いいえ。あ、ありがとうございます。ベットの中で読ませていただきますよ」
+
+name_set 貴広
+
+line_set 「そういえば…お前、休んでいていいというのに、メイド服を着ているのだな」
+
+name_set リニア
+
+voice_play 51336.wav
+
+line_set 「あ…なんか誰か来たらメイド服じゃないと失礼かな…と思いまして…」
+
+name_set 貴広
+
+line_set 「また、そうやって…どこの世界に病人が見舞いに気をつかうんだ」
+
+name_set リニア
+
+voice_play 51337.wav
+
+line_set 「で、でも、寝間着じゃやっぱり…それに、もう体の調子もいいんですよ」
+
+name_set 貴広
+
+line_set 「ふん、貴様の調子がいいは、あてにならんだろうが」
+
+line_set 「さてと…」
+name_set リニア
+
+voice_play 51338.wav
+
+line_set 「あの…」
+
+name_set 貴広
+
+line_set 「なんだ？」
+
+kgd_layer3_set 3 RI012.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51339.wav
+
+line_set 「あの…そろそろ仕事しても良いでしょうか？」
+
+name_set 貴広
+
+line_set 「貴様は何度言わせれば…」
+
+line_set 「あ…、そうだな…」
+line_set 「ならお前に１つ仕事をあたえよう」
+kgd_layer3_set 3 RI011.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51340.wav
+
+line_set 「あ、はい、ありがとうございます」
+
+name_set 貴広
+
+line_set 「この中の本から一冊だけでいい、一冊だけちゃんと読め」
+
+line_set 「それがお前の仕事だ…」
+line_set 「部屋で落ち着いて、本を読め」
+kgd_layer3_set 3 RI014.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51341.wav
+
+line_set 「はい」
+
+name_set 貴広
+
+line_set 「それと……」
+
+nvl_on
+
+line_set 貴広は部屋の窓から外を見る。
+
+adv_on
+
+name_set 貴広
+
+line_set 「天気がいいな…」
+
+nvl_on
+
+line_set 貴広は、廊下の窓から外を眺める。
+
+adv_on
+
+name_set 貴広
+
+line_set 「いい風が吹いているみたいだな…」
+
+nvl_on
+
+line_set 貴広は、廊下の窓をあけて、その風を感じてみる。
+
+line_set それは、ほどよく冷たく、心地よいものであった。
+nvl_line_clear
+
+line_set 貴広はリニアの顔色を見る。
+
+adv_on
+
+name_set 貴広
+
+line_set 「散歩に連れて行ってやろう…」
+
+kgd_layer3_set 3 RI018.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51342.wav
+
+line_set 「え？本当ですか？？」
+
+name_set 貴広
+
+line_set 「あまり、部屋に閉じこめて置くと、お前は何をしでかすかわからないからな……」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+wait 2000
+
+kgd_layer1_set 0 BG045.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 RI001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 貴広
+
+line_set 「リニア？寒くないか？」
+
+name_set リニア
+
+voice_play 51343.wav
+
+line_set 「あ、大丈夫ですよ…、ちゃんとメイド服を着てきますから…」
+
+name_set 貴広
+
+line_set 「そうか……」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer2_clear
+music_stop2
+
+gallery_unlock 375
+
+kgd_layer1_set 1 N335.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 空がどこまでも青い。
+
+line_set その青さは、人の営みなんか関係がないように、
+line_set いつまでも
+line_set いつまでも
+line_set その青さを保っているようであった。
+nvl_line_clear
+
+line_set 小高い丘、
+
+line_set 青い空、
+line_set そして、流れる雲…。
+nvl_line_clear
+
+line_set 風が吹く…。
+
+line_set どこからともなく、
+line_set どこにでもなく…。
+adv_on
+
+kgd_layer1_set 1 BG045.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1210.KGD
+nvl_on
+
+line_set 貴広はどんどん、歩いていく…。
+
+adv_on
+
+name_set リニア
+
+line_set 「…」
+
+nvl_on
+
+line_set 丘の中腹あたりでリニアが立ち止まっていた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「どうした…、体の調子でも悪いのか？」
+
+nvl_on
+
+line_set リニアが軽く首を横にふる。
+
+adv_on
+
+name_set リニア
+
+voice_play 51345.wav
+
+line_set 「いいえ……」
+
+name_set 貴広
+
+line_set 「？」
+
+kgd_layer2_clear
+
+gallery_unlock 92
+
+kgd_layer1_set 1 N052.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 003.WAV
+
+name_set リニア
+
+voice_play 51346.wav
+
+line_set 「心地よい音ですね……」
+
+name_set 貴広
+
+line_set 「？」
+
+line_set 「音？」
+line_set 「音なんて聞こえないが……」
+gallery_unlock 413
+
+kgd_layer1_set 1 N373.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set リニアは目を閉じて、耳に手を添える。
+
+adv_on
+
+name_set リニア
+
+voice_play 51347.wav
+
+line_set 「そうですか……、リニアには、心地の良い音が聞こえます…」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set 貴広は耳をすましてみる、
+
+line_set が、そんな音など聞こえない。
+nvl_line_clear
+
+line_set 当然といえば当然であった。
+
+line_set アンドロイドとしての鋭敏なセンサーのみに反応する音などいくらでもある。
+nvl_line_clear
+
+line_set 風が吹く音だけが、
+
+line_set 貴広の耳に響く。
+adv_on
+
+name_set 貴広
+
+line_set 「聞こえないな…何も、俺には」
+
+name_set リニア
+
+voice_play 51348.wav
+
+line_set 「そうですか………」
+
+name_set 貴広
+
+line_set 「……」
+
+name_set リニア
+
+voice_play 51349.wav
+
+line_set 「貴広さんにもこの音が聞こえればいいのに……」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set そういって微笑むリニアの顔がやけに懐かしく思えた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「お前と俺では違うからな」
+
+line_set 「アンドロイドの鋭敏なセンサーだから聞こえるんだ、人間である俺には聞こえない」
+nvl_on
+
+line_set 貴広は空を見上げる。
+
+line_set 青空と風にながされる雲がそこにはある。
+adv_on
+
+name_set 貴広
+
+line_set 「ここには…」
+
+line_set 「何の音もありはしないさ」
+name_set リニア
+
+voice_play 51350.wav
+
+line_set 「そんなことはないじゃないですか……、ここにはいろいろな音があるじゃないですか…」
+
+name_set 貴広
+
+line_set 「…」
+
+name_set リニア
+
+voice_play 51351.wav
+
+line_set 「風がいろいろな音を運んできます。それをつかまえてあげて……」
+
+name_set 貴広
+
+line_set 「捕まえる……ね……」
+
+nvl_on
+
+line_set リニアは空を眺める。
+
+nvl_line_clear
+
+line_set 透明な青の中を、
+
+line_set 真っ白い雲が、
+line_set 凄い早さで形を変えて、
+line_set 流されていく。
+adv_on
+
+name_set 貴広
+
+line_set 「風が強いな…」
+
+name_set リニア
+
+voice_play 51352.wav
+
+line_set 「風が雲をどこかに運んでいきますね」
+
+voice_play 51353.wav
+
+line_set 「どこにいくんだろう…」
+
+name_set 貴広
+
+line_set 「雲は何処にいこうが関係ないさ」
+
+line_set 「雲には心がない、何処に流されようがおかまいない」
+name_set リニア
+
+voice_play 51354.wav
+
+line_set 「そうなのですか？」
+
+name_set 貴広
+
+line_set 「心が無ければ、何処に流されようが関係などない」
+
+name_set リニア
+
+voice_play 51355.wav
+
+line_set 「雲には心がない……」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「リニアは空を見るのが好きなのか？」
+name_set リニア
+
+voice_play 51356.wav
+
+line_set 「はい」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「そうか…」
+line_set 「俺は嫌いだ」
+name_set リニア
+
+voice_play 51357.wav
+
+line_set 「そうなんですか？」
+
+name_set 貴広
+
+line_set 「ああ…青い空は嫌いだ」
+
+line_set 「特に白い雲が嫌いだ」
+name_set リニア
+
+voice_play 51358.wav
+
+line_set 「でも、貴広さん、よくここに来られているじゃないですか？」
+
+name_set 貴広
+
+line_set 「雲はお前と同じだからだ」
+
+name_set リニア
+
+line_set 「？」
+
+name_set 貴広
+
+line_set 「風によって、あたかも自分の意志があるように動いている様に見えるが、実際はそう見えるにすぎない」
+
+line_set 「だから…」
+line_set 「雲もお前も嫌いだ」
+name_set リニア
+
+voice_play 51360.wav
+
+line_set 「リニア、貴広さんにまた嫌われてしまいましたね」
+
+voice_play 51361.wav
+
+line_set 「でも、しかたありませんよね。ご迷惑ばかりかけているのですから……」
+
+name_set 貴広
+
+line_set 「…」
+
+name_set リニア
+
+voice_play 51362.wav
+
+line_set 「でも、雲は嫌わないでほしいですよ」
+
+name_set 貴広
+
+line_set 「………」
+
+name_set リニア
+
+voice_play 51363.wav
+
+line_set 「だって、雲にはちゃんと心があるんですもん」
+
+name_set 貴広
+
+line_set 「…」
+
+name_set リニア
+
+voice_play 51364.wav
+
+line_set 「リニアは、貴広さんが言うとおりに、只の機械人形だから、心がないかもしれないけど、」
+
+voice_play 51365.wav
+
+line_set 「雲は心をもってますよ」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「なぜ、そんな事が言える」
+name_set リニア
+
+voice_play 51366.wav
+
+line_set 「リニアですね、雲が大好きです」
+
+voice_play 51367.wav
+
+line_set 「って事は、雲の中に大好きって心があるって事なんだと思います」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「言ってる意味がわからんな…」
+name_set リニア
+
+voice_play 51368.wav
+
+line_set 「だって、心がないハズの、リニアが雲を大好きになるっておかしいです」
+
+voice_play 51369.wav
+
+line_set 「リニアにも雲にも、心がなければ」
+
+voice_play 51370.wav
+
+line_set 「大好きって思いは、何処にもなくなってしまいます」
+
+voice_play 51371.wav
+
+line_set 「大好きって思いは、何処かの心にあるんだと思います」
+
+voice_play 51372.wav
+
+line_set 「だから、リニアに心がないのなら、雲の方に心があるんですよ」
+
+name_set 貴広
+
+line_set 「…馬鹿馬鹿しい」
+
+line_set 「大好きなんて思いは何処にもない」
+name_set リニア
+
+voice_play 51373.wav
+
+line_set 「そんな事はありませんよ」
+
+voice_play 51374.wav
+
+line_set 「大好きって心は、ここにありますよ…」
+
+voice_play 51375.wav
+
+line_set 「その、ここは、リニアの中なのか、雲の中なのかわかりませんが…」
+
+voice_play 51376.wav
+
+line_set 「でも、大好きという心がここにあるというのは、確かなことです…」
+
+name_set 貴広
+
+line_set 「ふん…」
+
+line_set 「俺は、そう言う事を言うお前が嫌いだし」
+line_set 「この空も、そしてこの雲も…」
+line_set 「嫌いだ…」
+name_set リニア
+
+voice_play 51377.wav
+
+line_set 「えへへへ…」
+
+voice_play 51378.wav
+
+line_set 「嫌いなのに、ずっと見ているのですね」
+
+voice_play 51379.wav
+
+line_set 「よく、丘の上から、貴広さんが歩いているのが見えましたよ」
+
+voice_play 51380.wav
+
+line_set 「貴広さんは、ずっと空を見あげていましたよ…」
+
+name_set 貴広
+
+line_set 「嫌いだからだろう…」
+
+name_set リニア
+
+voice_play 51381.wav
+
+line_set 「そういう事にしておきますよ」
+
+name_clear
+
+line_set ポカ…
+
+name_set リニア
+
+voice_play 51382.wav
+
+line_set 「いた…」
+
+name_set 貴広
+
+line_set 「生意気な事言うな…アホのくせに」
+
+name_set リニア
+
+voice_play 51383.wav
+
+line_set 「えへへ…ごめんなさい」
+
+nvl_on
+
+line_set 貴広は空をまた見る。
+
+adv_on
+
+name_set 貴広
+
+line_set 「雲に心があったとして……」
+
+line_set 「なぜ、雲は流される………」
+line_set 「ただ、風の力に、自分の運命を任せてしまうんだ……」
+gallery_unlock 92
+
+kgd_layer1_set 1 N052.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+line_set 「………」
+
+voice_play 51385.wav
+
+line_set 「それは…」
+
+voice_play 51386.wav
+
+line_set 「雲は、風の力を信じているからですよ…」
+
+voice_play 51387.wav
+
+line_set 「雲は、風の事が好きだからですよ……」
+
+voice_play 51388.wav
+
+line_set 「だから、雲は、風に身を任せられるのですよ……」
+
+voice_play 51389.wav
+
+line_set 「この音色……、いつか貴広さんにも聞こえる………、そんな気がします……」
+
+name_set 貴広
+
+line_set 「………」
+
+gallery_unlock 375
+
+kgd_layer1_set 1 N335.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set その青は、
+
+line_set 透明なのであろうか…。
+line_set その深さは、
+line_set 無限なのだろうか…。
+nvl_line_clear
+
+line_set 空はそこにあり、
+
+line_set そして、
+line_set 雲はそこを流れていく。
+nvl_line_clear
+
+line_set そんな風景を、
+
+line_set 二人は眺めていた。
+nvl_line_clear
+
+line_set …。
+
+line_set ……。
+line_set ………。
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+line_set 太陽が沈み、島を漆黒が包む……。
+
+adv_on
+
+music_stop2
+
+kgd_layer1_set 0 BG088.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1210.KGD
+name_set 貴広
+
+line_set 「……」
+
+line_set 「帰ってきたか、蛍火…」
+kgd_layer2_clear
+
+gallery_unlock 252
+
+kgd_layer1_set 1 N212.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 013.WAV
+
+nvl_on
+
+line_set 貴広の机には、蛍火と呼ばれた、一羽の猛禽類が止まっている。
+
+line_set それは、無音で貴広をただ見つめていた。
+adv_on
+
+name_set 貴広
+
+line_set 「さてと…」
+
+nvl_on
+
+line_set 貴広はペンと紙を用意する。
+
+adv_on
+
+name_set 貴広
+
+line_set 「はじめてくれ…」
+
+name_clear
+
+line_set キィィイイイイイ……
+
+nvl_on
+
+line_set 生物の音とは思えない音を猛禽類は発する。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set 貴広はものすごい早さで、ペンを走らせていく。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set 「豪速の島風か…、やつの脚力なら、海を一気に走り抜けられるからな…」
+
+line_set 「たしかに、砂漠から一気に紅海を抜けた方がいいだろう…」
+line_set 「目的の場所は…、なるほど、そこで神風の伊勢と合流する気なのだな…」
+adv_on
+
+name_set 貴広
+
+line_set 「よし、圧縮してくれ…」
+
+line_set 「Ｄ４－５７８、５４７８ｋｄｅ、豪速」
+line_set 「以上だ！」
+gallery_unlock 254
+
+kgd_layer1_set 1 N214.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_clear
+
+line_set バサバサ……
+
+nvl_on
+
+line_set 貴広の合図と同時に、その猛禽類は窓から飛び出していった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ここまでは、順調のようだな…」
+
+music_stop2
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+ksd_set 1211A.KSD
+
+ksd_end

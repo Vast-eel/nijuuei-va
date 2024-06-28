@@ -1,0 +1,825 @@
+story_progress 285
+
+kgd_layer1_set 0 W1212.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+wait 2000
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG012.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1212.KGD
+nvl_on
+
+line_set 貴広は、虚空を見上げる、霧島が乗っているであろうと思われるヘリの到着を今や遅しと待ち侘びていた。
+
+adv_on
+
+sfx_set 0 SE005.WAV
+
+sfx_loop 0
+name_clear
+
+line_set バラバラバラ…
+
+nvl_on
+
+line_set 激しいローターの回転音と共にヘリが砂塵を巻き上げて舞い降りてくる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「来たか…」
+
+nvl_on
+
+line_set 貴広は、口元に笑みを浮かべて、ヘリの近くまで駆け寄る。
+
+line_set プロペラの旋回がゆっくりと止まり、ドアが開く。
+adv_on
+
+sfx_stop 0
+
+sfx_unset 0
+name_set 貴広
+
+line_set 「霧島…」
+
+nvl_on
+
+line_set しかし、降りて来たのは霧島ではなく、パイロットだけだった。
+
+adv_on
+
+music_play_moekan 012.WAV
+
+name_set パイロット
+
+line_set 「よいしょ…」
+
+nvl_on
+
+line_set パイロットは、蜜柑箱大の木箱を重そうに抱えて床へ置いた。
+
+adv_on
+
+name_set パイロット
+
+line_set 「所長さんですか？受領書に判子をお願いします」
+
+name_set 貴広
+
+line_set 「霧島は…」
+
+line_set 「霧島はどうしたんだ」
+name_set パイロット
+
+line_set 「霧島さん？」
+
+line_set 「ああ…彼女はこれには乗っていません」
+name_set 貴広
+
+line_set 「どうしてだ？　なにかあったのか？」
+
+nvl_on
+
+line_set 貴広は表情を強ばらせてパイロットに詰め寄る。
+
+adv_on
+
+name_set パイロット
+
+line_set 「何も起こってはいませんが」
+
+name_set 貴広
+
+line_set 「何もないなら、なぜ霧島は乗っていないんだ」
+
+nvl_on
+
+line_set 貴広はパイロットの襟を掴みパイロットに対し激しくあたる。
+
+adv_on
+
+name_set パイロット
+
+line_set 「うっ、く…けほっけほっ………ちょ、ちょっと待ってください…」
+
+name_set 貴広
+
+line_set 「…あ…っと、す、すまない…」
+
+nvl_on
+
+line_set 貴広は掴んでいた襟から手を離し、パイロットに詫びを入れる。
+
+adv_on
+
+name_set パイロット
+
+line_set 「はぁっ…はぁっ……」
+
+line_set 「かっ、彼女から所長への伝言を預かってきました」
+name_set 貴広
+
+line_set 「伝言？」
+
+nvl_on
+
+line_set はやる気持ちを抑え、パイロットの口からこぼれる言葉に耳を傾ける。
+
+adv_on
+
+name_set パイロット
+
+line_set 「もう一つのパーツが見つかりそうなので…」
+
+line_set 「もう少し粘ってみます、と」
+name_set 貴広
+
+line_set 「そうか………」
+
+line_set 「確かに霧島はそういったんだな」
+name_set パイロット
+
+line_set 「そうです」
+
+name_set 貴広
+
+line_set 「わかった…、さっきはすまなかったな」
+
+name_set パイロット
+
+line_set 「いえ…気にしていませんので。こちらにサインでもいいので、もらえますか？」
+
+name_set 貴広
+
+line_set 「ああ」
+
+nvl_on
+
+line_set 貴広は差し出された受領書にサインをした。
+
+adv_on
+
+name_set パイロット
+
+line_set 「それでは失礼します」
+
+nvl_on
+
+line_set パイロットはヘリに乗り込み、
+
+line_set プロペラが激しく回転し、砂塵を巻き上げながら虚空へと飛び去っていった。
+adv_on
+
+name_set 貴広
+
+line_set 「それにしても………もう一つのパーツか…」
+
+nvl_on
+
+line_set 貴広はもう一つパーツが見つかるかもしれないという喜びと、
+
+line_set それを探すために帰ってこれない霧島の事を心配するという二つの感情に挟まれていた。
+adv_on
+
+name_set 貴広
+
+line_set 「まったく…何かあれば直接連絡をよこせといっておいたのに…」
+
+line_set 「面倒なことに巻き込まれなければいいが…」
+nvl_on
+
+line_set パーツが見つかるよりも、そのせいで帰ってこれない霧島の事が気に掛かっていた。
+
+adv_on
+
+kgd_layer3_set 0 SO028.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set おやじさん
+
+voice_play v06950.wav
+line_set 「どうした貴広、うかない顔をして」
+
+name_set 貴広
+
+line_set 「あぁ、少しな………パーツは届いたんだが霧島が帰ってこなかったんだ」
+
+name_set おやじさん
+
+voice_play v06951.wav
+line_set 「そういうことか、何か本社でトラブルでもあったのか？」
+
+name_set 貴広
+
+line_set 「いや、そういうわけではないのだが、もう一つパーツが見つかったらしく、それで帰ってこないらしい」
+
+name_set おやじさん
+
+voice_play v06952.wav
+line_set 「そうか、手に入りにくいパーツなんだな」
+
+voice_play v06953.wav
+line_set 「それで今日の帰航便に間に合わなかったんだろう、そこまで心配しなくてもいいんじゃないのか？」
+name_set 貴広
+
+line_set 「そうはいってもな、事前に連絡も無しで…」
+
+line_set 「しかもパイロットにことづけで伝言を頼むあたりが少し気がかりでな」
+name_set おやじさん
+
+voice_play v06954.wav
+line_set 「貴広、考えすぎはよくないぞ」
+
+name_set 貴広
+
+line_set 「それはそうなんだけどな…万が一ってことも起こりえるからな」
+
+name_set おやじさん
+
+voice_play v06955.wav
+line_set 「とにかく、その話は後回しだ」
+voice_play v06956_1.wav
+line_set 「リニアの嬢ちゃんのために届いたパーツをいじって」
+voice_play v06956_2.wav
+line_set 「完全に嬢ちゃんに合うようにしないといけないからな」
+name_set 貴広
+
+line_set 「そうだな、よろしく頼むよおやじさん」
+
+name_set おやじさん
+
+voice_play v06957.wav
+line_set 「そこのところはまかせろってんだい」
+
+name_set 貴広
+
+line_set 「なにか俺にも手伝うことはないか？」
+
+name_set おやじさん
+
+voice_play v06958.wav
+line_set 「貴広はリニア嬢ちゃんと霧島嬢ちゃんの無事を祈っていてくれ」
+
+name_set 貴広
+
+line_set 「それだけか？」
+
+name_set おやじさん
+
+voice_play v06959.wav
+line_set 「わるいが、お前に今できることはそれだけだ」
+
+name_set 貴広
+
+line_set 「そうか…」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG024.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 024.WAV
+
+name_set 貴広
+
+line_set 「…………」
+
+line_set 「………」
+nvl_on
+
+line_set 貴広は今日１５本目の煙草を灰皿に押しつけた。
+
+line_set その時、内線電話が鳴り響いた。
+adv_on
+
+name_set 貴広
+
+line_set 「俺だ」
+
+name_set おやじさん
+
+voice_play v06960.wav
+line_set 「できたぜ、貴広」
+
+name_set 貴広
+
+line_set 「本当か！？　すぐ行く！」
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG041.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 009.WAV
+
+name_set 貴広
+
+line_set 「おやじさん出来たって本当か？」
+
+kgd_layer3_set 0 SO026.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set おやじさん
+
+voice_play v06961.wav
+line_set 「おうよ…出来たぜ…」
+
+name_set 整備員
+
+line_set 「ぐぅ～」
+
+line_set 「むにゃ、むにゃ…」
+name_set おやじさん
+
+voice_play v06962.wav
+line_set 「終わった瞬間に、こいつら寝ちまったよ」
+
+voice_play v06963.wav
+line_set 「そうとう疲れたんだろうな…」
+voice_play v06964.wav
+line_set 「全部で１２３パーツ分、しっかりと仕事をしたよ…ふぅ…」
+voice_play v06965.wav
+line_set 「さてと…一服して…」
+voice_play v06966.wav
+line_set 「とっとと…」
+name_set 貴広
+
+line_set 「お、おやじさん…」
+
+nvl_on
+
+line_set 少しよろけたおやじさんを貴広は支える。
+
+adv_on
+
+kgd_layer3_set 3 SO030.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06967.wav
+line_set 「ちっ…歳だな…徹夜したぐらいでよ…」
+
+name_set 貴広
+
+line_set 「あんまり無理するなって言っただろうが…」
+
+name_set おやじさん
+
+voice_play v06968.wav
+line_set 「いや…ひさしぶりの仕事で燃えちまってよ…へへへへ…まぁ、いい仕事は出来たやな…」
+
+name_set 貴広
+
+line_set 「おやじさん…」
+
+kgd_layer3_set 3 SO018.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06969.wav
+line_set 「一休みしたら、すぐに嬢ちゃんのパーツ変えの手術するぞ…」
+
+voice_play v06970.wav
+line_set 「早くしねぇとな…どんな弊害があるかわかったもんじゃない…」
+name_set 貴広
+
+line_set 「そうなのか…」
+
+name_set おやじさん
+
+voice_play v06971.wav
+line_set 「ああ…危ないな…まぁ、パーツがそろったしよ…もう安心だとは思うが…」
+
+voice_play v06972.wav
+line_set 「さてと…顔洗って…仕事の続きを…」
+name_set 貴広
+
+line_set 「少し休んだ方がいいんじゃねぇか？」
+
+kgd_layer3_set 3 SO030.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06973.wav
+line_set 「いや、今かなり調子がいいんだよ。昔の勘をかなり取り戻している…」
+
+voice_play v06974.wav
+line_set 「一度寝ちまったら、この勘は消えちまうような気がしてな…」
+voice_play v06975.wav
+line_set 「安心しろ、手元が狂うほどは疲れちゃいないさ」
+name_set 貴広
+
+line_set 「おやじさん…」
+
+kgd_layer3_set 3 SO028.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06976.wav
+line_set 「なんて顔するんだ、てめぇわよ」
+
+voice_play v06977.wav
+line_set 「このまま出来るって本人が言っているんだからよ、出来るんだよ」
+voice_play v06978.wav
+line_set 「それに…今だから言うが、１時間でも無駄にしたくはねぇんだよ…」
+voice_play v06979.wav
+line_set 「いつ、嬢ちゃんの保温機能がきれるともかぎらねぇからな…」
+name_set 貴広
+
+line_set 「そんなに危険だったのか…」
+
+name_set おやじさん
+
+voice_play v06980.wav
+line_set 「いや…わからねぇが…」
+
+voice_play v06981.wav
+line_set 「その可能性は決して否定は出来んな」
+voice_play v06982.wav
+line_set 「それに、なんかあの嬢ちゃんは人間と同じでよ」
+voice_play v06983.wav
+line_set 「一度失われたものは二度と再生しないような気がしてな…」
+voice_play v06984.wav
+line_set 「まぁ、技術屋の勘ってやつなんだがよ…」
+voice_play v06985.wav
+line_set 「あれだけデリケートに温度を維持しているんだ」
+voice_play v06986.wav
+line_set 「それが壊れるって事は、大変な事が起こるに違いないだろうな…」
+name_set 貴広
+
+line_set 「…」
+
+name_set おやじさん
+
+voice_play v06987.wav
+line_set 「でも、安心しろ、後はこの部品をはめ込むだけだ…失敗はしない」
+
+voice_play v06988.wav
+line_set 「この俺の技術屋として、絶対成功する事を約束するさ…」
+name_set 整備員
+
+line_set 「安心しなよ…所長」
+
+kgd_layer3_set 3 SO031.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06989.wav
+line_set 「なんでぇ、てめぇ起きてたのかよ」
+
+name_set 整備員
+
+line_set 「ロボット工学の神様がいってるんだぜ、間違いないさ…」
+
+line_set 「リニアちゃんは元気になるさ…」
+name_set 貴広
+
+line_set 「…」
+
+line_set 「そうだな…いまじゃこんななりだが…おやじさんは昔は神様って言われていた人だもんな…」
+name_set おやじさん
+
+voice_play v06990.wav
+line_set 「ば、ばか照れるじゃねぇかよ…」
+
+name_set 貴広
+
+line_set 「ありがとう…みんな…」
+
+kgd_layer3_set 3 SO029.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06991.wav
+line_set 「なんで、てめぇに礼言われなきゃならないんだって何回いわせんだよタコが」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「なら…頼む…」
+kgd_layer3_set 3 SO026.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06992.wav
+line_set 「まかせておけよ…」
+
+name_set 整備員
+
+line_set 「大丈夫だよ、おやじさんだけじゃなくて、優秀な若い人間もいるしな」
+
+kgd_layer3_set 3 SO027.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06993.wav
+line_set 「てめぇは黙ってろ！」
+
+name_set 整備員
+
+line_set 「うへ…怒られたよ…」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_clear
+gallery_unlock 82
+
+kgd_layer1_set 0 N042.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 016.WAV
+
+name_set 貴広
+
+line_set 「リニア…」
+
+name_set リニア
+
+voice_play 54152.wav
+
+line_set 「あ…、貴広さん…おはようございます」
+
+nvl_on
+
+line_set リニアは目を開けると、にっこりと微笑む。
+
+adv_on
+
+name_set 貴広
+
+line_set 「リニア、部品がすべてそろったそうだ…」
+
+line_set 「手術が出来る状態になった」
+name_set リニア
+
+voice_play 54153.wav
+
+line_set 「本当ですか。ありがとうございます」
+
+name_set 貴広
+
+line_set 「これも霧島が本社へいってパーツを集めてくれたおかげだ」
+
+name_set リニア
+
+voice_play 54154.wav
+
+line_set 「そうなんですか…、リニアは霧島さんにお礼をいわなくちゃいけませんね」
+
+name_set 貴広
+
+line_set 「そうだな…」
+
+name_set リニア
+
+voice_play 54155.wav
+
+line_set 「…？　そういえば霧島さんは？」
+
+name_set 貴広
+
+line_set 「あぁ、もう一つパーツが見つかったらしくてな、まだ本社の方でいろいろ頑張っている」
+
+line_set 「霧島が帰ってから礼をいってやれ」
+line_set 「それに、元気になったリニアを見せてやるほうが霧島にとってもうれしいはずだ」
+name_set リニア
+
+voice_play 54156.wav
+
+line_set 「そうですよね、そのほうが霧島さんにとってもいいかもしれないですね」
+
+nvl_on
+
+line_set リニアは涙目になりながら貴広にいう。
+
+nvl_line_clear
+
+line_set 日が昇らぬうちにはじめられた手術。
+
+line_set おやじさんはすぐに終わると言っていたが、
+line_set その後、その手術は昼を過ぎても終わることはなかった。
+nvl_line_clear
+
+line_set 昼が過ぎ…、
+
+line_set そして日が落ちても、
+line_set その手術は終わらなかった。
+nvl_line_clear
+
+line_set そして…。
+
+adv_on
+
+gallery_unlock 83
+
+kgd_layer1_set 1 N043.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「ったく…のんきな顔して寝やがってよ…」
+
+line_set 「どれだけ、みんなが苦労したと思ってんだよ…このアホアンドロイドはよ…」
+line_set 「はぁ…」
+nvl_on
+
+line_set 手術は成功した。
+
+nvl_line_clear
+
+line_set やはり、まったく未知の構造であったのか、予定時間の何倍もの時間がかかった。
+
+nvl_line_clear
+
+line_set 整備員に聞くかぎりでは、
+
+line_set おやじさんがその場で回路図を作り、パーツをまた作り直した場所もあったらしい。
+nvl_line_clear
+
+line_set 少しでも危険と思われる場所は、それが危険でないと分かるまでは、先に進まない。
+
+line_set それが方針であったらしい。
+nvl_line_clear
+
+line_set 「人間の手術なら考えられない」
+
+nvl_line_clear
+
+line_set と言うと、
+
+line_set 整備員達は、
+nvl_line_clear
+
+line_set 「アンドロイドのパーツ変えだって考えられないよ」
+
+line_set と笑いながら言った。
+nvl_line_clear
+
+line_set まるで人間の手術のように、繊細で、丁寧に、そして愛をこめておこなわれたらしい。
+
+nvl_line_clear
+
+line_set 昔は神とまで呼ばれた男らしい、見事な職人っぷりであった。
+
+nvl_line_clear
+
+line_set そのおやじさんも手術が終わるや否や、メンテナンスルームに倒れるように寝てしまった。
+
+nvl_line_clear
+
+line_set おばさんがおやじさんを引きずって部屋までもって帰ったらしい。
+
+nvl_line_clear
+
+line_set 他の整備員達も、ベットで寝ているリニアを一目見ようと集まったが、
+
+nvl_line_clear
+
+line_set さすがに睡魔に耐えきれなかったらしく、
+
+line_set 一人、
+line_set また一人、
+line_set 部屋に帰っていった。
+adv_on
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「何がいらない娘だ…このアホが…みんなからこんなに愛されて…」
+line_set 「今までにこんなにみんなに愛してもらったメイドなんかいないぞ…リニア…」
+name_set リニア
+
+voice_play 54157.wav
+
+line_set 「す～」
+
+nvl_on
+
+line_set リニアは子供のような寝息をたてる。
+
+line_set 顔色もいいようだ…。
+adv_on
+
+name_set 貴広
+
+line_set 「さてと…俺もそろそろ寝るか…」
+
+line_set 「貴様のせいで朝も早かったからな…」
+name_set リニア
+
+voice_play 54158.wav
+
+line_set 「貴広…さん…」
+
+name_set 貴広
+
+line_set 「ん？」
+
+gallery_unlock 82
+
+kgd_layer1_set 1 N042.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set リニア
+
+voice_play 54159.wav
+
+line_set 「貴広さん…いてくださったのですか？」
+
+name_set 貴広
+
+line_set 「ああ、俺だけじゃなくて、他のみんなもいてくれたぞ…」
+
+line_set 「あまりにもお前の目覚めが遅いから、みんな帰っちまったけどな…」
+line_set 「おやじさんとか…ほら、お前がトマトやってたヘリポートの若い連中とかいただろ」
+line_set 「あいつらも、お前が目覚めるのまっていたぞ…」
+name_set リニア
+
+voice_play 54160.wav
+
+line_set 「ありがとうございます…」
+
+name_set 貴広
+
+line_set 「ああ、みんなに感謝するんだな…、みんなお前のためにがんばってくれたんだからな」
+
+name_set リニア
+
+voice_play 54161.wav
+
+line_set 「はい」
+
+name_set 貴広
+
+line_set 「さてと…俺も疲れたから寝るぞ」
+
+name_set リニア
+
+voice_play 54162.wav
+
+line_set 「はい」
+
+nvl_on
+
+line_set リニアは弱々しい声だったが、それでもうれしそうに力強く返事をする。
+
+nvl_line_clear
+
+line_set 「問題はなさそうだな…」
+
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+ksd_set 1213B.KSD
+
+ksd_end

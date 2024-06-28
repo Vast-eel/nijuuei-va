@@ -1,0 +1,243 @@
+nvl_on
+
+line_set 一週間後
+
+adv_on
+
+music_play_moekan 020.WAV
+
+
+kgd_layer1_set 0 BG023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 KI013.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+voice_play v10911.wav
+
+line_set 「もう一週間経ちまちたね」
+
+voice_play v10912.wav
+
+line_set 「心配でちゅか？所長」
+
+name_set 貴広
+
+line_set 「まあな」
+line_set 「偉そうなことを言ったが、アリスが力を失った命をどう扱うか…」
+line_set 「飯島に、何かあったら連絡してくれと頼んでおいたが…」
+
+name_set 霧島
+
+voice_play v10913.wav
+
+line_set 「奇跡的にも、島は消失しても、職員は全員助かってたみたいでちゅし…」
+
+voice_play v10914.wav
+
+line_set 「死傷者は、飯島の連れてきた兵士達だけに収まったみたいでちゅ」
+
+name_set 貴広
+
+line_set 「そうか…」
+line_set 「飯島も体面をはかろうと、先走ってしまったのだろう」
+
+sfx_set 0 SE025.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set プルルル…プルルル…プルルル……
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 貴広の言葉を遮るように、卓上電話の呼び出し音が鳴った。
+
+adv_on
+
+name_set 貴広
+
+line_set 「第２５６３号島　神崎貴広です」
+
+name_set 飯島
+
+line_set 「神崎か…」
+
+name_set 貴広
+
+line_set 「飯島」
+
+name_set 飯島
+
+line_set 「萌野をそっちに送った」
+
+name_set 貴広
+
+line_set 「なに？」
+
+name_set 飯島
+
+line_set 「あのガキ、力なんか無くしてないぞ」
+line_set 「もう俺の手にはおえん、貴様に任す」
+line_set 「こっちは一から研究のし直しだ」
+line_set 「貴様もそんなところに閉じこもってないであのガキと世界をひっくり返してみろ、クソッタレ」
+
+sfx_set 0 SE109.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガチャンッ……ツー…ツー…
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 飯島はぼやくように言い切ると、受話器を放り投げたのだろう、大きな音を立てて電話は切れた。
+
+adv_on
+
+name_set 霧島
+
+voice_play v10915.wav
+
+line_set 「飯島はなんて？」
+
+name_set 貴広
+
+line_set 「命をこっちに送ったそうだ…」
+line_set 「なんか電話の向こうは大騒ぎだったみたいだが…」
+
+sfx_set 0 SE117.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set バンッ！！
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_set 1 DC026.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 命
+
+voice_play v10916.wav
+
+line_set 「ただいま！！貴広！！」
+
+name_set 貴広
+
+line_set 「命！！」
+
+nvl_on
+
+line_set 貴広が首を傾げてるところに、ドアを勢いよく開け放ち、命が満面の笑みで飛び込んできた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「どうやってここに！？」
+
+name_set 命
+
+voice_play v10917.wav
+
+line_set 「最初の時と同じ、海の上をびゅ～んって！！」
+
+name_set 貴広
+
+line_set 「アリスの方は！？」
+
+name_set 命
+
+voice_play v10918.wav
+
+line_set 「やっぱりイヤだから出てきちゃった♪」
+
+voice_play v10919.wav
+
+line_set 「でも、今度は壊したのは電力供給だけだよ」
+
+voice_play v10920.wav
+
+line_set 「そんで、出てくる時に飯島シツチョーに会ってきたら『もういい、どこでも行け』って言われちゃった」
+
+voice_play v10921.wav
+
+line_set 「てへ♪」
+
+name_set 貴広
+
+line_set 「てへ…って…」
+
+name_set 命
+
+voice_play v10922.wav
+
+line_set 「あたしが戻ってきて嬉しくないの？」
+
+name_set 貴広
+
+line_set 「え？いや、そんなことないぞ」
+line_set 「ちょっと急だったんでな…」
+line_set 「お前…力は無くなったんじゃないのか？」
+
+name_set 命
+
+voice_play v10923.wav
+
+line_set 「無くなってないみたーい！あはは！！」
+
+voice_play v10924.wav
+
+line_set 「飯島が最後に言ってたよ」
+
+voice_play v10925.wav
+
+line_set 「子供の心をなくさなければ、力は消えないって、それを貴広に言っとけってさ」
+
+name_set 貴広
+
+line_set 「飯島が…」
+
+name_set 命
+
+voice_play v10926.wav
+
+line_set 「でもそれだとさ、この力はずっとなくならないね」
+
+name_set 貴広
+
+line_set 「へ…？」
+
+name_set 命
+
+voice_play v10927.wav
+
+line_set 「だって」
+
+voice_play v10928.wav
+
+line_set 「女の子は子供の心をずっと持ち続けてるんだもん♪」
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+movie_play Mov/001.mpg
+
+route_end
+
+ksd_end
+

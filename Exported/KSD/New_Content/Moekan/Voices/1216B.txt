@@ -1,0 +1,384 @@
+story_progress 323
+
+kgd_layer1_set 0 W1216.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+wait 2000
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG028.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1216.KGD
+music_play_moekan 019.WAV
+
+name_set 貴広
+
+line_set 「！」
+
+line_set 「帰ってきたな」
+nvl_on
+
+line_set 貴広は突然に起きあがると、素早く着替え所長室へ向かった。
+
+adv_on
+
+kgd_layer1_set 1 BG024.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 所長室へ入った貴広は窓を全開にする。
+
+adv_on
+
+name_set 蛍火
+
+line_set 「キイィィィ」
+
+name_set 貴広
+
+line_set 「蛍火…、やっと帰ってきたのか…」
+
+name_set 蛍火
+
+line_set 「キィ」
+
+nvl_on
+
+line_set 樹の枝の上で頷くように囀る。
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 252
+
+kgd_layer1_set 1 N212.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 012.WAV
+
+name_clear
+
+line_set バサバサ………
+
+nvl_on
+
+line_set 羽音と共に蛍火が所長室の貴広の机へと舞い降りる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「少し時間がかかったようだな」
+
+name_set 蛍火
+
+line_set 「キィ………」
+
+nvl_on
+
+line_set 貴広は机につきメモを取るためにペンを握る。
+
+adv_on
+
+name_set 貴広
+
+line_set 「よし、蛍火、始めてくれ」
+
+name_set 蛍火
+
+line_set 「キイィィィィィ………」
+
+nvl_on
+
+line_set 蛍火から鳥とは思えない声を発生させる。
+
+adv_on
+
+name_clear
+
+line_set カリカリカリ………
+
+name_set 貴広
+
+line_set 「何っ、霧島香織は、もうとっくに本部を発っているだと」
+
+line_set 「なら、なんで…なんで連絡がつかないんだ………」
+name_set 蛍火
+
+line_set 「キイィィィィ………」
+
+name_set 貴広
+
+line_set 「何者かに追われている…一体誰に追われていると言うんだ………」
+
+line_set 「それに通常の帰路を通っていない、か………」
+name_set 蛍火
+
+line_set 「キイィィ………」
+
+name_set 貴広
+
+line_set 「ふむ………まぁ大体のことはわかったな…」
+
+line_set 「蛍火、もう一度つらい扱いをするが頼むな」
+name_set 蛍火
+
+line_set 「キュイ」
+
+nvl_on
+
+line_set 貴広の言葉に蛍火は頷くように声を上げる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「用件は、ｋｓｎｔｋ１４３８、以上！」
+
+line_set 「よし、頼んだぞ蛍火」
+name_set 蛍火
+
+line_set 「キイィィィィィ」
+
+name_clear
+
+line_set バサバサバサ………
+
+nvl_on
+
+line_set 甲高い鳴き声と共に蛍火は虚空へと飛び立つ。
+
+adv_on
+
+kgd_layer1_set 1 BG024.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1216.KGD
+music_play_moekan 019.WAV
+
+name_set 貴広
+
+line_set 「さて…、これで明日になれば詳しいことがわかるはずだ………」
+
+nvl_on
+
+line_set 貴広は蛍火から得た情報で霧島が何者かに追われていると言うことに貴広は不安が募る。
+
+adv_on
+
+name_set 貴広
+
+line_set 「霧島を追う…何が目的だ…」
+
+line_set 「霧島がなにか無茶をしたのか…？　それとも…」
+line_set 「俺に関係することか…？」
+line_set 「その可能性も高いな…」
+line_set 「霧島…頼むから無事でいてくれよ………」
+sfx_set 0 SE014.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set コンコン…
+
+sfx_stop 0
+
+sfx_unset 0
+name_set 貴広
+
+line_set 「入れ」
+
+sfx_set 0 SE015.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set ガチャ…
+
+sfx_stop 0
+
+sfx_unset 0
+kgd_layer3_set 0 SO028.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set おやじさん
+
+voice_play v07087.wav
+
+voice_play v07087.wav
+line_set 「失礼するぜ」
+
+voice_play v07088.wav
+
+voice_play v07088.wav
+line_set 「霧島嬢ちゃんから連絡はあったかい？」
+
+name_set 貴広
+
+line_set 「霧島本人からはなかったが、霧島は何者かに追われているということはわかった」
+
+name_set おやじさん
+
+voice_play v07089.wav
+
+voice_play v07089.wav
+line_set 「なんだって！？」
+
+voice_play v07090.wav
+
+voice_play v07090.wav
+line_set 「無事なのか！？」
+
+name_set 貴広
+
+line_set 「それは今、探らせているところだ」
+
+name_set おやじさん
+
+voice_play v07091.wav
+
+voice_play v07091.wav
+line_set 「そうか…」
+
+voice_play v07092.wav
+
+voice_play v07092.wav
+line_set 「こっちはもう連絡も取れない状態だ…」
+
+voice_play v07093.wav
+
+voice_play v07093.wav
+line_set 「頼んだぜ、貴広」
+
+name_set 貴広
+
+line_set 「昔取った杵柄を駆使するよ」
+
+kgd_layer3_set 3 SO030.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v07094.wav
+
+voice_play v07094.wav
+line_set 「くくく…現役同然のくせしてよく言うぜ」
+
+name_set 貴広
+
+line_set 「くくく…」
+
+name_set おやじさん
+
+voice_play v07095.wav
+
+voice_play v07095.wav
+line_set 「俺はこれ以上のことはできない」
+
+voice_play v07096.wav
+
+voice_play v07096.wav
+line_set 「せめて、霧島嬢ちゃんが帰ってくる前に、リニア嬢ちゃんを完璧に仕上げておくぜ」
+
+name_set 貴広
+
+line_set 「頼む。そっちは俺が何もできないからな」
+
+kgd_layer3_set 3 SO026.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v07097.wav
+
+voice_play v07097.wav
+line_set 「結局、適材適所か」
+
+name_set 貴広
+
+line_set 「そうみたいだな…」
+
+line_set 「やめたくても、やめさせてくれなそうだ…」
+name_set おやじさん
+
+voice_play v07098.wav
+
+voice_play v07098.wav
+line_set 「はは…それじゃあ、後は任せたぜ」
+
+name_set 貴広
+
+line_set 「ああ…おやじさんも」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set 一人になった貴広は無言で青い空を見上げた。
+
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+line_set ・・・・
+
+line_set ・・・
+line_set ・・
+adv_on
+
+kgd_layer1_set 0 BG029.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set 貴広はベッドに腰掛け、霧島に渡した携帯電話へ繋がる通信機を睨み付けていた。
+
+nvl_line_clear
+
+line_set 「もう一度かけるべきだろうか…」
+
+line_set 「追われているならば、何がきっかけで命取りとなるかはわからん…」
+line_set 「ここは霧島を信じて待つしかないか…」
+line_set 「いや、しかし……」
+nvl_line_clear
+
+line_set 貴広は通信機を睨んだまま、眠れぬ夜を過ごした。
+
+adv_on
+
+music_stop1
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer2_clear
+ksd_set 1217B.KSD
+
+ksd_end

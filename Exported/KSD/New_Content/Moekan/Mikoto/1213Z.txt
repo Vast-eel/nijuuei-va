@@ -1,0 +1,1098 @@
+kgd_layer1_set 0 W1213.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 2000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1213.KGD
+
+
+sfx_set 0 SE005.WAV
+sfx_loop 0
+
+name_clear
+
+line_set バラバラバラバラバラ……
+
+name_set 貴広
+
+line_set 「ん……ヘリの音…？」
+
+kgd_layer1_set 0 BG027.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+sfx_stop 0
+sfx_unset 0
+
+music_play_moekan 023.WAV
+
+
+name_set 貴広
+
+line_set 「今日は…火曜だよな…」
+line_set 「昨日持ってくるのを忘れた物でもあったのか？」
+line_set 「数は合ってたはずだがな…」
+
+nvl_on
+
+line_set 貴広は呟きながらベッドから降りて窓を開け、ヘリポートの方を見た。
+line_set ヘリの姿はもう見えなかったが、音からしていま着陸したところらしい。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ふむ……」
+
+sfx_set 0 SE007.WAV
+sfx_play 0 0
+
+nvl_on
+
+line_set 貴広は身支度しようと、浴室に入りシャワーのコックをひねった。
+sfx_stop 0
+sfx_unset 0
+
+adv_on
+
+sfx_set 0 SE014.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set コンコン…
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 熱めのシャワーで汗を落としていると、部屋のドアがノックされた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「誰だ？」
+
+name_set 霧島
+
+voice_play v09833.wav
+
+line_set 「霧島でちゅ」
+
+voice_play v09834.wav
+
+line_set 「失礼しまちゅ」
+
+name_set 貴広
+
+line_set 「どうした？」
+
+nvl_on
+
+line_set 霧島が部屋に入ってくると、貴広はシャワー室から大声で聞いた。
+
+adv_on
+
+name_set 霧島
+
+voice_play v09835.wav
+
+line_set 「あ、シャワーでちたか…」
+
+voice_play v09836.wav
+
+line_set 「起きているならいいでちゅ」
+
+voice_play v09837.wav
+
+line_set 「シャワーが終わったら、早めにヘリポートへ来てくだちゃい」
+
+voice_play v09838.wav
+
+line_set 「ちょっと問題が…」
+
+name_set 貴広
+
+line_set 「？…わかった」
+
+name_set 霧島
+
+voice_play v09839.wav
+
+line_set 「お願いしまちゅ」
+
+nvl_on
+
+line_set 霧島はそれだけ言うと、足早に部屋を出て行った。
+line_set 霧島が本当に急いでいるのを感じ取り、手早く身支度を済ませる貴広。
+line_set スーツを着込みヘリポートへと急ぐ。
+
+adv_on
+
+kgd_layer1_set 1 BG004.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+wait 2000
+
+kgd_layer1_set 1 BG010.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+wait 2000
+
+kgd_layer1_set 1 BG012.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+music_play_moekan 012.WAV
+
+
+kgd_layer3_set 0 KI001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「待たせたな、霧島」
+line_set 「ん？輸送ヘリではないな…」
+
+nvl_on
+
+line_set ヘリポートに止まっていたのは、いつもの輸送ヘリではなく、それよりも小型のヘリであった。
+line_set そのそばに三人のメイドが立ち、２人が整備員とヘリの扱いについて話している。
+line_set そして、それを見ていた一人が貴広に気付き、こちらにやってきた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「誰だ？」
+
+name_set 霧島
+
+voice_play v09840.wav
+
+line_set 「えっとでちゅね…」
+
+kgd_layer3_set 3 SO008.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+nvl_on
+
+line_set 霧島が口ごもっていると、そのメイドは貴広の前に立ち止まり、敬礼した。
+line_set 目の前のメイドは金髪で清楚な感じの少女であった。
+line_set ただ、エプロンには血のような赤で染め抜かれた逆十字があった。
+
+nvl_line_clear
+
+line_set 「ＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳ…」
+
+adv_on
+
+name_set 朝霧
+
+line_set 「わたくし、商品管理部監察室粛正部隊　ＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳからやってまいりました」
+line_set 「朝霧一紗（あさぎり　かずさ）です」
+
+name_set 貴広
+
+line_set 「は？」
+
+kgd_layer3_set 3 KI001.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v09841.wav
+
+line_set 「彼女が本物の朝霧一紗でちゅ」
+
+name_set 貴広
+
+line_set 「本物？？？」
+
+kgd_layer3_set 3 SO008.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 朝霧
+
+line_set 「こちらに、私の名を騙り潜入している者がいると報告がありました」
+line_set 「そして、所属不明な未登録メイドがいると…」
+
+name_set 貴広
+
+line_set 「くわしい話は所長室で聞こう」
+
+nvl_on
+
+line_set 貴広は今の話を他の者に聞かれるのは、あまり良くないと判断し、朝霧の言葉を遮った。
+
+adv_on
+
+name_set 朝霧
+
+line_set 「………」
+line_set 「…いいでしょう」
+
+nvl_on
+
+line_set 朝霧は静かに頷くと、整備員と話している二人のメイドと二言三言交わし、貴広の後に付いてきた。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 SO008.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「で…どういうことだ？」
+
+nvl_on
+
+line_set 貴広は椅子に深く腰掛け、朝霧を見つめる。
+line_set 朝霧は長い金髪を後ろに流して貴広を見つめ返し、口を開いた。
+
+adv_on
+
+name_set 朝霧
+
+line_set 「こちらに、『アリスインチェインズ』『朝霧かずさ』と、騙る者がいると報告がありました」
+
+name_set 貴広
+
+line_set 「つまり、アリスは『朝霧かずさ』を派遣していないと？」
+
+name_set 朝霧
+
+line_set 「アリスインチェインズに朝霧一紗は、私一人です」
+
+name_set 貴広
+
+line_set 「………」
+
+name_set 朝霧
+
+line_set 「そして、『鈴希』という所属不明のメイドもいると報告がありました」
+line_set 「ここの警備態勢はどうなっているのですか？」
+line_set 「まあ、私はここの警備態勢をどうこう言いに来たわけではありません」
+line_set 「私の任務は、不審なメイドの排除です」
+
+name_set 貴広
+
+line_set 「なに？排除だと！？」
+line_set 「あいつらは別に、何もしていないぞ！」
+line_set 「むしろ役に立っている！」
+
+name_set 朝霧
+
+line_set 「再度言います」
+line_set 「私の任務は、不審なメイドの排除です」
+line_set 「所属不明、名を騙る者は、充分排除の対象となります」
+
+name_set 貴広
+
+line_set 「む…」
+
+kgd_layer3_set 3 SO009.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 朝霧
+
+line_set 「三日間の期限付きですが、私は仕事をこなすだけです」
+line_set 「邪魔なされないよう願います」
+
+nvl_on
+
+line_set そう言いながら朝霧は手に持った長物の包みを取った。
+line_set 包みの中から現れたのは、幾多のメイドの血を吸ってきたような鋭利に磨き込まれた薙刀だった。
+line_set その薙刀がギラリと光り、貴広の顔を映し出す。
+
+adv_on
+
+name_set 貴広
+
+line_set 「………」
+
+name_set 朝霧
+
+line_set 「では、失礼します」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 朝霧は恭しく敬礼すると、所長室を退室した。
+line_set 残った貴広と霧島は目を合わせる。
+
+adv_on
+
+kgd_layer3_set 0 KI001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「かずさが、偽物だって…？」
+
+name_set 霧島
+
+voice_play v09842.wav
+
+line_set 「そのようでちゅ…」
+
+name_set 貴広
+
+line_set 「あいつの持ってきた命令書は？」
+
+name_set 霧島
+
+voice_play v09843.wav
+
+line_set 「それが…見あたらないんでちゅ…」
+
+name_set 貴広
+
+line_set 「なんだと？」
+
+name_set 霧島
+
+voice_play v09844.wav
+
+line_set 「ちゃんと保管していたのでちゅが、先程から探しても、どこにもないんでちゅ…」
+
+name_set 貴広
+
+line_set 「うーむ…」
+line_set 「鈴希の書類は？」
+
+name_set 霧島
+
+voice_play v09845.wav
+
+line_set 「それは本社の方に送ったはずでちゅが…」
+
+name_set 貴広
+
+line_set 「所属不明でか？」
+
+name_set 霧島
+
+voice_play v09846.wav
+
+line_set 「いえ、見習いメイドとしたはずでちゅ」
+
+name_set 貴広
+
+line_set 「それがバレたのか…？」
+
+kgd_layer3_set 3 KI003.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v09847.wav
+
+line_set 「申し訳ございまちぇん…」
+
+voice_play v09848.wav
+
+line_set 「私が強引に鈴希ちゃんを、入れてしまったために…」
+
+name_set 貴広
+
+line_set 「今さら言っても仕方ない」
+line_set 「これからどうするかだな…」
+line_set 「霧島はどうしたい？」
+
+name_set 霧島
+
+voice_play v09849.wav
+
+line_set 「私は…」
+
+voice_play v09850.wav
+
+line_set 「…できれば、二人とも助けたいでちゅ…」
+
+voice_play v09851.wav
+
+line_set 「あの子達は、出所不明と言っても、悪い子じゃありまちぇん」
+
+voice_play v09852.wav
+
+line_set 「絶対に…」
+
+name_set 貴広
+
+line_set 「…そうだよな」
+
+name_set 霧島
+
+voice_play v09853.wav
+
+line_set 「ええ」
+
+name_set 貴広
+
+line_set 「まず、あいつらより先に、かずさと鈴希に会わなくてはな」
+
+nvl_on
+
+line_set 貴広はそう言って、椅子から立ち上がり、ドアを開けた。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_set 1 BG004.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+kgd_layer3_set 0 SO022.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「ん？」
+
+nvl_on
+
+line_set 貴広がドアを開けると、その横に立っていたメイドが貴広の前に進み出た。
+
+adv_on
+
+name_set 貴広
+
+line_set 「お前はたしか、朝霧と一緒に来た…」
+
+name_set 護衛メイド
+
+line_set 「どちらに行かれるのですか？」
+
+name_set 貴広
+
+line_set 「お前には関係ないだろう」
+
+name_set 護衛メイド
+
+line_set 「いえ、神崎所長を護衛せよとの命令です」
+
+name_set 貴広
+
+line_set 「なに？」
+
+name_set 護衛メイド
+
+line_set 「所属不明メイドの目的が神崎所長の可能性もありますので」
+
+name_set 貴広
+
+line_set 「そんなことはない」
+line_set 「護衛など不要だ」
+
+name_set 護衛メイド
+
+line_set 「命令ですので」
+
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set 貴広はメイドを無視して歩き出した。
+line_set そのメイドはぴったりと後を付いて歩いてくる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「そうやって、後を付けてくる気か？」
+
+name_set 護衛メイド
+
+line_set 「命令ですので」
+
+name_set 貴広
+
+line_set 「ちっ…」
+
+nvl_on
+
+line_set 貴広は来た道を引き返し、所長室へと戻った。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_set 1 BG023.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+kgd_layer3_set 0 KI011.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「だめだ…表に監視を付けられた」
+line_set 「先手を打たれたな…」
+
+name_set 霧島
+
+voice_play v09854.wav
+
+line_set 「私の方にも…」
+
+name_set 貴広
+
+line_set 「霧島もか…」
+line_set 「ふむ………」
+
+nvl_on
+
+line_set 腕を組み部屋をうろつく貴広。
+line_set 霧島も心配そうに貴広を見つめるだけだった。
+line_set 部屋を三周ほどしたところで、貴広は顔を上げた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おやじさんの手を借りよう…」
+
+nvl_on
+
+line_set 貴広は内線電話の受話器を持ち上げ、ヘリポートへの内線ボタンを押した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…ああ、俺だ」
+line_set 「おやじさんに替わってくれ」
+line_set 「……」
+line_set 「あ、おやじさんか」
+line_set 「至急、所長室に来てくれないか？」
+line_set 「ああ…ちょっとややこしいことになってな…」
+line_set 「待ってる」
+
+nvl_on
+
+line_set 受話器を戻し、椅子に深く腰掛ける貴広。
+line_set しばらくして所長室の扉がノックされた。
+
+adv_on
+
+sfx_set 0 SE014.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ゴンゴン…
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「入れ」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v09855.wav
+
+line_set 「なにかあったのか？」
+
+name_set 貴広
+
+line_set 「まあな…」
+line_set 「アリスの奴らが来たんだ」
+
+name_set おやじさん
+
+voice_play v09856.wav
+
+line_set 「それはわかってたよ」
+
+voice_play v09857.wav
+
+line_set 「いきなり来やがったからな」
+
+voice_play v09858.wav
+
+line_set 「ドアの外の嬢ちゃんもそうだろ？」
+
+name_set 貴広
+
+line_set 「ああ」
+
+name_set おやじさん
+
+voice_play v09859.wav
+
+line_set 「しかし何でまたアリスが来るんだ？」
+
+voice_play v09860.wav
+
+line_set 「かずさ嬢ちゃんの迎えか？」
+
+name_set 貴広
+
+line_set 「かずさはアリスインチェインズじゃないらしい…」
+
+kgd_layer3_set 3 SO031.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v09861.wav
+
+line_set 「なんだと？」
+
+name_set 貴広
+
+line_set 「俺と話していた金髪のメイドが、アリスインチェインズの朝霧一紗は私一人だと言っていた」
+
+name_set おやじさん
+
+voice_play v09862.wav
+
+line_set 「どういうことだ？」
+
+name_set 貴広
+
+line_set 「つまり…かずさは正体不明…」
+line_set 「そしてアイツらは、正体不明のかずさと、出所不明の鈴希を捕らえに…いや、排除に来たんだ」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「………」
+
+nvl_on
+
+line_set 突然の話に絶句するおやじさんが、すぐにいつもの顔に戻り、一つ咳払いして口を開いた。
+
+adv_on
+
+kgd_layer3_set 3 SO030.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v09863.wav
+
+line_set 「で、嬢ちゃん達を助けるのに、俺は何をすればいい？」
+
+name_set 貴広
+
+line_set 「さすがおやじさん、話が早い」
+
+name_set おやじさん
+
+voice_play v09864.wav
+
+line_set 「そのために呼んだんだろう？」
+
+name_set 貴広
+
+line_set 「そうなんだ」
+line_set 「俺と霧島に監視が付けられちまって、かずさと鈴希に警告してやることができない」
+line_set 「悪いんだが、若い整備員に頼んで、かずさと鈴希をアイツらより先に見つけてほしいんだ」
+line_set 「そして、隠れるように伝えてくれ」
+line_set 「できれば、アイツらに気付かれない方が良いんだが…」
+
+name_set おやじさん
+
+voice_play v09865.wav
+
+line_set 「わかった、若い奴らに言っておく」
+
+voice_play v09866.wav
+
+line_set 「じゃあ、急いで言ってくるぜ」
+
+name_set 貴広
+
+line_set 「よろしく頼む」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set おやじさんはニカッと笑うと踵を返し、足早に所長室を出て行った。
+line_set 椅子に座り直した貴広は、霧島の方を向いた。
+
+adv_on
+
+kgd_layer3_set 0 KI011.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「これで大丈夫だと思うが…」
+
+name_set 霧島
+
+voice_play v09867.wav
+
+line_set 「どうにかしたいでちゅね…」
+
+name_set 貴広
+
+line_set 「ああ…」
+
+nvl_on
+
+line_set 貴広と霧島は無言で窓の外を見つめた。
+line_set はるか遠くの水平線に暗雲が立ちこめ、遠鳴りが窓ガラスを微かに揺らしていた。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+kgd_layer1_set 0 BG005.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 SO022.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set おやじさんにかずさと鈴希の捜索を頼んだ後、貴広は通常業務を行った。
+line_set しかし、もどかしい思いが頭を過ぎるたびに手が止まり、いつもの倍以上の時間を喰ってしまった。
+line_set 見回りに出た時は、太陽は中天から大きく傾き、辺りは茜色に染まっていた。
+line_set そして、後ろには護衛メイドと称するメイドがついて回った。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…お前は、そうやってかずさや鈴希が見つかるまで、俺の後をついて回るのか？」
+
+name_set 護衛メイド
+
+line_set 「命令ですので」
+
+nvl_on
+
+line_set 貴広の不満の声に対する護衛メイドの返事は、だいたい変わらずこのようなものだった。
+line_set 聞いた貴広の方がウンザリとしてしまう。
+line_set 行く先々でも、メイド達はアリスインチェインズの存在に萎縮してしまい、いつもの調子が出せなかった。
+line_set そのため、空気もどこかギクシャクとし、貴広のペースも崩れがちだった。
+line_set もはや貴広が一人になれるところは、自分の部屋と所長室とトイレぐらいだった。
+
+nvl_line_clear
+
+line_set ペースの崩される見回りを早々に切り上げ、貴広は所長室に戻ってきた。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_set 1 BG024.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+nvl_on
+
+line_set 途中、かずさ達の捜索を頼まれたであろう整備員達とすれ違ったが、まだ見つけてはいないようだった。
+line_set 貴広は不機嫌そうな顔で椅子に腰掛け、煙草を手に取った。
+
+adv_on
+
+name_set 貴広
+
+line_set 「くそ…」
+
+sfx_set 0 SE116.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set カキン…シュボ…
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 舌打ちしながら一本銜え、ライターで火を点ける貴広。
+line_set 小さな煙が部屋に揺らぐ。
+
+adv_on
+
+sfx_set 0 SE014.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ゴンゴン…
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「入れ」
+
+sfx_set 0 SE015.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガチャ…
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+nvl_on
+
+line_set 貴広が煙草をふかしているところにノックが響き、おやじさんが顔を出した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「どうだ？　かずさか鈴希は見つかったか？」
+
+name_set おやじさん
+
+voice_play v09868.wav
+
+line_set 「いや、二人ともまだだ…」
+
+voice_play v09869.wav
+
+line_set 「だが、アリスのメイドも、まだ見つけてないみたいだ」
+
+name_set 貴広
+
+line_set 「そうか…」
+line_set 「自分から隠れたか…？」
+
+name_set おやじさん
+
+voice_play v09870.wav
+
+line_set 「そうかもしれねぇ…」
+
+sfx_set 0 SE014.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set コンコン…
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「！…」
+line_set 「入れ」
+
+sfx_set 0 SE015.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガチャ…
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer3_set 3 SO009.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 朝霧
+
+line_set 「失礼します」
+
+name_set 貴広
+
+line_set 「なにか用か？」
+
+name_set 朝霧
+
+line_set 「不審メイドの行きそうな場所などありましたら、お教え願えますか？」
+
+name_set 貴広
+
+line_set 「自分では見つけられんから、泣きついてきたか？」
+
+name_set 朝霧
+
+line_set 「…いえ、ご協力願えないかと聞いているだけです」
+
+nvl_on
+
+line_set 朝霧の顔が一瞬屈辱に歪んだが、すぐさま元に戻り、冷静な言い方をした。
+
+adv_on
+
+name_set 貴広
+
+line_set 「教えたいのは山々なんだが、俺もわからんのだ」
+line_set 「いらんところで出てきて、こっちが見つけようとすると、全く見あたらない…」
+line_set 「そんなことが多々あってな」
+
+name_set 朝霧
+
+line_set 「ご協力願えないと言うことですか？」
+
+nvl_on
+
+line_set 貴広の肩をすくめてお手上げのジェスチャーに、朝霧が口をへの字に曲げて睨みつける。
+
+adv_on
+
+name_set 貴広
+
+line_set 「協力したくとも、わからなければ協力できんってことさ」
+
+name_set 朝霧
+
+line_set 「………」
+line_set 「わかりました」
+line_set 「失礼します」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 朝霧は貴広をキッと睨みつけた後、おやじさんをチラリと見て部屋を出て行った。
+line_set 脇に寄って顛末を見ていたおやじさんが、ススッと貴広の前にやってくる。
+
+adv_on
+
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+voice_play v09871.wav
+
+line_set 「いいのか、あんな対応して？」
+
+name_set 貴広
+
+line_set 「あながち間違ってはいないだろ？」
+
+kgd_layer3_set 3 SO030.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v09872.wav
+
+line_set 「ん～…まあ、そうだな」
+
+name_set 貴広
+
+line_set 「だろ？」
+line_set 「かずさも鈴希も、どっからともなく現れて、いつの間にかいなくなってる、神出鬼没なやつらだよ」
+line_set 「今回はそれが役立った」
+
+name_set おやじさん
+
+voice_play v09873.wav
+
+line_set 「みたいだな」
+
+voice_play v09874.wav
+
+line_set 「若い奴らには、がんばって見つけるように言っておく」
+
+name_set 貴広
+
+line_set 「なんか朝霧が気にしているようだな…」
+
+name_set おやじさん
+
+voice_play v09875.wav
+
+line_set 「この時間に集合するように言ってあるから、気を付けるように言っておくぜ、じゃあな貴広」
+
+name_set 貴広
+
+line_set 「ああ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 貴広
+
+line_set 「ふぅ…」
+
+nvl_on
+
+line_set おやじさんは軽く手を挙げ、足早に出て行った。
+line_set 貴広はため息を吐いて窓の外を見ると、暗雲がさっきよりも近くなっていた。
+
+adv_on
+
+music_stop2
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_clear
+
+ksd_set 1214Z.KSD
+ksd_end

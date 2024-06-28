@@ -1,0 +1,540 @@
+
+story_progress 312
+
+kgd_layer1_set 0 W1215.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 2000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1215.KGD
+
+music_play_moekan 019.WAV
+
+name_set 貴広
+
+line_set 「………」
+
+nvl_on
+
+line_set 貴広は通信機を前に、とりあえず霧島からの連絡を待った。
+line_set しかし、太陽が中天を指しても電話は鳴らなかった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「よし…」
+
+nvl_on
+
+line_set 貴広は通信機に手を伸ばした。
+line_set ふと、通信機を作ってくれた整備員の言葉が頭をよぎった。
+
+nvl_line_clear
+
+line_set 『これは在り合わせで作ったモノですし、テストもしてません』
+line_set 『傍受される可能性がありますので、注意してください』
+
+adv_on
+
+name_set 貴広
+
+line_set 「傍受されるのが怖くて帰りをまってられるか…」
+
+nvl_on
+
+line_set 貴広は通信機の受話器を取り内線携帯の霧島の番号を押す。
+
+nvl_line_clear
+
+line_set 何度もコールしても霧島の持っている携帯電話につながらない。
+
+adv_on
+
+name_set 貴広
+
+line_set 「くそっ、電源を落としているのか？………一体何がどうなっているんだ、霧島…」
+
+name_set 貴広
+
+line_set 「たしか…緊急時における強制的な電源の入れ方があったな…」
+
+name_set 貴広
+
+line_set 「…」
+line_set 「これで霧島の携帯に強制的に電源が入る命令が発信されたはずだ」
+line_set 「あとは………電源が入っているのに気づいて秘話通信での録音を行ってくれていればいいのだが………」
+
+nvl_on
+
+line_set 貴広はまた違う特殊な操作を端末に向かって行う。
+
+adv_on
+
+name_set 貴広
+
+line_set 「これで霧島から伝言でもあれば何か聞こえるはずだ………」
+
+nvl_on
+
+line_set 貴広は霧島と貴広専用回線である端末を操作する。それは任意に暗号化された情報だけを受信できる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「たのむ…何か入っていてくれ………」
+
+name_clear
+
+line_set ピッ……
+
+nvl_on
+
+line_set 通信機のスピーカー部分でかすかに音が聞こえる。
+
+adv_on
+
+name_set 携帯の受話音
+
+line_set 「少し……ザッ、ザザ……遅れ……」
+
+name_set 貴広
+
+line_set 「少し、遅れる………」
+line_set 「どういう意味だ…」
+
+nvl_on
+
+line_set 貴広は携帯を手に取り直し霧島の持っている携帯の番号を入力する。
+
+adv_on
+
+name_clear
+
+line_set トゥルルルル……
+
+nvl_on
+
+line_set 貴広の握る受話器からは無機質な発信音しか聞こえてこない。
+line_set 霧島が電話に出てくる気配はない。
+
+adv_on
+
+name_set 貴広
+
+line_set 「くそっ…いったい、向こうで何があったっていうんだ…」
+
+nvl_on
+
+line_set 受話器を握る手に力が入る。
+
+adv_on
+
+name_set 貴広
+
+line_set 「頼む、霧島…お願いだから出てくれ…」
+
+nvl_on
+
+line_set ２０回ぐらいコールして、ようやく電話がつながる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「もしもし、霧島！」
+
+nvl_on
+
+line_set 貴広は電話の向こうの霧島に対して喉が張り裂けんばかりの声で、すがる様に話かける。
+
+adv_on
+
+name_set 霧島
+
+voice_play 42608.wav
+
+line_set 「ザッ…所長…」
+
+nvl_on
+
+line_set 電話は電波状況が悪いのかひどい雑音混じりだ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「霧島！霧島、聞こえるか…」
+
+name_set 霧島
+
+voice_play 42609.wav
+
+line_set 「ザッ…所長…ザッ…聞き取り…ザザッ…にくい…ザッ…でちゅ」
+
+name_set 貴広
+
+line_set 「霧島、大丈夫か？」
+line_set 「お前は本当に安全なんだろうな？」
+
+name_set 霧島
+
+voice_play 42610.wav
+
+line_set 「…所長…ザッ…待ってて…くだ…ザザッ……必ず…ザッ…戻り…まちゅ……ザッ…」
+
+name_set 貴広
+
+line_set 「き、霧島！聞こえてるのか…、おいっ！」
+
+name_clear
+
+line_set ツーツーツー…
+
+name_set 貴広
+
+line_set 「霧島！　もしもぉーし！　霧島！　霧島！！」
+
+nvl_on
+
+line_set 貴広は、既に会話が途切れ反応のない受話器を見つめて、霧島の事をおもう。
+
+adv_on
+
+name_set 貴広
+
+line_set 「くそっ…一体、向こうで何が起こってるというんだ、ここで霧島に何もしてやれないのが悔しい」
+line_set 「何か…何か手段はあるはずなんだ………」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 1000
+
+kgd_layer1_set 0 BG088.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「………………」
+
+sfx_set 0 SE015.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガチャ
+
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「ん…？」
+
+name_set おやじさん
+
+line_set 「貴広、少しいいか？」
+
+name_set 貴広
+
+line_set 「おやじさん、時間はいいが、夜にどうしたんだ？」
+
+name_set おやじさん
+
+line_set 「あぁ、ちょっと話があってな…」
+
+name_set 貴広
+
+line_set 「話っていうのは本社の方のことか？」
+
+name_set おやじさん
+
+line_set 「そうだな、工場の独自回線の方も不通になってきている」
+line_set 「この萌えっ娘島に近い島とは連絡がとれたのだが」
+line_set 「近い島の人間の話によるとだ、原因は不明なのだが島によっては戒厳令が敷かれているらしい」
+line_set 「幸い本社と切り離された存在であるこの萌えっ娘島には影響はないが他の島では大騒ぎになってるらしい」
+
+name_set 貴広
+
+line_set 「そうだったのか…」
+line_set 「それなら、あの回線の悪さも納得できる」
+
+name_set おやじさん
+
+line_set 「霧島の嬢ちゃんと連絡がとれたのか？」
+
+name_set 貴広
+
+line_set 「あぁ、昼に一度だけな」
+line_set 「といっても雑音ばかりで、霧島からは必ず戻るとだけいっていきなり回線が切れてしまったがな」
+
+name_set おやじさん
+
+line_set 「それにしても、戒厳令とは尋常ではないな」
+line_set 「間違いなく本社の方で問題があったのは確かだろうからな」
+
+name_set 貴広
+
+line_set 「そうだろうな、戒厳令がしかれている以上」
+line_set 「外部に情報が漏れるのを防ぐために何重もの情報規制がしかれているのだろうからな」
+
+name_set おやじさん
+
+line_set 「すこしでも連絡手段か情報がほしい所だな」
+
+name_set 貴広
+
+line_set 「あぁ、それは俺も考えていたんだが……」
+
+nvl_on
+
+line_set 何か連絡の手段はないかと試行錯誤をする貴広とおやじさん。
+
+adv_on
+
+music_play_moekan 012.WAV
+
+name_set 貴広
+
+line_set 「………」
+line_set 「おやじさん、ＰＩＸＩＥＳを使うぜ…」
+
+name_set おやじさん
+
+line_set 「大丈夫なのか？」
+
+name_set 貴広
+
+line_set 「この際、仕方あるまい」
+
+name_set おやじさん
+
+line_set 「どうする気だ？」
+line_set 「連絡用の携帯は霧島嬢ちゃんに渡しちまったんだろ？」
+
+name_set 貴広
+
+line_set 「なに…ＰＩＸＩＥＳの連絡手段は一つだけじゃないさ」
+
+name_set おやじさん
+
+line_set 「なにかいい手があるのか？」
+
+name_set 貴広
+
+line_set 「ああ、ＰＩＸＩＥＳの時に使っていた伝書鷲の蛍火って言う物が存在する」
+
+name_set おやじさん
+
+line_set 「ほぉ、そんなものまでＰＩＸＩＥＳには在ったのか」
+
+name_set 貴広
+
+line_set 「そりゃな、特殊情報部隊だからな」
+line_set 「鳥なんてものは空にいくらでも飛んでいる」
+line_set 「だからこそ、敵にもわかり難く、特定の人間…特に関係者しかわからない」
+line_set 「その上、ソレの特徴としては、音声認識及び声紋照合などが備えつけられてる」
+line_set 「普段は鳥として樹にとまっていたりもするが、特定の周波数帯の音を出すことで呼ぶことが出来る」
+
+kgd_layer3_set 3 SO031.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「それはすごいな…」
+
+name_set 貴広
+
+line_set 「あぁ、だからこそ最強の情報部隊だったんだよ」
+line_set 「仲間が死んだとしても、こいつがデータだけを持ち帰ってくれる」
+line_set 「そういうものだ」
+line_set 「ＰＩＸＩＥＳが解体されたからと言っても蛍火じたいは解体されていないからな」
+line_set 「現に元ＰＩＸＩＥＳのメンバーとの連絡のやり取りで使っている」
+
+name_set おやじさん
+
+line_set 「そうだったのか、全然気づかなかったな」
+
+name_set 貴広
+
+line_set 「それは、人目につきにくい夜に来てるからな」
+line_set 「形が鷲だからといっても、蛍火の存在を見られるわけにはいかない」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「そうか、そういうことなら、作業に戻るとしよう」
+
+name_set 貴広
+
+line_set 「ああ、そうしてくれるとありがたい」
+
+name_set おやじさん
+
+line_set 「そんなことぐらい、いちいち気にするな、貴広の立場はよくわかってるつもりだからな」
+
+name_set 貴広
+
+line_set 「すまんな、おやじさん」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set おやじさんは軽く手をあげると所長室を後にした。
+
+adv_on
+
+name_set 貴広
+
+line_set 「さてと………」
+
+nvl_on
+
+line_set 貴広は立ち上がり部屋にある窓を全て開け放つ、そして窓の近くに立つ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ピィィ…………」
+
+nvl_on
+
+line_set 貴広は笛のような音を出すが、あまりの高音で、後半部分はほぼ人間の耳に聞こえるものではない。
+
+adv_on
+
+sfx_set 0 SE011.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ジャボン……
+
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 何かがはねたのだろうか？窓から見える暗闇の海面に、白い水しぶきが上がるのが見える。
+line_set と思った瞬間。
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 252
+
+kgd_layer1_set 1 N212.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_clear
+
+line_set バサバサバサバサ…
+
+nvl_on
+
+line_set 窓の外に、二つの真っ赤に光る点が浮かぶ。
+line_set それは、闇夜より、暗き、翼をまとっていた。
+
+nvl_line_clear
+
+line_set そこには、巨大な鳥が飛んでいた。
+line_set 猛禽類だろうか、相当な大きさらしく、広げた羽は人間の身長をゆうに上回っている。
+
+adv_on
+
+name_set 貴広
+
+line_set 「だいたい、地球の裏側だが、問題あるまい」
+
+name_clear
+
+line_set バサバサバサバサ…
+
+name_set 貴広
+
+line_set 「指令だ……」
+line_set 「４５８２ｌｋｊｉｏ神風」
+
+name_set 貴広
+
+line_set 「頼むぞ蛍火………」
+
+name_set 蛍火
+
+line_set 「キュイ」
+
+name_set 貴広
+
+line_set 「よし、いけっ」
+
+gallery_unlock 254
+
+kgd_layer1_set 1 N214.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 蛍火
+
+line_set 「キィィィイ……」
+
+nvl_on
+
+line_set 貴広の号令と共に恐ろしげな音を立てて、真っ赤な目が空高く飛び上がる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「あとは蛍火が帰ってくるのを待つだけか…」
+
+nvl_on
+
+line_set 貴広はそういいながら開け放った窓を閉める。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+line_set 「たのんだぞ…」
+
+music_stop1
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set ・・・・・
+line_set ・・・・
+line_set ・・・
+line_set ・・
+
+adv_on
+
+ksd_set 1216B.KSD
+ksd_end

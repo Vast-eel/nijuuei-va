@@ -1,0 +1,2011 @@
+
+story_progress 334
+
+kgd_layer1_set 0 W1218.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 2000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1218.KGD
+
+sfx_set 0 SE005.WAV
+sfx_loop 0
+
+name_clear
+
+line_set バラバラバラ……
+
+nvl_on
+
+line_set 空気を激しく、プロペラが裂き散らす音。
+line_set その音が、南の静かな島。
+line_set 第２５６３号島を包み込む。
+
+adv_on
+
+kgd_layer1_set 0 BG023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 019.WAV
+
+name_set 貴広
+
+line_set 「……」
+line_set 「とうとう来たか…」
+
+nvl_on
+
+line_set あわただしく所長室を叩く音がする。
+
+adv_on
+
+kgd_layer3_set 0 KI010.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+voice_play 42810.wav
+
+line_set 「しょ、所長！島上空を大量のヘリが囲んでいるでちゅ！！」
+
+voice_play 42811.wav
+
+line_set 「ま、まったくレーダーにも写らずに、突然！」
+
+name_set 貴広
+
+line_set 「当然だろう…」
+line_set 「カンパニーの軍事用ヘリが、第２５６３号島の型遅れのレーダーにひっかかるわけがあるまい…」
+
+name_set 霧島
+
+voice_play 42812.wav
+
+line_set 「ぐ、軍事用ヘリ……」
+
+name_set 貴広
+
+line_set 「思ったより、早かったな…」
+line_set 「もう少し、遅れると思ったが、やつらも結構余裕がないのだろうな……」
+line_set 「心残りは、島で働いている連中のその後まで手が回せていない事だが…」
+line_set 「安心しろ、霧島、目的は俺だ…」
+line_set 「俺さえ、刃向かわなければ、とりあえず島の連中には手が及ばないだろう…」
+
+name_set 霧島
+
+voice_play 42813.wav
+
+line_set 「しょ、所長？」
+
+name_set 貴広
+
+line_set 「この島の連中のその後を悪いようにはさせない」
+
+name_set 霧島
+
+voice_play 42814.wav
+
+line_set 「ま、まさか、所長は本当に、自分の命で、交渉する気でちゅか？」
+
+name_set 貴広
+
+line_set 「俺から出向く……、霧島、後のことは頼んだぞ…」
+
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer3_set 3 KI005.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play 42815.wav
+
+line_set 「だめでちゅ！！！」
+
+nvl_on
+
+line_set ヘリポートまで出向こうとする貴広を、霧島はとめる。
+
+adv_on
+
+name_set 霧島
+
+voice_play 42816.wav
+
+line_set 「やつらの前にいけば、所長は殺されまちゅ！所長を行かせるわけにはいきまちぇん！」
+
+name_set 貴広
+
+line_set 「霧島…」
+
+name_set 霧島
+
+voice_play 42817.wav
+
+line_set 「私だって、独自に動いているでちゅ…」
+
+voice_play 42818.wav
+
+line_set 「もう少し時間があれば、所長を救う事だって出来るかもしれまちぇん！」
+
+voice_play 42819.wav
+
+line_set 「だから、今は逃げてくだちゃい！」
+
+name_set 貴広
+
+line_set 「そんな事をしたとして、この島のメイド達がどんな目にあうか、分かったものではない…」
+
+kgd_layer3_set 3 KI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play 42820.wav
+
+line_set 「でちゅが……」
+
+name_set 貴広
+
+line_set 「大丈夫だ、死にはしない…」
+line_set 「このぐらいの修羅場など何度も経験しているさ」
+
+name_set 霧島
+
+voice_play 42821.wav
+
+line_set 「所長……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG012.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 SO021.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 飯島
+
+line_set 「久しぶりだな、神崎、だいぶやつれたようだが…」
+
+name_set 貴広
+
+line_set 「貴様は、元気そうだな…」
+
+name_set 飯島
+
+line_set 「そうか？これでも色々と大変だったのだぞ、貴様がいろいろと不正を、はたらいたおかげでな…」
+
+name_set 貴広
+
+line_set 「不正？」
+
+name_set 飯島
+
+line_set 「ほう、とぼける気か？」
+line_set 「すでに、こちら側の用件は分かっているのだろ…」
+
+name_set 貴広
+
+line_set 「貴様が息込んで乗り込んできたところをみると…」
+line_set 「俺を捕まえて、死刑にする方法でも見つかったのか？」
+
+name_set 飯島
+
+line_set 「神崎……」
+line_set 「俺とお前の仲じゃないか？」
+line_set 「裁判にかけて、死刑なんてするわけがないだろ」
+
+name_clear
+
+line_set ガチャ…
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_clear
+
+gallery_unlock 290
+
+kgd_layer1_set 1 N250.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+music_play_moekan 015.WAV
+
+name_set 飯島
+
+line_set 「その場で射殺だよ」
+line_set 「貴様などに、裁判なんて上等なものはいらない…」
+line_set 「俺たちはずっと、そういう世界で生きてきたんだ」
+line_set 「敗者には死…」
+line_set 「それが、俺たちの世界の決まり事のはずだ…」
+
+name_set 貴広
+
+line_set 「せっかちだな…、来て早々、拳銃を向けてくるとはな……」
+line_set 「何の話も聞けないのか？」
+
+name_set 飯島
+
+line_set 「ふふふ、貴様、そこまで腑抜けになったのか？」
+line_set 「まさか、説明が欲しいと抜かすのではあるまいな」
+
+name_set 貴広
+
+line_set 「ああ、なんの不正だかさっぱり分からない…、射殺と言われてもピンとこない」
+
+name_set 飯島
+
+line_set 「くくく、これが、あの、ＰＩＸＩＥＳ最強と言われた漆黒の神崎の姿か？」
+line_set 「説明をしてもらって、どうするつもりだ？」
+line_set 「話し合いで解決する気か？ええ？神崎？？？」
+line_set 「ＰＩＸＩＥＳ時代、貴様は相手を殺す瞬間に、いちいち説明でもしていたのか？？？」
+line_set 「私は、これこれこのような理由で、あなたを殺します……と？説明でもしていたのか？！」
+line_set 「おい、見てくれよ、隷！」
+
+nvl_on
+
+line_set ヘリのタラップから、若い男が降り立つ。
+
+adv_on
+
+kgd_layer1_set 1 BG012.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1218.KGD
+kgd_layer3_set 0 SO001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「隷……」
+
+name_set 隷
+
+line_set 「……」
+
+name_set 飯島
+
+line_set 「これが、貴広だとよ、隷、こんな腑抜けに俺たちは振り回されていたんだ…」
+line_set 「どうだ？隷？」
+
+nvl_on
+
+line_set 隷は、飯島の台詞にも、貴広にも興味がないように、その場を通り過ぎる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「隷、貴様、どういうつもりだ…」
+
+name_set 隷
+
+line_set 「リニアは返してもらうよ…」
+line_set 「君の手元にあっても、仕方がないモノだったようだからね…」
+
+name_set 貴広
+
+line_set 「貴様！！」
+
+sfx_set 0 SE053.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガシャガシャ……
+
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 一斉に、兵隊の銃口が貴広に向けられる。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_clear
+
+gallery_unlock 290
+
+kgd_layer1_set 1 N250.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 飯島
+
+line_set 「くくく、どうだ？隷？貴様もこの男に恨みがあったのだろ？」
+line_set 「だから、この作戦を考えたのであろう？」
+
+name_set 貴広
+
+line_set 「やはり……、隷、お前が仕組んだ事なのか……」
+
+name_set 飯島
+
+line_set 「おっ、くくくく、なんだ、貴広、隷がこの作戦の首謀者であるというのが信じられないみたいだな…」
+line_set 「これほどの作戦、さすがの俺でも考えつかなかったさ…」
+line_set 「本部　監査室から命令書が来た時は驚いたよ…」
+
+name_set 貴広
+
+line_set 「本部　監査室だと……隷が監査室の人間だと？」
+
+name_set 飯島
+
+line_set 「そうだ、情報部のＰＩＸＩＥＳですら、その存在を知り得なかった謎の特殊部隊ＮＩＮ…」
+line_set 「一説にはラボ直属の部隊と言われているが、その事すら未だに分からない……」
+line_set 「これだけＮＩＮと絡んでいるのにかかわらず」
+line_set 「首謀者の一人であるこの俺すら、その存在がなんなのか分からない…」
+line_set 「超Ａ級極秘部隊…」
+line_set 「ＮＩＮ…」
+line_set 「隷はＮＩＮの人間だったんだよ…」
+line_set 「そう、ＰＩＸＩＥＳ時代からな…」
+
+name_set 貴広
+
+line_set 「ＰＩＸＩＥＳ時代から？！」
+
+name_set 飯島
+
+line_set 「そうさ、隷はＮＩＮのスパイだったのさ、俺たちＰＩＸＩＥＳを監視するための…」
+
+name_set 貴広
+
+line_set 「そうなのか…、隷…」
+
+name_set 隷
+
+line_set 「ああ、そうだ…、あの時代からすでに、僕は本部監査室に属していたよ……」
+
+name_set 飯島
+
+line_set 「俺もたいそう驚いたよ。本部監査室は、ＰＩＸＩＥＳの結成当初からスパイを入れていたんだ」
+line_set 「俺たちが、必要以上の力をつけないようにな…」
+line_set 「力が強大になりすぎた時は、自滅に向かわせるようにし向けるようにな…」
+
+name_set 貴広
+
+line_set 「自滅だと？？」
+
+name_set 飯島
+
+line_set 「そうだ、自滅だよ」
+line_set 「よりによって、極東日没と戦うなんざ……」
+line_set 「自滅以外の何ものでもない……」
+
+name_set 貴広
+
+line_set 「しかし、あれは俺たちが暴走して……」
+
+name_set 飯島
+
+line_set 「本人達の意志で動いたつもりにさせて、操るなんていうのは……」
+line_set 「基本ではないのか？」
+
+name_set 貴広
+
+line_set 「……」
+
+name_set 飯島
+
+line_set 「確認はとれていないがな……」
+line_set 「ただ、今なら言えるさ……」
+line_set 「あの事件は、すべてＮＩＮの策略だ」
+line_set 「力を持ちすぎたＰＩＸＩＥＳを壊滅させるための策略だったんだよ……」
+line_set 「だって、そうだろう……、内部にＮＩＮの間者がいるならば……」
+line_set 「そう考えるのが普通だ……」
+line_set 「それに、今ならお前にも分かるだろ？」
+line_set 「こいつなら、それをやりかねない……」
+line_set 「ふふふ、今回のこんな卑怯な策略を考えるんだ」
+line_set 「俺だって、あんなになついているアンドロイドを使って、こんな卑怯なまねなんか出来ないさ……」
+line_set 「なぁ、隷！！」
+
+name_set 隷
+
+line_set 「……」
+
+nvl_on
+
+line_set 隷は飯島の言葉にうなずきもしない。
+
+adv_on
+
+name_set 隷
+
+line_set 「貴広、リニアは何処にいるんだ」
+line_set 「素直に言わなければ、無駄にこの島で死体を増やす事になるだけだよ…」
+
+name_set 貴広
+
+line_set 「貴様…、本当なのか…！！」
+
+name_set 隷
+
+line_set 「リニアは何処だ…」
+
+name_set 貴広
+
+line_set 「隷！！！！貴様ぁあああ！！！！」
+
+sfx_set 0 SE047.WAV
+sfx_play 0 0
+
+kgd_layer1_fx 9
+
+name_clear
+
+line_set ガス！！！
+
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「ぐぅ…」
+
+nvl_on
+
+line_set 貴広の太股から、鮮血が飛び散る。
+
+adv_on
+
+name_set 飯島
+
+line_set 「危ないじゃないか…、そんなに動いたら、この兵隊達が驚いて」
+line_set 「お前を、一瞬で蜂の巣にしてしまうぞ…」
+line_set 「それでは困るんだよ……」
+line_set 「貴様のような男が、誰に殺されたか分からないような終わりでいいのか？」
+line_set 「否」
+line_set 「答えは、断じて、否だ…」
+line_set 「あの、神崎貴広を殺すのは、俺だ…」
+line_set 「ＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳ。この、飯島だよ…」
+
+name_set 貴広
+
+line_set 「ぐぅ……」
+
+nvl_on
+
+line_set 太股の弾丸は太股深く食い込んだらしく、貴広はその場からまったく動くことが出来ない。
+
+adv_on
+
+name_set 飯島
+
+line_set 「くくく、痛いか？だろうな……、太股というのは、実際、腹を撃たれるよりやばい……」
+line_set 「特に、太股の付け根は大腿部動脈が走っている」
+line_set 「これが傷ついた場合、応急処置での止血は限りなく不可能に近い……」
+line_set 「今のはわざとハズしてみたが、次はどうする？」
+line_set 「骨に直接当ててみて、ねじ曲がった弾丸が、太股内を暴れ回るというヤツをやってみるか？」
+line_set 「砕け散った、骨は散弾のように肉をえぐり」
+line_set 「ねじ曲がった弾丸は、骨と同方向、垂直に走る形で肉をえぐり続ける……」
+line_set 「さぞかし激痛だろうなぁ……」
+
+name_set ？？？
+
+line_set 「そんな事させないよ！！！」
+
+music_play_moekan 025.WAV
+
+name_set 飯島
+
+line_set 「誰だ？！」
+
+name_set 兵士
+
+line_set 「ぐわぁ！！！」
+
+nvl_on
+
+line_set 廊下に一番近い兵士が悲鳴をあげる。
+line_set その瞬間、空を黒い影が横切る。
+
+adv_on
+
+name_clear
+
+line_set ザン！！！！！！
+
+kgd_layer1_set 1 BG012.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1218.KGD
+kgd_layer3_set 0 KA017.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set かずさ
+
+voice_play 31703.wav
+
+line_set 「旦那を傷つけるやつは誰だって許さない！」
+
+name_set 貴広
+
+line_set 「ば、ばか、かずさ…」
+
+name_set 飯島
+
+line_set 「貴様…、なぜＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳのエンブレムをつけているのに…」
+line_set 「そ、そう言えば…」
+line_set 「ＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳを語ってこの島に潜入したメイドがいるという情報を聞いたが…」
+
+nvl_on
+
+line_set かずさが飯島の背後に張り付く。
+line_set 手には、料理用の包丁が握られ、それが背中から飯島の急所をとらえている。
+
+adv_on
+
+name_set かずさ
+
+voice_play 31704.wav
+
+line_set 「そんな事はどーでもいいの！！！早く銃をおろしなさい…」
+
+voice_play 31705.wav
+
+line_set 「さもないと、この典太光代の包丁で心臓を一刺しなんだからね」
+
+name_set 飯島
+
+line_set 「隷…、頼む…」
+
+name_set 隷
+
+line_set 「……」
+
+kgd_layer3_clear 0
+kgd_layer2_clear
+
+music_stop1
+
+sfx_set 0 SE059.WAV
+sfx_play 0 0
+
+gallery_unlock 316
+
+kgd_layer1_set 1 N276.KGD
+kgd_layer1_unk1
+kgd_layer1_display
+kgd_layer1_clear 1
+
+name_clear
+
+line_set ドッ…
+
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer1_set 1 BG012.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1218.KGD
+
+name_set かずさ
+
+voice_play 31706.wav
+
+line_set 「え？！」
+
+nvl_on
+
+line_set 何が起きたのだろうか？
+line_set 貴広すら、それがなんであったのか認識出来なかった。
+line_set もちろんかずさ本人も……。
+
+nvl_line_clear
+
+line_set かずさの白いエプロンは真っ赤な血で染まっている。
+
+adv_on
+
+music_play_moekan 019.WAV
+
+name_set 貴広
+
+line_set 「かずさぁああああ！！！！！！！！！」
+
+name_set かずさ
+
+voice_play 31707.wav
+
+line_set 「あう……」
+
+name_set 貴広
+
+line_set 「貴様！！！！！！」
+
+sfx_set 0 SE063.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ドサ……
+
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set かずさはそのまま石畳に突っ伏す…。
+
+adv_on
+
+sfx_set 0 SE053.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガシャガシャ……
+
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 兵士達の銃口が一斉にかずさに向けられる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「貴様ら！！かずさにふれるなぁ！！！！！」
+
+kgd_layer3_set 0 SO001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 隷
+
+line_set 「貴広…、僕は言ったハズだ…、弱さは罪だと…」
+line_set 「この娘を守れなかったのは、君の罪だよ」
+
+name_set 貴広
+
+line_set 「お前を殺す！！」
+
+sfx_set 0 SE044.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ドカ！！！
+
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「ぐぅ…」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_clear
+
+gallery_unlock 290
+
+kgd_layer1_set 1 N250.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 飯島
+
+line_set 「うるせぇなぁ…、弱いくせに…、何をイキがっているんだよ…」
+line_set 「何が、殺すだ？？」
+line_set 「足を撃たれたぐらいで動けもしないじゃないか…」
+line_set 「あ、そういえば片足は義足だったんだっけ？」
+
+name_set 貴広
+
+line_set 「ぐっ……」
+
+name_set 飯島
+
+line_set 「惨めだな…、貴広…、これが、ＮＵＲＳＥＲＹ　ＣＲＹＭＥなのか？？」
+line_set 「これが、世界を滅ぼす力を持つと言われている男の姿なのか？？」
+line_set 「ええ？？？貴広？？？」
+
+name_set リニア
+
+voice_play 53285.wav
+
+line_set 「貴広さん！！！」
+
+name_set 貴広
+
+line_set 「ば、ばか…リニア…」
+
+kgd_layer1_set 1 BG012.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1218.KGD
+kgd_layer3_set 0 RI032.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 隷
+
+line_set 「リニア…」
+
+nvl_on
+
+line_set そこには、歩くことすらまともに出来ないリニアの姿があった。
+
+adv_on
+
+name_set リニア
+
+voice_play 53286.wav
+
+line_set 「隷さん、やめてください」
+
+voice_play 53287.wav
+
+line_set 「なぜ、こんな事を…」
+
+nvl_on
+
+line_set 言葉は穏やかであったが、
+line_set リニアはそれまで見せたことのないような強い意志をもったまなざしで、隷を睨みつける。
+
+adv_on
+
+name_set 隷
+
+line_set 「……」
+line_set 「銃をおろせ…」
+
+sfx_set 0 SE053.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ザッ……
+
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 隷の言葉で一斉に兵士達は銃をおろす。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_clear
+
+gallery_unlock 291
+
+kgd_layer1_set 1 N251.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 飯島
+
+line_set 「え？おい…」
+
+name_set 隷
+
+line_set 「飯島さん、僕はあなたにも命令しているのですよ。貴広に向いている銃をおろせと……」
+
+name_set 飯島
+
+line_set 「まてよ…」
+
+name_set 隷
+
+line_set 「この作戦の意志決定権は僕にあります…」
+line_set 「飯島さん、あなたはここでは私の部下にすぎない……」
+
+name_set 飯島
+
+line_set 「だからって…」
+
+name_set 隷
+
+line_set 「命令です…」
+
+name_set リニア
+
+voice_play 53288.wav
+
+line_set 「貴広さん…」
+
+nvl_on
+
+line_set リニアが貴広の元に歩み寄る…。
+
+adv_on
+
+name_set 貴広
+
+line_set 「リニア……」
+
+gallery_unlock 290
+
+kgd_layer1_set 1 N250.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 飯島
+
+line_set 「何が命令だ！！！隷！！貴様、こいつを、裁判なんかで殺す気なのか！！！！！」
+
+name_set 隷
+
+line_set 「それが元の作戦ですから…」
+line_set 「貴広を捕まえて、公開処刑にする」
+
+name_set 飯島
+
+line_set 「ばかな…、そんなものでいいはずがあるまい」
+line_set 「あの、神崎貴広を公開処刑だと？？」
+line_set 「そんな事は認めんぞ！！！！！！！！」
+
+nvl_on
+
+line_set 飯島が貴広に銃口を向ける。
+
+adv_on
+
+name_set 飯島
+
+line_set 「俺は、ずっとお前が気にくわなかったんだよ」
+line_set 「最強とまで言われながら、散り際を誤って、だらだら生き続けるお前が……」
+
+name_set リニア
+
+voice_play 53289.wav
+
+line_set 「あ、あぶない…」
+
+kgd_layer1_clear 0
+
+music_stop1
+
+sfx_set 0 SE048.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガズーン、ガズーン…
+
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「え？」
+
+name_set リニア
+
+voice_play 53290.wav
+
+line_set 「貴広さん……」
+
+music_play_moekan 017.WAV
+
+nvl_on
+
+line_set リニアがそのまま、貴広の胸に倒れ込む。
+
+adv_on
+
+name_set 貴広
+
+line_set 「り、リニア……」
+
+gallery_unlock 97
+
+kgd_layer1_set 0 N057.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 飯島
+
+line_set 「ちっ…、邪魔しやがって、アンドロイド…」
+line_set 「今度こそ…貴様の番だ！！」
+
+name_set 貴広
+
+line_set 「ぐっ…」
+
+nvl_on
+
+line_set 貴広はリニアを抱きしめる。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+sfx_set 0 SE048.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガーン、ガーン…
+
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「……」
+
+gallery_unlock 292
+
+kgd_layer1_set 0 N252.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 飯島
+
+line_set 「なぜ…、なぜだ…隷……」
+
+name_set 隷
+
+line_set 「リニアは、カンパニーの商品だ…」
+line_set 「その商品を、商品管理部の人間が無為に傷をつけたとなれば…、それは死に値する…」
+
+nvl_on
+
+line_set 飯島の胸が大きく、くりぬかれている。
+line_set 後方から入った凶弾が、体内を突き抜けた証拠だった……。
+
+adv_on
+
+name_set 飯島
+
+line_set 「そ、そんなバカな……」
+line_set 「き、貴様、もしや…」
+line_set 「はじめから…、手柄をＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳからＮＩＮに横取りするために……」
+line_set 「そうか…、所詮ラボと取締役会は犬猿の仲…」
+line_set 「取締役の管轄下のＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳとはじめから組む気などなかったのか……」
+line_set 「俺を消すことによって、すべてを闇の中に消し去るつもりだったか…」
+
+sfx_set 0 SE048.WAV
+sfx_play 0 0
+
+gallery_unlock 316
+
+kgd_layer1_set 1 N276.KGD
+kgd_layer1_unk1
+kgd_layer1_display
+kgd_layer1_clear 1
+
+name_clear
+
+line_set ガーン　ガーン…
+
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 隷は飯島のこめかみに二発の銃弾を撃ち込む。
+
+adv_on
+
+kgd_layer1_set 1 BG012.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1218.KGD
+kgd_layer3_set 0 SO001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 隷
+
+line_set 「それは、さすがに勘ぐりすぎだよ…、飯島さん」
+
+name_set 貴広
+
+line_set 「隷……」
+
+name_set 隷
+
+line_set 「……」
+line_set 「僕は、言ったはずだ…、貴広、弱さは罪だと…」
+line_set 「そして、それは……」
+line_set 「お前が僕に教えてくれた事だとも」
+line_set 「お前の弱さがリニアを傷つけたんだ……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_clear
+
+gallery_unlock 97
+
+kgd_layer1_set 1 N057.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 隷はリニアをやさしくなでる。
+
+adv_on
+
+name_set リニア
+
+voice_play 53291.wav
+
+line_set 「れ、隷さん……、だめです…、なぜ、貴広さんを傷つけるような事は……」
+
+name_set 隷
+
+line_set 「リニア、なぜ、君は、あそこで動いたんだ……」
+line_set 「なぜ、まだ、君は動こうとするんだ……」
+
+name_set リニア
+
+voice_play 53292.wav
+
+line_set 「あ、あたりまえです…。貴広さんを守るのが、私の今の仕事なのですから……」
+
+nvl_on
+
+line_set リニアはじっと、隷を見据える。
+
+adv_on
+
+name_set 隷
+
+line_set 「……」
+line_set 「そうか……、わかった……」
+
+name_set リニア
+
+voice_play 53293.wav
+
+line_set 「隷さん？？」
+
+name_set 隷
+
+line_set 「リニア…、ここにはどうやら、良い腕のお医者さんがいるみたいだね…」
+line_set 「また出直してくるよ…、君が死んでしまっては…、すべてが終わりだ…」
+line_set 「貴広…、リニアをもう少しだけ、君にあずけておくよ…」
+line_set 「世界の終わりと言われた日の前日まで……」
+
+name_set 貴広
+
+line_set 「世界の終わりだと……」
+line_set 「ジーザス　アンド　メリーチェイン…、１２月２５日の事か……」
+
+name_set 隷
+
+line_set 「そうだ、その前日……」
+line_set 「１２月２４日」
+line_set 「昔は、クリスマスイヴといわれ、世界を救う救世主が生まれた前夜とされた日……」
+line_set 「今では、多くの人々の命を奪った、滅亡の日前夜として忌み嫌われている日……」
+line_set 「その日にふたたび僕はここに戻ってこよう…」
+line_set 「リニアを預けた事を後悔している……」
+line_set 「所詮、お前は、その程度の運命すら変えられない人間だったという事だ……」
+
+name_set 貴広
+
+line_set 「なんの話だ……」
+
+name_set 隷
+
+line_set 「その日までに、ここにいるメイドすべて逃しておくがいい…」
+line_set 「逃げたければ、お前も逃げればいいよ…」
+line_set 「もう、カンパニーがお前を追うこともないだろうから…」
+
+name_set 貴広
+
+line_set 「貴様……」
+
+nvl_on
+
+line_set 隷はポケットからカードを取り出す。
+
+adv_on
+
+name_set 隷
+
+line_set 「これは、ＮＩＮのメンバーズカードだ…」
+line_set 「これがあれば、大半の事がカンパニーの力でどうにでも出来る…」
+line_set 「有効期間を今から、５日間とするよ」
+line_set 「それを過ぎたら、僕も紛失届けを出す」
+line_set 「その瞬間に、このカードは使えなくなるだろう」
+line_set 「その有効期間、カンパニーのヘリでも飛行機でも使ってここから逃げるがいい……」
+line_set 「だが、僕が迎えに来る日までに、リニアを元気にするんだ…」
+line_set 「それが出来なければ、世界のどんな場所に逃げたって、僕ははお前を殺す」
+
+name_set 貴広
+
+line_set 「お前は、なにを考えているんだ…」
+
+name_set 隷
+
+line_set 「それでは、貴広、ジーザス　アンド　メリーチェイン…で会おう…」
+
+name_set 貴広
+
+line_set 「隷！！！！！！！！！！！」
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+kgd_layer1_set 0 BG051.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 011.WAV
+
+kgd_layer2_set_moekan 1218.KGD
+
+name_set 貴広
+
+line_set 「痛ててて…」
+
+kgd_layer3_set 0 KI001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+voice_play 42822.wav
+
+line_set 「本当、今回は死んだ飯島に感謝でもするでちゅね」
+
+voice_play 42823.wav
+
+line_set 「あのバカが遊んでくれたおかげで、大事には至らないですみまちたが……」
+
+name_set 貴広
+
+line_set 「ああ、太股でも一番ダメージが少ない場所に撃ち込んでいたからな……」
+line_set 「本当に、少しずつ痛めつけて殺そうとしたんだろうなぁ、飯島は……」
+
+name_set 霧島
+
+voice_play 42824.wav
+
+line_set 「何を、他人事みたいに言っているでちゅか……、はいこれで終わりでちゅ……」
+
+name_set 貴広
+
+line_set 「ありがとうよ……」
+line_set 「それより…、かずさの方は大丈夫なのか？」
+
+kgd_layer3_set 3 KI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+line_set 「……」
+
+voice_play 42826.wav
+
+line_set 「急所は外れてまちゅので、そう悲観する事はないのでちゅが……」
+
+voice_play 42827.wav
+
+line_set 「でも、絶対に安静でちゅね」
+
+name_set 貴広
+
+line_set 「そうか……、傷口はどんな感じだったんだ？」
+
+name_set 霧島
+
+voice_play 42828.wav
+
+line_set 「鋭利な刃物を突き立てられた感じでちゅか？少なくとも銃創ではないでちゅ……」
+
+name_set 貴広
+
+line_set 「銃創じゃない？弾丸でやられた傷ではないのか？」
+line_set 「しかし、誰も、かずさに近づいた形跡が無かったが……、矢か何かか？」
+
+name_set 霧島
+
+voice_play 42829.wav
+
+line_set 「矢ではないでちゅ、そう言う傷でもないでちゅから……、気のせいかもしれないのでちゅが……」
+
+voice_play 42830.wav
+
+line_set 「かずさちゃんの足下の影がふくらんで、それがそのまま刃物のように突き刺さったように見えたでちゅ」
+
+name_set 貴広
+
+line_set 「影がふくらんだ……だと」
+
+name_set 霧島
+
+voice_play 42831.wav
+
+line_set 「あくまでも、そう見えたというだけで、それが本当に影だったのかどうかわからないでちゅが……」
+
+name_set 貴広
+
+line_set 「……」
+line_set 「そうか……」
+line_set 「霧島、すこしいいか？」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+name_set 霧島
+
+voice_play 42832.wav
+
+line_set 「なんでちゅって？？」
+
+kgd_layer1_set 0 BG006.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 KI010.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「今いった通りだ……」
+line_set 「ここからみんなを避難させてほしい……」
+
+name_set 霧島
+
+voice_play 42833.wav
+
+line_set 「避難って……」
+
+name_set 貴広
+
+line_set 「避難先は決めてある……」
+line_set 「後はヘリコプターをどうにかすれば事は足りる」
+
+name_set 霧島
+
+voice_play 42834.wav
+
+line_set 「この島を……、捨てるという事でちゅか……」
+
+name_set 貴広
+
+line_set 「ああ……、そうなるな……」
+
+name_set 霧島
+
+voice_play 42835.wav
+
+line_set 「そんな……」
+
+name_set 貴広
+
+line_set 「時間がない……」
+line_set 「１２月２４日に、隷がもう一度、ここに訪れる」
+line_set 「たぶん、その時、隷はかなりの軍隊を率いてここに訪れるであろう……」
+line_set 「ここに、残っていたら、何をされるか分かったものではない……」
+
+name_set 霧島
+
+voice_play 42836.wav
+
+line_set 「所長は？」
+
+name_set 貴広
+
+line_set 「俺は、やらなければならない事がある……」
+
+kgd_layer3_set 3 KI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+line_set 「……」
+
+name_set 貴広
+
+line_set 「お前達にはすまないと思っている……」
+line_set 「こんな事に巻き込んでしまって…」
+
+name_set 霧島
+
+line_set 「……」
+
+name_set 貴広
+
+line_set 「すまない……」
+
+name_set 霧島
+
+voice_play 42839.wav
+
+line_set 「そうやって……あなたは、どんどん勝手に決めていって……」
+
+voice_play 42840.wav
+
+line_set 「こちらの事なんかお構いなし……」
+
+name_set 貴広
+
+line_set 「……」
+
+kgd_layer3_set 3 KI001.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play 42841.wav
+
+line_set 「わかりまちた……、脱出用のヘリを手配しておきまちゅ……」
+
+name_set 貴広
+
+line_set 「隷がＮＩＮのメンバーズカードを渡してくれた、必要ならいつでもいってくれ……」
+
+name_set 霧島
+
+voice_play 42842.wav
+
+line_set 「はい……」
+
+nvl_on
+
+line_set 二人はちょうど、秘書室の前で立ち止まる。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 霧島は無言で消えていく。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+line_set 「すまないな……」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG041.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「どうだ？リニアの方は？」
+
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+line_set 「銃の傷はたいした事はないさ、そりゃ古いと言ってもアンドロイドだ」
+line_set 「拳銃で壊れるようなものではないよ……」
+line_set 「ただ、それより……」
+
+name_set 貴広
+
+line_set 「進行しているのか……」
+
+name_set おやじさん
+
+line_set 「ああ、かなり進行している、温度がどんどん低下している……」
+line_set 「このまま低下を続けていったら、本当にやばいだろうな……」
+
+name_set 貴広
+
+line_set 「そうか……」
+
+name_set おやじさん
+
+line_set 「どうにかしないと、やばいぞ……」
+
+name_set 貴広
+
+line_set 「……」
+line_set 「これを使ってくれ……」
+
+nvl_on
+
+line_set 貴広は、隷から渡された、ＮＩＮのカードをおやじさんに手渡す。
+
+adv_on
+
+kgd_layer3_set 3 SO031.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「な、なんだこりゃ？？」
+line_set 「お、おい、これは……」
+
+name_set 貴広
+
+line_set 「ああ、そうだ、メンバーズカードだ…」
+
+name_set おやじさん
+
+line_set 「そ、それは分かるが、こ、こいつは、本社で、役員クラスの人間しか持てないレベルのカードだろ…」
+
+name_set 貴広
+
+line_set 「まぁ、役員でも持てないレベルだろうな……」
+line_set 「なんと言っても、ＬＡＢ直属のＮＩＮのメンバーズカードだからな……」
+
+name_set おやじさん
+
+line_set 「ＮＩＮだと？？？？」
+
+name_set 貴広
+
+line_set 「説明は後でする、それより、それでいろいろ調べておいてくれ……」
+
+name_set おやじさん
+
+line_set 「ああ……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+name_set 貴広
+
+line_set 「リニア入るぞ……」
+
+name_set リニア
+
+voice_play 53294.wav
+
+line_set 「どうぞ…」
+
+kgd_layer2_clear
+
+gallery_unlock 71
+
+kgd_layer1_set 0 N031.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 016.WAV
+
+nvl_on
+
+line_set リニアは窓ををあけて、外をベットから眺めている…。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ばか…、ただでなくても、体温調節が出来ないのに、なぜ窓を…」
+
+name_set リニア
+
+voice_play 53295.wav
+
+line_set 「すみません…、お月様が綺麗だったからつい…」
+
+nvl_on
+
+line_set 貴広は窓を閉める。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ふぅ…、おまえは、どうして、そう、自分の命を縮めるようなまねばかりする…」
+line_set 「今日だって、いきなり飛び出すようなまねをしやがって…」
+
+name_set リニア
+
+voice_play 53296.wav
+
+line_set 「申し訳ありませんでした…」
+
+name_set 貴広
+
+line_set 「冷たい風で、頬が冷えたんじゃないのか？」
+
+name_set リニア
+
+line_set 「……」
+
+voice_play 53298.wav
+
+line_set 「リニアのせいで隷さんと貴広さんはとうとう、仲違いしてしまいました……」
+
+voice_play 53299.wav
+
+line_set 「リニア……、それが……」
+
+name_set 貴広
+
+line_set 「ばか……、お前のせいではない…」
+
+name_set リニア
+
+voice_play 53300.wav
+
+line_set 「ごめんなさい……」
+
+nvl_on
+
+line_set リニアの頬を涙が伝って落ちていく。
+
+nvl_line_clear
+
+line_set その、ほんのり赤くなった頬をさわってみる。
+
+nvl_line_clear
+
+line_set 外の冷気で冷たくなった頬。
+line_set やわらかく、
+line_set そして、ほのかにあたたかい。
+
+nvl_line_clear
+
+line_set その頬にもっとあたたかい涙が伝う。
+
+adv_on
+
+name_set リニア
+
+voice_play 53301.wav
+
+line_set 「だめですよ……。リニアのほっぺ風にあたって冷たいですから…」
+
+voice_play 53302.wav
+
+line_set 「しかも、涙までついてしまいますよ……」
+
+name_set 貴広
+
+line_set 「……」
+line_set 「俺が、それでいいと思ってやっているから、いいんだよ……」
+line_set 「それとも、俺に頬をふれられるのは嫌か？」
+
+name_set リニア
+
+voice_play 53303.wav
+
+line_set 「え？あ……、も、もちろん、そんな事はありませんよ」
+
+nvl_on
+
+line_set 何度も、こんな光景を見てきたような気がした。
+line_set 何度も、こんな事があったような気がしていた。
+
+nvl_line_clear
+
+line_set それにしても、隷は何を考えているのだろうか。
+line_set 今回の一切の策略を考案したのはどうやら、隷らしかった。
+
+nvl_line_clear
+
+line_set リニアをつかい、貴広を陥れようとする卑劣な策略、
+line_set あまり考えたくはなかったが、事実はそうであったらしい。
+
+nvl_line_clear
+
+line_set ただ、貴広には未だに本心からそれを信じる気にはなれなかったのだ。
+
+nvl_line_clear
+
+line_set 少なくとも、隷がリニアを見つめる目は、とてもそんな事をするものではなかった。
+
+nvl_line_clear
+
+line_set 隷が貴広を憎んでいたとしても、リニアにまで、そんな悲劇に巻き込む気でいるとは思えなかった。
+
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set ・・・
+line_set ・・・・・・
+line_set ・・・・・・・・・
+
+adv_on
+
+sfx_set 0 SE025.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set プルルルルル……
+
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 深夜の寝室に内線電話の音が響く……。
+
+adv_on
+
+kgd_layer1_set 0 BG029.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1218.KGD
+
+name_set 貴広
+
+line_set 「はい……、俺だが……」
+
+name_set おやじさん
+
+line_set 「おれだ…、少しメンテナンスルームまで来てくれるか？」
+
+name_set 貴広
+
+line_set 「なんだ？何かあったのか？」
+
+name_set おやじさん
+
+line_set 「ああ、そんなところだ……」
+
+kgd_layer1_set 1 BG084.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+music_play_moekan 013.WAV
+
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+line_set 「休みのところ済まなかったな……」
+
+name_set 貴広
+
+line_set 「おやじさんこそ、こんな時間まで…」
+
+name_set おやじさん
+
+line_set 「気にするな……、そんな事より……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_set 1 BG041.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+line_set 「この写真でわかるか？」
+
+name_set 貴広
+
+line_set 「……」
+line_set 「なんだ？これ？」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer2_clear
+
+gallery_unlock 236
+
+kgd_layer1_set 1 N196.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set おやじさん
+
+line_set 「嬢ちゃんの頭の中の写真だ……」
+line_set 「まずここの部分だが……」
+line_set 「入力層の興奮パターンを隠れ層の興奮パターンに変形させ…」
+line_set 「それをさらに出力パターンに変形させる。神経回路網にあたる部分だ」
+
+name_set 貴広
+
+line_set 「すまない…、もっと簡単に言ってくれ…」
+
+name_set おやじさん
+
+line_set 「うむ……、まぁ、人間で言えば、大脳皮質だな」
+line_set 「運動機能や感覚機能や言語機能にくわえ計画や意志など高次の知的機能を司る部位だ」
+
+name_set 貴広
+
+line_set 「……」
+
+name_set おやじさん
+
+line_set 「わかった、わかった、誤解もひっくるめて言えば、情報処理、そのものだ」
+line_set 「考える場所だと思えばいい……」
+line_set 「まぁ、パソコンで言い換えればＣＰＵか？」
+line_set 「といっても、ＣＰＵって言うのは演算処理だから、古典的計算主義にあたるもので……」
+line_set 「厳密にいえば、コネクショリズムという考え方から生まれた人工ニューラルネットワークは別だが…」
+
+name_set 貴広
+
+line_set 「すまん……、くわしくはいいから……、手っ取り早く言ってくれ……」
+
+nvl_on
+
+line_set おやじさんはもう一枚の写真を取り出す。
+
+adv_on
+
+gallery_unlock 237
+
+kgd_layer1_set 1 N197.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set おやじさん
+
+line_set 「この写真、他の角度から嬢ちゃんの頭の中を覗いたものだ…」
+line_set 「この部分……、白くなって、見えない部分があるよな……」
+
+name_set 貴広
+
+line_set 「ああ、白くなっているな……」
+
+name_set おやじさん
+
+line_set 「これが例の不可視部分だ……」
+line_set 「それで、さっきの写真と並べてみると……」
+
+nvl_on
+
+line_set おやじさんは二つの写真を並べてみる。
+
+adv_on
+
+gallery_unlock 238
+
+kgd_layer1_set 1 N198.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set おやじさん
+
+line_set 「この、思考を司る部位と、この不可視領域の部位、何か思わないか？」
+
+name_set 貴広
+
+line_set 「いや、素人目でしかわからないが……、なんかそれを取り囲む機械類の構造が近いような……」
+
+name_set おやじさん
+
+line_set 「そうなんだ……、厳密には、それぞれはまったく違った構造の機械で取り囲まれている」
+line_set 「だが、二つとも、体中の情報が其処に集中入力して、そして、体中にむかって出力するという構造だ…」
+line_set 「素人が見ても、分かるぐらい似ているのは」
+line_set 「二つの写真とも、中央に向かって配線が集中しているからだ……」
+
+name_set 貴広
+
+line_set 「うむ……、よく分からないが、どういう事なんだ？」
+
+kgd_layer1_set 1 BG041.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1218.KGD
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+line_set 「簡単に言ってやろう……」
+line_set 「思考する機械が二つ、嬢ちゃんの頭には存在する…と言えばいいかな？」
+
+name_set 貴広
+
+line_set 「どういう事だ？？」
+
+name_set おやじさん
+
+line_set 「そういう事だよ、お前が今思った通りだよ」
+
+name_set 貴広
+
+line_set 「人格が二つあるという事か？？」
+
+name_set おやじさん
+
+line_set 「俺も、たぶんカンパニーの科学者も同じ疑問を持ったはずだ……」
+line_set 「二つも思考機械があるなら、人格が二つ存在するはずだと……」
+line_set 「だが、今まで、嬢ちゃんからは一つの人格しか確認されなかった」
+
+name_set 貴広
+
+line_set 「たとえば、片方が眠っていて、片方だけの人格が動いているとか？」
+
+name_set おやじさん
+
+line_set 「それもない、両方がまったく同じエネルギー消費量で動いているからな……」
+line_set 「両方の思考機械がまったく同じように動いている……」
+
+name_set 貴広
+
+line_set 「ならば、コンピュターのＣＰＵみたいにデュアルで処理しているとか……」
+
+name_set おやじさん
+
+line_set 「バカ、あれは単なる演算処理だから出来るんだよ」
+line_set 「ニューラルネットワークの場合、互いに断絶していては、同種の処理を平行処理など出来ない……」
+line_set 「人間の脳が２つ、体の中にあると考えてみろ、そんな事が出来るか？」
+
+name_set 貴広
+
+line_set 「なら一体なんなんだよ！！」
+
+name_set おやじさん
+
+line_set 「だから、分からなかったんだよ……」
+line_set 「俺自身も、たぶん、思考機械に見えるが、他に何か違う機械だと踏んでいた……」
+line_set 「カンパニーの連中もそう思ったのであろうな…………」
+
+name_set 貴広
+
+line_set 「それで、正体がなんだかわかったのか？」
+
+name_set おやじさん
+
+line_set 「答えが何なのかは断定出来ない……」
+line_set 「ただ、かなりの確率でなら言えるかもな…」
+
+name_set 貴広
+
+line_set 「一体なんなんだ？」
+
+name_set おやじさん
+
+line_set 「嬢ちゃんの不可視領域……」
+line_set 「あれは、思考部位だろう……」
+
+name_set 貴広
+
+line_set 「ちょ、ちょっとまってくれ、それならば、先ほど出た疑問に答えていない事になる……」
+
+name_set おやじさん
+
+line_set 「ああ、そうなるな……」
+
+name_set 貴広
+
+line_set 「なら、なぜかなりの確率で言えるなんて言えるんだ？」
+
+name_set おやじさん
+
+line_set 「まだ俺が小さかった頃……」
+line_set 「まだ、世界の終わりと言われる日は訪れておらず……」
+line_set 「比較的、どんな情報でも簡単に手に入れられた」
+line_set 「特に、今ではカンパニーの技術者しかしらないようなアンドロイド関係のものがな……」
+line_set 「その時に、読んだ、奇妙なアンドロイドの話を思い出してな……」
+
+name_set 貴広
+
+line_set 「どんな事だ？」
+
+kgd_layer3_set 3 SO018.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「……」
+line_set 「おまえさ？たとえばだよ」
+line_set 「神崎貴広の心はどこにあると思うか？」
+
+name_set 貴広
+
+line_set 「なんだそりゃ？？」
+
+name_set おやじさん
+
+line_set 「そういう事だよ……」
+line_set 「そういう問題なんだよ……これは……」
+line_set 「その謎を解かなければならない……」
+
+name_set 貴広
+
+line_set 「？」
+
+name_set おやじさん
+
+line_set 「嬢ちゃんはたぶん、今、世界にあるどんなアンドロイドより古いだろう……」
+
+name_set 貴広
+
+line_set 「そうなのか？」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「隷が置いていったカード、あれを活用させてもらう事になるぞ……」
+line_set 「俺の仮説が正しければ、カンパニーの総合中央メインフレームに鍵があるハズだ…」
+
+name_set 貴広
+
+line_set 「お、おい、総合中央メインフレームって…」
+line_set 「本社の中心スーパーコンピュータだろ…」
+line_set 「いくら、隷の社員カードといえども、あそこには入れないだろ…」
+
+name_set おやじさん
+
+line_set 「入れないなら、無理矢理入ればいいさ…、隷のカードがあれば、不可能ではない…」
+
+name_set 貴広
+
+line_set 「しかし、なぜ、中央メインフレームにあると断言出来るんだ？」
+
+name_set おやじさん
+
+line_set 「もし、にらんだとおりなら…嬢ちゃんの事を、本社のコンピューターが知らないわけがない」
+
+name_set 貴広
+
+line_set 「？」
+line_set 「なんだそりゃ？」
+
+name_set おやじさん
+
+line_set 「まぁ、頭の悪いお前でも、分かるさ…、いずれ…」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_clear
+
+ksd_set 1219A.KSD
+ksd_end

@@ -1,0 +1,868 @@
+story_progress 371
+
+kgd_layer1_set 0 BG023.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1209.KGD
+music_play_moekan 016.WAV
+
+name_set 貴広
+
+line_set 「ふぅ…」
+
+nvl_on
+
+line_set 貴広は眼鏡をはずして、眉間を押さえる。
+
+nvl_line_clear
+
+line_set 「萌え六法全集でも調べてみるか…」
+
+line_set 「何かしら、命令違反も、法的な手段によって、逃げ道があるかもしれないな」
+nvl_line_clear
+
+line_set 貴広は図書館に出かける。
+
+adv_on
+
+kgd_layer1_set 1 BG004.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 図書館は所長室とまったく逆方向にあり、その廊下を歩いていく間中、窓からは中庭が見える。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ん？」
+
+line_set 「あれは、リニア…」
+nvl_on
+
+line_set 窓から、中庭の手入れをしているリニアの姿が見える。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+line_set 「なんだ…」
+nvl_on
+
+line_set リニアは胸を押さえ、その場からまったく動かない。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+line_set 「あいつ…」
+nvl_on
+
+line_set 貴広は急ぎ足で、階段をくだり、中庭に出る。
+
+adv_on
+
+kgd_layer1_set 1 BG010.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer1_set 1 BG001.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer1_set 1 BG048.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「リニア…」
+
+kgd_layer3_set 0 RI017.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set リニア
+
+voice_play 51219.wav
+
+line_set 「あ…、た、貴広さん」
+
+name_set 貴広
+
+line_set 「どうした？調子でも悪いのか？」
+
+name_set リニア
+
+voice_play 51220.wav
+
+line_set 「え？いいえ…そんな事はありませんよ」
+
+name_set 貴広
+
+line_set 「……」
+
+kgd_layer3_set 3 RI014.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51221.wav
+
+line_set 「あ…、こ、ここは、緑がいっぱいあっていいですね…心が落ち着きます…」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set リニアの体が微妙に震えている。
+
+adv_on
+
+name_set 貴広
+
+line_set 「リニア…お前…」
+
+name_set リニア
+
+voice_play 51222.wav
+
+line_set 「だ、大丈夫ですよ…」
+
+nvl_on
+
+line_set ふらつきながらリニアが貴広から逃れようとする。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ば、バカ」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+name_set リニア
+
+voice_play 51223.wav
+
+line_set 「あ…」
+
+nvl_on
+
+line_set 倒れそうになったリニアをなんとか貴広が受け止める。
+
+adv_on
+
+kgd_layer3_set 0 RI012.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 貴広
+
+line_set 「まともに立てもしないのか…」
+
+name_set リニア
+
+voice_play 51224.wav
+
+line_set 「だ、大丈夫です…よ…」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「手を動かしてみろ…」
+name_set リニア
+
+line_set 「…」
+
+name_set 貴広
+
+line_set 「やはりな…」
+
+nvl_on
+
+line_set リニアの手は凍り付いたように動かない。
+
+adv_on
+
+name_set 貴広
+
+line_set 「また手が動かないのか？」
+
+kgd_layer3_set 3 RI014.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51226.wav
+
+line_set 「大丈夫ですよ…。そんな心配しなくても、すぐに良くなりますから…」
+
+name_set 貴広
+
+line_set 「水仕事しているわけでもあるまいし、手が動かない事が大丈夫なわけがあるまい…」
+
+name_set リニア
+
+line_set 「…」
+
+name_set 貴広
+
+line_set 「いつからだ…、いつから手が動かなくなり始めんだ」
+
+kgd_layer3_set 3 RI012.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51228.wav
+
+line_set 「さ、最近です…本当にごく最近なんで…」
+
+voice_play 51229.wav
+
+line_set 「たぶん、リニアの体は古いので、単に動きが鈍いだけで…」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set リニアの体の震えは止まらない。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…」
+
+name_set リニア
+
+voice_play 51230.wav
+
+line_set 「え…」
+
+nvl_on
+
+line_set 貴広はリニアのおでこに頭をつける。
+
+adv_on
+
+kgd_layer3_set 3 RI021.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 51231.wav
+
+line_set 「わっ、わっ、あ、あの、えっと、た、貴広さん」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set リニアのおでこは人間では考えられないほどに冷たい…。
+
+adv_on
+
+name_set 貴広
+
+line_set 「体中の温度調節が滅茶苦茶じゃないか…」
+
+name_set リニア
+
+voice_play 51232.wav
+
+line_set 「だ、大丈夫ですよ…」
+
+name_set 貴広
+
+line_set 「…」
+
+name_set リニア
+
+voice_play 51233.wav
+
+line_set 「わ、きゃあ！」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer2_clear
+gallery_unlock 58
+
+kgd_layer1_set 1 N018.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 017.WAV
+
+nvl_on
+
+line_set 貴広はリニアを抱きかかえる。
+
+adv_on
+
+name_set リニア
+
+voice_play 51234.wav
+
+line_set 「わっ、だ、だめ、だめです。そ、そんな…」
+
+nvl_on
+
+line_set リニアは貴広の腕の中で暴れる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「リニア…お前…」
+
+nvl_on
+
+line_set リニアの体は恐ろしく冷え切っていた。
+
+adv_on
+
+name_set リニア
+
+voice_play 51235.wav
+
+line_set 「た、貴広さん、だめですよ、風邪がうつってしまいますよ」
+
+name_set 貴広
+
+line_set 「バカ…お前のは風邪じゃない、俺にうつるわけがないだろ…」
+
+line_set 「なんでこんなになるまで、俺に言わないんだ」
+name_set リニア
+
+voice_play 51236.wav
+
+line_set 「え…あの、リニアはポンコツだから…こんな事は当たり前で…」
+
+name_set 貴広
+
+line_set 「馬鹿野郎、当たり前ですむか…」
+
+line_set 「とりあえず、メンテナンスルームにいくぞ」
+nvl_on
+
+line_set 貴広は抱きかかえたままリニアをメンテナンスルームに運ぼうとする。
+
+adv_on
+
+name_set リニア
+
+voice_play 51237.wav
+
+line_set 「だ、大丈夫ですよ、貴広さん、自分でいけますから…」
+
+name_set 貴広
+
+line_set 「貴様の大丈夫はまったく当てにならん」
+
+line_set 「いくぞ…」
+name_set リニア
+
+voice_play 51238.wav
+
+line_set 「あ…」
+
+nvl_on
+
+line_set 貴広はそのままリニアを抱きかかえたまま歩き出す。
+
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+wait 1000
+
+kgd_layer1_set 0 BG041.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1209.KGD
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 貴広
+
+line_set 「どうなんだ？　おやじさん」
+
+name_set おやじさん
+
+line_set 「………」
+
+nvl_on
+
+line_set メンテナンスルームの壁にケースのから放たれる緑色の光が反射する。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おやじさん…」
+
+name_set おやじさん
+
+voice_play v04651.wav
+
+voice_play v04651.wav
+line_set 「芳しくないな…」
+
+nvl_on
+
+line_set おやじさんの眉間に深いシワが刻み込まれている。
+
+adv_on
+
+name_set おやじさん
+
+voice_play v04652.wav
+
+voice_play v04652.wav
+line_set 「温度を調節する機能が著しく低下している」
+
+voice_play v04653.wav
+
+voice_play v04653.wav
+line_set 「このままだと他の機能にまで障害がでてくるだろう…」
+
+name_set 貴広
+
+line_set 「パーツを交換すればいいんじゃないか？」
+
+name_set おやじさん
+
+voice_play v04654.wav
+
+voice_play v04654.wav
+line_set 「現在使われている温度調節の機器は嬢ちゃんとは互換性がないほどに進んでしまったんだ」
+
+name_set 貴広
+
+line_set 「どうすればいい？」
+
+name_set おやじさん
+
+voice_play v04655.wav
+
+voice_play v04655.wav
+line_set 「温度調節の機能を切り、外部から補う」
+
+voice_play v04656.wav
+
+voice_play v04656.wav
+line_set 「そうすれば、嬢ちゃんは生き延びることができる」
+
+voice_play v04657.wav
+
+voice_play v04657.wav
+line_set 「しかし、あくまでも補うだけだ」
+
+voice_play v04658.wav
+
+voice_play v04658.wav
+line_set 「嬢ちゃんはここからは出られなくなってしまう」
+
+voice_play v04659.wav
+
+voice_play v04659.wav
+line_set 「会話もできず、触れあう事はできない」
+
+voice_play v04660.wav
+
+voice_play v04660.wav
+line_set 「それでもいいか？」
+
+name_set 貴広
+
+line_set 「…………」
+
+line_set 「しかたあるまい…」
+line_set 「頼む…おやじさん」
+name_set おやじさん
+
+voice_play v04661.wav
+
+voice_play v04661.wav
+line_set 「わかった…」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_set 1 BG084.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 貴広は通路へ出てメンテナンスルームの扉を見つめる。
+
+line_set 作業中のランプが静かに点灯する。
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG088.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 KI011.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+nvl_on
+
+line_set 貴広は霧島にリニアの状況を説明した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「すまなかった…独断で動かせてもらった……」
+
+name_set 霧島
+
+line_set 「………」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+nvl_on
+
+line_set リニアの状況説明を聞いた霧島が無言で退出した。
+
+nvl_line_clear
+
+line_set 霧島は別に貴広を責めている訳ではなかった。
+
+line_set 何もできなかった自分が許せなかったのだ。
+line_set 貴広もそれがわかって、よりつらかった。
+adv_on
+
+name_set 貴広
+
+line_set 「…俺もなにもできなかったな」
+
+kgd_layer2_clear
+
+music_stop1
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 W1210.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+wait 2000
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1210.KGD
+sfx_set 0 SE005.WAV
+
+sfx_loop 0
+name_clear
+
+line_set バラバラバラバラバラバラバラ……
+
+kgd_layer1_set 0 BG027.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+name_set 貴広
+
+line_set 「ヘリ…？」
+
+nvl_on
+
+line_set 貴広はいやな予感に手早く着替え、ヘリポートへ向かった。
+
+adv_on
+
+sfx_stop 0
+
+sfx_unset 0
+kgd_layer1_set 1 BG012.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 012.WAV
+
+name_set 貴広
+
+line_set 「何事だ！」
+
+name_set 飯島
+
+line_set 「おはよう、神崎」
+
+kgd_layer3_set 0 SO021.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 貴広
+
+line_set 「飯島…」
+
+line_set 「何のようだ…」
+name_set 飯島
+
+line_set 「スクラップになったアンドロイドがあるというのでな、引き取りにきた」
+
+name_set 貴広
+
+line_set 「なんだと！？」
+
+nvl_on
+
+line_set 飯島が乗ってきたであろう大型ヘリの中へ見覚えのあるケースが載せられていくところだった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「リニア！！」
+
+name_set 飯島
+
+line_set 「止まれ！！」
+
+name_clear
+
+line_set ジャキッジャキッ！！
+
+nvl_on
+
+line_set 飯島の声にＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳの武装メイドが一斉に貴広へマシンガンを向けた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「飯島…」
+
+name_set 飯島
+
+line_set 「貴様には渡すモノがある」
+
+nvl_on
+
+line_set 飯島にやけながら懐から一通の封筒を取り出し、貴広に差し出した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「？」
+
+name_set 飯島
+
+line_set 「辞令だ」
+
+line_set 「南南部第２５６３号島　護衛メイド最終訓練工程試験連絡洋上訓練所所長　神崎貴広」
+line_set 「今日までの命令、規約違反及び、アンティークアンドロイドの破損により」
+line_set 「只今をもってその任を解き、シベリア炭坑管理室室長への異動を命ず」
+name_set 飯島
+
+line_set 「以上だ」
+
+name_set 貴広
+
+line_set 「…異動は受けよう」
+
+line_set 「２つ聞きたいことがある」
+name_set 飯島
+
+line_set 「なんだ？」
+
+name_set 貴広
+
+line_set 「この島はどうなる…？」
+
+line_set 「そしてリニアはどうなるんだ…？」
+line_set 「あいつはまだ生きている」
+name_set 飯島
+
+line_set 「貴様には関係ない話だろう」
+
+line_set 「と言っても、それでは貴様も納得せんだろうなぁ…くくく…」
+nvl_on
+
+line_set 飯島は心から嬉しそうに顔をゆがめて笑った。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+name_set 飯島
+
+line_set 「これだけは言えるな」
+
+line_set 「今後の貴様の態度しだいとな」
+name_set 貴広
+
+line_set 「……」
+
+name_set 飯島
+
+line_set 「貴様がモエかんに逆らわなければ、この島はこのままであり」
+
+line_set 「あのアンドロイドもスクラップにはせんよ」
+name_set 貴広
+
+line_set 「…本当だな？」
+
+name_set 飯島
+
+line_set 「約束しよう」
+
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set 貴広は無言で辞令を受け取ると、閉じてゆく大型ヘリのハッチを見つめた。
+
+line_set リニアを包む緑色の光が見えなくなった。
+adv_on
+
+name_set 飯島
+
+line_set 「それではさらばだ、神崎」
+
+line_set 「達者で暮らせ」
+line_set 「ふはははははは！！！」
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+nvl_on
+
+line_set 飯島は大笑いしながらヘリへと乗り込んでいった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…………」
+
+kgd_layer2_clear
+
+music_stop2
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+line_set ・・・・
+
+line_set ・・・
+line_set ・・
+sfx_set 0 SE003.WAV
+
+sfx_loop 0
+music_play_moekan 016.WAV
+
+nvl_line_clear
+
+line_set 貴広が炭坑管理室に着任して５年。
+
+line_set 貴広は一人で僅かな石炭を掘り続けていた。
+line_set 過酷な環境の中で貴広は島を守るためにひたすら働いた。
+nvl_line_clear
+
+line_set 一年に一度島から手紙が届く。
+
+line_set 毎日のように書いてるらしいが厳重な検査もあり、貴広の元に届くのは多くて二通だった。
+line_set 管理室に入り、雪を払うと貴広はいつも手紙を眺めていた。
+nvl_line_clear
+
+line_set 所長、お元気ですか？
+
+line_set 島は所長のおかげで相変わらずです。
+line_set 冬葉ちゃん、かずさちゃん、鈴希ちゃん。
+line_set おじさん、おばさん、そしてリニアちゃん。
+line_set みんな元気です。
+line_set こうして暮らせるのも全て所長のおかげです。
+line_set いつまでも所長の帰りを待っています。
+line_set 霧島香織
+nvl_line_clear
+
+line_set 霧島の手紙はいつも最後の方が涙でにじんでいた。
+
+nvl_line_clear
+
+line_set 貴広さんお元気ですか？
+
+line_set 新しい絵本をたくさん持っていつまでもいつまでもお待ちしています。
+line_set 実相寺冬葉
+nvl_line_clear
+
+line_set 旦那、大丈夫？
+
+line_set 私の作った料理を旦那に食べてもらいたいよ。
+line_set ずっとずっと待ってるからね。
+line_set 朝霧かずさ
+nvl_line_clear
+
+line_set たかひろまってる。
+
+line_set すずき
+nvl_line_clear
+
+line_set 二通目には冬葉、かずさ、鈴希達がまとめて書いていた。
+
+line_set こうする事で送りやすくしたのだろう。
+line_set 短い文章であったが心のこもった温かい手紙だった。
+adv_on
+
+name_set 貴広
+
+line_set 「さて…作業を続けるか」
+
+nvl_on
+
+line_set 貴広は手紙を大事にしまうと懐に入れ、ツルハシをもって管理室の扉を開けた。
+
+line_set 刺すような冷たさの中を貴広は歩き出した。
+adv_on
+
+music_stop1
+
+wait 2000
+
+sfx_stop 0
+
+sfx_unset 0
+route_end
+
+ksd_end
+

@@ -1,0 +1,2343 @@
+
+story_progress 343
+
+kgd_layer1_set 0 W1220.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 2000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1220.KGD
+
+sfx_set 0 SE005.WAV
+sfx_loop 0
+
+name_clear
+
+line_set バラバラバラバラバラ……
+
+nvl_on
+
+line_set 静かな、第２５６３号島の空気を、ヘリのローター音が切り裂く……。
+
+nvl_line_clear
+
+line_set 上空から、運送用の巨大なヘリが、三機、島の外れのヘリポートに着陸する。
+
+adv_on
+
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer1_set 0 BG023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 017.WAV
+
+kgd_layer3_set 0 KI001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「……」
+line_set 「来たようだな……」
+
+name_set 霧島
+
+voice_play 42860.wav
+
+line_set 「はい、それでは、第２５６３号島の一般社員と一般メイド、そして戦闘メイドを避難させまちゅ」
+
+name_set 貴広
+
+line_set 「ああ……、頼んだ……」
+
+name_set 霧島
+
+voice_play 42861.wav
+
+line_set 「島のみんなにはすでに言ってありまちゅ……、数時間ですべては終わるハズでちゅ……」
+
+name_set 貴広
+
+line_set 「ああ……」
+
+name_set 霧島
+
+voice_play 42862.wav
+
+line_set 「島のみんなには……、所長も、ちゃんと後から私と行くと伝えてありまちゅ……」
+
+voice_play 42863.wav
+
+line_set 「だから、いかにも、最後の別れという表情は見せないでくだちゃいね……」
+
+voice_play 42864.wav
+
+line_set 「みんなが不安に思いまちゅから……」
+
+name_set 貴広
+
+line_set 「大丈夫だ……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 島の外れにある通常はほとんど使われる事のないヘリポート。
+line_set そこに、この島では見る事のないような、三機の巨大なヘリが止まっている。
+
+adv_on
+
+kgd_layer1_set 0 BG086.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「霧島！！」
+line_set 「どうだ？予定通り、すべての人間を乗せられたか？」
+
+kgd_layer3_set 0 KI001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+voice_play 42865.wav
+
+line_set 「はい、さすが、本社のド級空輸ヘリでちゅ……、これだけの人数がすべて収まったでちゅよ…」
+
+name_set 貴広
+
+line_set 「そうか……」
+
+kgd_layer3_set 3 KI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play 42866.wav
+
+line_set 「定刻通りに、ここから離陸できそうでちゅよ…」
+
+name_set かずさ
+
+voice_play 31708.wav
+
+line_set 「旦那！！」
+
+kgd_layer3_set 3 KA002.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 貴広
+
+line_set 「かずさか？」
+
+nvl_on
+
+line_set 体に包帯を巻いており、傷が痛々しいが、
+line_set それなりに元気であるようだった…。
+
+adv_on
+
+name_set かずさ
+
+voice_play 31709.wav
+
+line_set 「本当はさ…、残って旦那の事を守りたいんだけど……」
+
+voice_play 31710.wav
+
+line_set 「でも、この体じゃ……、逆に旦那の足手まといになっちゃうんだもんね…」
+
+voice_play 31711.wav
+
+line_set 「でも、旦那も霧島さんと後始末が終わったら…、避難先に来るんだよね……」
+
+name_set 貴広
+
+line_set 「ああ、そうだ……」
+
+name_set かずさ
+
+voice_play 31712.wav
+
+line_set 「絶対だよ……」
+
+name_set 貴広
+
+line_set 「ああ……」
+
+kgd_layer3_set 3 KA014.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+nvl_on
+
+line_set かずさは貴広に抱きつく……。
+
+adv_on
+
+name_set 貴広
+
+line_set 「かずさ……」
+
+name_set かずさ
+
+voice_play 31713.wav
+
+line_set 「また、会えるよね……」
+
+voice_play 31714.wav
+
+line_set 「生きていれば、また会えるんだから……」
+
+voice_play 31715.wav
+
+line_set 「だから、私……泣かないよ……」
+
+nvl_on
+
+line_set 貴広の胸の中でかずさは涙をこらえる。
+
+adv_on
+
+name_set かずさ
+
+voice_play 31716.wav
+
+line_set 「泣かないんだから……」
+
+voice_play 31717.wav
+
+line_set 「だって……、また会えるから……」
+
+kgd_layer3_set 3 KA013.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+nvl_on
+
+line_set 閉じた、瞳から…、
+line_set 頬に雫が落ちる……。
+
+adv_on
+
+name_set かずさ
+
+voice_play 31718.wav
+
+line_set 「死んじゃだめだよ……、死んでもなんて考えちゃだめだからね……」
+
+voice_play 31719.wav
+
+line_set 「理由がなんであれ……、死ぬなんて無しだからね……」
+
+name_set 貴広
+
+line_set 「かずさ……、お前……」
+
+name_set 霧島
+
+voice_play 42867.wav
+
+line_set 「かずさちゃん……、そろそろ……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set かずさは冬葉に肩をだかれ、ヘリコプターのタラップを上がる。
+
+adv_on
+
+kgd_layer3_set 0 FU009.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 冬葉
+
+line_set 「……」
+
+nvl_on
+
+line_set 泣きそうな顔の冬葉が無言で、貴広に会釈をする。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+sfx_set 0 SE005.WAV
+sfx_loop 0
+
+name_clear
+
+line_set バラバラバラバラバラ……
+
+nvl_on
+
+line_set とうとう最後の一機が飛び立つ……。
+
+adv_on
+
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer3_set 0 KI001.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+line_set 「……」
+
+name_set 貴広
+
+line_set 「やつら……、知らないんじゃなかったのか…」
+
+name_set 霧島
+
+voice_play 42869.wav
+
+line_set 「はい…、教えてまちぇん……」
+
+name_set 貴広
+
+line_set 「なら？」
+
+name_set 霧島
+
+line_set 「……」
+
+voice_play 42871.wav
+
+line_set 「気がついてないのは、あなただけでちゅ……」
+
+name_set 貴広
+
+line_set 「？」
+
+name_set 霧島
+
+voice_play 42872.wav
+
+line_set 「女の子は、好きな人の表情から、その本心ぐらい読みとれまちゅよ……」
+
+name_set 貴広
+
+line_set 「どういう意味だ？」
+
+kgd_layer3_set 3 KI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+line_set 「……」
+
+voice_play 42874.wav
+
+line_set 「所長がバカだという意味でちゅ……」
+
+name_set 貴広
+
+line_set 「？」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 霧島はそのまま、貴広を無視するように、屋敷の方に戻っていく…。
+
+adv_on
+
+name_set 貴広
+
+line_set 「なんだ？あいつ？」
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG004.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+sfx_set 0 SE014.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set コンコン……
+
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「リニア？」
+
+name_clear
+
+line_set 「……」
+
+name_set 貴広
+
+line_set 「寝ているのか……」
+line_set 「どうするかな………」
+line_set 「また起こすのも悪いが……」
+
+name_clear
+
+line_set がちゃ…
+
+nvl_on
+
+line_set 貴広はゆっくりとドアノブをまわす。
+
+nvl_line_clear
+
+line_set 「何があるか分からない、寝顔だけでも確認したほうがいいだろう…」
+
+adv_on
+
+kgd_layer1_set 1 BG060.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「寝ているな…」
+
+kgd_layer2_clear
+
+gallery_unlock 83
+
+kgd_layer1_set 1 N043.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+music_play_moekan 006.WAV
+
+nvl_on
+
+line_set 貴広はリニアのベットの横に腰掛ける。
+
+nvl_line_clear
+
+line_set リニアの寝顔は穏やかなものであった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「顔色は相変わらずだが…、それでもそれほど悪くはないようだな……」
+
+nvl_on
+
+line_set 貴広はまた、リニアの顔を見る。
+
+nvl_line_clear
+
+line_set リニアの寝顔は、いつものそれよりもさらに彼女を幼く感じさせる。
+
+nvl_line_clear
+
+line_set 人の寝顔はいつでも、童のごとくある……。
+
+adv_on
+
+name_set 貴広
+
+line_set 「より一層…、幼く感じるな……」
+line_set 「この幼い顔……」
+line_set 「なんだろ……」
+
+gallery_unlock 103
+
+kgd_layer1_set 1 N063.KGD
+kgd_layer1_unk1
+kgd_layer1_display
+
+wait 300
+
+kgd_layer1_unk1
+kgd_layer1_display
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「？！」
+
+nvl_on
+
+line_set 貴広の脳の奥底の何かがよぎる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「いや……」
+line_set 「最近疲れているな……」
+line_set 「それに、アンドロイドの幼さなど、実年齢とは関係ないからな……」
+
+nvl_on
+
+line_set リニアの顔を見つめる。
+
+nvl_line_clear
+
+line_set 微妙な表情の変化が読みとれる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+line_set 「夢でも見ているのかな……」
+line_set 「……」
+line_set 「夢か……」
+line_set 「そういえば、リニアは当たり前のように言っていたがアンドロイドは普通に夢を見るのだろうか…」
+
+nvl_on
+
+line_set リニアの表情がすこしほころぶ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「そういえば……」
+line_set 「おやじさんは、リニアの謎は、俺の心がどこにあるかとか言っていたな……」
+line_set 「心か……」
+line_set 「あまり、考えた事がなかったが……」
+line_set 「アンドロイドは機械なのに、心があるのだろうかな……」
+line_set 「あるとしたら、どこにあるのだろう……」
+
+nvl_on
+
+line_set 貴広自身、多くのアンドロイドを見てきた。
+line_set たしかに、そのアンドロイドと人間の違いはなかった……。
+line_set それでも、そこに心のようなものをぎりぎりで信じる事が困難であるような気もした……。
+
+nvl_line_clear
+
+line_set それが、リニアだけは、まったく違った……。
+
+nvl_line_clear
+
+line_set リニアをいくら貴広がアンドロイドとして扱おうとしても……、
+
+nvl_line_clear
+
+line_set なぜか、貴広の行動は、無意識にリニアを人間として扱っていた……。
+
+adv_on
+
+name_set 貴広
+
+line_set 「そう言えば……」
+line_set 「なぜ、俺は、こいつをこんなに懸命に救おうとしているのだろうな……」
+line_set 「俺だけでなく、整備の若い連中、おやじさん…」
+line_set 「こいつはただのアンドロイドなのに……」
+line_set 「俺は少なくとも、始めは、そう思って接して来た……」
+line_set 「それが、いつのまにか、こいつを人間として扱っていた…」
+line_set 「なんでだろう……」
+line_set 「整備の若い連中も、おやじさんも、やはり、それまでのアンドロイドとの接し方とは違ったよな……」
+line_set 「不思議だな……」
+
+nvl_on
+
+line_set 言葉では語れなかった……。
+
+nvl_line_clear
+
+line_set 今まで見てきたアンドロイドだって、十分人間らしかった。
+
+nvl_line_clear
+
+line_set その振る舞いは完全に人間のものであった。
+
+nvl_line_clear
+
+line_set にも関わらず、どこかしら、それがアンドロイドだという意識が消えきらなかった……。
+
+nvl_line_clear
+
+line_set ここにいるリニアをのぞいて……。
+
+adv_on
+
+name_set 貴広
+
+line_set 「お前は不思議なアンドロイドだ……」
+line_set 「お前を機械として扱って、感情移入なんてしないようにしてきたのに…」
+line_set 「今では、俺には、お前に心がないなんて信じられないのだからな……」
+
+name_set リニア
+
+voice_play 53443.wav
+
+line_set 「す～」
+
+name_set 貴広
+
+line_set 「お前は不思議なヤツだ……」
+
+nvl_on
+
+line_set 貴広はゆっくりと席をたつ。
+line_set リニアを目覚めさせないように……。
+
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG027.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1220.KGD
+
+name_set 貴広
+
+line_set 「リニア……」
+
+nvl_on
+
+line_set 貴広はベットの上でリニアの寝顔を思い出す。
+
+adv_on
+
+music_play_moekan 016.WAV
+
+name_set 貴広
+
+line_set 「なぜだろう……」
+line_set 「あいつの寝顔……」
+line_set 「あの幼き顔……」
+line_set 「……」
+line_set 「いや、疲れているのだろう……」
+
+nvl_on
+
+line_set 貴広は向きを変える。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+line_set 「今日で…、ここのメイドや社員の移送が終わったのか……」
+line_set 「終わったのだな……」
+line_set 「これであいつらを巻き込まないですむ…」
+line_set 「ここには、俺とおやじさんと霧島……、そしてリニアだけだ……」
+line_set 「……」
+line_set 「…………」
+
+nvl_on
+
+line_set 貴広が黙ると…、音がどこからもしない。
+line_set 多くの人間を抱えていた、この島では、
+line_set 夜中でもなければ、いつでも、耳を澄ませば、どこからともなく人の声がした。
+
+nvl_line_clear
+
+line_set それが、今では、何の音もしない……。
+line_set 静まりかえっている…。
+
+adv_on
+
+name_set 貴広
+
+line_set 「この島で幸せに慣れすぎたのかもしれないな…」
+line_set 「幸せになる素質がないと思っていたが……」
+line_set 「案外、そうでもなかったのかもしれないな……」
+line_set 「……」
+line_set 「…………」
+
+nvl_on
+
+line_set これだけ広い屋敷にもう数人しか人がいない…。
+line_set そう考えると、さすがの貴広も何か寂しい気持ちになってくる……。
+
+adv_on
+
+name_set 貴広
+
+line_set 「そうだ……借りてきた本を返さなければな……」
+line_set 「ここのところ、忙しくて、そんな事すら忘れていた……」
+line_set 「貸し出し期限はとっくに切れているな……」
+line_set 「……」
+
+kgd_layer1_set 1 BG004.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set 廊下はしずまりかえっている。
+
+adv_on
+
+kgd_layer1_set 1 BG019.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 図書館にも誰もいない……。
+
+adv_on
+
+name_set 貴広
+
+line_set 「つい、さっきまで、どこに行っても、メイドと社員が行き来していたのだがな……」
+line_set 「不思議なものだな…、もう誰もいない……」
+
+nvl_on
+
+line_set 貴広は図書館のカウンターの前に立ち止まる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「誰もいないカウンターに本を返しても、仕方ないな……、直接返すか……」
+
+nvl_on
+
+line_set 貴広は、カウンターを抜けて、
+line_set 誰もいない棚の列の中を一人歩く。
+
+adv_on
+
+kgd_layer1_set 1 BG016.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「そういえば、冬葉は絵本を全部置いていく事になったのだろうか？」
+
+nvl_on
+
+line_set 貴広はバベルの図書館のような巨大な迷路をくぐり抜けていく。
+
+nvl_line_clear
+
+line_set そして、懐かしい本棚に出る。
+
+nvl_line_clear
+
+line_set そこは、すべての本がいつも通りの場所にしまわれている。
+
+nvl_line_clear
+
+line_set 冬葉が残していった、数多くの絵本が、そこには残っている……。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+line_set 「やはり、置いていったのか……」
+line_set 「さぞかし冬葉も残念だっただろうな……」
+
+nvl_on
+
+line_set さらに奥に進んだ棚で、貴広は立ち止まる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「さてと借りてた本があった場所は…」
+
+nvl_on
+
+line_set 貴広は本の後ろに書かれた、番号を読む。
+
+adv_on
+
+name_set 貴広
+
+line_set 「東－Ｇ－０２５３－５－１５……」
+line_set 「東フロアの……Ｇブロックの０２５３だから、ここの棚だな……」
+line_set 「それの５段目の……１５冊目……、ここに収まっていたのだな……」
+
+nvl_on
+
+line_set 貴広が先月末に借りた本を本棚に戻す。
+
+nvl_line_clear
+
+line_set その書籍は『狂風記』。
+
+adv_on
+
+name_set 貴広
+
+line_set 「狂風記、そういえば……」
+
+kgd_layer2_clear
+
+gallery_unlock 215
+
+kgd_layer1_set 1 N175.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 隷
+
+line_set 「狂風記か…、日本の文学だな」
+line_set 「ふふふ、石川淳は日本の文学というには文体がユーニークじゃないか？」
+
+kgd_layer1_set 1 BG016.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1220.KGD
+
+name_set 貴広
+
+line_set 「比較出来るほど、石川淳は読んだことがないから知らなかったのだがな……」
+line_set 「……」
+
+nvl_on
+
+line_set フト、貴広は隷の事を思い出していた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「昔は、俺が本の事を教えてやったのに…」
+line_set 「俺が、あいつに教わるとはな……」
+line_set 「隷……」
+
+nvl_on
+
+line_set 貴広は隷が立っていた場所を見つめる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG016.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 012.WAV
+
+name_set 貴広
+
+line_set 「？！」
+line_set 「まてよ……、あいつ……、何でここの図書館なんか使っていたんだ？」
+line_set 「次の日には本社に戻るのに……」
+line_set 「なぜ？」
+
+kgd_layer2_clear
+
+gallery_unlock 215
+
+kgd_layer1_set 1 N175.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 隷
+
+line_set 「貴広と同じさ」
+line_set 「図書館に、書籍が目的ではない人間は、あまり来ないだろう…」
+
+kgd_layer1_set 1 BG016.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1220.KGD
+
+name_set 貴広
+
+line_set 「？！」
+
+nvl_on
+
+line_set 貴広は走り出す。
+
+nvl_line_clear
+
+line_set 「いや、読書というよりは、少し調べモノをな……」
+
+adv_on
+
+name_set 貴広
+
+line_set 「そうか、そうなのか……」
+
+nvl_on
+
+line_set 「カンパニーのデーターベースでは規制された情報が多くてな…」
+line_set 「つい数日前のデーターが、知らぬ間に改ざんされていたりする。あまり信用できないさ」
+line_set 「その点、こういう辺境の島の図書館は、古い情報がそのまま残っている」
+
+nvl_line_clear
+
+line_set 貴広は、古い新聞や雑誌がスクラップされた、棚に向かう。
+
+nvl_line_clear
+
+line_set 「特にこの島は、カンパニーがあまり必要としなかったような紙媒体の情報を」
+line_set 「昔、かなりの数、引き取っている。それがそのままこの島には数多く残っている」
+
+nvl_line_clear
+
+line_set 「もちろん、直接カンパニーが不利になるような情報など残ってはいないが…」
+line_set 「それでも、間接的にでも、手がかりになるようなものが、そのままの形で残っている…」
+
+nvl_line_clear
+
+line_set 貴広は、スクラップを端から投げ飛ばすように調べていく。
+
+adv_on
+
+name_set 貴広
+
+line_set 「この年じゃない……、この年でもない……」
+
+nvl_on
+
+line_set 「紙媒体というのは、嘘のつきようがないからな…」
+line_set 「古い本をそのまま古いまま書き換えるなんて不可能なことだろ…」
+
+adv_on
+
+name_set 貴広
+
+line_set 「これか？」
+
+nvl_on
+
+line_set 貴広の手が止まる。
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 225
+
+kgd_layer1_set 1 N185.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 新聞の発行日を見る。
+
+nvl_line_clear
+
+line_set ２０１４年　１２月２６日。
+
+nvl_line_clear
+
+line_set およそ１世紀ほど前のものだ……。
+
+nvl_line_clear
+
+line_set そこには、中央情報管理局のメインフレーム上にあった情報がそのままあった。
+
+nvl_line_clear
+
+line_set 見出しは、
+line_set 『人工知能を完成』
+
+nvl_line_clear
+
+line_set そして、こう書かれている。
+line_set 『心を機械が刻む』
+line_set と……。
+
+adv_on
+
+name_set 貴広
+
+line_set 「これを見る限り、メインフレーム上のデーターはかなり改ざんされていた様だな…」
+line_set 「だが、これはまぎれもなく、あの記事のオリジナルだ……」
+
+nvl_on
+
+line_set スクラップされた記事を読んでいく。
+
+nvl_line_clear
+
+line_set 「世界ではじめて完全と言えるアンドロイドを、日本の庵原博士が完成させた……」
+line_set 「博士は、１９９２年から、米国のソルト社で人工知能の研究をつづけていた…」
+
+nvl_line_clear
+
+line_set 「２００４年に、同ソルト社では、ＡＣカンパニーに融資するにあたり」
+line_set 「同じくＡＣカンパニーに融資を行った、篠川重工、ソナー、ブレインソフトと提携し」
+line_set 「人工知能開発所を筑波で共同開発、庵原博士を中心としたチームが」
+line_set 「今年の３月に改良されたチューリングテストをすべてクリアする人工知能の開発に成功した」
+
+adv_on
+
+name_set 貴広
+
+line_set 「ここまでは同じだ……」
+line_set 「ここからが改ざんされ、消去されていた部分か…」
+
+nvl_on
+
+line_set 「庵原博士は、これを、心を持つ人工知能の前段階とし」
+
+adv_on
+
+name_set 貴広
+
+line_set 「前段階だと？？それをもって完成ではないのか？」
+
+nvl_on
+
+line_set 貴広はさらに読み進めていく…。
+
+nvl_line_clear
+
+line_set 「さらなる完全な人工知能開発が可能という論文を提出し、その新たなる研究に着手した」
+line_set 「人工知能開発所を退職後、自らの資金で研究を続け、今回初めてのそのアンドロイドを完成させた」
+
+nvl_line_clear
+
+line_set 「従来のアンドロイドが、人間の脳を模して作られたニューラルネットワーク型人工知能に対して」
+line_set 「庵原博士が作り出したアンドロイドは、人間の心をそのまま機械が宿すというもので」
+line_set 「テスト結果では、あらゆるアンドロイドの人工知能を抜いて」
+line_set 「もっとも人間に近いという判定結果は出ている」
+
+nvl_line_clear
+
+line_set 「しかし、それが、はたして真に心を持つかどうかという議論になると」
+line_set 「科学という枠組みで、証明は出来ないという、疑問の声も多い」
+line_set 「今回のアンドロイドの完成は、人間の心、人工知能の心という」
+line_set 「もっとも現代的な議論をさらに深めるものとなるであろう」
+
+adv_on
+
+name_set 貴広
+
+line_set 「どういう事だ？？心を持つ人工知能を完成させただと？？？」
+
+nvl_on
+
+line_set 庵原博士は今回の研究は、昨年病死した娘の千歳さんの魂に捧げるものであり、
+
+nvl_line_clear
+
+line_set たしかに、娘の心を機械が刻みつづけている。とコメントしている。
+
+adv_on
+
+name_set 貴広
+
+line_set 「心を機械が刻み続けている？？？なんだそりゃ？」
+line_set 「ん？？」
+line_set 「なんだこれ……」
+
+nvl_on
+
+line_set よく見ると、不自然に切り取られている場所がある。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ここ……、写真か何かがあったみたいだな……」
+line_set 「写真があるとしたら……、世界ではじめて心を持ったアンドロイドの写真だろうな……」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+sfx_set 0 SE063.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ドサ……
+
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer1_set 0 BG041.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1220.KGD
+kgd_layer3_set 0 SO031.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+line_set 「な、なんだよ…、このファイルの束は……」
+
+name_set 貴広
+
+line_set 「おやじさんが探していた情報だよ……、盲点だった…」
+line_set 「極秘の情報というと、どうしても厳重に守られた場所にあると考えてしまいがちだが……」
+line_set 「手元にある場合だってある…」
+line_set 「特に古い書籍がそのまま大量に眠っているこの島には…」
+
+name_set おやじさん
+
+line_set 「な、なんてこった……、こりゃ、中央情報管理局メインフレームにあった情報そのままじゃねぇか…」
+
+name_set 貴広
+
+line_set 「俺もこんな古いスクラップまで保存しているとは思いも寄らなかった……」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「まぁ、あれだけ巨大な図書館の本すべての配置なんてあそこの図書館司書だって分かっていないだろう」
+
+name_set 貴広
+
+line_set 「そういえば隷は言ってたよ……」
+line_set 「こういう辺境の島の図書館は、古い情報がそのまま残っている」
+line_set 「特にこの島は、カンパニーがあまり必要としなかったような紙媒体の情報を」
+line_set 「昔、かなりの数、引き取っている。それがそのままこの島には数多く残っている」
+line_set 「もちろん、直接カンパニーが不利になるような情報など残ってはいないが…」
+line_set 「それでも、間接的にでも、手がかりになるようなものが、そのままの形で残っている…」
+line_set 「紙媒体というのは、嘘のつきようがない」
+line_set 「とな……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set おやじさんはその記事を、そのまま読んでいく。
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 225
+
+kgd_layer1_set 0 N185.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set おやじさん
+
+line_set 「そうだろうな……」
+line_set 「俺も記憶で聞いたことがあったんだよ…、ガキの頃だがな……」
+line_set 「現存するすべてのアンドロイドの人工知能」
+line_set 「人間を模してつくったニューラルネットワーク型の人工知能……」
+line_set 「これ以外の、人工知能を持ったアンドロイドも存在すると……」
+line_set 「それは、人と同じ、心をやどしていると……」
+line_set 「今じゃ、そんな話……誰も信じてないがな……」
+
+name_set 貴広
+
+line_set 「おやじさん……、この新聞、写真が故意に切り取られているよな……」
+
+name_set おやじさん
+
+line_set 「ああ、そうだな……」
+
+name_set 貴広
+
+line_set 「なんの写真が入っていたと思う？」
+
+name_set おやじさん
+
+line_set 「まぁ、完成したアンドロイドだろうな……」
+
+nvl_on
+
+line_set おやじさんはあまり興味がなさそうに答える。
+
+adv_on
+
+name_set おやじさん
+
+line_set 「だいたい、どんなアンドロイドの写真が入っていたかは見当がついている……」
+
+name_set 貴広
+
+line_set 「そうなのか？」
+
+name_set おやじさん
+
+line_set 「それより気がついたか？」
+line_set 「改ざんされたデータだと２００４年となっていたが……」
+line_set 「このアンドロイドが完成したのは、それから１０年後の２０１４年となっている……」
+
+name_set 貴広
+
+line_set 「どういう事だ？」
+
+name_set おやじさん
+
+line_set 「ちょうど１０年必要だったって事だろうな…」
+
+name_set 貴広
+
+line_set 「？」
+
+name_set おやじさん
+
+line_set 「さてと……」
+
+name_set 貴広
+
+line_set 「どこに行くんだ？」
+
+name_set おやじさん
+
+line_set 「あの図書館の書籍から、庵原博士に関わるものをすべて探す」
+
+name_set 貴広
+
+line_set 「あのバベルの図書館からか…、パソコン検索も出来ないぞ…あそこは……」
+line_set 「東西南北で全部で４フロアに別れていて……」
+line_set 「その一つのフロアで、Ａから始まってＺのブロックに分けられてる……」
+line_set 「さらに、そのブロック内で５０００を超える棚があって、それがさらに９段に分けられている…」
+
+name_set おやじさん
+
+line_set 「だから、貴重な情報が眠っているんだろ」
+
+name_set 貴広
+
+line_set 「ああ、おやじさんが言う通りだ……」
+
+name_set おやじさん
+
+line_set 「本当はお前にでもやってもらいたいのだが…」
+line_set 「職業柄、俺の方が見つけやすいだろう…」
+line_set 「お前は、嬢ちゃんの様子でも見てやってやれ…」
+line_set 「それもお前にしか出来ないからな……」
+
+name_set 貴広
+
+line_set 「ああ、わかった………」
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+gallery_unlock 83
+
+kgd_layer1_set 0 N043.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 016.WAV
+
+nvl_on
+
+line_set 貴広はリニアに料理を運んでやる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「今日は、よく寝ているな……」
+
+nvl_on
+
+line_set 貴広はリニアを見つめる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「このまま寝かしておいた方がいいな……」
+line_set 「問題もなさそうだしな……」
+
+name_set リニア
+
+line_set 「……」
+
+voice_play 53445.wav
+
+line_set 「た……かひろ…さん…」
+
+name_set 貴広
+
+line_set 「？」
+
+name_set リニア
+
+line_set 「……」
+
+nvl_on
+
+line_set 貴広の名前を呼ぶリニア……。
+
+nvl_line_clear
+
+line_set でも寝ているようであった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+line_set 「また、夢を見ているのか……」
+
+nvl_on
+
+line_set リニアの顔を見つめる。
+
+nvl_line_clear
+
+line_set リニアの閉じられた瞳から、涙が落ちる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+line_set 「悲しい夢を見ているのか…」
+
+name_set リニア
+
+line_set 「……」
+
+name_set 貴広
+
+line_set 「リニア……」
+
+nvl_on
+
+line_set 貴広はリニアの頬をなでてやる。
+
+nvl_line_clear
+
+line_set 貴広の手の温もりがリニアを包む…。
+
+nvl_line_clear
+
+line_set リニアの涙は思いの外、暖かい。
+
+adv_on
+
+name_set 貴広
+
+line_set 「こんな、暖かい涙を持っているなんてな…」
+line_set 「なんて、やつなんだよお前は……」
+
+nvl_on
+
+line_set 貴広の暖かい温もり…。
+
+nvl_line_clear
+
+line_set リニアの涙をふき取る…。
+
+adv_on
+
+name_set リニア
+
+line_set 「……」
+
+voice_play 53449.wav
+
+line_set 「ここの丘で……」
+
+voice_play 53450.wav
+
+line_set 「もう、時計渡せなくなっちゃったね……」
+
+gallery_unlock 369
+
+kgd_layer1_set 1 N329.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+gallery_unlock 367
+
+kgd_layer1_set 1 N327.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+gallery_unlock 103
+
+kgd_layer1_set 1 N063.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+gallery_unlock 83
+
+kgd_layer1_set 1 N043.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「？！」
+line_set 「まただ……」
+
+name_set リニア
+
+voice_play 53451.wav
+
+line_set 「ごめんなさい……」
+
+nvl_on
+
+line_set リニアの顔が悲しさに染められていく。
+
+adv_on
+
+name_set リニア
+
+voice_play 53452.wav
+
+line_set 「うぐっ……」
+
+name_set 貴広
+
+line_set 「ばか……」
+line_set 「そんな顔するな……」
+
+nvl_on
+
+line_set 貴広から、ひさしく忘れていたものがこみ上げる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「くそ……」
+line_set 「なんで、俺がこんな気持ちに……」
+line_set 「たかだか、アンドロイドが悲しそうな顔をしているだけなのに……」
+line_set 「なんで、おれまで……」
+
+nvl_on
+
+line_set 説明もつかなかった……。
+line_set ただ、意識より、下の部分……。
+line_set もっと奥底の部分から、その感情はこみ上がってくる。
+
+nvl_line_clear
+
+line_set 貴広の肩が震える。
+
+nvl_line_clear
+
+line_set まるで、細胞一つ一つまでもそれに呼応するように。
+
+adv_on
+
+name_set 貴広
+
+line_set 「なんで、お前は、そうやって、悲しそうな顔をするんだよ……」
+line_set 「なんで、つらさに耐えようとばかりするんだ……」
+line_set 「アンドロイドなんて、アンドロイドらしく……」
+line_set 「つらさなんて、プログラム上で解除しろよ……」
+line_set 「悲しさなんて、プログラムで消してしまえよ…」
+line_set 「なぜ、お前には、そういった事が一切出来ないんだ……」
+line_set 「なぜ、お前は、悲しさにたえる」
+line_set 「それしか出来ないんだ…」
+line_set 「そして、なぜ、お前が流す涙は……」
+line_set 「そんな暖かいんだ……」
+line_set 「リニア……」
+
+nvl_on
+
+line_set 数分、そのままリニアに貴広がふれていると、
+line_set リニアの顔から悲しみが消えていた。
+
+nvl_line_clear
+
+line_set まるで貴広の手の温もりが、リニアの悲しさをいやしたように……。
+
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG004.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 011.WAV
+
+kgd_layer2_set_moekan 1220.KGD
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+line_set 「貴広……」
+
+name_set 貴広
+
+line_set 「あ、な、なんだ？」
+
+name_set おやじさん
+
+line_set 「？」
+line_set 「なんだ、風邪でも引いたのか、少し鼻声っぽいぞ……」
+
+name_set 貴広
+
+line_set 「あ、ああ、ここのところ疲れてたからな…」
+line_set 「それより、なんか用か？」
+
+name_set おやじさん
+
+line_set 「いや、お前が、嬢ちゃんの部屋から出てくるのを見たからな…」
+line_set 「嬢ちゃんの様子でも聞こうかと思ってな……」
+
+name_set 貴広
+
+line_set 「ああ、今のところ、異変はない……」
+line_set 「それなりに元気だ……」
+
+name_set おやじさん
+
+line_set 「そうか……、他に気がついた事とかはないのか？」
+
+name_set 貴広
+
+line_set 「そうだな……」
+line_set 「これといってはないな……」
+line_set 「ただ、気になるのだが……」
+line_set 「アンドロイドは夢を見るのか？」
+
+kgd_layer3_set 3 SO018.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「夢？」
+line_set 「なんでだ？」
+
+name_set 貴広
+
+line_set 「よく、リニアが夢の話をしているんだ」
+line_set 「だから、アンドロイドも夢を見るのかなと思ってな…」
+
+name_set おやじさん
+
+line_set 「夢……」
+line_set 「嬢ちゃんがか……」
+
+name_set 貴広
+
+line_set 「え？あ……、そうだけど……、それが何かあるのか？？」
+
+name_set おやじさん
+
+line_set 「あ…、いや……、なんでもない……」
+
+name_set 貴広
+
+line_set 「それより、おやじさんの方はどうなんだ？」
+line_set 「本を探していたじゃないか？」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「ああ、俺の方か…」
+line_set 「だめだな、地道に、検索カードを使いながら、調べていたんだが……」
+line_set 「もっとも怪しいと思える本がないんだよ…」
+
+nvl_on
+
+line_set おやじさんは、一枚の検索カードに書かれた書籍の名前を指す。
+
+adv_on
+
+name_set 貴広
+
+line_set 「人工知能における意識序論……」
+
+name_set おやじさん
+
+line_set 「副題を見ろ……」
+
+name_set 貴広
+
+line_set 「庵原博士と人工知能」
+line_set 「まんま庵原博士に関する本じゃないか……」
+
+name_set おやじさん
+
+line_set 「ああ、そうだ……」
+line_set 「間違いなく、この本に庵原博士の事が書かれている……」
+
+nvl_on
+
+line_set おやじさんは、検索カードを指さす。
+
+adv_on
+
+name_set おやじさん
+
+line_set 「あるハズの場所は、ここに書かれている通りだ…」
+line_set 「南－Ｂ１５６７－８－１２」
+line_set 「南フロアのＢブロックの１５６７番目の棚の８段目の１２冊目だ……」
+line_set 「たしかに、検索カードにはあるのだから、存在しているはずだ……」
+line_set 「そのあるはずの本が、紛失している…」
+
+name_set 貴広
+
+line_set 「紛失？」
+
+name_set おやじさん
+
+line_set 「もちろん貸し出しなどされていない…」
+line_set 「知らぬ間に、抜き取られていた…」
+
+name_set 貴広
+
+line_set 「そんな馬鹿な……」
+line_set 「あそこだって、本があるかどうかは、調べている」
+line_set 「３年ぐらいかけて、端から図書館司書が一冊ずつ確認しているハズだ…」
+
+name_set おやじさん
+
+line_set 「３年前にはあったのだろうな……」
+line_set 「だが、今はない…」
+
+name_set 貴広
+
+line_set 「だったら、間違いない、誰かが、あの本を盗んだ……」
+line_set 「そんな事をするとしたら……」
+line_set 「隷…」
+
+name_set おやじさん
+
+line_set 「そうなるかもな……」
+
+name_set 貴広
+
+line_set 「くそ、あいつは一体何を考えているんだ……」
+
+name_set おやじさん
+
+line_set 「……」
+line_set 「唯一の手がかりだったが……」
+line_set 「それも、ここまでか……」
+
+name_set 貴広
+
+line_set 「……」
+line_set 「とりあえず、俺もいく…、もう一度調べ直そう…」
+
+name_set おやじさん
+
+line_set 「ああ、そうだな……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG029.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「ふぅ……」
+line_set 「最終的には見つからずじまいか……」
+
+nvl_on
+
+line_set 貴広は自室のベッドに横になる…。
+
+nvl_line_clear
+
+line_set 「庵原博士関係の本が、抜き取られていた……」
+line_set 「抜き取ったのは間違いなく…隷だろう……」
+line_set 「あいつはなにを考えているんだ……」
+line_set 「かと思えば、ヒントを残していったり……」
+
+nvl_line_clear
+
+line_set 貴広はベットに横になりながら、あの新聞のスクラップ記事を見る…。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 「・・・」
+
+adv_on
+
+kgd_layer1_set 0 BG029.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 貴広は飛び上がるように、ベットの上に座り直す…。
+
+adv_on
+
+music_play_moekan 012.WAV
+
+name_set 貴広
+
+line_set 「まてよ……」
+line_set 「……」
+line_set 「隷が俺を殺そうとしていたとしても」
+line_set 「やはり、リニアだけは本気で救いたいと考えていたかもしれない……」
+
+nvl_on
+
+line_set リニアを見る隷の瞳……。
+line_set あの瞳からはそうとしか考えられなかった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「もし、仮に、隷がリニアを救おうとして一連の事をやったとしたら……」
+line_set 「本が抜き取られていたのではなく、本を隠したと考えられなくもない……」
+line_set 「もし、仮に、本社のコンピュータの情報を改ざんしたのがばれたら……」
+line_set 「本社の連中だって、いつかは、この島の蔵書に行き着く……」
+line_set 「だとしたら……」
+
+nvl_on
+
+line_set 貴広は、隷があの日…。
+line_set 図書館で調べモノをしていた時に、貴広に渡した本を取り出す。
+
+nvl_line_clear
+
+line_set レイ・ブラッドベリの『十月の西』
+line_set それの原書。
+line_set 『Ｗｅｓｔ　Ｏｆ　Ｏｃｔｏｂｅｒ』
+
+nvl_line_clear
+
+line_set その本には一点、不審な点があった。
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 230
+
+kgd_layer1_set 1 N190.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「……」
+line_set 「誰かの落書きかと思っていたが…」
+line_set 「これは、隷が書いたモノだったのか？」
+
+nvl_on
+
+line_set 考えてみれば、一流のエージェントが自分の筆跡で、ヒントを残すわけがない……。
+line_set 筆跡が違うからといって、隷のものではないとは限らない…。
+
+nvl_line_clear
+
+line_set 「古き帝国を滅ぼせし将軍は？」
+line_set 「これが、もし、隷が残したメッセージだとしたら？」
+
+adv_on
+
+name_set 貴広
+
+line_set 「古き帝国を滅ぼした将軍？？」
+line_set 「……」
+
+nvl_on
+
+line_set 貴広はペンと紙を用意する。
+
+adv_on
+
+name_set 貴広
+
+line_set 「暗号はエージェントの基本だ……」
+line_set 「たしかにローテクではあるが、時にはハイテク以上の効果をだす……」
+line_set 「特に、相手がハイテクのプロフェッショナルなら、ローテクの暗号は逆に、落とし穴になる……」
+line_set 「謎のメッセージより…」
+line_set 『Ｗｅｓｔ　Ｏｆ　Ｏｃｔｏｂｅｒ』
+line_set 「まず、なんでやつがわざわざブラッドベリの原書を渡したかだ……」
+line_set 「英語は表音文字だ……２６種類の文字しかない……」
+line_set 「これが膠着文字である日本語なら、あまりに多くの可能性が考えられすぎる……」
+line_set 「メッセージはこの暗号を解く鍵と考えるのが妥当だろう……」
+line_set 「たとえば……」
+line_set 「Ｗｅｓｔ　Ｏｆ　Ｏｃｔｏｂｅｒがアナグラムになっているとか……」
+
+nvl_on
+
+line_set 貴広はスペルを入れ替えてみる。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 「…」
+
+adv_on
+
+gallery_unlock 224
+
+kgd_layer1_set 0 N184.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「どうにもならないな……」
+line_set 「何に入れ替えても、言葉らしい言葉などにはならない……」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 貴広はアナグラム以外のあらゆる暗号解析を行う。
+
+adv_on
+
+kgd_layer1_set 0 BG029.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1220.KGD
+
+name_set 貴広
+
+line_set 「だめだ……」
+line_set 「どうにもならない……」
+line_set 「たとえば、英語のスペルを数字にするとかはどうだ……」
+
+nvl_on
+
+line_set 貴広はスペルを数字にしていく。
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 226
+
+kgd_layer1_set 1 N186.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「スペルの番号はこうなる…」
+line_set 「これを、この英文に当てはめてみる……」
+
+gallery_unlock 227
+
+kgd_layer1_set 1 N187.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「２３５１９２０　１５６　１５３２０１５２５１８……」
+line_set 「どえらい数字だな……」
+line_set 「こんなモノが、何か暗号に………」
+line_set 「なっていないよな……」
+
+music_stop2
+
+kgd_layer1_set 1 BG029.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1220.KGD
+
+sfx_set 0 SE025.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set トルルルルルル……
+
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「？！」
+
+nvl_on
+
+line_set けたたましく内線フォンが鳴り響く。
+
+adv_on
+
+name_set 貴広
+
+line_set 「こんな時間に…何かあったのか？」
+
+name_clear
+
+line_set がちゃ……
+
+name_set 貴広
+
+line_set 「俺だが……」
+
+name_set 霧島
+
+voice_play 42875.wav
+
+line_set 「所長、至急、所長室まできてくだちゃい」
+
+name_set 貴広
+
+line_set 「なにかあったのか…」
+
+name_set 霧島
+
+voice_play 42876.wav
+
+line_set 「詳しくは所長室で……」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG088.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 013.WAV
+
+kgd_layer3_set 0 KI005.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+voice_play 42877.wav
+
+line_set 「た、大変でちゅ、クーデターが起きたでちゅ…」
+
+voice_play 42878.wav
+
+line_set 「過度の粛清が裏目に出たようでちゅ……」
+
+voice_play 42879.wav
+
+line_set 「もしかしたら、カンパニーがひっくり変えるかもしれないでちゅ…」
+
+name_set 貴広
+
+line_set 「ひっくり返る？」
+
+kgd_layer3_set 3 KI001.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play 42880.wav
+
+line_set 「南南部諸島中央管理から、緊急連絡があったでちゅ……」
+
+voice_play 42881.wav
+
+line_set 「商品育成課の北部、南部、東部、方面のすべての主要の支部が」
+
+voice_play 42882.wav
+
+line_set 「本社にむけて、全軍を進撃させたという事でちゅ」
+
+name_set 貴広
+
+line_set 「南部方面？なら、ここを管理している中央島も進軍したという事か？」
+
+name_set 霧島
+
+voice_play 42883.wav
+
+line_set 「はい、南南部諸島中央艦隊も、南部方面の第１６艦隊と合流して、本社に進撃するようでちゅ…」
+
+voice_play 42884.wav
+
+line_set 「その他、世界中のあらゆる支部が反旗を翻してまちゅ…」
+
+name_set 貴広
+
+line_set 「第１６艦隊か……、数十年前に南洋をカンパニーが手中に納める原動力となった艦隊だ……」
+line_set 「質、量ともに海軍では最強と言われている部隊だな……」
+line_set 「しかし商品育成課が反乱を起こしているとしたら、その上部組織にあたる商品管理部は？」
+
+name_set 霧島
+
+voice_play 42885.wav
+
+line_set 「まったく関与していなかったようでちゅ…」
+
+voice_play 42886.wav
+
+line_set 「商品部の本部長はすでにクーデター軍によって射殺されたようでちゅから……」
+
+voice_play 42887.wav
+
+line_set 「商品部の監察室と、ＬＡＢの監査室が共謀して粛清を行っていたために、商品部は的になってまちゅ」
+
+voice_play 42888.wav
+
+line_set 「商品育成課は、上部組織の商品管理ではなく、本社防衛部とつながっていたみたいでちゅ……」
+
+name_set 貴広
+
+line_set 「なるほど……、育成課と防衛部か……」
+line_set 「育成課で育てられた軍隊はそのまま防衛部の正式社員となる……」
+line_set 「育成課の、直接の上部組織が管理部とは言え……」
+line_set 「育成課の人間個々の人脈的なつながりは、防衛部との方が強いだろうな……」
+line_set 「しかしだからといって、今回のクーデターで防衛部自体が動くとはな……」
+
+name_set 霧島
+
+voice_play 42889.wav
+
+line_set 「防衛部だけではないでちゅ……」
+
+voice_play 42890.wav
+
+line_set 「計、４５部門がクーデターに参加しているでちゅ……」
+
+name_set 貴広
+
+line_set 「馬鹿な……、それでは大半が……」
+
+name_set 霧島
+
+voice_play 42891.wav
+
+line_set 「たぶん、今回のクーデターは、取締役会がＬＡＢをつぶすために起こしたものでちゅ……」
+
+voice_play 42892.wav
+
+line_set 「粛清などといって、一部の幹部を殺害したのは逆効果のようでちゅ……」
+
+voice_play 42893.wav
+
+line_set 「ほぼ、会社全体がＬＡＢに反旗を翻したのでちゅからね……」
+
+name_set 貴広
+
+line_set 「ＬＡＢも取締役会に恨まれていたからな……」
+line_set 「しかし、よもや、取締役会そのものが今回のクーデターに絡むとはな……」
+
+kgd_layer3_set 3 KI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play 42894.wav
+
+line_set 「死んだ飯島も浮かばれないでちゅね……」
+
+voice_play 42895.wav
+
+line_set 「カンパニーのために、粛清をしているつもりが、商品管理部の上部組織である、取締役会が」
+
+voice_play 42896.wav
+
+line_set 「そのクーデターを企てる張本人達だったなんて…」
+
+name_set 貴広
+
+line_set 「今の状況は？」
+
+kgd_layer3_set 3 KI001.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play 42897.wav
+
+line_set 「だいたいでしか言えまちぇんが、カンパニー全体の６０パーセントがクーデター軍…」
+
+voice_play 42898.wav
+
+line_set 「残り３９パーセントが今のところまったく動きを見せていないでちゅ……」
+
+name_set 貴広
+
+line_set 「残り１パーセント……」
+line_set 「ＬＡＢが持っている少量の軍隊と……」
+
+name_set 霧島
+
+voice_play 42899.wav
+
+line_set 「ＬＡＢ　本部　監査室　直属　特殊監査　ＮＩＮ………でちゅ」
+
+name_set 貴広
+
+line_set 「そういえば…、社長直属のＮ　ＧＩＲＬは？」
+line_set 「あの連中の動きはどうなっている？」
+
+name_set 霧島
+
+voice_play 42900.wav
+
+line_set 「まったく沈黙しているでちゅ……」
+
+voice_play 42901.wav
+
+line_set 「彼女達がどちら側につくかで、また戦局は変わるでちょうが……」
+
+voice_play 42902.wav
+
+line_set 「完全に傍観しているようでちゅ……」
+
+name_set 貴広
+
+line_set 「現状では、圧倒的に反乱軍の方が有利か……」
+
+name_set 霧島
+
+voice_play 42903.wav
+
+line_set 「反乱といっても、大半の取締役がそちら側についているのでちゅ……」
+
+voice_play 42904.wav
+
+line_set 「どちらが正規軍とも言えないでちゅ……」
+
+name_set 貴広
+
+line_set 「なるほど……、その勝敗によって、俺たちの運命も変わってくるな……」
+line_set 「もし、ＬＡＢが倒れれば、俺たちも逃げなくても良いかもしれない……」
+
+name_set 霧島
+
+voice_play 42905.wav
+
+line_set 「はい！」
+
+nvl_on
+
+line_set 「……」
+line_set 「はたして、そうなのだろうか…」
+line_set 「ＬＡＢはこの事を予測がつかなかったのだろうか……」
+
+nvl_line_clear
+
+line_set ＰＩＸＩＥＳですら、その正体をつかめなかった、謎の部隊ＮＩＮ……。
+
+nvl_line_clear
+
+line_set それを操るといわれているＬＡＢ。
+
+nvl_line_clear
+
+line_set それが、こんな巨大なクーデターを見抜けなかったのだろうか……。
+
+nvl_line_clear
+
+line_set 事前に手を打てなかったのだろうか……。
+
+nvl_line_clear
+
+line_set １パーセントしか残されていない戦力……。
+
+nvl_line_clear
+
+line_set それで、カンパニー全体の６０パーセントを敵にまわす……。
+
+nvl_line_clear
+
+line_set 常識なら確かに、勝敗など決まっている……。
+line_set 決まっているが……。
+
+nvl_line_clear
+
+line_set 「Ｎ計画……」
+line_set 「カンパニーの発生そのものである、といわれる計画…」
+line_set 「ＬＡＢだけが知っていると言われるカンパニーの目的そのもの……」
+
+adv_on
+
+kgd_layer3_set 3 KI013.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play 42906.wav
+
+line_set 「どうなちゃいまちた？」
+
+name_set 貴広
+
+line_set 「あ、いや……、なんでもない……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG041.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 SO018.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+line_set 「ああ、知っている……」
+line_set 「俺は、ここ最近、世界中の情報を駆けめぐっているからな……」
+line_set 「そのぐらいの事は知っているさ……」
+
+nvl_on
+
+line_set おやじさんは貴広の方を振り向きもせずに、パソコンとにらめっこしている。
+
+adv_on
+
+name_set 貴広
+
+line_set 「どう思う？」
+
+name_set おやじさん
+
+line_set 「さぁな……」
+line_set 「ただ、これで終わるなんて事はないだろ……」
+
+name_set 貴広
+
+line_set 「終わらないって……、ＬＡＢはカンパニー全体の１パーセントの軍隊しかもっていないのだぞ？」
+
+name_set おやじさん
+
+line_set 「ああ、知っている」
+line_set 「クーデター軍が、現在だと全体の６４．５パーセントまで達している事も……」
+
+name_set 貴広
+
+line_set 「ならなんで、そう言えるんだ？」
+
+name_set おやじさん
+
+line_set 「カンパニーがここまで巨大になれたのは、取締役の力ではない……」
+line_set 「間違いなく、ＬＡＢの力だ……」
+line_set 「常軌を逸した兵器の開発……」
+line_set 「常軌を逸したシステム開発……」
+line_set 「いや……」
+line_set 「そんな事をあげていっても切りがない……」
+line_set 「それほど、ＬＡＢはとてつもない組織だ……」
+line_set 「あれは、単なる、研究機関じゃない……」
+line_set 「情報を司る、カンパニーの脳そのものだ……」
+line_set 「あいつらは、いくらでも反撃できる兵器を持っているさ……」
+line_set 「その事は、ＬＡＢに昔いた俺が一番知っている」
+
+name_set 貴広
+
+line_set 「にも関わらず、まったく反応がない……」
+
+name_set おやじさん
+
+line_set 「……」
+line_set 「あからさまな余裕だ……」
+line_set 「クーデターなど眼中にないのか……」
+line_set 「それとも……、はじめっから、何かの計画のうちなのか…」
+
+name_set 貴広
+
+line_set 「計画のうち？」
+
+name_set おやじさん
+
+line_set 「どうかな……」
+line_set 「お前も、名前ぐらいは聞いた事があるだろう…」
+line_set 「ＬＡＢが長年研究している計画を……」
+
+name_set 貴広
+
+line_set 「……」
+line_set 「Ｎ計画か……」
+
+name_set おやじさん
+
+line_set 「それが、何なのかは分からないが……」
+line_set 「おれは、この一件にはきな臭いものを感じている」
+line_set 「真相は分からんが、それでもクーデター軍の圧勝なんて、簡単なシナリオには転ばないだろう」
+
+name_set 貴広
+
+line_set 「……」
+line_set 「そうか……」
+
+name_set おやじさん
+
+line_set 「これから、想像も及ばない事が起こるかもな…」
+line_set 「俺は、隷のあの力を見てから、そう考えている…」
+
+name_set 貴広
+
+line_set 「隷の力……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_clear
+
+ksd_set 1221A.KSD
+ksd_end

@@ -1,0 +1,2211 @@
+kgd_layer1_set 0 W1227.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 2000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1227.KGD
+
+name_set 命
+
+voice_play v10799.wav
+
+line_set 「貴広…貴広……」
+
+name_set 貴広
+
+line_set 「ん……」
+
+music_play_moekan 023.WAV
+
+
+kgd_layer1_set 0 BG023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 MI002.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 命
+
+voice_play v10800.wav
+
+line_set 「おはよう！貴広！！」
+
+name_set 貴広
+
+line_set 「ん…ふぁ…おはよう」
+line_set 「…あぁ…俺も昨日はそのまま眠ってしまったのか…」
+
+sfx_set 0 SE117.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set バンッ！！
+sfx_stop 0
+sfx_unset 0
+
+music_play_moekan 012.WAV
+
+
+kgd_layer3_set 3 KI019.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10801.wav
+
+line_set 「大変でちゅ！！」
+
+name_set 貴広
+
+line_set 「何事だ？」
+
+nvl_on
+
+line_set 貴広が椅子から立ち上がり、背筋を伸ばしたところで、霧島がドアを壊さんばかりに飛び込んできた。
+
+adv_on
+
+name_set 霧島
+
+voice_play v10802.wav
+
+line_set 「レーダーに艦隊の姿が現れまちた！！」
+
+voice_play v10803.wav
+
+line_set 「ミニッツ級空母２隻、アイオワ級戦艦２隻、キンダ級巡洋艦４隻！！」
+
+name_set 貴広
+
+line_set 「…飯島だな」
+line_set 「司令官からの連絡は？」
+
+name_set 霧島
+
+voice_play v10804.wav
+
+line_set 「まだでちゅ」
+
+sfx_set 0 SE025.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set プルルル…プルルル…プルルル…
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「！」
+
+nvl_on
+
+line_set 貴広の言葉を待っていたかのように、卓上の電話がなった。
+line_set 貴広は素早く受話器を取り上げた。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 貴広
+
+line_set 「はい、第２５６３号島」
+
+name_set 飯島
+
+line_set 「俺だ」
+
+name_set 貴広
+
+line_set 「やはり飯島か」
+line_set 「空母の司令室からか？」
+
+name_set 飯島
+
+line_set 「察しがいいな」
+line_set 「また違法に情報をリークしていたか」
+
+name_set 貴広
+
+line_set 「風の噂に聞いて、推測で言っただけだ」
+line_set 「そんなことを言うために、そんな団体さんを連れてきたわけではあるまい？」
+
+name_set 飯島
+
+line_set 「ふ…そこまで察しのいい貴様なら、俺が何をしにきたかわかるだろう？」
+
+name_set 貴広
+
+line_set 「さあね、予言者ではないからな」
+
+name_set 飯島
+
+line_set 「ちっ…」
+line_set 「萌野命を引き取りに来た」
+
+name_set 貴広
+
+line_set 「ふむ…」
+
+name_set 飯島
+
+line_set 「今からそっちにいく。逃がすなよ」
+
+sfx_set 0 SE109.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set プツッ…ツー…ツー…ツー…
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 最後に念を押すと、貴広の返事も待たず、飯島は一方的に通信を切った。
+line_set 貴広は小さなため息を吐きつつ、受話器を戻し、命に振り返った。
+
+adv_on
+
+kgd_layer3_set 0 MI003.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「命、お迎えが来たぞ」
+
+kgd_layer3_set 3 MI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10805.wav
+
+line_set 「え～」
+
+kgd_layer3_set 3 KI021.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 貴広
+
+line_set 「霧島、館内放送で全職員は各自室で待機と伝えてくれ」
+
+name_set 霧島
+
+voice_play v10806.wav
+
+line_set 「は、はい、わかりまちた」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 霧島の全館放送が終わる頃、劈くような騒音を立てて大型ヘリが屋敷に向かってやってきた。
+
+adv_on
+
+sfx_set 0 SE015.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガチャ…
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer3_set 0 KI018.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+voice_play v10807.wav
+
+line_set 「放送完了しまちた」
+
+name_set 貴広
+
+line_set 「うむ…」
+
+kgd_layer3_set 3 MI005.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+nvl_on
+
+line_set 命は頬を膨らませて、冤罪で怒られる子供のような顔をしていた。
+line_set そこに大量の足音を引きつれ、飯島がやって来た。
+
+adv_on
+
+name_clear
+
+line_set ガチャ…
+
+kgd_layer3_set 3 SO021.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「ここにいたか、萌野命」
+
+nvl_on
+
+line_set 腕を組み、勝ち誇った顔の飯島の後ろから、アサルトライフルを構えた重武装の兵士達が数名入ってくる。
+line_set ガチャガチャと無骨な音が部屋に響く。
+
+adv_on
+
+name_set 飯島
+
+line_set 「さあ、帰るぞ」
+
+kgd_layer3_set 3 MI005.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10808.wav
+
+line_set 「む～～…」
+
+kgd_layer3_set 3 SO021.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「さあ立て」
+line_set 「行くぞ」
+
+kgd_layer3_set 3 MI005.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10809.wav
+
+line_set 「やだ！！」
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「なんだと？」
+
+kgd_layer3_set 3 MI005.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10810.wav
+
+line_set 「や！！パパと一緒にいるの！！！」
+
+kgd_layer3_set 3 SO033.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「パパぁ？！」
+
+kgd_layer3_set 3 KI019.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10811.wav
+
+line_set 「パパぁ？！」
+
+nvl_on
+
+line_set 飯島と霧島が同時に目を見開き、素っ頓狂な声を上げた。
+line_set 二人とも口をあんぐりと開けてワナワナと震え、今にも卒倒しそうである。
+line_set 相性の悪いこの二人が、ここまでピッタリなのは恐らく初めてのことであろう。
+line_set 貴広もポカンと口を開け、固まってしまった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…へ？」
+
+kgd_layer3_set 3 SO033.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「貴様…いったい…いつの間に…」
+
+kgd_layer3_set 3 KI019.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10812.wav
+
+line_set 「あ、相手は、だ、誰でちゅか…？」
+
+name_set 貴広
+
+line_set 「…落ち着けって」
+line_set 「ただ単純に父親を俺に投影してるだけだ、血が繋がってるわけじゃない」
+line_set 「飯島が一番わかってるだろうが」
+
+kgd_layer3_set 3 SO033.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「あ…ああ…そうだったな…」
+
+nvl_on
+
+line_set 飯島は髪を撫でつけ、取り乱した態度を落ち着けようとする。
+
+adv_on
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「そこまでコイツを懐かせるとは…貴様、どうする気だ？」
+
+name_set 貴広
+
+line_set 「なんのことだ？」
+
+name_set 飯島
+
+line_set 「萌野を抱え込んで、何を企んでいる…」
+
+name_set 貴広
+
+line_set 「なにも企んでなんかいないさ」
+line_set 「何を慌てている？」
+line_set 「命がセカンドアリスだからか？」
+
+name_set 飯島
+
+line_set 「ぐっ…」
+
+name_set 貴広
+
+line_set 「やはりそうか…」
+
+kgd_layer3_set 3 SO033.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「貴様、わかっていたのではないのか！？」
+
+name_set 貴広
+
+line_set 「初めからわかってたわけじゃない」
+line_set 「考えが、そこにたどり着いたのは昨日だ」
+line_set 「ま、お前の連れてきた艦隊をみて確信したよ」
+line_set 「もしもの時のためだろう？」
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「ちっ…」
+line_set 「とにかく、萌野は返してもらうぞ」
+line_set 「ウチのメイドだからな」
+
+name_set 貴広
+
+line_set 「……」
+
+kgd_layer3_set 3 MI005.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10813.wav
+
+line_set 「やだ！！帰らないもん！！！」
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「なんだと…」
+
+kgd_layer3_set 3 MI005.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10814.wav
+
+line_set 「アリスはつまんないもん！！」
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「楽しい、つまらないは関係ない」
+line_set 「お前は言われたとおりに仕事をこなせばよい」
+
+kgd_layer3_set 3 MI007.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10815.wav
+
+line_set 「や！！」
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「貴様、いい加減にしろよ…」
+line_set 「いままで貴様に、どれだけの費用がかかっていると思っている…」
+line_set 「そして今回の騒動で、どれだけの被害が出たと…」
+
+kgd_layer3_set 3 MI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10816.wav
+
+line_set 「あたし悪くないもん！！」
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「貴様はあれだけのことをして、許されると思っているのか！！」
+
+kgd_layer3_set 3 MI012.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10817.wav
+
+line_set 「ひぅ…」
+
+nvl_on
+
+line_set 飯島はとうとう憤怒し、机をバンッと叩き、怒鳴り声を上げた。
+line_set 命は驚き、貴広の後ろに隠れ、貴広の袖を掴んだ。
+
+adv_on
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「神崎、そいつを早くこっちに渡せ！！」
+
+kgd_layer3_set 3 MI012.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10818.wav
+
+line_set 「貴広は解ってくれるよね？」
+
+voice_play v10819.wav
+
+line_set 「命は悪くないよね？」
+
+name_set 貴広
+
+line_set 「……」
+
+name_set 命
+
+line_set 「………」
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 貴広
+
+line_set 「飯島」
+line_set 「命は粛清対象ではないのだろう？」
+
+name_set 飯島
+
+line_set 「…そうだ」
+line_set 「萌野は貴重な人材だ。そう簡単に替えのきくものではない」
+line_set 「上層部を納得させるのに苦労した」
+line_set 「しかし、それなりの罰を受けてもらわなくてはならない」
+
+name_set 貴広
+
+line_set 「飯島…その罰もどうにかならんか？」
+line_set 「短い間であったが、命と接してきてわかった」
+line_set 「命は子供のように、まだ善悪の区別がついていない素直な子供ではないか」
+line_set 「なぜ、このような娘に強大な力を持たせた…」
+line_set 「なぜ、このような娘の手を血に染めさせた…」
+
+name_set 飯島
+
+line_set 「貴様は我々の苦労を知らんから、そんなことが言えるのだ…」
+line_set 「萌野は俺が心血を注ぎ我々アリスインチェインズの作り上げた最高傑作だ！！」
+line_set 「コイツさえいれば、どこの部署にも負けない！！」
+line_set 「たとえピクシーズでもだ！！」
+line_set 「貴様を殺すことも！！」
+
+kgd_layer3_set 3 MI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10820.wav
+
+line_set 「あたし、そんなことしないもん！！」
+
+kgd_layer3_set 3 SO032.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 飯島
+
+line_set 「黙れ！！人形が！！！」
+line_set 「貴様は黙って、俺の命令だけを聞いていればいいんだ！！！」
+
+name_set 貴広
+
+line_set 「飯島！！」
+
+name_set 飯島
+
+line_set 「貴様もだ、神崎！！」
+line_set 「いつまでも上司ヅラは止めてもらおうか」
+line_set 「力もなく、パパ呼ばわりされている腑抜けた貴様に指図される憶えはない」
+line_set 「この人形を助ける力も権限も、今の貴様にはないのだ」
+
+nvl_on
+
+line_set 飯島は鼻先が触れる程に顔を近づけ、指で貴広の胸を小突きながら、確認させるようにゆっくりと言った。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+music_play_moekan 015.WAV
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+kgd_layer1_set 1 DC017.KGD
+kgd_layer2_clear
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+
+name_set 飯島
+
+line_set 「さあ！！萌野を連れて帰るぞ！！」
+line_set 「１、２、３班は萌野の拘束！！」
+line_set 「４、５班は神崎、６班はそこの秘書を動かないように見張っておけ！！」
+line_set 「少しでも動いたら発砲しても構わん。反逆罪だ」
+
+name_set 霧島
+
+voice_play v10821.wav
+
+line_set 「！…」
+
+nvl_on
+
+line_set 一班３名の兵がアサルトライフルを構え、貴広と霧島を囲む。
+line_set その動きに無駄はなく、充分に訓練を積んだ者達だとわかる。
+
+adv_on
+
+name_set 命
+
+voice_play v10822.wav
+
+line_set 「やだやだ！！貴広助けて！！！」
+
+nvl_on
+
+line_set 命がゴツイ腕に押さえられ、バタバタともがきながら貴広へ手を伸ばした。
+
+adv_on
+
+name_set 貴広
+
+line_set 「！……」
+
+nvl_on
+
+line_set しかし、貴広は命の手を取ろうとした己の手を、少し上げたところで押しとどめてしまった。
+
+adv_on
+
+name_set 命
+
+voice_play v10823.wav
+
+line_set 「なんで！？なんで！？なんで助けてくれないの！？」
+
+voice_play v10824.wav
+
+line_set 「あたしはここに居たいよ！！」
+
+name_set 貴広
+
+line_set 「すまん…」
+line_set 「俺では、お前を幸せにすることはできないんだ…」
+line_set 「お前の青い鳥にはなれん…」
+
+name_set 飯島
+
+line_set 「青い鳥？」
+line_set 「そういえば、萌野が読んでいたな…」
+line_set 「まさか、そんなものに感化されて、今回みたいな事件を起こしたのか？」
+line_set 「ちっ…くだらん」
+line_set 「萌野、貴様の読んだ絵本はハッピーエンドだが、本当の終わりでは、青い鳥は飛んでいってしまうのさ」
+line_set 「幸せなど手元には残らない」
+
+name_set 命
+
+voice_play v10825.wav
+
+line_set 「そ、そんなのウソだもん！！」
+
+voice_play v10826.wav
+
+line_set 「そんなことないもん！！！」
+
+name_set 貴広
+
+line_set 「飯島！！貴様！！」
+
+name_set 飯島
+
+line_set 「なんだ神崎？　貴様も夢みたいなことを信じていたのか？」
+line_set 「人の生き死にという、一番のリアルで生きてきた人間も、ここではロマンチストになるのだな」
+line_set 「ふ…今の貴様にはお似合いだ、夢を見ながらこの島で朽ちていけばいい…」
+line_set 「さあ行くぞ！！」
+
+name_set 命
+
+voice_play v10827.wav
+
+line_set 「やだやだやだやだぁーー！！！！！」
+
+name_set 貴広
+
+line_set 「命！！」
+
+sfx_set 0 SE047.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set パンッ！！
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「ぐっ！！！」
+
+name_set 霧島
+
+voice_play v10828.wav
+
+line_set 「所長！！」
+
+nvl_on
+
+line_set 乾いた破裂音が響き、貴広が膝をついた。
+line_set 飯島の銃によって腿を撃ち抜かれたのだった。
+line_set 駆け寄ろうとした霧島にも銃口が向けられる。
+
+adv_on
+
+name_set 飯島
+
+line_set 「動くなと言っただろう…」
+line_set 「次は急所を狙うぞ」
+
+name_set 貴広
+
+line_set 「くっ……飯島、貴様…」
+
+nvl_on
+
+line_set 貴広は鮮血溢れる太腿を押さえ、飯島を睨みつける。
+
+adv_on
+
+name_set 兵士Ａ
+
+line_set 「ぐあ！！！」
+
+sfx_set 0 SE043.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ドガッ！！！！
+sfx_stop 0
+sfx_unset 0
+
+name_set 兵士Ｂ
+
+line_set 「ぐふっ！！」
+
+sfx_set 0 SE043.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ドガガッ！！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 突如、命を囲む兵士達が壁や天井に叩きつけられた。
+
+adv_on
+
+kgd_layer1_set 1 DC018.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 命
+
+voice_play v10829.wav
+
+line_set 「あああああああああああああ！！！！！」
+
+name_set 飯島
+
+line_set 「なに！！」
+
+name_set 貴広
+
+line_set 「！？」
+
+nvl_on
+
+line_set 命の周りには黒い帯が幾重にも回転し、捕らえようとする兵士をはじき飛ばしていた。
+line_set その凄まじい力は、一瞬にして兵士を叩きつけ肉塊に変える。
+line_set その中で命は翻弄されるようにふらつきながら、苦しみの声を上げていた。
+
+adv_on
+
+name_set 飯島
+
+line_set 「くそ！！トリガーは自分の血ではなかったのか！！」
+line_set 「総員全力で取り押さえろ！！！」
+line_set 「麻酔銃を使え！！」
+
+nvl_on
+
+line_set 慌てる飯島の号令に兵士達が一斉に銃を構え命に向かって発砲した。
+
+adv_on
+
+sfx_set 0 SE051.WAV
+sfx_play 0 0
+
+kgd_layer1_fx 9
+
+name_clear
+
+line_set ドガガガガガガガガガガガガ！！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+name_set 兵士達
+
+line_set 「！？」
+line_set 「ぎゃああ！！！」
+
+nvl_on
+
+line_set 耳を劈くような轟音中で、銃弾は一発も命に届くことなく、黒い帯によって弾き落とされた。
+line_set そして襲い来る闇の触手によって、１８人いた兵士は瞬く間に全滅した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「どういうことだ！！説明しろ、飯島！！」
+line_set 「あの力は…俺と同じ、漆黒の力ではないか！！」
+line_set 「なぜ命が！！」
+
+nvl_on
+
+line_set 貴広は飯島の襟首を荒々しく掴み、怒りの形相で詰め寄った。
+
+adv_on
+
+name_set 飯島
+
+line_set 「萌野は、ファーストアリスの研究から生まれた強化人間だ」
+line_set 「そしてファーストアリスは貴様の因子、つまりナーサリークライムの力を持った人造人間だった」
+
+name_set 貴広
+
+line_set 「な！？」
+
+name_set 飯島
+
+line_set 「はん…さすがの貴様も、知らなかったようだな」
+line_set 「まあ、俺もアリスに入ってから聞かされたことだ」
+line_set 「その話を聞いてから、俺は貴様のその驚く顔が見たくて堪らなかったぜ」
+line_set 「のんびり隠居を決めこむはずが、貴様の力はアリスと名を変え、人を殺し続けていたのだからなぁ」
+line_set 「ファーストは力を抑えきれず暴走し、封印されることとなったが…」
+line_set 「セカンドは、幼児期の人間の性質を分離させることによって、その力を制御する事に成功したのだ！！」
+
+name_set 貴広
+
+line_set 「何だと…」
+
+name_set 飯島
+
+line_set 「言うなれば、正の心と負の心」
+line_set 「漆黒を負の心に置き、正の心で抑える」
+line_set 「漆黒はストレスという負の感情を喰らい、その力を強める！！」
+line_set 「解き放たれたその力は、何のためらいもなく残酷に人の命を奪ってくれるよ…くくく…」
+line_set 「正のときの方が、子供らしさを残さなくてはならないため、扱いが厄介なくらいだ」
+
+name_set 貴広
+
+line_set 「なんということを…」
+
+name_set 飯島
+
+line_set 「今回の誤算は、心の転換のトリガーは萌野自身の血であるはずが、貴様の血に反応してしまったことだ」
+line_set 「しかし、丁度良い…貴様は己の力によって腑抜けた人生にピリオドを打て！！」
+line_set 「セカンド！！神崎を殺せ！！！」
+
+name_set 貴広
+
+line_set 「！！」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+sfx_set 0 SE041.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ドシュッ…
+sfx_stop 0
+sfx_unset 0
+
+kgd_layer1_set 0 DC019.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 飯島
+
+line_set 「な！？……」
+
+nvl_on
+
+line_set 声を上げたのは飯島だった。
+line_set その腹には兵士達を屠った闇の触手が、深々と突き刺さっている。
+
+adv_on
+
+name_set 命
+
+voice_play v10830.wav
+
+line_set 「うるさい…」
+
+name_set 飯島
+
+line_set 「き、貴様……」
+
+name_set 命
+
+voice_play v10831.wav
+
+line_set 「うるさい、うるさい、うるさ～い」
+
+voice_play v10832.wav
+
+line_set 「せっかく表に出られたんだから、遊ぶんだも～ん」
+
+voice_play v10833.wav
+
+line_set 「あはははははははははははは！！！！！」
+
+voice_play v10834.wav
+
+line_set 「戦争ごっこだぁ！！！！！」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+name_set 貴広
+
+line_set 「！！」
+
+sfx_set 0 SE054.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガッガガガン！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 命を包む漆黒が膨張したと思った瞬間、壁や天井の崩れる音がし、いつもとは違う所から日が射し込んだ。
+line_set 目を開くと、天井は吹き飛び、壁は三分の二がなくなり、見通しが良くなっていた。
+line_set 上空に黒い点が見える。
+line_set それが命だった。
+
+adv_on
+
+name_set 飯島
+
+line_set 「く…各艦長に告ぐ！！セカンドは暴走した！！」
+line_set 「総力を持って粛清せよ！！！」
+line_set 「ぐ…」
+
+name_set 貴広
+
+line_set 「飯島！」
+
+nvl_on
+
+line_set 飯島は無線機に向かって叫ぶと、そのまま気を失った。
+line_set 貴広は傷口を縛りながら大声を張り上げた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「霧島！！無事か？！！！」
+
+name_set 霧島
+
+voice_play v10835.wav
+
+line_set 「はいでちゅ！！」
+
+nvl_on
+
+line_set 咄嗟に飛び込んだのであろう、瓦礫の向こうの秘書室から霧島の声が返ってきた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「全職員に緊急伝令！！シェルターに急げ！！！」
+
+name_set 霧島
+
+voice_play v10836.wav
+
+line_set 「了解しまちた！！」
+
+nvl_on
+
+line_set 緊急警報が鳴り響き、館内スピーカーから雑音混じりに霧島の声が館内に響き渡った。
+line_set 貴広はそれを確認すると負傷した飯島を抱え、瓦礫を避けながら廊下に出た。
+
+adv_on
+
+kgd_layer2_set_moekan 1227.KGD
+kgd_layer1_set 0 BG004.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「急所は外してあるようだが、このままではマズイな…」
+
+nvl_on
+
+line_set 貴広は飯島の傷口を見ながら眉をひそめた。
+
+adv_on
+
+name_set 冬葉
+
+voice_play v10837.wav
+
+line_set 「貴広さん！」
+
+kgd_layer3_set 0 FU003.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「冬葉！」
+line_set 「何をしている！早くシェルターへ行け！！」
+
+name_set 冬葉
+
+voice_play v10838.wav
+
+line_set 「貴広さんも飯島さんも怪我してるじゃないですか！治療させてください！！」
+
+name_set 貴広
+
+line_set 「…治療ができるなら、飯島からやってくれ」
+line_set 「急を要する」
+
+name_set 冬葉
+
+voice_play v10839.wav
+
+line_set 「わかりました」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_set 1 DC020.KGD
+kgd_layer2_clear
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 冬葉は飯島の傍らに膝をつくと、両手を傷口に向けて目を閉じた。
+line_set 冬葉の体が僅かに発光し、光が手の平へと流れ、傷口へと集まっていく。
+line_set 見ると、飯島の出血が止まり、傷口も塞がっていく。
+
+adv_on
+
+name_set 貴広
+
+line_set 「冬葉にこんな力が？」
+line_set 「これが戦場の天使と呼ばれる由縁か…」
+
+name_set 冬葉
+
+voice_play v10840.wav
+
+line_set 「ん…」
+
+nvl_on
+
+line_set 冬葉が力を込めると飯島の傷は完全に塞がり失血で顔色は少し悪いものの、呼吸などは正常になった。
+
+adv_on
+
+name_set 冬葉
+
+voice_play v10841.wav
+
+line_set 「さ、貴広さんも…」
+
+name_set 貴広
+
+line_set 「俺は大丈夫だ、弾も貫通している」
+line_set 「怪我の内に入らん」
+
+name_set 冬葉
+
+voice_play v10842.wav
+
+line_set 「ダメです！治療させてください！！」
+
+name_set 貴広
+
+line_set 「わ、わかったよ…」
+
+nvl_on
+
+line_set 睨むような冬葉の気迫に負け、貴広は飯島に撃たれた足を差し出した。
+
+adv_on
+
+name_set 冬葉
+
+voice_play v10843.wav
+
+line_set 「ジッとしててくださいね」
+
+nvl_on
+
+line_set 冬葉は再び両手を傷に向け、目を瞑った。
+line_set ほのかな光が傷口に集まってくると、痛みが引いていき、柔らかな温もりを感じた。
+
+adv_on
+
+name_set 冬葉
+
+voice_play v10844.wav
+
+line_set 「んん…」
+
+nvl_on
+
+line_set 冬葉が力を込めたところで、痛みも完全に引き、傷痕もなく消えてしまった。
+
+adv_on
+
+kgd_layer2_set_moekan 1227.KGD
+kgd_layer1_set 1 BG004.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+kgd_layer3_set 0 FU021.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 冬葉
+
+voice_play v10845.wav
+
+line_set 「これで…大丈夫です」
+
+name_set 貴広
+
+line_set 「すまん、助かった」
+line_set 「…顔色が悪いぞ。その能力はお前の体力を削るのか？！」
+
+name_set 冬葉
+
+voice_play v10846.wav
+
+line_set 「え…ええ、少し…」
+
+name_set 貴広
+
+line_set 「そんな状態では、少しどころではないだろうが…」
+
+name_set 霧島
+
+voice_play v10847.wav
+
+line_set 「所長！！」
+
+kgd_layer3_set 3 KI023.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+nvl_on
+
+line_set 扉前の瓦礫を押しのけて、霧島がやっとこさ秘書室から出てきて、貴広の所に駆け寄ってきた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「霧島。丁度いいところに来た」
+line_set 「飯島と冬葉を、シェルターへ頼む」
+
+kgd_layer3_set 3 KI019.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10848.wav
+
+line_set 「所長は？！」
+
+name_set 貴広
+
+line_set 「俺は、命をどうにか止めてみる」
+
+name_set 霧島
+
+voice_play v10849.wav
+
+line_set 「そんな！？無茶でちゅ！！」
+
+nvl_on
+
+line_set 霧島の声に重なるように、２隻の空母から飛び立った戦闘機が萌えっ娘島の上空を翔ていく。
+line_set 三機編成の編隊が二つ、命を囲うように旋回している。
+line_set 貴広はキッと空に浮く命を見つめた。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_play_moekan 014.WAV
+
+
+kgd_layer1_set 1 DC021.KGD
+kgd_layer2_clear
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 命
+
+voice_play v10850.wav
+
+line_set 「あははははははは！！！みんな弱ーい！！みんな壊れちゃえー！！！」
+
+nvl_on
+
+line_set 渦巻く漆黒の中で命は楽しそうに笑っていた。
+line_set 純粋な笑い。
+line_set 殺戮の笑い。
+line_set 弱者を知らぬ強者の笑い。
+line_set 命の儚さを知らぬ笑い。
+
+adv_on
+
+name_set 命
+
+voice_play v10851.wav
+
+line_set 「ばーん！！ばーん！！ぼっかーん！！！」
+
+nvl_on
+
+line_set 命の背負っていたボックスは、漆黒の太刀の柄となっていた。
+line_set 命が手を振り上げるたびに、その刃が無惨に戦闘機は漆黒に切り裂き、炎上させ、墜落させていく。
+line_set ３０ミリ機関砲、短距離ミサイル、中距離ミサイル、全てを駆使しても命に傷一つ付けることが出来ない。
+line_set それでも空母からは次々に射出され、上昇してくる。
+line_set 萌えっ娘島上空には爆音が連続で鳴り響く。
+
+adv_on
+
+name_clear
+
+sfx_set 0 SE054.WAV
+sfx_play 0 0
+
+line_set キュドーーーーーーンッッ！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+sfx_set 0 SE056.WAV
+sfx_play 0 0
+
+line_set ドゴーーーーーーーンッッ！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+sfx_set 0 SE056.WAV
+sfx_play 0 0
+
+line_set ドゴーーーーーーーンッッ！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+sfx_set 0 SE056.WAV
+sfx_play 0 0
+
+line_set ドゴーーーーーーーンッッ！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 一際大きな爆音を立てて、トマホークミサイルが漆黒にぶつかり炸裂した。
+line_set 同時に合計１８門の４０６ミリ三連装砲からの斉射が、大気を震わせて着弾する。
+line_set それでも、漆黒の周りをわずかに揺らがせるだけだった。
+
+adv_on
+
+name_set 命
+
+voice_play v10852.wav
+
+line_set 「あはははは！！かっこいいーーーー！！」
+
+voice_play v10853.wav
+
+line_set 「でも、うるさーい」
+
+voice_play v10854.wav
+
+line_set 「えーい！！」
+
+sfx_set 0 SE056.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ゴバッ！！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 漆黒が唸りあげ、戦艦の１隻がオモチャのように真っ二つになり、火を噴き海中に沈んでいく。
+line_set もう１隻は前部を抉られながらも、残った３連装砲とミサイルを命に向けて放つ。
+line_set 漆黒はもろともせず、ミサイルもその戦艦も粉々に打ち砕き、暗い海の底へ沈めてしまった。
+
+adv_on
+
+kgd_layer2_set_moekan 1227.KGD
+kgd_layer1_set 1 BG004.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+name_set 貴広
+
+line_set 「く…通常兵器がナーサリークライムの力に効くわけがない…」
+
+kgd_layer3_set 0 KI023.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+voice_play v10855.wav
+
+line_set 「所長！残った戦艦の動きがおかしいでちゅ！！」
+
+name_set 貴広
+
+line_set 「なに？」
+
+nvl_on
+
+line_set 空母に戦闘機が戻っていき、巡洋艦は対空ミサイル、７６ミリ連装砲で牽制しつつ距離を取る。
+
+adv_on
+
+name_set 貴広
+
+line_set 「まさか！？　奴ら核を使う気か！？」
+
+kgd_layer3_set 3 KI019.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10856.wav
+
+line_set 「そんな！？」
+
+name_set 貴広
+
+line_set 「ちくしょう！！ここを死の海にする気か！！！」
+line_set 「お前達は早くシェルターへ急げ！！これは命令だ！！！」
+
+name_set 霧島
+
+voice_play v10857.wav
+
+line_set 「所長は？！」
+
+name_set 貴広
+
+line_set 「俺は命を止めに行く」
+line_set 「命は俺にしか止められない」
+line_set 「しかし、今の俺に命を止められる可能性は低いが…」
+
+name_set 霧島
+
+voice_play v10858.wav
+
+line_set 「ではなぜ！？」
+
+name_set 貴広
+
+line_set 「あいつに与えられてしまったのは、俺の力だ」
+line_set 「止めるのは俺の義務みたいなものだ」
+line_set 「もしもの時は霧島。みんなを頼んだぞ」
+
+kgd_layer3_set 3 KI021.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v10859.wav
+
+line_set 「所長…」
+
+kgd_layer3_set 3 FU025.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 冬葉
+
+voice_play v10860.wav
+
+line_set 「貴広さん」
+
+name_set 貴広
+
+line_set 「傷を治してくれて助かった。これでもう少しマシに闘えそうだ」
+
+name_set 冬葉
+
+voice_play v10861.wav
+
+line_set 「命さんは悲しんでいます…」
+
+voice_play v10862.wav
+
+line_set 「あの子は、いままでひとりぼっちだったんです…」
+
+voice_play v10863.wav
+
+line_set 「あのこと対等であるものがいなかったんです…」
+
+voice_play v10864.wav
+
+line_set 「白い殺風景な部屋にたった一人で…」
+
+voice_play v10865.wav
+
+line_set 「青い鳥とはあの子の救われたい心の表れだったんです…」
+
+nvl_on
+
+line_set 一歩進み出た冬葉は、大粒の涙を流しながら切々と命の心を語った。
+
+adv_on
+
+name_set 貴広
+
+line_set 「命の心が見えたのか？」
+
+name_set 冬葉
+
+voice_play v10866.wav
+
+line_set 「はい…」
+
+voice_play v10867.wav
+
+line_set 「命さんを救えるのは、貴広さん…あなただけです」
+
+voice_play v10868.wav
+
+line_set 「命さんを救ってあげてください…」
+
+name_set 貴広
+
+line_set 「わかった」
+line_set 「さあ、シェルターへ急げ」
+
+name_set 冬葉
+
+voice_play v10869.wav
+
+line_set 「はい」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 冬葉は涙を拭い、霧島と共に飯島を抱えて地下シェルターへと向かった。
+line_set 貴広は眼鏡をかけ直し、ヘリポートへと向かった。
+
+adv_on
+
+kgd_layer1_set 1 BG010.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+kgd_layer1_set 1 BG012.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+nvl_on
+
+line_set おやじさんや整備員はすでにシェルターに避難しており、ヘリポートは閑散としていた。
+line_set 貴広はその中を進み、小型ヘリのタラップに足を掛けた。
+
+adv_on
+
+name_set ？？？
+
+voice_play v10870.wav
+
+line_set 「待ちな」
+
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「おやじさん？！」
+line_set 「なにやってんだ！！早く避難しろ！！」
+
+kgd_layer3_set 3 SO030.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10871.wav
+
+line_set 「わかってるよ、おめぇにコレを渡すために待ってたんだよ」
+
+voice_play v10872.wav
+
+line_set 「どうせそこのヘリで、あの嬢ちゃんの所へ行こうとしてたんだろ？」
+
+name_set 貴広
+
+line_set 「あ、ああ…」
+
+name_set おやじさん
+
+voice_play v10873.wav
+
+line_set 「あんなんじゃ、辿り着く前に墜とされちまう」
+
+voice_play v10874.wav
+
+line_set 「これに乗ってきな」
+
+nvl_on
+
+line_set そう言って、おやじさんはあるシャッターの開放キーを押した。
+line_set ギシギシと錆びた音を立て、シャッターが開け放たれる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「これは…」
+
+nvl_on
+
+line_set シャッターの中には鋭利なフォルムのヘリコプターが、息を潜め眠っていた。
+
+adv_on
+
+name_set おやじさん
+
+voice_play v10875.wav
+
+line_set 「俺が趣味で、部品を寄せ集めて作った代物よ」
+
+voice_play v10876.wav
+
+line_set 「最新鋭とはいかないが、そこらのヘリには負けない機動性を持たせてある」
+
+voice_play v10877.wav
+
+line_set 「少々ジャジャ馬だが、これなら嬢ちゃんの攻撃を避けられるだろう」
+
+name_set 貴広
+
+line_set 「おやじさん…」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10878.wav
+
+line_set 「さあ急げ、エンジンに火を入れるぞ」
+
+voice_play v10879.wav
+
+line_set 「俺が合図したら、そこのキーをひねろ」
+
+name_set 貴広
+
+line_set 「ああ」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 貴広がシートに着くと、おやじさんは牽引車に乗り、自作のヘリをポートまで引き出した。
+line_set おやじさんの合図でキーを回すと、爆音にも似た音を立てて、ヘリが目を覚ました。
+line_set 目覚めたばかりの体を震わせて、おやじさんのヘリが咆吼をあげる。
+
+adv_on
+
+sfx_set 0 SE090.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set バリバリバリバリバリバリ！！！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set ヘリの巻き上げる強風の中を、おやじさんが帽子を押さえながら近づいてきた。
+
+adv_on
+
+kgd_layer3_set 0 SO030.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+voice_play v10880.wav
+
+line_set 「ちゃんと嬢ちゃんを連れ帰ってこいよ！！」
+
+name_set 貴広
+
+line_set 「わかっている」
+line_set 「おやじさんも、早くシェルターに向かった方がいいぞ」
+
+kgd_layer3_set 3 SO029.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10881.wav
+
+line_set 「お前が行ったら、滑り込んでやるよ」
+
+name_set 貴広
+
+line_set 「途中で転ぶなよ」
+
+name_set おやじさん
+
+voice_play v10882.wav
+
+line_set 「そんなにモウロクしてねーての！」
+
+name_set 貴広
+
+line_set 「はは…じゃあ、行ってくる！」
+
+kgd_layer3_set 3 SO026.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+voice_play v10883.wav
+
+line_set 「行ってこい！！」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+sfx_set 0 SE005.WAV
+sfx_play 0 0
+
+
+name_clear
+
+line_set バリバリバリバリバリバリ！！！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set ローター音が激しくなり、機体がフワリと宙に浮くと、貴広はスロットルを一杯に引き、急上昇をした。
+
+adv_on
+
+nvl_on
+
+line_set 中天に輝く太陽に目を眩ませながらも、貴広はまっすぐにヘリを上昇させた。
+
+adv_on
+
+music_play_moekan 025.WAV
+
+
+kgd_layer1_set 1 DC022.KGD
+kgd_layer2_clear
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 間近に迫る命の漆黒は、まるで生き物のように脈打ち、黒い刃が触手のごとくユラユラと揺れていた。
+line_set それは獲物を待つ肉食動物を連想させた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「揺らいでボヤけるなんて…やはり力が不安定だ…」
+line_set 「！！」
+
+sfx_set 0 SE071.WAV
+sfx_play 0 0
+
+kgd_layer1_fx 4
+
+name_clear
+
+line_set ブオンッ！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 命の漆黒を見つめ呟いていると刃が迫り、貴広はスティックを倒し、真横に避ける。
+line_set 避けられたものの、予想以上の速さとＧに、慌ててスティックを元に戻した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おやじさんも、すごいものを作ったな…」
+line_set 「くっ…またか！」
+
+sfx_set 0 SE071.WAV
+sfx_play 0 0
+
+kgd_layer1_fx 4
+
+name_clear
+
+line_set ギオンッ！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 貴広の存在に気付いた命が、漆黒の太刀を振り上げた。
+line_set 剣先は幾重にも別れ、その黒く巨大な姿は古事記に記された、ヤマタノオロチを彷彿させる。
+line_set 貴広はヘリを巧みに扱い、迫る黒い顎門を避けながら漆黒の頭頂部を目指した。
+line_set 頭頂部から飛び降り、中心にいる命に接触しようと考えていた。
+line_set しかし、漆黒は休むことなく襲いかかってくる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「く…飛び降りる暇をくれんな……よっ…」
+line_set 「俺の顔を忘れたか！！命！！！」
+line_set 「ちっ、時間がない…」
+line_set 「すまん、おやじさん」
+
+nvl_on
+
+line_set そう呟くと、貴広はスティックを引き、刃を振り切ってさらに上昇した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「今行くぞ！命！！」
+
+nvl_on
+
+line_set 充分に上昇しきった所で、貴広はスティックを奥へと倒した。
+line_set 機首が真下を向き、推進力に落下速度が加算されていく。
+line_set 無重力状態に浮き掛ける体を踏ん張り、スティックを押さえつける。
+
+adv_on
+
+name_clear
+
+line_set バキバキバキ！！！！
+
+nvl_on
+
+line_set 僅かにあった水平翼が、速度に耐えきれず、後ろに吹き飛んだ。
+line_set 障害物のなくなった機体が、またグンッと速度を上げた。
+line_set 弾丸と化したヘリは、一直線に命へと突き進む。
+
+adv_on
+
+sfx_set 0 SE074.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガガガガガガガガガガガガ！！！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set エンジンの咆吼が悲鳴へと変わっていく。
+line_set エンジンからは黒い煙が上がり始めていた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「もう少し保ってくれよ！！！」
+
+name_clear
+
+line_set ガシュンッ！！！
+line_set ゴカッ！！！！！
+line_set バキンッ！！！！！
+
+nvl_on
+
+line_set 漆黒の刃が、迫るガラクタに襲いかかる。
+line_set しかし、音速に近い機体に刃は間に合わず、僅かに装甲を剥がすだけであった。
+
+adv_on
+
+name_set 命
+
+voice_play v10884.wav
+
+line_set 「あはははははははは！！！！！！！！」
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+wait 2000
+
+sfx_set 0 SE054.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ガガンッ！！！！！
+sfx_stop 0
+sfx_unset 0
+
+nvl_on
+
+line_set 漆黒の大太刀が真上から振り下ろされた。
+line_set 直線を進んできた機体は避けることもできずその一撃をまともに喰らうこととなった。
+
+adv_on
+
+kgd_layer1_set 0 DC023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_clear
+
+line_set パキン……
+
+nvl_on
+
+line_set まるで薄氷を割るような音がして、世界はモノクロとなった。
+line_set 色がなくなり、時間もなくなった。
+
+adv_on
+
+music_play_moekan 019.WAV
+
+
+name_set 命
+
+voice_play v10885.wav
+
+line_set 「え……？」
+
+nvl_on
+
+line_set 突然のことに、命は不安な表情をする。
+line_set 今、命を包んでいる漆黒は、さっきまでのものとは違う、自分のものではない、さらに強大な力。
+line_set 迫り来る物を粉砕した手応えは確かにあり、心がスッとした瞬間の出来事だった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+name_set 命
+
+voice_play v10886.wav
+
+line_set 「え…？　え…？」
+
+music_play_moekan 003.WAV
+
+
+kgd_layer1_set 0 DC024.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「命」
+
+name_set 命
+
+voice_play v10887.wav
+
+line_set 「ひっ！！」
+
+voice_play v10888.wav
+
+line_set 「いや！！やだ！！苛めないで！！！」
+
+voice_play v10889.wav
+
+line_set 「来るな！！来るな！！来るな！！」
+
+name_set 貴広
+
+line_set 「ここにお前を苛める者はいない」
+
+name_set 命
+
+voice_play v10890.wav
+
+line_set 「ウソだ…」
+
+name_set 貴広
+
+line_set 「力の使いすぎで、俺の顔を忘れちまったのか？」
+
+name_set 命
+
+voice_play v10891.wav
+
+line_set 「あ…う……」
+
+voice_play v10892.wav
+
+line_set 「あなたは…ナーサリークライム…水の者…黒の者…世界の根源に関わる者…」
+
+voice_play v10893.wav
+
+line_set 「あ…」
+
+name_set 貴広
+
+line_set 「俺の名前を言ってみろ」
+
+nvl_on
+
+line_set 貴広は震える命の手を握り、自分の胸に引き寄せた。
+
+adv_on
+
+name_set 命
+
+voice_play v10894.wav
+
+line_set 「あなたは…だれ……」
+
+name_set 貴広
+
+line_set 「思い出せ！俺は誰だ！！」
+
+nvl_on
+
+line_set 貴広は命の小さな手を、ギュッと握りしめる。
+line_set 光が灯るように、温もりが手の中に生まれた。
+
+adv_on
+
+name_set 命
+
+voice_play v10895.wav
+
+line_set 「あ…あなたは……」
+
+voice_play v10896.wav
+
+line_set 「神崎…貴広」
+
+voice_play v10897.wav
+
+line_set 「貴広…」
+
+voice_play v10898.wav
+
+line_set 「貴広！！」
+
+kgd_layer1_set 1 DC025.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 命
+
+voice_play v10899.wav
+
+line_set 「貴広だ！！」
+
+nvl_on
+
+line_set 命の瞳に光が戻ると、世界にも光が戻り、時が動き出した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「大丈夫か？」
+
+name_set 命
+
+voice_play v10900.wav
+
+line_set 「怖かった！！怖かったよーー！！」
+
+voice_play v10901.wav
+
+line_set 「みんなが、あたしを憎んでるようにしか思えなかった！！」
+
+voice_play v10902.wav
+
+line_set 「嫌なことしか思い出せなかった！！」
+
+nvl_on
+
+line_set 命は泣きながら笑って、貴広にしがみついた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「命、それは怖くても忘れてはいけないんだ…」
+line_set 「憎しみを受け止め、相手のことを考えることが大人への第一歩だ…」
+line_set 「そうすれば、こんな力に頼る必要はなくなる」
+line_set 「分けられた心も、元に戻る」
+
+name_set 命
+
+voice_play v10903.wav
+
+line_set 「うん…」
+
+voice_play v10904.wav
+
+line_set 「…て、貴広。なんかあたし達落ちてない？」
+
+music_play_moekan 022.WAV
+
+
+name_set 貴広
+
+line_set 「落ちてるな」
+
+name_set 命
+
+voice_play v10905.wav
+
+line_set 「ひょえ～～～～～～～～！！！！！！」
+
+name_set 貴広
+
+line_set 「あはははははははは！！！！！！」
+
+kgd_layer2_set_moekan 1227.KGD
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+sfx_set 0 SE012.WAV
+sfx_play 0 0
+
+name_clear
+
+line_set ドッボーーーーーーーーーーーン！！！！！
+sfx_stop 0
+sfx_unset 0
+
+music_stop2
+
+kgd_layer2_clear
+
+ksd_set 1228Z.KSD
+ksd_end

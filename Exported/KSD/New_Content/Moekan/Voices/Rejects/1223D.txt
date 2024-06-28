@@ -1,0 +1,2 @@
+voice_play v09519.wav
+line_set 「遅いぞ貴広！！こっちは準備万端だ！！」

@@ -1,0 +1,554 @@
+story_progress 281
+
+kgd_layer1_set 0 W1211.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+wait 2000
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG012.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1211.KGD
+sfx_set 0 SE005.WAV
+
+sfx_loop 0
+name_clear
+
+line_set バラバラバラ…
+
+nvl_on
+
+line_set ヘリが離陸ポイントまで誘導され、ローターを回転させる。
+
+line_set キュインキュインと翼が砂煙を立て、近づくものに激しい風圧が圧迫感を与える。
+adv_on
+
+name_set 霧島
+
+line_set 「…」
+
+nvl_on
+
+line_set 霧島の背後から砂が眼に入らぬ様に腕で顔を少しガードした貴広が声をかける。
+
+adv_on
+
+name_set 貴広
+
+line_set 「霧島…」
+
+nvl_on
+
+line_set ヘリの巻き上げる風によってショートカットの髪をなびかせながら霧島が振り向く。
+
+adv_on
+
+kgd_layer3_set 0 KI018.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 霧島
+
+voice_play 42562.wav
+
+line_set 「所長…」
+
+name_set 貴広
+
+line_set 「本当に１人で大丈夫か？」
+
+nvl_on
+
+line_set 貴広は心配そうに霧島に話しかける。
+
+adv_on
+
+kgd_layer3_set 3 KI020.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 42563.wav
+
+line_set 「所長、何を言ってるんでちゅか…」
+
+voice_play 42564.wav
+
+line_set 「当たり前でちゅ」
+
+voice_play 42565.wav
+
+line_set 「私は所長の有能な秘書なんでちゅよ…」
+
+name_set 貴広
+
+line_set 「ああ…」
+
+line_set 「分かってる…」
+name_set 霧島
+
+voice_play 42566.wav
+
+line_set 「月曜日には帰ってきまちゅから」
+
+voice_play 42567.wav
+
+line_set 「そんな顔をして心配ちないでくだちゃい」
+
+voice_play 42568.wav
+
+line_set 「逆に所長の事が心配になるじゃないでちゅか」
+
+nvl_on
+
+line_set 霧島は静かに微笑みながら貴広に話す。
+
+adv_on
+
+name_set 貴広
+
+line_set 「本当に大丈夫なのか？」
+
+name_set 霧島
+
+voice_play 42569.wav
+
+line_set 「子供じゃないんだから大丈夫でちゅ」
+
+voice_play 42570.wav
+
+line_set 「でも、そのお気遣いには感謝しまちゅ」
+
+name_set 貴広
+
+line_set 「そうは言ってもなぁ…」
+
+line_set 「あの本社だぞ、この俺が命令を聞いていないと言うのは奴等としては先刻承知済みのはずだ」
+line_set 「それにリニアの換えの体を使って無いという事実もあるからな」
+line_set 「その件に関してでも何が起こるかわからないというのに………本当に一人でいって大丈夫なのか？」
+nvl_on
+
+line_set 貴広は騒音に負けないように叫んだ。
+
+adv_on
+
+name_set 霧島
+
+voice_play 42571.wav
+
+line_set 「はい…たぶん大丈夫だと思いまちゅ」
+
+name_set 貴広
+
+line_set 「たぶん…？　そういう事で行って何かあってからではおそいぞ」
+
+name_set 霧島
+
+voice_play 42572.wav
+
+line_set 「大丈夫でちゅよ…その辺についてはぬかりはありまちぇんから」
+
+name_set 貴広
+
+line_set 「そうか…本社にいる誰かに裏から何かを回しているのか？」
+
+name_set 霧島
+
+voice_play 42573.wav
+
+line_set 「い、いえ…何もないでちゅよ…そこまで大層なものでは………」
+
+voice_play 42574.wav
+
+line_set 「それではここで長い間話していても問題の解決になりまちぇんので行ってきまちゅね」
+
+kgd_layer3_set 3 KI021.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 42575.wav
+
+line_set 「それにこの間にもリニアちゃんの状態は悪くなっているんでちゅから…」
+
+name_set 貴広
+
+line_set 「ああ…そうだな…」
+
+name_set 霧島
+
+voice_play 42576.wav
+
+line_set 「では所長私がいない間、何事もないようにしっかりとお留守番の方をよろしくお願いしまちゅね」
+
+name_set 貴広
+
+line_set 「あぁ…そこの所はまかせろ」
+
+kgd_layer3_set 3 KI018.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 42577.wav
+
+line_set 「ただ…私がいないと書類の整理が何かと大変だとおもいまちゅが…」
+
+voice_play 42578.wav
+
+line_set 「大丈夫でちゅか？」
+
+name_set 貴広
+
+line_set 「大丈夫だ、死ぬ気でなんとかやるさ、それに霧島も本社で頑張ってくれるんだ」
+
+line_set 「それで俺が頑張らないわけにもいかないだろう」
+kgd_layer3_set 3 KI020.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 42579.wav
+
+line_set 「うふふ、そうでちゅよね、そうでないと割にあわないでちゅからね」
+
+nvl_on
+
+line_set 貴広の言葉で笑う霧島。
+
+adv_on
+
+name_set 霧島
+
+voice_play 42580.wav
+
+line_set 「では、行ってきまちゅね」
+
+name_set 貴広
+
+line_set 「あぁ…、わかった。　どんなことがあっても無理はするんじゃないぞ」
+
+name_set 霧島
+
+voice_play 42581.wav
+
+line_set 「わかりまちた…では月曜日には帰ってきまちゅので」
+
+voice_play 42582.wav
+
+line_set 「リニアちゃんのパーツを楽しみにして待っておいてくだちゃい」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+nvl_on
+
+line_set そういうと霧島は貴広に背を向け、ヘリの乗降口に近づきヘリに乗り込んだ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「霧島！！」
+
+name_set 霧島
+
+line_set 「？！」
+
+nvl_on
+
+line_set 貴広の放り投げた物が霧島の手の中に収まる。
+
+line_set それは小さな携帯電話だった。
+adv_on
+
+name_set 貴広
+
+line_set 「それは俺が現役時代に使っていた特殊な物だ」
+
+line_set 「それなら、どこからでも俺にかけられる。なにかあったら絶対に電話をするんだぞ」
+line_set 「こっちからサポートできることだってあるからな」
+nvl_on
+
+line_set 発進するヘリに大声で叫ぶ貴広。
+
+line_set しかし、ヘリの翼の回転によってまきおこる音で声が聞こえたかどうか怪しかった。
+adv_on
+
+name_set 霧島
+
+line_set 「………」
+
+nvl_on
+
+line_set 霧島はヘリの中で貴広に向けて一礼をし、進行方向へと顔を向けた。
+
+line_set ヘリは爆音ににも似た音を立てて、水平線の向こうへ飛び立っていった。
+adv_on
+
+sfx_stop 0
+
+sfx_unset 0
+name_set 貴広
+
+line_set 「霧島………」
+
+nvl_on
+
+line_set 貴広は小さく呟く。
+
+adv_on
+
+name_set 貴広
+
+line_set 「これからが忙しくなるな…しかし………」
+
+nvl_on
+
+line_set 霧島を大丈夫だからと見送った貴広だったが、心の奥底では一抹の不安を隠す事は出来なかった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「さて…、ここにいつまでいても意味がないから部屋にでも戻るか………」
+
+kgd_layer1_set 1 BG004.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 012.WAV
+
+name_set 貴広
+
+line_set 「ふぅ、霧島が帰ってくるのは明日か………」
+
+nvl_on
+
+line_set 貴広は廊下の壁にもたれかかってため息をつく。
+
+adv_on
+
+kgd_layer3_set 0 SO028.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set おやじさん
+
+voice_play v06923.wav
+line_set 「貴広…少しいいか」
+
+nvl_on
+
+line_set 壁にもたれ、俯いていた貴広は、突然おやじさんから声をかけられた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おやじさん、どうしたんだ？」
+
+name_set おやじさん
+
+voice_play v06924.wav
+line_set 「霧島の嬢ちゃん行ったようだな」
+
+name_set 貴広
+
+line_set 「うむ…、本当は反対だったんだがな」
+
+kgd_layer3_set 3 SO018.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06925.wav
+line_set 「霧島の嬢ちゃんには感謝してるよ」
+
+voice_play v06926.wav
+line_set 「昨日、俺の所に来て『私に任せてください』ってよ…」
+voice_play v06927.wav
+line_set 「『おじさんが危険な橋を渡ることはないのです』ってよ…」
+voice_play v06928.wav
+line_set 「あんな小さななりで、力強く言うんだぜ」
+voice_play v06929.wav
+line_set 「なんでもお見通しだったわけだよ。さすがだな霧島嬢ちゃんは」
+voice_play v06930.wav
+line_set 「トラブルに巻き込まれなければ良いのだが…」
+name_set 貴広
+
+line_set 「おやじさん、何かのトラブルっていうのは一体？」
+
+kgd_layer3_set 3 SO028.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06931.wav
+line_set 「あぁ、貴広も知っているかもしれないが、本社で不穏な動きがある」
+
+name_set 貴広
+
+line_set 「あぁ確か霧島も同じような事を言っていたな」
+
+line_set 「何か本社の方で不穏な動きがあるらしくて俺が行くなら私のほうが適任だといって聞かなかったんだ」
+name_set おやじさん
+
+voice_play v06932.wav
+line_set 「そうだったのか…」
+voice_play v06933_1.wav
+line_set 「でもな貴広、やはり不穏な動きがあるっていうような時期に霧島の嬢ちゃんが本社に行くのは」
+voice_play v06933_2.wav
+line_set 「それなりに危ないリスクをしょっているってことだ」
+voice_play v06934.wav
+line_set 「どうなるかなんて誰にもわからない……」
+name_set 貴広
+
+line_set 「それはわかってる………でも俺には霧島が本社に行く事を止める事ができなかった」
+
+name_set おやじさん
+
+voice_play v06935.wav
+line_set 「霧島の嬢ちゃんに何かあったら、それこそ、すべてを失ってでも守ってやらなきゃいけねぇな…」
+
+name_set 貴広
+
+line_set 「…それぐらい、わかっているよおやじさん」
+
+line_set 「本当は俺が行くべきだったんだ、それで霧島に何かあれば俺は命をかけてでも守るさ」
+name_set おやじさん
+
+voice_play v06936.wav
+line_set 「その通りだ貴広、その心意気なら単身で本社に行った霧島の嬢ちゃんも安心ってもんだ」
+
+voice_play v06937.wav
+line_set 「それなら霧島の嬢ちゃんが一人で行くって言うのも頷ける」
+voice_play v06938.wav
+line_set 「それだけ信頼されてるってこった、男冥利につきるな貴広」
+name_set 貴広
+
+line_set 「バカな事いわないでくれよおやじさん、それに男冥利なんて言葉は俺の柄にあわないさ…」
+
+name_set おやじさん
+
+voice_play v06939.wav
+line_set 「とりあえず今は霧島の嬢ちゃんを信じて待つしかないな」
+
+name_set 貴広
+
+line_set 「そうだな…」
+
+name_set おやじさん
+
+voice_play v06940.wav
+line_set 「くよくよしても始まらんさ、男は時として待つことも大事なものさ、それが今だってことだ」
+
+voice_play v06941.wav
+line_set 「今は霧島の嬢ちゃんの事を信じて待つことだな」
+name_set 貴広
+
+line_set 「ああ、霧島の事だから大丈夫だと思うけどな」
+
+kgd_layer3_set 3 SO030.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06942.wav
+line_set 「貴広よりはしっかりしているからな」
+
+name_set 貴広
+
+line_set 「なんだ、それじゃ俺がそこまでしっかりしてないってことじゃないか」
+
+name_set おやじさん
+
+voice_play v06943.wav
+line_set 「あくまでだ、貴広もしっかりしているがそれ以上に霧島の嬢ちゃんの方がしっかりしているってことだ」
+
+name_set 貴広
+
+line_set 「あぁ…それはそうかもしれないな」
+
+line_set 「霧島はいつも俺より働いてくれているからな」
+line_set 「兎に角、霧島が帰ってくるのを待つしかないな」
+kgd_layer3_set 3 SO018.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06944.wav
+line_set 「そういうこった」
+
+voice_play v06945.wav
+line_set 「最悪の事態にならないことを祈るだけだ」
+name_set 貴広
+
+line_set 「わかった、まぁ…昔から蓋は開けてみないとわからないっていうからな」
+
+line_set 「とりあえず今日は休んで霧島の帰りを待つとしようか」
+name_set おやじさん
+
+voice_play v06946.wav
+line_set 「そうか…あまり張り詰めたままじゃ貴広にしても精神的にも身体的にも悪いからな」
+
+voice_play v06947.wav
+line_set 「とりあえず、今の所はゆっくりやすんでおいた方が得策かもしれんな」
+name_set 貴広
+
+line_set 「あぁ、そういうことだから、俺は部屋に戻るよ、おやじさんといろいろ話せて少し楽になったよ」
+
+kgd_layer3_set 3 SO026.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v06948.wav
+line_set 「そういってくれるとうれしいよ」
+
+voice_play v06949.wav
+line_set 「なら、早く部屋に戻ってゆっくり休めよ」
+name_set 貴広
+
+line_set 「わかったよ、おやじさん、じゃあな」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+nvl_on
+
+line_set 貴広はそういうとおやじさんがいる廊下を歩きだす。
+
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer2_clear
+ksd_set 1212B.KSD
+
+ksd_end

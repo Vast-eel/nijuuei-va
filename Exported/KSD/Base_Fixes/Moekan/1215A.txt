@@ -1,0 +1,1326 @@
+
+story_progress 311
+
+kgd_layer1_set 0 W1215.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 2000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+gallery_unlock 368
+
+kgd_layer1_set 0 N328.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 005.WAV
+
+nvl_on
+
+line_set そこは、まったく知らない風景……。
+line_set でも、そこは、見慣れた風景……。
+
+nvl_line_clear
+
+line_set すべてが大きく見える。
+line_set 家をくぐる門。
+line_set 野原に朽ち果てた自転車。
+line_set 白くどこまでも続く壁……。
+
+nvl_line_clear
+
+line_set 小さな自分にはすべてが大きく見える。
+
+nvl_line_clear
+
+line_set どこかで、鐘の音が聞こえる…。
+line_set どこか遠くで……。
+line_set 遠くで鳴り響く。
+
+nvl_line_clear
+
+line_set それが、
+line_set 世界の果てにある、
+line_set 遠い言葉に聞こえる。
+
+nvl_line_clear
+
+line_set 街角にあった、大きな坂。
+line_set どこまでも、
+line_set どこまでも続く大きな坂。
+
+nvl_line_clear
+
+line_set 世界の底から、
+line_set その坂を見上げると、
+line_set 空すら覆うように見える。
+
+nvl_line_clear
+
+line_set それは、世界の果ての壁。
+line_set その先には、
+line_set ここではない世界がある。
+
+nvl_line_clear
+
+line_set 丘を駆け上がる。
+line_set 小さな、自分でも、
+line_set そこに立てば、
+line_set 世界を見渡す事が出来る。
+
+adv_on
+
+gallery_unlock 385
+
+kgd_layer1_set 1 N345.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 風がふく。
+
+nvl_line_clear
+
+line_set 雲が流れていく。
+
+nvl_line_clear
+
+line_set 空が、高い……。
+line_set 限りなく、高く……。
+line_set そして、限りなく青い……。
+
+nvl_line_clear
+
+line_set その空は、
+line_set 丘にたった自分より、
+line_set さらに高く、
+line_set 澄んでいる。
+
+nvl_line_clear
+
+line_set それに手を伸ばす。
+
+nvl_line_clear
+
+line_set 「空……」
+
+nvl_line_clear
+
+line_set 手を伸ばし、
+line_set その青を捕まえようとする。
+
+nvl_line_clear
+
+line_set 空は遠い。
+
+nvl_line_clear
+
+line_set 空の青さを捕まえられない。
+
+adv_on
+
+gallery_unlock 367
+
+kgd_layer1_set 1 N327.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 風の吹く丘、
+line_set 駆け出す子供の時、
+line_set だけど青い空に手は届かない。
+
+nvl_line_clear
+
+gallery_unlock 103
+
+kgd_layer1_set 1 N063.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 少女
+
+line_set 「……」
+
+nvl_on
+
+line_set かたわらに、自分を見つめる少女がいる。
+
+nvl_line_clear
+
+line_set その事に気がつく……。
+
+nvl_line_clear
+
+line_set 自分を見つめる瞳……。
+
+nvl_line_clear
+
+line_set でも、その顔はぼやけてよく見えない……。
+
+adv_on
+
+music_stop1
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 「・・・」
+
+adv_on
+
+kgd_layer1_set 0 BG027.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1215.KGD
+
+name_set 貴広
+
+line_set 「……」
+line_set 「また……、奇妙な夢を見たな……」
+
+nvl_on
+
+line_set 貴広はベットからはい出てくる。
+
+adv_on
+
+music_play_moekan 024.WAV
+
+name_set 貴広
+
+line_set 「さてと……、今日一日もがんばるか……」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG004.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 貴広が廊下に出ると、ちょうどリニアに出くわす。
+
+adv_on
+
+kgd_layer3_set 0 RI014.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set リニア
+
+voice_play 53001.wav
+
+line_set 「あ、おはようございます」
+
+name_set 貴広
+
+line_set 「うむ…、どうだ？体の調子は悪くないか？」
+
+name_set リニア
+
+voice_play 53002.wav
+
+line_set 「はい…」
+
+name_set 貴広
+
+line_set 「そうか……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set 貴広は歩き出す。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ん？どうした？」
+
+nvl_on
+
+line_set リニアはその場で立ち止まっている。
+
+adv_on
+
+kgd_layer3_set 0 RI012.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set リニア
+
+voice_play 53003.wav
+
+line_set 「あ、朝とかまで、リニアと一緒に歩くのは、貴広さん嫌かなぁ…と思いまして…」
+
+name_set 貴広
+
+line_set 「あほ……」
+line_set 「勝手にそんな事に気を遣うな……」
+line_set 「ほら、遅刻するぞ……」
+
+kgd_layer3_set 3 RI014.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set リニア
+
+voice_play 53004.wav
+
+line_set 「あ、はい」
+
+nvl_on
+
+line_set リニアは後ろから貴広についていく。
+
+adv_on
+
+name_set リニア
+
+line_set 「……」
+
+voice_play 53006.wav
+
+line_set 「リニアは、この島にこれてよかったですよ…」
+
+name_set 貴広
+
+line_set 「はぁ？なんだ突然？？？」
+
+name_set リニア
+
+voice_play 53007.wav
+
+line_set 「あ、なんでもないです……」
+
+voice_play 53008.wav
+
+line_set 「ごめんなさい…、変な事を言ってしまって……」
+
+name_set 貴広
+
+line_set 「お前が変な事を言うのはいつもの事だ…」
+line_set 「何かあったのか？」
+
+name_set リニア
+
+voice_play 53009.wav
+
+line_set 「いいえ、別に何かあったわけじゃないのですが…」
+
+voice_play 53010.wav
+
+line_set 「ただ、なんか……」
+
+voice_play 53011.wav
+
+line_set 「夢を見まして…」
+
+name_set 貴広
+
+line_set 「夢？」
+line_set 「どんな夢だ？」
+
+kgd_layer3_set 3 RI015.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set リニア
+
+voice_play 53012.wav
+
+line_set 「少し悲しい夢です……」
+
+name_set 貴広
+
+line_set 「悲しい夢？」
+
+name_set リニア
+
+voice_play 53013.wav
+
+line_set 「はい、変な夢でした…」
+
+voice_play 53014.wav
+
+line_set 「断片的な記憶なのですが……」
+
+voice_play 53015.wav
+
+line_set 「どこか知らない場所……」
+
+voice_play 53016.wav
+
+line_set 「たぶん、ずっと、ずっと、遠くの時間…」
+
+voice_play 53017.wav
+
+line_set 「そこに、悲しそうな小さな女の子が立っているのです…」
+
+voice_play 53018.wav
+
+line_set 「すごくその子は悲しそうなのですよ……」
+
+voice_play 53019.wav
+
+line_set 「なぜかはよくわからないのですが……」
+
+voice_play 53020.wav
+
+line_set 「どうやら、決して会えない、誰かを待っているようなのです…」
+
+name_set 貴広
+
+line_set 「夢とはかなり支離滅裂なものだが、特にお前のはひどいな……」
+line_set 「何を言っているか分からん」
+
+name_set リニア
+
+voice_play 53021.wav
+
+line_set 「へへへ……、ごめんなさい……」
+
+name_set 貴広
+
+line_set 「俺も今朝、変な夢を見たよ……」
+
+name_set リニア
+
+voice_play 53022.wav
+
+line_set 「どんな夢ですか？」
+
+name_set 貴広
+
+line_set 「……」
+line_set 「うーん」
+line_set 「よく覚えていないんだ……これが…」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 昼過ぎまで、いつも通り、貴広は仕事をこなす。
+
+nvl_line_clear
+
+line_set 昼食をたべた後、貴広は少し、屋敷内を散歩する。
+
+adv_on
+
+kgd_layer1_set 0 BG048.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「天気がいいな…」
+
+nvl_on
+
+line_set 青い空に、雲が駆け抜けていく。
+line_set 貴広は中庭をぬけて、
+line_set 裏の小高い丘を登っていく。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG045.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 003.WAV
+
+name_clear
+
+line_set ビュウ…
+
+name_set 貴広
+
+line_set 「風が強いな…」
+
+nvl_on
+
+line_set 貴広の頬を風がなでる…。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set 貴広は青い空を見上げる。
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 375
+
+kgd_layer1_set 1 N335.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「…」
+line_set 「本当に今日は、空が青いな…」
+
+nvl_on
+
+line_set 足をとめ、貴広は空を眺める。
+line_set 昨日と同じように青空を、白い雲が凄い早さで流されていく。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…」
+line_set 「雲が流されていく…」
+
+nvl_on
+
+line_set 丘の上でリニアが言った言葉を思い出す。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…」
+line_set 「雲はなんで……、風を信じてしまったのだろうかな…」
+line_set 「その先に何があるのか分からないのに……」
+
+kgd_layer1_set 1 BG045.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1215.KGD
+
+nvl_on
+
+line_set 貴広はそのまま丘をぬけようとした。
+
+adv_on
+
+name_set 貴広
+
+line_set 「？」
+line_set 「あれは？」
+
+nvl_on
+
+line_set リニアが丘の中腹でたっている。
+line_set また、音を聞いているようだ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「また、あいつこんな場所にいるのか……」
+
+nvl_on
+
+line_set 貴広はゆっくりとリニアに近づいていく。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…」
+
+kgd_layer2_clear
+
+gallery_unlock 413
+
+kgd_layer1_set 1 N373.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set リニア
+
+line_set 「…」
+
+nvl_on
+
+line_set リニアは目をつぶり、耳に手をあてて何かを聴いている。
+
+nvl_line_clear
+
+line_set 貴広はリニアの側にたつ。
+
+adv_on
+
+name_set リニア
+
+line_set 「…」
+
+voice_play 53025.wav
+
+line_set 「貴広さんですね」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set 貴広は答えない。
+
+adv_on
+
+name_set リニア
+
+voice_play 53026.wav
+
+line_set 「リニア、音を聴いてました」
+
+voice_play 53027.wav
+
+line_set 「ずっと、ずっと…」
+
+name_set 貴広
+
+line_set 「また、こんな場所で立っていると、体をおかしくするぞ……」
+
+name_set リニア
+
+voice_play 53028.wav
+
+line_set 「すみません…でも、今しかこの音を聴けないような気がして…」
+
+name_set 貴広
+
+line_set 「風の音か…」
+
+name_set リニア
+
+voice_play 53029.wav
+
+line_set 「いいえ…違います…リニア…ずっと、ずっと、この音を聴いてました」
+
+voice_play 53030.wav
+
+line_set 「たぶん、本当に昔から…そんな気が最近するのですよ…」
+
+name_set 貴広
+
+line_set 「なにがずっと昔からだ……、記憶などまともにないのであろう……」
+
+name_set リニア
+
+voice_play 53031.wav
+
+line_set 「はい…でも、この音は、ずっと、ずっと昔に聴いた事がある音なんです」
+
+name_set 貴広
+
+line_set 「ずっと昔………」
+
+nvl_on
+
+line_set 「もしかして……、古い記憶の断片が戻りはじめてきたのか？」
+
+adv_on
+
+name_set 貴広
+
+line_set 「しかし、ここに来たのはつい最近だ……、ここにある音を、昔からなど聞けはしないだろう……」
+
+name_set リニア
+
+voice_play 53032.wav
+
+line_set 「そうですよね…おかしいですよね…ここに来るのははじめてのハズなのに…」
+
+nvl_on
+
+line_set 二人は風の吹く青空のなかを無言で立ちつくす。
+
+adv_on
+
+name_set リニア
+
+voice_play 53033.wav
+
+line_set 「リニアは最近……、昔の記憶の夢を見ます」
+
+name_set 貴広
+
+line_set 「以前の記憶を？」
+
+name_set リニア
+
+voice_play 53034.wav
+
+line_set 「と言っても、大した事じゃないんですよ」
+
+voice_play 53035.wav
+
+line_set 「記憶と呼べるのかすらわからないのです…」
+
+voice_play 53036.wav
+
+line_set 「リニア、ずっと、ずっと長い間……」
+
+voice_play 53037.wav
+
+line_set 「ずっと、どこか、どこか遠くで、夢を見ていた…」
+
+voice_play 53038.wav
+
+line_set 「そんな気がするのですよ…」
+
+name_set 貴広
+
+line_set 「…」
+line_set 「かもしれんな…」
+
+nvl_on
+
+line_set リニアは、今では決して見ることが出来ない程の旧型のアンドロイドであった。
+line_set たぶん、アンドロイドが世界ではじめて作られてからそう時間がたってない時代のものであろう。
+line_set つまり、世界の終わりと言われた日より先に作られたものであろう……。
+
+nvl_line_clear
+
+line_set そんな型のものなど、普通なら博物館などで大切に保管されている。
+
+nvl_line_clear
+
+line_set 「たぶん博物館からリニアは何かの理由で外に出てしまったのだろう……」
+line_set 「盗難か…、もしくは、その博物館に何かあったのか……」
+
+adv_on
+
+gallery_unlock 92
+
+kgd_layer1_set 1 N052.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set リニア
+
+voice_play 53039.wav
+
+line_set 「貴広さん？」
+
+name_set 貴広
+
+line_set 「あ？な、なんだ？」
+
+name_set リニア
+
+voice_play 53040.wav
+
+line_set 「懐かしい音ですよ」
+
+voice_play 53041.wav
+
+line_set 「リニアに届くこの音は……」
+
+nvl_on
+
+line_set アンドロイドには色んな音が聞こえるのであろう。
+line_set この風にのって、もしかしたら、リニアが眠りにつく前の音がどこからかながされてきたのかもしれない。
+
+adv_on
+
+name_set 貴広
+
+line_set 「なんの音だ？」
+
+gallery_unlock 413
+
+kgd_layer1_set 1 N373.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set リニア
+
+voice_play 53042.wav
+
+line_set 「ちっく、たっく、ちっく、たっく…」
+
+name_set 貴広
+
+line_set 「ちっく…たっく？？？」
+
+name_set リニア
+
+voice_play 53043.wav
+
+line_set 「懐かしいです」
+
+nvl_on
+
+line_set 何の音だ？聞いたことがない音だな。
+
+adv_on
+
+name_set リニア
+
+voice_play 53044.wav
+
+line_set 「ちっく、たっく、ちっく、たっく」
+
+voice_play 53045.wav
+
+line_set 「一定のリズムを刻んで…」
+
+voice_play 53046.wav
+
+line_set 「ちっく、たっく、ちっく、たっく…」
+
+name_set 貴広
+
+line_set 「…一定のリズム」
+
+nvl_on
+
+line_set 「そういえば、世界の終わりと言われた日以前のゼンマイ式の時計は」
+line_set 「そんな音だという話を聞いた事がある」
+line_set 「たしか、ちっく、たっく、という音だったような気がする」
+
+adv_on
+
+name_set リニア
+
+voice_play 53047.wav
+
+line_set 「ちっく、たっく…なんだか、懐かしい音です」
+
+nvl_on
+
+line_set 「懐かしい音か…」
+line_set 「世界の終わりによってなくなった音…」
+line_set 「リニアにとっては懐かしい音なのかもしれない」
+
+nvl_line_clear
+
+line_set リニアの顔を見つめる貴広。
+line_set 自分より遙かに幼い顔したリニア。
+line_set しかし、リニアはたぶん貴広よりも、もっと、もっと昔からこの世に存在していたのであろう。
+
+nvl_line_clear
+
+line_set 目をつぶるリニア。
+line_set 貴広が聞こえない音を聞いている。
+line_set ずっと、
+line_set ずっと、無言で…。
+
+nvl_line_clear
+
+line_set 貴広は自分の正確な年齢など知らなかった。
+line_set そして、自分が何処の誰だかすら知らなかった。
+line_set たぶん、世界の終わりと言われた日より前に生まれたであろう事はたしかであったが、
+line_set 自分がそれ以前に何処の誰であったか、貴広はまったく知らなかった。
+
+nvl_line_clear
+
+line_set 物思いが付いた時には、カンパニーで孤児として育てられていた。
+line_set もちろんこのカンパニーの事、慈善事業で貴広を育てたのではない。
+line_set 幹部育成の材料としてであった。
+
+adv_on
+
+name_set リニア
+
+voice_play 53048.wav
+
+line_set 「ずっと、ずっと昔も、リニアはこの音を聞いていたような…何の音なんだろう」
+
+name_set 貴広
+
+line_set 「それは、たぶん、古い機械が時を刻む音だろう」
+
+name_set リニア
+
+voice_play 53049.wav
+
+line_set 「古い機械…」
+
+name_set 貴広
+
+line_set 「ああ、今は無くなった機械が、時を刻んでいるのさ」
+
+name_set リニア
+
+voice_play 53050.wav
+
+line_set 「古い機械…なんか私みたいですね」
+
+nvl_on
+
+line_set リニアはそういって貴広に微笑む。
+
+adv_on
+
+name_set 貴広
+
+line_set 「今はもう、動いているものがないだろう機械だ…、聞こえるハズのない音」
+line_set 「たぶん、お前が聞いてる音は幻聴だろうな…」
+
+name_set リニア
+
+voice_play 53051.wav
+
+line_set 「幻聴…？」
+
+name_set 貴広
+
+line_set 「中古の部品のかたまりのお前の事だ…たぶん古いデーターを聞こえるものと勘違いしているのであろう」
+
+name_set リニア
+
+line_set 「…」
+
+nvl_on
+
+line_set リニアは目をつぶり、耳を澄ます。
+
+adv_on
+
+gallery_unlock 375
+
+kgd_layer1_set 1 N335.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set リニア
+
+line_set 「…」
+
+name_set 貴広
+
+line_set 「…」
+
+name_set リニア
+
+voice_play 53054.wav
+
+line_set 「ちっく、たっく、ちっく、たっく…」
+
+nvl_on
+
+line_set リニアは小さくつぶやく。
+
+adv_on
+
+name_set リニア
+
+voice_play 53055.wav
+
+line_set 「ちっく、たっく、ちっく、たっく」
+
+name_set 貴広
+
+line_set 「…」
+
+name_set リニア
+
+voice_play 53056.wav
+
+line_set 「どこからか聞こえる音…」
+
+voice_play 53057.wav
+
+line_set 「もしかしたら何処にもない音…」
+
+voice_play 53058.wav
+
+line_set 「でもリニアには聞こえる音…」
+
+voice_play 53059.wav
+
+line_set 「古い、古い、機械が、奏でる音」
+
+voice_play 53060.wav
+
+line_set 「ちっく、たっく、ちっく、たっく…」
+
+nvl_on
+
+line_set 歌うようにリニアがつぶやく。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set そんなリニアを貴広は無言で見つめる。
+
+nvl_line_clear
+
+line_set 風がふく。
+line_set 青い空に、
+line_set 雲が流れていく。
+line_set すごい、
+line_set すごい早さで、
+line_set 流れていく。
+line_set リニアはそこで歌う。
+
+adv_on
+
+name_set リニア
+
+voice_play 53061.wav
+
+line_set 「どこからか聞こえる音…」
+
+voice_play 53062.wav
+
+line_set 「もしかしたら何処にもない音…」
+
+voice_play 53063.wav
+
+line_set 「でもリニアには聞こえる音…」
+
+voice_play 53064.wav
+
+line_set 「古い、古い、機械が、奏でる音」
+
+voice_play 53065.wav
+
+line_set 「ちっく、たっく、ちっく、たっく…」
+
+voice_play 53066.wav
+
+line_set 「でも、いつの時代にかあった音」
+
+voice_play 53067.wav
+
+line_set 「それは、誰かの耳に届いた音」
+
+name_set 貴広
+
+line_set 「…」
+
+name_set リニア
+
+voice_play 53068.wav
+
+line_set 「リニアは古い機械の固まりです……、その事で、皆様にご迷惑ばかりかけているのですが…」
+
+voice_play 53069.wav
+
+line_set 「それでも…、素晴らしい事もあるのですね……」
+
+nvl_on
+
+line_set リニアはうれしそうに貴広に微笑む。
+
+adv_on
+
+name_set リニア
+
+voice_play 53070.wav
+
+line_set 「リニアは古い、古い、機械の集まり…」
+
+voice_play 53071.wav
+
+line_set 「だから、だから…」
+
+voice_play 53072.wav
+
+line_set 「リニアすら知らない、たくさんの思い出が眠っている」
+
+voice_play 53073.wav
+
+line_set 「今は無くなった、古い、古い機械の音」
+
+voice_play 53074.wav
+
+line_set 「今は忘れ去られた、古い、古い風景」
+
+voice_play 53075.wav
+
+line_set 「みんなが忘れてしまった、古い、古い、思い出たち…」
+
+voice_play 53076.wav
+
+line_set 「それが、リニアの古い、古い、部品には眠っているのですね」
+
+nvl_on
+
+line_set リニアは貴広に笑いながら問いかける。
+
+adv_on
+
+name_set リニア
+
+voice_play 53077.wav
+
+line_set 「もしかしたら、貴広さんが昔、見た風景も、リニアのなかに眠っているのかもしれませんね」
+
+name_set 貴広
+
+line_set 「ああ…」
+
+nvl_on
+
+line_set 貴広は思わず返事をしてしまう。
+
+nvl_line_clear
+
+line_set なんとなく懐かしいような風景。
+line_set こんな事があったような記憶。
+line_set 貴広はリニアを見つめている。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 「忘れられた音」
+line_set 「忘れられながらも時を刻む古い、古い機械」
+
+adv_on
+
+gallery_unlock 376
+
+kgd_layer1_set 0 N336.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 空が、青から赤く、
+line_set その姿を変える頃、
+line_set 貴広とリニアは丘を降りた。
+
+nvl_line_clear
+
+line_set 赤く染まる世界、
+line_set 二人はゆっくりと
+line_set 坂道を下った…。
+
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG029.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1215.KGD
+
+name_set 貴広
+
+line_set 「……」
+
+name_clear
+
+line_set カチ…
+
+nvl_on
+
+line_set 懐中時計のふたを開ける。
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 241
+
+kgd_layer1_set 1 N201.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+music_play_moekan 005.WAV
+
+name_set 貴広
+
+line_set 「ふふふ…」
+line_set 「もしかしたら、リニアが聞いた時計の音ってこれかと思ったんだけどな…」
+line_set 「やはり動いていなかったか…」
+
+nvl_on
+
+line_set 時を刻むことのない、
+line_set 古い機械を、貴広はじっと見つめる。
+
+nvl_line_clear
+
+line_set この小さな時計が時を刻む音もまた、
+line_set ちっく、たっく、ちっく、たっく…なのであろう。
+
+adv_on
+
+name_set 貴広
+
+line_set 「時がまた刻み始める……か」
+
+nvl_on
+
+line_set ふたの裏には、ナイフで削ったように、そう書かれている。
+
+adv_on
+
+name_set 貴広
+
+line_set 「へたくそな字だな…、誰が書いたんだよ…」
+
+nvl_on
+
+line_set 貴広は、ちゃんとしたフォントで刻まれた英語の詩を読んでみる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「Ｉｎ　ｗａｔｃｈｉｎｇ　ｉｔｓ　ｐｅｎｄｕｌｕｍ　ｓｗｉｎｇ　ｔｏ　ａｎｄ　ｆｒｏ…」
+line_set 「Ｍａｎｙ　ｈｏｕｒｓ　ｈａｄ　ｈｅ　ｓｐｅｎｔ　ｗｈｉｌｅ　ａ　ｂｏｙ…」
+line_set 「Ａｎｄ　ｉｎ　ｃｈｉｌｄｈｏｏｄ　ａｎｄ　ｍａｎｈｏｏｄ」
+line_set 「ｔｈｅ　ｃｌｏｃｋ　ｓｅｅｍｅｄ　ｔｏ　ｋｎｏｗ…」
+line_set 「Ａｎｄ　ｔｏ　ｓｈａｒｅ　ｂｏｔｈ　ｈｉｓ　ｇｒｉｅｆ　ａｎｄ　ｈｉｓ　ｊｏｙ」　　
+line_set 「振り子が揺れるのを…」
+line_set 「何時間も眺めてた…」
+line_set 「幼い頃…」
+line_set 「少年の頃…」
+line_set 「青年の頃…」
+line_set 「時計はきっと知っている…」
+line_set 「彼の悲しみ…」
+line_set 「そして彼の喜び…」
+
+name_set 貴広
+
+line_set 「何かの詩の一部だろうか…」
+line_set 「聞いた事がない詩だ……」
+line_set 「俺にはなじみのない詩…」
+line_set 「ふふふ、時計は、幼き頃、少年の頃、青年の、悲しみと喜びを知っているか…」
+line_set 「だが、俺には関係ないな……」
+line_set 「時計の振り子など見続けなかった幼子の事など…、この時計は知りはしないだろう……」
+
+nvl_on
+
+line_set 「その頃の俺の悲しみは、身近な者の死であり」
+line_set 「喜びは、遠い者の死であった」
+line_set 「友達が死んでいくのを悲しく思い…」
+line_set 「知らない人間、敵と言われる人間が死ぬのをうれしく思っていた」
+
+nvl_line_clear
+
+line_set 幼き頃の記憶…。
+line_set ただあるのは、暗く、冷たい、閉ざされるべき記憶。情報部幹部候補のプログラム…。
+
+nvl_line_clear
+
+line_set 情報部の幹部…。
+line_set それは、世界の裏、世界の闇を、
+line_set 生の場所とするという意味。
+
+nvl_line_clear
+
+line_set 幼き頃から、
+line_set 貴広は、
+line_set その生の根拠を、
+line_set 漆黒の中にもっていた。
+
+nvl_line_clear
+
+line_set 同期の子供達は、
+line_set 病死、
+line_set 事故死…、
+line_set あるいは、貴広自身の手によってその短い生涯を終えた。
+
+nvl_line_clear
+
+line_set つらかった。
+line_set 悲しかった。
+line_set 幼い心を残していた貴広には、
+line_set それは耐え難き事であった。
+
+nvl_line_clear
+
+line_set 世界中から集められた２００人からの孤児…。
+line_set その候補生が貴広たった一人になる頃、
+line_set 貴広は幼き子供から…、
+line_set 情報部のエリートとなっていった。
+
+nvl_line_clear
+
+line_set 世界の闇を、その生の根拠とする。
+line_set 悲しき機械に…。
+
+nvl_line_clear
+
+line_set 「それは情報部が、ある部隊を作るために、集めた殺掠のエリートだった」
+line_set 「もっとも悲しき部隊と言われた殺人者達……」
+line_set 「幼き時より」
+line_set 「過酷な生存競争に生き残った……」
+line_set 「集められた候補生の中で、たった一人、生き残る事が出来た人間だけが、集められる部隊…」
+line_set 「カンパニー最強の部隊ＰＩＸＩＥＳ……」
+
+adv_on
+
+name_set 貴広
+
+line_set 「だからこそ、ＰＩＸＩＥＳのエージェントは強かった……」
+line_set 「その一人一人の命には、数数え切れない、候補生達の霊魂が宿っていたから……」
+
+nvl_on
+
+line_set 外には、
+line_set 月夜に照らされた、
+line_set 白い雲がまだ流れている。
+
+nvl_line_clear
+
+line_set それは、
+line_set ものすごい速度で、
+line_set 何処かに流されていく。
+
+nvl_line_clear
+
+line_set 貴広は、手にした時計を握りしめる。
+
+nvl_line_clear
+
+line_set 古き機械。
+line_set それが、いつ、どこで作られたか、
+line_set そして、誰のものであったのか分からない。
+line_set ただ、それは、
+line_set 今、貴広の手の中で眠る。
+
+nvl_line_clear
+
+line_set 貴広自身、知ることがない。
+line_set 古い時計…。
+
+nvl_line_clear
+
+line_set 動かない時計…。
+
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+ksd_set 1216A.KSD
+ksd_end

@@ -1,0 +1,1168 @@
+
+comment 命　おまけ
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_play_moekan 023.WAV
+
+
+kgd_layer1_set 0 BG027.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「ぐ～…ぐ～…ぐ～…」
+
+nvl_on
+
+line_set 命が萌えっ娘島に戻ってきて、一年が経った。
+line_set アリスインチェインズも飯島も何を思ってか沈黙を続けている。
+line_set 命と言えば、この島で一応一般的な訓練をしつつ、気ままに暮らしている。
+line_set 騒がしいのも相変わらずのようである。
+
+nvl_line_clear
+
+line_set そんな天気の良い休日の朝を、貴広はベッドの中で満喫していた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ぐ～…」
+
+sfx_set 0 SE054.WAV 
+sfx_play 0 0
+sfx_set 0 SE011.WAV 
+sfx_play 0 0
+
+kgd_layer1_fx 4
+
+name_clear
+
+line_set ドゴオォォォォォォォォンッッ！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「な、なんだぁ！？」
+
+nvl_on
+
+line_set 屋敷を揺らす爆発音に、貴広はベッドから飛び起きて、辺りを見回した。
+line_set ガウンを素早く羽織り、廊下へ飛び出した。
+
+adv_on
+
+kgd_layer1_set 1 BG004.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+kgd_layer3_set 0 KI010.KGD 
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+voice_play v11244.wav
+
+line_set 「あ、所長！！」
+
+name_set 貴広
+
+line_set 「なに事だ？！」
+
+nvl_on
+
+line_set 廊下に飛び出したところで霧島に出会い、状況を聞いた。
+
+adv_on
+
+kgd_layer3_set 3 KI011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v11245.wav
+
+line_set 「わかりまちぇん」
+
+voice_play v11246.wav
+
+line_set 「厨房の方からみたいでちゅが…これから見に行くところでちゅ」
+
+name_set 貴広
+
+line_set 「俺も行く」
+
+nvl_on
+
+line_set 二人は早足で厨房に向かった。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 DC027.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「なんだこれは！？」
+line_set 「げほげほ…真っ白な煙で、なんも見えんぞ？！」
+
+nvl_on
+
+line_set 厨房近くに来ると、辺りは真っ白な煙に包まれていた。
+line_set 貴広は口にハンカチを当て、ゆっくりと進む。
+
+adv_on
+
+name_set 霧島
+
+voice_play v11247.wav
+
+line_set 「気を付けてくだちゃい、所長」
+
+name_set ？？？
+
+voice_play v11248.wav
+
+line_set 「けほけほ…」
+
+name_set 貴広
+
+line_set 「！」
+line_set 「誰かいるのか！？」
+
+name_set ？？？
+
+voice_play v11249.wav
+
+line_set 「げほげほ…」
+
+name_set 貴広
+
+line_set 「誰だ、返事しろ！！」
+
+name_set かずさ
+
+voice_play v11250.wav
+
+line_set 「私だよ～、旦那」
+
+name_set 貴広
+
+line_set 「かずさか…」
+
+name_set 命
+
+voice_play v11251.wav
+
+line_set 「あたしもいるよ～」
+
+name_set 貴広
+
+line_set 「命もか！？」
+
+nvl_on
+
+line_set かずさと命の咳き込む声が、白い煙の向こうから聞こえてくる。
+
+adv_on
+
+name_set 貴広
+
+line_set 「他は？」
+
+name_set 命
+
+voice_play v11252.wav
+
+line_set 「いな～い」
+
+name_set 霧島
+
+voice_play v11253.wav
+
+line_set 「二人とも姿勢を低くして、こっちに早く来るでちゅ」
+
+kgd_layer1_set 1 BG031.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+kgd_layer3_set 3 KA004.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11254.wav
+
+line_set 「ふ～～…」
+
+voice_play v11255.wav
+
+line_set 「いにゃ～まいった、まいった」
+
+kgd_layer3_set 3 MI010.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v11256.wav
+
+line_set 「けふっ、けふっ」
+
+nvl_on
+
+line_set やっとこさ白い空間から抜け出してきた４人は、廊下の隅で一息吐いた。
+line_set 貴広は腰に手を当て、かずさと命を睨みつけた。
+
+adv_on
+
+kgd_layer3_set 3 MI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v11257.wav
+
+line_set 「こんなんなるとは思わなかったよ～」
+
+name_set 貴広
+
+line_set 「なにしてんだ、お前達は？」
+line_set 「あれはお前達の仕業か？」
+
+kgd_layer3_set 3 KA007.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11258.wav
+
+line_set 「お好み焼きを作ってたら、急にね」
+
+name_set 貴広
+
+line_set 「お好み焼き？」
+line_set 「なんでお好み焼きが爆発するんだ？！」
+
+kgd_layer3_set 3 KA005.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11259.wav
+
+line_set 「いや～、命ちゃんに料…ん？」
+
+kgd_layer3_set 3 MI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+line_set 「……」
+
+nvl_on
+
+line_set 命がかずさの袖を引っ張り、首を振って会話を止めさせた。
+
+adv_on
+
+kgd_layer3_set 3 KA010.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11260.wav
+
+line_set 「あ、そっか…」
+
+kgd_layer3_set 3 KA005.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11261.wav
+
+line_set 「秘密でございます」
+
+voice_play v11262.wav
+
+line_set 「じゃ、そういうことで」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+nvl_on
+
+line_set かずさはサラリと言うと、命と廊下の向こうに走り出していた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「はぁ？」
+line_set 「秘密で済むか！どうすんだこれ！！」
+
+name_set かずさ
+
+voice_play v11263.wav
+
+line_set 「音と煙だけだから大丈夫だよ～」
+
+voice_play v11264.wav
+
+line_set 「後でちゃんと掃除するから、ご心配なく～」
+
+nvl_on
+
+line_set 走りながらかずさが大声で言い、二人は廊下の角に消えた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ご心配なくと言ってもな…」
+
+kgd_layer3_set 0 KI001.KGD 
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 霧島
+
+voice_play v11265.wav
+
+line_set 「所長、これは小麦粉でちゅよ」
+
+nvl_on
+
+line_set 壁に付いた煙を撫で、霧島が呟いた。
+
+adv_on
+
+name_set 霧島
+
+voice_play v11266.wav
+
+line_set 「毒物じゃなくてよかったでちゅ」
+
+name_set 貴広
+
+line_set 「そりゃそうだが…」
+line_set 「最近は命も大人しくなって、静かだったのに」
+line_set 「はぁ…俺はもう一眠りさせてもらうよ」
+
+kgd_layer3_set 3 KI013.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v11267.wav
+
+line_set 「あ、はい、お疲れ様でちゅ」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG027.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+nvl_on
+
+line_set 自室に戻った貴広は、ガウンをソファーに投げ捨て、ベッドへ潜り込んだ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「やれやれ…」
+line_set 「ぐ～……」
+
+sfx_set 0 SE054.WAV 
+sfx_play 0 0
+sfx_set 0 SE011.WAV 
+sfx_play 0 0
+
+kgd_layer1_fx 4
+
+name_clear
+
+line_set ドカァァァァァァァァァン！！！！！！！！
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「んなぁ！？　またか！？」
+
+kgd_layer1_set 1 BG004.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+kgd_layer3_set 3 KI010.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 貴広
+
+line_set 「今度はどこだ？！」
+
+name_set 霧島
+
+voice_play v11268.wav
+
+line_set 「社員寮区みたいでちゅ」
+
+name_set 貴広
+
+line_set 「まったく…」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG004.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer1_set 1 DC028.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+
+kgd_layer3_set 3 RI022.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set リニア
+
+voice_play v11269.wav
+
+line_set 「ケホケホ…」
+
+kgd_layer3_set 3 KA009.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11270.wav
+
+line_set 「コホコホ…」
+
+kgd_layer3_set 3 MI010.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v11271.wav
+
+line_set 「ケヘケヘ…」
+
+nvl_on
+
+line_set 貴広達が現場に到着すると、真っ白な煙の中からリニアとかずさと命が咳き込みながら出てきた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「また、お前達か…」
+
+name_set 命
+
+voice_play v11272.wav
+
+line_set 「あ、貴広」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+name_set 貴広
+
+line_set 「あ、こら、どこへ…」
+
+nvl_on
+
+line_set 命は貴広と目が合うと、頬を赤くしながら走り去ってしまった。
+
+adv_on
+
+kgd_layer3_set 0 KA009.KGD 
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set かずさ
+
+voice_play v11273.wav
+
+line_set 「はふ～、なんで爆発するかな～？」
+
+name_set 貴広
+
+line_set 「こら」
+
+kgd_layer3_set 3 KA001.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11274.wav
+
+line_set 「あ、旦那」
+
+name_set 貴広
+
+line_set 「さっきからお前達は、なにをやってるんだ」
+
+kgd_layer3_set 3 KA007.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11275.wav
+
+line_set 「今度はリニアちゃんの所で、お好み焼きを作ろうとしてたんだけど」
+
+voice_play v11276.wav
+
+line_set 「どうして爆発するかな～？」
+
+name_set 貴広
+
+line_set 「なんで急に、お好み焼きなんか作ろうとしてるんだ？」
+line_set 「それも命と一緒に…」
+
+kgd_layer3_set 3 RI001.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set リニア
+
+voice_play v11277.wav
+
+line_set 「それはですね、命さんがお好み焼きの作り方を教えてくださいって、いらっしゃいまして…」
+
+kgd_layer3_set 3 KA009.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11278.wav
+
+line_set 「リニアちゃん、それは内緒って言われたでしょ」
+
+kgd_layer3_set 3 RI007.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set リニア
+
+voice_play v11279.wav
+
+line_set 「ああ！！そうでした！！」
+
+voice_play v11280.wav
+
+line_set 「ごめんなさい、命さん！！！」
+
+voice_play v11281.wav
+
+line_set 「…あれ？命さんは？」
+
+name_set 貴広
+
+line_set 「さっき、向こうに行ってしまったぞ」
+
+name_set リニア
+
+voice_play v11282.wav
+
+line_set 「あわわわ！！内緒の話をしゃべってしまったからですか？！」
+
+name_set 貴広
+
+line_set 「それより前だから、違うと思うがな」
+line_set 「なんで命が、お好み焼きの作り方なんかを？」
+
+kgd_layer3_set 3 KA011.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11283.wav
+
+line_set 「んも～、相変わらず旦那は鈍いな～」
+
+voice_play v11284.wav
+
+line_set 「旦那の為に決まってるじゃん♪」
+
+name_set 貴広
+
+line_set 「俺のため？」
+
+name_set かずさ
+
+voice_play v11285.wav
+
+line_set 「そりゃあ、あの年頃の女の子は、好きな人に色々してあげたくなるでしょう？」
+
+name_set 貴広
+
+line_set 「俺に？命が？」
+line_set 「……そうか…」
+
+name_set かずさ
+
+voice_play v11286.wav
+
+line_set 「おや？　旦那、顔がにやけてますぞ？」
+
+voice_play v11287.wav
+
+line_set 「うれしい？」
+
+name_set 貴広
+
+line_set 「そ、そんなことはない！」
+line_set 「それより、なんで爆発するんだ？」
+
+kgd_layer3_set 3 KA007.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11288.wav
+
+line_set 「う～ん、なんでだろうね？リニアちゃん」
+
+kgd_layer3_set 3 RI015.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set リニア
+
+voice_play v11289.wav
+
+line_set 「はい、そうですね…」
+
+voice_play v11290.wav
+
+line_set 「かずささんや私が作ってお見せして、いざ命さんが作ると、ボッカーンって爆発したんですよ」
+
+name_set 貴広
+
+line_set 「なんで？！」
+
+kgd_layer3_set 3 KA007.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set かずさ
+
+voice_play v11291.wav
+
+line_set 「さあ？」
+
+name_set 貴広
+
+line_set 「ふむ…」
+
+nvl_on
+
+line_set 「それでさっき俺と目があって、恥ずかしくて逃げ出したのか？」
+
+adv_on
+
+kgd_layer3_set 3 KI009.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v11292.wav
+
+line_set 「さ、リニアちゃんは自分の部屋を、かずさちゃんは厨房の掃除をお願いしまちゅ」
+
+voice_play v11293.wav
+
+line_set 「所長は、命ちゃんを探してきてくだちゃい」
+
+name_set 貴広
+
+line_set 「へ？俺が！？」
+
+kgd_layer3_set 3 KI008.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v11294.wav
+
+line_set 「さっさと行ってくるでちゅ」
+
+sfx_set 0 SE045.WAV 
+sfx_play 0 0
+
+name_clear
+
+line_set ペチーンッ！
+sfx_stop 0
+sfx_unset 0
+
+name_set 貴広
+
+line_set 「いてっ！！」
+line_set 「頭かと思ったら、尻かよ！！」
+
+name_set 霧島
+
+voice_play v11295.wav
+
+line_set 「ほら、行った行ったでちゅ」
+
+name_set 貴広
+
+line_set 「なんだよ、もう…ブツブツ…」
+
+nvl_on
+
+line_set 貴広は、バインダーでひっぱたかれた尻をさすりながら、命を探して歩き出した。
+
+adv_on
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+music_play_moekan 020.WAV
+
+
+kgd_layer1_set 0 BG048.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「やっぱりここだったか」
+
+kgd_layer3_set 3 MI010.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v11296.wav
+
+line_set 「貴広…」
+
+name_set 貴広
+
+line_set 「どうした？元気ないぞ？」
+
+kgd_layer3_set 3 MI007.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v11297.wav
+
+line_set 「え…うん…」
+
+name_set 貴広
+
+line_set 「俺にお好み焼きを作ってくれるんだろ？」
+
+kgd_layer3_set 3 MI010.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v11298.wav
+
+line_set 「あやや！！聞いちゃったの！？」
+
+voice_play v11299.wav
+
+line_set 「内緒にしといてって言ったのに～」
+
+name_set 貴広
+
+line_set 「怒るな怒るな、アイツらにウソをつけってのが、無理な話だよ」
+line_set 「で？お好み焼きは作ってくれないのか？」
+
+name_set 命
+
+voice_play v11300.wav
+
+line_set 「だって…失敗ばっかりなんだもん…」
+
+name_set 貴広
+
+line_set 「諦めるのか？」
+
+kgd_layer3_set 3 MI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v11301.wav
+
+line_set 「……うん…」
+
+nvl_on
+
+line_set 命は肩を落とし、ションボリと俯いてしまった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「あーー！お腹減ったなあ！！」
+
+kgd_layer3_set 3 MI003.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v11302.wav
+
+line_set 「え？！」
+
+nvl_on
+
+line_set 貴広は、突然あさっての方向を向いて叫んだ。
+line_set 命はビックリして目をまん丸にした。
+
+adv_on
+
+name_set 貴広
+
+line_set 「お好み焼きが食べたいなー！」
+line_set 「どんなのでもいいから！！」
+
+name_set 命
+
+voice_play v11303.wav
+
+line_set 「た、貴広？」
+
+name_set 貴広
+
+line_set 「う～む、俺は今、無性にお好み焼きが食べたくなったぞ」
+line_set 「どんなのでもいいから、食べたいな～」
+line_set 「なあ？命」
+
+kgd_layer3_set 3 MI002.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v11304.wav
+
+line_set 「え、あ…うん！わかった！！」
+
+voice_play v11305.wav
+
+line_set 「待ってて貴広！美味しいお好み焼きを作ってあげる！！」
+
+name_set 貴広
+
+line_set 「よし！待ってるぞ」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG031.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 3 KI013.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+nvl_on
+
+line_set そして命はかずさ指導の元、再びお好み焼き作りにかかった。
+line_set 貴広と霧島は、食堂で完成を待つこととなった。
+
+adv_on
+
+name_set 霧島
+
+voice_play v11306.wav
+
+line_set 「で、再度挑戦でちゅか…？」
+
+name_set 貴広
+
+line_set 「まあな、あそこまでがんばってるのを、無下にはできんだろう？」
+
+name_set 霧島
+
+voice_play v11307.wav
+
+line_set 「まあ、そうでちゅが…」
+
+sfx_set 0 SE054.WAV 
+sfx_play 0 0
+sfx_set 0 SE011.WAV 
+sfx_play 0 0
+
+kgd_layer1_fx 4
+
+name_clear
+
+line_set ドゴオォォォォォォォォォン！！！！！！！
+sfx_stop 0
+sfx_unset 0
+line_set ドカーーーーーーーーーーン！！！！！！！
+
+kgd_layer3_set 3 KI006.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 霧島
+
+voice_play v11308.wav
+
+line_set 「料理というか…化学実験みたいでちゅね…」
+
+voice_play v11309.wav
+
+line_set 「いったい、どんなのが出てくるんでちょう…ちょっと不安でちゅ…」
+
+name_set 貴広
+
+line_set 「は、ははは…」
+
+nvl_on
+
+line_set 霧島は顔を青くして、貴広は乾いた笑いを上げる。
+line_set そこへ真っ白な厨房から命が飛び出してきた。
+
+adv_on
+
+kgd_layer1_set 1 20402
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 命
+
+voice_play v11310.wav
+
+line_set 「できたーー！！！」
+
+name_set 貴広
+
+line_set 「お！そーかそーか！！」
+
+nvl_on
+
+line_set 貴広に撫でられる命は、そこら中に小麦粉を付けて、嬉しそうに笑った。
+line_set 手にはお皿に載せたお好み焼きを持っている。
+
+adv_on
+
+name_set 命
+
+voice_play v11311.wav
+
+line_set 「食べて食べて！！」
+
+name_set 貴広
+
+line_set 「うむ、いただきます」
+line_set 「ぱく…」
+
+name_set 霧島
+
+voice_play v11312.wav
+
+line_set 「いただきまちゅ」
+
+voice_play v11313.wav
+
+line_set 「あむ…」
+
+name_set 貴広
+
+line_set 「！」
+
+name_set 霧島
+
+voice_play v11314.wav
+
+line_set 「！！」
+
+nvl_on
+
+line_set ネットリと広がる生煮えの具。
+line_set 苦み走った、焦げたベーコン。
+line_set 弾ける小麦粉の固まり。
+line_set 大量の紅ショウガ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「うぐ…」
+
+name_set 命
+
+line_set 「…」
+
+nvl_on
+
+line_set 絶句する貴広を、命はキラキラと期待に満ちた目で見つめる。
+line_set 貴広は気合いを入れて、お好み焼き…のようなモノ…を飲み込んだ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「んぐ…美味しいぞ！」
+
+name_set 命
+
+voice_play v11315.wav
+
+line_set 「やったーーーー！！」
+
+voice_play v11316.wav
+
+line_set 「どんどん食べてね？たくさんあるから！！」
+
+name_set 貴広
+
+line_set 「おう！」
+
+nvl_on
+
+line_set ガツガツと食べる貴広を見て、命は嬉しそうに跳ねまわる。
+
+adv_on
+
+name_set 霧島
+
+voice_play v11317.wav
+
+line_set 「ん…ごぐん……はぁ…はぁ…」
+
+nvl_on
+
+line_set ようやく一口飲み込んだ霧島が、隣で息をついて貴広を見た。
+
+adv_on
+
+name_set 霧島
+
+voice_play v11318.wav
+
+line_set 「所長……」
+
+name_set 貴広
+
+line_set 「良くできてるじゃないか」
+line_set 「これだけ頑張りが詰まってるんだ、食べれる食べれる」
+
+name_set 霧島
+
+voice_play v11319.wav
+
+line_set 「所長みたいのを、何て言うか知ってまちゅ？」
+
+name_set 貴広
+
+line_set 「なんて？」
+
+nvl_on
+
+line_set 引きつった笑顔の霧島が小声で呟く。
+
+adv_on
+
+name_set 霧島
+
+voice_play v11320.wav
+
+line_set 「親バカ」
+
+name_set 貴広
+
+line_set 「う…」
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 結局、貴広はぶっ倒れるまでに、３０枚のお好み焼き…のようなモノを平らげたのだった。
+
+adv_on
+
+sfx_set 0 SE001.WAV 
+sfx_play 0 0
+
+music_stop2
+
+wait 2000
+wait 2000

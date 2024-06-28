@@ -1,0 +1,2152 @@
+story_progress 359
+
+kgd_layer1_set 0 W1223.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+wait 2000
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1223.KGD
+name_clear
+
+line_set チュン…チュン……
+
+name_set 貴広
+
+line_set 「う…む…」
+
+line_set 「ん？…ここは…？」
+line_set 「あ、病室だったな…」
+kgd_layer1_set 0 BG051.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 016.WAV
+
+name_set 貴広
+
+line_set 「はふ～…」
+
+nvl_on
+
+line_set 貴広は起き抜けにため息にも似た欠伸をした。
+
+line_set 昨日は大きく欠伸をして痛い思いをしたから、無意識に押さえて変な欠伸になった。
+adv_on
+
+name_set 貴広
+
+line_set 「さて…」
+
+sfx_set 0 SE014.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set コンコン…
+
+sfx_stop 0
+
+sfx_unset 0
+nvl_on
+
+line_set 貴広が朝の一服をしようと煙草に手を伸ばした時、ドアが静かにノックされた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「入れ」
+
+kgd_layer3_set 0 KI020.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 霧島
+
+voice_play 40442.wav
+
+line_set 「あ、起きてまちたか」
+
+name_set 貴広
+
+line_set 「ああ、ちょっと前にな」
+
+name_set 霧島
+
+voice_play 40443.wav
+
+line_set 「お食事をお持ちしまちた」
+
+name_set 貴広
+
+line_set 「丁度良かった」
+
+nvl_on
+
+line_set 霧島がテキパキと食事を並べる。
+
+line_set 貴広は食べなれていたはずの食事をほおばった。
+line_set やはりそれはあまり美味しく感じることはできなかった。
+adv_on
+
+name_set 霧島
+
+voice_play 40444.wav
+
+line_set 「では食事がお済みになるころ参りまちゅ」
+
+name_set 貴広
+
+line_set 「ああ」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+name_set 貴広
+
+line_set 「………」
+
+nvl_on
+
+line_set 霧島が部屋を出た後、貴広の箸の進みは突如遅くなった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「ふぅ…味覚というものは変わるものだな…」
+
+line_set 「なんでこんなに不味く感じるのだ…？」
+nvl_on
+
+line_set 貴広はレトルトのボイルポテトを箸でつつきながら呟いた。
+
+line_set 一時間後、食器を下げに霧島が来たが、料理はほとんど残っていた。
+adv_on
+
+kgd_layer3_set 0 KI021.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 霧島
+
+line_set 「………」
+
+voice_play 40446.wav
+
+line_set 「所長…栄養を取らないと治りまちぇんよ」
+
+name_set 貴広
+
+line_set 「え、ああ…分かってはいるんだがな…」
+
+line_set 「すまん…」
+name_set 霧島
+
+voice_play 40447.wav
+
+line_set 「分かって頂いてるのであればよろしいのでちゅが…」
+
+voice_play 40448.wav
+
+line_set 「では、失礼いたちまちゅ」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+nvl_on
+
+line_set 霧島が食器をカートに乗せて、病室を出ていった。
+
+line_set 貴広はベッドに横になり、ため息をついた。
+adv_on
+
+name_set 貴広
+
+line_set 「ふう…このまま寝ていたらずっと病人扱いだな」
+
+line_set 「リハビリがてら少し動くか…」
+nvl_on
+
+line_set 貴広はベッドに腰掛け、松葉杖を使って立ち上がると廊下へ出た。
+
+adv_on
+
+kgd_layer1_set 1 BG004.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「さて…どこいくかな？」
+
+jump_choice 0 ヘリポート
+
+jump_choice 1 食堂
+jump_choice 2 中庭
+choice_dialog_end
+
+@0
+
+story_progress 360
+
+name_set 貴広
+
+line_set 「おっさんの顔でも見てくるかな…」
+
+line_set 「いや、やめよう…こんな格好で行ったら、情けねぇとか怒鳴られちまうな」
+line_set 「やめやめ」
+line_set 「…」
+line_set 「中庭でも行って一服するか…」
+jump_auto 3
+
+@1
+
+story_progress 361
+
+name_set 貴広
+
+line_set 「食堂でものぞくか…」
+
+kgd_layer1_set 1 BG031.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 食堂には誰もいなかった。
+
+line_set ついでに厨房を覗く貴広。
+line_set 厨房にも誰の姿もなかった。
+adv_on
+
+kgd_layer1_set 1 BG011.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「……」
+
+line_set 「誰かいたような…」
+line_set 「…」
+line_set 「中庭で一服するか…」
+jump_auto 4
+
+@2
+
+story_progress 362
+
+name_set 貴広
+
+line_set 「中庭で一服するか…」
+
+jump_auto 5
+
+@3
+
+@4
+
+@5
+
+story_progress 363
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG048.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+name_set 貴広
+
+line_set 「ふ～…」
+
+nvl_on
+
+line_set 中庭に下りた貴広は煙草に火を着け、紫煙を吐きだした。
+
+adv_on
+
+name_set 貴広
+
+line_set 「さて…今日は丘の上が気持ちよさそうだな…」
+
+kgd_layer1_set 1 BG045.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 貴広は中庭を抜けて丘を登り始めた。
+
+line_set 心地よい海風が丘を越えて頬を撫でていく。
+adv_on
+
+kgd_layer1_fx 9
+
+nvl_on
+
+line_set 「あ！　旦那。この緑の中で煙草を吸うなんて、なんと情緒のない行為を！！」
+
+adv_on
+
+kgd_layer1_fx 9
+
+name_set 貴広
+
+line_set 「ははは…」
+
+line_set 「…」
+line_set 「？」
+line_set 「なんで俺、笑ってんだ？」
+nvl_on
+
+line_set 貴広は丘を上がりながら頭をポリポリと掻いた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set 貴広は丘の上から屋敷を眺める。
+
+line_set 心地よいのに、心のどこかに何かが引っ掛かった感じは取れなかった。
+nvl_line_clear
+
+line_set 「なんなのだろう…昨日からのこの感じ…」
+
+adv_on
+
+sfx_set 0 SE081.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set チリン…
+
+sfx_stop 0
+
+sfx_unset 0
+name_set 貴広
+
+line_set 「ん？」
+
+nvl_on
+
+line_set 鈴の音に貴広は辺りを見回した。
+
+line_set 貴広の目に木の根本に添えられた白菊が入った。
+line_set そこは井上の墓であり、白菊はかずさが添えたものだった。
+adv_on
+
+music_play_moekan 017.WAV
+
+name_set 貴広
+
+line_set 「たしかあれは…」
+
+line_set 「井上の墓だよな…」
+line_set 「井上…」
+sfx_set 0 SE081.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set チリン…
+
+sfx_stop 0
+
+sfx_unset 0
+name_set 貴広
+
+line_set 「……」
+
+line_set 「…」
+line_set 「か……」
+line_set 「ず…さ…」
+line_set 「か…ず…さ…」
+line_set 「かずさ！！」
+nvl_on
+
+line_set 「ばう！」
+
+adv_on
+
+name_set 貴広
+
+line_set 「そうだ！　そうだよな！井上先生！！」
+
+line_set 「かずさだ！！」
+line_set 「かずさはどこ行ったんだ！？」
+nvl_on
+
+line_set 貴広はそう叫ぶと転がるように屋敷へ走っていった。
+
+adv_on
+
+kgd_layer1_set 1 BG031.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer1_set 1 BG011.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 貴広が厨房へ入るとメイドが一人いた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「かずさ？」
+
+name_set リニア
+
+voice_play 54100.wav
+
+line_set 「はい？」
+
+kgd_layer3_set 0 RI015.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+nvl_on
+
+line_set 振り返ったのはリニアだった。
+
+adv_on
+
+kgd_layer3_set 3 RI014.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 54101.wav
+
+line_set 「なにかご用ですか？」
+
+name_set 貴広
+
+line_set 「かずさはいないか…？」
+
+kgd_layer3_set 3 RI015.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 54102.wav
+
+line_set 「かずささん…て、どなたですか？」
+
+name_set 貴広
+
+line_set 「なに？」
+
+line_set 「おまえ、メモリーまでおかしくなったか？」
+kgd_layer3_set 3 RI012.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set リニア
+
+voice_play 54103.wav
+
+line_set 「かずささん…かずささん…」
+
+voice_play 54104.wav
+
+line_set 「メモリーにありません…」
+
+name_set 貴広
+
+line_set 「まったく…」
+
+kgd_layer3_set 3 KI013.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40449.wav
+
+line_set 「どうかちまちたか？」
+
+name_set 貴広
+
+line_set 「コイツをどうにかしてくれ」
+
+line_set 「メモリーまでおかしくなっちまった」
+name_set 霧島
+
+voice_play 40450.wav
+
+line_set 「どういうことでちゅか？」
+
+name_set 貴広
+
+line_set 「コイツ、かずさを忘れちまったみたいだ」
+
+name_set 霧島
+
+voice_play 40451.wav
+
+line_set 「かずさ？　誰でちゅか？」
+
+name_set 貴広
+
+line_set 「おいおい、霧島までなに言ってるんだ？」
+
+line_set 「かずさだよ」
+line_set 「あの大騒ぎしてた！」
+kgd_layer3_set 3 KI011.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40452.wav
+
+line_set 「かずさ？　聞き覚えがないでちゅね…」
+
+voice_play 40453.wav
+
+line_set 「名簿を調べてみまちゅ」
+
+name_set 貴広
+
+line_set 「なにを言ってるんだ…」
+
+line_set 「あいつだよ！　でっかいリボンをしてて、ＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳのエンブレムをつけた！！」
+name_set 霧島
+
+voice_play 40454.wav
+
+line_set 「ＡＬＩＣＥ　ＩＮ　ＣＨＡＩＮＳ…」
+
+voice_play 40455.wav
+
+line_set 「ああ、監査メイドと偽って、所長を殺そうとしたメイドでちゅね」
+
+voice_play 40456.wav
+
+line_set 「それは所長が倒ちたのでは？」
+
+name_set 貴広
+
+line_set 「それも朝霧かずさだが、そっちじゃなくてもう一人のかずさだ！」
+
+kgd_layer3_set 3 KI013.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+line_set 「？」
+
+voice_play 40458.wav
+
+line_set 「私には何のことだかわかりかねまちゅが…」
+
+name_set 貴広
+
+line_set 「なんだって…？」
+
+line_set 「名簿を見せてくれ！」
+name_set 霧島
+
+voice_play 40459.wav
+
+line_set 「は、はあ…」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+nvl_on
+
+line_set 貴広は霧島のあとをついて厨房を出た。
+
+adv_on
+
+name_set リニア
+
+voice_play 54105.wav
+
+line_set 「お食事はいいんですか？」
+
+nvl_on
+
+line_set 後ろから叫ぶリニアの声は貴広に聞こえていなかった。
+
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 KI013.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 霧島
+
+voice_play 40460.wav
+
+line_set 「こちらがこの島に来た者も含めた名簿でちゅ」
+
+nvl_on
+
+line_set 机の上に分厚い名簿が置かれる。
+
+line_set 貴広はパラパラとめくり、かずさの名前を探した。
+line_set しかし、朝霧かずさの名前は一つしかなく、それは刺客の朝霧であった。
+adv_on
+
+name_set 霧島
+
+voice_play 40461.wav
+
+line_set 「ありまちたか？」
+
+name_set 貴広
+
+line_set 「…ない」
+
+line_set 「どういうことだ…？」
+nvl_on
+
+line_set 貴広は頭を押さえて椅子に倒れ込んだ。
+
+adv_on
+
+kgd_layer3_set 3 KI011.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40462.wav
+
+line_set 「まだ万全ではない体調でちゅから、もう少ちお休みになった方が良いでちゅ」
+
+nvl_on
+
+line_set 「リニアと霧島はかずさの存在を忘れている」
+
+line_set 「いや、いなかったことになっている」
+line_set 「冗談ではなさそうだ…悪質すぎる」
+line_set 「おばさんやおやじさんは憶えているだろうか？」
+nvl_line_clear
+
+line_set 貴広は立ち上がり、ヘリポートへ向かった。
+
+adv_on
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG012.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+name_set 貴広
+
+line_set 「おやじさん！！」
+
+kgd_layer3_set 0 SO029.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set おやじさん
+
+voice_play v09504.wav
+line_set 「おお、貴広じゃねぇか」
+
+voice_play v09505.wav
+line_set 「今回は大変だったな」
+voice_play v09506.wav
+line_set 「しかし、包帯ぐるぐる巻きの野郎ってのは情けないな」
+name_set 貴広
+
+line_set 「そんなことよりおやじさん、かずさを知ってるか！？」
+
+kgd_layer3_set 3 SO018.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09507.wav
+line_set 「かずさ？　誰だそれは？」
+
+name_set 貴広
+
+line_set 「一緒に将棋やってただろう？」
+
+name_set おやじさん
+
+voice_play v09508.wav
+line_set 「将棋はいつも一人でやってるぞ」
+
+voice_play v09509.wav
+line_set 「早くお前もルールを憶えやがれ」
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set 「だめだ…おやじさんの記憶もかずさはいなかったことになっている…」
+
+adv_on
+
+kgd_layer3_set 3 SO028.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09510.wav
+line_set 「どうした？」
+
+name_set 貴広
+
+line_set 「い、いや…なんでもない」
+
+line_set 「また来る…」
+name_set おやじさん
+
+voice_play v09511.wav
+line_set 「？」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_set 1 BG010.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「くそっ！」
+
+line_set 「おばさんに聞いてみよう」
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+line_set 貴広は痛む身体を押して、灯台へ向かった。
+
+adv_on
+
+kgd_layer1_set 0 BG042.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+name_set 貴広
+
+line_set 「おばさんいるか！？」
+
+name_set おばさん
+
+line_set 「どうしたんだい？大きな声出して」
+
+kgd_layer3_set 0 SO019.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 貴広
+
+line_set 「おばさんは、かずさのことを憶えてるよな！？」
+
+name_set おばさん
+
+line_set 「え？」
+
+line_set 「誰だって？」
+name_set 貴広
+
+line_set 「かずさだよ！！　かずさ！！」
+
+name_set おばさん
+
+line_set 「かずさ…」
+
+line_set 「悪いけど、記憶にないねぇ…」
+name_set 貴広
+
+line_set 「！！」
+
+name_set おばさん
+
+line_set 「…」
+
+line_set 「…好きだったのかい？」
+name_set 貴広
+
+line_set 「…好き？」
+
+name_set おばさん
+
+line_set 「そこまで必死になれるのなら、好きだったんだろ？」
+
+name_set 貴広
+
+line_set 「…わからない…ただ、みんなが忘れてしまって…
+
+line_set 「それがわからなくて…」
+line_set 「好きとか、そんなんじゃない…」
+name_set おばさん
+
+line_set 「そんなになっても、意地っ張りだね貴広は…」
+
+line_set 「もっと素直になりな！」
+name_set 貴広
+
+line_set 「俺は…」
+
+line_set 「俺は二度と人を愛さないと思っていた…」
+line_set 「愛してはいけないと思っていた…」
+line_set 「こんな俺が…」
+name_set おばさん
+
+line_set 「貴広は充分苦しんだ…」
+
+line_set 「いつまでも苦しんでいるわけにもいかないだろ」
+line_set 「その娘はそんな貴広を愛してくれたんだろ…」
+name_set 貴広
+
+line_set 「…おばさん…」
+
+music_play_moekan 003.WAV
+
+name_set おばさん
+
+line_set 「さ、そのかずさって娘を見つけておいで」
+
+line_set 「見つけたら二度と放すんじゃないよ」
+name_set 貴広
+
+line_set 「ああ」
+
+nvl_on
+
+line_set 貴広は力強く立ち上がり灯台を後にした。
+
+line_set 貴広は屋敷に向かって走り出した。
+line_set そして図書室へ駆け込んだ。
+adv_on
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG019.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer1_set 1 BG016.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「ニホンニア、いや、昔の日本の山に関する本はどこだ…」
+
+line_set 「どこだ…」
+nvl_on
+
+line_set 貴広は図書室の本棚の森を、本を探して奔走する。
+
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+wait 1000
+
+kgd_layer1_set 0 BG019.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+name_set 貴広
+
+line_set 「はぁ…はぁ…はぁ…」
+
+nvl_on
+
+line_set 長机の席で息を整える貴広。
+
+line_set 傷口がズキズキと痛んだが、貴広は気にしなかった。
+line_set 机の上に５０冊程の本が積まれている。
+nvl_line_clear
+
+line_set 貴広は次々と本に目を通し、目当ての洞窟のある山を探した。
+
+adv_on
+
+name_set 貴広
+
+line_set 「くそっ！…ない」
+
+line_set 「本に載らないくらいの山なのか…」
+line_set 「…」
+line_set 「あった…」
+nvl_on
+
+line_set 諦めかけた貴広の目に探していた山の名前が入った。
+
+line_set 本の端に小さく写真と名前が載っていた。
+adv_on
+
+name_set 貴広
+
+line_set 「どこだ…ふむふむ…」
+
+nvl_on
+
+line_set 貴広はメモをとって、所長室へ向かった。
+
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG023.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+nvl_on
+
+line_set 所長室に着いた貴広は内線電話でヘリポートへかけた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おやじさんか？」
+
+line_set 「至急ヘリを一台出せるようにしておいてくれ」
+line_set 「ああ至急だ」
+line_set 「ニホンニアへ向かう」
+line_set 「よろしく頼む」
+nvl_on
+
+line_set 受話器を置き振り返ると霧島が立っていた。
+
+adv_on
+
+kgd_layer3_set 0 KI001.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 霧島
+
+voice_play 40463.wav
+
+line_set 「どちらへ行くつもりでちゅか…？」
+
+name_set 貴広
+
+line_set 「霧島…」
+
+line_set 「なに、ちょっとな…」
+name_set 霧島
+
+voice_play 40464.wav
+
+line_set 「無断で島を出ることは禁止されてまちゅよ…」
+
+name_set 貴広
+
+line_set 「すまん…」
+
+line_set 「しかし、いま動かねばならないんだ」
+line_set 「そんな気がする」
+name_set 霧島
+
+line_set 「…」
+
+name_set 貴広
+
+line_set 「…」
+
+kgd_layer3_set 3 KI009.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40466.wav
+
+line_set 「はぁ…わかりまちた」
+
+voice_play 40467.wav
+
+line_set 「こちらでどうにかしておきまちゅ」
+
+name_set 貴広
+
+line_set 「いつも、すまんな」
+
+kgd_layer3_set 3 KI012.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40468.wav
+
+line_set 「いつものことでちゅからね」
+
+voice_play 40469.wav
+
+line_set 「そんなことはいいから、早く行ってくるでちゅ」
+
+nvl_on
+
+line_set そう言いながら霧島は貴広の背中を叩く。
+
+adv_on
+
+name_set 霧島
+
+voice_play 40470.wav
+
+line_set 「ただし、絶対に帰ってきてくだちゃい」
+
+name_set 貴広
+
+line_set 「ああ、わかった」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG012.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+nvl_on
+
+line_set ヘリポートではすでにヘリコプターが発進準備を済ませて待機していた。
+
+adv_on
+
+kgd_layer3_set 0 SO026.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set おやじさん
+voice_play v09519.wav
+line_set 「遅いぞ貴広！！　こっちは準備万端だ！！」
+
+nvl_on
+
+line_set 騒音に混じっておやじさんの声が響く。
+
+adv_on
+
+name_set 貴広
+
+line_set 「すまん」
+
+line_set 「じゃあ、行ってくる」
+kgd_layer3_set 3 KI001.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40471.wav
+
+line_set 「お気を付けて」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+sfx_set 0 SE005.WAV
+
+sfx_loop 0
+kgd_layer1_solidcolor -1 255
+
+kgd_layer1_fx 2
+kgd_layer1_clear 0
+nvl_on
+
+line_set ヘリは貴広を乗せて飛び立った。
+
+line_set 行き先はニホンニア、日本、そしてかずさに向かって。
+adv_on
+
+sfx_stop 0
+
+sfx_unset 0
+wait 1000
+
+kgd_layer1_set 0 BG072.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 3
+kgd_layer1_solidcolor 0 0
+nvl_on
+
+line_set 貴広は車の中で大金を払って手に入れた地図を広げる。
+
+line_set ジーザスアンドメリーチェインと呼ばれる大災害によって、日本の地形も大きく変わってしまった。
+line_set それ以前に、萌えっ娘カンパニーの買収によって日本はニホンニアとなっていた。
+line_set しかし、街中を歩く人々に違いは見えなかった。
+line_set それぞれが平和なこの地をにこやかに歩いていた。
+adv_on
+
+name_set 貴広
+
+line_set 「ニホンニアの街並みも十年で復興したな…」
+
+nvl_on
+
+line_set 貴広は車の中からニホンニアの首都の街並みをみつめ、呟いた。
+
+line_set 貴広にとって騒々しい街並みはどこか虚像のようで、現実感がなかった。
+line_set このテレビ画面のような世界の裏側には、貴広の知る黒く血生臭い世界が広がっている。
+adv_on
+
+name_set 貴広
+
+line_set 「ここは俺のいる場所ではない…」
+
+nvl_on
+
+line_set 地図に目を落とし、かずさの言っていた山を探す。
+
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+line_set 貴広はアクセルを踏み込み、街を抜けて山へ向かって車を走らせた。
+
+line_set 地図で金を取られ、格安でレンタルした車は咳き込むようなエンジン音を鳴らしながら道を進む。
+line_set 太陽が中天を越えたあたりで、貴広は白髪山に着き、足を踏み入れた。
+adv_on
+
+kgd_layer1_set 0 BG035.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+nvl_on
+
+line_set 白髪山は騒々しかったが、街中のようないやな騒々しさではなく、蝉や鳥の声で騒がしかった。
+
+line_set その騒がしさも気持ちいい。
+line_set 暫くすると、その騒がしさも気にならなくなった。
+adv_on
+
+name_set 貴広
+
+line_set 「ふぅ…かずさの言っていた洞窟というのはあれか…？」
+
+nvl_on
+
+line_set 木々の間から岸壁に面した洞窟の入り口を見つけた。
+
+line_set 貴広は洞窟に繋がる道に小さな足跡を見つけた。
+adv_on
+
+name_set 貴広
+
+line_set 「ここか…」
+
+nvl_on
+
+line_set 貴広は足下に気を付けながら洞窟へ入っていった。
+
+adv_on
+
+kgd_layer1_set 1 BG038.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 018.WAV
+
+name_set 貴広
+
+line_set 「かずさ！」
+
+nvl_on
+
+line_set 薄暗い洞窟内に貴広の声が空しく響く。
+
+line_set 一歩踏み込み、もう一度叫んだ。
+adv_on
+
+name_set 貴広
+
+line_set 「かずさ！！　いるのか！？」
+
+nvl_on
+
+line_set 無音。
+
+nvl_line_clear
+
+line_set しかし、気配はあった。
+
+line_set 貴広の知っている気配。
+adv_on
+
+name_set 貴広
+
+line_set 「奥か…」
+
+nvl_on
+
+line_set 貴広は洞窟の奥へ進んでいった。
+
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+line_set 洞窟の半ばまで到達する。
+
+line_set 入り口から射し込む陽射しが遠く感じる。
+line_set 奥に進むにつれて外の光は届かなくなり、闇が支配していく。
+line_set 手探りで進み行く貴広。
+line_set すでに自分の手すら確認できないほどの闇となった。
+line_set しかし、貴広は何も感じなかった。
+line_set それが当然のようだった。
+adv_on
+
+name_set 貴広
+
+line_set 「かずさ…」
+
+nvl_on
+
+line_set 「……」
+
+voice_play 31327.wav
+
+line_set 「…旦那？」
+
+nvl_line_clear
+
+line_set かずさの声が貴広に聞こえた。
+
+line_set いや、感じられた。
+adv_on
+
+name_set 貴広
+
+line_set 「戻ってこい、かずさ…」
+
+nvl_on
+
+voice_play 31328.wav
+
+line_set 「帰れないよ…」
+
+voice_play 31329.wav
+
+line_set 「私の所為でみんなに迷惑かけちゃったし…」
+
+voice_play 31330.wav
+
+line_set 「なんの役にも立てなかった…」
+
+voice_play 31331.wav
+
+line_set 「全部私の勘違いで…」
+
+voice_play 31332.wav
+
+line_set 「やっぱり私は表に出ちゃいけなかったんだ…」
+
+voice_play 31333.wav
+
+line_set 「ここで死ぬべきだったんだよ…」
+
+adv_on
+
+name_set 貴広
+
+line_set 「何を言っているんだ…」
+
+nvl_on
+
+voice_play 31334.wav
+
+line_set 「話をしてあげる…」
+
+adv_on
+
+name_set 貴広
+
+line_set 「何？」
+
+nvl_on
+
+voice_play 31335.wav
+
+line_set 「つまらない…話…」
+
+voice_play 31336.wav
+
+line_set 「でも聞いて欲しい…」
+
+adv_on
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set 暗闇の中でかずさの声がポツリポツリと語る。
+
+nvl_line_clear
+
+voice_play 31337.wav
+
+line_set 「あるところに…」
+
+voice_play 31338.wav
+
+line_set 「あるところに一匹の猫がいました…」
+
+voice_play 31339.wav
+
+line_set 「その猫は名前もなく…」
+
+voice_play 31340.wav
+
+line_set 「山の中の洞窟で４匹の子猫のうちの一匹として生まれました」
+
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 246
+
+kgd_layer1_set 0 N206.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+nvl_on
+
+voice_play 31341.wav
+
+line_set 「子猫は母親の加護のもとスクスクと育ちました」
+
+voice_play 31342.wav
+
+line_set 「春には蝶と戯れ」
+
+voice_play 31343.wav
+
+line_set 「夏に草原をかけめぐり」
+
+voice_play 31344.wav
+
+line_set 「秋に枯葉で兄弟と遊び」
+
+voice_play 31345.wav
+
+line_set 「冬は暖かい母親の胸で眠りました」
+
+nvl_line_clear
+
+line_set 淡々とした話し方であったが、貴広には仲良く遊ぶ４匹の子猫の姿が浮かんだ。
+
+nvl_line_clear
+
+voice_play 31346.wav
+
+line_set 「春、夏、秋と過ぎ、二度目の冬のある日」
+
+voice_play 31347.wav
+
+line_set 「母親が帰ってきませんでした」
+
+voice_play 31348.wav
+
+line_set 「幼い子供達は探すこともできず、洞窟の中で待つことしかできませんでした」
+
+voice_play 31349.wav
+
+line_set 「冬の寒さが子猫達の生きる力を少しずつ奪っていきます」
+
+voice_play 31350.wav
+
+line_set 「一番上の子が言いました」
+
+voice_play 31351.wav
+
+line_set 「お腹いっぱいご飯を食べたかった…」
+
+voice_play 31352.wav
+
+line_set 「そう言って静かに目を閉じました」
+
+voice_play 31353.wav
+
+line_set 「二番目の子が言いました」
+
+voice_play 31354.wav
+
+line_set 「暖かい母さんの胸で寝たかった…」
+
+voice_play 31355.wav
+
+line_set 「そう言って静かに横たわりました」
+
+voice_play 31356.wav
+
+line_set 「三番目の子が言いました」
+
+voice_play 31357.wav
+
+line_set 「もっとお母さんに甘えたかった…」
+
+voice_play 31358.wav
+
+line_set 「そう言って静かに動かなくなりました」
+
+nvl_line_clear
+
+voice_play 31359.wav
+
+line_set 「幼い一番下の子は不思議に思いました」
+
+voice_play 31360.wav
+
+line_set 「いままで一緒に遊んでいた兄弟達が動かなくなっていくことが…」
+
+voice_play 31361.wav
+
+line_set 「そして己の体に力が入らないことが…」
+
+adv_on
+
+gallery_unlock 247
+
+kgd_layer1_set 1 N207.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+voice_play 31362.wav
+
+line_set 「残った一番下の子が目を閉じかけたとき、ヒトの手に拾われました」
+
+voice_play 31363.wav
+
+line_set 「その子猫は助かったと同時に、世界の広さを知りました」
+
+voice_play 31364.wav
+
+line_set 「初めて森の外へ、世界の果てだと思っていた山から出たのです」
+
+nvl_line_clear
+
+voice_play 31365.wav
+
+line_set 「子猫は飼い猫となりました」
+
+voice_play 31366.wav
+
+line_set 「子猫は御主人が大好きでした」
+
+voice_play 31367.wav
+
+line_set 「御主人の膝の上で寝るのが大好きでした」
+
+voice_play 31368.wav
+
+line_set 「御主人の撫でる手が大好きでした」
+
+voice_play 31369.wav
+
+line_set 「御主人の匂いが大好きでした」
+
+nvl_line_clear
+
+voice_play 31370.wav
+
+line_set 「そんなある日、御主人の家がにわかに騒がしくなりました」
+
+voice_play 31371.wav
+
+line_set 「家の中に黒い服を着たヒト達がたくさんやって来ました」
+
+voice_play 31372.wav
+
+line_set 「子猫は怖くて御主人を呼びます」
+
+voice_play 31373.wav
+
+line_set 「御主人は俯いたまま動こうとしません」
+
+voice_play 31374.wav
+
+line_set 「御主人の瞳からこぼれた滴が、子猫の鼻を濡らしました」
+
+voice_play 31375.wav
+
+line_set 「なぜ泣いているの？」
+
+voice_play 31376.wav
+
+line_set 「と、子猫が問います」
+
+voice_play 31377.wav
+
+line_set 「大好きな人が死んでしまったんだ」
+
+voice_play 31378.wav
+
+line_set 「と、御主人が涙を流し、答えました」
+
+voice_play 31379.wav
+
+line_set 「死ぬってなあに？」
+
+voice_play 31380.wav
+
+line_set 「と、再び子猫が問います」
+
+voice_play 31381.wav
+
+line_set 「大好きな人と二度と会えなくなることだよ…」
+
+voice_play 31382.wav
+
+line_set 「と、御主人が答えました」
+
+nvl_line_clear
+
+voice_play 31383.wav
+
+line_set 「子猫の瞳から涙が溢れました」
+
+voice_play 31384.wav
+
+line_set 「大好きな御主人と二度と会えないことを想像したのです」
+
+voice_play 31385.wav
+
+line_set 「想像しただけでも胸が張り裂けそうでした」
+
+voice_play 31386.wav
+
+line_set 「子猫は思いました」
+
+voice_play 31387.wav
+
+line_set 「これが『悲しい』なのだと…」
+
+voice_play 31388.wav
+
+line_set 「その時、子猫は母猫の言葉を思い出しました」
+
+nvl_line_clear
+
+line_set 『私達は永遠の命を得ることができる…』
+
+line_set 『でも、それは死の次に恐ろしいこと…』
+line_set 『永久とは死の次に恐ろしい…』
+line_set 『心しなさい…』
+nvl_line_clear
+
+voice_play 31389.wav
+
+line_set 「まだ幼かった子猫はあまり深く考えず永遠の命がほしいと思いました」
+
+voice_play 31390.wav
+
+line_set 「そうすれば大好きな御主人と永遠に一緒に居られると思いました」
+
+voice_play 31391.wav
+
+line_set 「悲しい思いはしないと思いました」
+
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+voice_play 31392.wav
+
+line_set 「しかし、その時はすぐに来ました…」
+
+voice_play 31393.wav
+
+line_set 「世界が崩壊したかのような轟音と震動…」
+
+voice_play 31394.wav
+
+line_set 「人々の叫びと大火」
+
+voice_play 31395.wav
+
+line_set 「駆け回る台車の土煙と真っ黒な煙」
+
+voice_play 31396.wav
+
+line_set 「崩れた建物と迫る灼熱」
+
+voice_play 31397.wav
+
+line_set 「子猫の大好きな御主人はその中にいました」
+
+voice_play 31398.wav
+
+line_set 「子猫は必死に助けようとしました」
+
+voice_play 31399.wav
+
+line_set 「柱に挟まれた御主人を助けようとしました」
+
+voice_play 31400.wav
+
+line_set 「全身の毛が逆立つほど力を込めて引っ張りました」
+
+voice_play 31401.wav
+
+line_set 「小さな牙が血まみれで抜けても構わず引っ張りました」
+
+voice_play 31402.wav
+
+line_set 「それでも動かせるのは御主人の腕一本だけでした」
+
+nvl_line_clear
+
+line_set かずさの先程までの淡々とした語りに、僅かながら感情の色が浮かぶ。
+
+nvl_line_clear
+
+voice_play 31403.wav
+
+line_set 「子猫は再び母猫の言葉を思い出しました」
+
+nvl_line_clear
+
+line_set 『私達は永遠の命を得ることができる…』
+
+nvl_line_clear
+
+voice_play 31991.wav
+
+line_set 「子猫は永遠の命を手に入れようとしました」
+
+voice_play 31992.wav
+
+line_set 「そうすれば御主人を助けることができると思ったのです」
+
+voice_play 31993.wav
+
+line_set 「子猫は母猫が言っていたことを実行しました」
+
+voice_play 31994.wav
+
+line_set 「その方法とは…」
+
+voice_play 31995.wav
+
+line_set 「己の血とヒトの血が混じり合ったモノを飲み込むことでした…」
+
+voice_play 31996.wav
+
+line_set 「子猫は心を決め、御主人の額を伝う血をペロリと舐めました」
+
+nvl_line_clear
+
+line_set 貴広はゴクリと唾を飲み込んだ。
+
+line_set やたらとその音が耳に付いた。
+nvl_line_clear
+
+voice_play 31404.wav
+
+line_set 「子猫を襲ったのは、激しい昂揚と罪悪感」
+
+voice_play 31405.wav
+
+line_set 「狂おしい絶頂感と後悔」
+
+voice_play 31406.wav
+
+line_set 「絶句するような歓喜と絶望感」
+
+voice_play 31407.wav
+
+line_set 「様々な感情が同時にマグマのように噴き出し、花火のように炸裂してゆきました」
+
+voice_play 31408.wav
+
+line_set 「視界が霞み、風景が歪み、身体中がギシギシと軋みました」
+
+nvl_line_clear
+
+voice_play 31409.wav
+
+line_set 「子猫が気付いたのは建物の外でした」
+
+voice_play 31410.wav
+
+line_set 「御主人が最後の力で子猫を外に放ったのです」
+
+voice_play 31411.wav
+
+line_set 「建物は炎に包まれ、黒い煙を上げていました」
+
+voice_play 31412.wav
+
+line_set 「子猫は永遠の命を手に入れました」
+
+voice_play 31413.wav
+
+line_set 「しかし、子猫に残ったのは罪悪感と後悔と絶望感だけでした」
+
+voice_play 31414.wav
+
+line_set 「大好きな御主人を助けられると思って…」
+
+voice_play 31415.wav
+
+line_set 「大好きな御主人と一緒にいられると思っていた…」
+
+voice_play 31416.wav
+
+line_set 「それは子猫の勘違いにすぎなかったのです…」
+
+voice_play 31417.wav
+
+line_set 「解ったことは己の愚かさと無力」
+
+nvl_line_clear
+
+voice_play 31418.wav
+
+line_set 「…これが愚かな子猫のおとぎばなし…」
+
+voice_play 31419.wav
+
+line_set 「子猫は生にもなれず、死にもなれない…」
+
+voice_play 31420.wav
+
+line_set 「たとえ姿が変わっても…」
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+voice_play 31421.wav
+
+line_set 「私はあの時にこの世から外されたんだ…」
+
+voice_play 31422.wav
+
+line_set 「居場所を自分で投げ出してしまったんだ…」
+
+voice_play 31423.wav
+
+line_set 「それも分からず、人の姿ならどうにかなると思って…」
+
+voice_play 31424.wav
+
+line_set 「私の居場所はどこにもない…」
+
+nvl_line_clear
+
+line_set かずさの声が徐々に遠くなっていく。
+
+adv_on
+
+name_set 貴広
+
+line_set 「待て！！」
+
+nvl_on
+
+line_set 貴広の伸ばした手の先は冷たかった。
+
+nvl_line_clear
+
+line_set 冷たい壁。
+
+nvl_line_clear
+
+line_set 貴広は冷たい壁を叩く。
+
+adv_on
+
+name_set 貴広
+
+line_set 「死んだように生きるだと」
+
+line_set 「かずさ」
+line_set 「俺を絶対守ると言っただろう」
+line_set 「居場所がないというなら」
+line_set 「俺がお前の居場所になってやる」
+line_set 「お前の帰るところは闇じゃない」
+line_set 「ここもお前の居場所じゃない」
+line_set 「俺の所だ」
+line_set 「俺の所へ帰ってこい」
+nvl_on
+
+line_set 「…」
+
+nvl_line_clear
+
+line_set 貴広は闇の中へ精一杯手を伸ばす。
+
+adv_on
+
+name_set 貴広
+
+line_set 「かずさっ！！！」
+
+nvl_on
+
+voice_play 31426.wav
+
+line_set 「ダメだよ…帰れない…」
+
+voice_play 31427.wav
+
+line_set 「もう誰とも会いたくない…」
+
+voice_play 31428.wav
+
+line_set 「みんな、いなくなっちゃう…」
+
+adv_on
+
+name_set 貴広
+
+line_set 「長い間生きてきた、お前の悲しみ」
+
+line_set 「俺には絶対わからないだろう…」
+line_set 「昔の俺だったら気にもしなかった…」
+line_set 「だが、俺はお前を知りたい」
+line_set 「知って少しでもお前の悲しみを癒したい」
+line_set 「死ぬことがあっても、一日でも長く生きてお前を悲しませない死に方をしてやる！！」
+nvl_on
+
+voice_play 31429.wav
+
+line_set 「旦那…」
+
+adv_on
+
+name_set 貴広
+
+line_set 「手を伸ばせ…」
+
+line_set 「帰ってこい…」
+line_set 「みんなの所へ…」
+line_set 「俺の所へ…」
+sfx_set 0 SE081.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set チリーン…
+
+sfx_stop 0
+
+sfx_unset 0
+name_set 貴広
+
+line_set 「鈴の音…？」
+
+nvl_on
+
+line_set 貴広はポケットに手を突っ込んだ。
+
+line_set 指先に丸い金属が触れる。
+line_set いつの間にかポケットにかずさにあげた鈴が入っていた。
+line_set 手の平にそれを置くと暗闇の中で微かに光を放っていた。
+line_set 青白いが、その光はとても温かく感じられた。
+adv_on
+
+kgd_layer1_fx 2
+
+kgd_layer1_solidcolor -1 255
+music_play_moekan 004.WAV
+
+nvl_on
+
+line_set 突然に光が視界一杯に広がった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「！？」
+
+sfx_set 0 SE081.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set チリーン…
+
+sfx_stop 0
+
+sfx_unset 0
+nvl_on
+
+line_set 「これをお前にやろう…」
+
+adv_on
+
+name_set 貴広
+
+line_set 「？」
+
+nvl_on
+
+line_set 貴広の耳に鈴の音と自分の声と思うような、とてもよく似た声が聞こえた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「誰だ…？」
+
+gallery_unlock 249
+
+kgd_layer1_set 0 N209.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 3
+kgd_layer1_solidcolor 0 0
+nvl_on
+
+line_set 貴広の少し前に日本家屋の縁側に座る男の姿が見えた。
+
+line_set その横に小さな黒猫が座り、男の手から下がっている鈴にじゃれついていた。
+nvl_line_clear
+
+line_set 「これが気に入ったかい？」
+
+nvl_line_clear
+
+voice_play 31430.wav
+
+line_set 「なぉ…」
+
+nvl_line_clear
+
+line_set 「それじゃあ、これはお前にやろう…」
+
+nvl_line_clear
+
+line_set そう言って男は鈴の紐を解き、黒猫の首に結んだ。
+
+adv_on
+
+sfx_set 0 SE031.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set チリン…チリン…
+
+sfx_stop 0
+
+sfx_unset 0
+nvl_on
+
+line_set 黒猫は嬉しそうに跳ね回って、鈴を鳴らす。
+
+nvl_line_clear
+
+line_set 「ははは…そんなにうれしいかい？」
+
+line_set 「その鈴は易者から買ったんだよ」
+line_set 「迷子になるのを防ぐ鈴だと言うよ」
+line_set 「これで迷子にならないね」
+line_set 「かずさ…」
+adv_on
+
+name_set 貴広
+
+line_set 「！」
+
+gallery_unlock 248
+
+kgd_layer1_set 1 N208.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 「子孫の者よ、かずさを頼んだよ…」
+
+adv_on
+
+name_set 貴広
+
+line_set 「な！？」
+
+nvl_on
+
+line_set 男が顔を貴広に向けた。
+
+line_set その顔を見て貴広は驚きの声をあげた。
+line_set その顔は貴広と瓜二つだったのだ。
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+nvl_on
+
+line_set 視界が再び闇に包まれた時、貴広の手に細い指が触れた。
+
+line_set 腕を伸ばしぎゅっと掴み引き寄せた。
+nvl_line_clear
+
+line_set 世界が反転する。
+
+adv_on
+
+kgd_layer1_set 0 BG040.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1223.KGD
+name_set 貴広
+
+line_set 「う…ん…」
+
+nvl_on
+
+line_set 気が付くと、貴広は洞窟の入り口に倒れていた。
+
+adv_on
+
+sfx_set 0 SE081.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set チリン…
+
+sfx_stop 0
+
+sfx_unset 0
+name_set かずさ
+
+voice_play 31431.wav
+
+line_set 「旦那…」
+
+kgd_layer3_set 0 KA014.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+nvl_on
+
+line_set かずさが洞窟の奥から歩いてくる。
+
+line_set 手にはあの鈴が握られ、ならないはずの音を立てていた。
+adv_on
+
+name_set 貴広
+
+line_set 「かずさ…」
+
+name_set かずさ
+
+voice_play 31432.wav
+
+line_set 「旦那は旦那だったんだ…」
+
+voice_play 31433.wav
+
+line_set 「恩返ししてもいいんだね…」
+
+name_set 貴広
+
+line_set 「ああ…俺も頼まれたよ」
+
+line_set 「言われなくてもそのつもりだったがな…」
+line_set 「さあ、帰ろう…」
+line_set 「萌えっ娘島へ…故郷へ…俺たちの場所へ」
+kgd_layer3_set 3 KA005.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set かずさ
+
+voice_play 31434.wav
+
+line_set 「うん！」
+
+voice_play 31435.wav
+
+line_set 「帰ろう…」
+
+nvl_on
+
+line_set 貴広の差しだした手をかずさがギュッと握る。
+
+line_set 今、この時、この瞬間…
+line_set この繋いだ手の温もり…
+line_set この離れることのない手…
+line_set そこに居場所がある…
+adv_on
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+music_stop2
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer2_clear
+movie_play Mov/002.mpg
+
+ksd_set ENDING5.KSD
+
+ksd_end

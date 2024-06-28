@@ -1,0 +1,892 @@
+
+story_progress 322
+
+kgd_layer1_set 0 W1216.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 2000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG001.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer2_set_moekan 1216.KGD
+
+nvl_on
+
+line_set 渡り廊下から、リニアの姿が少しだけ見える。
+
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+line_set 「あれは？リニアか？」
+line_set 「あいつ……」
+
+nvl_on
+
+line_set 貴広はリニアの姿を見た瞬間にその場にかけだした。
+
+adv_on
+
+kgd_layer1_set 1 BG048.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer3_set 0 RI012.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「リニア、お前…なんか顔色おかしくないか？」
+
+name_set リニア
+
+voice_play 53078.wav
+
+line_set 「え…、だ、大丈夫ですよ…」
+
+name_set 貴広
+
+line_set 「嘘を言うな！お前、また体が動かなくなっているのだろ！！」
+
+nvl_on
+
+line_set 貴広はリニアの腕をつかむ。
+line_set リニアの体はそのまま垂直に貴広の方に倒れ込んでくる。
+
+nvl_line_clear
+
+line_set 貴広の胸の中におさまったリニアの体は、糸の切られた人形のようにまったく動くことがない。
+
+nvl_line_clear
+
+line_set この前だってここまではひどくはなかった。
+line_set リニアは動くどころか、指先ひとつ動かすことが出来ないようであった。
+
+adv_on
+
+name_set 貴広
+
+line_set 「どういう事だ、まったく体が動かないじゃないか！！」
+line_set 「バカ、体がおかしくなったらすぐに言えといっていたじゃないか……」
+
+music_play_moekan 016.WAV
+
+name_set リニア
+
+voice_play 53079.wav
+
+line_set 「ごめんなさい……」
+
+voice_play 53080.wav
+
+line_set 「ごめんなさい……貴広さん…」
+
+voice_play 53081.wav
+
+line_set 「リニア…、ここに居たかったんです……」
+
+voice_play 53082.wav
+
+line_set 「それがみんなの迷惑と分かっていても、この島に………、貴広さんの側に居たかったんです」
+
+name_set 貴広
+
+line_set 「…」
+line_set 「なにを言っているんだ…」
+
+name_set リニア
+
+voice_play 53083.wav
+
+line_set 「本当は、居ちゃいけなかったのですよね……」
+
+voice_play 53084.wav
+
+line_set 「リニアみたいな、へなちょこなアンドロイドが、この島に……」
+
+voice_play 53085.wav
+
+line_set 「だって、みなさんにご迷惑かけてばかりですもの……」
+
+voice_play 53086.wav
+
+line_set 「何もお役に立っていませんもの……」
+
+voice_play 53087.wav
+
+line_set 「それなのに、ここにずっと居たいなんて考えたから……、罰が当たったのですよね……」
+
+voice_play 53088.wav
+
+line_set 「本当は居ちゃいけなかったのに、リニアなんてここに居ちゃいけなかったのに……」
+
+voice_play 53089.wav
+
+line_set 「自分のわがままでここに残ったから……」
+
+voice_play 53090.wav
+
+line_set 「でも、少しでしたが、こんなすばらしい時間をこの島で皆様に頂けたのですから…」
+
+voice_play 53091.wav
+
+line_set 「本当は、感謝しなければならないのですよね…」
+
+voice_play 53092.wav
+
+line_set 「これだけで十分なハズなのに、これ以上の事なんてリニアには贅沢過ぎるのに、なのに…」
+
+name_set 貴広
+
+line_set 「リニア……」
+
+nvl_on
+
+line_set 貴広はやさしくリニアを抱きしめる。
+
+adv_on
+
+kgd_layer3_set 3 RI013.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set リニア
+
+voice_play 53093.wav
+
+line_set 「ごめんなさい…やっぱりリニアなんて、ここに来るべきではなかったのですよね……」
+
+voice_play 53094.wav
+
+line_set 「あの日、そのまま、消えて無くなればよかったのですよね…」
+
+name_set 貴広
+
+line_set 「バカを言うな……」
+
+name_set リニア
+
+voice_play 53095.wav
+
+line_set 「だって、だって……、リニア何も出来ません、そのぐらいなら、消えて無くなればよかったんです」
+
+name_set 貴広
+
+line_set 「うるさい！！！！」
+line_set 「つべこべ言うな！！！」
+line_set 「お前は、ここに来た以上」
+line_set 「ここにいる間は、俺のメイドだ！！」
+line_set 「勝手な事を言うな！！！」
+
+name_set リニア
+
+voice_play 53096.wav
+
+line_set 「貴広さん……」
+
+voice_play 53097.wav
+
+line_set 「ごめんなさい、ごめんなさい……」
+
+nvl_on
+
+line_set リニアは貴広の胸の中で泣き続ける。
+
+adv_on
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG041.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+music_play_moekan 011.WAV
+
+kgd_layer3_set 0 SO028.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set おやじさん
+
+line_set 「……」
+
+name_set 貴広
+
+line_set 「どうなんだ？」
+
+name_set おやじさん
+
+line_set 「どうやら、予測していた最悪な事態になったようだな…」
+
+name_set 貴広
+
+line_set 「予測していた最悪の事態？」
+
+name_set おやじさん
+
+line_set 「ああ、そうだ……」
+line_set 「そう考えれば…、これも、やつらの手の内だったのかもしれないな……」
+
+name_set 貴広
+
+line_set 「どういう事だ？」
+
+name_set おやじさん
+
+line_set 「俺たちが、ＨＡＺＥ－０６４を使わず」
+line_set 「独自のルートで部品を集める事もやつらははじめから予測していたのかもしれない……」
+line_set 「だから決して、俺たちでは直すことの出来ない、リニア嬢ちゃんを送ってきたのかもしれない…」
+
+name_set 貴広
+
+line_set 「……」
+
+name_set おやじさん
+
+line_set 「本社じゃ、お前の事を英雄に祭り上げようとしている輩も多いと聞く……」
+line_set 「もしかしたら、今回の一連の事は、すべて、それらを一掃するためだったのかもしれんな……」
+line_set 「そう考えれば、お前にあった二つの選択肢は共に、罠であったのだろうな……」
+
+name_set 貴広
+
+line_set 「リニアに、もし俺が諜報メイド育成プログラムなどというゲスな手で染めたとしたら…」
+line_set 「それを公にする事によって、本社で俺を英雄扱いしている連中の頭を冷やさせる……」
+line_set 「諜報メイド育成プログラム自体、ゲスな手段としてカンパニー内でもかなり嫌われている…」
+line_set 「辺境の島で、成績をあげるために、バカが手を染めるというのがだいたいの認識だ…」
+
+name_set おやじさん
+
+line_set 「ああ、それをお前がやったとしたらお前が犬であるという、よいアピールになる…」
+
+name_set 貴広
+
+line_set 「もし、俺がＨＡＺＥ－０６４に載せ換えるという命令をやぶった場合」
+line_set 「部品をあらゆるルートを使って集めるだろう」
+line_set 「その中にはもちろんカンパニーが禁止しているルートも数多くある……」
+line_set 「諜報メイド育成プログラムの適用命令を無視」
+line_set 「ＨＡＺＥ－０６４載せ換え命令を無視…」
+line_set 「そして、禁止されたルートを勝手に使った罪…」
+line_set 「命を消す理由に十分すぎるぐらいの罪状だ……」
+
+name_set おやじさん
+
+line_set 「今ならそう言えるかもな……」
+line_set 「やつらが、嬢ちゃんを送ってきた理由として一番大きいのは」
+line_set 「本社ですら、その本質が解けなかったような機体だ……」
+line_set 「はじめっから嬢ちゃんを俺たちが直せるわけがないと踏んで、ここに送ってきたのだろう…」
+
+name_set 貴広
+
+line_set 「本社ですら、その本質が解けなかった？？」
+
+name_set おやじさん
+
+line_set 「ああ、本社の連中すらもお手上げだったのだろうな……」
+line_set 「本社でも、相当嬢ちゃんの事は調べたはずだ……」
+line_set 「ＨＡＺＥ－０６４の改造ボディを見ると相当調べた事がわかる……」
+line_set 「そして、最終的には、根元的な部分の謎が解ききれなかった事も同じく見て取れるように分かる」
+
+name_set 貴広
+
+line_set 「解けきれない部分？」
+
+name_set おやじさん
+
+line_set 「例の不可視部分だ……」
+
+name_set 貴広
+
+line_set 「そういえば、前にも、リニアには不可視部分があると言っていたな……」
+
+name_set おやじさん
+
+line_set 「ああ、そうだ。たぶん嬢ちゃんの本質に関わる事だろう……」
+
+name_set 貴広
+
+line_set 「本質って……、おやじさんは前から、リニアには何か謎があるように言っているな……」
+line_set 「リニアは一体なんなんだ？」
+
+kgd_layer3_set 3 SO018.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「それはまだ断定は出来ない……」
+line_set 「ただ、本社すらあきらめた代物だ……」
+line_set 「それを解くのは並大抵の事ではないだろうな…」
+line_set 「そして、それが出来なければ、俺たちは嬢ちゃんを救う事は出来ない……」
+
+name_set 貴広
+
+line_set 「……」
+
+kgd_layer3_set 3 SO028.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set おやじさん
+
+line_set 「時間をくれ……」
+line_set 「嬢ちゃんが完全に停止する前に…、絶対にその謎を突き止めてみせる……」
+
+name_set 貴広
+
+line_set 「おやじさん……」
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+nvl_on
+
+line_set 貴広は夕食をリニアに持っていく。
+
+adv_on
+
+kgd_layer1_set 0 BG006.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+name_set 貴広
+
+line_set 「リニア、入るぞ…」
+
+name_set リニア
+
+voice_play 53098.wav
+
+line_set 「あ、どうぞ…」
+
+kgd_layer1_set 1 BG062.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+music_play_moekan 016.WAV
+
+name_set 貴広
+
+line_set 「安静にしていたか？」
+
+kgd_layer2_clear
+
+gallery_unlock 77
+
+kgd_layer1_set 1 N037.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set リニア
+
+voice_play 53099.wav
+
+line_set 「はい、おとなしく寝てましたよ」
+
+name_set 貴広
+
+line_set 「仕事でたまたま通りがかったからな、夕飯を持ってきたぞ」
+
+gallery_unlock 78
+
+kgd_layer1_set 1 N038.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set リニア
+
+voice_play 53100.wav
+
+line_set 「わぁ、ありがとうございます。えへへへ、うれしいなぁ…」
+
+name_set 貴広
+
+line_set 「ばか、いちいちうれしがるな…」
+
+name_set リニア
+
+voice_play 53101.wav
+
+line_set 「でも、うれしいからしょうがないじゃないですか」
+
+voice_play 53102.wav
+
+line_set 「貴広さんがリニアに会いに来てくれるなんて、とてもうれしいです」
+
+name_set 貴広
+
+line_set 「……」
+
+name_set リニア
+
+voice_play 53103.wav
+
+line_set 「わぁ、ドラムですね」
+
+name_set 貴広
+
+line_set 「ああ、今日は俺が自力で買ってきてやったぞ、この島で一番の人気メニューだ」
+
+name_set リニア
+
+voice_play 53104.wav
+
+line_set 「ありがとうございます」
+
+nvl_on
+
+line_set 貴広はリニアのベットにドラムを置いてやる。
+
+adv_on
+
+gallery_unlock 75
+
+kgd_layer1_set 1 N035.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set 前に置かれたスプーンをリニアは取ろうとする。
+
+adv_on
+
+name_set リニア
+
+voice_play 53105.wav
+
+line_set 「あ、あれ…」
+
+name_set 貴広
+
+line_set 「……」
+
+nvl_on
+
+line_set すっかり握力を失ってしまったリニアの手は、スプーンすらつかむことができない。
+
+adv_on
+
+name_set リニア
+
+voice_play 53106.wav
+
+line_set 「寝過ぎで体力が落ちちゃったみたいですね…」
+
+name_set 貴広
+
+line_set 「あほ…」
+
+nvl_on
+
+line_set 貴広はスプーンを手に取る。
+
+nvl_line_clear
+
+line_set 貴広は鶏肉をフォークとナイフで口に入るサイズに切っていく。
+
+adv_on
+
+gallery_unlock 76
+
+kgd_layer1_set 1 N036.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set 貴広
+
+line_set 「ほら、口をあけろ、噛むぐらいはできるだろ」
+
+name_set リニア
+
+voice_play 53107.wav
+
+line_set 「はい、ありがとうございます……」
+
+nvl_on
+
+line_set うれしそうにリニアは口をあける。
+
+adv_on
+
+name_set リニア
+
+voice_play 53108.wav
+
+line_set 「おいしいですね、えへへへへ、リニアはとっても幸せです……」
+line_set 「……」
+
+gallery_unlock 87
+
+kgd_layer1_set 1 N047.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+nvl_on
+
+line_set リニアはその場でうつむく。
+
+adv_on
+
+name_set リニア
+
+voice_play 53110.wav
+
+line_set 「リニアはとっても幸せだったと思います……」
+
+voice_play 53111.wav
+
+line_set 「本当に……」
+
+nvl_on
+
+line_set そう言うと、リニアは笑う。
+
+nvl_line_clear
+
+line_set 今にも泣きそうな顔で…。
+
+adv_on
+
+name_set 貴広
+
+line_set 「リニア？」
+
+name_set リニア
+
+voice_play 53112.wav
+
+line_set 「夢を見ます……」
+
+voice_play 53113.wav
+
+line_set 「一番古い記憶……」
+
+voice_play 53114.wav
+
+line_set 「あの時の夢を……」
+
+voice_play 53115.wav
+
+line_set 「ずっと、ずっと…、ずっと……」
+
+voice_play 53116.wav
+
+line_set 「歩き続けていた時の記憶の夢を…」
+
+voice_play 53117.wav
+
+line_set 「一人で、ずっと、ずっと、歩き続けていた時の記憶を……」
+
+voice_play 53118.wav
+
+line_set 「何のため歩いているのか、分からないのに…」
+
+voice_play 53119.wav
+
+line_set 「それでも、歩き続けている夢……」
+
+voice_play 53120.wav
+
+line_set 「前までは、あやふやな記憶しかなかったのに…」
+
+voice_play 53121.wav
+
+line_set 「今では、あの時の事を鮮明に夢に見ます…」
+
+nvl_on
+
+line_set リニアの手はシーツを強く握っている……。
+
+adv_on
+
+gallery_unlock 412
+
+kgd_layer1_set 1 N372.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set リニア
+
+voice_play 53122.wav
+
+line_set 「一人、雨の中……」
+
+voice_play 53123.wav
+
+line_set 「リニアは出来損ないなので、通常モード中では痛覚をいじれなくて……」
+
+voice_play 53124.wav
+
+line_set 「普通のアンドロイドなら出来る事なのに…」
+
+voice_play 53125.wav
+
+line_set 「リニア出来ないのですよ…」
+
+voice_play 53126.wav
+
+line_set 「それでも、歩こうとするのですけど……」
+
+voice_play 53127.wav
+
+line_set 「動かないのです……」
+
+voice_play 53128.wav
+
+line_set 「全然からだが言うこと聞いてくれなくて…」
+
+voice_play 53129.wav
+
+line_set 「なんでだろ……」
+
+voice_play 53130.wav
+
+line_set 「そのぐらい耐えなきゃいけないのに……」
+
+voice_play 53131.wav
+
+line_set 「痛覚をいじる事が出来ないのであれば…」
+
+voice_play 53132.wav
+
+line_set 「耐える事で、乗り越えなきゃいけないのに…」
+
+voice_play 53133.wav
+
+line_set 「でも、それでも出来なくて……」
+
+voice_play 53134.wav
+
+line_set 「本当に出来損ないですよね……」
+
+voice_play 53135.wav
+
+line_set 「痛みなんて…、アンドロイドにはいらないのに…」
+
+voice_play 53136.wav
+
+line_set 「リニアには、それがついていて……」
+
+voice_play 53137.wav
+
+line_set 「我慢して、動いたら……」
+
+voice_play 53138.wav
+
+line_set 「たぶん変な力をいれたからと思うのです…」
+
+voice_play 53139.wav
+
+line_set 「その場で手が外れてしまって……」
+
+voice_play 53140.wav
+
+line_set 「一生懸命つけ直そうとするのですが……」
+
+voice_play 53141.wav
+
+line_set 「それも出来なくて……」
+
+voice_play 53142.wav
+
+line_set 「仕方ないから、手を捨てて、前に歩こうとするのに……」
+
+voice_play 53143.wav
+
+line_set 「今度は足が芯まで、錆びてしまって……」
+
+voice_play 53144.wav
+
+line_set 「そのまま、かかしのように動かなく……」
+
+voice_play 53145.wav
+
+line_set 「バカみたいですよね……」
+
+voice_play 53146.wav
+
+line_set 「リニア、山奥で立ったまま動けなくなって…」
+line_set 「……」
+line_set 「…………」
+
+voice_play 53149.wav
+
+line_set 「でも、そのうち、痛さとかもなくなって…」
+
+voice_play 53150.wav
+
+line_set 「ゆっくりと意識がなくなっていって……」
+
+voice_play 53151.wav
+
+line_set 「すべてがぼんやりとしていくのに……」
+
+voice_play 53152.wav
+
+line_set 「でも、たった一つの感覚だけは、くっきりしていて……」
+
+nvl_on
+
+line_set リニアの思いっきりつぶられた瞳から涙が落ちていく。
+
+adv_on
+
+gallery_unlock 89
+
+kgd_layer1_set 1 N049.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+
+name_set リニア
+
+voice_play 53153.wav
+
+line_set 「寂しかったです……」
+
+voice_play 53154.wav
+
+line_set 「このまま消えていくのは嫌だと思ったんです…」
+
+voice_play 53155.wav
+
+line_set 「たった一度でいい……」
+
+voice_play 53156.wav
+
+line_set 「この寂しさから、逃れて死にたい……」
+
+voice_play 53157.wav
+
+line_set 「消えるなら、せめてこんな寂しさの中でなんかで消えたくない……」
+
+name_set 貴広
+
+line_set 「リニア……」
+
+name_set リニア
+
+voice_play 53158.wav
+
+line_set 「だから……貴広さん……」
+
+nvl_on
+
+line_set リニアは精一杯わらってみせる……。
+
+adv_on
+
+name_set リニア
+
+voice_play 53159.wav
+
+line_set 「リニアの願いはもう叶ったのですよ……」
+
+voice_play 53160.wav
+
+line_set 「本当は、あそこで、一人で消えていかなければならなかったのに……」
+
+voice_play 53161.wav
+
+line_set 「リニアがわがままを言ったから……」
+
+voice_play 53162.wav
+
+line_set 「だから、何も出来ないのに……」
+
+voice_play 53163.wav
+
+line_set 「ここに来られて……」
+
+voice_play 53164.wav
+
+line_set 「みんなと一緒にいられて……」
+
+voice_play 53165.wav
+
+line_set 「たぶん、バカなリニアの最後のお願いを神様が聞いてしまったのですよ……」
+
+voice_play 53166.wav
+
+line_set 「だから、もう…………、十分です」
+
+voice_play 53167.wav
+
+line_set 「リニアには、贅沢すぎます……」
+
+name_set 貴広
+
+line_set 「そんな寂しい事を言うな……」
+line_set 「そんな言葉はみんなを寂しくするぞ……」
+line_set 「整備の連中だって、たいそう悲しむぞ……」
+line_set 「あいつら、それこそ、命がけで、お前を直すためにがんばっているんだ……」
+line_set 「お前が元気に歩けるように…」
+line_set 「お前が笑顔でいられるように……ってな…」
+line_set 「それなのに、お前がそんな事言ってしまったら…、やつら悲しむぞ……」
+
+name_set リニア
+
+voice_play 53168.wav
+
+line_set 「ひぐっ……」
+
+nvl_on
+
+line_set リニアは懸命に涙をこらえていたのだろう…。
+line_set だが、その涙は止まらない…。
+
+adv_on
+
+name_set 貴広
+
+line_set 「お前は、もう、勝手に消えてなんかよくないんだよ……」
+line_set 「だって、お前は、みんなに愛されているのだから……」
+line_set 「愛されている者が勝手に、自分勝手に消えてなんかよくないんだよ……」
+line_set 「な、リニア……、もう、そんな事は言うな…」
+
+nvl_on
+
+line_set リニアから大粒の涙がこぼれる。
+
+adv_on
+
+name_set リニア
+
+voice_play 53169.wav
+
+line_set 「ごめんなさい…、リニアもここにいたいんですよ……みんなといっしょにいたいんです……」
+
+voice_play 53170.wav
+
+line_set 「でも、これ以上いたら、大好きなみんなにご迷惑を……だからリニア……」
+
+nvl_on
+
+line_set 貴広は、リニアをやさしく抱きしめる…。
+
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+
+ksd_set 1217A.KSD
+ksd_end

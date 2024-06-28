@@ -1,0 +1,118 @@
+kgd_layer1_set 0 W1228.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+
+wait 2000
+
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1228.KGD
+
+music_play_moekan 004.WAV
+
+
+nvl_on
+
+line_set 「海に落ちた後は、あまり憶えていないのだが、霧島やおやじさん達に引き上げられたみたいだ」
+line_set 「核ミサイルの使用も、発射寸前で止められたらしい」
+line_set 「そこにＮガールの介入があったとか、なかったとか…噂だけを聞いた」
+line_set 「とにかく、島に平和が戻ったわけだ」
+
+nvl_line_clear
+
+line_set ただ、命の身柄はアリスインチェインズに戻されることになった…。
+
+adv_on
+
+kgd_layer1_set 0 BG012.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 MI006.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+
+name_set 貴広
+
+line_set 「………」
+
+name_set 命
+
+line_set 「……」
+
+name_set 貴広
+
+line_set 「そんな顔するなよ」
+line_set 「大丈夫だ。今回のことで、アリスインチェインズには改善を求める声も上層部で強くなった」
+line_set 「何かあったら、俺がすぐに飛んでいってやる」
+line_set 「お前を守ってやる」
+
+kgd_layer3_set 3 MI012.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10906.wav
+
+line_set 「うん…」
+
+name_set 貴広
+
+line_set 「ふう…」
+line_set 「飯島が青い鳥の最後を言っていたな…」
+line_set 「青い鳥は最後に飛んでいってしまうのは本当だが、それは逃げ出したんじゃない」
+line_set 「次の者へ幸せを与えるために、飛び立ったんだ」
+line_set 「幸せを見つけた者は、幸せになる努力をしなくちゃいけない」
+line_set 「大切な人も幸せにする努力をしなくちゃいけない」
+line_set 「自分が青い鳥にならなくちゃいけないんだ」
+line_set 「俺は、命の青い鳥になってやる」
+line_set 「命は、俺の青い鳥になってくれるか？」
+
+kgd_layer3_set 3 MI002.KGD
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+
+name_set 命
+
+voice_play v10907.wav
+
+line_set 「なる！！」
+
+name_set 貴広
+
+line_set 「これは努力のための、しばしの別れだ」
+line_set 「お前の力は全て俺が引き受けた、アリスにもそう報告してある」
+line_set 「お前はこの島でやっていける素質があるからな、すぐに戻ってこれるよ」
+
+name_set 命
+
+voice_play v10908.wav
+
+line_set 「うん！！」
+
+voice_play v10909.wav
+
+line_set 「貴広！！」
+
+voice_play v10910.wav
+
+line_set 「ぜったい！ぜったいぜったい！戻ってくるからね！！」
+
+name_set 貴広
+
+line_set 「ああ、待ってる」
+
+music_stop2
+
+kgd_layer3_fadeout 0
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer2_clear
+
+movie_play Mov/002.mpg
+
+ksd_set ENDING6.KSD
+ksd_end

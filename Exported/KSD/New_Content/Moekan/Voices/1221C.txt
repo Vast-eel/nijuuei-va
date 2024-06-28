@@ -1,0 +1,1093 @@
+story_progress 350
+
+kgd_layer1_set 0 W1221.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+wait 2000
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+kgd_layer2_set_moekan 1221.KGD
+name_clear
+
+line_set バサバサ…
+
+kgd_layer1_set 0 BG051.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 016.WAV
+
+name_set 貴広
+
+line_set 「…ん」
+
+nvl_on
+
+line_set 鳥の羽ばたきで貴広は医務室のパイプ椅子に座ったままで目を覚ました。
+
+line_set 俯いた頭をあげて、静かに寝息を立てる鈴希を見た。
+adv_on
+
+name_set 貴広
+
+line_set 「ほ…」
+
+nvl_on
+
+line_set 鈴希の姿に安心すると同時にいなくなっていたことを想像してぞっとした。
+
+adv_on
+
+name_set 鈴希
+
+voice_play 20642.wav
+
+line_set 「う…ん…」
+
+nvl_on
+
+line_set ゆっくりと鈴希が目を覚まし、貴広と目が合う。
+
+adv_on
+
+name_set 貴広
+
+line_set 「起きれるか？」
+
+name_set 鈴希
+
+line_set 「…」
+
+nvl_on
+
+line_set 頷く鈴希。
+
+adv_on
+
+name_set かずさ
+
+voice_play 31629.wav
+
+line_set 「ふわぁぁ…おはよう旦那」
+
+kgd_layer2_clear
+
+gallery_unlock 169
+
+kgd_layer1_set 1 N129.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set かずさが大欠伸しながら箱から首を伸ばし、顔をこすりながら挨拶をした。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おはよう」
+
+name_set 鈴希
+
+voice_play 20644.wav
+
+line_set 「あ…」
+
+nvl_on
+
+line_set 貴広が椅子から立ち上がると鈴希は慌ててベッドを下りて、貴広の裾を掴んだ。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おっと…」
+
+name_set かずさ
+
+voice_play 31630.wav
+
+line_set 「鈴希ちゃんは一緒にいたいみたいよ」
+
+name_set 鈴希
+
+line_set 「……」
+
+name_set 貴広
+
+line_set 「…そうだな、一緒に行こう」
+
+line_set 「着替えておいで」
+name_set 鈴希
+
+voice_play 20646.wav
+
+line_set 「わかった…」
+
+nvl_on
+
+line_set 鈴希はベッドに潜り込みモゾモゾと着替える。
+
+adv_on
+
+kgd_layer1_set 1 BG004.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+kgd_layer2_set_moekan 1221.KGD
+nvl_on
+
+line_set 貴広は着替え終わった鈴希を連れて所長室に向かった。
+
+adv_on
+
+kgd_layer1_set 1 BG023.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 所長室で貴広は仕事を始め、鈴希は横でチョコンと座っていた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「搬入物資…ふむ…ＯＫっと…」
+
+line_set 「支給物資…メイド服が５０…ＯＫ」
+line_set 「………」
+line_set 「すまんな鈴希」
+nvl_on
+
+line_set 貴広は椅子を回して鈴希と向き合う。
+
+adv_on
+
+kgd_layer3_set 0 SU027.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 貴広
+
+line_set 「一緒にいることはできるんだが、相手にすることができなくて」
+
+name_set 鈴希
+
+voice_play 20647.wav
+
+line_set 「いい…いるだけでいい…」
+
+nvl_on
+
+line_set 鈴希は貴広の顔を見つめて笑った。
+
+adv_on
+
+name_set 貴広
+
+voice_play v09262.wav
+
+line_set 「そうか…」
+
+sfx_set 0 SE014.WAV
+
+sfx_play 0 0
+name_clear
+
+line_set コンコン…
+
+sfx_stop 0
+
+sfx_unset 0
+kgd_layer3_set 3 KI001.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40980.wav
+
+line_set 「失礼ちまちゅ、追加の書類でちゅ」
+
+name_set 貴広
+
+line_set 「ああ…」
+
+line_set 「また多いな…」
+name_set 霧島
+
+voice_play 40981.wav
+
+line_set 「これでも少ないほうでちゅ」
+
+voice_play 40982.wav
+
+line_set 「それででちゅね、こちらとこちらの書類はよく読んでくだちゃい」
+
+voice_play 40983.wav
+
+line_set 「重要な書類でちゅので」
+
+name_set 貴広
+
+line_set 「ああ、わかった」
+
+name_set 霧島
+
+voice_play 40984.wav
+
+line_set 「では、失礼しまちゅ」
+
+name_set 貴広
+
+line_set 「え？」
+
+kgd_layer3_set 3 KI013.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40985.wav
+
+line_set 「どうちまちた？」
+
+name_set 貴広
+
+line_set 「いや…鈴希がいることをつっこんでくるかなぁと思ってたんだが…」
+
+kgd_layer3_set 3 KI010.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+music_play_moekan 011.WAV
+
+name_set 霧島
+
+voice_play 40986.wav
+
+line_set 「え？…あ！鈴希ちゃんいたんでちゅか！？」
+
+kgd_layer3_set 3 SU001.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 鈴希
+
+voice_play 20648.wav
+
+line_set 「…うん」
+
+name_set 貴広
+
+line_set 「霧島が気付かないなんて珍しいな…」
+
+kgd_layer3_set 3 KI013.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40987.wav
+
+line_set 「そ、そうでちゅね…」
+
+voice_play 40988.wav
+
+line_set 「で、なんで鈴希ちゃんがいるんでちゅか？」
+
+name_set 貴広
+
+line_set 「ん～…諸事情ってやつだ」
+
+name_set 霧島
+
+voice_play 40989.wav
+
+line_set 「は？」
+
+voice_play 40990.wav
+
+line_set 「まあ、いいでちゅ」
+
+kgd_layer3_set 3 KI012.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40991.wav
+
+line_set 「鈴希ちゃんも病み上がりでちゅし、今日だけは許しまちゅ」
+
+name_set 貴広
+
+line_set 「ああ、すまんな」
+
+name_set 霧島
+
+voice_play 40992.wav
+
+line_set 「では、失礼ちまちゅ」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+name_set 貴広
+
+line_set 「霧島が鈴希に気付かないなんて、ホント珍しいな…風邪か？」
+
+line_set 「なぁ？」
+kgd_layer3_set 0 SU001.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 鈴希
+
+voice_play 20649.wav
+
+line_set 「…うん」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_set 1 BG004.KGD
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 016.WAV
+
+nvl_on
+
+line_set 事務処理を終えた貴広は鈴希と共に屋敷内の見回りに出た。
+
+adv_on
+
+kgd_layer3_set 0 RI018.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set リニア
+
+voice_play 54205.wav
+
+line_set 「貴広さん」
+
+name_set 貴広
+
+line_set 「お、リニア」
+
+line_set 「元気になったみたいだな」
+name_set リニア
+
+voice_play 54206.wav
+
+line_set 「はい、貴広さんとおじさまのおかげです」
+
+voice_play 54207.wav
+
+line_set 「これでどんどんお仕事ができますよ」
+
+name_set 貴広
+
+line_set 「あんまり無理するなよ」
+
+name_set リニア
+
+voice_play 54208.wav
+
+line_set 「えへへ…はい」
+
+voice_play 54209.wav
+
+line_set 「では、失礼します」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+name_set 貴広
+
+line_set 「…」
+
+line_set 「あれ？…リニアのやつ鈴希に声かけなかったな…」
+line_set 「まるでいないみたいに…」
+line_set 「いないみたい！？」
+kgd_layer3_set 0 SU001.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+nvl_on
+
+line_set 貴広は振り向いて鈴希を確認した。
+
+line_set 鈴希はちゃんと貴広の後ろに立っていた。
+adv_on
+
+name_set 貴広
+
+line_set 「ほ…」
+
+nvl_on
+
+line_set 「後ろに立っていたとしてもリニアから見えなかったわけじゃない…」
+
+line_set 「リニアの調子がまだよくないのか…」
+adv_on
+
+name_set 鈴希
+
+voice_play 20650.wav
+
+line_set 「風邪？」
+
+name_set 貴広
+
+line_set 「いや、リニアは風邪はひかんだろう」
+
+kgd_layer3_set 3 SU005.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 鈴希
+
+voice_play 20651.wav
+
+line_set 「なぜ？」
+
+name_set 貴広
+
+line_set 「そりゃアンドロイドだからな」
+
+name_set 鈴希
+
+voice_play 20652.wav
+
+line_set 「あんどろいど？」
+
+name_set 貴広
+
+line_set 「ん～…なんというか…」
+
+line_set 「ロボットみたいなものだよ」
+kgd_layer3_set 3 SU011.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 鈴希
+
+line_set 「！！！」
+
+name_set 貴広
+
+line_set 「…」
+
+line_set 「今まで知らんかったのか…」
+line_set 「リニアの出来がいいと言っていいのかな」
+line_set 「ほら、いつまでも驚いてないで行くぞ」
+kgd_layer3_set 3 SU001.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 鈴希
+
+voice_play 20654.wav
+
+line_set 「ん…」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+music_play_moekan 011.WAV
+
+nvl_on
+
+line_set 鈴希が貴広の後を追って早足でついてくる。
+
+line_set 一瞬、貴広の目にその姿が霞んで見えた。
+adv_on
+
+name_set 貴広
+
+line_set 「！？」
+
+nvl_on
+
+line_set 貴広は数回瞬きをして再び鈴希を見た。
+
+adv_on
+
+kgd_layer3_set 0 SU005.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 鈴希
+
+line_set 「？」
+
+nvl_on
+
+line_set 鈴希は貴広の側まで来てジャケットの裾を掴み、貴広の顔を見上げている。
+
+line_set その姿ははっきりと見える。
+adv_on
+
+name_set 貴広
+
+line_set 「……」
+
+name_set 鈴希
+
+voice_play 20656.wav
+
+line_set 「なに？」
+
+name_set 貴広
+
+line_set 「い、いや…なんでもない」
+
+line_set 「行こう」
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG012.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+music_play_moekan 016.WAV
+
+nvl_on
+
+line_set 階段を上りヘリポートに顔を出すと、数名の整備員達がヘリの点検作業をしていた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「おやじさんはいるか？」
+
+name_set 整備員
+
+line_set 「あ、所長」
+
+line_set 「班長なら奥にいると思います」
+name_set 貴広
+
+line_set 「ありがとう」
+
+line_set 「っと、向こうから来てくれたか」
+kgd_layer3_set 0 SO028.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set おやじさん
+
+voice_play v09253.wav
+
+voice_play v09253.wav
+line_set 「どうした？」
+
+name_set 貴広
+
+line_set 「昨日の騒ぎでなにか不都合はでてないか？」
+
+name_set おやじさん
+
+voice_play v09254.wav
+
+voice_play v09254.wav
+line_set 「まあな、鉄板が数枚へこんだのと、壁に穴が開いたくらいか」
+
+voice_play v09255.wav
+
+voice_play v09255.wav
+line_set 「俺たちが人払いされているうちに、なにがあったんだ？」
+
+nvl_on
+
+line_set おやじさんは声をひそめて貴広に聞いた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…色々とな」
+
+name_set おやじさん
+
+line_set 「……」
+
+voice_play v09256.wav
+
+voice_play v09256.wav
+line_set 「まあ、言えないことは聞かんよ」
+
+voice_play v09257.wav
+
+voice_play v09257.wav
+line_set 「ＡＬＩＣＥが来た時からある程度のことは覚悟していた」
+
+name_set 貴広
+
+line_set 「すまんな」
+
+kgd_layer3_set 3 SO018.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09258.wav
+
+voice_play v09258.wav
+line_set 「ただ聞いたんだが、かずさの嬢ちゃんともう一人の…えっと…なんて言ったかな…？」
+
+name_set 貴広
+
+line_set 「鈴希」
+
+name_set おやじさん
+
+voice_play v09259.wav
+
+voice_play v09259.wav
+line_set 「そう！鈴希の嬢ちゃんだ」
+
+voice_play v09260.wav
+
+voice_play v09260.wav
+line_set 「その二人は大丈夫だったのか？」
+
+voice_play v09261.wav
+
+voice_play v09261.wav
+line_set 「二人についてＡＬＩＣＥが動いたって聞いたぞ」
+
+name_set 貴広
+
+line_set 「ん…まあ…かずさは名目上行方不明だが…」
+
+nvl_on
+
+line_set 「猫になったとは言えんしな…」
+
+adv_on
+
+name_set おやじさん
+
+voice_play v09262.wav
+line_set 「そうか…」
+
+name_set 貴広
+
+line_set 「鈴希ならここにいるぞ」
+
+nvl_on
+
+line_set そう言って貴広は隣を指差した。
+
+line_set 隣では鈴希が貴広の裾を掴んだまま、キョロキョロと騒がしいヘリポートを見回している。
+adv_on
+
+kgd_layer3_set 3 SO031.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09263.wav
+
+voice_play v09263.wav
+line_set 「おっ！？いたのかっ！？」
+
+voice_play v09264.wav
+
+voice_play v09264.wav
+line_set 「気が付かなかった…」
+
+name_set 貴広
+
+line_set 「なんだ、おやじさんモウロクしたか？」
+
+name_set おやじさん
+
+voice_play v09265.wav
+
+voice_play v09265.wav
+line_set 「バカ言え、まだそんな年じゃねぇぞ」
+
+name_set 貴広
+
+line_set 「くくく…」
+
+kgd_layer3_set 3 SO028.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09266.wav
+
+voice_play v09266.wav
+line_set 「大変だったな嬢ちゃん」
+
+name_set 鈴希
+
+line_set 「…」
+
+nvl_on
+
+line_set 無言で首を振る鈴希。
+
+adv_on
+
+name_set 鈴希
+
+voice_play 20658.wav
+
+line_set 「貴広に助けてもらった…」
+
+kgd_layer3_set 3 SO030.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09268.wav
+
+voice_play v09268.wav
+line_set 「ほお…やるじゃねぇか貴広」
+
+name_set 貴広
+
+line_set 「結果的にそうなったってだけだよ」
+
+name_set おやじさん
+
+voice_play v09269.wav
+
+voice_play v09269.wav
+line_set 「ふ～ん…くくく…」
+
+name_set 貴広
+
+line_set 「なんだよ、変な笑い方して…」
+
+name_set おやじさん
+
+voice_play v09270.wav
+
+voice_play v09270.wav
+line_set 「なんでもない」
+
+voice_play v09271.wav
+
+voice_play v09271.wav
+line_set 「嬢ちゃんを大切にしてやんな」
+
+name_set 貴広
+
+line_set 「？」
+
+name_set 整備員
+
+line_set 「班長、電送系チェック終わりました！」
+
+kgd_layer3_set 3 SO028.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09272.wav
+
+voice_play v09272.wav
+line_set 「おう！」
+
+name_set 貴広
+
+line_set 「邪魔しちゃ悪いし、そろそろ行くよ」
+
+name_set おやじさん
+
+voice_play v09273.wav
+
+voice_play v09273.wav
+line_set 「そうか？」
+
+name_set 貴広
+
+line_set 「じゃあな、また来るよ」
+
+kgd_layer3_set 3 SO018.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09274.wav
+
+voice_play v09274.wav
+line_set 「ああ」
+
+voice_play v09275.wav
+
+voice_play v09275.wav
+line_set 「じゃあな、…えっと…嬢ちゃんの名前なんっつったかな？」
+
+name_set 貴広
+
+line_set 「鈴希」
+
+kgd_layer3_set 3 SO026.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set おやじさん
+
+voice_play v09276.wav
+
+voice_play v09276.wav
+line_set 「ああ、そうだった、すまんすまん」
+
+voice_play v09277.wav
+
+voice_play v09277.wav
+line_set 「じゃあな、鈴希の嬢ちゃん」
+
+kgd_layer3_set 3 SU001.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 鈴希
+
+voice_play 20659.wav
+
+line_set 「うん…」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+nvl_on
+
+line_set 貴広は手を振る鈴希を連れて階段を下りていった。
+
+adv_on
+
+kgd_layer1_set 1 BG010.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+music_play_moekan 011.WAV
+
+nvl_on
+
+line_set 「霧島、リニア、おやじさん…」
+
+line_set 「３人とも鈴希に気が付かなかったな…」
+line_set 「偶然かな…」
+adv_on
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+wait 1000
+
+kgd_layer1_set 0 BG088.KGD
+
+kgd_layer1_display
+kgd_layer1_fx 1
+kgd_layer3_set 0 KI012.KGD
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+name_set 貴広
+
+line_set 「ふぅ…これでお終いだな」
+
+name_set 霧島
+
+voice_play 40993.wav
+
+line_set 「はい、ご苦労様でちゅ」
+
+name_set 貴広
+
+line_set 「霧島、調子悪いのか？」
+
+kgd_layer3_set 3 KI013.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_set 霧島
+
+voice_play 40994.wav
+
+line_set 「は？」
+
+voice_play 40995.wav
+
+line_set 「別に悪くないでちゅよ。むしろ調子イイくらいでちゅ」
+
+name_set 貴広
+
+line_set 「そうか…」
+
+name_set 霧島
+
+line_set 「？」
+
+voice_play 40997.wav
+
+line_set 「では、失礼しまちゅ」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+nvl_on
+
+line_set 霧島はトントンと紙の束を整えると秘書室へ入っていった。
+
+adv_on
+
+kgd_layer3_set 0 SU001.KGD
+
+kgd_layer3_param 0 0 0 0 0 800 600
+kgd_layer3_display 0
+music_play_moekan 016.WAV
+
+name_set 貴広
+
+line_set 「う～む…」
+
+line_set 「まったく鈴希に気付かなかったな…」
+name_set 鈴希
+
+line_set 「…」
+
+nvl_on
+
+line_set 「誰も鈴希のことに気が付かなくなっている…」
+
+line_set 「やはりこれはかずさの言っていた期限の迫ってきている予兆なのか…」
+adv_on
+
+kgd_layer3_set 3 SU004.KGD
+
+kgd_layer3_param 3 0 0 0 0 800 600
+kgd_layer3_unk7 0
+kgd_layer3_crossfade 0 3 31 3
+name_clear
+
+line_set こて…
+
+name_set 貴広
+
+line_set 「？」
+
+name_set 鈴希
+
+voice_play 20661.wav
+
+line_set 「すぅ…すぅ…すぅ……」
+
+nvl_on
+
+line_set 貴広の横にいた鈴希が貴広に寄りかかり、静かな寝息を立てていた。
+
+adv_on
+
+name_set 貴広
+
+line_set 「…」
+
+kgd_layer3_fadeout 0
+
+kgd_layer3_clear 0
+kgd_layer1_fx 0
+kgd_layer1_clear 0
+kgd_layer1_set 0 BG030.KGD
+kgd_layer1_display
+kgd_layer1_fx 1
+nvl_on
+
+line_set 貴広は鈴希を抱え、寝室へ戻った。
+
+line_set そして、鈴希をパジャマに着替えさせベッドに寝かす。
+adv_on
+
+kgd_layer2_clear
+
+gallery_unlock 164
+
+kgd_layer1_set 1 N124.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+nvl_on
+
+line_set 「鈴希は自分が消えてしまうことを知っているのか？」
+
+line_set 「明日かずさに聞いてみるか…」
+nvl_line_clear
+
+line_set 貴広は上着だけ脱ぐと、鈴希の隣に寝ころんだ。
+
+line_set 途端に鈴希が腕にしがみついた。
+adv_on
+
+gallery_unlock 168
+
+kgd_layer1_set 1 N128.KGD
+
+kgd_layer1_crossfade 0 26
+kgd_layer1_clear 1
+name_set 貴広
+
+line_set 「？…起きてるのか？」
+
+name_set 鈴希
+
+voice_play 20662.wav
+
+line_set 「すぅ…すぅ…すぅ……」
+
+name_set 貴広
+
+line_set 「…」
+
+nvl_on
+
+line_set 貴広は鈴希の頭をそっと撫でて眠りについた。
+
+adv_on
+
+music_stop2
+
+kgd_layer1_fx 0
+
+kgd_layer1_clear 0
+ksd_set 1222C.KSD
+
+ksd_end

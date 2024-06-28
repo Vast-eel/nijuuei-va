@@ -1,0 +1,4 @@
+voice_play v01735.wav
+line_set 「ああーーとっ！！！ちょ、ちょっと待った！！！」
+voice_play v01746.wav
+line_set 「だぁぁぁぁぁってろ！！！考え中は静かにしろい！！！！！」
