@@ -176,9 +176,9 @@ opcodes_moekan = (
     (0x4100, 'hh', "kgd_layer1_crossfade"),
     (0x4200, 'h', "kgd_layer3_unk7"),
     (0x4300, 'h', "kgd_layer1_fx"),
-    (0x4400, 'h', "kqd_display"),
 
     # -- Other --
+    (0x4400, 'h', "kqd_display"),
     (0x4A00, '', "nijuubako_opcode02"),
     (0x4C00, '', "choice_dialog_end"),
     (0x4D00, 'h', "kgd_layer2_set_moekan"),
