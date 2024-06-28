@@ -269,16 +269,16 @@ class KageScriptData:
         if flag == 0:
             self.file = open(file_name, mode="rb")
             if output_name == None:
-                self.output_name = Path(Path.cwd(), "Exported/Ksd", (Path(file_name).stem + ".txt"))
-                Path("Exported/Ksd").mkdir(parents = True, exist_ok = True)
+                self.output_name = Path(Path.cwd(), "Exported/ksd", (Path(file_name).stem + ".txt"))
+                Path("Exported/ksd").mkdir(parents = True, exist_ok = True)
             else:
                 self.output_name = output_name
             self.output = open(self.output_name, mode="w", encoding="cp932")
         elif flag == 1:
             self.file = open(file_name, mode="r", encoding="cp932")
             if output_name == None:
-                self.output_name = Path(Path.cwd(), "Imported/Ksd", (Path(file_name).stem + ".ksd"))
-                Path("Imported/Ksd").mkdir(parents = True, exist_ok = True)
+                self.output_name = Path(Path.cwd(), "Imported/ksd", (Path(file_name).stem + ".ksd"))
+                Path("Imported/ksd").mkdir(parents = True, exist_ok = True)
             else:
                 self.output_name = output_name
             self.output = open(self.output_name, mode="wb")
