@@ -103,7 +103,7 @@ opcodes_nijuuei = (
 
 opcodes_moekan = (
     # -- Text --
-    (0x0100, 'HH', "line_set"),
+    (0x0100, 'HH', "line_set"), # IHH for moeten. nvl/adv is baked directly into the command, crazy
     (0x0200, 'h', "voice_play"),
     (0x0300, 'h', "name_set"),
     (0x0400, '', "name_clear"),
@@ -136,13 +136,14 @@ opcodes_moekan = (
     (0x1D00, 'h', "kgd_layer3_display"),
     (0x1E00, 'h', "kgd_layer3_fadeout"),
     (0x1F00, 'h', "kgd_layer3_clear"),
-    (0x2000, 'hh', "kgd_layer1_solidcolor"),
+    (0x2000, 'Hh', "kgd_layer1_solidcolor"),
     (0x2100, 'hhhh', "kgd_layer3_crossfade"),
 
     # -- Progression flags --
     (0x2300, 'h', "unk2"),
     (0x2400, 'h', "unk3"),
     (0x2500, 'h', "gallery_unlock"),
+    (0x2600, 'h', "nijuubako_opcode01"),
     (0x2700, 'ih', "jump_type1"),
     (0x2800, 'ih', "jump_type2"),
     (0x2900, 'h', "unk4"),
@@ -166,7 +167,7 @@ opcodes_moekan = (
     (0x3900, '', "music_stop1"),
     (0x3A00, '', "music_stop2"),
     (0x3B00, 'hh', "sfx_set"),
-    (0x3C00, 'hh', "sfx_play"),
+    (0x3C00, 'hh', "sfx_play"), # 'h' for nijuubako
     (0x3D00, 'h', "sfx_loop"),
     (0x3E00, 'h', "sfx_stop"),
     (0x3F00, 'h', "sfx_unset"),
@@ -175,8 +176,10 @@ opcodes_moekan = (
     (0x4100, 'hh', "kgd_layer1_crossfade"),
     (0x4200, 'h', "kgd_layer3_unk7"),
     (0x4300, 'h', "kgd_layer1_fx"),
+    (0x4400, 'h', "kqd_display"),
 
     # -- Other --
+    (0x4A00, '', "nijuubako_opcode02"),
     (0x4C00, '', "choice_dialog_end"),
     (0x4D00, 'h', "kgd_layer2_set_moekan"),
     (0x4E00, '', "kgd_layer2_clear"),
@@ -217,6 +220,8 @@ string_opcodes_def = (
     "kgd_layer3_set",
     "sfx_set",
     "anim_play",
+
+    "kqd_display",
 
     "voice_play",
     "music_play_moekan",
@@ -316,6 +321,7 @@ class KageScriptData:
                 if len(name_string) % 2 != 0:
                     last_pos -= 1
                 self.file.seek(last_pos)
+                #print(self.file.tell(), "0x%02x" % self.commands[index], self.args[index])
                 self.args[index].append(name_string.decode("cp932"))
 
             index += 1
@@ -490,6 +496,8 @@ class KageScriptData:
                     "ksd_set",
                     "anim_play",
 
+                    "kqd_display",
+
                     "voice_play",
                     "music_play_moekan",
                     "kgd_layer2_set_moekan",
@@ -502,6 +510,7 @@ class KageScriptData:
             self.commands.append(struct.pack('>H', self.opcodes[i][0]))
             ofs += 2
 
+            #print(plaintext)
             for i in range(1, len(plaintext)):
                 try:
                     packed = struct.pack('<' + args_struct[i-1], int(plaintext[i]))
@@ -511,12 +520,13 @@ class KageScriptData:
                 self.args[index].append(packed)
                 ofs += len(packed)
 
-            # there are two extra bytes at the end of every voice file name. why? I don't know.
-            # probably not actually needed, but I wanted 1:1 imports/exports, so here
+            # there are two extra bytes at the end of every voice file name in moekan.
+            # probably not needed, but I wanted 1:1 imports/exports, so uncomment if you care
+            '''
             if plaintext[0] == "voice_play":
                 self.args[index][1] += (b"\x00\x00")
                 ofs += 2
-
+            '''
             index += 1
 
         self.file.close()
