@@ -136,7 +136,7 @@ opcodes_moekan = (
     (0x1D00, 'h', "kgd_layer3_display"),
     (0x1E00, 'h', "kgd_layer3_fadeout"),
     (0x1F00, 'h', "kgd_layer3_clear"),
-    (0x2000, 'Hh', "kgd_layer1_solidcolor"),
+    (0x2000, 'hh', "kgd_layer1_solidcolor"),
     (0x2100, 'hhhh', "kgd_layer3_crossfade"),
 
     # -- Progression flags --
@@ -269,16 +269,16 @@ class KageScriptData:
         if flag == 0:
             self.file = open(file_name, mode="rb")
             if output_name == None:
-                self.output_name = Path(Path.cwd(), "Exported/KSD", (Path(file_name).stem + ".txt"))
-                Path("Exported/KSD").mkdir(parents = True, exist_ok = True)
+                self.output_name = Path(Path.cwd(), "Exported/Ksd", (Path(file_name).stem + ".txt"))
+                Path("Exported/Ksd").mkdir(parents = True, exist_ok = True)
             else:
                 self.output_name = output_name
             self.output = open(self.output_name, mode="w", encoding="cp932")
         elif flag == 1:
             self.file = open(file_name, mode="r", encoding="cp932")
             if output_name == None:
-                self.output_name = Path(Path.cwd(), "Imported/KSD", (Path(file_name).stem + ".ksd"))
-                Path("Imported/KSD").mkdir(parents = True, exist_ok = True)
+                self.output_name = Path(Path.cwd(), "Imported/Ksd", (Path(file_name).stem + ".ksd"))
+                Path("Imported/Ksd").mkdir(parents = True, exist_ok = True)
             else:
                 self.output_name = output_name
             self.output = open(self.output_name, mode="wb")
@@ -521,12 +521,11 @@ class KageScriptData:
                 ofs += len(packed)
 
             # there are two extra bytes at the end of every voice file name in moekan.
-            # probably not needed, but I wanted 1:1 imports/exports, so uncomment if you care
-            '''
+            # comment out for nijuubako? should probably not cause issues though
             if plaintext[0] == "voice_play":
                 self.args[index][1] += (b"\x00\x00")
                 ofs += 2
-            '''
+
             index += 1
 
         self.file.close()
