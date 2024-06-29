@@ -235,7 +235,7 @@ music_stop2
 kgd_layer1_fx 0
 kgd_layer1_clear 0
 
-movie_play Mov/001.mpg
+movie_play Mov/003.mpg
 
 route_end
 
