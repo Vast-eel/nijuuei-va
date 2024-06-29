@@ -26,9 +26,11 @@ class KeroDAT:
             self.file_list = [f for f in Path(file_name).iterdir() if f.is_file()]
             if output_name == None:
                 Path("Imported/Dat").mkdir(parents = True, exist_ok = True)
-                hdr_name = Path(Path.cwd(), "Imported/Dat", (Path(file_name).stem + ".dat.hdr"))
+                hdr_name = Path(Path.cwd(), "Imported/Dat", (Path(file_name).stem + ".dat"))
                 self.hdr = open(hdr_name, mode="wb")
-                self.pac = open(hdr_name.with_suffix(".pac"), mode="wb")
+                pac_name = '%03d' % (int(Path(file_name).stem) + 1) + ".dat"
+                pac_name = Path(Path.cwd(), "Imported/Dat", pac_name)
+                self.pac = open(pac_name, mode="wb")
             else:
                self.hdr = open(output_name, mode="wb")
                self.pac = open(Path(output_name).with_suffix(".pac"), mode="wb")
