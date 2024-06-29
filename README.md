@@ -8,9 +8,9 @@ Partially based on [gscScriptCompAndDecompiler](https://github.com/TesterTestero
 ## Nijuuei
 ### Voice patch
 
-Download [Dreamcast assets](https://drive.google.com/drive/folders/1-cwaKLra23hldfvhY3V4RxOwUHBt1RGB?usp=sharing) and put the folders in the Nijuuei root folder.
+Download [Dreamcast assets](https://drive.google.com/drive/folders/1-cwaKLra23hldfvhY3V4RxOwUHBt1RGB?usp=sharing) and put everything in Nijuuei's root folder.
 
-Next, download the script files from the Releases section and overwrite the files in the game's Ksd directory with the new files.
+Next, download the [latest patch release](https://github.com/Vast-eel/nijuuei-va/releases/latest) and overwrite the files in the game's Ksd directory with the new files.
 
 ### QoL fixes
 The game tends to crash or hang after animations on modern machines. To fix this, set the game to fullscreen (even if you want to play it windowed) and download [DxWnd](https://sourceforge.net/projects/dxwnd/).
@@ -34,7 +34,7 @@ The in-game volume sliders don't work. If you think the music's too loud compare
 ### Mikoto route + voice patch
 Download [the main repo](https://github.com/Vast-eel/nijuuei-va/archive/refs/heads/main.zip) and extract it somewhere.
 
-Download [Dreamcast assets](https://drive.google.com/drive/folders/1G2Le9os8uZhP1Gn_i5qpAwLGcpBzGVn2?usp=sharing) and the .zip file from the Releases section. Put everything into a "Patch" folder inside the repo directory.
+Download [Dreamcast assets](https://drive.google.com/drive/folders/1G2Le9os8uZhP1Gn_i5qpAwLGcpBzGVn2?usp=sharing) and the [latest patch release](https://github.com/Vast-eel/nijuuei-va/releases/latest). Put everything into a "Patch" folder inside the repo directory.
 
 The final directory structure should look like this:
 ```
