@@ -15,9 +15,11 @@ Next, download the [latest patch release](https://github.com/Vast-eel/nijuuei-va
 ### QoL fixes
 The game tends to crash or hang after animations on modern machines. To fix this, set the game to fullscreen (even if you want to play it windowed) and download [DxWnd](https://sourceforge.net/projects/dxwnd/).
 
-Import the Nijuuei.dxw file from the game's root folder. Right click the preset, press Modify and change the path to the nocd exe.
+Import the Nijuuei.dxw file from the game's root folder. Right click the preset, press Modify and make sure the path points to 二重影.exe.
 
-Go into the CDAudio tab and select the "Rip CD Audio" option and run the game once. After that, set it to "Use audio files". This way the game will use .wav files DxWnd puts in the root folder without needing to have the second disc inserted at all times.
+Mount the game's second disc then go into the CDAudio tab, select the "Rip CD Audio" option in the "Generic" section and run the game once. DxWnd should dump the BGM to a folder named "Music" in the game's directory.
+
+After that, unmount the second disc, set the CDAudio option in DxWnd to "Use audio files" and change the path to point to the nocd exe. You should now be able to play the game without needing to have the second disc mounted at all times.
 
 ### Linux troubleshooting
 If you're running Nijuuei through DxWnd, make sure to disable the "Emulate Win9X heap" option in the Libs tab of the preset to prevent crashes.
