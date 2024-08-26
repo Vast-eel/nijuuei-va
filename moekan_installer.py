@@ -11,10 +11,11 @@ moepath = input("Enter the path to Moekan's Dat folder: ")
 moepath = Path(moepath)
 
 with tempfile.TemporaryDirectory() as temp:
+    archives = ["001", "005", "007"]
+
     print("Unpacking archives...")
-    subprocess.check_call([f"python dat_tool.py -e -m0 {moepath}/001.dat {temp}/001"], shell=True)
-    subprocess.check_call([f"python dat_tool.py -e -m0 {moepath}/005.dat {temp}/005"], shell=True)
-    subprocess.check_call([f"python dat_tool.py -e -m0 {moepath}/007.dat {temp}/007"], shell=True)
+    for archive in archives:
+        subprocess.run(["python"] + ["dat_tool.py", "-e", "-m0", f"{moepath}/{archive}.dat", f"{temp}/{archive}"])
 
     print("Importing console assets...")
     for file in Path("Patch/Ksd").iterdir():
@@ -27,10 +28,7 @@ with tempfile.TemporaryDirectory() as temp:
         shutil.copy(file, f"{temp}/007/{file.name}")
 
     print("Packing archives...")
-    subprocess.check_call([f"python dat_tool.py -i -m0 {temp}/001"], shell=True)
-    subprocess.check_call([f"python dat_tool.py -i -m0 {temp}/005"], shell=True)
-    subprocess.check_call([f"python dat_tool.py -i -m0 {temp}/007"], shell=True)
+    for archive in archives:
+        subprocess.run(["python"] + ["dat_tool.py", "-i", "-m0", f"{temp}/{archive}"])
 
     print("Done! Check the Imported folder.")
-
-# /home/vasteel/.src/.personal/nje/Moekan/Dat/
