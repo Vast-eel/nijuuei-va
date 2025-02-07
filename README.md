@@ -17,9 +17,9 @@ The game tends to crash or hang after animations on modern machines. To fix this
 
 Import the Nijuuei.dxw file from the game's root folder. Right click the preset, press Modify and make sure the path points to `二重影.exe`.
 
-Mount the game's second disc then go into the CDAudio tab, select the "Rip CD Audio" option in the "Generic" section and run the game once. DxWnd should dump the BGM to a folder named "Music" in the game's directory.
+Mount the game's second disc then go into the CDAudio tab, select the `Rip CD Audio` option in the `Generic` section and run the game once. DxWnd should dump the BGM to a folder named `Music` in the game's directory.
 
-After that, unmount the second disc, set the CDAudio option in DxWnd to "Use audio files" and change the path to point to the nocd exe. You should now be able to play the game without needing to have the second disc mounted at all times.
+After that, unmount the second disc, set the CDAudio option in DxWnd to `Use audio files` and change the path to point to the nocd exe. You should now be able to play the game without needing to have the second disc mounted at all times.
 
 ### Linux troubleshooting
 The game should run perfectly fine through Wine if you have Japanese fonts and locale properly set up (see [this](https://learnjapanese.moe/vn-linux/) guide). I last tested it on 10.0.
@@ -44,7 +44,7 @@ As for why this happens, the videos use 8bpp images rather than the 32bpp color 
 ### Mikoto route + voice patch
 Download [the main repo](https://github.com/Vast-eel/nijuuei-va/archive/refs/heads/main.zip) and extract it somewhere.
 
-Download [Dreamcast assets](https://drive.google.com/drive/folders/1G2Le9os8uZhP1Gn_i5qpAwLGcpBzGVn2?usp=sharing) and the [latest patch release](https://github.com/Vast-eel/nijuuei-va/releases/latest). Put everything into a "Patch" folder inside the repo directory.
+Download [Dreamcast assets](https://drive.google.com/drive/folders/1G2Le9os8uZhP1Gn_i5qpAwLGcpBzGVn2?usp=sharing) and the [latest patch release](https://github.com/Vast-eel/nijuuei-va/releases/latest). Put everything into a `Patch` folder inside the repo directory.
 
 The final directory structure should look like this:
 ```
