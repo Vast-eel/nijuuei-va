@@ -15,22 +15,30 @@ Next, download the [latest patch release](https://github.com/Vast-eel/nijuuei-va
 ### QoL fixes
 The game tends to crash or hang after animations on modern machines. To fix this, set the game to fullscreen (even if you want to play it windowed) and download [DxWnd](https://sourceforge.net/projects/dxwnd/).
 
-Import the Nijuuei.dxw file from the game's root folder. Right click the preset, press Modify and make sure the path points to 二重影.exe.
+Import the Nijuuei.dxw file from the game's root folder. Right click the preset, press Modify and make sure the path points to `二重影.exe`.
 
 Mount the game's second disc then go into the CDAudio tab, select the "Rip CD Audio" option in the "Generic" section and run the game once. DxWnd should dump the BGM to a folder named "Music" in the game's directory.
 
 After that, unmount the second disc, set the CDAudio option in DxWnd to "Use audio files" and change the path to point to the nocd exe. You should now be able to play the game without needing to have the second disc mounted at all times.
 
 ### Linux troubleshooting
-If you're running Nijuuei through DxWnd, make sure to disable the "Emulate Win9X heap" option in the Libs tab of the preset to prevent crashes.
-
-Other than that, it should run perfectly fine through Wine if you have Japanese fonts and locale properly set up (see [this](https://learnjapanese.moe/vn-linux/) guide). I last tested it on 9.4 in WoW64 mode.
+The game should run perfectly fine through Wine if you have Japanese fonts and locale properly set up (see [this](https://learnjapanese.moe/vn-linux/) guide). I last tested it on 10.0.
 
 By default the font rendering is a bit messed up (see wiki as to why). Use the nocd exe to fix this.
 
-As Wine has yet to implement ddraw7's WaitForVerticalBlank function, the game will run too fast for sprite transitions to properly display. You *can* force it to slow down by changing DxWnd's vsync mode to Frequency, but I wouldn't recommend it. You can have working transitions by setting the DxWnd renderer to D3D9, but this will make the game crash on animations as usual.
+As Wine has yet to implement ddraw7's WaitForVerticalBlank function, the game will run at an uncapped framerate, which is probably not something you want (see next section).
 
 The in-game volume sliders don't work. If you think the music's too loud compared to the voices, go into the CDAudio tab, tick Set emulated CD volume, then go into the Sound tab and change CD volume to your liking.
+
+### High refresh rates
+Nijuuei's rendering is synced to your monitor's refresh rate. This is fine if you have a 60hz monitor, but it makes everything display way faster if your screen's refresh rate is higher than that. It leads to fading transitions between images being basically nonexistent, for example.
+
+I don't use Windows all that much nowadays, so I wouldn't know what the best solution is to cap the framerate. Try your GPU's control panel or something like RivaTuner, I guess. If they don't budge, try going to the DirectX tab in the DxWnd preset's settings and changing the Renderer to D3D9, then go to the Video tab and lock the bit depth at 32bpp. This will make videos look weird, so preferably don't do it unless you absolutely have to.
+
+If you're a Linux user and the way the graphics display bothers you, do the step mentioned just above with changing the renderer. Make a `dxvk.conf` file in Nijuuei's root directory, edit it and add `d3d9.maxFrameRate = 60` as the first line. If you have DXVK set up in your Wine prefix, this should properly cap the frame rate. Note that, much like this makes videos break on Windows, this is going to screw them up for Linux as well - the DirectX 9 renderer makes the screen go black when one plays and it stays that way until you restart.
+
+As for why this happens, the videos use 8bpp images rather than the 32bpp color depth the rest of the game does. D3D9 doesn't play nice with that, for some reason. I should probably ask about that on the DxWnd support forum.
+
 
 ## Moekan
 ### Mikoto route + voice patch
