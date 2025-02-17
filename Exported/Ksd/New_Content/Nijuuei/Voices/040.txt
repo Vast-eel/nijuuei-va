@@ -1613,6 +1613,7 @@ name_set 双厳
 
 line_set 「この馬鹿が死ななければこうやって切り刻んで口を割らしてやったのによぉ！！！」
 
+sfx_set 2 Se\014.wav
 sfx_play 2
 
 name_clear
@@ -1751,7 +1752,6 @@ adv_on
 
 sfx_stop 0
 sfx_stop 1
-sfx_stop 2
 
 kgd_layer1_set 1 Kgd\W_008.kgd
 kgd_layer1_fadein
