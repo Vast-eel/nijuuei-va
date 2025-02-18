@@ -1270,8 +1270,6 @@ sfx_play 2
 
 line_set 「これでも口を割らす事は可能ですか？」
 
-sfx_stop 2
-
 name_set 双厳
 
 line_set 「？！」
