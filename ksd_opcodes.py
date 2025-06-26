@@ -31,7 +31,7 @@ opcodes_nijuuei = {
 
     # Layer 3: Character sprites
     0x1800: ('hh',  "kgd_layer3_set"),
-    0x1900: ('<HiiiiII',  "kgd_layer3_param"),
+    0x1900: ('HiiiiII',  "kgd_layer3_param"),
     0x1A00: ('h',  "kgd_layer3_display"),
     0x1B00: ('h',  "kgd_layer3_fadeout"),
     0x1C00: ('h',  "kgd_layer3_clear"),

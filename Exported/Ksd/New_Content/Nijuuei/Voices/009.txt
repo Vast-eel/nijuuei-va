@@ -1,787 +1,618 @@
+    wait 2000
 
-wait 2000
+    kgd_layer2_set 0 Kgd\B_038.kgd
+    kgd_layer2_crossfade 2
+    kgd_layer2_display
 
-kgd_layer2_set 0 Kgd\B_038.kgd
-kgd_layer2_crossfade 2
-kgd_layer2_display
+    jump_auto @0
 
-jump_auto 0
-@3
-
-kgd_layer2_set 1 Kgd\B_038.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@0
-
-jump_choice 1 ◆廊下へ移動
-@4
-
-kgd_layer2_set 1 Kgd\B_010.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 2 ◆廊下へ移動
-@1
 @2
-@7
+    kgd_layer2_set 1 Kgd\B_038.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_030.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+@0
+    jump_choice @1 ◆廊下へ移動
 
-jump_choice 3 ◆自室へ移動
-jump_choice 4 ◆大広間へ移動
-jump_choice 5 ◆屋敷外へ移動
-@5
-@10
-@15
-jump_branch1 7540 44
+@3
+    kgd_layer2_set 1 Kgd\B_010.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_034.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    jump_choice @1 ◆廊下へ移動
 
-section_jump_branch1 19
+@1
+    kgd_layer2_set 1 Kgd\B_030.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-jump_choice 6 ◆山道へ移動
-jump_choice 7 ◆屋敷内へ移動
-jump_choice 8 ◆村への道へ移動
+    jump_choice @2 ◆自室へ移動
+    jump_choice @3 ◆大広間へ移動
+    jump_choice @4 ◆屋敷外へ移動
+
+@4
+    jump_branch1 @5 44
+    kgd_layer2_set 1 Kgd\B_034.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch1 19
+
+    jump_choice @6 ◆山道へ移動
+    jump_choice @1 ◆屋敷内へ移動
+    jump_choice @7 ◆村への道へ移動
+
 @6
-@12
+    kgd_layer2_set 1 Kgd\B_014.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_014.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    jump_choice @8 ◆大岩へ移動
+    jump_choice @4 ◆屋敷前へ移動
 
-jump_choice 9 ◆大岩へ移動
-jump_choice 10 ◆屋敷前へ移動
-@9
-
-kgd_layer2_set 1 Kgd\B_002.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-section_jump_branch2 19
-
-jump_branch1 2891 43
-
-section_jump_branch1 43
-
-nvl_on
-
-line_set それは黄昏時の赤暗い明度。
-line_set 傾きはじめた日が放つ、
-line_set 赤光によって、青い空はすでに、紅色に浸蝕され、
-line_set 複雑な赤の変相を見せている。
-
-nvl_line_clear
-
-line_set 静かに響く虫の声。
-
-nvl_line_clear
-
-line_set もし神が大地に座するとすれば、
-line_set そのように見る者の心を威圧するのではないのだろうか？
-line_set 黒く浮かびあがる巨石を眺めていると、
-line_set そんな馬鹿馬鹿しい思いに駆られる。
-
-nvl_line_clear
-
-line_set 時刻は末の刻の頃だろうか・・・。
-line_set 夕刻にここで見る風景は、
-line_set なぜか双厳の心を捉えてはなさない。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 岩に張り付いた蔦は、
-line_set 昼間の日光に焼かれて、
-line_set パリパリに乾ききって死んでいる。
-line_set 死んでもなお、その岩肌にはりついているのだ。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳はその乾いた蔦を岩からはがそうとする。
-line_set 蔦は根本を岩に残し、茎はパラパラと砕けてしまう。
-
-nvl_line_clear
-
-line_set 夕刻の涼しい風に吹かれ岩肌は、
-line_set 日中に受けた熱を外に逃がしていく。
-
-adv_on
-
-line_set 「・・・・・・」
-
-nvl_on
-
-line_set 岩から、
-line_set 聞いたことのない、
-line_set 乾いた音が鳴っている・・・。
-line_set ような感じがしたが、
-line_set それはたぶん、単なる幻聴だったのであろう。
-
-nvl_line_clear
-
-line_set あたりは虫の声でいっぱいなのである。
-line_set それ以外の音はここに存在しないのである。
-
-nvl_line_clear
-
-line_set こんな事を何千年も繰り返しながら、
-line_set 巨石はここに在り続けたのだろうか？
-
-adv_on
-
-line_set 「・・・」
-line_set 「何千年も何万年もこの岩はこのように過ごしてきたのであろうか・・・」
-line_set 「！？」
-
-nvl_on
-
-line_set 双厳は人の気配を感じる。
-line_set 反射的に大岩の影に身を隠す。
-
-adv_on
-
-kgd_layer2_set 1 Kgd\B_083.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-nvl_on
-
-line_set 「・・・」
-line_set 「人影だ・・・」
-line_set 「４、５人ほどいるな・・・」
-
-nvl_line_clear
-
-line_set 双厳が目を凝らすと、それが島の住人であることが分かる。
-
-nvl_line_clear
-
-line_set 「島の人間がこんな時間にこんな場所でなにをしているのだ・・・」
-
-adv_on
-
-name_set 村人
-
-line_set 「・・・」
-line_set 「どうだ・・・」
-line_set 「方角的には・・・」
-
-nvl_on
-
-line_set 村人は海岸の方を指さしながら何事か相談している。
-
-adv_on
-
-line_set 「あの辺であろう・・・」
-line_set 「時期が土気の戌月の・・・」
-line_set 「あーあそこだな・・・」
-
-nvl_on
-
-line_set 「・・・」
-line_set 「なんの相談だ？」
-
-nvl_line_clear
-
-line_set 双厳はさらに村人に近づいてみる。
-
-adv_on
-
-line_set 「ヒルコ鳥居はすでに出来たのか？」
-line_set 「ああ・・・」
-line_set 「すでに出来ている」
-line_set 「ならば後はあそこにヒルコ鳥居を建てるだけだな」
-
-nvl_on
-
-line_set 「ヒルコ鳥居？」
-line_set 「この島を囲っている、この鳥居の事か？」
-line_set 「また鳥居を建てるのか・・・」
-line_set 「という事は・・・」
-
-adv_on
-
-line_set 「さてと、場所も確認したし・・・」
-line_set 「帰るか・・・」
-line_set 「そうだな・・・」
-
-kgd_layer2_set 1 Kgd\B_002.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-nvl_on
-
-line_set 村人は相談が終わるとそうそうと村に引き返した。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「鳥居をまた建てるのか・・・」
-line_set 「ということは・・・」
-@14
-#43_1
-
-jump_choice 11 ◆登る
-jump_choice 12 ◆山道へ移動
-@11
-
-kgd_layer1_set 1 Kgd\Be_009.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-
-jump_choice 13 ◆降りる
-@13
-
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-
-jump_auto 14
 @8
-@17
+    kgd_layer2_set 1 Kgd\B_002.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch2 19
 
-kgd_layer2_set 1 Kgd\B_042.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    jump_branch1 @9 43
+    section_jump_branch1 43
 
-jump_choice 15 ◆屋敷前へ移動
-jump_choice 16 ◆村へ移動
+    nvl_on
+    line_set それは黄昏時の赤暗い明度。
+    line_set 傾きはじめた日が放つ、
+    line_set 赤光によって、青い空はすでに、紅色に浸蝕され、
+    line_set 複雑な赤の変相を見せている。
+    nvl_line_clear
+    line_set 静かに響く虫の声。
+    nvl_line_clear
+    line_set もし神が大地に座するとすれば、
+    line_set そのように見る者の心を威圧するのではないのだろうか？
+    line_set 黒く浮かびあがる巨石を眺めていると、
+    line_set そんな馬鹿馬鹿しい思いに駆られる。
+    nvl_line_clear
+    line_set 時刻は末の刻の頃だろうか・・・。
+    line_set 夕刻にここで見る風景は、
+    line_set なぜか双厳の心を捉えてはなさない。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 岩に張り付いた蔦は、
+    line_set 昼間の日光に焼かれて、
+    line_set パリパリに乾ききって死んでいる。
+    line_set 死んでもなお、その岩肌にはりついているのだ。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳はその乾いた蔦を岩からはがそうとする。
+    line_set 蔦は根本を岩に残し、茎はパラパラと砕けてしまう。
+    nvl_line_clear
+    line_set 夕刻の涼しい風に吹かれ岩肌は、
+    line_set 日中に受けた熱を外に逃がしていく。
+
+    adv_on
+    line_set 「・・・・・・」
+
+    nvl_on
+    line_set 岩から、
+    line_set 聞いたことのない、
+    line_set 乾いた音が鳴っている・・・。
+    line_set ような感じがしたが、
+    line_set それはたぶん、単なる幻聴だったのであろう。
+    nvl_line_clear
+    line_set あたりは虫の声でいっぱいなのである。
+    line_set それ以外の音はここに存在しないのである。
+    nvl_line_clear
+    line_set こんな事を何千年も繰り返しながら、
+    line_set 巨石はここに在り続けたのだろうか？
+
+    adv_on
+    line_set 「・・・」
+    line_set 「何千年も何万年もこの岩はこのように過ごしてきたのであろうか・・・」
+    line_set 「！？」
+
+    nvl_on
+    line_set 双厳は人の気配を感じる。
+    line_set 反射的に大岩の影に身を隠す。
+
+    adv_on
+    kgd_layer2_set 1 Kgd\B_083.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「人影だ・・・」
+    line_set 「４、５人ほどいるな・・・」
+    nvl_line_clear
+    line_set 双厳が目を凝らすと、それが島の住人であることが分かる。
+    nvl_line_clear
+    line_set 「島の人間がこんな時間にこんな場所でなにをしているのだ・・・」
+
+    adv_on
+    name_set 村人
+    line_set 「・・・」
+    line_set 「どうだ・・・」
+    line_set 「方角的には・・・」
+
+    nvl_on
+    line_set 村人は海岸の方を指さしながら何事か相談している。
+
+    adv_on
+    line_set 「あの辺であろう・・・」
+    line_set 「時期が土気の戌月の・・・」
+    line_set 「あーあそこだな・・・」
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「なんの相談だ？」
+    nvl_line_clear
+    line_set 双厳はさらに村人に近づいてみる。
+
+    adv_on
+    line_set 「ヒルコ鳥居はすでに出来たのか？」
+    line_set 「ああ・・・」
+    line_set 「すでに出来ている」
+    line_set 「ならば後はあそこにヒルコ鳥居を建てるだけだな」
+
+    nvl_on
+    line_set 「ヒルコ鳥居？」
+    line_set 「この島を囲っている、この鳥居の事か？」
+    line_set 「また鳥居を建てるのか・・・」
+    line_set 「という事は・・・」
+
+    adv_on
+    line_set 「さてと、場所も確認したし・・・」
+    line_set 「帰るか・・・」
+    line_set 「そうだな・・・」
+
+    kgd_layer2_set 1 Kgd\B_002.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    nvl_on
+    line_set 村人は相談が終わるとそうそうと村に引き返した。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「鳥居をまた建てるのか・・・」
+    line_set 「ということは・・・」
+
+@9
+    jump_choice @10 ◆登る
+    jump_choice @6 ◆山道へ移動
+
+@10
+    kgd_layer1_set 1 Kgd\Be_009.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+
+    jump_choice @11 ◆降りる
+
+@11
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @9
+
+@7
+    kgd_layer2_set 1 Kgd\B_042.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @4 ◆屋敷前へ移動
+    jump_choice @12 ◆村へ移動
+
+@12
+    kgd_layer2_set 1 Kgd\B_046.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch2 19
+
+    jump_choice @7 ◆屋敷前への道へ移動
+    jump_choice @13 ◆海岸へ移動
+    jump_choice @14 ◆港へ移動
+
+@14
+    kgd_layer2_set 1 Kgd\B_062.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @12 ◆村へ移動
+    jump_choice @13 ◆海岸へ移動
+
+@13
+    kgd_layer2_set 1 Kgd\B_050.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @15 44
+    jump_branch2 @15 43
+    nvl_on
+    line_set この海岸が、村人が指していたあたりだ・・・。
+    nvl_line_clear
+    line_set 「ここに鳥居を建てるのだろうか・・・」
+
+    adv_on
+    name_set 楓玲
+    sfx_set 2 Vox\6474.wav
+    sfx_play 2
+    line_set 「おーい！」
+    sfx_stop 2
+
+    kgd_layer3_set 0 Kgd\Fu_002.kgd
+    kgd_layer3_param 0 128 0 0 0 544 600
+    kgd_layer3_display 0
+
+    name_set 双厳
+    line_set 「お前は・・・」
+
+    kgd_layer3_set 3 Kgd\Fu_007.kgd
+    kgd_layer3_param 3 128 0 0 0 544 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6473.wav
+    sfx_play 2
+    line_set 「お前なんて呼ばないでよ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6472.wav
+    sfx_play 2
+    line_set 「楓玲っていうんだから、私の名前は！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    kgd_layer3_set 3 Kgd\Fu_001.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6471.wav
+    sfx_play 2
+    line_set 「さっきから何やってるのあなた？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6470.wav
+    sfx_play 2
+    line_set 「鳥居なんて一生懸命見ちゃって・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳は、楓玲の言葉など聞こえなかったような素振りで、海岸に立ち並ぶ鳥居を調べていく。
+
+    adv_on
+    name_set 楓玲
+    line_set 「・・・」
+
+    sfx_set 2 Vox\6469.wav
+    sfx_play 2
+    line_set 「やっぱり答えられないの？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    kgd_layer3_set 3 Kgd\Fu_006.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6468.wav
+    sfx_play 2
+    line_set 「たいそうな余裕ね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6467.wav
+    sfx_play 2
+    line_set 「観光気分かしら？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6466.wav
+    sfx_play 2
+    line_set 「鳥居なんて熱心に見ちゃって」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6465.wav
+    sfx_play 2
+    line_set 「でも私たちの仕事は海賊を退治することよ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6464.wav
+    sfx_play 2
+    line_set 「鳥居なんて見てる暇あるなら、ちゃんと見回りでもしたら？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳はまったく答えない。
+
+    adv_on
+    kgd_layer3_set 3 Kgd\Fu_008.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6463.wav
+    sfx_play 2
+    line_set 「あなた、さっきから失礼ね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6462.wav
+    sfx_play 2
+    line_set 「返事ぐらいしなさいよ！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    jump_choice @16 ◆返事をする
+    jump_choice @17 ◆返事をしない
+
 @16
-@20
-@28
+    line_set 「ああ」
 
-kgd_layer2_set 1 Kgd\B_046.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    name_set 楓玲
+    sfx_set 2 Vox\6461.wav
+    sfx_play 2
+    line_set 「『ああ』じゃないわよ！」
+    sfx_stop 2
 
-section_jump_branch2 19
+    sfx_set 2 Vox\6460.wav
+    sfx_play 2
+    line_set 「何してるか答えなさいよ」
+    sfx_stop 2
 
-jump_choice 17 ◆屋敷前への道へ移動
-jump_choice 18 ◆海岸へ移動
-jump_choice 19 ◆港へ移動
-@19
-@29
+    name_set 双厳
+    line_set 「・・・」
 
-kgd_layer2_set 1 Kgd\B_062.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    jump_choice @18 ◆返事をする
+    jump_choice @17 ◆返事をしない
 
-jump_choice 20 ◆村へ移動
-jump_choice 21 ◆海岸へ移動
 @18
-@21
-@31
-
-kgd_layer2_set 1 Kgd\B_050.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch1 7429 44
-jump_branch2 7429 43
-
-nvl_on
-
-line_set この海岸が、村人が指していたあたりだ・・・。
-
-nvl_line_clear
-
-line_set 「ここに鳥居を建てるのだろうか・・・」
-
-adv_on
-
-name_set 楓玲
-
-sfx_set 2 Vox\6474.wav
-sfx_play 2
-
-line_set 「おーい！」
-
-sfx_stop 2
-
-kgd_layer3_set 0 Kgd\Fu_002.kgd
-kgd_layer3_param 0 128 0 0 0 544 600
-kgd_layer3_display 0
-
-name_set 双厳
-
-line_set 「お前は・・・」
-
-kgd_layer3_set 3 Kgd\Fu_007.kgd
-kgd_layer3_param 3 128 0 0 0 544 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\6473.wav
-sfx_play 2
-
-line_set 「お前なんて呼ばないでよ」
-
-sfx_stop 2
-sfx_set 2 Vox\6472.wav
-sfx_play 2
-
-line_set 「楓玲っていうんだから、私の名前は！」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-kgd_layer3_set 3 Kgd\Fu_001.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\6471.wav
-sfx_play 2
-
-line_set 「さっきから何やってるのあなた？」
-
-sfx_stop 2
-sfx_set 2 Vox\6470.wav
-sfx_play 2
-
-line_set 「鳥居なんて一生懸命見ちゃって・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳は、楓玲の言葉など聞こえなかったような素振りで、海岸に立ち並ぶ鳥居を調べていく。
-
-adv_on
-
-name_set 楓玲
-
-line_set 「・・・」
-
-sfx_set 2 Vox\6469.wav
-sfx_play 2
-
-line_set 「やっぱり答えられないの？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-kgd_layer3_set 3 Kgd\Fu_006.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\6468.wav
-sfx_play 2
-
-line_set 「たいそうな余裕ね」
-
-sfx_stop 2
-sfx_set 2 Vox\6467.wav
-sfx_play 2
-
-line_set 「観光気分かしら？」
-
-sfx_stop 2
-sfx_set 2 Vox\6466.wav
-sfx_play 2
-
-line_set 「鳥居なんて熱心に見ちゃって」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6465.wav
-sfx_play 2
-
-line_set 「でも私たちの仕事は海賊を退治することよ」
-
-sfx_stop 2
-sfx_set 2 Vox\6464.wav
-sfx_play 2
-
-line_set 「鳥居なんて見てる暇あるなら、ちゃんと見回りでもしたら？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳はまったく答えない。
-
-adv_on
-
-kgd_layer3_set 3 Kgd\Fu_008.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\6463.wav
-sfx_play 2
-
-line_set 「あなた、さっきから失礼ね」
-
-sfx_stop 2
-sfx_set 2 Vox\6462.wav
-sfx_play 2
-
-line_set 「返事ぐらいしなさいよ！」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-jump_choice 22 ◆返事をする
-jump_choice 23 ◆返事をしない
-@22
-
-line_set 「ああ」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6461.wav
-sfx_play 2
-
-line_set 「『ああ』じゃないわよ！」
-
-sfx_stop 2
-sfx_set 2 Vox\6460.wav
-sfx_play 2
-
-line_set 「何してるか答えなさいよ」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-jump_choice 24 ◆返事をする
-jump_choice 25 ◆返事をしない
-@24
-
-section_jump_branch1 44
-
-line_set 「・・・」
-
-kgd_layer3_set 3 Kgd\Fu_007.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\6459.wav
-sfx_play 2
-
-line_set 「まだ、だんまりを決め込む気かしら？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「島周辺に鳥居があるということ・・・」
-line_set 「これにどんな意味があるかわかるか？」
-
-kgd_layer3_set 3 Kgd\Fu_005.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\6458.wav
-sfx_play 2
-
-line_set 「え？」
-
-sfx_stop 2
-sfx_set 2 Vox\6457.wav
-sfx_play 2
-
-line_set 「か、神様が通る？」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 楓玲はそれまで沈黙していた双厳が突然質問してきたので拍子抜けし、奇妙な声で答えた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「そんな事はどうでもいい」
-line_set 「兵法上は、鳥居自体の宗教的意味などどうでもいい事だ」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6456.wav
-sfx_play 2
-
-line_set 「うっ」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「これだけ鳥居が海辺にあれば・・・」
-line_set 「舟の出入りの邪魔になる」
-line_set 「鳥居の建てられた位置は兵法上重要な意味を帯びてくる」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6455.wav
-sfx_play 2
-
-line_set 「そ、そうね・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「たとえば、鳥居は海上から攻めてくる海賊の上陸の防御線にもなる」
-line_set 「もし俺が海賊なら、鳥居が一番少ないところから攻めるだろう」
-line_set 「しかしそれはあまりに正攻法な攻撃の仕方だ」
-line_set 「ならば、正攻法ではない攻め方なら・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6454.wav
-sfx_play 2
-
-line_set 「う、うん」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「と、まぁ・・・このように、鳥居を見ながら考えていたのだ」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6453.wav
-sfx_play 2
-
-line_set 「あっそう・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「正攻法であるにしろ、そうでないにしろ」
-line_set 「この島を海賊から守るとなると、この鳥居の存在が重要となってくるのは確かだ・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6452.wav
-sfx_play 2
-
-line_set 「そ、そうね・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「てなことで俺は俺のやり方で仕事をする」
-line_set 「あまり俺に干渉しないでくれ」
-
-kgd_layer3_set 3 Kgd\Fu_004.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\6451.wav
-sfx_play 2
-
-line_set 「う、うん」
-
-sfx_stop 2
-sfx_set 2 Vox\6450.wav
-sfx_play 2
-
-line_set 「分かった・・・」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 双厳がそう言い放つと楓玲は少ししょぼくれて海岸から消えた。
-
-adv_on
-
-jump_auto 26
-@23
-@25
-
-section_jump_branch1 44
-
-name_set 楓玲
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「・・・」
-
-kgd_layer3_set 3 Kgd\Fu_006.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\6449.wav
-sfx_play 2
-
-line_set 「ふう・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6448.wav
-sfx_play 2
-
-line_set 「そうやって、だんまりを決め込むのね」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6447.wav
-sfx_play 2
-
-line_set 「答えられないって事は、図星って事でしょう」
-
-sfx_stop 2
-sfx_set 2 Vox\6446.wav
-sfx_play 2
-
-line_set 「観光気分で物珍しげな鳥居眺めてんでしょ」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-kgd_layer3_set 3 Kgd\Fu_007.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\6445.wav
-sfx_play 2
-
-line_set 「ふん！」
-
-sfx_stop 2
-sfx_set 2 Vox\6444.wav
-sfx_play 2
-
-line_set 「少しは見込みがあると思ったケド見当違いだったかしら？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 楓玲はそのまま海岸から消えていった。
-
-adv_on
-
-jump_auto 27
-@26
-@27
-#44_2
-!43
-jump_choice 28 ◆村へ移動
-jump_choice 29 ◆港へ移動
-jump_choice 30 ◆物見やぐらへ移動
-@30
-
-kgd_layer2_set 1 Kgd\B_066.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 31 ◆海岸へ移動
-#44_0
-
-kgd_layer2_crossfade 1
-kgd_layer2_fade_unk 0
-
-music_stop
-
-ksd_set Ksd\010.ksd
-ksd_end
+    section_jump_branch1 44
+    line_set 「・・・」
+
+    kgd_layer3_set 3 Kgd\Fu_007.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6459.wav
+    sfx_play 2
+    line_set 「まだ、だんまりを決め込む気かしら？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「島周辺に鳥居があるということ・・・」
+    line_set 「これにどんな意味があるかわかるか？」
+
+    kgd_layer3_set 3 Kgd\Fu_005.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6458.wav
+    sfx_play 2
+    line_set 「え？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6457.wav
+    sfx_play 2
+    line_set 「か、神様が通る？」
+    sfx_stop 2
+
+    nvl_on
+    line_set 楓玲はそれまで沈黙していた双厳が突然質問してきたので拍子抜けし、奇妙な声で答えた。
+
+    adv_on
+    name_set 双厳
+    line_set 「そんな事はどうでもいい」
+    line_set 「兵法上は、鳥居自体の宗教的意味などどうでもいい事だ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6456.wav
+    sfx_play 2
+    line_set 「うっ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「これだけ鳥居が海辺にあれば・・・」
+    line_set 「舟の出入りの邪魔になる」
+    line_set 「鳥居の建てられた位置は兵法上重要な意味を帯びてくる」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6455.wav
+    sfx_play 2
+    line_set 「そ、そうね・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「たとえば、鳥居は海上から攻めてくる海賊の上陸の防御線にもなる」
+    line_set 「もし俺が海賊なら、鳥居が一番少ないところから攻めるだろう」
+    line_set 「しかしそれはあまりに正攻法な攻撃の仕方だ」
+    line_set 「ならば、正攻法ではない攻め方なら・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6454.wav
+    sfx_play 2
+    line_set 「う、うん」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「と、まぁ・・・このように、鳥居を見ながら考えていたのだ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6453.wav
+    sfx_play 2
+    line_set 「あっそう・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「正攻法であるにしろ、そうでないにしろ」
+    line_set 「この島を海賊から守るとなると、この鳥居の存在が重要となってくるのは確かだ・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6452.wav
+    sfx_play 2
+    line_set 「そ、そうね・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「てなことで俺は俺のやり方で仕事をする」
+    line_set 「あまり俺に干渉しないでくれ」
+
+    kgd_layer3_set 3 Kgd\Fu_004.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6451.wav
+    sfx_play 2
+    line_set 「う、うん」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6450.wav
+    sfx_play 2
+    line_set 「分かった・・・」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 双厳がそう言い放つと楓玲は少ししょぼくれて海岸から消えた。
+
+    adv_on
+    jump_auto @15
+
+@17
+    section_jump_branch1 44
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    kgd_layer3_set 3 Kgd\Fu_006.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6449.wav
+    sfx_play 2
+    line_set 「ふう・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6448.wav
+    sfx_play 2
+    line_set 「そうやって、だんまりを決め込むのね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6447.wav
+    sfx_play 2
+    line_set 「答えられないって事は、図星って事でしょう」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6446.wav
+    sfx_play 2
+    line_set 「観光気分で物珍しげな鳥居眺めてんでしょ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    kgd_layer3_set 3 Kgd\Fu_007.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6445.wav
+    sfx_play 2
+    line_set 「ふん！」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6444.wav
+    sfx_play 2
+    line_set 「少しは見込みがあると思ったケド見当違いだったかしら？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 楓玲はそのまま海岸から消えていった。
+
+    adv_on
+    jump_auto @15
+
+@15
+    jump_choice @12 ◆村へ移動
+    jump_choice @14 ◆港へ移動
+    jump_choice @19 ◆物見やぐらへ移動
+
+@19
+    kgd_layer2_set 1 Kgd\B_066.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @13 ◆海岸へ移動
+
+@5
+    kgd_layer2_crossfade 1
+    kgd_layer2_fade_unk 0
+    music_stop
+    ksd_set Ksd\010.ksd
+    ksd_end

@@ -1,1551 +1,1231 @@
+    nvl_on
+    line_set 何時間たっただろうか、
+    line_set 双厳はかなり眠っていたような気もしたし、
+    line_set また少ししか眠っていないような気もした。
 
-nvl_on
+    adv_on
+    kgd_layer1_set 0 Kgd\Be_012.kgd
+    kgd_layer2_set 0 Kgd\B_002.kgd
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play 13
 
-line_set 何時間たっただろうか、
-line_set 双厳はかなり眠っていたような気もしたし、
-line_set また少ししか眠っていないような気もした。
+    name_set 双厳
+    line_set 「・・・」
 
-adv_on
+    nvl_on
+    line_set あたりは紅に染まっていた。
 
-kgd_layer1_set 0 Kgd\Be_012.kgd
-kgd_layer2_set 0 Kgd\B_002.kgd
-kgd_layer1_display
-kgd_layer1_fx 1
+    adv_on
+    line_set 「夕方か・・・」
 
-music_play 13
+    nvl_on
+    line_set 双厳は大岩から降りる。
 
-name_set 双厳
+    adv_on
+    jump_auto @0
 
-line_set 「・・・」
-
-nvl_on
-
-line_set あたりは紅に染まっていた。
-
-adv_on
-
-line_set 「夕方か・・・」
-
-nvl_on
-
-line_set 双厳は大岩から降りる。
-
-adv_on
-
-jump_auto 0
-@18
-@28
-@30
-
-kgd_layer2_set 1 Kgd\B_014.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch1 2590 182
-
-section_jump_branch1 182
-
-kgd_layer3_set 0 Kgd\Ky_001.kgd
-kgd_layer3_param 0 108 0 0 0 584 600
-kgd_layer3_display 0
-
-nvl_on
-
-line_set 山道を降りていくと桔梗がそこに立っていた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳はそのまま無言で横切ろうとする。
-
-adv_on
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4199.wav
-sfx_play 2
-
-line_set 「まだ、儀式は続いています・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「安心しろ」
-line_set 「あの化け物は俺が斬る」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4198.wav
-sfx_play 2
-
-line_set 「斬る事はできません」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「人を斬るための剣ならばな・・・」
-line_set 「だが」
-line_set 「剣のすべてが人を斬るだけのものではない」
-line_set 「呪いを断ち切るための剣だってある」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4197.wav
-sfx_play 2
-
-line_set 「人を斬るのでなく」
-
-sfx_stop 2
-sfx_set 2 Vox\4196.wav
-sfx_play 2
-
-line_set 「呪いを斬る剣・・・」
-
-sfx_stop 2
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4195.wav
-sfx_play 2
-
-line_set 「たしかに・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4194.wav
-sfx_play 2
-
-line_set 「人と」
-
-sfx_stop 2
-sfx_set 2 Vox\4193.wav
-sfx_play 2
-
-line_set 「人外の狭間に生きる貴方ならそれができるかもしれませんね・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4192.wav
-sfx_play 2
-
-line_set 「でも・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4191.wav
-sfx_play 2
-
-line_set 「仮に」
-
-sfx_stop 2
-sfx_set 2 Vox\4190.wav
-sfx_play 2
-
-line_set 「呪いを断ち切る剣があったとして」
-
-sfx_stop 2
-sfx_set 2 Vox\4189.wav
-sfx_play 2
-
-line_set 「人に・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4188.wav
-sfx_play 2
-
-line_set 「神々の呪いが断ち切れるでしょうか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「できるかどうかなんて知らねぇ・・・」
-line_set 「ただ・・・」
-line_set 「ただな」
-line_set 「これ以上、好きにはさせねぇ・・・」
-line_set 「俺に言える事はそれだけだ・・・」
-line_set 「神々の呪い？」
-line_set 「そんなものくそ食らえだ」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 桔梗は無言のまま消えていく。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「人を斬る以外の剣・・・」
-line_set 「呪いを断ち切る剣・・・」
-line_set 「いや・・・」
-line_set 「人を斬り」
-line_set 「そして」
-line_set 「神を斬る」
-line_set 「俺の剣はそういうものだ・・・」
-
-nvl_line_clear
-
-line_set 二つ影双厳。
-line_set 二つの影を持つ異形の剣士。
-line_set 人にあっては人を斬り・・・。
-line_set 鬼にあっては鬼を斬り・・・。
-line_set 神にあっては神を斬る・・・。
-
-nvl_line_clear
-
-line_set それは祝福される事のない。
-line_set 呪われた剣。
-
-nvl_line_clear
-
-line_set それ故に彼は、
-line_set 人からも、
-line_set 異形からも、
-line_set 命を狙われる。
-
-nvl_line_clear
-
-line_set しかし、
-line_set そんな剣を”好きだ”といった者もいた。
-
-nvl_line_clear
-
-line_set 人を殺し、
-line_set 鬼を殺し、
-line_set 神までも殺す剣。
-line_set その禍々しいまでの兇刃に、
-line_set 彼は何をみたのであろうか・・・。
-
-nvl_line_clear
-
-line_set しかしその意味はすでに、
-line_set 死んでしまった、北条主税以外に知るものはいなかった。
-
-adv_on
-#182_0
-
-jump_choice 1 ◆大岩へ移動
-jump_choice 2 ◆森林へ移動
-jump_choice 3 ◆屋敷前へ移動
-@17
-@19
-@36
-@37
-@39
-
-kgd_layer2_set 1 Kgd\B_030.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch1 4073 185
-jump_branch1 8883 184
-jump_branch2 8883 183
-
-section_jump_branch1 184
-
-nvl_on
-
-line_set 命は廊下の端でうずくまっている。
-
-adv_on
-
-kgd_layer3_set 0 Kgd\Mi_029.kgd
-kgd_layer3_param 0 152 0 0 0 496 600
-kgd_layer3_display 0
-
-name_set 命
-
-sfx_set 2 Vox\4179.wav
-sfx_play 2
-
-line_set 「二つ影・・・」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 双厳の姿を確認した命は弱々しく立ち上がる。
-
-adv_on
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4178.wav
-sfx_play 2
-
-line_set 「柳生の里の人間は私と十兵衛さまを残して全員死んでしまった・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4177.wav
-sfx_play 2
-
-line_set 「幕府の指令を実行するために・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 命
-
-sfx_set 2 Vox\4176.wav
-sfx_play 2
-
-line_set 「でも・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4175.wav
-sfx_play 2
-
-line_set 「そこまでしてしなければいけない事なんてあるのかな・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4174.wav
-sfx_play 2
-
-line_set 「私には・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4173.wav
-sfx_play 2
-
-line_set 「私にはわからない・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 命
-
-sfx_set 2 Vox\4172.wav
-sfx_play 2
-
-line_set 「次は・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4171.wav
-sfx_play 2
-
-line_set 「楓玲さんが死ぬ事になる・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4170.wav
-sfx_play 2
-
-line_set 「そしてその次には・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そうはならない」
-
-name_set 命
-
-sfx_set 2 Vox\4169.wav
-sfx_play 2
-
-line_set 「？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「まだまだできる事はある」
-line_set 「このままではおわらせない」
-
-kgd_layer3_set 3 Kgd\Mi_022.kgd
-kgd_layer3_param 3 152 0 0 0 496 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 命
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4168.wav
-sfx_play 2
-
-line_set 「そうだよね」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 命
-
-sfx_set 2 Vox\4167.wav
-sfx_play 2
-
-line_set 「ふふふ・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4166.wav
-sfx_play 2
-
-line_set 「仇の貴方に勇気づけられるなんて・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4165.wav
-sfx_play 2
-
-line_set 「やっぱり、私はまだまだだね・・・」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-jump_auto 4
-#185_1
-
-kgd_layer3_set 0 Kgd\Fu_011.kgd
-kgd_layer3_param 0 128 0 0 0 544 600
-kgd_layer3_display 0
-
-name_set 双厳
-
-line_set 「どうした・・・」
-line_set 「楓玲・・・」
-
-name_set 楓玲
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳がようやく追いついた楓玲に、事情を聞く。
-line_set しかし楓玲はらしくない態度で、双厳に顔を向けようともしない。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\4164.wav
-sfx_play 2
-
-line_set 「・・・分かってるんでしょ？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「何がだ・・・」
-
-kgd_layer3_set 3 Kgd\Fu_012.kgd
-kgd_layer3_param 3 128 0 0 0 544 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-sfx_set 2 Vox\4163.wav
-sfx_play 2
-
-line_set 「今日・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4162.wav
-sfx_play 2
-
-line_set 「あたしが死ぬんでしょ・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\4161.wav
-sfx_play 2
-
-line_set 「やっぱり・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4160.wav
-sfx_play 2
-
-line_set 「うすうす感じてたんだ」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 楓玲の言葉に、双厳は何も言えなくなっていた。
-line_set 確かに双厳は次に死ぬのが楓玲だと知っている。
-line_set そしてそれを楓玲本人には話していない。
-line_set 余計なことを言って不安にさせたりするのは、避けるべきだと考えた。
-
-nvl_line_clear
-
-line_set しかし様々な点を考慮し、あえて言わなかった事が、こうした事態に行き着いてしまう。
-line_set いつかは気付くであろう真実の日が、こうして現実のものとなっていた。
-
-nvl_line_clear
-
-line_set 「やはり気付いていたか・・・」
-line_set 「次々に阿波路に集められた用心棒が死んでいくのを目にすれば」
-line_set 「楓玲でなくとも気がつくであろうが・・・」
-
-adv_on
-
-jump_choice 5 ◆絶対に呪いを解いてやる
-jump_choice 6 ◆何とかする
-@5
-
-affection_plus 1
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「安心しろ・・・」
-line_set 「絶対に呪いを解いてやる」
-
-kgd_layer3_set 3 Kgd\Fu_011.kgd
-kgd_layer3_param 3 128 0 0 0 544 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「俺を信じろ」
-
-name_set 楓玲
-
-sfx_set 2 Vox\4159.wav
-sfx_play 2
-
-line_set 「・・・うん」
-
-sfx_stop 2
-sfx_set 2 Vox\4158.wav
-sfx_play 2
-
-line_set 「信じる・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4157.wav
-sfx_play 2
-
-line_set 「双厳のこと、信じるよ」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「この馬鹿げた儀式を絶対に終わらせる」
-
-nvl_on
-
-line_set 双厳は、楓玲にでなく自分に言い聞かせるようにつぶやいた。
-
-adv_on
-
-name_set 楓玲
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4156.wav
-sfx_play 2
-
-line_set 「そうだね・・・」
-
-sfx_stop 2
-
-jump_auto 7
-@6
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「何とかする・・・」
-
-kgd_layer3_set 3 Kgd\Fu_011.kgd
-kgd_layer3_param 3 128 0 0 0 544 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 楓玲
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「最後まで望みを捨てるな」
-line_set 「何かあるはずだ」
-
-name_set 楓玲
-
-sfx_set 2 Vox\4155.wav
-sfx_play 2
-
-line_set 「何かって・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4154.wav
-sfx_play 2
-
-line_set 「・・・何かできる事があるの？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「できるはずだ・・・」
-line_set 「まだなにか・・・」
-
-name_set 楓玲
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4153.wav
-sfx_play 2
-
-line_set 「まだ・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4152.wav
-sfx_play 2
-
-line_set 「何かできるかな？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ああ・・・」
-line_set 「まだ終わらせない」
-@7
-
-name_set 楓玲
-
-sfx_set 2 Vox\4151.wav
-sfx_play 2
-
-line_set 「あたし、行くね・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4150.wav
-sfx_play 2
-
-line_set 「じゃあね・・・」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 「・・・」
-
-nvl_line_clear
-
-line_set さしもの楓玲でも、今回ばかりはいつもの元気を見せられない。
-line_set それほどに自分に迫る”死”の宣告に怯えているのが分かった。
-line_set 双厳の言葉など、気休め以下でしかない。
-line_set それでも何も言わないよりかは、幾分かマシだといえた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「で、いつまで見てるつもりだ？」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-kgd_layer3_set 0 Kgd\Ky_001.kgd
-kgd_layer3_param 0 108 0 0 0 584 600
-kgd_layer3_display 0
-
-nvl_on
-
-line_set 双厳の言葉に呼び出された桔梗が物陰から姿を現す。
-line_set どうやら一部始終を見られていたらしい。
-
-adv_on
-
-name_set 双厳
-
-line_set 「覗き見とは感心しねぇな」
-line_set 「それが趣味ってんなら話は別だが？」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「何とか言えよ」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4187.wav
-sfx_play 2
-
-line_set 「すみません・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 桔梗
-
-sfx_set 2 Vox\4186.wav
-sfx_play 2
-
-line_set 「私に言える事はなにもありません・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4185.wav
-sfx_play 2
-
-line_set 「今の私には貴方達を救う方法が見つかりません」
-
-sfx_stop 2
-sfx_set 2 Vox\4184.wav
-sfx_play 2
-
-line_set 「その私に何が言えるのですか？」
-
-sfx_stop 2
-
-jump_choice 8 ◆それも一理あるな
-jump_choice 9 ◆見捨てろっていうのか？
-@8
-
-affection_plus 4
-
-name_set 双厳
-
-line_set 「ふむ・・・それも一理あるなぁ・・・」
-line_set 「なんて事を言うとでも思ったか？」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「できないからあきらめる？」
-line_set 「まだ結果も出ていないものを、なぜあきらめられるか」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「お前が言うとおりこの呪いが神の手によるものだとして」
-line_set 「問題解決できねぇから次のことを考えましょうだぁ？」
-line_set 「手前の都合で勝手に終わった、なんて決めつけるなよ」
-
-jump_auto 10
-@9
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「見捨てろっていうのかよ？」
-
-name_set 桔梗
-
-line_set 「・・・」
-line_set 「・・・・・・」
-
-name_set 双厳
-
-line_set 「けっ・・・どうにもできねぇから見殺しかよ」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 桔梗はなにも答えない。
-
-adv_on
-@10
-
-name_set 桔梗
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「ふぅ・・・」
-line_set 「もうちょいマシな奴かと思ったんだがな」
-line_set 「もういいぜ」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4183.wav
-sfx_play 2
-
-line_set 「私は岩の守り部です・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4182.wav
-sfx_play 2
-
-line_set 「それ以上でもそれ以下でもありません・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「つまり岩の封印が守れればいいのか？」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4181.wav
-sfx_play 2
-
-line_set 「すみません・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4180.wav
-sfx_play 2
-
-line_set 「失礼します・・・」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 双厳は怒りを抑えながらその場を後にする。
-line_set その場に残された桔梗は、いつまでも立ち尽くしていた。
-
-adv_on
-
-jump_auto 11
-@4
-#184_2
-!183
-jump_choice 12 ◆自室へ移動
-jump_choice 13 ◆大広間へ移動
-jump_choice 14 ◆蔵の前へ移動
-jump_choice 15 ◆屋敷外へ移動
-@53
-
-kgd_layer2_set 1 Kgd\B_066.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch1 12100 183
-jump_branch2 12100 182
-
-section_jump_branch1 183
-
-nvl_on
-
-line_set 物見やぐらの近くには北条と彩の墓がたてられている。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳はその前にたつ。
-
-adv_on
-
-line_set 「・・・」
-line_set 「北条・・・」
-line_set 「彩・・・」
-
-nvl_on
-
-line_set 「？！」
-
-nvl_line_clear
-
-line_set 双厳の後ろから人の気配がする。
-
-adv_on
-
-line_set 「誰だ！」
-
-kgd_layer3_set 0 Kgd\Kk_001.kgd
-kgd_layer3_param 0 108 0 0 0 584 600
-kgd_layer3_display 0
-
-nvl_on
-
-line_set そこには今までこの島で見かけた事のない女が立っていた。
-
-adv_on
-
-line_set 「誰だお前・・・」
-
-nvl_on
-
-line_set 妖気や殺気はない・・・。
-
-adv_on
-
-name_set 女
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4147.wav
-sfx_play 2
-
-line_set 「北条も彩も使命のために死にました」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 女
-
-sfx_set 2 Vox\4146.wav
-sfx_play 2
-
-line_set 「貴方は何のために死ぬのですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「いい加減名のったらどうだ・・・」
-
-name_set 女
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4145.wav
-sfx_play 2
-
-line_set 「私の名前は桂華」
-
-sfx_stop 2
-sfx_set 2 Vox\4144.wav
-sfx_play 2
-
-line_set 「私は幕府から派遣された者です」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「十兵衛の部下か？」
-
-name_set 桂華
-
-sfx_set 2 Vox\4143.wav
-sfx_play 2
-
-line_set 「いいえ・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4142.wav
-sfx_play 2
-
-line_set 「私は幕府直属の隠密です」
-
-sfx_stop 2
-sfx_set 2 Vox\4141.wav
-sfx_play 2
-
-line_set 「裏惣目付のものではありません」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ほう・・・」
-
-name_set 桂華
-
-sfx_set 2 Vox\4140.wav
-sfx_play 2
-
-line_set 「柳生十兵衛および二つ影双厳、つまり貴方の監視を言い渡されていました・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「俺だけでなく十兵衛もか・・・」
-line_set 「今回の件は幕府もそうとうびびっているわけか・・・」
-line_set 「二重で隠密を派遣するとはな・・・」
-line_set 「この事は十兵衛も知らないのか？」
-
-name_set 桂華
-
-sfx_set 2 Vox\4139.wav
-sfx_play 2
-
-line_set 「知らないハズです・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4138.wav
-sfx_play 2
-
-line_set 「が、彼の事、すでに我々が潜んでいるぐらいの事は知っているでしょう」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 「我々・・・」
-line_set 「こいつだけでなく」
-line_set 「数人の幕府直属の隠密がこの島に潜んでいるのか・・・」
-
-adv_on
-
-sfx_set 2 Vox\4137.wav
-sfx_play 2
-
-line_set 「本来なら貴方の前に現れるつもりはなかったのですが・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「なら、なぜ現れた・・・」
-
-name_set 桂華
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4136.wav
-sfx_play 2
-
-line_set 「我々は独自に岩の封印の謎を追いかけていました」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「それで・・・」
-
-name_set 桂華
-
-sfx_set 2 Vox\4135.wav
-sfx_play 2
-
-line_set 「一つの結論に達しました」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「どんなだ・・・」
-
-name_set 桂華
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4134.wav
-sfx_play 2
-
-line_set 「今日、呪いの進行をとめる事ができなければ」
-
-sfx_stop 2
-sfx_set 2 Vox\4133.wav
-sfx_play 2
-
-line_set 「我々は貴方を殺します」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「なぜだ・・・」
-
-name_set 桂華
-
-sfx_set 2 Vox\4132.wav
-sfx_play 2
-
-line_set 「贄に呪いが及ぶ前に殺してしまえば」
-
-sfx_stop 2
-sfx_set 2 Vox\4131.wav
-sfx_play 2
-
-line_set 「あるいは」
-
-sfx_stop 2
-sfx_set 2 Vox\4130.wav
-sfx_play 2
-
-line_set 「この儀式を終わらす事ができるのではと・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「その口振りだと単なる仮説だな・・・」
-
-name_set 桂華
-
-sfx_set 2 Vox\4129.wav
-sfx_play 2
-
-line_set 「はい・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4128.wav
-sfx_play 2
-
-line_set 「そうです」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「それで儀式を止められなければどうする？」
-
-name_set 桂華
-
-sfx_set 2 Vox\4127.wav
-sfx_play 2
-
-line_set 「それはその時に考えます」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ほう・・・」
-
-name_set 桂華
-
-sfx_set 2 Vox\4126.wav
-sfx_play 2
-
-line_set 「それを伝えにきました」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「いちいち断る事もなかろうに・・・」
-line_set 「お前らは隠密だ」
-line_set 「寝込みでもなんでも襲えばいいだろう」
-
-name_set 桂華
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4125.wav
-sfx_play 2
-
-line_set 「いつもならそうするでしょうね・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 桂華
-
-sfx_set 2 Vox\4124.wav
-sfx_play 2
-
-line_set 「それでは失礼します」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-#183_3
-!182
-
-jump_choice 16 ◆海岸へ移動
-@3
-@15
-@44
-
-kgd_layer2_set 1 Kgd\B_034.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch1 12633 185
-jump_branch2 12633 184
-
-section_jump_branch1 185
-
-nvl_on
-
-line_set 屋敷に戻ると、そこに楓玲の姿を見つける。
-line_set 双厳は楓玲に声を掛ける。
-
-adv_on
-
-name_set 双厳
-
-line_set 「どうしたよ、こんな所で？」
-
-kgd_layer3_set 0 Kgd\Fu_011.kgd
-kgd_layer3_param 0 128 0 0 0 544 600
-kgd_layer3_display 0
-
-name_set 楓玲
-
-sfx_set 2 Vox\4149.wav
-sfx_play 2
-
-line_set 「あっ、双厳・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「あん？」
-
-name_set 楓玲
-
-line_set 「・・・」
-
-sfx_set 2 Vox\4148.wav
-sfx_play 2
-
-line_set 「あ、あたし・・・」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「ちっ・・・」
-
-nvl_on
-
-line_set 普段では見ない楓玲の態度に、
-line_set 双厳もその後を追って行った。
-
-adv_on
-
-jump_auto 17
-#185_4
-!184
-jump_choice 18 ◆山道へ移動
-jump_choice 19 ◆屋敷内へ移動
-jump_choice 20 ◆村への道へ移動
-@24
-@25
-@27
-jump_branch1 12745 286
-
-kgd_layer1_set 1 Kgd\Be_009.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer1_clear 1
-kgd_layer2_clear
-
-jump_auto 21
-#286_5
-
-kgd_layer1_set 1 Kgd\Be_012.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer1_clear 1
-kgd_layer2_clear
 @21
+    kgd_layer2_set 1 Kgd\B_014.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-jump_choice 22 ◆反対側を見る
-jump_choice 23 ◆降りる
-@22
-jump_branch1 12833 286
+    jump_branch1 @1 182
+    section_jump_branch1 182
 
-section_jump_branch1 286
+    kgd_layer3_set 0 Kgd\Ky_001.kgd
+    kgd_layer3_param 0 108 0 0 0 584 600
+    kgd_layer3_display 0
 
-jump_auto 24
-#286_6
+    nvl_on
+    line_set 山道を降りていくと桔梗がそこに立っていた。
 
-section_jump_branch2 286
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
 
-jump_auto 25
-@0
-@23
+    name_set 桔梗
+    line_set 「・・・」
 
-section_jump_branch2 286
+    nvl_on
+    line_set 双厳はそのまま無言で横切ろうとする。
 
-kgd_layer1_set 1 Kgd\W_005.kgd
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
+    adv_on
+    line_set 「・・・」
 
-jump_auto 26
+    sfx_set 2 Vox\4199.wav
+    sfx_play 2
+    line_set 「まだ、儀式は続いています・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「安心しろ」
+    line_set 「あの化け物は俺が斬る」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4198.wav
+    sfx_play 2
+    line_set 「斬る事はできません」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「人を斬るための剣ならばな・・・」
+    line_set 「だが」
+    line_set 「剣のすべてが人を斬るだけのものではない」
+    line_set 「呪いを断ち切るための剣だってある」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4197.wav
+    sfx_play 2
+    line_set 「人を斬るのでなく」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4196.wav
+    sfx_play 2
+    line_set 「呪いを斬る剣・・・」
+    sfx_stop 2
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4195.wav
+    sfx_play 2
+    line_set 「たしかに・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4194.wav
+    sfx_play 2
+    line_set 「人と」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4193.wav
+    sfx_play 2
+    line_set 「人外の狭間に生きる貴方ならそれができるかもしれませんね・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4192.wav
+    sfx_play 2
+    line_set 「でも・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4191.wav
+    sfx_play 2
+    line_set 「仮に」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4190.wav
+    sfx_play 2
+    line_set 「呪いを断ち切る剣があったとして」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4189.wav
+    sfx_play 2
+    line_set 「人に・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4188.wav
+    sfx_play 2
+    line_set 「神々の呪いが断ち切れるでしょうか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「できるかどうかなんて知らねぇ・・・」
+    line_set 「ただ・・・」
+    line_set 「ただな」
+    line_set 「これ以上、好きにはさせねぇ・・・」
+    line_set 「俺に言える事はそれだけだ・・・」
+    line_set 「神々の呪い？」
+    line_set 「そんなものくそ食らえだ」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 桔梗は無言のまま消えていく。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「人を斬る以外の剣・・・」
+    line_set 「呪いを断ち切る剣・・・」
+    line_set 「いや・・・」
+    line_set 「人を斬り」
+    line_set 「そして」
+    line_set 「神を斬る」
+    line_set 「俺の剣はそういうものだ・・・」
+    nvl_line_clear
+    line_set 二つ影双厳。
+    line_set 二つの影を持つ異形の剣士。
+    line_set 人にあっては人を斬り・・・。
+    line_set 鬼にあっては鬼を斬り・・・。
+    line_set 神にあっては神を斬る・・・。
+    nvl_line_clear
+    line_set それは祝福される事のない。
+    line_set 呪われた剣。
+    nvl_line_clear
+    line_set それ故に彼は、
+    line_set 人からも、
+    line_set 異形からも、
+    line_set 命を狙われる。
+    nvl_line_clear
+    line_set しかし、
+    line_set そんな剣を”好きだ”といった者もいた。
+    nvl_line_clear
+    line_set 人を殺し、
+    line_set 鬼を殺し、
+    line_set 神までも殺す剣。
+    line_set その禍々しいまでの兇刃に、
+    line_set 彼は何をみたのであろうか・・・。
+    nvl_line_clear
+    line_set しかしその意味はすでに、
+    line_set 死んでしまった、北条主税以外に知るものはいなかった。
+
+    adv_on
+
 @1
+    jump_choice @2 ◆大岩へ移動
+    jump_choice @3 ◆森林へ移動
+    jump_choice @4 ◆屋敷前へ移動
 
-kgd_layer2_set 1 Kgd\B_002.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@26
-
-jump_choice 27 ◆登る
-jump_choice 28 ◆山道へ移動
-@2
-@32
-
-kgd_layer2_set 1 Kgd\B_018.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 29 ◆遺跡へ移動
-jump_choice 30 ◆山道へ移動
-@29
-
-kgd_layer2_set 1 Kgd\B_022.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@34
-
-jump_choice 31 ◆遺跡の中に入る
-jump_choice 32 ◆森林へ移動
-@31
-
-kgd_layer1_set 1 Kgd\Be_017.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-
-jump_choice 33 ◆遺跡の外に出る
-@33
-
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-
-jump_auto 34
-@13
-@41
-
-kgd_layer2_set 1 Kgd\B_010.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 35 ◆志乃の部屋へ移動
-jump_choice 36 ◆廊下へ移動
-@12
-
-kgd_layer2_set 1 Kgd\B_038.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 37 ◆廊下へ移動
-@14
-@40
-
-kgd_layer2_set 1 Kgd\B_026.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 38 ◆蔵に入る
-jump_choice 39 ◆廊下へ移動
-@38
-
-kgd_layer2_set 1 Kgd\B_072.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 40 ◆蔵から出る
-@35
-@43
-
-kgd_layer2_set 1 Kgd\B_006.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 41 ◆大広間へ移動
-jump_choice 42 ◆隠し地下室へ移動
-@42
-
-kgd_layer2_set 1 Kgd\B_069.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 43 ◆外へ出る
 @20
-@46
+    kgd_layer2_set 1 Kgd\B_030.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_042.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    jump_branch1 @5 185
+    jump_branch1 @6 184
+    jump_branch2 @6 183
+    section_jump_branch1 184
 
-jump_choice 44 ◆屋敷前へ移動
-jump_choice 45 ◆村へ移動
-@45
-@49
-@51
+    nvl_on
+    line_set 命は廊下の端でうずくまっている。
 
-kgd_layer2_set 1 Kgd\B_046.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    adv_on
+    kgd_layer3_set 0 Kgd\Mi_029.kgd
+    kgd_layer3_param 0 152 0 0 0 496 600
+    kgd_layer3_display 0
 
-jump_choice 46 ◆屋敷前への道へ移動
-jump_choice 47 ◆海岸へ移動
-jump_choice 48 ◆港へ移動
-@48
-@52
+    name_set 命
+    sfx_set 2 Vox\4179.wav
+    sfx_play 2
+    line_set 「二つ影・・・」
+    sfx_stop 2
 
-kgd_layer2_set 1 Kgd\B_062.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    nvl_on
+    line_set 双厳の姿を確認した命は弱々しく立ち上がる。
 
-jump_choice 49 ◆村へ移動
-jump_choice 50 ◆海岸へ移動
-@16
-@47
-@50
-@56
+    adv_on
+    line_set 「・・・」
 
-kgd_layer2_set 1 Kgd\B_050.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    sfx_set 2 Vox\4178.wav
+    sfx_play 2
+    line_set 「柳生の里の人間は私と十兵衛さまを残して全員死んでしまった・・・」
+    sfx_stop 2
 
-jump_choice 51 ◆村へ移動
-jump_choice 52 ◆港へ移動
-jump_choice 53 ◆物見やぐらへ移動
-jump_choice 54 ◆森林へ移動
-@54
-@58
+    sfx_set 2 Vox\4177.wav
+    sfx_play 2
+    line_set 「幕府の指令を実行するために・・・」
+    sfx_stop 2
 
-kgd_layer2_set 1 Kgd\B_054.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    name_set 双厳
+    line_set 「・・・」
 
-jump_choice 55 ◆遺跡へ移動
-jump_choice 56 ◆海岸へ移動
-@55
+    name_set 命
+    sfx_set 2 Vox\4176.wav
+    sfx_play 2
+    line_set 「でも・・・」
+    sfx_stop 2
 
-kgd_layer2_set 1 Kgd\B_058.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@60
+    sfx_set 2 Vox\4175.wav
+    sfx_play 2
+    line_set 「そこまでしてしなければいけない事なんてあるのかな・・・」
+    sfx_stop 2
 
-jump_choice 57 ◆遺跡の中に入る
-jump_choice 58 ◆森林へ移動
-@57
+    sfx_set 2 Vox\4174.wav
+    sfx_play 2
+    line_set 「私には・・・」
+    sfx_stop 2
 
-kgd_layer1_set 1 Kgd\Be_017.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
+    sfx_set 2 Vox\4173.wav
+    sfx_play 2
+    line_set 「私にはわからない・・・」
+    sfx_stop 2
 
-jump_choice 59 ◆遺跡の外に出る
-@59
+    name_set 双厳
+    line_set 「・・・」
 
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
+    name_set 命
+    sfx_set 2 Vox\4172.wav
+    sfx_play 2
+    line_set 「次は・・・」
+    sfx_stop 2
 
-jump_auto 60
+    sfx_set 2 Vox\4171.wav
+    sfx_play 2
+    line_set 「楓玲さんが死ぬ事になる・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4170.wav
+    sfx_play 2
+    line_set 「そしてその次には・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうはならない」
+
+    name_set 命
+    sfx_set 2 Vox\4169.wav
+    sfx_play 2
+    line_set 「？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「まだまだできる事はある」
+    line_set 「このままではおわらせない」
+
+    kgd_layer3_set 3 Kgd\Mi_022.kgd
+    kgd_layer3_param 3 152 0 0 0 496 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 命
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4168.wav
+    sfx_play 2
+    line_set 「そうだよね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 命
+    sfx_set 2 Vox\4167.wav
+    sfx_play 2
+    line_set 「ふふふ・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4166.wav
+    sfx_play 2
+    line_set 「仇の貴方に勇気づけられるなんて・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4165.wav
+    sfx_play 2
+    line_set 「やっぱり、私はまだまだだね・・・」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    jump_auto @6
+
+@5
+    kgd_layer3_set 0 Kgd\Fu_011.kgd
+    kgd_layer3_param 0 128 0 0 0 544 600
+    kgd_layer3_display 0
+
+    name_set 双厳
+    line_set 「どうした・・・」
+    line_set 「楓玲・・・」
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳がようやく追いついた楓玲に、事情を聞く。
+    line_set しかし楓玲はらしくない態度で、双厳に顔を向けようともしない。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\4164.wav
+    sfx_play 2
+    line_set 「・・・分かってるんでしょ？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「何がだ・・・」
+
+    kgd_layer3_set 3 Kgd\Fu_012.kgd
+    kgd_layer3_param 3 128 0 0 0 544 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\4163.wav
+    sfx_play 2
+    line_set 「今日・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4162.wav
+    sfx_play 2
+    line_set 「あたしが死ぬんでしょ・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\4161.wav
+    sfx_play 2
+    line_set 「やっぱり・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4160.wav
+    sfx_play 2
+    line_set 「うすうす感じてたんだ」
+    sfx_stop 2
+
+    nvl_on
+    line_set 楓玲の言葉に、双厳は何も言えなくなっていた。
+    line_set 確かに双厳は次に死ぬのが楓玲だと知っている。
+    line_set そしてそれを楓玲本人には話していない。
+    line_set 余計なことを言って不安にさせたりするのは、避けるべきだと考えた。
+    nvl_line_clear
+    line_set しかし様々な点を考慮し、あえて言わなかった事が、こうした事態に行き着いてしまう。
+    line_set いつかは気付くであろう真実の日が、こうして現実のものとなっていた。
+    nvl_line_clear
+    line_set 「やはり気付いていたか・・・」
+    line_set 「次々に阿波路に集められた用心棒が死んでいくのを目にすれば」
+    line_set 「楓玲でなくとも気がつくであろうが・・・」
+
+    adv_on
+    jump_choice @7 ◆絶対に呪いを解いてやる
+    jump_choice @8 ◆何とかする
+
+@7
+    affection_plus 1
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「安心しろ・・・」
+    line_set 「絶対に呪いを解いてやる」
+
+    kgd_layer3_set 3 Kgd\Fu_011.kgd
+    kgd_layer3_param 3 128 0 0 0 544 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「俺を信じろ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\4159.wav
+    sfx_play 2
+    line_set 「・・・うん」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4158.wav
+    sfx_play 2
+    line_set 「信じる・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4157.wav
+    sfx_play 2
+    line_set 「双厳のこと、信じるよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「この馬鹿げた儀式を絶対に終わらせる」
+
+    nvl_on
+    line_set 双厳は、楓玲にでなく自分に言い聞かせるようにつぶやいた。
+
+    adv_on
+    name_set 楓玲
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4156.wav
+    sfx_play 2
+    line_set 「そうだね・・・」
+    sfx_stop 2
+
+    jump_auto @9
+
+@8
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「何とかする・・・」
+
+    kgd_layer3_set 3 Kgd\Fu_011.kgd
+    kgd_layer3_param 3 128 0 0 0 544 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「最後まで望みを捨てるな」
+    line_set 「何かあるはずだ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\4155.wav
+    sfx_play 2
+    line_set 「何かって・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4154.wav
+    sfx_play 2
+    line_set 「・・・何かできる事があるの？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「できるはずだ・・・」
+    line_set 「まだなにか・・・」
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4153.wav
+    sfx_play 2
+    line_set 「まだ・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4152.wav
+    sfx_play 2
+    line_set 「何かできるかな？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ああ・・・」
+    line_set 「まだ終わらせない」
+
+@9
+    name_set 楓玲
+    sfx_set 2 Vox\4151.wav
+    sfx_play 2
+    line_set 「あたし、行くね・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4150.wav
+    sfx_play 2
+    line_set 「じゃあね・・・」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 「・・・」
+    nvl_line_clear
+    line_set さしもの楓玲でも、今回ばかりはいつもの元気を見せられない。
+    line_set それほどに自分に迫る”死”の宣告に怯えているのが分かった。
+    line_set 双厳の言葉など、気休め以下でしかない。
+    line_set それでも何も言わないよりかは、幾分かマシだといえた。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「で、いつまで見てるつもりだ？」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    kgd_layer3_set 0 Kgd\Ky_001.kgd
+    kgd_layer3_param 0 108 0 0 0 584 600
+    kgd_layer3_display 0
+
+    nvl_on
+    line_set 双厳の言葉に呼び出された桔梗が物陰から姿を現す。
+    line_set どうやら一部始終を見られていたらしい。
+
+    adv_on
+    name_set 双厳
+    line_set 「覗き見とは感心しねぇな」
+    line_set 「それが趣味ってんなら話は別だが？」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「何とか言えよ」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4187.wav
+    sfx_play 2
+    line_set 「すみません・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 桔梗
+    sfx_set 2 Vox\4186.wav
+    sfx_play 2
+    line_set 「私に言える事はなにもありません・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4185.wav
+    sfx_play 2
+    line_set 「今の私には貴方達を救う方法が見つかりません」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4184.wav
+    sfx_play 2
+    line_set 「その私に何が言えるのですか？」
+    sfx_stop 2
+
+    jump_choice @10 ◆それも一理あるな
+    jump_choice @11 ◆見捨てろっていうのか？
+
+@10
+    affection_plus 4
+
+    name_set 双厳
+    line_set 「ふむ・・・それも一理あるなぁ・・・」
+    line_set 「なんて事を言うとでも思ったか？」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「できないからあきらめる？」
+    line_set 「まだ結果も出ていないものを、なぜあきらめられるか」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「お前が言うとおりこの呪いが神の手によるものだとして」
+    line_set 「問題解決できねぇから次のことを考えましょうだぁ？」
+    line_set 「手前の都合で勝手に終わった、なんて決めつけるなよ」
+
+    jump_auto @12
+
 @11
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「見捨てろっていうのかよ？」
 
-kgd_layer2_crossfade 1
-kgd_layer2_fade_unk 0
+    name_set 桔梗
+    line_set 「・・・」
+    line_set 「・・・・・・」
 
-music_stop
+    name_set 双厳
+    line_set 「けっ・・・どうにもできねぇから見殺しかよ」
 
-ksd_set Ksd\031.ksd
-ksd_end
+    name_set 桔梗
+    line_set 「・・・」
+
+    nvl_on
+    line_set 桔梗はなにも答えない。
+
+    adv_on
+
+@12
+    name_set 桔梗
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「ふぅ・・・」
+    line_set 「もうちょいマシな奴かと思ったんだがな」
+    line_set 「もういいぜ」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4183.wav
+    sfx_play 2
+    line_set 「私は岩の守り部です・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4182.wav
+    sfx_play 2
+    line_set 「それ以上でもそれ以下でもありません・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「つまり岩の封印が守れればいいのか？」
+
+    name_set 桔梗
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4181.wav
+    sfx_play 2
+    line_set 「すみません・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4180.wav
+    sfx_play 2
+    line_set 「失礼します・・・」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 双厳は怒りを抑えながらその場を後にする。
+    line_set その場に残された桔梗は、いつまでも立ち尽くしていた。
+
+    adv_on
+    jump_auto @13
+
+@6
+    jump_choice @14 ◆自室へ移動
+    jump_choice @15 ◆大広間へ移動
+    jump_choice @16 ◆蔵の前へ移動
+    jump_choice @4 ◆屋敷外へ移動
+
+@38
+    kgd_layer2_set 1 Kgd\B_066.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @17 183
+    jump_branch2 @17 182
+    section_jump_branch1 183
+
+    nvl_on
+    line_set 物見やぐらの近くには北条と彩の墓がたてられている。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳はその前にたつ。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「北条・・・」
+    line_set 「彩・・・」
+
+    nvl_on
+    line_set 「？！」
+    nvl_line_clear
+    line_set 双厳の後ろから人の気配がする。
+
+    adv_on
+    line_set 「誰だ！」
+
+    kgd_layer3_set 0 Kgd\Kk_001.kgd
+    kgd_layer3_param 0 108 0 0 0 584 600
+    kgd_layer3_display 0
+
+    nvl_on
+    line_set そこには今までこの島で見かけた事のない女が立っていた。
+
+    adv_on
+    line_set 「誰だお前・・・」
+
+    nvl_on
+    line_set 妖気や殺気はない・・・。
+
+    adv_on
+    name_set 女
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4147.wav
+    sfx_play 2
+    line_set 「北条も彩も使命のために死にました」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 女
+    sfx_set 2 Vox\4146.wav
+    sfx_play 2
+    line_set 「貴方は何のために死ぬのですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「いい加減名のったらどうだ・・・」
+
+    name_set 女
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4145.wav
+    sfx_play 2
+    line_set 「私の名前は桂華」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4144.wav
+    sfx_play 2
+    line_set 「私は幕府から派遣された者です」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「十兵衛の部下か？」
+
+    name_set 桂華
+    sfx_set 2 Vox\4143.wav
+    sfx_play 2
+    line_set 「いいえ・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4142.wav
+    sfx_play 2
+    line_set 「私は幕府直属の隠密です」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4141.wav
+    sfx_play 2
+    line_set 「裏惣目付のものではありません」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ほう・・・」
+
+    name_set 桂華
+    sfx_set 2 Vox\4140.wav
+    sfx_play 2
+    line_set 「柳生十兵衛および二つ影双厳、つまり貴方の監視を言い渡されていました・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「俺だけでなく十兵衛もか・・・」
+    line_set 「今回の件は幕府もそうとうびびっているわけか・・・」
+    line_set 「二重で隠密を派遣するとはな・・・」
+    line_set 「この事は十兵衛も知らないのか？」
+
+    name_set 桂華
+    sfx_set 2 Vox\4139.wav
+    sfx_play 2
+    line_set 「知らないハズです・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4138.wav
+    sfx_play 2
+    line_set 「が、彼の事、すでに我々が潜んでいるぐらいの事は知っているでしょう」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「我々・・・」
+    line_set 「こいつだけでなく」
+    line_set 「数人の幕府直属の隠密がこの島に潜んでいるのか・・・」
+
+    adv_on
+    sfx_set 2 Vox\4137.wav
+    sfx_play 2
+    line_set 「本来なら貴方の前に現れるつもりはなかったのですが・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「なら、なぜ現れた・・・」
+
+    name_set 桂華
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4136.wav
+    sfx_play 2
+    line_set 「我々は独自に岩の封印の謎を追いかけていました」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「それで・・・」
+
+    name_set 桂華
+    sfx_set 2 Vox\4135.wav
+    sfx_play 2
+    line_set 「一つの結論に達しました」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「どんなだ・・・」
+
+    name_set 桂華
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4134.wav
+    sfx_play 2
+    line_set 「今日、呪いの進行をとめる事ができなければ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4133.wav
+    sfx_play 2
+    line_set 「我々は貴方を殺します」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「なぜだ・・・」
+
+    name_set 桂華
+    sfx_set 2 Vox\4132.wav
+    sfx_play 2
+    line_set 「贄に呪いが及ぶ前に殺してしまえば」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4131.wav
+    sfx_play 2
+    line_set 「あるいは」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4130.wav
+    sfx_play 2
+    line_set 「この儀式を終わらす事ができるのではと・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「その口振りだと単なる仮説だな・・・」
+
+    name_set 桂華
+    sfx_set 2 Vox\4129.wav
+    sfx_play 2
+    line_set 「はい・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\4128.wav
+    sfx_play 2
+    line_set 「そうです」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「それで儀式を止められなければどうする？」
+
+    name_set 桂華
+    sfx_set 2 Vox\4127.wav
+    sfx_play 2
+    line_set 「それはその時に考えます」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ほう・・・」
+
+    name_set 桂華
+    sfx_set 2 Vox\4126.wav
+    sfx_play 2
+    line_set 「それを伝えにきました」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「いちいち断る事もなかろうに・・・」
+    line_set 「お前らは隠密だ」
+    line_set 「寝込みでもなんでも襲えばいいだろう」
+
+    name_set 桂華
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4125.wav
+    sfx_play 2
+    line_set 「いつもならそうするでしょうね・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 桂華
+    sfx_set 2 Vox\4124.wav
+    sfx_play 2
+    line_set 「それでは失礼します」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+@17
+    jump_choice @18 ◆海岸へ移動
+
+@4
+    kgd_layer2_set 1 Kgd\B_034.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @19 185
+    jump_branch2 @19 184
+    section_jump_branch1 185
+
+    nvl_on
+    line_set 屋敷に戻ると、そこに楓玲の姿を見つける。
+    line_set 双厳は楓玲に声を掛ける。
+
+    adv_on
+    name_set 双厳
+    line_set 「どうしたよ、こんな所で？」
+
+    kgd_layer3_set 0 Kgd\Fu_011.kgd
+    kgd_layer3_param 0 128 0 0 0 544 600
+    kgd_layer3_display 0
+
+    name_set 楓玲
+    sfx_set 2 Vox\4149.wav
+    sfx_play 2
+    line_set 「あっ、双厳・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「あん？」
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4148.wav
+    sfx_play 2
+    line_set 「あ、あたし・・・」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「ちっ・・・」
+
+    nvl_on
+    line_set 普段では見ない楓玲の態度に、
+    line_set 双厳もその後を追って行った。
+
+    adv_on
+    jump_auto @20
+
+@19
+    jump_choice @21 ◆山道へ移動
+    jump_choice @20 ◆屋敷内へ移動
+    jump_choice @22 ◆村への道へ移動
+
+@27
+    jump_branch1 @23 286
+    kgd_layer1_set 1 Kgd\Be_009.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    kgd_layer2_clear
+
+    jump_auto @24
+
+@23
+    kgd_layer1_set 1 Kgd\Be_012.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    kgd_layer2_clear
+
+@24
+    jump_choice @25 ◆反対側を見る
+    jump_choice @0 ◆降りる
+
+@25
+    jump_branch1 @26 286
+    section_jump_branch1 286
+
+    jump_auto @27
+
+@26
+    section_jump_branch2 286
+
+    jump_auto @27
+
+@0
+    section_jump_branch2 286
+
+    kgd_layer1_set 1 Kgd\W_005.kgd
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @28
+
+@2
+    kgd_layer2_set 1 Kgd\B_002.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+@28
+    jump_choice @27 ◆登る
+    jump_choice @21 ◆山道へ移動
+
+@3
+    kgd_layer2_set 1 Kgd\B_018.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @29 ◆遺跡へ移動
+    jump_choice @21 ◆山道へ移動
+
+@29
+    kgd_layer2_set 1 Kgd\B_022.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+@32
+    jump_choice @30 ◆遺跡の中に入る
+    jump_choice @3 ◆森林へ移動
+
+@30
+    kgd_layer1_set 1 Kgd\Be_017.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+
+    jump_choice @31 ◆遺跡の外に出る
+
+@31
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @32
+
+@15
+    kgd_layer2_set 1 Kgd\B_010.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @33 ◆志乃の部屋へ移動
+    jump_choice @20 ◆廊下へ移動
+
+@14
+    kgd_layer2_set 1 Kgd\B_038.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @20 ◆廊下へ移動
+
+@16
+    kgd_layer2_set 1 Kgd\B_026.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @34 ◆蔵に入る
+    jump_choice @20 ◆廊下へ移動
+
+@34
+    kgd_layer2_set 1 Kgd\B_072.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @16 ◆蔵から出る
+
+@33
+    kgd_layer2_set 1 Kgd\B_006.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @15 ◆大広間へ移動
+    jump_choice @35 ◆隠し地下室へ移動
+
+@35
+    kgd_layer2_set 1 Kgd\B_069.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @33 ◆外へ出る
+
+@22
+    kgd_layer2_set 1 Kgd\B_042.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @4 ◆屋敷前へ移動
+    jump_choice @36 ◆村へ移動
+
+@36
+    kgd_layer2_set 1 Kgd\B_046.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @22 ◆屋敷前への道へ移動
+    jump_choice @18 ◆海岸へ移動
+    jump_choice @37 ◆港へ移動
+
+@37
+    kgd_layer2_set 1 Kgd\B_062.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @36 ◆村へ移動
+    jump_choice @18 ◆海岸へ移動
+
+@18
+    kgd_layer2_set 1 Kgd\B_050.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @36 ◆村へ移動
+    jump_choice @37 ◆港へ移動
+    jump_choice @38 ◆物見やぐらへ移動
+    jump_choice @39 ◆森林へ移動
+
+@39
+    kgd_layer2_set 1 Kgd\B_054.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @40 ◆遺跡へ移動
+    jump_choice @18 ◆海岸へ移動
+
+@40
+    kgd_layer2_set 1 Kgd\B_058.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+@43
+    jump_choice @41 ◆遺跡の中に入る
+    jump_choice @39 ◆森林へ移動
+
+@41
+    kgd_layer1_set 1 Kgd\Be_017.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+
+    jump_choice @42 ◆遺跡の外に出る
+
+@42
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @43
+
+@13
+    kgd_layer2_crossfade 1
+    kgd_layer2_fade_unk 0
+    music_stop
+    ksd_set Ksd\031.ksd
+    ksd_end

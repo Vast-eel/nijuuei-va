@@ -1,1999 +1,1548 @@
-wait 2000
+    wait 2000
 
-kgd_layer2_set 0 Kgd\B_034.kgd
+    kgd_layer2_set 0 Kgd\B_034.kgd
+    kgd_layer2_crossfade 2
+    kgd_layer2_display
+    music_play 14
 
-kgd_layer2_crossfade 2
-kgd_layer2_display
-music_play 14
-
-jump_auto 0
+    jump_auto @0
 
 @7
+    kgd_layer2_set 1 Kgd\B_026.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_026.kgd
+    jump_branch1 @1 73
+    section_jump_branch1 73
 
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_branch1 2016 73
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「人の気配だ・・・」
 
-section_jump_branch1 73
+    kgd_layer1_set 1 Kgd\Dc_Kikyou01.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
 
-name_set 双厳
+    name_set 女
+    sfx_set 2 Vox\5830.wav
+    sfx_play 2
+    line_set 「あなたが双厳さまですか・・・」
+    sfx_stop 2
 
-line_set 「・・・」
+    name_set 双厳
+    line_set 「あんたは？」
 
-line_set 「人の気配だ・・・」
-kgd_layer1_set 1 Kgd\Dc_Kikyou01.kgd
+    name_set 女
+    sfx_set 2 Vox\5829.wav
+    sfx_play 2
+    line_set 「私は、桔梗」
+    sfx_stop 2
 
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-name_set 女
+    sfx_set 2 Vox\5828.wav
+    sfx_play 2
+    line_set 「イルさまスイさまを守護するものです」
+    sfx_stop 2
 
-sfx_set 2 Vox\5830.wav
-sfx_play 2
-line_set 「あなたが双厳さまですか・・・」
-sfx_stop 2
+    name_set 双厳
+    line_set 「守護ねぇ・・・」
+    line_set 「座敷牢に閉じこめてか？」
 
-name_set 双厳
+    name_set 桔梗
+    line_set 「・・・」
 
-line_set 「あんたは？」
+    nvl_on
+    line_set 桔梗は顔色ひとつ変えない。
 
-name_set 女
+    adv_on
+    sfx_set 2 Vox\5827.wav
+    sfx_play 2
+    line_set 「あなたが、そう思うのも十分わかりますが」
+    sfx_stop 2
 
-sfx_set 2 Vox\5829.wav
-sfx_play 2
-line_set 「私は、桔梗」
-sfx_stop 2
+    sfx_set 2 Vox\5826.wav
+    sfx_play 2
+    line_set 「この島にはこの島の掟があるのです」
+    sfx_stop 2
 
-sfx_set 2 Vox\5828.wav
-sfx_play 2
-line_set 「イルさまスイさまを守護するものです」
-sfx_stop 2
-name_set 双厳
+    name_set 双厳
+    line_set 「掟ねぇ」
 
-line_set 「守護ねぇ・・・」
+    name_set 桔梗
+    sfx_set 2 Vox\5825.wav
+    sfx_play 2
+    line_set 「双厳さま」
+    sfx_stop 2
 
-line_set 「座敷牢に閉じこめてか？」
-name_set 桔梗
+    sfx_set 2 Vox\5824.wav
+    sfx_play 2
+    line_set 「これ以上イルさまスイさまに関わるのをやめてください」
+    sfx_stop 2
 
-line_set 「・・・」
+    name_set 双厳
+    line_set 「関わるもなにも、ただここで何度か、言葉を交わしただけだが・・・」
 
-nvl_on
+    name_set 桔梗
+    sfx_set 2 Vox\5823.wav
+    sfx_play 2
+    line_set 「本来、イルさまスイさまは、一度として、外界の人間と接触することも禁じられています」
+    sfx_stop 2
 
-line_set 桔梗は顔色ひとつ変えない。
+    sfx_set 2 Vox\5822.wav
+    sfx_play 2
+    line_set 「すでに貴方は、禁忌の一つを破ったのです」
+    sfx_stop 2
 
-adv_on
+    name_set 双厳
+    line_set 「一生、誰とも会わないというわけか？」
 
-sfx_set 2 Vox\5827.wav
-sfx_play 2
-line_set 「あなたが、そう思うのも十分わかりますが」
-sfx_stop 2
+    name_set 桔梗
+    sfx_set 2 Vox\5821.wav
+    sfx_play 2
+    line_set 「はい、私ほか、イルさまスイさまに仕えるもの以外とは絶対に・・・」
+    sfx_stop 2
 
-sfx_set 2 Vox\5826.wav
-sfx_play 2
-line_set 「この島にはこの島の掟があるのです」
-sfx_stop 2
-name_set 双厳
+    name_set 双厳
+    line_set 「ふーん」
+    line_set 「そりゃ、難儀だな・・・」
 
-line_set 「掟ねぇ」
+    name_set 桔梗
+    sfx_set 2 Vox\5820.wav
+    sfx_play 2
+    line_set 「もう此処へ立ち入らないでもらいたいのです」
+    sfx_stop 2
 
-name_set 桔梗
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「嫌だと言ったら？」
 
-sfx_set 2 Vox\5825.wav
-sfx_play 2
-line_set 「双厳さま」
-sfx_stop 2
+    name_set 桔梗
+    line_set 「・・・」
 
-sfx_set 2 Vox\5824.wav
-sfx_play 2
-line_set 「これ以上イルさまスイさまに関わるのをやめてください」
-sfx_stop 2
-name_set 双厳
+    sfx_set 2 Vox\5819.wav
+    sfx_play 2
+    line_set 「貴方を殺します」
+    sfx_stop 2
 
-line_set 「関わるもなにも、ただここで何度か、言葉を交わしただけだが・・・」
+    name_set 双厳
+    line_set 「くくくくくくく」
+    line_set 「お前が、俺を殺すだと」
+    line_set 「ここのイルスイ嬢ちゃん達もかなり世間知らずのようだが」
+    line_set 「あんたも、変わらんな」
 
-name_set 桔梗
+    name_set 桔梗
+    line_set 「・・・」
 
-sfx_set 2 Vox\5823.wav
-sfx_play 2
-line_set 「本来、イルさまスイさまは、一度として、外界の人間と接触することも禁じられています」
-sfx_stop 2
+    name_set 双厳
+    line_set 「あんたはこの島ではかなり強い方だろうが」
+    line_set 「絶対に勝てない相手もわからんようでは、まだまだだな・・・」
+    line_set 「忠告してやる」
+    line_set 「いまこの島にはお前が逆立ちしても勝てない敵が、少なくとも４人いる」
+    line_set 「お前がいくら自己犠牲の心を以てこいつらにあたっても、傷一つおわせられないし」
+    line_set 「へたしたら時間稼ぎにすらならないだろう」
+    line_set 「その意味を知れ」
 
-sfx_set 2 Vox\5822.wav
-sfx_play 2
-line_set 「すでに貴方は、禁忌の一つを破ったのです」
-sfx_stop 2
-name_set 双厳
+    name_set 桔梗
+    sfx_set 2 Vox\5818.wav
+    sfx_play 2
+    line_set 「ご忠告、ありがとうございます」
+    sfx_stop 2
 
-line_set 「一生、誰とも会わないというわけか？」
+    sfx_set 2 Vox\5817.wav
+    sfx_play 2
+    line_set 「それで、約束は守っていただけるのでしょうか」
+    sfx_stop 2
 
-name_set 桔梗
+    name_set 双厳
+    line_set 「・・・」
 
-sfx_set 2 Vox\5821.wav
-sfx_play 2
-line_set 「はい、私ほか、イルさまスイさまに仕えるもの以外とは絶対に・・・」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ふーん」
-
-line_set 「そりゃ、難儀だな・・・」
-name_set 桔梗
-
-sfx_set 2 Vox\5820.wav
-sfx_play 2
-line_set 「もう此処へ立ち入らないでもらいたいのです」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「嫌だと言ったら？」
-name_set 桔梗
-
-line_set 「・・・」
-
-sfx_set 2 Vox\5819.wav
-sfx_play 2
-line_set 「貴方を殺します」
-sfx_stop 2
-name_set 双厳
-
-line_set 「くくくくくくく」
-
-line_set 「お前が、俺を殺すだと」
-line_set 「ここのイルスイ嬢ちゃん達もかなり世間知らずのようだが」
-line_set 「あんたも、変わらんな」
-name_set 桔梗
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「あんたはこの島ではかなり強い方だろうが」
-
-line_set 「絶対に勝てない相手もわからんようでは、まだまだだな・・・」
-line_set 「忠告してやる」
-line_set 「いまこの島にはお前が逆立ちしても勝てない敵が、少なくとも４人いる」
-line_set 「お前がいくら自己犠牲の心を以てこいつらにあたっても、傷一つおわせられないし」
-line_set 「へたしたら時間稼ぎにすらならないだろう」
-line_set 「その意味を知れ」
-name_set 桔梗
-
-sfx_set 2 Vox\5818.wav
-sfx_play 2
-line_set 「ご忠告、ありがとうございます」
-sfx_stop 2
-
-sfx_set 2 Vox\5817.wav
-sfx_play 2
-line_set 「それで、約束は守っていただけるのでしょうか」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-jump_choice 1 ◆ああ分かった
-
-jump_choice 2 ◆さあね？
-@1
+    jump_choice @2 ◆ああ分かった
+    jump_choice @2 ◆さあね？
 
 @2
+    name_set 桔梗
+    sfx_set 2 Vox\5816.wav
+    sfx_play 2
+    line_set 「よろしくおねがいします」
+    sfx_stop 2
 
-name_set 桔梗
+    name_set 双厳
+    line_set 「・・・」
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
 
-sfx_set 2 Vox\5816.wav
-sfx_play 2
-line_set 「よろしくおねがいします」
-sfx_stop 2
+    jump_auto @3
 
-name_set 双厳
-
-line_set 「・・・」
-
-kgd_layer1_fadein
-
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-jump_auto 3
-
-#73_0
-
-jump_choice 4 ◆廊下へ移動
+@1
+    jump_choice @3 ◆廊下へ移動
 
 @3
+    kgd_layer2_set 1 Kgd\B_030.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @4 74
+    jump_branch2 @4 73
+    section_jump_branch1 74
+
+    kgd_layer3_set 0 Kgd\Fu_001.kgd
+    kgd_layer3_param 0 128 0 0 0 544 600
+    kgd_layer3_display 0
+
+    name_set 楓玲
+    sfx_set 2 Vox\5815.wav
+    sfx_play 2
+    line_set 「あっ双厳・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「楓玲、もう大丈夫なのか？」
+
+    name_set 楓玲
+    sfx_set 2 Vox\5814.wav
+    sfx_play 2
+    line_set 「うん、気分はよくなったみたい」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうか、よかったな」
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「そういえば、今日きた連中でいい男いたのか？」
+
+    name_set 楓玲
+    sfx_set 2 Vox\5813.wav
+    sfx_play 2
+    line_set 「さっき言ったじゃない」
+    sfx_stop 2
+
+    sfx_set 2 Vox\5812.wav
+    sfx_play 2
+    line_set 「柄の悪そうなのしかいないって」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「好みの男はいないのか？」
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    kgd_layer3_set 3 Kgd\Fu_009.kgd
+    kgd_layer3_param 3 128 0 0 0 544 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    sfx_set 2 Vox\5811.wav
+    sfx_play 2
+    line_set 「そうね～」
+    sfx_stop 2
+
+    sfx_set 2 Vox\5810.wav
+    sfx_play 2
+    line_set 「いまのところ主税さまが一番かな」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうか」
+    line_set 「まぁ、北条がいるならいいじゃないか」
+
+    kgd_layer3_set 3 Kgd\Fu_001.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    sfx_set 2 Vox\5809.wav
+    sfx_play 2
+    line_set 「そ、そうだね・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「さて、もう夕方だし」
+    line_set 「自室にでも帰るかな」
+
+    name_set 楓玲
+    sfx_set 2 Vox\5808.wav
+    sfx_play 2
+    line_set 「そういえば」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「？」
+
+    name_set 楓玲
+    sfx_set 2 Vox\5807.wav
+    sfx_play 2
+    line_set 「大岩に何かあるの？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「なんでだ？」
+
+    name_set 楓玲
+    sfx_set 2 Vox\5806.wav
+    sfx_play 2
+    line_set 「だって、北条さん何度も大岩の方に足を運んでいるから」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「また、大岩の方に行ったのか」
+
+    name_set 楓玲
+    sfx_set 2 Vox\5805.wav
+    sfx_play 2
+    line_set 「うん、もう夕方なのに、大岩の方に出かけていったみたい」
+    sfx_stop 2
+
+    sfx_set 2 Vox\5804.wav
+    sfx_play 2
+    line_set 「一日に何度もあそこいくから、何でだろうとか思ってね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「そうか・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\5803.wav
+    sfx_play 2
+    line_set 「んじゃ」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
 
 @4
-
-@16
-
-@18
-
-@19
-
-kgd_layer2_set 1 Kgd\B_030.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_branch1 3287 74
-
-jump_branch2 3287 73
-section_jump_branch1 74
-
-kgd_layer3_set 0 Kgd\Fu_001.kgd
-
-kgd_layer3_param 0 128 0 0 0 544 600
-kgd_layer3_display 0
-name_set 楓玲
-
-sfx_set 2 Vox\5815.wav
-sfx_play 2
-line_set 「あっ双厳・・・」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「楓玲、もう大丈夫なのか？」
-
-name_set 楓玲
-
-sfx_set 2 Vox\5814.wav
-sfx_play 2
-line_set 「うん、気分はよくなったみたい」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そうか、よかったな」
-
-name_set 楓玲
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「そういえば、今日きた連中でいい男いたのか？」
-
-name_set 楓玲
-
-sfx_set 2 Vox\5813.wav
-sfx_play 2
-line_set 「さっき言ったじゃない」
-sfx_stop 2
-
-sfx_set 2 Vox\5812.wav
-sfx_play 2
-line_set 「柄の悪そうなのしかいないって」
-sfx_stop 2
-name_set 双厳
-
-line_set 「好みの男はいないのか？」
-
-name_set 楓玲
-
-line_set 「・・・」
-
-kgd_layer3_set 3 Kgd\Fu_009.kgd
-
-kgd_layer3_param 3 128 0 0 0 544 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-sfx_set 2 Vox\5811.wav
-sfx_play 2
-line_set 「そうね～」
-sfx_stop 2
-
-sfx_set 2 Vox\5810.wav
-sfx_play 2
-line_set 「いまのところ主税さまが一番かな」
-sfx_stop 2
-name_set 双厳
-
-line_set 「そうか」
-
-line_set 「まぁ、北条がいるならいいじゃないか」
-kgd_layer3_set 3 Kgd\Fu_001.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-line_set 「・・・」
-
-sfx_set 2 Vox\5809.wav
-sfx_play 2
-line_set 「そ、そうだね・・・」
-sfx_stop 2
-name_set 双厳
-
-line_set 「さて、もう夕方だし」
-
-line_set 「自室にでも帰るかな」
-name_set 楓玲
-
-sfx_set 2 Vox\5808.wav
-sfx_play 2
-line_set 「そういえば」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「？」
-
-name_set 楓玲
-
-sfx_set 2 Vox\5807.wav
-sfx_play 2
-line_set 「大岩に何かあるの？」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「なんでだ？」
-
-name_set 楓玲
-
-sfx_set 2 Vox\5806.wav
-sfx_play 2
-line_set 「だって、北条さん何度も大岩の方に足を運んでいるから」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「また、大岩の方に行ったのか」
-
-name_set 楓玲
-
-sfx_set 2 Vox\5805.wav
-sfx_play 2
-line_set 「うん、もう夕方なのに、大岩の方に出かけていったみたい」
-sfx_stop 2
-
-sfx_set 2 Vox\5804.wav
-sfx_play 2
-line_set 「一日に何度もあそこいくから、何でだろうとか思ってね」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「そうか・・・」
-name_set 楓玲
-
-sfx_set 2 Vox\5803.wav
-sfx_play 2
-line_set 「んじゃ」
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-#74_1
-
-!73
-
-jump_choice 5 ◆自室へ移動
-
-jump_choice 6 ◆大広間へ移動
-jump_choice 7 ◆蔵の前へ移動
-jump_choice 8 ◆屋敷外へ移動
-@13
-
-kgd_layer2_set 1 Kgd\B_002.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-section_jump_branch2 19
-
-jump_branch1 4153 74
-
-@12
-
-jump_choice 9 ◆登る
-
-jump_choice 10 ◆山道へ移動
-@9
-
-kgd_layer1_set 1 Kgd\Be_009.kgd
-
-kgd_layer1_fx 6
-kgd_layer2_clear
-kgd_layer1_fadein
-jump_choice 11 ◆降りる
-
-@11
-
-kgd_layer1_fadein
-
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-jump_auto 12
-
-@10
-
-@15
-
-kgd_layer2_set 1 Kgd\B_014.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_choice 13 ◆大岩へ移動
-
-jump_choice 14 ◆屋敷前へ移動
-@8
+    jump_choice @5 ◆自室へ移動
+    jump_choice @6 ◆大広間へ移動
+    jump_choice @7 ◆蔵の前へ移動
+    jump_choice @8 ◆屋敷外へ移動
 
 @14
+    kgd_layer2_set 1 Kgd\B_002.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch2 19
 
-@20
+    jump_branch1 @9 74
 
-kgd_layer2_set 1 Kgd\B_034.kgd
+@13
+    jump_choice @10 ◆登る
+    jump_choice @11 ◆山道へ移動
 
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-section_jump_branch1 19
+@10
+    kgd_layer1_set 1 Kgd\Be_009.kgd
+    kgd_layer1_fx 6
+    kgd_layer2_clear
+    kgd_layer1_fadein
+
+    jump_choice @12 ◆降りる
+
+@12
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @13
+
+@11
+    kgd_layer2_set 1 Kgd\B_014.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @14 ◆大岩へ移動
+    jump_choice @8 ◆屋敷前へ移動
+
+@8
+    kgd_layer2_set 1 Kgd\B_034.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch1 19
 
 @0
+    jump_choice @11 ◆山道へ移動
+    jump_choice @3 ◆屋敷内へ移動
+    jump_choice @15 ◆村への道へ移動
 
-jump_choice 15 ◆山道へ移動
-
-jump_choice 16 ◆屋敷内へ移動
-jump_choice 17 ◆村への道へ移動
 @6
+    kgd_layer2_set 1 Kgd\B_010.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_010.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_choice 18 ◆廊下へ移動
+    jump_choice @3 ◆廊下へ移動
 
 @5
+    kgd_layer2_set 1 Kgd\B_038.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_038.kgd
+    jump_choice @3 ◆廊下へ移動
 
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_choice 19 ◆廊下へ移動
+@15
+    kgd_layer2_set 1 Kgd\B_042.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @8 ◆屋敷前へ移動
+    jump_choice @16 ◆村へ移動
+
+@16
+    kgd_layer2_set 1 Kgd\B_046.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch2 19
+
+    jump_choice @15 ◆屋敷前への道へ移動
+    jump_choice @17 ◆海岸へ移動
+    jump_choice @18 ◆港へ移動
 
 @17
+    kgd_layer2_set 1 Kgd\B_050.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-@22
+    jump_choice @16 ◆村へ移動
+    jump_choice @18 ◆港へ移動
+    jump_choice @19 ◆物見やぐらへ移動
 
-kgd_layer2_set 1 Kgd\B_042.kgd
+@18
+    kgd_layer2_set 1 Kgd\B_062.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_choice 20 ◆屋敷前へ移動
+    jump_choice @16 ◆村へ移動
+    jump_choice @17 ◆海岸へ移動
 
-jump_choice 21 ◆村へ移動
+@19
+    kgd_layer2_set 1 Kgd\B_066.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @17 ◆海岸へ移動
+
+@9
+    nvl_on
+    line_set 北条と浮浪者が話をしているようだ。
+    line_set 双厳はとっさに身を隠す。
+
+    adv_on
+    kgd_layer3_set 1 Kgd\Jy_012.kgd
+    kgd_layer3_param 1 0 0 0 0 560 600
+    kgd_layer3_display 1
+
+    kgd_layer3_set 0 Kgd\Ho_003.kgd
+    kgd_layer3_param 0 328 0 0 0 472 600
+    kgd_layer3_display 0
+
+    name_set 北条
+    sfx_set 2 Vox\5802.wav
+    sfx_play 2
+    line_set 「たぶん、彼が二重影でしょう」
+    sfx_stop 2
+
+    sfx_set 2 Vox\5801.wav
+    sfx_play 2
+    line_set 「うっすら影が二つあるように見受けられました」
+    sfx_stop 2
+
+    name_set 浮浪者
+    line_set 「あの影は、ある期間中はほとんど消えて見えないという」
+    line_set 「あの影がくっきり見えたときやつの本性が現れる」
+
+    name_set 北条
+    sfx_set 2 Vox\5800.wav
+    sfx_play 2
+    line_set 「その魔性に、我ら柳生一門の多くが殺されたわけですね」
+    sfx_stop 2
+
+    name_set 浮浪者
+    line_set 「やつの影が発動したらこの俺ですら止められるともかぎらない」
+    line_set 「江戸新陰流の剣は太平をただす剣」
+    line_set 「あのように太平の世を惑わす、魔性の者の存在を許すわけにはいかない」
+
+    name_set 北条
+    sfx_set 2 Vox\5799.wav
+    sfx_play 2
+    line_set 「はい」
+    sfx_stop 2
+
+    name_set 浮浪者
+    line_set 「やつがこの地に来たことも、偶然ではあるまい」
+
+    name_set 北条
+    sfx_set 2 Vox\5798.wav
+    sfx_play 2
+    line_set 「もしや、やつらとつながっているのでは？」
+    sfx_stop 2
+
+    name_set 浮浪者
+    line_set 「その可能性も否定しきれない」
+    line_set 「二重影とやつらの関係があっても不思議ではない」
+
+    name_set 北条
+    sfx_set 2 Vox\5797.wav
+    sfx_play 2
+    line_set 「とりあえず、さらに二つ影の様子を見張っておきます」
+    sfx_stop 2
+
+    sfx_set 2 Vox\5796.wav
+    sfx_play 2
+    line_set 「十兵衛さま」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「十兵衛？」
+    line_set 「十兵衛というと・・・あの・・・」
+
+    adv_on
+    name_set 十兵衛
+    line_set 「うむ」
+
+    name_set 北条
+    sfx_set 2 Vox\5795.wav
+    sfx_play 2
+    line_set 「では」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「やつらやはり幕府の犬か・・・」
+    nvl_line_clear
+    line_set 十兵衛は、北条主税が完全に姿を消すのを見送っていた。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「くくくくくくく」
+    line_set 「いい加減出てきたらどうだ！」
+    line_set 「話をすべて聞いていたのだろう！」
+
+    nvl_on
+    line_set 「チッ」
+    line_set 「気が付かれていたか・・・」
+    nvl_line_clear
+    line_set 双厳は十兵衛の前に姿をあらわした。
+
+    adv_on
+    line_set 「まあ、察しの良い二つ影双厳殿だ」
+    line_set 「こちらの存在も薄々気が付いていたろう」
+
+    name_set 双厳
+    line_set 「そういえば、この前殺した侍どもは、新陰流の型をいくつかしていたな・・・」
+    line_set 「あんな辺境で天下の剣術を使う集団がいるのでもかなりおかしいとは思ったが」
+    line_set 「よもやマジで幕府が動いているとはな、意外だったよ」
+
+    name_set 十兵衛
+    line_set 「ふふふふふふ・・・」
+
+    name_set 双厳
+    line_set 「さてと・・・」
+    line_set 「ここいらで一つ聞いておこうかな？」
+
+    name_set 十兵衛
+    line_set 「それがいい・・・」
+    line_set 「死ぬ前に聞いておいた方が、成仏もしやすいであろう」
+
+    name_set 双厳
+    line_set 「成仏？」
+    line_set 「生憎、俺は神も仏も信じてないんでね」
+    line_set 「あんまり関係ないな・・・」
+
+    name_set 十兵衛
+    line_set 「そりゃ残念だな・・・」
+    line_set 「死んだら念仏の一つでもとなえてやろうと思ったのにな・・・」
+
+    name_set 双厳
+    line_set 「さて、無駄話はここまでで・・・」
+    line_set 「質問だ」
+    line_set 「なぜ幕府が動いた」
+
+    name_set 十兵衛
+    line_set 「柳生流は天下の兵法だからだよ」
+    line_set 「これからの太平の世に貴様の様な、死の臭いを漂わせている者は邪魔なのだよ」
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「そんなものは理由にはならんよ」
+    line_set 「いくら俺が数百人の役人を斬ったといっても幕府そのものが動くものではあるまい」
+    line_set 「俺が数百人、数千人殺したとしても」
+    line_set 「太平の世は揺らがない・・・」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「幕府の剣法指南である江戸柳生は、内実幕府の裏の汚い部分をすべて受け持つ陰の軍団である」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「世間ではこんなことを言われているのだろう・・・」
+    line_set 「柳生新陰流というのは、ご政治向きの工作ばかり教える流派だと」
+
+    nvl_on
+    line_set 十兵衛は眉ひとつ動かさない。
+    line_set 実は、双厳が口にしたことは、江戸柳生にとりもっとも屈辱的な一言であった。
+    nvl_line_clear
+    line_set 実は柳生新陰流には大きくわけて二つの流れがあり、一方を柳生但馬守を祖とする江戸柳生、
+    line_set そして但馬の甥にあたる柳生兵庫助利厳を祖とする尾張柳生がある。
+    nvl_line_clear
+    line_set この二つは同じ柳生新陰流開祖柳生石舟斎宗厳をもちながら、
+    line_set 一方の江戸柳生は政治を、
+    line_set 一方の尾張柳生は剣を、
+    line_set それぞれの極意を預かる形となった。
+    line_set つまり、剣術の極意は尾張柳生にあり、政治的な部分のみで江戸柳生はあるとさえいえた。
+    nvl_line_clear
+    line_set 実際巷では、尾張柳生こそ最高の剣術だといううわさは絶えなかった。
+    nvl_line_clear
+    line_set 実際この数年後、江戸柳生と尾張柳生は御前試合により剣を交える事になるが、
+    line_set 尾張柳生の勝利で終わる事になる・・・。
+
+    adv_on
+    line_set 「俺をねらう目的はなんだ」
+    line_set 「ただ、俺が目障りなだけで幕府が動くとはとてもおもえん」
+
+    name_set 十兵衛
+    line_set 「・・・」
+    line_set 「問答無用だ」
+    line_set 「死ね」
+
+    kgd_layer3_fadeout 1
+    kgd_layer3_clear 1
+    fight_start
+    force_save_menu
+
+    nvl_on
+    line_set 浮浪者は変装を解いて剣を抜き、双厳に襲いかかる。
+
+    adv_on
+    kgd_layer3_set 0 Kgd\Jy_009.kgd
+    kgd_layer3_param 0 100 0 0 0 600 600
+    kgd_layer3_display 0
+    music_play 9
+
+    kgd_layer1_set 1 Kgd\En_023.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    kgd_layer2_fade_unk 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 抜刀ともに双厳に襲いかかる十兵衛。
+    line_set 双厳も鯉口を切る。
+    nvl_line_clear
+    line_set 「そのまま打ち込んで来る気か」
+
+    adv_on
+    jump_choice @20 ◆剣を受ける
+    jump_choice @21 ◆猿飛
+    jump_fight_failure @22
+
+@20
+    kgd_layer1_set 1 Kgd\En_024.kgd
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    name_clear
+    line_set ギィイイイイイ！！！
+
+    nvl_on
+    line_set 鋼がぶつかりあう音！
+    line_set 双厳は十兵衛の剣を正面から受け止める。
+    line_set 双厳の腕に剣を介して急激な圧力がかかる。
+    line_set が次の一瞬、圧力がすぐに消える。
+
+    adv_on
+    jump_choice @23 ◆すぐに離れる
+    jump_choice @24 ◆つばぜり合いにもちこむ
+    jump_fight_failure @22
+
+@23
+    kgd_layer1_set 1 Kgd\En_025.kgd
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+
+    name_set 双厳
+    line_set 「こ、この感覚は・・・」
+
+    nvl_on
+    line_set すぐに双厳は後ろにはねのける。
+
+    adv_on
+    name_clear
+    line_set ザッ！
+
+    nvl_on
+    line_set 双厳の着物が一部斬れる。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「よく今の太刀がよけられたな・・・」
+
+    name_set 双厳
+    line_set 「陰流・・・」
+
+    name_set 十兵衛
+    line_set 「くくくくく・・・さすがに陰流に詳しいな」
+    line_set 「そうだ、柳生陰流猿回しだ」
+
+    nvl_on
+    line_set 猿回しとは、相手に太刀と刃をまじえた時にそのまま力を受け流しつつ、
+    line_set 相手に接近しわきの下をぬけ同時にわきをなぎながら後方へぬける技である。
+    nvl_line_clear
+    line_set もし双厳が剣がふれあった瞬間に後ろにはねのけていなければ、
+    line_set 双厳はわきから切り裂かれ絶命していたであろう。
+
+    adv_on
+    name_set 双厳
+    line_set 「さすが天下の剣といったところか？」
+
+    jump_auto @25
+
+@24
+    nvl_on
+    line_set 双厳はそのまま剣に力を入れる。
+    line_set すると敵の剣から伝わる圧力が無と化した。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    name_set 双厳
+    line_set 「？！」
+    music_stop
+
+    sfx_set 0 Se\001.wav
+    sfx_play 0
+    name_clear
+    line_set ブシャ！！
+
+    kgd_layer1_set 0 Kgd\En_001.kgd
+    kgd_layer1_fx 1
+    kgd_layer1_display
+
+    name_set 双厳
+    line_set 「？！」
+
+    nvl_on
+    line_set 双厳が気が付いたときにはすでに十兵衛は双厳の後ろに立っていた。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「買いかぶりすぎたようだな・・・」
+    line_set 「この程度の腕であったとはな・・・」
+
+    nvl_on
+    line_set 十兵衛の握っている剣からは血が滴りおちている。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳は自らのわきを探ってみる。
+
+    adv_on
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳のわきは胸元まで大きく切り裂かれており、大量の血が滴り落ちている。
+    line_set 完全な致命傷である。
+
+    adv_on
+    jump_auto @26
+
 @21
+    kgd_layer1_set 1 Kgd\En_025.kgd
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 双厳は相手がかかってくるのに合わせ後ろにさがる。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「えいぃ！！」
+
+    nvl_on
+    line_set それにより間合いが少し広がり十兵衛の打ち込むタイミングが少しずれる。
+    line_set それを狙っていたかのように双厳が突然前に飛び上がった！
+
+    adv_on
+    name_clear
+    line_set ザッ！！！
+
+    name_set 十兵衛
+    line_set 「ぐっ・・・」
+
+    nvl_on
+    line_set 陰流猿飛の部、猿飛。
+    line_set 相手がかかるのをさがると見せ逆に跳び相手の脳天を砕くという技である。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「さすがだな・・・」
+    line_set 「それをよけるとは・・・」
+
+    nvl_on
+    line_set 十兵衛は双厳の太刀を皮一枚でよけた。
+    line_set 十兵衛の頬はかるく斬れている。
+
+    adv_on
 
 @25
+    kgd_layer1_set 1 Kgd\En_024.kgd
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 次は双厳が十兵衛に攻撃をしかけようとする。
+    line_set 十兵衛が身構える。
+
+    adv_on
+    jump_choice @27 ◆天の構えから
+    jump_choice @28 ◆地の構えから
+    jump_fight_failure @22
+
+@27
+    nvl_on
+    line_set 双厳の剣は大きく上に掲げられている。
+    line_set 俗にいう上段の構え、あるいは天の構えという形である。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「・・・」
+
+    nvl_on
+    line_set 十兵衛は慎重に双厳の剣を見据える。
+    line_set 双厳はそれをまっていたかのように次の行動にでる。
+    line_set 天の構えから、剣は大きく円を描くように宙にまわされていく。
+
+    adv_on
+    line_set 「？！」
+
+    nvl_on
+    line_set 天にむけられた剣先はゆっくりと円を描きながら徐々に下方に向かう。
+
+    adv_on
+    line_set 「これは！？」
+    line_set 「チィイイイイ」
+
+    nvl_on
+    line_set 十兵衛は双厳の型を見るなり大きく後ろにさがる。
+    line_set 下方にゆっくり向かった剣は突如、十兵衛の眼前から消える。
+    line_set それを確認してから十兵衛が後ろに飛んでいたら、彼には全然違った運命がまっていたであろう。
+    nvl_line_clear
+    line_set 十兵衛は双厳の型を確認するやいなや次の行動をとっていた。
+    line_set ゆえに双厳の剣は十兵衛を軽くかすめるにとどまっていた。
+
+    adv_on
+    line_set 「はぁ、はぁ・・・」
+    line_set 「月影を使うとはな・・・」
+    line_set 「術中にはまる前に動かなければ」
+    line_set 「危うく、真っ二つになるところだった」
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「月影か・・・」
+    line_set 「俺の流派では霞太刀というのだがな・・・」
+
+    name_set 十兵衛
+    line_set 「はははは」
+    line_set 「そうだったな・・・」
+
+    name_set 双厳
+    line_set 「くくくく・・・」
+    line_set 「ひさしぶりだ、こんな楽しい気分なのは」
+    line_set 「貴様らも伊達に陰流を現在に伝えているわけではなさそうだな」
+
+    name_set 十兵衛
+    line_set 「くくくく・・・」
+    line_set 「お前から見たら、俺達の剣術が亜流なのだろうけどな」
+
+    jump_auto @29
 
 @28
+    nvl_on
+    line_set 双厳は剣をつま先から三寸の位置、
+    line_set つまり地擦りに下げる。
+    nvl_line_clear
+    line_set 十兵衛はそれをみるや突然構えを変える。
+    line_set 剣をおおきく振りかぶる形でとめる。
 
-kgd_layer2_set 1 Kgd\B_046.kgd
+    adv_on
+    name_set 双厳
+    line_set 「ちっ・・・」
 
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-section_jump_branch2 19
+    name_set 十兵衛
+    line_set 「勝負にあせったな・・・」
 
-jump_choice 22 ◆屋敷前への道へ移動
+    nvl_on
+    line_set 双厳はそのまま地擦りから狙っていたある型をあきらめ、そのまま剣を上にふりあげる。
 
-jump_choice 23 ◆海岸へ移動
-jump_choice 24 ◆港へ移動
-@23
+    adv_on
+    line_set 「勝負あった！」
 
-@29
+    nvl_on
+    line_set 十兵衛はそのまま振り下ろす。
+    line_set 地の構えから次の行動をしようとしていた双厳には最悪のタイミングであった。
 
-@30
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_stop
 
-kgd_layer2_set 1 Kgd\B_050.kgd
+    sfx_set 0 Se\001.wav
+    sfx_play 0
+    name_clear
+    line_set ブシュ
 
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_choice 25 ◆村へ移動
+    kgd_layer1_set 0 Kgd\En_001.kgd
+    kgd_layer1_fx 1
+    kgd_layer1_display
 
-jump_choice 26 ◆港へ移動
-jump_choice 27 ◆物見やぐらへ移動
-@24
+    nvl_on
+    line_set 鈍い音がこだまする。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「買いかぶりすぎたようだな・・・」
+    line_set 「この程度の腕であったとはな・・・」
+
+    nvl_on
+    line_set 十兵衛の握っている剣からは血が滴りおちている。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳の視界は真っ赤に染まる。
+
+    adv_on
+    line_set 「・・・」
+
+    nvl_on
+    line_set 大量の血が双厳のわき肩から吹き出している。
+    line_set その血しぶきは双厳から見えるものをすべて赤く染め上げていく。
+
+    adv_on
 
 @26
+    name_clear
+    line_set ドサ・・・
+
+    nvl_on
+    line_set 双厳はその場にたおれこむ。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「・・・」
+    line_set 「柳生新陰流は上泉の新陰流の流れをくむ」
+    line_set 「さらに新陰流は愛洲陰流の流れをくむ」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 十兵衛は倒れた双厳に向かい何事か語りだした。
+    line_set が、双厳の意識はすでになくなりつつあった。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「つまり現存する陰流」
+    line_set 「柳生新陰流、直心陰流、疋田陰流」
+    line_set 「その源流はすべて愛洲陰流にあるといえる」
+    line_set 「しかし今となっては、愛洲陰流そのものを伝える者はいない」
+    line_set 「と思われていたが」
+    line_set 「最近、その愛洲陰流を使う者がいるという情報を耳にした」
+    line_set 「それが二つ影双厳、お前だ・・・」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 十兵衛
+    line_set 「だがとんだ勘違いだったようだな」
+    line_set 「今の技は陰流の一部だ」
+    line_set 「この程度の技も見切れないのでは」
+    line_set 「陰流の源流を受け継ぐものとは言えない」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 十兵衛
+    line_set 「残念だな・・・」
+
+    nvl_on
+    line_set 双厳の耳にはすでに十兵衛の声は聞こえない。
+    line_set この物語も双厳の死をもって、終わる事となってしまったのである。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+    adv_on
+    game_over
+
+@29
+    jump_choice @30 ◆攻撃
+    jump_choice @31 ◆待つ
+    jump_fight_failure @22
+
+@30
+    name_set 双厳
+    line_set 「さて、そろそろ本気を出すか」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    name_set 双厳
+    line_set 「わかるだろ」
+    line_set 「この言葉の意味が・・・」
+
+    name_set 十兵衛
+    line_set 「くくくく・・・」
+    line_set 「柳生新陰流に伝わらない、陰流のもっとも恐るべき部分を見せてくれるというわけか」
+
+    nvl_on
+    line_set 双厳は剣の柄がちょうど胸元にくるように構える。
+
+    adv_on
+    line_set 「くくくく・・・」
+    line_set 「たしかに見たことのない構えだ・・・」
+    line_set 「それが陰の流れか・・・」
+
+    name_set 双厳
+    line_set 「死ぬ前に剣の名前を教えてやろう」
+    line_set 「陰の流れ疾風剣！」
+    line_set 「冥土のみやげにみせてやろう」
+
+    name_set 十兵衛
+    line_set 「くくくくく・・・」
+    line_set 「柳生一族とて、ただ陰流を継承してわけではない」
+    line_set 「柳生新陰流開祖柳生石舟斎宗厳が新陰流上泉伊勢守信綱に破れて以来」
+    line_set 「新陰流をこえるために、開祖苦心のすえに編み出した奥義を見るがよい」
+
+    nvl_on
+    line_set なんと十兵衛はその場でしゃがみこむ。
+
+    adv_on
+    name_set 双厳
+    line_set 「？！」
+
+    nvl_on
+    line_set 十兵衛はそのまま剣先を双厳に向け地べたに投げ出した。
+    line_set なんと奇妙な光景であろうか？
+    line_set 投げ出した剣の前に十兵衛は座して双厳を見据える。
+
+    adv_on
+    line_set 「・・・」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    nvl_on
+    line_set 二人に沈黙が訪れる。
+    nvl_line_clear
+    line_set 十兵衛が無造作に投げ出したように見えた剣は、実は巧妙に双厳の動きを封じていた。
+
+    adv_on
+    name_set 双厳
+    line_set 「むむむ・・・」
+
+    name_set 十兵衛
+    line_set 「これぞ、一葉浮水のかまえ」
+
+    nvl_on
+    line_set 双厳の足元に落ちた剣は、双厳の間合いから前進を封じていた。
+    line_set そしてこのとき、片膝付きの姿勢に変化した十兵衛がそのままの姿勢を崩すことなく、
+    line_set じりじりとななめに双厳に接近してきた。
+
+    adv_on
+    name_set 双厳
+    line_set 「くっ・・・」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    nvl_on
+    line_set あせる双厳であるが、おしているハズの十兵衛の方も余裕はみられず、
+    line_set 十兵衛の額から大粒の汗が流れだしている。
+
+    adv_on
+    name_set 双厳
+    line_set 「むむむ・・・」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    nvl_on
+    line_set 両者の距離は刻一刻とせまっていった。
+    line_set もはや双厳の刀は、振り下ろせば十兵衛の頭蓋骨をうち砕いていただろう。
+    line_set が、双厳の足元の太刀が双厳の踏み込みを封じていた。
+    line_set 双厳は自らの技を封印されながら十兵衛の攻撃を受ける事になった。
+
+    adv_on
+    name_clear
+    line_set バシュ！
+
+    kgd_layer1_set 1 Kgd\En_025.kgd
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 瞬間！
+    nvl_line_clear
+    line_set 十兵衛の体が下方へ沈んだように見え、そのまま双厳めがけてとんでいた。
+    nvl_line_clear
+    line_set 双厳の足元の刀はそのまま十兵衛の手ににぎられ、
+    line_set 下方からふり上げられる！
+    line_set 双厳はそれとほぼ同時に剣で我が身を防御しつつ横に飛び退く。
+    nvl_line_clear
+    line_set 双厳の胸元が軽く斬られ、血が飛び散る。
+
+    adv_on
+    name_clear
+    line_set ザッ！
+
+    kgd_layer1_set 1 Kgd\En_024.kgd
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set その場で、身体を確かめる双厳。
+    line_set 傷は致命傷ではない。
+    nvl_line_clear
+    line_set 「傷をうけたか・・・」
+    nvl_line_clear
+    line_set 浅い傷といえども、相手は隠密である。
+    line_set 刀にどんなものが塗ってあるか分かったものでない。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「ふふふ・・・」
+    line_set 「安心しろ・・・」
+    line_set 「毒などという無粋なものは使わん」
+
+    jump_auto @32
 
-kgd_layer2_set 1 Kgd\B_062.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_choice 28 ◆村へ移動
-
-jump_choice 29 ◆海岸へ移動
-@27
-
-kgd_layer2_set 1 Kgd\B_066.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_choice 30 ◆海岸へ移動
-
-#74_2
-
-nvl_on
-
-line_set 北条と浮浪者が話をしているようだ。
-
-line_set 双厳はとっさに身を隠す。
-adv_on
-
-kgd_layer3_set 1 Kgd\Jy_012.kgd
-
-kgd_layer3_param 1 0 0 0 0 560 600
-kgd_layer3_display 1
-kgd_layer3_set 0 Kgd\Ho_003.kgd
-kgd_layer3_param 0 328 0 0 0 472 600
-kgd_layer3_display 0
-name_set 北条
-
-sfx_set 2 Vox\5802.wav
-sfx_play 2
-line_set 「たぶん、彼が二重影でしょう」
-sfx_stop 2
-
-sfx_set 2 Vox\5801.wav
-sfx_play 2
-line_set 「うっすら影が二つあるように見受けられました」
-sfx_stop 2
-name_set 浮浪者
-
-line_set 「あの影は、ある期間中はほとんど消えて見えないという」
-
-line_set 「あの影がくっきり見えたときやつの本性が現れる」
-name_set 北条
-
-sfx_set 2 Vox\5800.wav
-sfx_play 2
-line_set 「その魔性に、我ら柳生一門の多くが殺されたわけですね」
-sfx_stop 2
-
-name_set 浮浪者
-
-line_set 「やつの影が発動したらこの俺ですら止められるともかぎらない」
-
-line_set 「江戸新陰流の剣は太平をただす剣」
-line_set 「あのように太平の世を惑わす、魔性の者の存在を許すわけにはいかない」
-name_set 北条
-
-sfx_set 2 Vox\5799.wav
-sfx_play 2
-line_set 「はい」
-sfx_stop 2
-
-name_set 浮浪者
-
-line_set 「やつがこの地に来たことも、偶然ではあるまい」
-
-name_set 北条
-
-sfx_set 2 Vox\5798.wav
-sfx_play 2
-line_set 「もしや、やつらとつながっているのでは？」
-sfx_stop 2
-
-name_set 浮浪者
-
-line_set 「その可能性も否定しきれない」
-
-line_set 「二重影とやつらの関係があっても不思議ではない」
-name_set 北条
-
-sfx_set 2 Vox\5797.wav
-sfx_play 2
-line_set 「とりあえず、さらに二つ影の様子を見張っておきます」
-sfx_stop 2
-
-sfx_set 2 Vox\5796.wav
-sfx_play 2
-line_set 「十兵衛さま」
-sfx_stop 2
-nvl_on
-
-line_set 「・・・」
-
-line_set 「十兵衛？」
-line_set 「十兵衛というと・・・あの・・・」
-adv_on
-
-name_set 十兵衛
-
-line_set 「うむ」
-
-name_set 北条
-
-sfx_set 2 Vox\5795.wav
-sfx_play 2
-line_set 「では」
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-nvl_on
-
-line_set 「・・・」
-
-line_set 「やつらやはり幕府の犬か・・・」
-nvl_line_clear
-
-line_set 十兵衛は、北条主税が完全に姿を消すのを見送っていた。
-
-adv_on
-
-name_set 十兵衛
-
-line_set 「くくくくくくく」
-
-line_set 「いい加減出てきたらどうだ！」
-line_set 「話をすべて聞いていたのだろう！」
-nvl_on
-
-line_set 「チッ」
-
-line_set 「気が付かれていたか・・・」
-nvl_line_clear
-
-line_set 双厳は十兵衛の前に姿をあらわした。
-
-adv_on
-
-line_set 「まあ、察しの良い二つ影双厳殿だ」
-
-line_set 「こちらの存在も薄々気が付いていたろう」
-name_set 双厳
-
-line_set 「そういえば、この前殺した侍どもは、新陰流の型をいくつかしていたな・・・」
-
-line_set 「あんな辺境で天下の剣術を使う集団がいるのでもかなりおかしいとは思ったが」
-line_set 「よもやマジで幕府が動いているとはな、意外だったよ」
-name_set 十兵衛
-
-line_set 「ふふふふふふ・・・」
-
-name_set 双厳
-
-line_set 「さてと・・・」
-
-line_set 「ここいらで一つ聞いておこうかな？」
-name_set 十兵衛
-
-line_set 「それがいい・・・」
-
-line_set 「死ぬ前に聞いておいた方が、成仏もしやすいであろう」
-name_set 双厳
-
-line_set 「成仏？」
-
-line_set 「生憎、俺は神も仏も信じてないんでね」
-line_set 「あんまり関係ないな・・・」
-name_set 十兵衛
-
-line_set 「そりゃ残念だな・・・」
-
-line_set 「死んだら念仏の一つでもとなえてやろうと思ったのにな・・・」
-name_set 双厳
-
-line_set 「さて、無駄話はここまでで・・・」
-
-line_set 「質問だ」
-line_set 「なぜ幕府が動いた」
-name_set 十兵衛
-
-line_set 「柳生流は天下の兵法だからだよ」
-
-line_set 「これからの太平の世に貴様の様な、死の臭いを漂わせている者は邪魔なのだよ」
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「そんなものは理由にはならんよ」
-line_set 「いくら俺が数百人の役人を斬ったといっても幕府そのものが動くものではあるまい」
-line_set 「俺が数百人、数千人殺したとしても」
-line_set 「太平の世は揺らがない・・・」
-name_set 十兵衛
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「幕府の剣法指南である江戸柳生は、内実幕府の裏の汚い部分をすべて受け持つ陰の軍団である」
-name_set 十兵衛
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「世間ではこんなことを言われているのだろう・・・」
-
-line_set 「柳生新陰流というのは、ご政治向きの工作ばかり教える流派だと」
-nvl_on
-
-line_set 十兵衛は眉ひとつ動かさない。
-
-line_set 実は、双厳が口にしたことは、江戸柳生にとりもっとも屈辱的な一言であった。
-nvl_line_clear
-
-line_set 実は柳生新陰流には大きくわけて二つの流れがあり、一方を柳生但馬守を祖とする江戸柳生、
-
-line_set そして但馬の甥にあたる柳生兵庫助利厳を祖とする尾張柳生がある。
-nvl_line_clear
-
-line_set この二つは同じ柳生新陰流開祖柳生石舟斎宗厳をもちながら、
-
-line_set 一方の江戸柳生は政治を、
-line_set 一方の尾張柳生は剣を、
-line_set それぞれの極意を預かる形となった。
-line_set つまり、剣術の極意は尾張柳生にあり、政治的な部分のみで江戸柳生はあるとさえいえた。
-nvl_line_clear
-
-line_set 実際巷では、尾張柳生こそ最高の剣術だといううわさは絶えなかった。
-
-nvl_line_clear
-
-line_set 実際この数年後、江戸柳生と尾張柳生は御前試合により剣を交える事になるが、
-
-line_set 尾張柳生の勝利で終わる事になる・・・。
-adv_on
-
-line_set 「俺をねらう目的はなんだ」
-
-line_set 「ただ、俺が目障りなだけで幕府が動くとはとてもおもえん」
-name_set 十兵衛
-
-line_set 「・・・」
-
-line_set 「問答無用だ」
-line_set 「死ね」
-kgd_layer3_fadeout 1
-
-kgd_layer3_clear 1
-fight_start
-
-force_save_menu
-
-nvl_on
-
-line_set 浮浪者は変装を解いて剣を抜き、双厳に襲いかかる。
-
-adv_on
-
-kgd_layer3_set 0 Kgd\Jy_009.kgd
-
-kgd_layer3_param 0 100 0 0 0 600 600
-kgd_layer3_display 0
-music_play 9
-
-kgd_layer1_set 1 Kgd\En_023.kgd
-
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer1_clear 1
-kgd_layer2_fade_unk 0
-kgd_layer3_clear 0
-nvl_on
-
-line_set 抜刀ともに双厳に襲いかかる十兵衛。
-
-line_set 双厳も鯉口を切る。
-nvl_line_clear
-
-line_set 「そのまま打ち込んで来る気か」
-
-adv_on
-
-jump_choice 31 ◆剣を受ける
-
-jump_choice 32 ◆猿飛
-jump_fight_failure 33
 @31
-
-kgd_layer1_set 1 Kgd\En_024.kgd
-
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-kgd_layer1_clear 1
-name_clear
-
-line_set ギィイイイイイ！！！
-
-nvl_on
-
-line_set 鋼がぶつかりあう音！
-
-line_set 双厳は十兵衛の剣を正面から受け止める。
-line_set 双厳の腕に剣を介して急激な圧力がかかる。
-line_set が次の一瞬、圧力がすぐに消える。
-adv_on
-
-jump_choice 34 ◆すぐに離れる
-
-jump_choice 35 ◆つばぜり合いにもちこむ
-jump_fight_failure 36
-@34
-
-kgd_layer1_set 1 Kgd\En_025.kgd
-
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-kgd_layer1_clear 1
-name_set 双厳
-
-line_set 「こ、この感覚は・・・」
-
-nvl_on
-
-line_set すぐに双厳は後ろにはねのける。
-
-adv_on
-
-name_clear
-
-line_set ザッ！
-
-nvl_on
-
-line_set 双厳の着物が一部斬れる。
-
-adv_on
-
-name_set 十兵衛
-
-line_set 「よく今の太刀がよけられたな・・・」
-
-name_set 双厳
-
-line_set 「陰流・・・」
-
-name_set 十兵衛
-
-line_set 「くくくくく・・・さすがに陰流に詳しいな」
-
-line_set 「そうだ、柳生陰流猿回しだ」
-nvl_on
-
-line_set 猿回しとは、相手に太刀と刃をまじえた時にそのまま力を受け流しつつ、
-
-line_set 相手に接近しわきの下をぬけ同時にわきをなぎながら後方へぬける技である。
-nvl_line_clear
-
-line_set もし双厳が剣がふれあった瞬間に後ろにはねのけていなければ、
-
-line_set 双厳はわきから切り裂かれ絶命していたであろう。
-adv_on
-
-name_set 双厳
-
-line_set 「さすが天下の剣といったところか？」
-
-jump_auto 37
-
-@35
-
-nvl_on
-
-line_set 双厳はそのまま剣に力を入れる。
-
-line_set すると敵の剣から伝わる圧力が無と化した。
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-name_set 双厳
-
-line_set 「？！」
-
-music_stop
-
-sfx_set 0 Se\001.wav
-
-sfx_play 0
-name_clear
-
-line_set ブシャ！！
-
-kgd_layer1_set 0 Kgd\En_001.kgd
-
-kgd_layer1_fx 1
-kgd_layer1_display
-name_set 双厳
-
-line_set 「？！」
-
-nvl_on
-
-line_set 双厳が気が付いたときにはすでに十兵衛は双厳の後ろに立っていた。
-
-adv_on
-
-name_set 十兵衛
-
-line_set 「買いかぶりすぎたようだな・・・」
-
-line_set 「この程度の腕であったとはな・・・」
-nvl_on
-
-line_set 十兵衛の握っている剣からは血が滴りおちている。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳は自らのわきを探ってみる。
-
-adv_on
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳のわきは胸元まで大きく切り裂かれており、大量の血が滴り落ちている。
-
-line_set 完全な致命傷である。
-adv_on
-
-jump_auto 38
+    nvl_on
+    line_set 双厳は十兵衛の出方を見ることにした。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    nvl_on
+    line_set 二人の間に沈黙が流れる。
+
+    adv_on
+    line_set 「こちらが動くのを待つ気か・・・」
+    line_set 「ならば・・・」
+
+    nvl_on
+    line_set 十兵衛はその場でしゃがみこむ。
+
+    adv_on
+    name_set 双厳
+    line_set 「？！」
+
+    nvl_on
+    line_set 十兵衛はそのまま剣先を双厳に向け地べたに投げ出した。
+    line_set なんと奇妙な光景であろうか？
+    line_set 投げ出した剣の前に十兵衛は座して双厳を見据える。
+
+    adv_on
+    line_set 「・・・」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    nvl_on
+    line_set 二人に沈黙が訪れる。
+    nvl_line_clear
+    line_set 十兵衛が無造作に投げ出したように見えた剣は、実は巧妙に双厳の動きを封じていた。
+
+    adv_on
+    name_set 双厳
+    line_set 「むむむ・・・」
+
+    name_set 十兵衛
+    line_set 「これぞ、一葉浮水のかまえ」
+
+    nvl_on
+    line_set 双厳の足元に落ちた剣は、双厳の間合いから前進を封じていた。
+    line_set そしてこのとき、片膝付きの姿勢に変化した十兵衛がそのままの姿勢を崩すことなく、
+    line_set じりじりとななめに双厳に接近してきた。
+
+    adv_on
+    name_set 双厳
+    line_set 「くっ・・・」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    nvl_on
+    line_set あせる双厳であるが、おしているハズの十兵衛の方も余裕はみられず、
+    line_set 十兵衛の額から大粒の汗が流れだしている。
+
+    adv_on
+    name_set 双厳
+    line_set 「むむむ・・・」
+
+    name_set 十兵衛
+    line_set 「・・・」
+
+    nvl_on
+    line_set 両者の距離は刻一刻とせまっていった。
+    line_set もはや双厳の刀は、振り下ろせば十兵衛の頭蓋骨をうち砕いていただろう。
+    line_set が、双厳の足元の太刀が双厳の踏み込みを封じていた。
+
+    adv_on
+    name_clear
+    line_set バシュ！
+
+    nvl_on
+    line_set 瞬間！
+    nvl_line_clear
+    line_set 十兵衛の体が下方へ沈んだように見え、そのまま双厳めがけてとんでいた。
+    nvl_line_clear
+    line_set 双厳の足元の刀はそのまま十兵衛の手ににぎられ、
+    line_set 下方からふり上げられる！
+    line_set 双厳はそれとほぼ同時に剣で我が身を防御しつつ横の飛び上がる。
+    nvl_line_clear
+    line_set 双厳の胸元が軽く斬られ、血が飛び散る。
+
+    adv_on
+    name_clear
+    line_set ザッ！
+
+    nvl_on
+    line_set その場で、身体を確かめる双厳。
+    line_set 傷は致命傷ではない。
+    nvl_line_clear
+    line_set 「傷をうけたか・・・」
+    nvl_line_clear
+    line_set 浅い傷といえども、相手は隠密である。
+    line_set 刀にどんなものが塗ってあるか分かったものでない。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「ふふふ・・・」
+    line_set 「安心しろ・・・」
+    line_set 「毒などという無粋なものは使わん」
 
 @32
-
-kgd_layer1_set 1 Kgd\En_025.kgd
-
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-kgd_layer1_clear 1
-nvl_on
-
-line_set 双厳は相手がかかってくるのに合わせ後ろにさがる。
-
-adv_on
-
-name_set 十兵衛
-
-line_set 「えいぃ！！」
-
-nvl_on
-
-line_set それにより間合いが少し広がり十兵衛の打ち込むタイミングが少しずれる。
-
-line_set それを狙っていたかのように双厳が突然前に飛び上がった！
-adv_on
-
-name_clear
-
-line_set ザッ！！！
-
-name_set 十兵衛
-
-line_set 「ぐっ・・・」
-
-nvl_on
-
-line_set 陰流猿飛の部、猿飛。
-
-line_set 相手がかかるのをさがると見せ逆に跳び相手の脳天を砕くという技である。
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「さすがだな・・・」
-line_set 「それをよけるとは・・・」
-nvl_on
-
-line_set 十兵衛は双厳の太刀を皮一枚でよけた。
-
-line_set 十兵衛の頬はかるく斬れている。
-adv_on
-
-@37
-
-kgd_layer1_set 1 Kgd\En_024.kgd
-
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-kgd_layer1_clear 1
-nvl_on
-
-line_set 次は双厳が十兵衛に攻撃をしかけようとする。
-
-line_set 十兵衛が身構える。
-adv_on
-
-jump_choice 39 ◆天の構えから
-
-jump_choice 40 ◆地の構えから
-jump_fight_failure 41
-@39
-
-nvl_on
-
-line_set 双厳の剣は大きく上に掲げられている。
-
-line_set 俗にいう上段の構え、あるいは天の構えという形である。
-adv_on
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 十兵衛は慎重に双厳の剣を見据える。
-
-line_set 双厳はそれをまっていたかのように次の行動にでる。
-line_set 天の構えから、剣は大きく円を描くように宙にまわされていく。
-adv_on
-
-line_set 「？！」
-
-nvl_on
-
-line_set 天にむけられた剣先はゆっくりと円を描きながら徐々に下方に向かう。
-
-adv_on
-
-line_set 「これは！？」
-
-line_set 「チィイイイイ」
-nvl_on
-
-line_set 十兵衛は双厳の型を見るなり大きく後ろにさがる。
-
-line_set 下方にゆっくり向かった剣は突如、十兵衛の眼前から消える。
-line_set それを確認してから十兵衛が後ろに飛んでいたら、彼には全然違った運命がまっていたであろう。
-nvl_line_clear
-
-line_set 十兵衛は双厳の型を確認するやいなや次の行動をとっていた。
-
-line_set ゆえに双厳の剣は十兵衛を軽くかすめるにとどまっていた。
-adv_on
-
-line_set 「はぁ、はぁ・・・」
-
-line_set 「月影を使うとはな・・・」
-line_set 「術中にはまる前に動かなければ」
-line_set 「危うく、真っ二つになるところだった」
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「月影か・・・」
-line_set 「俺の流派では霞太刀というのだがな・・・」
-name_set 十兵衛
-
-line_set 「はははは」
-
-line_set 「そうだったな・・・」
-name_set 双厳
-
-line_set 「くくくく・・・」
-
-line_set 「ひさしぶりだ、こんな楽しい気分なのは」
-line_set 「貴様らも伊達に陰流を現在に伝えているわけではなさそうだな」
-name_set 十兵衛
-
-line_set 「くくくく・・・」
-
-line_set 「お前から見たら、俺達の剣術が亜流なのだろうけどな」
-jump_auto 42
-
-@40
-
-nvl_on
-
-line_set 双厳は剣をつま先から三寸の位置、
-
-line_set つまり地擦りに下げる。
-nvl_line_clear
-
-line_set 十兵衛はそれをみるや突然構えを変える。
-
-line_set 剣をおおきく振りかぶる形でとめる。
-adv_on
-
-name_set 双厳
-
-line_set 「ちっ・・・」
-
-name_set 十兵衛
-
-line_set 「勝負にあせったな・・・」
-
-nvl_on
-
-line_set 双厳はそのまま地擦りから狙っていたある型をあきらめ、そのまま剣を上にふりあげる。
-
-adv_on
-
-line_set 「勝負あった！」
-
-nvl_on
-
-line_set 十兵衛はそのまま振り下ろす。
-
-line_set 地の構えから次の行動をしようとしていた双厳には最悪のタイミングであった。
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-music_stop
-
-sfx_set 0 Se\001.wav
-
-sfx_play 0
-name_clear
-
-line_set ブシュ
-
-kgd_layer1_set 0 Kgd\En_001.kgd
-
-kgd_layer1_fx 1
-kgd_layer1_display
-nvl_on
-
-line_set 鈍い音がこだまする。
-
-adv_on
-
-name_set 十兵衛
-
-line_set 「買いかぶりすぎたようだな・・・」
-
-line_set 「この程度の腕であったとはな・・・」
-nvl_on
-
-line_set 十兵衛の握っている剣からは血が滴りおちている。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳の視界は真っ赤に染まる。
-
-adv_on
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 大量の血が双厳のわき肩から吹き出している。
-
-line_set その血しぶきは双厳から見えるものをすべて赤く染め上げていく。
-adv_on
-
-@38
-
-name_clear
-
-line_set ドサ・・・
-
-nvl_on
-
-line_set 双厳はその場にたおれこむ。
-
-adv_on
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-line_set 「柳生新陰流は上泉の新陰流の流れをくむ」
-line_set 「さらに新陰流は愛洲陰流の流れをくむ」
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 十兵衛は倒れた双厳に向かい何事か語りだした。
-
-line_set が、双厳の意識はすでになくなりつつあった。
-adv_on
-
-name_set 十兵衛
-
-line_set 「つまり現存する陰流」
-
-line_set 「柳生新陰流、直心陰流、疋田陰流」
-line_set 「その源流はすべて愛洲陰流にあるといえる」
-line_set 「しかし今となっては、愛洲陰流そのものを伝える者はいない」
-line_set 「と思われていたが」
-line_set 「最近、その愛洲陰流を使う者がいるという情報を耳にした」
-line_set 「それが二つ影双厳、お前だ・・・」
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 十兵衛
-
-line_set 「だがとんだ勘違いだったようだな」
-
-line_set 「今の技は陰流の一部だ」
-line_set 「この程度の技も見切れないのでは」
-line_set 「陰流の源流を受け継ぐものとは言えない」
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 十兵衛
-
-line_set 「残念だな・・・」
-
-nvl_on
-
-line_set 双厳の耳にはすでに十兵衛の声は聞こえない。
-
-line_set この物語も双厳の死をもって、終わる事となってしまったのである。
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-nvl_on
-
-line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
-
-adv_on
-
-game_over
-
-@42
-
-jump_choice 43 ◆攻撃
-
-jump_choice 44 ◆待つ
-jump_fight_failure 45
-@43
-
-name_set 双厳
-
-line_set 「さて、そろそろ本気を出すか」
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-name_set 双厳
-
-line_set 「わかるだろ」
-
-line_set 「この言葉の意味が・・・」
-name_set 十兵衛
-
-line_set 「くくくく・・・」
-
-line_set 「柳生新陰流に伝わらない、陰流のもっとも恐るべき部分を見せてくれるというわけか」
-nvl_on
-
-line_set 双厳は剣の柄がちょうど胸元にくるように構える。
-
-adv_on
-
-line_set 「くくくく・・・」
-
-line_set 「たしかに見たことのない構えだ・・・」
-line_set 「それが陰の流れか・・・」
-name_set 双厳
-
-line_set 「死ぬ前に剣の名前を教えてやろう」
-
-line_set 「陰の流れ疾風剣！」
-line_set 「冥土のみやげにみせてやろう」
-name_set 十兵衛
-
-line_set 「くくくくく・・・」
-
-line_set 「柳生一族とて、ただ陰流を継承してわけではない」
-line_set 「柳生新陰流開祖柳生石舟斎宗厳が新陰流上泉伊勢守信綱に破れて以来」
-line_set 「新陰流をこえるために、開祖苦心のすえに編み出した奥義を見るがよい」
-nvl_on
-
-line_set なんと十兵衛はその場でしゃがみこむ。
-
-adv_on
-
-name_set 双厳
-
-line_set 「？！」
-
-nvl_on
-
-line_set 十兵衛はそのまま剣先を双厳に向け地べたに投げ出した。
-
-line_set なんと奇妙な光景であろうか？
-line_set 投げ出した剣の前に十兵衛は座して双厳を見据える。
-adv_on
-
-line_set 「・・・」
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 二人に沈黙が訪れる。
-
-nvl_line_clear
-
-line_set 十兵衛が無造作に投げ出したように見えた剣は、実は巧妙に双厳の動きを封じていた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「むむむ・・・」
-
-name_set 十兵衛
-
-line_set 「これぞ、一葉浮水のかまえ」
-
-nvl_on
-
-line_set 双厳の足元に落ちた剣は、双厳の間合いから前進を封じていた。
-
-line_set そしてこのとき、片膝付きの姿勢に変化した十兵衛がそのままの姿勢を崩すことなく、
-line_set じりじりとななめに双厳に接近してきた。
-adv_on
-
-name_set 双厳
-
-line_set 「くっ・・・」
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-nvl_on
-
-line_set あせる双厳であるが、おしているハズの十兵衛の方も余裕はみられず、
-
-line_set 十兵衛の額から大粒の汗が流れだしている。
-adv_on
-
-name_set 双厳
-
-line_set 「むむむ・・・」
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 両者の距離は刻一刻とせまっていった。
-
-line_set もはや双厳の刀は、振り下ろせば十兵衛の頭蓋骨をうち砕いていただろう。
-line_set が、双厳の足元の太刀が双厳の踏み込みを封じていた。
-line_set 双厳は自らの技を封印されながら十兵衛の攻撃を受ける事になった。
-adv_on
-
-name_clear
-
-line_set バシュ！
-
-kgd_layer1_set 1 Kgd\En_025.kgd
-
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-kgd_layer1_clear 1
-nvl_on
-
-line_set 瞬間！
-
-nvl_line_clear
-
-line_set 十兵衛の体が下方へ沈んだように見え、そのまま双厳めがけてとんでいた。
-
-nvl_line_clear
-
-line_set 双厳の足元の刀はそのまま十兵衛の手ににぎられ、
-
-line_set 下方からふり上げられる！
-line_set 双厳はそれとほぼ同時に剣で我が身を防御しつつ横に飛び退く。
-nvl_line_clear
-
-line_set 双厳の胸元が軽く斬られ、血が飛び散る。
-
-adv_on
-
-name_clear
-
-line_set ザッ！
-
-kgd_layer1_set 1 Kgd\En_024.kgd
-
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-kgd_layer1_clear 1
-nvl_on
-
-line_set その場で、身体を確かめる双厳。
-
-line_set 傷は致命傷ではない。
-nvl_line_clear
-
-line_set 「傷をうけたか・・・」
-
-nvl_line_clear
-
-line_set 浅い傷といえども、相手は隠密である。
-
-line_set 刀にどんなものが塗ってあるか分かったものでない。
-adv_on
-
-name_set 十兵衛
-
-line_set 「ふふふ・・・」
-
-line_set 「安心しろ・・・」
-line_set 「毒などという無粋なものは使わん」
-jump_auto 46
-
-@44
-
-nvl_on
-
-line_set 双厳は十兵衛の出方を見ることにした。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 二人の間に沈黙が流れる。
-
-adv_on
-
-line_set 「こちらが動くのを待つ気か・・・」
-
-line_set 「ならば・・・」
-nvl_on
-
-line_set 十兵衛はその場でしゃがみこむ。
-
-adv_on
-
-name_set 双厳
-
-line_set 「？！」
-
-nvl_on
-
-line_set 十兵衛はそのまま剣先を双厳に向け地べたに投げ出した。
-
-line_set なんと奇妙な光景であろうか？
-line_set 投げ出した剣の前に十兵衛は座して双厳を見据える。
-adv_on
-
-line_set 「・・・」
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 二人に沈黙が訪れる。
-
-nvl_line_clear
-
-line_set 十兵衛が無造作に投げ出したように見えた剣は、実は巧妙に双厳の動きを封じていた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「むむむ・・・」
-
-name_set 十兵衛
-
-line_set 「これぞ、一葉浮水のかまえ」
-
-nvl_on
-
-line_set 双厳の足元に落ちた剣は、双厳の間合いから前進を封じていた。
-
-line_set そしてこのとき、片膝付きの姿勢に変化した十兵衛がそのままの姿勢を崩すことなく、
-line_set じりじりとななめに双厳に接近してきた。
-adv_on
-
-name_set 双厳
-
-line_set 「くっ・・・」
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-nvl_on
-
-line_set あせる双厳であるが、おしているハズの十兵衛の方も余裕はみられず、
-
-line_set 十兵衛の額から大粒の汗が流れだしている。
-adv_on
-
-name_set 双厳
-
-line_set 「むむむ・・・」
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 両者の距離は刻一刻とせまっていった。
-
-line_set もはや双厳の刀は、振り下ろせば十兵衛の頭蓋骨をうち砕いていただろう。
-line_set が、双厳の足元の太刀が双厳の踏み込みを封じていた。
-adv_on
-
-name_clear
-
-line_set バシュ！
-
-nvl_on
-
-line_set 瞬間！
-
-nvl_line_clear
-
-line_set 十兵衛の体が下方へ沈んだように見え、そのまま双厳めがけてとんでいた。
-
-nvl_line_clear
-
-line_set 双厳の足元の刀はそのまま十兵衛の手ににぎられ、
-
-line_set 下方からふり上げられる！
-line_set 双厳はそれとほぼ同時に剣で我が身を防御しつつ横の飛び上がる。
-nvl_line_clear
-
-line_set 双厳の胸元が軽く斬られ、血が飛び散る。
-
-adv_on
-
-name_clear
-
-line_set ザッ！
-
-nvl_on
-
-line_set その場で、身体を確かめる双厳。
-
-line_set 傷は致命傷ではない。
-nvl_line_clear
-
-line_set 「傷をうけたか・・・」
-
-nvl_line_clear
-
-line_set 浅い傷といえども、相手は隠密である。
-
-line_set 刀にどんなものが塗ってあるか分かったものでない。
-adv_on
-
-name_set 十兵衛
-
-line_set 「ふふふ・・・」
-
-line_set 「安心しろ・・・」
-line_set 「毒などという無粋なものは使わん」
-@46
-
-nvl_on
-
-line_set 次々と繰り広げられる技。
-
-line_set 双厳と十兵衛。
-line_set この会った事もない二人の剣豪の剣は、
-line_set あまりに似通っていた。
-adv_on
-
-name_set 双厳
-
-line_set 「ふふふふ・・・」
-
-name_set 十兵衛
-
-line_set 「はははははははは・・・・」
-
-line_set 「さすが二つ影だ」
-line_set 「その剣術しかとみたぞ」
-name_set 双厳
-
-line_set 「やはり、俺の剣術を見極めたかったのか？」
-
-pis_set 24 0
-
-name_set 十兵衛
-
-line_set 「くくく・・・」
-
-line_set 「柳生新陰流以外にそれを現在に残すのは」
-line_set 「<0,直心陰流や疋田陰流>ぐらいのものだと思っていたがな・・・」
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 十兵衛
-
-line_set 「くくく・・・」
-
-line_set 「お前の剣術・・・」
-line_set 「それは！」
-nvl_on
-
-line_set 十兵衛は自分の言葉を途中でうち切り、そのまま打ち込んでくる。
-
-line_set 今度は、技ではなく単純な打ち込みである。
-adv_on
-
-jump_choice 47 ◆打ち込む
-
-jump_choice 48 ◆受ける
-jump_fight_failure 49
-@47
-
-@48
-
-nvl_on
-
-line_set 双厳は十兵衛の動きに合わせ次の行動にうつす。
-
-line_set 十兵衛の素早い打ち込みはすぐに双厳の眼前に振り下ろされていた。
-nvl_line_clear
-
-line_set と、
-
-line_set 思われた打ち込みは、「虚」の攻撃であり。
-line_set 打ち込んだように見せかけた剣のあいだから飛び道具が双厳を襲う。
-adv_on
-
-jump_choice 50 ◆よける
-
-jump_choice 51 ◆受ける
-jump_fight_failure 52
-@50
-
-nvl_on
-
-line_set 双厳は飛んでくる物体をすんででかわす。
-
-adv_on
-
-name_clear
-
-line_set ボム！
-
-nvl_on
-
-line_set よけた物体は双厳の後方にあった木にぶつかると破裂音をたてて煙をあげる。
-
-adv_on
-
-name_set 双厳
-
-line_set 「煙玉？」
-
-kgd_layer1_set 1 Kgd\En_026.kgd
-
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-kgd_layer1_clear 1
-nvl_on
-
-line_set さらに十兵衛は煙玉を双厳に投げつける。
-
-line_set すべてをよけきる双厳であるが、あたりは徐々に煙につつまれ視界がさえぎられる。
-adv_on
-
-name_set 十兵衛
-
-line_set 「さらばだ！」
-
-name_set 双厳
-
-line_set 「逃がすか！」
-
-jump_auto 53
-
-@52
-
-nvl_on
-
-line_set 双厳は十兵衛の速度についていけずになんの反応もできなかった。
-
-adv_on
-
-name_clear
-
-line_set ボム！
-
-nvl_on
-
-line_set 飛んできた物体は双厳の顔にあたるやいなや破裂音をたてて煙をあげる。
-
-adv_on
-
-jump_auto 54
-
-@51
-
-nvl_on
-
-line_set 双厳は飛んできた物体を剣で受ける。
-
-adv_on
-
-name_clear
-
-line_set ボム！
-
-nvl_on
-
-line_set 飛んできた物体は双厳の剣と触れるやいなや破裂をたてて煙をあげる。
-
-adv_on
-
-@54
-
-kgd_layer1_set 1 Kgd\En_026.kgd
-
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-kgd_layer1_clear 1
-name_set 双厳
-
-line_set 「ぐあ！？」
-
-nvl_on
-
-line_set 双厳の目に激痛がはしる。
-
-adv_on
-
-line_set 「ゴホ、ゲホ・・・」
-
-line_set 「煙玉？？？」
-name_set 十兵衛
-
-line_set 「ふははははははは」
-
-line_set 「さらばだ！」
-name_set 双厳
-
-line_set 「逃がすか！」
-
-line_set 「ゴホ、ゲホ・・・」
-nvl_on
-
-line_set 双厳は十兵衛を追おうとするが、
-
-line_set 煙玉により視力をうばわれまともに十兵衛の姿を見ることすらままならない。
-adv_on
-
-@53
-
-fight_end
-
-music_stop
-
-name_set 双厳
-
-line_set 「チッ」
-
-line_set 「煙玉か・・・」
-nvl_on
-
-line_set あたりは煙で覆われ、双厳はまったく視界を失った
-
-adv_on
-
-line_set 「なかなかの腕だな」
-
-line_set 「柳生であの腕の持ち主ならば、奴しかおるまい」
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-ksd_set Ksd\016.ksd
+    nvl_on
+    line_set 次々と繰り広げられる技。
+    line_set 双厳と十兵衛。
+    line_set この会った事もない二人の剣豪の剣は、
+    line_set あまりに似通っていた。
+
+    adv_on
+    name_set 双厳
+    line_set 「ふふふふ・・・」
+
+    name_set 十兵衛
+    line_set 「はははははははは・・・・」
+    line_set 「さすが二つ影だ」
+    line_set 「その剣術しかとみたぞ」
+
+    name_set 双厳
+    line_set 「やはり、俺の剣術を見極めたかったのか？」
+    pis_set 24 0
+
+    name_set 十兵衛
+    line_set 「くくく・・・」
+    line_set 「柳生新陰流以外にそれを現在に残すのは」
+    line_set 「<0,直心陰流や疋田陰流>ぐらいのものだと思っていたがな・・・」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 十兵衛
+    line_set 「くくく・・・」
+    line_set 「お前の剣術・・・」
+    line_set 「それは！」
+
+    nvl_on
+    line_set 十兵衛は自分の言葉を途中でうち切り、そのまま打ち込んでくる。
+    line_set 今度は、技ではなく単純な打ち込みである。
+
+    adv_on
+    jump_choice @33 ◆打ち込む
+    jump_choice @33 ◆受ける
+    jump_fight_failure @22
 
 @33
+    nvl_on
+    line_set 双厳は十兵衛の動きに合わせ次の行動にうつす。
+    line_set 十兵衛の素早い打ち込みはすぐに双厳の眼前に振り下ろされていた。
+    nvl_line_clear
+    line_set と、
+    line_set 思われた打ち込みは、「虚」の攻撃であり。
+    line_set 打ち込んだように見せかけた剣のあいだから飛び道具が双厳を襲う。
+
+    adv_on
+    jump_choice @34 ◆よける
+    jump_choice @35 ◆受ける
+    jump_fight_failure @36
+
+@34
+    nvl_on
+    line_set 双厳は飛んでくる物体をすんででかわす。
+
+    adv_on
+    name_clear
+    line_set ボム！
+
+    nvl_on
+    line_set よけた物体は双厳の後方にあった木にぶつかると破裂音をたてて煙をあげる。
+
+    adv_on
+    name_set 双厳
+    line_set 「煙玉？」
+
+    kgd_layer1_set 1 Kgd\En_026.kgd
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set さらに十兵衛は煙玉を双厳に投げつける。
+    line_set すべてをよけきる双厳であるが、あたりは徐々に煙につつまれ視界がさえぎられる。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「さらばだ！」
+
+    name_set 双厳
+    line_set 「逃がすか！」
+
+    jump_auto @37
 
 @36
+    nvl_on
+    line_set 双厳は十兵衛の速度についていけずになんの反応もできなかった。
 
-@41
+    adv_on
+    name_clear
+    line_set ボム！
 
-@45
+    nvl_on
+    line_set 飛んできた物体は双厳の顔にあたるやいなや破裂音をたてて煙をあげる。
 
-@49
+    adv_on
+    jump_auto @38
 
-nvl_on
+@35
+    nvl_on
+    line_set 双厳は飛んできた物体を剣で受ける。
 
-line_set 双厳は十兵衛の動きについていけず、
+    adv_on
+    name_clear
+    line_set ボム！
 
-line_set なにもできなかった。
-adv_on
+    nvl_on
+    line_set 飛んできた物体は双厳の剣と触れるやいなや破裂をたてて煙をあげる。
 
-name_set 十兵衛
+    adv_on
 
-line_set 「勝負あった！」
+@38
+    kgd_layer1_set 1 Kgd\En_026.kgd
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
 
-nvl_on
+    name_set 双厳
+    line_set 「ぐあ！？」
 
-line_set 十兵衛はそのまま振り下ろす。
+    nvl_on
+    line_set 双厳の目に激痛がはしる。
 
-adv_on
+    adv_on
+    line_set 「ゴホ、ゲホ・・・」
+    line_set 「煙玉？？？」
 
-kgd_layer1_fx 0
+    name_set 十兵衛
+    line_set 「ふははははははは」
+    line_set 「さらばだ！」
 
-kgd_layer1_clear 0
-music_stop
+    name_set 双厳
+    line_set 「逃がすか！」
+    line_set 「ゴホ、ゲホ・・・」
 
-sfx_set 0 Se\001.wav
+    nvl_on
+    line_set 双厳は十兵衛を追おうとするが、
+    line_set 煙玉により視力をうばわれまともに十兵衛の姿を見ることすらままならない。
+
+    adv_on
 
-sfx_play 0
-name_clear
+@37
+    fight_end
+    music_stop
 
-line_set ブシュ
+    name_set 双厳
+    line_set 「チッ」
+    line_set 「煙玉か・・・」
+
+    nvl_on
+    line_set あたりは煙で覆われ、双厳はまったく視界を失った
+
+    adv_on
+    line_set 「なかなかの腕だな」
+    line_set 「柳生であの腕の持ち主ならば、奴しかおるまい」
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    ksd_set Ksd\016.ksd
+
+@22
+    nvl_on
+    line_set 双厳は十兵衛の動きについていけず、
+    line_set なにもできなかった。
 
-kgd_layer1_set 0 Kgd\En_001.kgd
+    adv_on
+    name_set 十兵衛
+    line_set 「勝負あった！」
 
-kgd_layer1_fx 1
-kgd_layer1_display
-nvl_on
+    nvl_on
+    line_set 十兵衛はそのまま振り下ろす。
 
-line_set 鈍い音がこだまする。
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_stop
 
-adv_on
+    sfx_set 0 Se\001.wav
+    sfx_play 0
+    name_clear
+    line_set ブシュ
 
-name_set 十兵衛
+    kgd_layer1_set 0 Kgd\En_001.kgd
+    kgd_layer1_fx 1
+    kgd_layer1_display
 
-line_set 「買いかぶりすぎたようだな・・・」
-
-line_set 「この程度の腕であったとはな・・・」
-nvl_on
-
-line_set 十兵衛の握っている剣からは血が滴りおちている。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳の視界は真っ赤に染まる。
-
-adv_on
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 大量の血が双厳のわき肩から吹き出している。
-
-line_set その血しぶきは双厳から見えるものをすべて赤く染め上げていく。
-adv_on
-
-name_clear
-
-line_set ドサ・・・
-
-nvl_on
-
-line_set 双厳はその場にたおれこむ。
-
-adv_on
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-line_set 「柳生新陰流は上泉の新陰流の流れをくむ」
-line_set 「さらに新陰流は愛洲陰流の流れをくむ」
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 十兵衛は倒れた双厳に向かい何事か語りだした。
-
-line_set が、双厳の意識はすでになくなりつつあった。
-adv_on
-
-name_set 十兵衛
-
-line_set 「つまり現存する陰流」
-
-line_set 「柳生新陰流、直心陰流、疋田陰流」
-line_set 「その源流はすべて愛洲陰流にあるといえる」
-line_set 「しかし今となっては、愛洲陰流そのものを伝える者はいない」
-line_set 「と思われていたが」
-line_set 「最近、その愛洲陰流を使う者がいるという情報を耳にした」
-line_set 「それが二つ影双厳、お前だ・・・」
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 十兵衛
-
-line_set 「だがとんだ勘違いだったようだな」
-
-line_set 「今の技は陰流の一部だ」
-line_set 「この程度の技も見切れないのでは」
-line_set 「陰流の源流を受け継ぐものとは言えない」
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 十兵衛
-
-line_set 「残念だな・・・」
-
-nvl_on
-
-line_set 双厳の耳にはすでに十兵衛の声は聞こえない。
-
-line_set この物語も双厳の死をもって、終わる事となってしまったのである。
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-nvl_on
-
-line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
-
-adv_on
-
-game_over
-
-ksd_end
-
+    nvl_on
+    line_set 鈍い音がこだまする。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「買いかぶりすぎたようだな・・・」
+    line_set 「この程度の腕であったとはな・・・」
+
+    nvl_on
+    line_set 十兵衛の握っている剣からは血が滴りおちている。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳の視界は真っ赤に染まる。
+
+    adv_on
+    line_set 「・・・」
+
+    nvl_on
+    line_set 大量の血が双厳のわき肩から吹き出している。
+    line_set その血しぶきは双厳から見えるものをすべて赤く染め上げていく。
+
+    adv_on
+    name_clear
+    line_set ドサ・・・
+
+    nvl_on
+    line_set 双厳はその場にたおれこむ。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「・・・」
+    line_set 「柳生新陰流は上泉の新陰流の流れをくむ」
+    line_set 「さらに新陰流は愛洲陰流の流れをくむ」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 十兵衛は倒れた双厳に向かい何事か語りだした。
+    line_set が、双厳の意識はすでになくなりつつあった。
+
+    adv_on
+    name_set 十兵衛
+    line_set 「つまり現存する陰流」
+    line_set 「柳生新陰流、直心陰流、疋田陰流」
+    line_set 「その源流はすべて愛洲陰流にあるといえる」
+    line_set 「しかし今となっては、愛洲陰流そのものを伝える者はいない」
+    line_set 「と思われていたが」
+    line_set 「最近、その愛洲陰流を使う者がいるという情報を耳にした」
+    line_set 「それが二つ影双厳、お前だ・・・」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 十兵衛
+    line_set 「だがとんだ勘違いだったようだな」
+    line_set 「今の技は陰流の一部だ」
+    line_set 「この程度の技も見切れないのでは」
+    line_set 「陰流の源流を受け継ぐものとは言えない」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 十兵衛
+    line_set 「残念だな・・・」
+
+    nvl_on
+    line_set 双厳の耳にはすでに十兵衛の声は聞こえない。
+    line_set この物語も双厳の死をもって、終わる事となってしまったのである。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set ■■■■■■■■■　Ｅ　Ｎ　Ｄ　■■■■■■■■
+
+    adv_on
+    game_over
+    ksd_end

@@ -1,3 +1,5 @@
 *.ksd
 *.BIN
 *.sh
+__pycache__
+Imported

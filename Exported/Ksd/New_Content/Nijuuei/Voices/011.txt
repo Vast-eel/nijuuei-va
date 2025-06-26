@@ -1,3314 +1,2819 @@
-sfx_set 0 Se\017.wav
-
-sfx_play 0
-kgd_layer1_set 0 Kgd\Da_004.kgd
-
-kgd_layer1_display
-kgd_layer1_fx 1
-wait 4000
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-wait 2000
-
-sfx_stop 0
-
-nvl_on
-
-line_set ・・・
-line_set ・・・・・・
-line_set ・・・・・・・・・
-
-adv_on
-
-kgd_layer1_set 0 Kgd\Dc_Irusui05.kgd
-kgd_layer1_display
-kgd_layer1_fx 1
-
-name_set 少女
-
-sfx_set 2 Vox\6406.wav
-sfx_play 2
-line_set 「ねぇ、お姉ちゃん、歌でも詠おう」
-sfx_stop 2
-
-sfx_set 2 Vox\6407.wav
-sfx_play 2
-line_set 「えぇ、詠いましょう」
-sfx_stop 2
-
-nvl_on
-
-line_set 少女達は歌う。
-line_set 誰が言うでもなく覚えている歌。
-line_set 柔かな歌声が蔵中に響く。
-line_set 狭く薄暗い中、少女達はお互い寄り添いあい誰に捧げるでもなく、歌を詠う。
-
-nvl_line_clear
-
-line_set その声は、微かに部屋を抜け、外の風に溶け込んでいく。
-line_set その旋律に耳を傾けるものは、この島の中にはいない。
-line_set 少女達は、ただ自分の感情の赴くまま、暗闇の中詠いつづけるのだった・・・。
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-wait 2000
-
-jump_branch2 238 24
-
-nvl_on
-
-line_set 「・・・」
-
-line_set 「・・・・・・」
-adv_on
-
-kgd_layer1_set 0 Kgd\W_001.kgd
-
-kgd_layer2_set 0 Kgd\B_037.kgd
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 1
-music_play 14
-
-name_set 双厳
-
-line_set 「朝か・・・」
-
-nvl_on
-
-line_set 双厳は目を覚ました。
-
-adv_on
-
-jump_auto 0
-
-!24
-
-nvl_on
-
-line_set 「・・・」
-
-line_set 「外から気配がする」
-line_set 「この気配は・・・」
-adv_on
-
-jump_choice 1 ◆起きる
-
-jump_choice 2 ◆起きない
-@1
-
-name_set 双厳
-
-line_set 「誰だ！」
-
-nvl_on
-
-line_set 双厳は気配を察知して飛び起きる。
-
-adv_on
-
-kgd_layer1_set 0 Kgd\W_001.kgd
-
-kgd_layer2_set 0 Kgd\B_037.kgd
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 Kgd\Sa_012.kgd
-kgd_layer3_param 0 192 0 0 0 416 600
-kgd_layer3_display 0
-music_play 14
-
-name_set 紗枝
-
-sfx_set 2 Vox\6405.wav
-sfx_play 2
-line_set 「あっ・・・」
-sfx_stop 2
-
-sfx_set 2 Vox\6404.wav
-sfx_play 2
-line_set 「双厳さま・・・お、おはようございますです」
-sfx_stop 2
-name_set 双厳
-
-line_set 「紗枝・・・」
-
-line_set 「なんだ・・・」
-line_set 「紗枝か・・・」
-name_set 紗枝
-
-sfx_set 2 Vox\6403.wav
-sfx_play 2
-line_set 「はい」
-sfx_stop 2
-
-sfx_set 2 Vox\6402.wav
-sfx_play 2
-line_set 「紗枝でございます」
-sfx_stop 2
-name_set 双厳
-
-line_set 「？」
-
-nvl_on
-
-line_set 紗枝は少し顔を上気させている・・・。
-
-line_set 心なしか少しふるえている・・・。
-adv_on
-
-line_set 「紗枝どうかしたのか？」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6401.wav
-sfx_play 2
-line_set 「い、いえ」
-sfx_stop 2
-
-sfx_set 2 Vox\6400.wav
-sfx_play 2
-line_set 「そ、双厳さまを起こしにきましたです」
-sfx_stop 2
-nvl_on
-
-line_set 紗枝はなぜかあせっているようだった。
-
-adv_on
-
-sfx_set 2 Vox\6399.wav
-sfx_play 2
-line_set 「そ、双厳さま起きていらっしゃるようなのでこれで失礼しますです」
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-nvl_on
-
-line_set 紗枝は廊下の方に急いで消えてしまった・・・。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-jump_auto 3
+    sfx_set 0 Se\017.wav
+    sfx_play 0
+
+    kgd_layer1_set 0 Kgd\Da_004.kgd
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 4000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 2000
+    sfx_stop 0
+
+    nvl_on
+    line_set ・・・
+    line_set ・・・・・・
+    line_set ・・・・・・・・・
+
+    adv_on
+    kgd_layer1_set 0 Kgd\Dc_Irusui05.kgd
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 少女
+    sfx_set 2 Vox\6406.wav
+    sfx_play 2
+    line_set 「ねぇ、お姉ちゃん、歌でも詠おう」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6407.wav
+    sfx_play 2
+    line_set 「えぇ、詠いましょう」
+    sfx_stop 2
+
+    nvl_on
+    line_set 少女達は歌う。
+    line_set 誰が言うでもなく覚えている歌。
+    line_set 柔かな歌声が蔵中に響く。
+    line_set 狭く薄暗い中、少女達はお互い寄り添いあい誰に捧げるでもなく、歌を詠う。
+    nvl_line_clear
+    line_set その声は、微かに部屋を抜け、外の風に溶け込んでいく。
+    line_set その旋律に耳を傾けるものは、この島の中にはいない。
+    line_set 少女達は、ただ自分の感情の赴くまま、暗闇の中詠いつづけるのだった・・・。
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 2000
+
+    jump_branch2 @0 24
+    nvl_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+
+    adv_on
+    kgd_layer1_set 0 Kgd\W_001.kgd
+    kgd_layer2_set 0 Kgd\B_037.kgd
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 1
+    music_play 14
+
+    name_set 双厳
+    line_set 「朝か・・・」
+
+    nvl_on
+    line_set 双厳は目を覚ました。
+
+    adv_on
+    jump_auto @1
+
+@0
+    nvl_on
+    line_set 「・・・」
+    line_set 「外から気配がする」
+    line_set 「この気配は・・・」
+
+    adv_on
+    jump_choice @2 ◆起きる
+    jump_choice @3 ◆起きない
 
 @2
-
-affection_plus 0
-
-jump_branch1 1207 23
-
-gallery_unlock 106
-
-ksd_set Ksd\106.ksd
-
-kgd_layer1_set 0 Kgd\W_001.kgd
-
-kgd_layer2_set 0 Kgd\B_037.kgd
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 3
-music_play 14
-
-jump_auto 4
-
-#23_0
-
-jump_branch1 1286 42
-
-gallery_unlock 107
-
-ksd_set Ksd\107.ksd
-
-kgd_layer1_set 0 Kgd\W_001.kgd
-
-kgd_layer2_set 0 Kgd\B_037.kgd
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 3
-jump_auto 5
-
-#42_1
-
-gallery_unlock 108
-
-ksd_set Ksd\108.ksd
-
-kgd_layer1_set 0 Kgd\W_001.kgd
-
-kgd_layer2_set 0 Kgd\B_037.kgd
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 3
-jump_auto 6
-
-@5
-
-@6
-
-kgd_layer3_set 0 Kgd\Sa_012.kgd
-
-kgd_layer3_param 0 192 0 0 0 416 600
-kgd_layer3_display 0
-music_play 14
-
-name_set 紗枝
-
-line_set 「気持ちよかったですか？」
-
-name_set 双厳
-
-line_set 「ああ・・・」
-
-kgd_layer3_set 3 Kgd\Sa_002.kgd
-
-kgd_layer3_param 3 192 0 0 0 416 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 紗枝
-
-line_set 「よかったです」
-
-nvl_on
-
-line_set 紗枝はうれしそうに答える。
-
-adv_on
-
-name_set 紗枝
-
-line_set 「でも双厳さま」
-
-name_set 双厳
-
-line_set 「なんだ」
-
-name_set 紗枝
-
-line_set 「紗枝がご奉仕してる時、双厳さまは何もしなくていいですよ」
-
-name_set 双厳
-
-line_set 「なんでだ・・・」
-
-kgd_layer3_set 3 Kgd\Sa_012.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 紗枝
-
-line_set 「えっだって・・・」
-
-kgd_layer3_set 3 Kgd\Sa_002.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-line_set 「うふ」
-
-name_set 双厳
-
-line_set 「・・・」
-
-kgd_layer3_set 3 Kgd\Sa_001.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 紗枝
-
-sfx_set 2 Vox\6398.wav
-sfx_play 2
-line_set 「さて、仕事に戻りますです」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そうか・・・」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6397.wav
-sfx_play 2
-line_set 「ハイです」
-sfx_stop 2
-
-name_set 紗枝
-
-sfx_set 2 Vox\6396.wav
-sfx_play 2
-line_set 「それじゃ双厳さま」
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-nvl_on
-
-line_set 紗枝は元気良く部屋を後にした。
-
-nvl_line_clear
-
-line_set 「さてと・・・」
-
-line_set 「そろそろ行動するか・・・」
-nvl_line_clear
-
-line_set 「さて、どこにいこうか？」
-
-jump_auto 7
-
-@14
-
-kgd_layer2_set 1 Kgd\B_037.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@0
+    name_set 双厳
+    line_set 「誰だ！」
+
+    nvl_on
+    line_set 双厳は気配を察知して飛び起きる。
+
+    adv_on
+    kgd_layer1_set 0 Kgd\W_001.kgd
+    kgd_layer2_set 0 Kgd\B_037.kgd
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 1
+
+    kgd_layer3_set 0 Kgd\Sa_012.kgd
+    kgd_layer3_param 0 192 0 0 0 416 600
+    kgd_layer3_display 0
+    music_play 14
+
+    name_set 紗枝
+    sfx_set 2 Vox\6405.wav
+    sfx_play 2
+    line_set 「あっ・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6404.wav
+    sfx_play 2
+    line_set 「双厳さま・・・お、おはようございますです」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「紗枝・・・」
+    line_set 「なんだ・・・」
+    line_set 「紗枝か・・・」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6403.wav
+    sfx_play 2
+    line_set 「はい」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6402.wav
+    sfx_play 2
+    line_set 「紗枝でございます」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「？」
+
+    nvl_on
+    line_set 紗枝は少し顔を上気させている・・・。
+    line_set 心なしか少しふるえている・・・。
+
+    adv_on
+    line_set 「紗枝どうかしたのか？」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6401.wav
+    sfx_play 2
+    line_set 「い、いえ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6400.wav
+    sfx_play 2
+    line_set 「そ、双厳さまを起こしにきましたです」
+    sfx_stop 2
+
+    nvl_on
+    line_set 紗枝はなぜかあせっているようだった。
+
+    adv_on
+    sfx_set 2 Vox\6399.wav
+    sfx_play 2
+    line_set 「そ、双厳さま起きていらっしゃるようなのでこれで失礼しますです」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 紗枝は廊下の方に急いで消えてしまった・・・。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    jump_auto @1
 
 @3
+    affection_plus 0
+
+    jump_branch1 @4 23
+    gallery_unlock 106
+    ksd_set Ksd\106.ksd
+
+    kgd_layer1_set 0 Kgd\W_001.kgd
+    kgd_layer2_set 0 Kgd\B_037.kgd
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 3
+    music_play 14
+
+    jump_auto @1
 
 @4
-
-@7
-
-jump_choice 8 ◆廊下へ移動
-
-@15
-
-kgd_layer2_set 1 Kgd\B_009.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_branch1 5301 46
-
-kgd_layer3_set 0 Kgd\Sh_001.kgd
-
-kgd_layer3_param 0 48 0 0 0 704 600
-kgd_layer3_display 0
-section_jump_branch1 46
-
-name_set 志乃
-
-sfx_set 2 Vox\6282.wav
-sfx_play 2
-line_set 「おはようございます双厳さま」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ああ・・・」
-
-nvl_on
-
-line_set 双厳と志乃は軽く挨拶を交わす。
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6281.wav
-sfx_play 2
-line_set 「そういえば・・・」
-sfx_stop 2
-
-sfx_set 2 Vox\6280.wav
-sfx_play 2
-line_set 「今日は５人ほど新しい用心棒の方がいらっしゃいます」
-sfx_stop 2
-name_set 双厳
-
-line_set 「侍？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6279.wav
-sfx_play 2
-line_set 「双厳さまの実力を疑うわけではないのですが」
-sfx_stop 2
-
-sfx_set 2 Vox\6278.wav
-sfx_play 2
-line_set 「さすがに、お一人で数十人の海賊を相手にするわけにもいかないでしょうから」
-sfx_stop 2
-name_set 双厳
-
-line_set 「いや、わからぬでもない」
-
-line_set 「いくら、俺が自分で『一人でも大丈夫』といったところで信用できぬだろう」
-line_set 「さすがに、当主殿も俺一人では心許ないというのもわからんでもない」
-line_set 「俺の実力のほどもわからんしな・・・」
-line_set 「しかし」
-line_set 「あまり得体のしれないものを大量に雇うのはどうかとも思うが」
-line_set 「頭の良い当主殿のこと、その辺は抜かりがないと信じているが・・・」
-name_set 志乃
-
-sfx_set 2 Vox\6277.wav
-sfx_play 2
-line_set 「ふふふふふ」
-sfx_stop 2
-
-sfx_set 2 Vox\6276.wav
-sfx_play 2
-line_set 「それはどうもありがとうございます」
-sfx_stop 2
-name_set 双厳
-
-line_set 「時にどんな輩なのかな」
-
-name_set 志乃
-
-sfx_set 2 Vox\6275.wav
-sfx_play 2
-line_set 「さあ・・・」
-sfx_stop 2
-
-sfx_set 2 Vox\6274.wav
-sfx_play 2
-line_set 「よくわかりません」
-sfx_stop 2
-sfx_set 2 Vox\6273.wav
-sfx_play 2
-line_set 「仕事の噂を聞いた流浪の浪人さま達ではないでしょうか？」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「こいつ・・・」
-
-line_set 「なめてるのか・・・」
-line_set 「流浪の侍が海賊と大差ない事などこの女なら当然分かっているだろう」
-line_set 「どういうつもりだ・・・」
-adv_on
-
-line_set 「・・・」
-
-line_set 「その得体の知れない奴らと上手くやれと言うわけか？」
-name_set 志乃
-
-sfx_set 2 Vox\6272.wav
-sfx_play 2
-line_set 「そうですね、なるべく仲良くしてもらいたいものですね」
-sfx_stop 2
-
-sfx_set 2 Vox\6271.wav
-sfx_play 2
-line_set 「海賊でなく、仲間同士で殺しあったのではしかたありませんからね」
-sfx_stop 2
-nvl_on
-
-line_set 「・・・」
-
-adv_on
-
-name_set 双厳
-
-line_set 「まあ２、３０人程度ならば仲間だろうが海賊だろうが襲ってきてもなんとかなるがな・・・」
-
-nvl_on
-
-line_set もちろん双厳の言っている事はハッタリではなかったが、普通に聞いたのでは双厳のこの発言などハッタリ
-
-line_set 以外の何ともいえなかった。
-line_set にもかかわらず、志乃はその発言を真に受けるかのように話しを続ける。
-adv_on
-
-pis_set 30 0
-
-name_set 志乃
-
-sfx_set 2 Vox\6270.wav
-sfx_play 2
-line_set 「それは素晴らしい、<0,荒木又右衛門>さまのようですわ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「荒木又右衛門とは・・・」
-
-line_set 「鍵屋の辻の話などよく知っておられますな」
-line_set 「このような場所にお住みなのに、世相のことをよく見ておられる」
-name_set 志乃
-
-sfx_set 2 Vox\6269.wav
-sfx_play 2
-line_set 「このような場所だからこそですわ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「と言うと」
-
-name_set 志乃
-
-sfx_set 2 Vox\6268.wav
-sfx_play 2
-line_set 「暇ですから」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「暇といっても、そのような事を知るにはそれ相応の労力をともないましょう」
-
-line_set 「特に、そのような最近の話などは・・・」
-name_set 志乃
-
-sfx_set 2 Vox\6267.wav
-sfx_play 2
-line_set 「そうでもございませんわ」
-sfx_stop 2
-
-sfx_set 2 Vox\6266.wav
-sfx_play 2
-line_set 「阿波路はこの辺一帯の村々と交流がありますし」
-sfx_stop 2
-sfx_set 2 Vox\6265.wav
-sfx_play 2
-line_set 「特に海路からはいち早く色々な情報が入ります」
-sfx_stop 2
-nvl_on
-
-line_set 志乃は双厳に最後まで言わすことなく答えた。
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6264.wav
-sfx_play 2
-line_set 「そろそろ、私もしなければいけないことがありますので、この辺で・・・」
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-nvl_on
-
-line_set 「あの女、あなどれない・・・」
-
-line_set 「俺の正体は薄々感じているらしいが・・・」
-line_set 「それでいながら、あのように挑発するような発言ばかりする」
-line_set 「あれでは、あたかも新しく雇った侍は俺に対する刺客の様にすら聞こえる」
-line_set 「といっても・・・」
-nvl_line_clear
-
-line_set 「あれほど頭の良い女が、みすみす手の内をみせるような馬鹿なまねもするまい」
-
-line_set 「ならば・・・」
-line_set 「一体なんの目的で、俺のような存在の侵入を許したんだ」
-line_set 「やつのいうように単純な暇つぶしなのか？」
-line_set 「それとも・・・」
-adv_on
-
-#46_2
-
-jump_choice 9 ◆廊下へ移動
-
-@8
-
-@9
-
-@40
-
-@45
-
-kgd_layer2_set 1 Kgd\B_029.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_branch1 9834 47
-
-jump_branch2 9834 46
-kgd_layer3_set 0 Kgd\Fu_009.kgd
-
-kgd_layer3_param 0 128 0 0 0 544 600
-kgd_layer3_display 0
-section_jump_branch1 47
-
-pis_set 29 0
-
-name_set 楓玲
-
-sfx_set 2 Vox\6395.wav
-sfx_play 2
-line_set 「あっ、<0,サンピン奴>の双厳さん」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「俺がサンピン奴ならお前もサンピン奴だ」
-
-line_set 「この仕事の報酬は同じだろうが」
-kgd_layer3_set 3 Kgd\Fu_002.kgd
-
-kgd_layer3_param 3 128 0 0 0 544 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-nvl_on
-
-line_set 楓玲はその答えを待ってましたとばかりに、にっこりと笑う。
-
-adv_on
-
-name_set 楓玲
-
-sfx_set 2 Vox\6394.wav
-sfx_play 2
-line_set 「ふふふふふふふ」
-sfx_stop 2
-
-sfx_set 2 Vox\6393.wav
-sfx_play 2
-line_set 「あなたと私を一緒にしてもらいたくはないわ」
-sfx_stop 2
-sfx_set 2 Vox\6392.wav
-sfx_play 2
-line_set 「もともと実力が違うからかしらね～」
-sfx_stop 2
-sfx_set 2 Vox\6391.wav
-sfx_play 2
-line_set 「雇い主の評価も違うようね」
-sfx_stop 2
-nvl_on
-
-line_set 双厳はつかれた顔で答える。
-
-adv_on
-
-name_set 双厳
-
-line_set 「なにが言いたいんだ」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6390.wav
-sfx_play 2
-line_set 「くくくくく」
-sfx_stop 2
-
-sfx_set 2 Vox\6389.wav
-sfx_play 2
-line_set 「よく聞いてくれたわ！」
-sfx_stop 2
-sfx_set 2 Vox\6388.wav
-sfx_play 2
-line_set 「おどろけ、貧乏人！」
-sfx_stop 2
-sfx_set 2 Vox\6387.wav
-sfx_play 2
-line_set 「私は前金でこれだけもらったのよ」
-sfx_stop 2
-nvl_on
-
-line_set 楓玲は前金の小判の包みをみせびらかす。
-
-line_set 確かに大金ではあるが、双厳のそれとまったく同じ分量である。
-adv_on
-
-kgd_layer3_set 3 Kgd\Fu_009.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-sfx_set 2 Vox\6386.wav
-sfx_play 2
-line_set 「あなたのような貧乏人には見たことないお金でしょうね～」
-sfx_stop 2
-
-sfx_set 2 Vox\6385.wav
-sfx_play 2
-line_set 「ふふ、すごいでしょ」
-sfx_stop 2
-nvl_on
-
-line_set たぶん楓玲にとって見たこともない大金であったのであろう、
-
-line_set だからこのような大金が全員に配られるなどという事が想像できないのだろうか。
-nvl_line_clear
-
-line_set 「自分だけ、もらったとでも思ってるのかこの馬鹿は・・・」
-
-adv_on
-
-jump_choice 10 ◆俺もまったく同じだけの金をもらったぞ
-
-jump_choice 11 ◆すごいな、雇い主の期待に添えなきゃな
-@10
-
-kgd_layer3_set 3 Kgd\Fu_010.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-sfx_set 2 Vox\6384.wav
-sfx_play 2
-line_set 「う、うそ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「うそついてどうするんだよ、そんなこと」
-
-kgd_layer3_set 3 Kgd\Fu_007.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-sfx_set 2 Vox\6383.wav
-sfx_play 2
-line_set 「くやしいから嘘ついてんでしょ！」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「ほれ」
-nvl_on
-
-line_set 双厳は胸元から二日前に志乃から前金としていただいた小判を楓玲にみせた。
-
-adv_on
-
-kgd_layer3_set 3 Kgd\Fu_008.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-sfx_set 2 Vox\6382.wav
-sfx_play 2
-line_set 「げっ！」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「楓玲・・・」
-line_set 「下品な驚き方だな」
-line_set 「げっ」
-line_set 「はないだろ」
-line_set 「一応女なんだし」
-name_set 楓玲
-
-sfx_set 2 Vox\6381.wav
-sfx_play 2
-line_set 「う、うるさいわね」
-sfx_stop 2
-
-sfx_set 2 Vox\6380.wav
-sfx_play 2
-line_set 「あんたに女うんぬんなんて言われたくないわよ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「たしかに」
-
-line_set 「お前が女らしくしようがしまいが関係ないがな」
-line_set 「おまえみたいなガキ」
-name_set 楓玲
-
-sfx_set 2 Vox\6379.wav
-sfx_play 2
-line_set 「な、なんですって」
-sfx_stop 2
-
-sfx_set 2 Vox\6378.wav
-sfx_play 2
-line_set 「この宿無し浪人！」
-sfx_stop 2
-name_set 双厳
-
-line_set 「だから・・・」
-
-line_set 「それはお前も同じだろ」
-line_set 「流れ者なんだから」
-name_set 楓玲
-
-sfx_set 2 Vox\6377.wav
-sfx_play 2
-line_set 「な、ながれものでも」
-sfx_stop 2
-
-sfx_set 2 Vox\6376.wav
-sfx_play 2
-line_set 「わ、私は裕福よ」
-sfx_stop 2
-sfx_set 2 Vox\6375.wav
-sfx_play 2
-line_set 「こんなにお金持ち！」
-sfx_stop 2
-name_set 双厳
-
-line_set 「だから・・・」
-
-line_set 「それは俺も同じだけもってるから」
-name_set 楓玲
-
-sfx_set 2 Vox\6374.wav
-sfx_play 2
-line_set 「むむ・・・」
-sfx_stop 2
-
-nvl_on
-
-line_set 楓玲は双厳も同じ報酬だった事が相当の驚きであったらしい、かなりうろたえている。
-
-adv_on
-
-name_set 双厳
-
-line_set 「おまえって・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6373.wav
-sfx_play 2
-line_set 「な、なによ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そうとう貧乏人なんじゃないか」
-
-line_set 「この程度の小判でとりみだして」
-kgd_layer3_set 3 Kgd\Fu_005.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-sfx_set 2 Vox\6372.wav
-sfx_play 2
-line_set 「な、ななななななにを言ってるの」
-sfx_stop 2
-
-sfx_set 2 Vox\6371.wav
-sfx_play 2
-line_set 「わ、わわわわわわたしは裕福よ」
-sfx_stop 2
-sfx_set 2 Vox\6370.wav
-sfx_play 2
-line_set 「こんなにお金もってるし」
-sfx_stop 2
-name_set 双厳
-
-line_set 「だから、それは俺も持ってるし・・・」
-
-line_set 「今もらったお金だし・・・」
-name_set 楓玲
-
-sfx_set 2 Vox\6369.wav
-sfx_play 2
-line_set 「あう、あい、貧乏じゃないわ」
-sfx_stop 2
-
-sfx_set 2 Vox\6368.wav
-sfx_play 2
-line_set 「決して貧乏じゃないわ」
-sfx_stop 2
-sfx_set 2 Vox\6367.wav
-sfx_play 2
-line_set 「中流よ」
-sfx_stop 2
-sfx_set 2 Vox\6366.wav
-sfx_play 2
-line_set 「うちは中流だったわ」
-sfx_stop 2
-sfx_set 2 Vox\6365.wav
-sfx_play 2
-line_set 「お母さんもそう言ってたもん」
-sfx_stop 2
-nvl_on
-
-line_set 「・・・」
-
-line_set 「相当の貧乏家庭に育ったのか・・・」
-line_set 「まあ、いいやこんな小娘馬鹿にしてても仕方ない」
-adv_on
-
-name_set 双厳
-
-line_set 「んじゃ、俺は用事があるんで」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6364.wav
-sfx_play 2
-line_set 「あ、う、うん」
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-jump_auto 12
-
-@11
-
-sfx_set 2 Vox\6363.wav
-sfx_play 2
-line_set 「ふっふふん」
-sfx_stop 2
-
-sfx_set 2 Vox\6362.wav
-sfx_play 2
-line_set 「すごいでしょ」
-sfx_stop 2
-nvl_on
-
-line_set 「この馬鹿、本気でうれしがっているな・・・」
-
-adv_on
-
-name_set 双厳
-
-line_set 「おれはこれだけしかもらえなかったがな」
-
-nvl_on
-
-line_set 双厳は胸元から二日前に志乃から前金としていただいた小判を楓玲にみせた。
-
-adv_on
-
-kgd_layer3_set 3 Kgd\Fu_008.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-line_set 「？！」
-
-sfx_set 2 Vox\6361.wav
-sfx_play 2
-line_set 「そ、それって・・・」
-sfx_stop 2
-name_set 双厳
-
-line_set 「あれ」
-
-line_set 「なんか、裕福なハズの楓玲の前金」
-line_set 「俺と同じ額でないかい？」
-kgd_layer3_set 3 Kgd\Fu_005.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-sfx_set 2 Vox\6360.wav
-sfx_play 2
-line_set 「ギク」
-sfx_stop 2
-
-sfx_set 2 Vox\6359.wav
-sfx_play 2
-line_set 「あ、あう」
-sfx_stop 2
-name_set 双厳
-
-line_set 「なんだろうな～」
-
-line_set 「恥ずかしいなぁ～」
-line_set 「あの程度のお金でうかれすぎて」
-line_set 「全員があの額もらえるとは考えられなかったのかな？」
-line_set 「そうだとすると・・・」
-line_set 「もしかして、お前って」
-name_set 楓玲
-
-sfx_set 2 Vox\6358.wav
-sfx_play 2
-line_set 「も、ももももしかしてって、な、なによ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「楓玲ってあの程度の額のお金も見たことないぐらい貧乏なんじゃないのか？」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6357.wav
-sfx_play 2
-line_set 「な、ななななななにを言ってるの」
-sfx_stop 2
-
-sfx_set 2 Vox\6356.wav
-sfx_play 2
-line_set 「わ、わわわわわわたしは裕福よ」
-sfx_stop 2
-sfx_set 2 Vox\6355.wav
-sfx_play 2
-line_set 「こんなにお金もってるし」
-sfx_stop 2
-name_set 双厳
-
-line_set 「だから、それは俺も持ってるし・・・」
-
-line_set 「今もらったお金だし・・・」
-name_set 楓玲
-
-sfx_set 2 Vox\6354.wav
-sfx_play 2
-line_set 「あう、あい、貧乏じゃないわ」
-sfx_stop 2
-
-sfx_set 2 Vox\6353.wav
-sfx_play 2
-line_set 「決して貧乏じゃないわ」
-sfx_stop 2
-sfx_set 2 Vox\6352.wav
-sfx_play 2
-line_set 「中流よ」
-sfx_stop 2
-sfx_set 2 Vox\6351.wav
-sfx_play 2
-line_set 「うちは中流だったわ」
-sfx_stop 2
-sfx_set 2 Vox\6350.wav
-sfx_play 2
-line_set 「お母さんもそう言ってたもん」
-sfx_stop 2
-nvl_on
-
-line_set 「・・・」
-
-line_set 「相当の貧乏家庭に育ったのか・・・」
-line_set 「まあ、いいやこんな小娘馬鹿にしてても仕方ない」
-adv_on
-
-name_set 双厳
-
-line_set 「んじゃ、俺は用事があるんで」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6349.wav
-sfx_play 2
-line_set 「あ、う、うん」
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-jump_auto 13
-
-#47_3
-
-!46
-
-jump_choice 14 ◆自室へ移動
-
-jump_choice 15 ◆大広間へ移動
-jump_choice 16 ◆蔵の前へ移動
-jump_choice 17 ◆屋敷外へ移動
-@25
-
-@31
-
-kgd_layer2_set 1 Kgd\B_061.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_branch1 10507 48
-
-jump_branch2 10507 267
-section_jump_branch1 48
-
-nvl_on
-
-line_set 港には舟が止まっている。
-
-line_set 例の舟である。
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 舟のまわりには５人ほどの侍がいる。
-
-line_set 少量の積み荷をおろしている。
-line_set たぶん、いましがたの到着なのであろうか。
-line_set 案内係である紗枝もまだここにはいないようだ。
-nvl_line_clear
-
-line_set 「船頭が案内する事になっているのかもしれないが・・・」
-
-nvl_line_clear
-
-jump_choice 18 ◆案内をかってでる
-
-jump_choice 19 ◆このまま無視する
-@18
-
-nvl_on
-
-line_set 「案内をかってでる？」
-
-line_set 「うそだろ」
-line_set 「ばかばかしい・・・」
-line_set 「そんな事してなにになる？」
-adv_on
-
-jump_auto 20
-
-@19
-
-nvl_on
-
-line_set 「まあ、当然だ」
-
-line_set 「俺には関係ない事だ」
-adv_on
-
-@20
-
-#48_4
-
-!267
-
-jump_choice 21 ◆村へ移動
-
-jump_choice 22 ◆海岸へ移動
-@21
-
-@30
-
-@44
-
-kgd_layer2_set 1 Kgd\B_045.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-section_jump_branch2 19
-
-jump_branch1 14226 49
-
-jump_branch2 14226 268
-kgd_layer3_set 0 Kgd\Fu_001.kgd
-
-kgd_layer3_param 0 128 0 0 0 544 600
-kgd_layer3_display 0
-section_jump_branch1 49
-
-name_set 楓玲
-
-sfx_set 2 Vox\6348.wav
-sfx_play 2
-line_set 「あっ」
-sfx_stop 2
-
-sfx_set 2 Vox\6347.wav
-sfx_play 2
-line_set 「双厳」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「呼び捨てとはいい度胸だな、この女」
-
-adv_on
-
-name_set 楓玲
-
-sfx_set 2 Vox\6346.wav
-sfx_play 2
-line_set 「なんか、今日新しい侍が来るんでしょ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ああ」
-
-nvl_on
-
-line_set いちいち話しかけてくる楓玲は双厳にとってうざったい存在であった。
-
-line_set 双厳は楓玲の質問にぞんざいに答える。
-adv_on
-
-name_set 楓玲
-
-sfx_set 2 Vox\6345.wav
-sfx_play 2
-line_set 「かっこいい人いるかなぁ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「なんだそれ？」
-nvl_on
-
-line_set なるべく関わらないようにしようとしていた双厳であったが、
-
-line_set さすがにこの一言には反応せずにはいられなかった。
-adv_on
-
-name_set 楓玲
-
-sfx_set 2 Vox\6344.wav
-sfx_play 2
-line_set 「そのままの意味だよ」
-sfx_stop 2
-
-sfx_set 2 Vox\6343.wav
-sfx_play 2
-line_set 「今の仕事場にはろくな男がいないから」
-sfx_stop 2
-sfx_set 2 Vox\6342.wav
-sfx_play 2
-line_set 「かっこいい人いないかなと」
-sfx_stop 2
-name_set 双厳
-
-line_set 「お、おまえなぁ・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6341.wav
-sfx_play 2
-line_set 「なによ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「『なによ』じゃなくて・・・」
-
-line_set 「一応命がけの仕事なんだからさぁ」
-name_set 楓玲
-
-sfx_set 2 Vox\6340.wav
-sfx_play 2
-line_set 「だから？」
-sfx_stop 2
-
-sfx_set 2 Vox\6339.wav
-sfx_play 2
-line_set 「なに？もっとまじめにやれとでもいいたいの？」
-sfx_stop 2
-name_set 双厳
-
-line_set 「ああ、そうだな・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6338.wav
-sfx_play 2
-line_set 「あんたに言われたかないわよ」
-sfx_stop 2
-
-sfx_set 2 Vox\6337.wav
-sfx_play 2
-line_set 「あんたの方がどう見ても不真面目じゃない」
-sfx_stop 2
-name_set 双厳
-
-line_set 「そうだよ」
-
-line_set 「その通りだ」
-name_set 楓玲
-
-sfx_set 2 Vox\6336.wav
-sfx_play 2
-line_set 「って・・・」
-sfx_stop 2
-
-sfx_set 2 Vox\6335.wav
-sfx_play 2
-line_set 「あんた・・・」
-sfx_stop 2
-name_set 双厳
-
-line_set 「だから、俺は不真面目だから」
-
-line_set 「せめてお前がまじめに働くべきだろ」
-line_set 「じゃないと、この島の危機は救えないぜ」
-kgd_layer3_set 3 Kgd\Fu_007.kgd
-
-kgd_layer3_param 3 128 0 0 0 544 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-line_set 「・・・」
-
-sfx_set 2 Vox\6334.wav
-sfx_play 2
-line_set 「ほんと、あんたってサイテーね」
-sfx_stop 2
-name_set 双厳
-
-line_set 「サイテーか・・・」
-
-line_set 「かもな・・・」
-line_set 「お前ほどビンボーじゃないけどな」
-kgd_layer3_set 3 Kgd\Fu_005.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-sfx_set 2 Vox\6333.wav
-sfx_play 2
-line_set 「な、なによ」
-sfx_stop 2
-
-sfx_set 2 Vox\6332.wav
-sfx_play 2
-line_set 「私はビンボーじゃないわよ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「あっそう」
-
-kgd_layer3_set 3 Kgd\Fu_008.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-sfx_set 2 Vox\6331.wav
-sfx_play 2
-line_set 「『あっそう』って、あんたその人を小馬鹿にしたような反応はなによ！」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「まあ、いいじゃないか」
-
-line_set 「港に色男達が来てるよ？」
-nvl_on
-
-line_set 「たぶん・・・」
-
-adv_on
-
-kgd_layer3_set 3 Kgd\Fu_002.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-sfx_set 2 Vox\6330.wav
-sfx_play 2
-line_set 「ホ、ホ、ホント？」
-sfx_stop 2
-
-sfx_set 2 Vox\6329.wav
-sfx_play 2
-line_set 「かっこいい人来てるの？」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set さすがの双厳も、あまりにうれしそうな楓玲の表情に唖然とする。
-
-adv_on
-
-kgd_layer3_set 3 Kgd\Fu_008.kgd
-
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-sfx_set 2 Vox\6328.wav
-sfx_play 2
-line_set 「な、なによ、その顔！」
-sfx_stop 2
-
-sfx_set 2 Vox\6327.wav
-sfx_play 2
-line_set 「いいでしょ」
-sfx_stop 2
-sfx_set 2 Vox\6326.wav
-sfx_play 2
-line_set 「私だって乙女なのよ」
-sfx_stop 2
-sfx_set 2 Vox\6325.wav
-sfx_play 2
-line_set 「いい男とねんごろにもなりたいわよ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「ねんごろ・・・」
-
-line_set 「お前って・・・」
-name_set 楓玲
-
-sfx_set 2 Vox\6324.wav
-sfx_play 2
-line_set 「あー、そうそうさっきからムカついてたんだけど」
-sfx_stop 2
-
-sfx_set 2 Vox\6323.wav
-sfx_play 2
-line_set 「私の事、お前とか言うのやめてくれない」
-sfx_stop 2
-sfx_set 2 Vox\6322.wav
-sfx_play 2
-line_set 「私には楓玲ちゃんという名前があるんだから」
-sfx_stop 2
-sfx_set 2 Vox\6321.wav
-sfx_play 2
-line_set 「あなたに、お前とか呼ばれてると」
-sfx_stop 2
-sfx_set 2 Vox\6320.wav
-sfx_play 2
-line_set 「まるで、私とあなたとが特別な関係みたいじゃないのよ」
-sfx_stop 2
-sfx_set 2 Vox\6319.wav
-sfx_play 2
-line_set 「勘違いされると困るわ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳はあまりのばかばかしさにその場を立ち去ろうとする。
-
-adv_on
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-name_set 楓玲
-
-sfx_set 2 Vox\6318.wav
-sfx_play 2
-line_set 「ちょっと！！」
-sfx_stop 2
-
-kgd_layer3_set 0 Kgd\Fu_008.kgd
-
-kgd_layer3_display 0
-sfx_set 2 Vox\6317.wav
-sfx_play 2
-line_set 「まちなさいよ！」
-sfx_stop 2
-
-sfx_set 2 Vox\6316.wav
-sfx_play 2
-line_set 「あんた！いつも話の途中で逃げるじゃない！」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6315.wav
-sfx_play 2
-line_set 「いいこと！」
-sfx_stop 2
-
-sfx_set 2 Vox\6314.wav
-sfx_play 2
-line_set 「もう一度言うからちゃんと聞きなさいよ！」
-sfx_stop 2
-name_set 双厳
-
-line_set 「あー」
-
-line_set 「分かった分かった」
-line_set 「お前の事お前ってよばねぇよ」
-name_set 楓玲
-
-sfx_set 2 Vox\6313.wav
-sfx_play 2
-line_set 「っていってるそばから言ってるじゃない！」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「うるせいなー」
-
-line_set 「誰も思いはしねーよ」
-line_set 「お前が思うほど他人はお前の事なんぞ見てねー」
-name_set 楓玲
-
-sfx_set 2 Vox\6312.wav
-sfx_play 2
-line_set 「あ、あんたねー」
-sfx_stop 2
-
-sfx_set 2 Vox\6311.wav
-sfx_play 2
-line_set 「本当に失礼な男ね」
-sfx_stop 2
-sfx_set 2 Vox\6310.wav
-sfx_play 2
-line_set 「ま、まあ、いいわ」
-sfx_stop 2
-sfx_set 2 Vox\6309.wav
-sfx_play 2
-line_set 「かっこいいお侍さんがきたら、もうあなたと話してあげないから」
-sfx_stop 2
-sfx_set 2 Vox\6308.wav
-sfx_play 2
-line_set 「そのときになって後悔すればいいわ」
-sfx_stop 2
-sfx_set 2 Vox\6307.wav
-sfx_play 2
-line_set 「ああ、楓玲ちゃんにやさしくしていればよかったって」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「ぷっ」
-name_set 楓玲
-
-sfx_set 2 Vox\6306.wav
-sfx_play 2
-line_set 「い、今笑ったなぁ」
-sfx_stop 2
-
-sfx_set 2 Vox\6305.wav
-sfx_play 2
-line_set 「す、すごく馬鹿にして笑ったな！」
-sfx_stop 2
-name_set 双厳
-
-line_set 「だって・・・なぁ」
-
-name_set 楓玲
-
-line_set 「・・・」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-nvl_on
-
-line_set 楓玲は怒りながら消えた。
-
-nvl_line_clear
-
-line_set 「・・・」
-
-line_set 「しかし」
-line_set 「なんであんなヤツがこんな仕事してるんだろう」
-adv_on
-
-#49_5
-
-!268
-
-jump_choice 23 ◆屋敷前への道へ移動
-
-jump_choice 24 ◆海岸へ移動
-jump_choice 25 ◆港へ移動
-@22
-
-@24
-
-@42
-
-kgd_layer2_set 1 Kgd\B_049.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_branch1 20167 50
-
-jump_branch1 15059 49
-jump_branch1 20167 268
-jump_branch2 20167 48
-section_jump_branch1 268
-
-name_set 声
-
-sfx_set 2 Vox\6228.wav
-sfx_play 2
-line_set 「双厳ちゃ～ん」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「この声は・・・」
-kgd_layer3_set 0 Kgd\Ma_002.kgd
-
-kgd_layer3_param 0 252 0 0 0 296 600
-kgd_layer3_display 0
-name_set 舞
-
-sfx_set 2 Vox\6227.wav
-sfx_play 2
-line_set 「また会ったねぇ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 舞
-
-sfx_set 2 Vox\6226.wav
-sfx_play 2
-line_set 「なにしてるの？」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「仕事だ・・・」
-
-name_set 舞
-
-sfx_set 2 Vox\6225.wav
-sfx_play 2
-line_set 「仕事？」
-sfx_stop 2
-
-sfx_set 2 Vox\6224.wav
-sfx_play 2
-line_set 「仕事ってお散歩の事？」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 舞
-
-sfx_set 2 Vox\6223.wav
-sfx_play 2
-line_set 「お散歩ってお仕事だったんだ～」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 舞
-
-sfx_set 2 Vox\6222.wav
-sfx_play 2
-line_set 「なら舞もお仕事してるんだね」
-sfx_stop 2
-
-sfx_set 2 Vox\6221.wav
-sfx_play 2
-line_set 「舞ね、お散歩の途中なんだよ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 舞
-
-sfx_set 2 Vox\6220.wav
-sfx_play 2
-line_set 「さぁ、仕事続けるぞぉ！！」
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-nvl_on
-
-line_set 舞は散歩でもしていたのであろう。
-
-line_set そのまま仕事と称した散歩に出かけていった。
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「ある意味正しいから何も言えんな・・・」
-jump_auto 26
-
-#49_7
-
-section_jump_branch1 50
-
-nvl_on
-
-line_set 「・・・」
-
-line_set 「なんだ、あれ」
-nvl_line_clear
-
-line_set 海岸に男がいる。
-
-line_set いままで島で見た顔ではない。
-line_set 男の風貌は島の村人より汚らしく流れ人であるように思えた。
-nvl_line_clear
-
-line_set 「しかし・・・」
-
-line_set 「こんな島に流れ者とは・・・」
-line_set 「こいつも阿波路に雇われた武芸者か」
-nvl_line_clear
-
-line_set この時代、流れ者といえばその大半が芸者であった。
-
-line_set その中にはもちろん武を芸とする武芸者も含まれる。武芸者といえども芸が付くのだから芸者なのである。
-nvl_line_clear
-
-line_set 「丸腰だな・・・」
-
-line_set 「こいつ・・・」
-nvl_line_clear
-
-line_set 服の中に武器を隠し持っているとも考えられるが、だとしても、それほど大きな獲物を隠している風には見
-
-line_set えない。
-line_set どんなにうまく隠していようが、双厳のような一流の武芸者には、一発でわかってしまう。
-line_set 武器を隠しているとどうしても身体のどこかにいらぬ力が入ってしまうものなのだ。
-nvl_line_clear
-
-line_set 「小さな武器なら隠しているかもしれないが・・・」
-
-line_set 「しかし、そんなもので武に生きる事は困難だ」
-line_set 「だとしたら」
-line_set 「ただの浮浪者か・・・」
-nvl_line_clear
-
-line_set たしかに、針一本で人は殺せる。
-
-line_set 数滴の水で人を殺す事もできる。
-line_set が、それは出来るという程度のものでしかない。
-line_set 殺しを専門として殺しの技術だけを生きる糧とする者にとってはそんなものは一個の手段でしかない。
-line_set それのみを殺しの手段とするような者など流しの武芸者には皆無であった。
-nvl_line_clear
-
-line_set 双厳はこの男に注意深く近づく。
-
-line_set 男から殺気のようなものは感じられないし、
-line_set なによりもこの男の背中は隙だらけであった。
-adv_on
-
-name_set 双厳
-
-line_set 「この男は・・・」
-
-jump_choice 27 ◆ただ者でない気がする
-
-jump_choice 28 ◆ただの浮浪者だ
-@27
-
-line_set 「おい」
-
-line_set 「お前」
-name_set 浮浪者
-
-line_set 「え、あ」
-
-line_set 「私ですか？」
-kgd_layer3_set 0 Kgd\Jy_012.kgd
-
-kgd_layer3_param 0 120 0 0 0 560 600
-kgd_layer3_display 0
-nvl_on
-
-line_set 近くで見れば見るほど武芸者とは思えない風貌であった。
-
-line_set 風貌だけではなかった、双厳がここで一太刀浴びせれば間違いなくこの男は真っ二つになる。
-line_set それほどにこの男は隙だらけで無防備であった。
-line_set 普通ならこの男になんの疑惑もいだかなかった。
-line_set 普通なら・・・。
-adv_on
-
-name_set 双厳
-
-line_set 「お前は」
-
-line_set 「何者だ？」
-nvl_on
-
-line_set 双厳は敵を相手にしているのとかわらず、殺気に満ちた態度で質問をなげかけた。
-
-line_set でなければ無駄な質問で終わるのである。
-line_set この男の正体など、本人に聞いたとしても（それがどんな答えだとしても）何の意味もない。
-line_set 本当であるかどうかなど確かめようがないからだ。
-line_set 特にそいつが一流である場合、完全に殺気を殺す事が可能だからだ。
-nvl_line_clear
-
-line_set 「ならば、本気で答えさせればいい」
-
-adv_on
-
-name_set 浮浪者
-
-line_set 「え、あ」
-
-line_set 「ただの流れ者でございますが・・・」
-name_set 双厳
-
-line_set 「そうか」
-
-line_set 「ならば」
-name_set 浮浪者
-
-line_set 「？」
-
-nvl_on
-
-line_set 双厳は浮浪者に近づきながら刀の鯉口をきる。
-
-adv_on
-
-name_set 双厳
-
-line_set 「ならば斬っても問題になるまい」
-
-name_set 浮浪者
-
-line_set 「え、あえ、あ」
-
-name_set 双厳
-
-line_set 「ふん！」
-
-nvl_on
-
-line_set 双厳は浮浪者に剣を振り下ろす。
-
-line_set それは常人では捉える事の出来ない速度であった。
-adv_on
-
-name_set 浮浪者
-
-line_set 「ひ、ひいいい」
-
-nvl_on
-
-line_set 「・・・」
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 浮浪者
-
-line_set 「？」
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 剣は浮浪者の頭上数ミリのところでとまる。
-
-adv_on
-
-name_set 浮浪者
-
-line_set 「ふ、ふはぁ」
-
-line_set 「は、はぁ、い、生きている・・・」
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「こいつ、やはり只の浮浪者か・・・」
-
-adv_on
-
-name_set 浮浪者
-
-line_set 「な、なになさいますか」
-
-line_set 「おどろくでないですか！」
-name_set 双厳
-
-line_set 「俺は、この島に用心棒として雇われた侍だ」
-
-line_set 「あやしいヤツは斬るようにいわれている」
-line_set 「部外者が島の中をうろちょろしていれば斬る」
-line_set 「この意味が分かるか」
-name_set 浮浪者
-
-line_set 「へ、へい」
-
-line_set 「しかし・・・」
-name_set 双厳
-
-line_set 「しかし？」
-
-name_set 浮浪者
-
-line_set 「舟が難破してしまって、この島に流れついたので・・・」
-
-line_set 「すぐにいなくなれと言われましても・・・」
-name_set 双厳
-
-line_set 「島の者にでも舟で本州に送ってくれるように頼め」
-
-line_set 「島の住人もお前のような部外者がいるくらいなら、そのくらいの手間を惜しむまい」
-name_set 浮浪者
-
-line_set 「いや、すでに島の者にはたのんだのですが」
-
-line_set 「誰も聞いてくれないのです」
-line_set 「なんでも、土用の期間は島の人間は決して海に出ないらしくて・・・」
-nvl_on
-
-line_set 「・・・」
-
-line_set 「この島の住人は、土用の期間は海にでないのか・・・」
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「分かった」
-line_set 「とりあえず」
-line_set 「あまりうろちょろしないでほしい」
-line_set 「今度は本当に斬る事になりかねないのでな」
-name_set 浮浪者
-
-line_set 「へ、へい」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-jump_auto 29
-
-@28
-
-nvl_on
-
-line_set 「問題ないだろう」
-
-line_set 「いくらなんでもこんな無防備な武芸者もいないだろう」
-nvl_line_clear
-
-line_set 浮浪者は双厳に気がつくとあちらから近づいてきた。
-
-adv_on
-
-kgd_layer3_set 0 Kgd\Jy_012.kgd
-
-kgd_layer3_param 0 120 0 0 0 560 600
-kgd_layer3_display 0
-name_set 浮浪者
-
-line_set 「おや、お侍さまじゃないですか」
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 浮浪者
-
-line_set 「こんな辺鄙なところにお侍さまがいるなんておもわなんだ」
-
-name_set 双厳
-
-line_set 「なんの用だ」
-
-name_set 浮浪者
-
-line_set 「い、いや、私は単なる流れ者なのですが・・・」
-
-line_set 「お侍さまもここの方ではないでしょ？」
-name_set 双厳
-
-line_set 「ああ、この島に用心棒として雇われている」
-
-name_set 浮浪者
-
-line_set 「私、旅の途中で舟が難破しましてね」
-
-line_set 「この島に漂着したんです」
-line_set 「本州の方に帰りたいのですが」
-line_set 「お侍さま、どうやって帰ったらよろしいですかね」
-name_set 双厳
-
-line_set 「しらん」
-
-line_set 「島の者にでも頼め」
-name_set 浮浪者
-
-line_set 「いや、すでに島の者にはたのんだのですが」
-
-line_set 「誰も聞いてくれないのです」
-line_set 「なんでも、土用の期間は島の人間は決して海に出ないらしくて・・・」
-nvl_on
-
-line_set 「・・・」
-
-line_set 「この島の住人は、土用の期間は海にでないのか・・・」
-adv_on
-
-name_set 双厳
-
-line_set 「私は、この島に用心棒として雇われている」
-
-line_set 「あまり、この島でうろちょろしないでもらいたい」
-name_set 浮浪者
-
-line_set 「は、はい」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-@26
-
-@29
-
-#50_6
-
-#268_8
-
-!48
-
-jump_choice 30 ◆村へ移動
-
-jump_choice 31 ◆港へ移動
-jump_choice 32 ◆物見やぐらへ移動
-@36
-
-@39
-
-kgd_layer2_set 1 Kgd\B_013.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_branch1 23104 51
-
-jump_branch2 23104 50
-section_jump_branch1 51
-
-nvl_on
-
-line_set 山道から一人の女が歩いてくる。
-
-adv_on
-
-kgd_layer3_set 0 Kgd\Ay_002.kgd
-
-kgd_layer3_param 0 192 0 0 0 416 600
-kgd_layer3_display 0
-name_set 女
-
-sfx_set 2 Vox\6263.wav
-sfx_play 2
-line_set 「どうもはじめまして」
-sfx_stop 2
-
-nvl_on
-
-line_set 女は双厳と挨拶をかわす・・・。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳はそれに対して言葉でなく軽く会釈をする。
-
-nvl_line_clear
-
-line_set 「・・・」
-
-line_set 「この女・・・」
-line_set 「島の者ではないな・・・」
-adv_on
-
-name_set 女
-
-sfx_set 2 Vox\6262.wav
-sfx_play 2
-line_set 「双厳さまですね」
-sfx_stop 2
-
-nvl_on
-
-line_set 女はそのまま双厳に話しかける。
-
-adv_on
-
-name_set 双厳
-
-line_set 「ああ、いかにも双厳だが」
-
-nvl_on
-
-line_set 双厳は睨みつけるように答える。
-
-adv_on
-
-name_set 女
-
-sfx_set 2 Vox\6261.wav
-sfx_play 2
-line_set 「あら、ごめんなさい」
-sfx_stop 2
-
-sfx_set 2 Vox\6260.wav
-sfx_play 2
-line_set 「自己紹介が遅れたわね」
-sfx_stop 2
-sfx_set 2 Vox\6259.wav
-sfx_play 2
-line_set 「今日から阿波路家の方でお世話になる彩というものです」
-sfx_stop 2
-sfx_set 2 Vox\6258.wav
-sfx_play 2
-line_set 「よろしくね」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「あんたも阿波路に雇われた用心棒か？」
-name_set 彩
-
-sfx_set 2 Vox\6257.wav
-sfx_play 2
-line_set 「はい」
-sfx_stop 2
-
-sfx_set 2 Vox\6256.wav
-sfx_play 2
-line_set 「双厳さまの事は阿波路の志乃殿から聞いてますよ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「志乃から・・・」
-
-name_set 彩
-
-sfx_set 2 Vox\6255.wav
-sfx_play 2
-line_set 「大変頼もしい方と聞いてましたが」
-sfx_stop 2
-
-sfx_set 2 Vox\6254.wav
-sfx_play 2
-line_set 「その通りですね」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 彩
-
-sfx_set 2 Vox\6253.wav
-sfx_play 2
-line_set 「今日から仕事仲間ですね」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ああ・・・」
-
-nvl_on
-
-line_set 「・・・」
-
-line_set 「仕事仲間か・・・」
-nvl_line_clear
-
-line_set 双厳は彩を観察する。
-
-nvl_line_clear
-
-line_set 「面白い武器だな・・・」
-
-nvl_line_clear
-
-line_set 彩の武器が双厳の目にとまる。
-
-line_set 短めの刀であるようだが、柄の形状が奇妙であった。手でつかむには柄がやたらに太い、とてもじゃないが
-line_set 手でつかめるものでない。
-nvl_line_clear
-
-line_set 「あんな武器どうやって使うのだろう・・・」
-
-nvl_line_clear
-
-line_set 「・・・」
-
-line_set 「楓玲も奇妙な身なりであったが」
-line_set 「この女の武器も負けずに奇妙な形だな・・・」
-nvl_line_clear
-
-line_set 淡炎島が辺境故にであろうか？
-
-line_set ここに集まる輩は、本州では見られない奇妙な者が多い。
-adv_on
-
-name_set 彩
-
-sfx_set 2 Vox\6252.wav
-sfx_play 2
-line_set 「くす・・・」
-sfx_stop 2
-
-sfx_set 2 Vox\6251.wav
-sfx_play 2
-line_set 「私が腰にかけているものがめずらしいですか？」
-sfx_stop 2
-nvl_on
-
-line_set 彩は双厳の疑問を察知したように自分の武器に話題を振った。
-
-adv_on
-
-kgd_layer1_set 1 Kgd\Dc_Aya01.kgd
-
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-kgd_layer3_clear 0
-sfx_set 2 Vox\6250.wav
-sfx_play 2
-line_set 「面白い武器でしょ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ああ、本州では見たこと無い武器だ」
-
-name_set 彩
-
-sfx_set 2 Vox\6249.wav
-sfx_play 2
-line_set 「ふふふ」
-sfx_stop 2
-
-sfx_set 2 Vox\6248.wav
-sfx_play 2
-line_set 「そうね・・・」
-sfx_stop 2
-name_set 双厳
-
-line_set 「あんた、本州の人間か？」
-
-name_set 彩
-
-sfx_set 2 Vox\6247.wav
-sfx_play 2
-line_set 「くす・・・」
-sfx_stop 2
-
-sfx_set 2 Vox\6246.wav
-sfx_play 2
-line_set 「そんな事気になるのですか？」
-sfx_stop 2
-sfx_set 2 Vox\6245.wav
-sfx_play 2
-line_set 「別にいいじゃないですか」
-sfx_stop 2
-name_set 双厳
-
-line_set 「いや」
-
-line_set 「ただ聞いただけだ、言いたくないなら言わなくてもいい」
-name_set 彩
-
-sfx_set 2 Vox\6244.wav
-sfx_play 2
-line_set 「くす」
-sfx_stop 2
-
-sfx_set 2 Vox\6243.wav
-sfx_play 2
-line_set 「ぶっきらぼうな言い方ですね」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 彩
-
-sfx_set 2 Vox\6242.wav
-sfx_play 2
-line_set 「でもそんな双厳さまは嫌いじゃないわ」
-sfx_stop 2
-
-sfx_set 2 Vox\6241.wav
-sfx_play 2
-line_set 「仲良くやっていけそう・・・」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「あんたこそ、含みのある言い方をするな」
-name_set 彩
-
-sfx_set 2 Vox\6240.wav
-sfx_play 2
-line_set 「ふふふふ・・・」
-sfx_stop 2
-
-sfx_set 2 Vox\6239.wav
-sfx_play 2
-line_set 「そうね・・・」
-sfx_stop 2
-sfx_set 2 Vox\6238.wav
-sfx_play 2
-line_set 「そうかもね」
-sfx_stop 2
-sfx_set 2 Vox\6237.wav
-sfx_play 2
-line_set 「まあいいじゃないですか」
-sfx_stop 2
-sfx_set 2 Vox\6236.wav
-sfx_play 2
-line_set 「仲良くやりましょうよ」
-sfx_stop 2
-sfx_set 2 Vox\6235.wav
-sfx_play 2
-line_set 「戦いになれば、この武器の意味も分かるし」
-sfx_stop 2
-sfx_set 2 Vox\6234.wav
-sfx_play 2
-line_set 「もしかしたら、私がどこの出身かもわかるかも」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「武器でそんな事分かるものではあるまい」
-name_set 彩
-
-sfx_set 2 Vox\6233.wav
-sfx_play 2
-line_set 「だから」
-sfx_stop 2
-
-sfx_set 2 Vox\6232.wav
-sfx_play 2
-line_set 「『かもね』って言ったの」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 彩
-
-sfx_set 2 Vox\6231.wav
-sfx_play 2
-line_set 「じゃ、私もそろそろ仕事をしなければいけないので・・・」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「島の見回りか？」
-
-name_set 彩
-
-sfx_set 2 Vox\6230.wav
-sfx_play 2
-line_set 「地の利を知るのは兵法の基本中の基本ですからね」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そうだな・・・」
-
-name_set 彩
-
-sfx_set 2 Vox\6229.wav
-sfx_play 2
-line_set 「では失礼しますね」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ああ・・・」
-
-kgd_layer1_fadein
-
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-#51_9
-
-!50
-
-jump_choice 33 ◆大岩へ移動
-
-jump_choice 34 ◆屋敷前へ移動
-@33
-
-kgd_layer2_set 1 Kgd\B_001.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-section_jump_branch2 19
-
-jump_branch1 24319 50
-
-@38
-
-jump_choice 35 ◆登る
-
-jump_choice 36 ◆山道へ移動
-@35
-
-kgd_layer1_set 1 Kgd\Be_008.kgd
-
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-jump_choice 37 ◆降りる
-
-@37
-
-kgd_layer1_fadein
-
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-jump_auto 38
-
-@12
+    jump_branch1 @5 42
+    gallery_unlock 107
+    ksd_set Ksd\107.ksd
+
+    kgd_layer1_set 0 Kgd\W_001.kgd
+    kgd_layer2_set 0 Kgd\B_037.kgd
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 3
+
+    jump_auto @6
+
+@5
+    gallery_unlock 108
+    ksd_set Ksd\108.ksd
+
+    kgd_layer1_set 0 Kgd\W_001.kgd
+    kgd_layer2_set 0 Kgd\B_037.kgd
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 3
+
+    jump_auto @6
+
+@6
+    kgd_layer3_set 0 Kgd\Sa_012.kgd
+    kgd_layer3_param 0 192 0 0 0 416 600
+    kgd_layer3_display 0
+    music_play 14
+
+    name_set 紗枝
+    line_set 「気持ちよかったですか？」
+
+    name_set 双厳
+    line_set 「ああ・・・」
+
+    kgd_layer3_set 3 Kgd\Sa_002.kgd
+    kgd_layer3_param 3 192 0 0 0 416 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 紗枝
+    line_set 「よかったです」
+
+    nvl_on
+    line_set 紗枝はうれしそうに答える。
+
+    adv_on
+    name_set 紗枝
+    line_set 「でも双厳さま」
+
+    name_set 双厳
+    line_set 「なんだ」
+
+    name_set 紗枝
+    line_set 「紗枝がご奉仕してる時、双厳さまは何もしなくていいですよ」
+
+    name_set 双厳
+    line_set 「なんでだ・・・」
+
+    kgd_layer3_set 3 Kgd\Sa_012.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 紗枝
+    line_set 「えっだって・・・」
+
+    kgd_layer3_set 3 Kgd\Sa_002.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+    line_set 「うふ」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    kgd_layer3_set 3 Kgd\Sa_001.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 紗枝
+    sfx_set 2 Vox\6398.wav
+    sfx_play 2
+    line_set 「さて、仕事に戻りますです」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうか・・・」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6397.wav
+    sfx_play 2
+    line_set 「ハイです」
+    sfx_stop 2
+
+    name_set 紗枝
+    sfx_set 2 Vox\6396.wav
+    sfx_play 2
+    line_set 「それじゃ双厳さま」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 紗枝は元気良く部屋を後にした。
+    nvl_line_clear
+    line_set 「さてと・・・」
+    line_set 「そろそろ行動するか・・・」
+    nvl_line_clear
+    line_set 「さて、どこにいこうか？」
+
+    jump_auto @1
 
 @13
+    kgd_layer2_set 1 Kgd\B_037.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-@17
+@1
+    jump_choice @7 ◆廊下へ移動
 
-@34
+@14
+    kgd_layer2_set 1 Kgd\B_009.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-@43
+    jump_branch1 @8 46
+    kgd_layer3_set 0 Kgd\Sh_001.kgd
+    kgd_layer3_param 0 48 0 0 0 704 600
+    kgd_layer3_display 0
+    section_jump_branch1 46
 
-kgd_layer2_set 1 Kgd\B_033.kgd
+    name_set 志乃
+    sfx_set 2 Vox\6282.wav
+    sfx_play 2
+    line_set 「おはようございます双厳さま」
+    sfx_stop 2
 
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-section_jump_branch1 19
+    name_set 双厳
+    line_set 「ああ・・・」
 
-jump_choice 39 ◆山道へ移動
+    nvl_on
+    line_set 双厳と志乃は軽く挨拶を交わす。
 
-jump_choice 40 ◆屋敷内へ移動
-jump_choice 41 ◆村への道へ移動
-@32
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6281.wav
+    sfx_play 2
+    line_set 「そういえば・・・」
+    sfx_stop 2
 
-kgd_layer2_set 1 Kgd\B_065.kgd
+    sfx_set 2 Vox\6280.wav
+    sfx_play 2
+    line_set 「今日は５人ほど新しい用心棒の方がいらっしゃいます」
+    sfx_stop 2
 
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_branch1 24181 267
+    name_set 双厳
+    line_set 「侍？」
 
-jump_branch2 24181 47
-section_jump_branch1 267
+    name_set 志乃
+    sfx_set 2 Vox\6279.wav
+    sfx_play 2
+    line_set 「双厳さまの実力を疑うわけではないのですが」
+    sfx_stop 2
 
-kgd_layer3_set 0 Kgd\Ma_002.kgd
+    sfx_set 2 Vox\6278.wav
+    sfx_play 2
+    line_set 「さすがに、お一人で数十人の海賊を相手にするわけにもいかないでしょうから」
+    sfx_stop 2
 
-kgd_layer3_param 0 252 0 0 0 296 600
-kgd_layer3_display 0
-nvl_on
+    name_set 双厳
+    line_set 「いや、わからぬでもない」
+    line_set 「いくら、俺が自分で『一人でも大丈夫』といったところで信用できぬだろう」
+    line_set 「さすがに、当主殿も俺一人では心許ないというのもわからんでもない」
+    line_set 「俺の実力のほどもわからんしな・・・」
+    line_set 「しかし」
+    line_set 「あまり得体のしれないものを大量に雇うのはどうかとも思うが」
+    line_set 「頭の良い当主殿のこと、その辺は抜かりがないと信じているが・・・」
 
-line_set そこには昨日あった少女がたっている。
+    name_set 志乃
+    sfx_set 2 Vox\6277.wav
+    sfx_play 2
+    line_set 「ふふふふふ」
+    sfx_stop 2
 
-adv_on
+    sfx_set 2 Vox\6276.wav
+    sfx_play 2
+    line_set 「それはどうもありがとうございます」
+    sfx_stop 2
 
-name_set 双厳
+    name_set 双厳
+    line_set 「時にどんな輩なのかな」
 
-line_set 「おい・・・」
+    name_set 志乃
+    sfx_set 2 Vox\6275.wav
+    sfx_play 2
+    line_set 「さあ・・・」
+    sfx_stop 2
 
-name_set 舞
+    sfx_set 2 Vox\6274.wav
+    sfx_play 2
+    line_set 「よくわかりません」
+    sfx_stop 2
 
-sfx_set 2 Vox\4536.wav
-sfx_play 2
-line_set 「双厳ちゃんこんにちわ～」
-sfx_stop 2
+    sfx_set 2 Vox\6273.wav
+    sfx_play 2
+    line_set 「仕事の噂を聞いた流浪の浪人さま達ではないでしょうか？」
+    sfx_stop 2
 
-name_set 双厳
+    name_set 双厳
+    line_set 「・・・」
 
-line_set 「・・・あぁ？」
+    nvl_on
+    line_set 「こいつ・・・」
+    line_set 「なめてるのか・・・」
+    line_set 「流浪の侍が海賊と大差ない事などこの女なら当然分かっているだろう」
+    line_set 「どういうつもりだ・・・」
 
-name_set 舞
+    adv_on
+    line_set 「・・・」
+    line_set 「その得体の知れない奴らと上手くやれと言うわけか？」
 
-sfx_set 2 Vox\5868.wav
-sfx_play 2
-line_set 「んじゃねぇ・・・」
-sfx_stop 2
+    name_set 志乃
+    sfx_set 2 Vox\6272.wav
+    sfx_play 2
+    line_set 「そうですね、なるべく仲良くしてもらいたいものですね」
+    sfx_stop 2
 
-kgd_layer3_fadeout 0
+    sfx_set 2 Vox\6271.wav
+    sfx_play 2
+    line_set 「海賊でなく、仲間同士で殺しあったのではしかたありませんからね」
+    sfx_stop 2
 
-kgd_layer3_clear 0
-name_set 双厳
+    nvl_on
+    line_set 「・・・」
 
-line_set 「・・・双厳ちゃん・・・か・・・」
+    adv_on
+    name_set 双厳
+    line_set 「まあ２、３０人程度ならば仲間だろうが海賊だろうが襲ってきてもなんとかなるがな・・・」
 
-line_set 「やはり頭が弱いのか？」
-#267_11
+    nvl_on
+    line_set もちろん双厳の言っている事はハッタリではなかったが、普通に聞いたのでは双厳のこの発言などハッタリ
+    line_set 以外の何ともいえなかった。
+    line_set にもかかわらず、志乃はその発言を真に受けるかのように話しを続ける。
 
-!47
+    adv_on
+    pis_set 30 0
 
-jump_choice 42 ◆海岸へ移動
+    name_set 志乃
+    sfx_set 2 Vox\6270.wav
+    sfx_play 2
+    line_set 「それは素晴らしい、<0,荒木又右衛門>さまのようですわ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「荒木又右衛門とは・・・」
+    line_set 「鍵屋の辻の話などよく知っておられますな」
+    line_set 「このような場所にお住みなのに、世相のことをよく見ておられる」
+
+    name_set 志乃
+    sfx_set 2 Vox\6269.wav
+    sfx_play 2
+    line_set 「このような場所だからこそですわ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「と言うと」
+
+    name_set 志乃
+    sfx_set 2 Vox\6268.wav
+    sfx_play 2
+    line_set 「暇ですから」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「暇といっても、そのような事を知るにはそれ相応の労力をともないましょう」
+    line_set 「特に、そのような最近の話などは・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6267.wav
+    sfx_play 2
+    line_set 「そうでもございませんわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6266.wav
+    sfx_play 2
+    line_set 「阿波路はこの辺一帯の村々と交流がありますし」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6265.wav
+    sfx_play 2
+    line_set 「特に海路からはいち早く色々な情報が入ります」
+    sfx_stop 2
+
+    nvl_on
+    line_set 志乃は双厳に最後まで言わすことなく答えた。
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6264.wav
+    sfx_play 2
+    line_set 「そろそろ、私もしなければいけないことがありますので、この辺で・・・」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 「あの女、あなどれない・・・」
+    line_set 「俺の正体は薄々感じているらしいが・・・」
+    line_set 「それでいながら、あのように挑発するような発言ばかりする」
+    line_set 「あれでは、あたかも新しく雇った侍は俺に対する刺客の様にすら聞こえる」
+    line_set 「といっても・・・」
+    nvl_line_clear
+    line_set 「あれほど頭の良い女が、みすみす手の内をみせるような馬鹿なまねもするまい」
+    line_set 「ならば・・・」
+    line_set 「一体なんの目的で、俺のような存在の侵入を許したんだ」
+    line_set 「やつのいうように単純な暇つぶしなのか？」
+    line_set 「それとも・・・」
+
+    adv_on
+
+@8
+    jump_choice @7 ◆廊下へ移動
+
+@7
+    kgd_layer2_set 1 Kgd\B_029.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @9 47
+    jump_branch2 @9 46
+    kgd_layer3_set 0 Kgd\Fu_009.kgd
+    kgd_layer3_param 0 128 0 0 0 544 600
+    kgd_layer3_display 0
+    section_jump_branch1 47
+    pis_set 29 0
+
+    name_set 楓玲
+    sfx_set 2 Vox\6395.wav
+    sfx_play 2
+    line_set 「あっ、<0,サンピン奴>の双厳さん」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「俺がサンピン奴ならお前もサンピン奴だ」
+    line_set 「この仕事の報酬は同じだろうが」
+
+    kgd_layer3_set 3 Kgd\Fu_002.kgd
+    kgd_layer3_param 3 128 0 0 0 544 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    nvl_on
+    line_set 楓玲はその答えを待ってましたとばかりに、にっこりと笑う。
+
+    adv_on
+    name_set 楓玲
+    sfx_set 2 Vox\6394.wav
+    sfx_play 2
+    line_set 「ふふふふふふふ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6393.wav
+    sfx_play 2
+    line_set 「あなたと私を一緒にしてもらいたくはないわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6392.wav
+    sfx_play 2
+    line_set 「もともと実力が違うからかしらね～」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6391.wav
+    sfx_play 2
+    line_set 「雇い主の評価も違うようね」
+    sfx_stop 2
+
+    nvl_on
+    line_set 双厳はつかれた顔で答える。
+
+    adv_on
+    name_set 双厳
+    line_set 「なにが言いたいんだ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6390.wav
+    sfx_play 2
+    line_set 「くくくくく」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6389.wav
+    sfx_play 2
+    line_set 「よく聞いてくれたわ！」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6388.wav
+    sfx_play 2
+    line_set 「おどろけ、貧乏人！」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6387.wav
+    sfx_play 2
+    line_set 「私は前金でこれだけもらったのよ」
+    sfx_stop 2
+
+    nvl_on
+    line_set 楓玲は前金の小判の包みをみせびらかす。
+    line_set 確かに大金ではあるが、双厳のそれとまったく同じ分量である。
+
+    adv_on
+    kgd_layer3_set 3 Kgd\Fu_009.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    sfx_set 2 Vox\6386.wav
+    sfx_play 2
+    line_set 「あなたのような貧乏人には見たことないお金でしょうね～」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6385.wav
+    sfx_play 2
+    line_set 「ふふ、すごいでしょ」
+    sfx_stop 2
+
+    nvl_on
+    line_set たぶん楓玲にとって見たこともない大金であったのであろう、
+    line_set だからこのような大金が全員に配られるなどという事が想像できないのだろうか。
+    nvl_line_clear
+    line_set 「自分だけ、もらったとでも思ってるのかこの馬鹿は・・・」
+
+    adv_on
+    jump_choice @10 ◆俺もまったく同じだけの金をもらったぞ
+    jump_choice @11 ◆すごいな、雇い主の期待に添えなきゃな
+
+@10
+    kgd_layer3_set 3 Kgd\Fu_010.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    sfx_set 2 Vox\6384.wav
+    sfx_play 2
+    line_set 「う、うそ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「うそついてどうするんだよ、そんなこと」
+
+    kgd_layer3_set 3 Kgd\Fu_007.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6383.wav
+    sfx_play 2
+    line_set 「くやしいから嘘ついてんでしょ！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「ほれ」
+
+    nvl_on
+    line_set 双厳は胸元から二日前に志乃から前金としていただいた小判を楓玲にみせた。
+
+    adv_on
+    kgd_layer3_set 3 Kgd\Fu_008.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6382.wav
+    sfx_play 2
+    line_set 「げっ！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「楓玲・・・」
+    line_set 「下品な驚き方だな」
+    line_set 「げっ」
+    line_set 「はないだろ」
+    line_set 「一応女なんだし」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6381.wav
+    sfx_play 2
+    line_set 「う、うるさいわね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6380.wav
+    sfx_play 2
+    line_set 「あんたに女うんぬんなんて言われたくないわよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「たしかに」
+    line_set 「お前が女らしくしようがしまいが関係ないがな」
+    line_set 「おまえみたいなガキ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6379.wav
+    sfx_play 2
+    line_set 「な、なんですって」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6378.wav
+    sfx_play 2
+    line_set 「この宿無し浪人！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「だから・・・」
+    line_set 「それはお前も同じだろ」
+    line_set 「流れ者なんだから」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6377.wav
+    sfx_play 2
+    line_set 「な、ながれものでも」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6376.wav
+    sfx_play 2
+    line_set 「わ、私は裕福よ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6375.wav
+    sfx_play 2
+    line_set 「こんなにお金持ち！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「だから・・・」
+    line_set 「それは俺も同じだけもってるから」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6374.wav
+    sfx_play 2
+    line_set 「むむ・・・」
+    sfx_stop 2
+
+    nvl_on
+    line_set 楓玲は双厳も同じ報酬だった事が相当の驚きであったらしい、かなりうろたえている。
+
+    adv_on
+    name_set 双厳
+    line_set 「おまえって・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6373.wav
+    sfx_play 2
+    line_set 「な、なによ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうとう貧乏人なんじゃないか」
+    line_set 「この程度の小判でとりみだして」
+
+    kgd_layer3_set 3 Kgd\Fu_005.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6372.wav
+    sfx_play 2
+    line_set 「な、ななななななにを言ってるの」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6371.wav
+    sfx_play 2
+    line_set 「わ、わわわわわわたしは裕福よ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6370.wav
+    sfx_play 2
+    line_set 「こんなにお金もってるし」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「だから、それは俺も持ってるし・・・」
+    line_set 「今もらったお金だし・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6369.wav
+    sfx_play 2
+    line_set 「あう、あい、貧乏じゃないわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6368.wav
+    sfx_play 2
+    line_set 「決して貧乏じゃないわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6367.wav
+    sfx_play 2
+    line_set 「中流よ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6366.wav
+    sfx_play 2
+    line_set 「うちは中流だったわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6365.wav
+    sfx_play 2
+    line_set 「お母さんもそう言ってたもん」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「相当の貧乏家庭に育ったのか・・・」
+    line_set 「まあ、いいやこんな小娘馬鹿にしてても仕方ない」
+
+    adv_on
+    name_set 双厳
+    line_set 「んじゃ、俺は用事があるんで」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6364.wav
+    sfx_play 2
+    line_set 「あ、う、うん」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    jump_auto @12
+
+@11
+    sfx_set 2 Vox\6363.wav
+    sfx_play 2
+    line_set 「ふっふふん」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6362.wav
+    sfx_play 2
+    line_set 「すごいでしょ」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「この馬鹿、本気でうれしがっているな・・・」
+
+    adv_on
+    name_set 双厳
+    line_set 「おれはこれだけしかもらえなかったがな」
+
+    nvl_on
+    line_set 双厳は胸元から二日前に志乃から前金としていただいた小判を楓玲にみせた。
+
+    adv_on
+    kgd_layer3_set 3 Kgd\Fu_008.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    line_set 「？！」
+
+    sfx_set 2 Vox\6361.wav
+    sfx_play 2
+    line_set 「そ、それって・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「あれ」
+    line_set 「なんか、裕福なハズの楓玲の前金」
+    line_set 「俺と同じ額でないかい？」
+
+    kgd_layer3_set 3 Kgd\Fu_005.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6360.wav
+    sfx_play 2
+    line_set 「ギク」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6359.wav
+    sfx_play 2
+    line_set 「あ、あう」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「なんだろうな～」
+    line_set 「恥ずかしいなぁ～」
+    line_set 「あの程度のお金でうかれすぎて」
+    line_set 「全員があの額もらえるとは考えられなかったのかな？」
+    line_set 「そうだとすると・・・」
+    line_set 「もしかして、お前って」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6358.wav
+    sfx_play 2
+    line_set 「も、ももももしかしてって、な、なによ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「楓玲ってあの程度の額のお金も見たことないぐらい貧乏なんじゃないのか？」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6357.wav
+    sfx_play 2
+    line_set 「な、ななななななにを言ってるの」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6356.wav
+    sfx_play 2
+    line_set 「わ、わわわわわわたしは裕福よ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6355.wav
+    sfx_play 2
+    line_set 「こんなにお金もってるし」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「だから、それは俺も持ってるし・・・」
+    line_set 「今もらったお金だし・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6354.wav
+    sfx_play 2
+    line_set 「あう、あい、貧乏じゃないわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6353.wav
+    sfx_play 2
+    line_set 「決して貧乏じゃないわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6352.wav
+    sfx_play 2
+    line_set 「中流よ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6351.wav
+    sfx_play 2
+    line_set 「うちは中流だったわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6350.wav
+    sfx_play 2
+    line_set 「お母さんもそう言ってたもん」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「相当の貧乏家庭に育ったのか・・・」
+    line_set 「まあ、いいやこんな小娘馬鹿にしてても仕方ない」
+
+    adv_on
+    name_set 双厳
+    line_set 「んじゃ、俺は用事があるんで」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6349.wav
+    sfx_play 2
+    line_set 「あ、う、うん」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    jump_auto @12
+
+@9
+    jump_choice @13 ◆自室へ移動
+    jump_choice @14 ◆大広間へ移動
+    jump_choice @15 ◆蔵の前へ移動
+    jump_choice @12 ◆屋敷外へ移動
 
 @23
+    kgd_layer2_set 1 Kgd\B_061.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-@41
+    jump_branch1 @16 48
+    jump_branch2 @16 267
+    section_jump_branch1 48
 
-kgd_layer2_set 1 Kgd\B_041.kgd
+    nvl_on
+    line_set 港には舟が止まっている。
+    line_set 例の舟である。
 
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_choice 43 ◆屋敷前へ移動
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
 
-jump_choice 44 ◆村へ移動
+    nvl_on
+    line_set 舟のまわりには５人ほどの侍がいる。
+    line_set 少量の積み荷をおろしている。
+    line_set たぶん、いましがたの到着なのであろうか。
+    line_set 案内係である紗枝もまだここにはいないようだ。
+    nvl_line_clear
+    line_set 「船頭が案内する事になっているのかもしれないが・・・」
+    nvl_line_clear
+
+    jump_choice @17 ◆案内をかってでる
+    jump_choice @18 ◆このまま無視する
+
+@17
+    nvl_on
+    line_set 「案内をかってでる？」
+    line_set 「うそだろ」
+    line_set 「ばかばかしい・・・」
+    line_set 「そんな事してなにになる？」
+
+    adv_on
+    jump_auto @16
+
+@18
+    nvl_on
+    line_set 「まあ、当然だ」
+    line_set 「俺には関係ない事だ」
+
+    adv_on
+
 @16
-
-kgd_layer2_set 1 Kgd\B_025.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-jump_choice 45 ◆廊下へ移動
-
-#50_10
-
-kgd_layer3_set 0 Kgd\Ho_002.kgd
-
-kgd_layer3_param 0 164 0 0 0 472 600
-kgd_layer3_display 0
-name_set 侍
-
-sfx_set 2 Vox\6219.wav
-sfx_play 2
-line_set 「あっ」
-sfx_stop 2
-
-sfx_set 2 Vox\6218.wav
-sfx_play 2
-line_set 「あなた！」
-sfx_stop 2
-sfx_set 2 Vox\6217.wav
-sfx_play 2
-line_set 「あなたですよ！」
-sfx_stop 2
-sfx_set 2 Vox\6216.wav
-sfx_play 2
-line_set 「あなたもこの島に雇われた用心棒ですか？」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「やけに馴れ馴れしいヤツだな」
-
-nvl_line_clear
-
-line_set 山道の彩に続き、山頂でまた新しい侍に出会った。
-
-nvl_line_clear
-
-line_set 「たしか・・・」
-
-line_set 「五人ほど今日島に渡ったと聞いていたが・・・」
-line_set 「こいつもその一人か・・・」
-nvl_line_clear
-
-line_set この侍は双厳より幾つか年下に見えた。
-
-nvl_line_clear
-
-line_set 「とても、こんな仕事で食ってきたとは思えない侍だな」
-
-adv_on
-
-line_set 「人に尋ねるのであれば」
-
-line_set 「自分の事をまず話せ」
-kgd_layer3_set 3 Kgd\Ho_001.kgd
-
-kgd_layer3_param 3 164 0 0 0 472 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 侍
-
-sfx_set 2 Vox\6215.wav
-sfx_play 2
-line_set 「これはすみません」
-sfx_stop 2
-
-sfx_set 2 Vox\6214.wav
-sfx_play 2
-line_set 「私は北条主税といいます」
-sfx_stop 2
-name_set 双厳
-
-line_set 「大層な名前だな・・・」
-
-line_set 「俺は、二つ影双厳と名乗っている」
-name_set 北条
-
-sfx_set 2 Vox\6213.wav
-sfx_play 2
-line_set 「双厳さまとおよびすればいいですかね」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ああ」
-
-line_set 「それでかまわない」
-name_set 北条
-
-sfx_set 2 Vox\6212.wav
-sfx_play 2
-line_set 「どうですかね、この島」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set もちろん北条は島の景色を言っているのではない。
-
-line_set この島の地の利の事を訪ねているのだ。
-adv_on
-
-line_set 「悪くはないだろう」
-
-name_set 北条
-
-sfx_set 2 Vox\6211.wav
-sfx_play 2
-line_set 「そうですね」
-sfx_stop 2
-
-sfx_set 2 Vox\6210.wav
-sfx_play 2
-line_set 「ここは海流がきついうえに」
-sfx_stop 2
-sfx_set 2 Vox\6209.wav
-sfx_play 2
-line_set 「上陸できるような場所がいくつもない」
-sfx_stop 2
-sfx_set 2 Vox\6208.wav
-sfx_play 2
-line_set 「大半が切り立った崖で」
-sfx_stop 2
-sfx_set 2 Vox\6207.wav
-sfx_play 2
-line_set 「その崖を登ろうとして近づいて来た舟はたぶん崖に打ち付けられて一巻の終わりでしょう」
-sfx_stop 2
-sfx_set 2 Vox\6206.wav
-sfx_play 2
-line_set 「賊が攻め込むとしたらやはり海岸か港か・・・」
-sfx_stop 2
-nvl_on
-
-line_set 「まあ、基本的な兵法ではある」
-
-line_set 「しかし、基本以上のものではない」
-line_set 「危険を省みなければいくらでも崖から攻めてくる手筈はある」
-line_set 「まぁ、敵が海賊ならばそんな心配などしなくていいのだが」
-adv_on
-
-sfx_set 2 Vox\6191.wav
-sfx_play 2
-line_set 「港なら鳥居に囲まれているため岸にまで舟をあげる事は困難」
-sfx_stop 2
-
-sfx_set 2 Vox\6190.wav
-sfx_play 2
-line_set 「岸にあがるまでに大半の賊を弓で討てます」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳は歩き出す。
-
-line_set 双厳は元々一人でこの仕事を受けたつもりであった。
-line_set そして、彼の戦略には彼一人で十分であった。
-line_set なぜならば、仲間とは言ってみても所詮は金で雇われた者同士、心から信じる気にはなれなかった。
-line_set それよりもなによりも、
-line_set この馴れ馴れしい兵法者と議論を戦わせるなどと馬鹿馬鹿しい事などしたくなかったし、
-nvl_line_clear
-
-line_set ましてやこの兵法者のありがたい講釈など拝聴する気にはとてもなれなかった。
-
-nvl_line_clear
-
-line_set 「それに・・・」
-
-nvl_line_clear
-
-line_set 双厳は、この仕事自体に疑惑を感じていた。
-
-line_set それは志乃の態度うんぬんだけでなく、長年の戦いによる勘のようなものであった。
-adv_on
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer2_set 1 Kgd\B_013.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-name_set 北条
-
-sfx_set 2 Vox\6205.wav
-sfx_play 2
-line_set 「ま、まってくださいよ」
-sfx_stop 2
-
-kgd_layer3_set 0 Kgd\Ho_001.kgd
-
-kgd_layer3_param 0 164 0 0 0 472 600
-kgd_layer3_display 0
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 北条
-
-sfx_set 2 Vox\6204.wav
-sfx_play 2
-line_set 「どう思いますか？私の考え方」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「どうも思わんよ」
-
-line_set 「北条殿がそう考えるのであればそのように動けばいい」
-line_set 「俺は君のやり方に関与しない」
-line_set 「勝手にしたまえ」
-name_set 北条
-
-sfx_set 2 Vox\6203.wav
-sfx_play 2
-line_set 「ち、ちょっとまってくださいよ」
-sfx_stop 2
-
-sfx_set 2 Vox\6202.wav
-sfx_play 2
-line_set 「それはおかしいじゃないですか」
-sfx_stop 2
-sfx_set 2 Vox\6201.wav
-sfx_play 2
-line_set 「もし、私の考えがあっているのなら、その作戦を聞くべきではないですか」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 北条
-
-sfx_set 2 Vox\6200.wav
-sfx_play 2
-line_set 「そして、間違いがあるのなら互いに話し合い」
-sfx_stop 2
-
-nvl_on
-
-line_set 双厳はピタリと立ち止まり北条をにらみつけた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「そんなに議論がしたいのであれば他のヤツとやってくれ」
-
-line_set 「俺にかまうな」
-name_set 北条
-
-sfx_set 2 Vox\6199.wav
-sfx_play 2
-line_set 「・・・」
-sfx_stop 2
-
-sfx_set 2 Vox\6198.wav
-sfx_play 2
-line_set 「す、すみません・・・」
-sfx_stop 2
-sfx_set 2 Vox\6197.wav
-sfx_play 2
-line_set 「つい・・・」
-sfx_stop 2
-nvl_on
-
-line_set 落ち込む北条に目もくれずに双厳は歩き出す。
-
-nvl_line_clear
-
-line_set 「楓玲といい北条といい、やたら馴れ馴れしいヤツが多いな・・・」
-
-line_set 「あいつら、まるで用心棒ぽくない・・・」
-adv_on
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer2_set 1 Kgd\B_033.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 北条
-
-sfx_set 2 Vox\6196.wav
-sfx_play 2
-line_set 「双厳さま」
-sfx_stop 2
-
-kgd_layer3_set 0 Kgd\Ho_001.kgd
-
-kgd_layer3_param 0 164 0 0 0 472 600
-kgd_layer3_display 0
-nvl_on
-
-line_set 「なんだこいつ・・・」
-
-line_set 「あれだけ言われてまだついてくるか・・・」
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 北条
-
-sfx_set 2 Vox\6195.wav
-sfx_play 2
-line_set 「先ほどはすみませんでした」
-sfx_stop 2
-
-sfx_set 2 Vox\6194.wav
-sfx_play 2
-line_set 「私ばかりしゃべり通してしまって」
-sfx_stop 2
-nvl_on
-
-line_set 「・・・」
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳は主税を無視して屋敷に入る。
-
-adv_on
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer2_set 1 Kgd\B_029.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-kgd_layer3_set 1 Kgd\Ho_001.kgd
-kgd_layer3_param 1 164 0 0 0 472 600
-kgd_layer3_display 1
-nvl_on
-
-line_set 北条を完全に無視する双厳を、北条は執拗につけ回した。
-
-adv_on
-
-name_set 北条
-
-sfx_set 2 Vox\6193.wav
-sfx_play 2
-line_set 「双厳さまはどこのお生まれなのですか？」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 北条
-
-sfx_set 2 Vox\6192.wav
-sfx_play 2
-line_set 「双厳さまは小さい頃どんなお子さんだったのですか？」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「こいつ・・・」
-
-adv_on
-
-kgd_layer3_param 1 0 0 0 0 472 600
-
-kgd_layer3_set 0 Kgd\Fu_009.kgd
-kgd_layer3_param 0 256 0 0 0 544 600
-kgd_layer3_display 0
-name_set 楓玲
-
-sfx_set 2 Vox\6304.wav
-sfx_play 2
-line_set 「おっす、馬鹿侍」
-sfx_stop 2
-
-nvl_on
-
-line_set 「・・・」
-
-line_set 「さらに馬鹿がきた・・・」
-adv_on
-
-line_set 「・・・」
-
-line_set 「・・・・・・・」
-name_set 双厳
-
-line_set 「？」
-
-nvl_on
-
-line_set 楓玲の動きが突然止まる。
-
-line_set その目線は北条主税に注がれている。
-adv_on
-
-kgd_layer3_set 3 Kgd\Fu_005.kgd
-
-kgd_layer3_param 3 256 0 0 0 544 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-name_set 楓玲
-
-sfx_set 2 Vox\6303.wav
-sfx_play 2
-line_set 「双厳さん」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そ、双厳さん？？」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6302.wav
-sfx_play 2
-line_set 「少しよろしいですか？」
-sfx_stop 2
-
-nvl_on
-
-line_set 楓玲は双厳に近づくと、そのまま双厳を廊下の端までおいやり、そこで小声で双厳に話しはじめた。
-
-adv_on
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer3_set 0 Kgd\Fu_013.kgd
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-sfx_set 2 Vox\6301.wav
-sfx_play 2
-line_set 「ちょいとちょいと」
-sfx_stop 2
-
-sfx_set 2 Vox\6300.wav
-sfx_play 2
-line_set 「あのかっこいい侍誰よ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「あん」
-
-line_set 「北条主税だよ」
-line_set 「今日きた侍だろ・・・」
-name_set 楓玲
-
-sfx_set 2 Vox\6299.wav
-sfx_play 2
-line_set 「そ、そうなん？？」
-sfx_stop 2
-
-sfx_set 2 Vox\6298.wav
-sfx_play 2
-line_set 「うわーっ、ラッキー☆」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「あんなのがいいのか・・・」
-line_set 「お前・・・」
-name_set 楓玲
-
-sfx_set 2 Vox\6297.wav
-sfx_play 2
-line_set 「あたり前じゃない」
-sfx_stop 2
-
-sfx_set 2 Vox\6296.wav
-sfx_play 2
-line_set 「あんな美少年滅多にいないわよ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「そうなのか？」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6295.wav
-sfx_play 2
-line_set 「そうよ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そうか！」
-
-line_set 「ならいいや」
-name_set 楓玲
-
-sfx_set 2 Vox\6294.wav
-sfx_play 2
-line_set 「？」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「んじゃ」
-
-line_set 「この馬鹿男は任せた」
-line_set 「なんとかしてくれ」
-name_set 楓玲
-
-sfx_set 2 Vox\6293.wav
-sfx_play 2
-line_set 「え、どうしたの」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ウザイんだよ、この馬鹿が」
-
-line_set 「俺のことつけ回すんだよ」
-name_set 楓玲
-
-line_set 「・・・」
-
-sfx_set 2 Vox\6292.wav
-sfx_play 2
-line_set 「あんた」
-sfx_stop 2
-nvl_on
-
-line_set 楓玲が双厳を睨みつける。
-
-adv_on
-
-name_set 双厳
-
-line_set 「な、なんだよ」
-
-name_set 楓玲
-
-sfx_set 2 Vox\6291.wav
-sfx_play 2
-line_set 「主税さまをおそったでしょ」
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「はぁ？」
-
-line_set 「なんだよそれ」
-name_set 楓玲
-
-sfx_set 2 Vox\6290.wav
-sfx_play 2
-line_set 「そうじゃなきゃ」
-sfx_stop 2
-
-sfx_set 2 Vox\6289.wav
-sfx_play 2
-line_set 「あんたみたいなむさい男に主税さまがまとわりつくわけないわ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「・・・」
-
-nvl_line_clear
-
-line_set さすがの双厳もこの一言には言葉を失う・・・。
-
-adv_on
-
-name_set 楓玲
-
-sfx_set 2 Vox\6288.wav
-sfx_play 2
-line_set 「ど、どこまでやったのよ」
-sfx_stop 2
-
-sfx_set 2 Vox\6287.wav
-sfx_play 2
-line_set 「お、おしえなさいよ」
-sfx_stop 2
-name_set 双厳
-
-line_set 「・・・」
-
-line_set 「楓玲・・・」
-line_set 「なにを鼻息荒く興奮している」
-name_set 楓玲
-
-sfx_set 2 Vox\6286.wav
-sfx_play 2
-line_set 「ぎく」
-sfx_stop 2
-
-sfx_set 2 Vox\6285.wav
-sfx_play 2
-line_set 「は、鼻息なんかあらくしてないわよ・・・」
-sfx_stop 2
-sfx_set 2 Vox\6284.wav
-sfx_play 2
-line_set 「た、ただ私は・・・」
-sfx_stop 2
-name_set 双厳
-
-line_set 「まあ、どーでもいいや」
-
-line_set 「とりあえず後はたのんだ」
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer3_set 0 Kgd\Fu_008.kgd
-kgd_layer3_param 0 256 0 0 0 544 600
-kgd_layer3_display 0
-name_set 楓玲
-
-sfx_set 2 Vox\6283.wav
-sfx_play 2
-line_set 「あ、馬鹿双厳まちなさいよ」
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_fadeout 1
-kgd_layer3_clear 0
-kgd_layer3_clear 1
-nvl_on
-
-line_set 双厳はその場から逃げるように自室に向かった。
-
-adv_on
-
-kgd_layer2_set 1 Kgd\B_037.kgd
-
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-name_set 双厳
-
-line_set 「ふう・・・」
-
-line_set 「なんだかなぁ・・・」
-nvl_on
-
-line_set 双厳は自室に腰を下ろす。
-
-nvl_line_clear
-
-line_set 「どいつもこいつも緊張感に欠ける・・・」
-
-line_set 「やたら用心棒臭くないないやつらばかりだ・・・」
-line_set 「これはたまたまなのか？」
-adv_on
-
-line_set 「志乃はあんな馬鹿侍を集めてどうするつもりなんだ？」
-
-nvl_on
-
-line_set 双厳は志乃の事を思い浮かべた・・・。
-
-line_set 全く正体がつかめない女である。
-nvl_line_clear
-
-line_set 「・・・」
-
-line_set 「・・・・・」
-line_set 「・・・・・・・」
-adv_on
-
-line_set 「さて、そろそろ日も暮れてくる頃だ・・・」
-
-line_set 「少し見回りでもするかな」
-kgd_layer2_crossfade 1
-
-kgd_layer2_fade_unk 0
-ksd_set Ksd\012.ksd
-
-ksd_end
+    jump_choice @19 ◆村へ移動
+    jump_choice @20 ◆海岸へ移動
+
+@19
+    kgd_layer2_set 1 Kgd\B_045.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch2 19
+
+    jump_branch1 @21 49
+    jump_branch2 @21 268
+    kgd_layer3_set 0 Kgd\Fu_001.kgd
+    kgd_layer3_param 0 128 0 0 0 544 600
+    kgd_layer3_display 0
+    section_jump_branch1 49
+
+    name_set 楓玲
+    sfx_set 2 Vox\6348.wav
+    sfx_play 2
+    line_set 「あっ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6347.wav
+    sfx_play 2
+    line_set 「双厳」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「呼び捨てとはいい度胸だな、この女」
+
+    adv_on
+    name_set 楓玲
+    sfx_set 2 Vox\6346.wav
+    sfx_play 2
+    line_set 「なんか、今日新しい侍が来るんでしょ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ああ」
+
+    nvl_on
+    line_set いちいち話しかけてくる楓玲は双厳にとってうざったい存在であった。
+    line_set 双厳は楓玲の質問にぞんざいに答える。
+
+    adv_on
+    name_set 楓玲
+    sfx_set 2 Vox\6345.wav
+    sfx_play 2
+    line_set 「かっこいい人いるかなぁ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「なんだそれ？」
+
+    nvl_on
+    line_set なるべく関わらないようにしようとしていた双厳であったが、
+    line_set さすがにこの一言には反応せずにはいられなかった。
+
+    adv_on
+    name_set 楓玲
+    sfx_set 2 Vox\6344.wav
+    sfx_play 2
+    line_set 「そのままの意味だよ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6343.wav
+    sfx_play 2
+    line_set 「今の仕事場にはろくな男がいないから」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6342.wav
+    sfx_play 2
+    line_set 「かっこいい人いないかなと」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「お、おまえなぁ・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6341.wav
+    sfx_play 2
+    line_set 「なによ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「『なによ』じゃなくて・・・」
+    line_set 「一応命がけの仕事なんだからさぁ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6340.wav
+    sfx_play 2
+    line_set 「だから？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6339.wav
+    sfx_play 2
+    line_set 「なに？もっとまじめにやれとでもいいたいの？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ああ、そうだな・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6338.wav
+    sfx_play 2
+    line_set 「あんたに言われたかないわよ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6337.wav
+    sfx_play 2
+    line_set 「あんたの方がどう見ても不真面目じゃない」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうだよ」
+    line_set 「その通りだ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6336.wav
+    sfx_play 2
+    line_set 「って・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6335.wav
+    sfx_play 2
+    line_set 「あんた・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「だから、俺は不真面目だから」
+    line_set 「せめてお前がまじめに働くべきだろ」
+    line_set 「じゃないと、この島の危機は救えないぜ」
+
+    kgd_layer3_set 3 Kgd\Fu_007.kgd
+    kgd_layer3_param 3 128 0 0 0 544 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    sfx_set 2 Vox\6334.wav
+    sfx_play 2
+    line_set 「ほんと、あんたってサイテーね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「サイテーか・・・」
+    line_set 「かもな・・・」
+    line_set 「お前ほどビンボーじゃないけどな」
+
+    kgd_layer3_set 3 Kgd\Fu_005.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6333.wav
+    sfx_play 2
+    line_set 「な、なによ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6332.wav
+    sfx_play 2
+    line_set 「私はビンボーじゃないわよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「あっそう」
+
+    kgd_layer3_set 3 Kgd\Fu_008.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6331.wav
+    sfx_play 2
+    line_set 「『あっそう』って、あんたその人を小馬鹿にしたような反応はなによ！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「まあ、いいじゃないか」
+    line_set 「港に色男達が来てるよ？」
+
+    nvl_on
+    line_set 「たぶん・・・」
+
+    adv_on
+    kgd_layer3_set 3 Kgd\Fu_002.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6330.wav
+    sfx_play 2
+    line_set 「ホ、ホ、ホント？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6329.wav
+    sfx_play 2
+    line_set 「かっこいい人来てるの？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set さすがの双厳も、あまりにうれしそうな楓玲の表情に唖然とする。
+
+    adv_on
+    kgd_layer3_set 3 Kgd\Fu_008.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6328.wav
+    sfx_play 2
+    line_set 「な、なによ、その顔！」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6327.wav
+    sfx_play 2
+    line_set 「いいでしょ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6326.wav
+    sfx_play 2
+    line_set 「私だって乙女なのよ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6325.wav
+    sfx_play 2
+    line_set 「いい男とねんごろにもなりたいわよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ねんごろ・・・」
+    line_set 「お前って・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6324.wav
+    sfx_play 2
+    line_set 「あー、そうそうさっきからムカついてたんだけど」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6323.wav
+    sfx_play 2
+    line_set 「私の事、お前とか言うのやめてくれない」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6322.wav
+    sfx_play 2
+    line_set 「私には楓玲ちゃんという名前があるんだから」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6321.wav
+    sfx_play 2
+    line_set 「あなたに、お前とか呼ばれてると」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6320.wav
+    sfx_play 2
+    line_set 「まるで、私とあなたとが特別な関係みたいじゃないのよ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6319.wav
+    sfx_play 2
+    line_set 「勘違いされると困るわ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳はあまりのばかばかしさにその場を立ち去ろうとする。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    name_set 楓玲
+    sfx_set 2 Vox\6318.wav
+    sfx_play 2
+    line_set 「ちょっと！！」
+    sfx_stop 2
+
+    kgd_layer3_set 0 Kgd\Fu_008.kgd
+    kgd_layer3_display 0
+
+    sfx_set 2 Vox\6317.wav
+    sfx_play 2
+    line_set 「まちなさいよ！」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6316.wav
+    sfx_play 2
+    line_set 「あんた！いつも話の途中で逃げるじゃない！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6315.wav
+    sfx_play 2
+    line_set 「いいこと！」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6314.wav
+    sfx_play 2
+    line_set 「もう一度言うからちゃんと聞きなさいよ！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「あー」
+    line_set 「分かった分かった」
+    line_set 「お前の事お前ってよばねぇよ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6313.wav
+    sfx_play 2
+    line_set 「っていってるそばから言ってるじゃない！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「うるせいなー」
+    line_set 「誰も思いはしねーよ」
+    line_set 「お前が思うほど他人はお前の事なんぞ見てねー」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6312.wav
+    sfx_play 2
+    line_set 「あ、あんたねー」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6311.wav
+    sfx_play 2
+    line_set 「本当に失礼な男ね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6310.wav
+    sfx_play 2
+    line_set 「ま、まあ、いいわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6309.wav
+    sfx_play 2
+    line_set 「かっこいいお侍さんがきたら、もうあなたと話してあげないから」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6308.wav
+    sfx_play 2
+    line_set 「そのときになって後悔すればいいわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6307.wav
+    sfx_play 2
+    line_set 「ああ、楓玲ちゃんにやさしくしていればよかったって」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「ぷっ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6306.wav
+    sfx_play 2
+    line_set 「い、今笑ったなぁ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6305.wav
+    sfx_play 2
+    line_set 「す、すごく馬鹿にして笑ったな！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「だって・・・なぁ」
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 楓玲は怒りながら消えた。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「しかし」
+    line_set 「なんであんなヤツがこんな仕事してるんだろう」
+
+    adv_on
+
+@21
+    jump_choice @22 ◆屋敷前への道へ移動
+    jump_choice @20 ◆海岸へ移動
+    jump_choice @23 ◆港へ移動
+
+@20
+    kgd_layer2_set 1 Kgd\B_049.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @24 50
+    jump_branch1 @25 49
+    jump_branch1 @24 268
+    jump_branch2 @24 48
+    section_jump_branch1 268
+
+    name_set 声
+    sfx_set 2 Vox\6228.wav
+    sfx_play 2
+    line_set 「双厳ちゃ～ん」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「この声は・・・」
+
+    kgd_layer3_set 0 Kgd\Ma_002.kgd
+    kgd_layer3_param 0 252 0 0 0 296 600
+    kgd_layer3_display 0
+
+    name_set 舞
+    sfx_set 2 Vox\6227.wav
+    sfx_play 2
+    line_set 「また会ったねぇ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 舞
+    sfx_set 2 Vox\6226.wav
+    sfx_play 2
+    line_set 「なにしてるの？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「仕事だ・・・」
+
+    name_set 舞
+    sfx_set 2 Vox\6225.wav
+    sfx_play 2
+    line_set 「仕事？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6224.wav
+    sfx_play 2
+    line_set 「仕事ってお散歩の事？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 舞
+    sfx_set 2 Vox\6223.wav
+    sfx_play 2
+    line_set 「お散歩ってお仕事だったんだ～」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 舞
+    sfx_set 2 Vox\6222.wav
+    sfx_play 2
+    line_set 「なら舞もお仕事してるんだね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6221.wav
+    sfx_play 2
+    line_set 「舞ね、お散歩の途中なんだよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 舞
+    sfx_set 2 Vox\6220.wav
+    sfx_play 2
+    line_set 「さぁ、仕事続けるぞぉ！！」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 舞は散歩でもしていたのであろう。
+    line_set そのまま仕事と称した散歩に出かけていった。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「ある意味正しいから何も言えんな・・・」
+
+    jump_auto @24
+
+@25
+    section_jump_branch1 50
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「なんだ、あれ」
+    nvl_line_clear
+    line_set 海岸に男がいる。
+    line_set いままで島で見た顔ではない。
+    line_set 男の風貌は島の村人より汚らしく流れ人であるように思えた。
+    nvl_line_clear
+    line_set 「しかし・・・」
+    line_set 「こんな島に流れ者とは・・・」
+    line_set 「こいつも阿波路に雇われた武芸者か」
+    nvl_line_clear
+    line_set この時代、流れ者といえばその大半が芸者であった。
+    line_set その中にはもちろん武を芸とする武芸者も含まれる。武芸者といえども芸が付くのだから芸者なのである。
+    nvl_line_clear
+    line_set 「丸腰だな・・・」
+    line_set 「こいつ・・・」
+    nvl_line_clear
+    line_set 服の中に武器を隠し持っているとも考えられるが、だとしても、それほど大きな獲物を隠している風には見
+    line_set えない。
+    line_set どんなにうまく隠していようが、双厳のような一流の武芸者には、一発でわかってしまう。
+    line_set 武器を隠しているとどうしても身体のどこかにいらぬ力が入ってしまうものなのだ。
+    nvl_line_clear
+    line_set 「小さな武器なら隠しているかもしれないが・・・」
+    line_set 「しかし、そんなもので武に生きる事は困難だ」
+    line_set 「だとしたら」
+    line_set 「ただの浮浪者か・・・」
+    nvl_line_clear
+    line_set たしかに、針一本で人は殺せる。
+    line_set 数滴の水で人を殺す事もできる。
+    line_set が、それは出来るという程度のものでしかない。
+    line_set 殺しを専門として殺しの技術だけを生きる糧とする者にとってはそんなものは一個の手段でしかない。
+    line_set それのみを殺しの手段とするような者など流しの武芸者には皆無であった。
+    nvl_line_clear
+    line_set 双厳はこの男に注意深く近づく。
+    line_set 男から殺気のようなものは感じられないし、
+    line_set なによりもこの男の背中は隙だらけであった。
+
+    adv_on
+    name_set 双厳
+    line_set 「この男は・・・」
+
+    jump_choice @26 ◆ただ者でない気がする
+    jump_choice @27 ◆ただの浮浪者だ
+
+@26
+    line_set 「おい」
+    line_set 「お前」
+
+    name_set 浮浪者
+    line_set 「え、あ」
+    line_set 「私ですか？」
+
+    kgd_layer3_set 0 Kgd\Jy_012.kgd
+    kgd_layer3_param 0 120 0 0 0 560 600
+    kgd_layer3_display 0
+
+    nvl_on
+    line_set 近くで見れば見るほど武芸者とは思えない風貌であった。
+    line_set 風貌だけではなかった、双厳がここで一太刀浴びせれば間違いなくこの男は真っ二つになる。
+    line_set それほどにこの男は隙だらけで無防備であった。
+    line_set 普通ならこの男になんの疑惑もいだかなかった。
+    line_set 普通なら・・・。
+
+    adv_on
+    name_set 双厳
+    line_set 「お前は」
+    line_set 「何者だ？」
+
+    nvl_on
+    line_set 双厳は敵を相手にしているのとかわらず、殺気に満ちた態度で質問をなげかけた。
+    line_set でなければ無駄な質問で終わるのである。
+    line_set この男の正体など、本人に聞いたとしても（それがどんな答えだとしても）何の意味もない。
+    line_set 本当であるかどうかなど確かめようがないからだ。
+    line_set 特にそいつが一流である場合、完全に殺気を殺す事が可能だからだ。
+    nvl_line_clear
+    line_set 「ならば、本気で答えさせればいい」
+
+    adv_on
+    name_set 浮浪者
+    line_set 「え、あ」
+    line_set 「ただの流れ者でございますが・・・」
+
+    name_set 双厳
+    line_set 「そうか」
+    line_set 「ならば」
+
+    name_set 浮浪者
+    line_set 「？」
+
+    nvl_on
+    line_set 双厳は浮浪者に近づきながら刀の鯉口をきる。
+
+    adv_on
+    name_set 双厳
+    line_set 「ならば斬っても問題になるまい」
+
+    name_set 浮浪者
+    line_set 「え、あえ、あ」
+
+    name_set 双厳
+    line_set 「ふん！」
+
+    nvl_on
+    line_set 双厳は浮浪者に剣を振り下ろす。
+    line_set それは常人では捉える事の出来ない速度であった。
+
+    adv_on
+    name_set 浮浪者
+    line_set 「ひ、ひいいい」
+
+    nvl_on
+    line_set 「・・・」
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 浮浪者
+    line_set 「？」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 剣は浮浪者の頭上数ミリのところでとまる。
+
+    adv_on
+    name_set 浮浪者
+    line_set 「ふ、ふはぁ」
+    line_set 「は、はぁ、い、生きている・・・」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「こいつ、やはり只の浮浪者か・・・」
+
+    adv_on
+    name_set 浮浪者
+    line_set 「な、なになさいますか」
+    line_set 「おどろくでないですか！」
+
+    name_set 双厳
+    line_set 「俺は、この島に用心棒として雇われた侍だ」
+    line_set 「あやしいヤツは斬るようにいわれている」
+    line_set 「部外者が島の中をうろちょろしていれば斬る」
+    line_set 「この意味が分かるか」
+
+    name_set 浮浪者
+    line_set 「へ、へい」
+    line_set 「しかし・・・」
+
+    name_set 双厳
+    line_set 「しかし？」
+
+    name_set 浮浪者
+    line_set 「舟が難破してしまって、この島に流れついたので・・・」
+    line_set 「すぐにいなくなれと言われましても・・・」
+
+    name_set 双厳
+    line_set 「島の者にでも舟で本州に送ってくれるように頼め」
+    line_set 「島の住人もお前のような部外者がいるくらいなら、そのくらいの手間を惜しむまい」
+
+    name_set 浮浪者
+    line_set 「いや、すでに島の者にはたのんだのですが」
+    line_set 「誰も聞いてくれないのです」
+    line_set 「なんでも、土用の期間は島の人間は決して海に出ないらしくて・・・」
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「この島の住人は、土用の期間は海にでないのか・・・」
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「分かった」
+    line_set 「とりあえず」
+    line_set 「あまりうろちょろしないでほしい」
+    line_set 「今度は本当に斬る事になりかねないのでな」
+
+    name_set 浮浪者
+    line_set 「へ、へい」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    jump_auto @24
+
+@27
+    nvl_on
+    line_set 「問題ないだろう」
+    line_set 「いくらなんでもこんな無防備な武芸者もいないだろう」
+    nvl_line_clear
+    line_set 浮浪者は双厳に気がつくとあちらから近づいてきた。
+
+    adv_on
+    kgd_layer3_set 0 Kgd\Jy_012.kgd
+    kgd_layer3_param 0 120 0 0 0 560 600
+    kgd_layer3_display 0
+
+    name_set 浮浪者
+    line_set 「おや、お侍さまじゃないですか」
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 浮浪者
+    line_set 「こんな辺鄙なところにお侍さまがいるなんておもわなんだ」
+
+    name_set 双厳
+    line_set 「なんの用だ」
+
+    name_set 浮浪者
+    line_set 「い、いや、私は単なる流れ者なのですが・・・」
+    line_set 「お侍さまもここの方ではないでしょ？」
+
+    name_set 双厳
+    line_set 「ああ、この島に用心棒として雇われている」
+
+    name_set 浮浪者
+    line_set 「私、旅の途中で舟が難破しましてね」
+    line_set 「この島に漂着したんです」
+    line_set 「本州の方に帰りたいのですが」
+    line_set 「お侍さま、どうやって帰ったらよろしいですかね」
+
+    name_set 双厳
+    line_set 「しらん」
+    line_set 「島の者にでも頼め」
+
+    name_set 浮浪者
+    line_set 「いや、すでに島の者にはたのんだのですが」
+    line_set 「誰も聞いてくれないのです」
+    line_set 「なんでも、土用の期間は島の人間は決して海に出ないらしくて・・・」
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「この島の住人は、土用の期間は海にでないのか・・・」
+
+    adv_on
+    name_set 双厳
+    line_set 「私は、この島に用心棒として雇われている」
+    line_set 「あまり、この島でうろちょろしないでもらいたい」
+
+    name_set 浮浪者
+    line_set 「は、はい」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+@24
+    jump_choice @19 ◆村へ移動
+    jump_choice @23 ◆港へ移動
+    jump_choice @28 ◆物見やぐらへ移動
+
+@33
+    kgd_layer2_set 1 Kgd\B_013.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @29 51
+    jump_branch2 @29 50
+    section_jump_branch1 51
+
+    nvl_on
+    line_set 山道から一人の女が歩いてくる。
+
+    adv_on
+    kgd_layer3_set 0 Kgd\Ay_002.kgd
+    kgd_layer3_param 0 192 0 0 0 416 600
+    kgd_layer3_display 0
+
+    name_set 女
+    sfx_set 2 Vox\6263.wav
+    sfx_play 2
+    line_set 「どうもはじめまして」
+    sfx_stop 2
+
+    nvl_on
+    line_set 女は双厳と挨拶をかわす・・・。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳はそれに対して言葉でなく軽く会釈をする。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「この女・・・」
+    line_set 「島の者ではないな・・・」
+
+    adv_on
+    name_set 女
+    sfx_set 2 Vox\6262.wav
+    sfx_play 2
+    line_set 「双厳さまですね」
+    sfx_stop 2
+
+    nvl_on
+    line_set 女はそのまま双厳に話しかける。
+
+    adv_on
+    name_set 双厳
+    line_set 「ああ、いかにも双厳だが」
+
+    nvl_on
+    line_set 双厳は睨みつけるように答える。
+
+    adv_on
+    name_set 女
+    sfx_set 2 Vox\6261.wav
+    sfx_play 2
+    line_set 「あら、ごめんなさい」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6260.wav
+    sfx_play 2
+    line_set 「自己紹介が遅れたわね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6259.wav
+    sfx_play 2
+    line_set 「今日から阿波路家の方でお世話になる彩というものです」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6258.wav
+    sfx_play 2
+    line_set 「よろしくね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「あんたも阿波路に雇われた用心棒か？」
+
+    name_set 彩
+    sfx_set 2 Vox\6257.wav
+    sfx_play 2
+    line_set 「はい」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6256.wav
+    sfx_play 2
+    line_set 「双厳さまの事は阿波路の志乃殿から聞いてますよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「志乃から・・・」
+
+    name_set 彩
+    sfx_set 2 Vox\6255.wav
+    sfx_play 2
+    line_set 「大変頼もしい方と聞いてましたが」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6254.wav
+    sfx_play 2
+    line_set 「その通りですね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 彩
+    sfx_set 2 Vox\6253.wav
+    sfx_play 2
+    line_set 「今日から仕事仲間ですね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ああ・・・」
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「仕事仲間か・・・」
+    nvl_line_clear
+    line_set 双厳は彩を観察する。
+    nvl_line_clear
+    line_set 「面白い武器だな・・・」
+    nvl_line_clear
+    line_set 彩の武器が双厳の目にとまる。
+    line_set 短めの刀であるようだが、柄の形状が奇妙であった。手でつかむには柄がやたらに太い、とてもじゃないが
+    line_set 手でつかめるものでない。
+    nvl_line_clear
+    line_set 「あんな武器どうやって使うのだろう・・・」
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「楓玲も奇妙な身なりであったが」
+    line_set 「この女の武器も負けずに奇妙な形だな・・・」
+    nvl_line_clear
+    line_set 淡炎島が辺境故にであろうか？
+    line_set ここに集まる輩は、本州では見られない奇妙な者が多い。
+
+    adv_on
+    name_set 彩
+    sfx_set 2 Vox\6252.wav
+    sfx_play 2
+    line_set 「くす・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6251.wav
+    sfx_play 2
+    line_set 「私が腰にかけているものがめずらしいですか？」
+    sfx_stop 2
+
+    nvl_on
+    line_set 彩は双厳の疑問を察知したように自分の武器に話題を振った。
+
+    adv_on
+    kgd_layer1_set 1 Kgd\Dc_Aya01.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+    kgd_layer3_clear 0
+
+    sfx_set 2 Vox\6250.wav
+    sfx_play 2
+    line_set 「面白い武器でしょ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ああ、本州では見たこと無い武器だ」
+
+    name_set 彩
+    sfx_set 2 Vox\6249.wav
+    sfx_play 2
+    line_set 「ふふふ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6248.wav
+    sfx_play 2
+    line_set 「そうね・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「あんた、本州の人間か？」
+
+    name_set 彩
+    sfx_set 2 Vox\6247.wav
+    sfx_play 2
+    line_set 「くす・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6246.wav
+    sfx_play 2
+    line_set 「そんな事気になるのですか？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6245.wav
+    sfx_play 2
+    line_set 「別にいいじゃないですか」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「いや」
+    line_set 「ただ聞いただけだ、言いたくないなら言わなくてもいい」
+
+    name_set 彩
+    sfx_set 2 Vox\6244.wav
+    sfx_play 2
+    line_set 「くす」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6243.wav
+    sfx_play 2
+    line_set 「ぶっきらぼうな言い方ですね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 彩
+    sfx_set 2 Vox\6242.wav
+    sfx_play 2
+    line_set 「でもそんな双厳さまは嫌いじゃないわ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6241.wav
+    sfx_play 2
+    line_set 「仲良くやっていけそう・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「あんたこそ、含みのある言い方をするな」
+
+    name_set 彩
+    sfx_set 2 Vox\6240.wav
+    sfx_play 2
+    line_set 「ふふふふ・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6239.wav
+    sfx_play 2
+    line_set 「そうね・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6238.wav
+    sfx_play 2
+    line_set 「そうかもね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6237.wav
+    sfx_play 2
+    line_set 「まあいいじゃないですか」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6236.wav
+    sfx_play 2
+    line_set 「仲良くやりましょうよ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6235.wav
+    sfx_play 2
+    line_set 「戦いになれば、この武器の意味も分かるし」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6234.wav
+    sfx_play 2
+    line_set 「もしかしたら、私がどこの出身かもわかるかも」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「武器でそんな事分かるものではあるまい」
+
+    name_set 彩
+    sfx_set 2 Vox\6233.wav
+    sfx_play 2
+    line_set 「だから」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6232.wav
+    sfx_play 2
+    line_set 「『かもね』って言ったの」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 彩
+    sfx_set 2 Vox\6231.wav
+    sfx_play 2
+    line_set 「じゃ、私もそろそろ仕事をしなければいけないので・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「島の見回りか？」
+
+    name_set 彩
+    sfx_set 2 Vox\6230.wav
+    sfx_play 2
+    line_set 「地の利を知るのは兵法の基本中の基本ですからね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうだな・・・」
+
+    name_set 彩
+    sfx_set 2 Vox\6229.wav
+    sfx_play 2
+    line_set 「では失礼しますね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ああ・・・」
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+@29
+    jump_choice @30 ◆大岩へ移動
+    jump_choice @12 ◆屋敷前へ移動
+
+@30
+    kgd_layer2_set 1 Kgd\B_001.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch2 19
+
+    jump_branch1 @31 50
+
+@35
+    jump_choice @32 ◆登る
+    jump_choice @33 ◆山道へ移動
+
+@32
+    kgd_layer1_set 1 Kgd\Be_008.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+
+    jump_choice @34 ◆降りる
+
+@34
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @35
+
+@12
+    kgd_layer2_set 1 Kgd\B_033.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch1 19
+
+    jump_choice @33 ◆山道へ移動
+    jump_choice @7 ◆屋敷内へ移動
+    jump_choice @22 ◆村への道へ移動
+
+@28
+    kgd_layer2_set 1 Kgd\B_065.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @36 267
+    jump_branch2 @36 47
+    section_jump_branch1 267
+
+    kgd_layer3_set 0 Kgd\Ma_002.kgd
+    kgd_layer3_param 0 252 0 0 0 296 600
+    kgd_layer3_display 0
+
+    nvl_on
+    line_set そこには昨日あった少女がたっている。
+
+    adv_on
+    name_set 双厳
+    line_set 「おい・・・」
+
+    name_set 舞
+    sfx_set 2 Vox\4536.wav
+    sfx_play 2
+    line_set 「双厳ちゃんこんにちわ～」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・あぁ？」
+
+    name_set 舞
+    sfx_set 2 Vox\5868.wav
+    sfx_play 2
+    line_set 「んじゃねぇ・・・」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    name_set 双厳
+    line_set 「・・・双厳ちゃん・・・か・・・」
+    line_set 「やはり頭が弱いのか？」
+
+@36
+    jump_choice @20 ◆海岸へ移動
+
+@22
+    kgd_layer2_set 1 Kgd\B_041.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @12 ◆屋敷前へ移動
+    jump_choice @19 ◆村へ移動
+
+@15
+    kgd_layer2_set 1 Kgd\B_025.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @7 ◆廊下へ移動
+
+@31
+    kgd_layer3_set 0 Kgd\Ho_002.kgd
+    kgd_layer3_param 0 164 0 0 0 472 600
+    kgd_layer3_display 0
+
+    name_set 侍
+    sfx_set 2 Vox\6219.wav
+    sfx_play 2
+    line_set 「あっ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6218.wav
+    sfx_play 2
+    line_set 「あなた！」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6217.wav
+    sfx_play 2
+    line_set 「あなたですよ！」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6216.wav
+    sfx_play 2
+    line_set 「あなたもこの島に雇われた用心棒ですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「やけに馴れ馴れしいヤツだな」
+    nvl_line_clear
+    line_set 山道の彩に続き、山頂でまた新しい侍に出会った。
+    nvl_line_clear
+    line_set 「たしか・・・」
+    line_set 「五人ほど今日島に渡ったと聞いていたが・・・」
+    line_set 「こいつもその一人か・・・」
+    nvl_line_clear
+    line_set この侍は双厳より幾つか年下に見えた。
+    nvl_line_clear
+    line_set 「とても、こんな仕事で食ってきたとは思えない侍だな」
+
+    adv_on
+    line_set 「人に尋ねるのであれば」
+    line_set 「自分の事をまず話せ」
+
+    kgd_layer3_set 3 Kgd\Ho_001.kgd
+    kgd_layer3_param 3 164 0 0 0 472 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 侍
+    sfx_set 2 Vox\6215.wav
+    sfx_play 2
+    line_set 「これはすみません」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6214.wav
+    sfx_play 2
+    line_set 「私は北条主税といいます」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「大層な名前だな・・・」
+    line_set 「俺は、二つ影双厳と名乗っている」
+
+    name_set 北条
+    sfx_set 2 Vox\6213.wav
+    sfx_play 2
+    line_set 「双厳さまとおよびすればいいですかね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ああ」
+    line_set 「それでかまわない」
+
+    name_set 北条
+    sfx_set 2 Vox\6212.wav
+    sfx_play 2
+    line_set 「どうですかね、この島」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set もちろん北条は島の景色を言っているのではない。
+    line_set この島の地の利の事を訪ねているのだ。
+
+    adv_on
+    line_set 「悪くはないだろう」
+
+    name_set 北条
+    sfx_set 2 Vox\6211.wav
+    sfx_play 2
+    line_set 「そうですね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6210.wav
+    sfx_play 2
+    line_set 「ここは海流がきついうえに」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6209.wav
+    sfx_play 2
+    line_set 「上陸できるような場所がいくつもない」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6208.wav
+    sfx_play 2
+    line_set 「大半が切り立った崖で」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6207.wav
+    sfx_play 2
+    line_set 「その崖を登ろうとして近づいて来た舟はたぶん崖に打ち付けられて一巻の終わりでしょう」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6206.wav
+    sfx_play 2
+    line_set 「賊が攻め込むとしたらやはり海岸か港か・・・」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「まあ、基本的な兵法ではある」
+    line_set 「しかし、基本以上のものではない」
+    line_set 「危険を省みなければいくらでも崖から攻めてくる手筈はある」
+    line_set 「まぁ、敵が海賊ならばそんな心配などしなくていいのだが」
+
+    adv_on
+    sfx_set 2 Vox\6191.wav
+    sfx_play 2
+    line_set 「港なら鳥居に囲まれているため岸にまで舟をあげる事は困難」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6190.wav
+    sfx_play 2
+    line_set 「岸にあがるまでに大半の賊を弓で討てます」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳は歩き出す。
+    line_set 双厳は元々一人でこの仕事を受けたつもりであった。
+    line_set そして、彼の戦略には彼一人で十分であった。
+    line_set なぜならば、仲間とは言ってみても所詮は金で雇われた者同士、心から信じる気にはなれなかった。
+    line_set それよりもなによりも、
+    line_set この馴れ馴れしい兵法者と議論を戦わせるなどと馬鹿馬鹿しい事などしたくなかったし、
+    nvl_line_clear
+    line_set ましてやこの兵法者のありがたい講釈など拝聴する気にはとてもなれなかった。
+    nvl_line_clear
+    line_set 「それに・・・」
+    nvl_line_clear
+    line_set 双厳は、この仕事自体に疑惑を感じていた。
+    line_set それは志乃の態度うんぬんだけでなく、長年の戦いによる勘のようなものであった。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer2_set 1 Kgd\B_013.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    name_set 北条
+    sfx_set 2 Vox\6205.wav
+    sfx_play 2
+    line_set 「ま、まってくださいよ」
+    sfx_stop 2
+
+    kgd_layer3_set 0 Kgd\Ho_001.kgd
+    kgd_layer3_param 0 164 0 0 0 472 600
+    kgd_layer3_display 0
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 北条
+    sfx_set 2 Vox\6204.wav
+    sfx_play 2
+    line_set 「どう思いますか？私の考え方」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「どうも思わんよ」
+    line_set 「北条殿がそう考えるのであればそのように動けばいい」
+    line_set 「俺は君のやり方に関与しない」
+    line_set 「勝手にしたまえ」
+
+    name_set 北条
+    sfx_set 2 Vox\6203.wav
+    sfx_play 2
+    line_set 「ち、ちょっとまってくださいよ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6202.wav
+    sfx_play 2
+    line_set 「それはおかしいじゃないですか」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6201.wav
+    sfx_play 2
+    line_set 「もし、私の考えがあっているのなら、その作戦を聞くべきではないですか」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 北条
+    sfx_set 2 Vox\6200.wav
+    sfx_play 2
+    line_set 「そして、間違いがあるのなら互いに話し合い」
+    sfx_stop 2
+
+    nvl_on
+    line_set 双厳はピタリと立ち止まり北条をにらみつけた。
+
+    adv_on
+    name_set 双厳
+    line_set 「そんなに議論がしたいのであれば他のヤツとやってくれ」
+    line_set 「俺にかまうな」
+
+    name_set 北条
+    sfx_set 2 Vox\6199.wav
+    sfx_play 2
+    line_set 「・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6198.wav
+    sfx_play 2
+    line_set 「す、すみません・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6197.wav
+    sfx_play 2
+    line_set 「つい・・・」
+    sfx_stop 2
+
+    nvl_on
+    line_set 落ち込む北条に目もくれずに双厳は歩き出す。
+    nvl_line_clear
+    line_set 「楓玲といい北条といい、やたら馴れ馴れしいヤツが多いな・・・」
+    line_set 「あいつら、まるで用心棒ぽくない・・・」
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer2_set 1 Kgd\B_033.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 北条
+    sfx_set 2 Vox\6196.wav
+    sfx_play 2
+    line_set 「双厳さま」
+    sfx_stop 2
+
+    kgd_layer3_set 0 Kgd\Ho_001.kgd
+    kgd_layer3_param 0 164 0 0 0 472 600
+    kgd_layer3_display 0
+
+    nvl_on
+    line_set 「なんだこいつ・・・」
+    line_set 「あれだけ言われてまだついてくるか・・・」
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 北条
+    sfx_set 2 Vox\6195.wav
+    sfx_play 2
+    line_set 「先ほどはすみませんでした」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6194.wav
+    sfx_play 2
+    line_set 「私ばかりしゃべり通してしまって」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「・・・」
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳は主税を無視して屋敷に入る。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer2_set 1 Kgd\B_029.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    kgd_layer3_set 1 Kgd\Ho_001.kgd
+    kgd_layer3_param 1 164 0 0 0 472 600
+    kgd_layer3_display 1
+
+    nvl_on
+    line_set 北条を完全に無視する双厳を、北条は執拗につけ回した。
+
+    adv_on
+    name_set 北条
+    sfx_set 2 Vox\6193.wav
+    sfx_play 2
+    line_set 「双厳さまはどこのお生まれなのですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 北条
+    sfx_set 2 Vox\6192.wav
+    sfx_play 2
+    line_set 「双厳さまは小さい頃どんなお子さんだったのですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「こいつ・・・」
+
+    adv_on
+    kgd_layer3_param 1 0 0 0 0 472 600
+
+    kgd_layer3_set 0 Kgd\Fu_009.kgd
+    kgd_layer3_param 0 256 0 0 0 544 600
+    kgd_layer3_display 0
+
+    name_set 楓玲
+    sfx_set 2 Vox\6304.wav
+    sfx_play 2
+    line_set 「おっす、馬鹿侍」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「さらに馬鹿がきた・・・」
+
+    adv_on
+    line_set 「・・・」
+    line_set 「・・・・・・・」
+
+    name_set 双厳
+    line_set 「？」
+
+    nvl_on
+    line_set 楓玲の動きが突然止まる。
+    line_set その目線は北条主税に注がれている。
+
+    adv_on
+    kgd_layer3_set 3 Kgd\Fu_005.kgd
+    kgd_layer3_param 3 256 0 0 0 544 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 楓玲
+    sfx_set 2 Vox\6303.wav
+    sfx_play 2
+    line_set 「双厳さん」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そ、双厳さん？？」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6302.wav
+    sfx_play 2
+    line_set 「少しよろしいですか？」
+    sfx_stop 2
+
+    nvl_on
+    line_set 楓玲は双厳に近づくと、そのまま双厳を廊下の端までおいやり、そこで小声で双厳に話しはじめた。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer3_set 0 Kgd\Fu_013.kgd
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    sfx_set 2 Vox\6301.wav
+    sfx_play 2
+    line_set 「ちょいとちょいと」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6300.wav
+    sfx_play 2
+    line_set 「あのかっこいい侍誰よ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「あん」
+    line_set 「北条主税だよ」
+    line_set 「今日きた侍だろ・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6299.wav
+    sfx_play 2
+    line_set 「そ、そうなん？？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6298.wav
+    sfx_play 2
+    line_set 「うわーっ、ラッキー☆」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「あんなのがいいのか・・・」
+    line_set 「お前・・・」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6297.wav
+    sfx_play 2
+    line_set 「あたり前じゃない」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6296.wav
+    sfx_play 2
+    line_set 「あんな美少年滅多にいないわよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうなのか？」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6295.wav
+    sfx_play 2
+    line_set 「そうよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうか！」
+    line_set 「ならいいや」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6294.wav
+    sfx_play 2
+    line_set 「？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「んじゃ」
+    line_set 「この馬鹿男は任せた」
+    line_set 「なんとかしてくれ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6293.wav
+    sfx_play 2
+    line_set 「え、どうしたの」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ウザイんだよ、この馬鹿が」
+    line_set 「俺のことつけ回すんだよ」
+
+    name_set 楓玲
+    line_set 「・・・」
+
+    sfx_set 2 Vox\6292.wav
+    sfx_play 2
+    line_set 「あんた」
+    sfx_stop 2
+
+    nvl_on
+    line_set 楓玲が双厳を睨みつける。
+
+    adv_on
+    name_set 双厳
+    line_set 「な、なんだよ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6291.wav
+    sfx_play 2
+    line_set 「主税さまをおそったでしょ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「はぁ？」
+    line_set 「なんだよそれ」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6290.wav
+    sfx_play 2
+    line_set 「そうじゃなきゃ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6289.wav
+    sfx_play 2
+    line_set 「あんたみたいなむさい男に主税さまがまとわりつくわけないわ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「・・・」
+    nvl_line_clear
+    line_set さすがの双厳もこの一言には言葉を失う・・・。
+
+    adv_on
+    name_set 楓玲
+    sfx_set 2 Vox\6288.wav
+    sfx_play 2
+    line_set 「ど、どこまでやったのよ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6287.wav
+    sfx_play 2
+    line_set 「お、おしえなさいよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「楓玲・・・」
+    line_set 「なにを鼻息荒く興奮している」
+
+    name_set 楓玲
+    sfx_set 2 Vox\6286.wav
+    sfx_play 2
+    line_set 「ぎく」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6285.wav
+    sfx_play 2
+    line_set 「は、鼻息なんかあらくしてないわよ・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6284.wav
+    sfx_play 2
+    line_set 「た、ただ私は・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「まあ、どーでもいいや」
+    line_set 「とりあえず後はたのんだ」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer3_set 0 Kgd\Fu_008.kgd
+    kgd_layer3_param 0 256 0 0 0 544 600
+    kgd_layer3_display 0
+
+    name_set 楓玲
+    sfx_set 2 Vox\6283.wav
+    sfx_play 2
+    line_set 「あ、馬鹿双厳まちなさいよ」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_fadeout 1
+    kgd_layer3_clear 0
+    kgd_layer3_clear 1
+
+    nvl_on
+    line_set 双厳はその場から逃げるように自室に向かった。
+
+    adv_on
+    kgd_layer2_set 1 Kgd\B_037.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    name_set 双厳
+    line_set 「ふう・・・」
+    line_set 「なんだかなぁ・・・」
+
+    nvl_on
+    line_set 双厳は自室に腰を下ろす。
+    nvl_line_clear
+    line_set 「どいつもこいつも緊張感に欠ける・・・」
+    line_set 「やたら用心棒臭くないないやつらばかりだ・・・」
+    line_set 「これはたまたまなのか？」
+
+    adv_on
+    line_set 「志乃はあんな馬鹿侍を集めてどうするつもりなんだ？」
+
+    nvl_on
+    line_set 双厳は志乃の事を思い浮かべた・・・。
+    line_set 全く正体がつかめない女である。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「・・・・・」
+    line_set 「・・・・・・・」
+
+    adv_on
+    line_set 「さて、そろそろ日も暮れてくる頃だ・・・」
+    line_set 「少し見回りでもするかな」
+    kgd_layer2_crossfade 1
+    kgd_layer2_fade_unk 0
+    ksd_set Ksd\012.ksd
+    ksd_end

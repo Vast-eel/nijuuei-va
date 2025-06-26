@@ -1,390 +1,338 @@
+    wait 2000
 
-wait 2000
+    kgd_layer2_set 0 Kgd\B_046.kgd
+    kgd_layer2_crossfade 2
+    kgd_layer2_display
 
-kgd_layer2_set 0 Kgd\B_046.kgd
-kgd_layer2_crossfade 2
-kgd_layer2_display
+    jump_auto @0
 
-jump_auto 0
 @20
+    kgd_layer2_set 1 Kgd\B_002.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch2 19
 
-kgd_layer2_set 1 Kgd\B_002.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    jump_branch1 @1 143
+    kgd_layer3_set 0 Kgd\Ky_007.kgd
+    kgd_layer3_param 0 108 0 0 0 584 600
+    kgd_layer3_display 0
+    section_jump_branch1 143
 
-section_jump_branch2 19
+    nvl_on
+    line_set 大岩で一人、淡島を見ている桔梗の姿があった。
+    line_set 何か声を掛けるでもなく、双厳は寄って行く。
+    line_set 別に桔梗も双厳が来たことに何か言うでもなく、自然と受け入れていた。
 
-jump_branch1 730 143
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
 
-kgd_layer3_set 0 Kgd\Ky_007.kgd
-kgd_layer3_param 0 108 0 0 0 584 600
-kgd_layer3_display 0
+    name_set 桔梗
+    line_set 「・・・」
 
-section_jump_branch1 143
+    sfx_set 2 Vox\4749.wav
+    sfx_play 2
+    line_set 「今日・・・」
+    sfx_stop 2
 
-nvl_on
+    sfx_set 2 Vox\4748.wav
+    sfx_play 2
+    line_set 「四日前に来た、十人の用心棒達に何かあったら・・・」
+    sfx_stop 2
 
-line_set 大岩で一人、淡島を見ている桔梗の姿があった。
-line_set 何か声を掛けるでもなく、双厳は寄って行く。
-line_set 別に桔梗も双厳が来たことに何か言うでもなく、自然と受け入れていた。
+    sfx_set 2 Vox\4747.wav
+    sfx_play 2
+    line_set 「それは・・・」
+    sfx_stop 2
 
-adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「それは？」
 
-name_set 双厳
+    name_set 桔梗
+    line_set 「・・・」
 
-line_set 「・・・」
+    nvl_on
+    line_set 「・・・」
+    nvl_line_clear
+    line_set いつも肝心なところで言葉を止める桔梗。
+    line_set しかし双厳にしてみれば、もう慣れたものだった。
 
-name_set 桔梗
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
 
-line_set 「・・・」
-
-sfx_set 2 Vox\4749.wav
-sfx_play 2
-
-line_set 「今日・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4748.wav
-sfx_play 2
-
-line_set 「四日前に来た、十人の用心棒達に何かあったら・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\4747.wav
-sfx_play 2
-
-line_set 「それは・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「それは？」
-
-name_set 桔梗
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「・・・」
-
-nvl_line_clear
-
-line_set いつも肝心なところで言葉を止める桔梗。
-line_set しかし双厳にしてみれば、もう慣れたものだった。
-
-adv_on
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-@13
-#143_0
-
-jump_choice 1 ◆登る
-jump_choice 2 ◆山道へ移動
-@39
-@42
-@43
-@45
-
-kgd_layer2_set 1 Kgd\B_050.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch2 1389 143
-
-nvl_on
-
-line_set 夕暮れの海岸にいるのは、双厳だけだった。
-line_set 誰もいない海岸。
-line_set その場に立つ双厳が見ているもの。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 淡島は数日経った今でもはっきりと双厳の目に見えていた。
-line_set 村の誰もが気にする島。
-line_set この淡炎島に似たあの島に、何があるというのか。
-
-nvl_line_clear
-
-line_set 「まだ何もあの島について分かったわけじゃねぇ」
-line_set 「まぁ、あの島だけというわけでもねぇがな・・・」
-line_set 「・・・」
-line_set 「む？」
-
-nvl_line_clear
-
-line_set 気配を感じたわけでは無かったが、それは確かに双厳の目に映った。
-line_set 人影が、海岸の奥に消えていく・・・。
-
-nvl_line_clear
-
-line_set 「確かもう村人はいないって話だったが・・・？」
-
-adv_on
-
-jump_auto 3
-!143
-jump_choice 4 ◆村へ移動
-jump_choice 5 ◆港へ移動
-jump_choice 6 ◆物見やぐらへ移動
-jump_choice 7 ◆森林へ移動
 @1
-@11
-@12
-jump_branch1 1517 286
+    jump_choice @2 ◆登る
+    jump_choice @3 ◆山道へ移動
 
-kgd_layer1_set 1 Kgd\Be_009.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer1_clear 1
-kgd_layer2_clear
-
-jump_auto 8
-#286_1
-
-kgd_layer1_set 1 Kgd\Be_012.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer1_clear 1
-kgd_layer2_clear
-@8
-
-jump_choice 9 ◆反対側を見る
-jump_choice 10 ◆降りる
-@9
-jump_branch1 1605 286
-
-section_jump_branch1 286
-
-jump_auto 11
-#286_2
-
-section_jump_branch2 286
-
-jump_auto 12
-@10
-
-section_jump_branch2 286
-
-kgd_layer1_set 1 Kgd\W_003.kgd
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-
-jump_auto 13
-@18
-
-kgd_layer2_set 1 Kgd\B_022.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@17
-
-jump_choice 14 ◆遺跡の中に入る
-jump_choice 15 ◆森林へ移動
-@14
-
-kgd_layer1_set 1 Kgd\Be_017.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-
-jump_choice 16 ◆遺跡の外に出る
-@16
-
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-
-jump_auto 17
-@15
-@21
-
-kgd_layer2_set 1 Kgd\B_018.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 18 ◆遺跡へ移動
-jump_choice 19 ◆山道へ移動
-@2
-@19
-@23
-
-kgd_layer2_set 1 Kgd\B_014.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 20 ◆大岩へ移動
-jump_choice 21 ◆森林へ移動
-jump_choice 22 ◆屋敷前へ移動
-@22
 @29
-@36
+    kgd_layer2_set 1 Kgd\B_050.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_034.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    jump_branch2 @4 143
+    nvl_on
+    line_set 夕暮れの海岸にいるのは、双厳だけだった。
+    line_set 誰もいない海岸。
+    line_set その場に立つ双厳が見ているもの。
 
-jump_choice 23 ◆山道へ移動
-jump_choice 24 ◆屋敷内へ移動
-jump_choice 25 ◆村への道へ移動
-@24
-@30
-@32
-@34
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
 
-kgd_layer2_set 1 Kgd\B_030.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    nvl_on
+    line_set 淡島は数日経った今でもはっきりと双厳の目に見えていた。
+    line_set 村の誰もが気にする島。
+    line_set この淡炎島に似たあの島に、何があるというのか。
+    nvl_line_clear
+    line_set 「まだ何もあの島について分かったわけじゃねぇ」
+    line_set 「まぁ、あの島だけというわけでもねぇがな・・・」
+    line_set 「・・・」
+    line_set 「む？」
+    nvl_line_clear
+    line_set 気配を感じたわけでは無かったが、それは確かに双厳の目に映った。
+    line_set 人影が、海岸の奥に消えていく・・・。
+    nvl_line_clear
+    line_set 「確かもう村人はいないって話だったが・・・？」
 
-jump_choice 26 ◆自室へ移動
-jump_choice 27 ◆大広間へ移動
-jump_choice 28 ◆蔵の前へ移動
-jump_choice 29 ◆屋敷外へ移動
-@26
+    adv_on
+    jump_auto @5
 
-kgd_layer2_set 1 Kgd\B_075.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 30 ◆廊下へ移動
-@27
-@50
-
-kgd_layer2_set 1 Kgd\B_010.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 31 ◆志乃の部屋へ移動
-jump_choice 32 ◆廊下へ移動
-@28
-@35
-
-kgd_layer2_set 1 Kgd\B_026.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 33 ◆蔵に入る
-jump_choice 34 ◆廊下へ移動
-@33
-
-kgd_layer2_set 1 Kgd\B_072.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 35 ◆蔵から出る
-@25
-@38
-
-kgd_layer2_set 1 Kgd\B_042.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 36 ◆屋敷前へ移動
-jump_choice 37 ◆村へ移動
 @4
-@37
-@41
+    jump_choice @6 ◆村へ移動
+    jump_choice @7 ◆港へ移動
+    jump_choice @8 ◆物見やぐらへ移動
+    jump_choice @9 ◆森林へ移動
 
-kgd_layer2_set 1 Kgd\B_046.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@0
+@2
+    jump_branch1 @10 286
+    kgd_layer1_set 1 Kgd\Be_009.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    kgd_layer2_clear
 
-jump_choice 38 ◆屋敷前への道へ移動
-jump_choice 39 ◆海岸へ移動
-jump_choice 40 ◆港へ移動
-@5
-@40
+    jump_auto @11
 
-kgd_layer2_set 1 Kgd\B_062.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+@10
+    kgd_layer1_set 1 Kgd\Be_012.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    kgd_layer2_clear
 
-jump_choice 41 ◆村へ移動
-jump_choice 42 ◆海岸へ移動
-@6
+@11
+    jump_choice @12 ◆反対側を見る
+    jump_choice @13 ◆降りる
 
-kgd_layer2_set 1 Kgd\B_066.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+@12
+    jump_branch1 @14 286
+    section_jump_branch1 286
 
-jump_choice 43 ◆海岸へ移動
-@7
-@47
+    jump_auto @2
 
-kgd_layer2_set 1 Kgd\B_054.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+@14
+    section_jump_branch2 286
 
-jump_choice 44 ◆遺跡へ移動
-jump_choice 45 ◆海岸へ移動
-@44
+    jump_auto @2
 
-kgd_layer2_set 1 Kgd\B_058.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@49
+@13
+    section_jump_branch2 286
 
-jump_choice 46 ◆遺跡の中に入る
-jump_choice 47 ◆森林へ移動
-@46
+    kgd_layer1_set 1 Kgd\W_003.kgd
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
 
-kgd_layer1_set 1 Kgd\Be_017.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
+    jump_auto @1
 
-jump_choice 48 ◆遺跡の外に出る
-@48
+@19
+    kgd_layer2_set 1 Kgd\B_022.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
+@18
+    jump_choice @15 ◆遺跡の中に入る
+    jump_choice @16 ◆森林へ移動
 
-jump_auto 49
-@31
+@15
+    kgd_layer1_set 1 Kgd\Be_017.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
 
-kgd_layer2_set 1 Kgd\B_006.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    jump_choice @17 ◆遺跡の外に出る
 
-jump_choice 50 ◆大広間へ移動
+@17
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @18
+
+@16
+    kgd_layer2_set 1 Kgd\B_018.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @19 ◆遺跡へ移動
+    jump_choice @3 ◆山道へ移動
+
 @3
+    kgd_layer2_set 1 Kgd\B_014.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_crossfade 1
-kgd_layer2_fade_unk 0
+    jump_choice @20 ◆大岩へ移動
+    jump_choice @16 ◆森林へ移動
+    jump_choice @21 ◆屋敷前へ移動
 
-music_stop
+@21
+    kgd_layer2_set 1 Kgd\B_034.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-ksd_set Ksd\025.ksd
-ksd_end
+    jump_choice @3 ◆山道へ移動
+    jump_choice @22 ◆屋敷内へ移動
+    jump_choice @23 ◆村への道へ移動
+
+@22
+    kgd_layer2_set 1 Kgd\B_030.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @24 ◆自室へ移動
+    jump_choice @25 ◆大広間へ移動
+    jump_choice @26 ◆蔵の前へ移動
+    jump_choice @21 ◆屋敷外へ移動
+
+@24
+    kgd_layer2_set 1 Kgd\B_075.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @22 ◆廊下へ移動
+
+@25
+    kgd_layer2_set 1 Kgd\B_010.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @27 ◆志乃の部屋へ移動
+    jump_choice @22 ◆廊下へ移動
+
+@26
+    kgd_layer2_set 1 Kgd\B_026.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @28 ◆蔵に入る
+    jump_choice @22 ◆廊下へ移動
+
+@28
+    kgd_layer2_set 1 Kgd\B_072.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @26 ◆蔵から出る
+
+@23
+    kgd_layer2_set 1 Kgd\B_042.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @21 ◆屋敷前へ移動
+    jump_choice @6 ◆村へ移動
+
+@6
+    kgd_layer2_set 1 Kgd\B_046.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+@0
+    jump_choice @23 ◆屋敷前への道へ移動
+    jump_choice @29 ◆海岸へ移動
+    jump_choice @7 ◆港へ移動
+
+@7
+    kgd_layer2_set 1 Kgd\B_062.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @6 ◆村へ移動
+    jump_choice @29 ◆海岸へ移動
+
+@8
+    kgd_layer2_set 1 Kgd\B_066.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @29 ◆海岸へ移動
+
+@9
+    kgd_layer2_set 1 Kgd\B_054.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @30 ◆遺跡へ移動
+    jump_choice @29 ◆海岸へ移動
+
+@30
+    kgd_layer2_set 1 Kgd\B_058.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+@33
+    jump_choice @31 ◆遺跡の中に入る
+    jump_choice @9 ◆森林へ移動
+
+@31
+    kgd_layer1_set 1 Kgd\Be_017.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+
+    jump_choice @32 ◆遺跡の外に出る
+
+@32
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @33
+
+@27
+    kgd_layer2_set 1 Kgd\B_006.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @25 ◆大広間へ移動
+
+@5
+    kgd_layer2_crossfade 1
+    kgd_layer2_fade_unk 0
+    music_stop
+    ksd_set Ksd\025.ksd
+    ksd_end

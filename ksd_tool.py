@@ -24,8 +24,8 @@ def script_export(game, in_name, out_name):
 
             if buffer in opcodes:
                 arg_fmt, command = opcodes[buffer]
-                arg_size = struct.calcsize(arg_fmt)
-                args = [*struct.unpack(arg_fmt, file.read(arg_size))]
+                arg_size = struct.calcsize("<" + arg_fmt)
+                args = [*struct.unpack("<" + arg_fmt, file.read(arg_size))]
 
                 if command in ksd_opcodes.string_opcodes:
                     str_length = args[-1]
@@ -34,8 +34,11 @@ def script_export(game, in_name, out_name):
                     args.append(name_string.decode("cp932"))
 
                 if command in ksd_opcodes.jump_opcodes:
-                    labels[args[0]] = f"@{len(labels)}"
-                    args[0] = f"@{len(labels) - 1}"
+                    if args[0] in labels:
+                        args[0] = labels[args[0]]
+                    else:
+                        labels[args[0]] = f"@{len(labels)}"
+                        args[0] = f"@{len(labels) - 1}"
             else:
                 raise Exception("Opcode 0x%02x not found (offset: %08x)" % (buffer, file.tell()))
 
@@ -64,11 +67,11 @@ def script_export(game, in_name, out_name):
                 if command in ksd_opcodes.string_opcodes:
                     if command in ("kgd_layer1_set", "kgd_layer2_set", "kgd_layer3_set",
                                     "jump_choice", "sfx_set"):
-                        output.write(f" {str(args[0])}")
-                    output.write(f" {str(args[-1])}")
+                        output.write(f" {args[0]}")
+                    output.write(f" {args[-1]}")
                 else:
                     for arg in args:
-                        output.write(f" {str(arg)}")
+                        output.write(f" {arg}")
             output.write("\n")
 
             last_command = command
@@ -92,31 +95,31 @@ def script_import(game, in_name, out_name):
         args = []
 
         if line in ("line_set", "name_set"):
-            plaintext = line.split(' ', 1)
+            plaintext = line.split(" ", 1)
         else:
-            plaintext = line.split(' ')
+            plaintext = line.split(" ")
 
-        if '@' in plaintext[0]:
+        if "@" in plaintext[0]:
             labels[plaintext[0]] = ofs
             continue
 
         # this should probably be calculated on the fly while packing
         if plaintext[0] in opcodes_import:
             opcode, arg_fmt = opcodes_import[plaintext[0]]
-            arg_size = struct.calcsize(arg_fmt)
+            arg_size = struct.calcsize("<" + arg_fmt)
 
             str_length = 0
             if plaintext[0] in ksd_opcodes.string_opcodes:
                 # str_length = len(plaintext[-1]) * 2
                 for c in plaintext[-1]:
                     status = unicodedata.east_asian_width(c)
-                    if status in ('Na', 'N'):
+                    if status in ("Na", "N"):
                         str_length += 1
                     else:
                         str_length += 2
 
                 if plaintext[0] == "line_set":
-                    if '<' in plaintext[-1]:
+                    if "<" in plaintext[-1]:
                         plaintext.insert(1, str_length - 4)
                     else:
                         plaintext.insert(1, str_length)
@@ -127,6 +130,7 @@ def script_import(game, in_name, out_name):
                         plaintext.insert(1, str_length)
                 else:
                         plaintext.insert(2, str_length)
+                        print(plaintext)
 
         # moekan voice file names are null-terminated
         # comment out for nijuubako? should probably not cause issues though
@@ -137,7 +141,7 @@ def script_import(game, in_name, out_name):
             str_length += 2
 
         args = plaintext[1:]
-        args = [int(arg) if isinstance(arg, str) and arg.isnumeric()
+        args = [int(arg) if isinstance(arg, str) and arg.lstrip("-").isnumeric()
                 else arg for arg in args]
         commands[ofs] = [opcode, args]
         ofs += 2 + arg_size + str_length
@@ -146,8 +150,9 @@ def script_import(game, in_name, out_name):
     for ofs in commands:
         args = commands[ofs][1]
         args = [labels[arg] if isinstance(arg, str) and arg.startswith("@")
-                else arg for arg in args]
+            else arg for arg in args]
         commands[ofs][1] = args
+    print(labels)
 
     if not out_name:
         out_name = Path(Path.cwd(), "Imported/Ksd", (Path(in_name).stem + ".ksd"))
@@ -156,16 +161,15 @@ def script_import(game, in_name, out_name):
     with open(out_name, "wb") as output:
         output.write(b"KSD1")
         for ofs in commands:
-            opcode = commands[ofs][0]
-            args = commands[ofs][1]
+            opcode, args = commands[ofs]
             output.write(struct.pack('>H', opcode))
             arg_fmt = opcodes[opcode][0]
-            arg_size = struct.calcsize(arg_fmt)
+            arg_size = struct.calcsize("<" + arg_fmt)
 
             try:
-                output.write(struct.pack(arg_fmt, *args))
+                output.write(struct.pack("<" + arg_fmt, *args))
             except struct.error:
-                output.write(struct.pack(arg_fmt, *args[:len(arg_fmt)]))
+                output.write(struct.pack("<" + arg_fmt, *args[:len(arg_fmt)]))
                 str_to_write = bytearray(args[-1], "cp932")
                 byte_invert(str_to_write)
                 output.write(str_to_write)

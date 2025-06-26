@@ -1,817 +1,621 @@
+    wait 2000
+    music_play 15
 
-wait 2000
+    kgd_layer2_set 0 Kgd\B_039.kgd
+    kgd_layer2_crossfade 2
+    kgd_layer2_display
 
-music_play 15
+    nvl_on
+    line_set 双厳は一通り島を探索して自室にもどった。
+    line_set すでにあたりは暗くなっていた。
 
-kgd_layer2_set 0 Kgd\B_039.kgd
-kgd_layer2_crossfade 2
-kgd_layer2_display
+    adv_on
+    name_set 双厳
+    line_set 「ふぅ・・・」
+    line_set 「疲れたな・・・」
+    line_set 「結構歩いたからな・・・」
+    line_set 「それにしても・・・」
+    line_set 「奇妙なものが多い島だな」
 
-nvl_on
+    nvl_on
+    line_set 双厳は自室で横になりながら、
+    line_set 今日一日で見た物を思い出していた。
 
-line_set 双厳は一通り島を探索して自室にもどった。
-line_set すでにあたりは暗くなっていた。
+    adv_on
 
-adv_on
-
-name_set 双厳
-
-line_set 「ふぅ・・・」
-line_set 「疲れたな・・・」
-line_set 「結構歩いたからな・・・」
-line_set 「それにしても・・・」
-line_set 「奇妙なものが多い島だな」
-
-nvl_on
-
-line_set 双厳は自室で横になりながら、
-line_set 今日一日で見た物を思い出していた。
-
-adv_on
-@5
 @6
+    jump_branch2 @0 21
+    jump_branch2 @1 22
+    jump_auto @2
 
-jump_branch2 369 21
-jump_branch2 405 22
-jump_auto 0
-!21
-jump_branch2 433 22
-jump_choice 1 ◆海岸を思い出す
-
-nvl_on
-!22
-
-jump_choice 2 ◆大岩を思い出す
-
-nvl_on
-!22
-
-jump_choice 3 ◆海岸を思い出す
-jump_choice 4 ◆大岩を思い出す
-@1
-@3
-
-nvl_on
-
-kgd_layer3_set 0 Kgd\En_013.kgd
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-section_jump_branch1 21
-
-line_set 「海岸の鳥居・・・」
-line_set 「うわさ通りだ・・・」
-line_set 「島のあらゆるところに鳥居がたっている」
-line_set 「四方八方に鳥居がたっているなんて見たことがなかったが・・・」
-line_set 「現物をみると想像以上に不気味なものだ・・・」
-
-nvl_line_clear
-
-line_set 「しかし・・・」
-line_set 「少し気にかかることがある・・・」
-line_set 「鳥居というものは、向いている方向になにかしら重要な意味があるはずである」
-line_set 「なぜならば、それは霊的な通り道なのだから」
-
-nvl_line_clear
-
-line_set 「もし仮に」
-line_set 「鳥居が鬼門の方向に向いていたら」
-line_set 「鳥居は鬼を呼び出してしまうかもしれない」
-line_set 「それは十分にありうることである」
-line_set 「だからこそ鳥居はその向いている方向が重要になってくる」
-
-nvl_line_clear
-
-line_set 「無造作に全方向に向いているこの島の鳥居は」
-line_set 「どう考えたって不自然だ・・・」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-adv_on
-
-jump_auto 5
-@2
-@4
-
-nvl_on
-
-kgd_layer3_set 0 Kgd\En_014.kgd
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-section_jump_branch1 22
-
-line_set 「大岩・・・」
-line_set 「あれもかなり奇妙なものだった」
-line_set 「やはり、昔に津波かなにかで海底の大岩がここまで打ち上げられたのだろうか」
-line_set 「それとも島の住人があそこまで運んだものであろうか」
-
-nvl_line_clear
-
-line_set 「・・・」
-line_set 「いくら考えても答えはでないか・・・」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-adv_on
-
-jump_auto 6
 @0
+    jump_branch2 @3 22
+    jump_choice @4 ◆海岸を思い出す
+    nvl_on
 
-nvl_on
+@1
+    jump_choice @5 ◆大岩を思い出す
+    nvl_on
 
-line_set 「しかし・・・」
-line_set 「不気味な島だ・・・」
+@3
+    jump_choice @4 ◆海岸を思い出す
+    jump_choice @5 ◆大岩を思い出す
 
-nvl_line_clear
+@4
+    nvl_on
+    kgd_layer3_set 0 Kgd\En_013.kgd
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+    section_jump_branch1 21
+    line_set 「海岸の鳥居・・・」
+    line_set 「うわさ通りだ・・・」
+    line_set 「島のあらゆるところに鳥居がたっている」
+    line_set 「四方八方に鳥居がたっているなんて見たことがなかったが・・・」
+    line_set 「現物をみると想像以上に不気味なものだ・・・」
+    nvl_line_clear
+    line_set 「しかし・・・」
+    line_set 「少し気にかかることがある・・・」
+    line_set 「鳥居というものは、向いている方向になにかしら重要な意味があるはずである」
+    line_set 「なぜならば、それは霊的な通り道なのだから」
+    nvl_line_clear
+    line_set 「もし仮に」
+    line_set 「鳥居が鬼門の方向に向いていたら」
+    line_set 「鳥居は鬼を呼び出してしまうかもしれない」
+    line_set 「それは十分にありうることである」
+    line_set 「だからこそ鳥居はその向いている方向が重要になってくる」
+    nvl_line_clear
+    line_set 「無造作に全方向に向いているこの島の鳥居は」
+    line_set 「どう考えたって不自然だ・・・」
 
-line_set 双厳は目をつぶる・・・。
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
 
-adv_on
+    adv_on
+    jump_auto @6
 
-kgd_layer1_fx 0
-kgd_layer1_blackout
-kgd_layer2_clear
+@5
+    nvl_on
+    kgd_layer3_set 0 Kgd\En_014.kgd
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+    section_jump_branch1 22
+    line_set 「大岩・・・」
+    line_set 「あれもかなり奇妙なものだった」
+    line_set 「やはり、昔に津波かなにかで海底の大岩がここまで打ち上げられたのだろうか」
+    line_set 「それとも島の住人があそこまで運んだものであろうか」
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「いくら考えても答えはでないか・・・」
 
-nvl_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
 
-line_set 「・・・」
-line_set 「・・・・・・」
+    adv_on
+    jump_auto @6
 
-nvl_line_clear
+@2
+    nvl_on
+    line_set 「しかし・・・」
+    line_set 「不気味な島だ・・・」
+    nvl_line_clear
+    line_set 双厳は目をつぶる・・・。
 
-line_set 「呪われた島・・・」
-line_set 「淡炎島・・・か・・・」
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_blackout
+    kgd_layer2_clear
 
-nvl_line_clear
+    nvl_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    nvl_line_clear
+    line_set 「呪われた島・・・」
+    line_set 「淡炎島・・・か・・・」
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「・・・・・・・・・」
 
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「・・・・・・・・・」
+    adv_on
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 1
 
-adv_on
+    nvl_on
+    line_set その後双厳は紗枝が持ってきてくれた夕食をとりすぐに横になった。
+    line_set 旅の疲れもあったからであろう。
+    line_set 双厳は横になるとすぐに寝息を立て始めた。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    nvl_line_clear
+    line_set 「？」
+    line_set 「・・・」
+    line_set 「なんだ・・・」
+    nvl_line_clear
+    line_set 双厳が横になってからどのくらいたったのであろうか？１時間だろうか？２時間だろうか？
+    line_set もしかしたら寝息をたててから数十分しかたってなかったのかもしない。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「たしかに聞こえる・・・」
+    line_set 「裏庭の方から声のようなものが聞こえる」
+    line_set 「・・・」
+    nvl_line_clear
+    line_set 双厳はたしかに裏庭から声のような、
+    line_set 歌声のような・・・そんな音を聞いた。
+    nvl_line_clear
+    line_set 「こんな夜更けに、一体だれが・・・」
+    line_set 「・・・」
+    line_set 「・・・・・」
+    line_set 「・・・・・・・・」
+    nvl_line_clear
+    line_set 数十秒するとすぐにその音は聞こえなくなった。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「聞こえなくなった・・・か」
 
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 1
+    adv_on
+    jump_choice @7 ◆声を確かめる
+    jump_choice @8 ◆確かめない
 
-nvl_on
-
-line_set その後双厳は紗枝が持ってきてくれた夕食をとりすぐに横になった。
-line_set 旅の疲れもあったからであろう。
-line_set 双厳は横になるとすぐに寝息を立て始めた。
-
-nvl_line_clear
-
-line_set 「・・・」
-line_set 「・・・・・・」
-
-nvl_line_clear
-
-line_set 「？」
-line_set 「・・・」
-line_set 「なんだ・・・」
-
-nvl_line_clear
-
-line_set 双厳が横になってからどのくらいたったのであろうか？１時間だろうか？２時間だろうか？
-line_set もしかしたら寝息をたててから数十分しかたってなかったのかもしない。
-
-nvl_line_clear
-
-line_set 「・・・」
-line_set 「たしかに聞こえる・・・」
-line_set 「裏庭の方から声のようなものが聞こえる」
-line_set 「・・・」
-
-nvl_line_clear
-
-line_set 双厳はたしかに裏庭から声のような、
-line_set 歌声のような・・・そんな音を聞いた。
-
-nvl_line_clear
-
-line_set 「こんな夜更けに、一体だれが・・・」
-line_set 「・・・」
-line_set 「・・・・・」
-line_set 「・・・・・・・・」
-
-nvl_line_clear
-
-line_set 数十秒するとすぐにその音は聞こえなくなった。
-
-nvl_line_clear
-
-line_set 「・・・」
-line_set 「聞こえなくなった・・・か」
-
-adv_on
-
-jump_choice 7 ◆声を確かめる
-jump_choice 8 ◆確かめない
 @8
+    nvl_on
+    line_set 「・・・」
+    nvl_line_clear
+    line_set その後いくら待っても声は聞こえない。
+    nvl_line_clear
+    line_set 「やはり気のせいだったのだろうか・・・」
+    line_set 「まあいい・・・」
+    line_set 「・・・」
+    nvl_line_clear
+    line_set 双厳が疲れていたこともあったが、
+    line_set 身に危険を感じるようなものでもなかったので、
+    line_set 双厳はそのまま眠りに身を任せた・・・。
 
-nvl_on
+    adv_on
+    jump_auto @9
 
-line_set 「・・・」
-
-nvl_line_clear
-
-line_set その後いくら待っても声は聞こえない。
-
-nvl_line_clear
-
-line_set 「やはり気のせいだったのだろうか・・・」
-line_set 「まあいい・・・」
-line_set 「・・・」
-
-nvl_line_clear
-
-line_set 双厳が疲れていたこともあったが、
-line_set 身に危険を感じるようなものでもなかったので、
-line_set 双厳はそのまま眠りに身を任せた・・・。
-
-adv_on
-
-jump_auto 9
 @7
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「何の音だ・・・」
+
+    nvl_on
+    line_set 双厳は布団から飛び出す。
+    line_set 彼がこの島にわたった理由は、
+    line_set 自分の呪いを解く鍵がこの島にあると思ったからである。
+    line_set どんなささいなことでもこの島にかかわることで、
+    line_set 不信な点はすべからく調べるべきだ。
+    line_set 彼はそう考えていた。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「音が聞こえなくなったわけではなさそうだ・・・」
+
+    nvl_on
+    line_set 声は微かだがまだ聞こえる。
+
+    adv_on
+    line_set 「声・・・」
+    line_set 「声というよりは歌っているようにも聞こえるな」
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳は聞き耳をたてる。
+
+    adv_on
+    line_set 「裏庭の方からだ・・・」
+
+    kgd_layer2_set 1 Kgd\B_031.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    kgd_layer3_set 0 Kgd\Sa_004.kgd
+    kgd_layer3_param 0 192 0 0 0 416 600
+    kgd_layer3_display 0
+
+    name_set 紗枝
+    sfx_set 2 Vox\6962.wav
+    sfx_play 2
+    line_set 「！？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6961.wav
+    sfx_play 2
+    line_set 「そ、双厳さま？」
+    sfx_stop 2
+
+    nvl_on
+    line_set 廊下にとびだすと紗枝がいた。
+
+    adv_on
+    name_set 双厳
+    line_set 「紗枝？」
+    line_set 「どうしたこんな時間に？」
+
+    kgd_layer3_set 3 Kgd\Sa_012.kgd
+    kgd_layer3_param 3 192 0 0 0 416 600
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 紗枝
+    sfx_set 2 Vox\6960.wav
+    sfx_play 2
+    line_set 「えっ・・・あの・・・そのぉ・・・それは・・・」
+    sfx_stop 2
+
+    nvl_on
+    line_set なぜか紗枝は顔を赤らめる。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「チッ・・・」
+
+    nvl_on
+    line_set 双厳は聞き耳をたてるが、
+    line_set 声は完全に聞こえない・・・。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「歌であったようだが・・・」
+
+    adv_on
+    kgd_layer3_set 3 Kgd\Sa_014.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 紗枝
+    line_set 「・・・」
+
+    sfx_set 2 Vox\6959.wav
+    sfx_play 2
+    line_set 「あ、あの・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6958.wav
+    sfx_play 2
+    line_set 「双厳さま・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6957.wav
+    sfx_play 2
+    line_set 「いかがなされましたですか？」
+    sfx_stop 2
+
+    nvl_on
+    line_set 紗枝が不安そうに双厳に訪ねる。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「声のことを紗枝に聞いてみたほうがよいだろうか・・・・」
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「いや」
+    line_set 「俺がこの島のことをあれこれと詮索していると思われるのは面倒くさい」
+    line_set 「紗枝が志乃に言うともかぎらないが」
+    line_set 「家の当主である志乃に知られるとまずいことになりかねない」
+    line_set 「いろいろと行動に制限が出てくるともかぎらない」
+
+    adv_on
+    name_set 紗枝
+    sfx_set 2 Vox\6956.wav
+    sfx_play 2
+    line_set 「双厳さま・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6955.wav
+    sfx_play 2
+    line_set 「どうなさいましたですか」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「いやなんでもない」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6954.wav
+    sfx_play 2
+    line_set 「双厳さま、長旅で体が疲れているはずです」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6953.wav
+    sfx_play 2
+    line_set 「ちゃんと休んだ方がいいです」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6952.wav
+    sfx_play 2
+    line_set 「お体に差し支えがありますです」
+    sfx_stop 2
+
+    nvl_on
+    line_set 紗枝は双厳を少しせめるような口調でいう。
+    line_set 本当に双厳のことを心配しているからであろうか・・・。
+
+    adv_on
+    name_set 双厳
+    line_set 「ふふふ・・・」
+    line_set 「わかったよ・・・」
+
+    kgd_layer3_set 3 Kgd\Sa_001.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 紗枝
+    sfx_set 2 Vox\6951.wav
+    sfx_play 2
+    line_set 「よかったです」
+    sfx_stop 2
+
+    nvl_on
+    line_set 紗枝はうれしそうにほほえむ。
+
+    adv_on
+    name_set 双厳
+    line_set 「さて俺も寝る・・・」
+    line_set 「もう夜も遅い」
+    line_set 「紗枝も寝ろ」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6950.wav
+    sfx_play 2
+    line_set 「はいです」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6949.wav
+    sfx_play 2
+    line_set 「紗枝も寝ますです」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そうだな・・・」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    wait 2000
+
+    kgd_layer3_set 0 Kgd\Sa_012.kgd
+    kgd_layer3_display 0
+
+    name_set 紗枝
+    sfx_set 2 Vox\6948.wav
+    sfx_play 2
+    line_set 「双厳さま！」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「？」
+    line_set 「なんだ寝るんじゃないのか？」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6947.wav
+    sfx_play 2
+    line_set 「あのぅ・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「？」
+
+    nvl_on
+    line_set 紗枝は顔を赤らめている。
+
+    adv_on
+    jump_choice @10 ◆何か用か？
+    jump_choice @11 ◆はやくねろ
 
-name_set 双厳
-
-line_set 「・・・」
-line_set 「何の音だ・・・」
-
-nvl_on
-
-line_set 双厳は布団から飛び出す。
-line_set 彼がこの島にわたった理由は、
-line_set 自分の呪いを解く鍵がこの島にあると思ったからである。
-line_set どんなささいなことでもこの島にかかわることで、
-line_set 不信な点はすべからく調べるべきだ。
-line_set 彼はそう考えていた。
-
-adv_on
-
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「音が聞こえなくなったわけではなさそうだ・・・」
-
-nvl_on
-
-line_set 声は微かだがまだ聞こえる。
-
-adv_on
-
-line_set 「声・・・」
-line_set 「声というよりは歌っているようにも聞こえるな」
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳は聞き耳をたてる。
-
-adv_on
-
-line_set 「裏庭の方からだ・・・」
-
-kgd_layer2_set 1 Kgd\B_031.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-kgd_layer3_set 0 Kgd\Sa_004.kgd
-kgd_layer3_param 0 192 0 0 0 416 600
-kgd_layer3_display 0
-
-name_set 紗枝
-
-sfx_set 2 Vox\6962.wav
-sfx_play 2
-
-line_set 「！？」
-
-sfx_stop 2
-sfx_set 2 Vox\6961.wav
-sfx_play 2
-
-line_set 「そ、双厳さま？」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 廊下にとびだすと紗枝がいた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「紗枝？」
-line_set 「どうしたこんな時間に？」
-
-kgd_layer3_set 3 Kgd\Sa_012.kgd
-kgd_layer3_param 3 192 0 0 0 416 600
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 紗枝
-
-sfx_set 2 Vox\6960.wav
-sfx_play 2
-
-line_set 「えっ・・・あの・・・そのぉ・・・それは・・・」
-
-sfx_stop 2
-
-nvl_on
-
-line_set なぜか紗枝は顔を赤らめる。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「チッ・・・」
-
-nvl_on
-
-line_set 双厳は聞き耳をたてるが、
-line_set 声は完全に聞こえない・・・。
-
-nvl_line_clear
-
-line_set 「・・・」
-line_set 「歌であったようだが・・・」
-
-adv_on
-
-kgd_layer3_set 3 Kgd\Sa_014.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 紗枝
-
-line_set 「・・・」
-
-sfx_set 2 Vox\6959.wav
-sfx_play 2
-
-line_set 「あ、あの・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6958.wav
-sfx_play 2
-
-line_set 「双厳さま・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6957.wav
-sfx_play 2
-
-line_set 「いかがなされましたですか？」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 紗枝が不安そうに双厳に訪ねる。
-
-nvl_line_clear
-
-line_set 「・・・」
-line_set 「声のことを紗枝に聞いてみたほうがよいだろうか・・・・」
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「いや」
-line_set 「俺がこの島のことをあれこれと詮索していると思われるのは面倒くさい」
-line_set 「紗枝が志乃に言うともかぎらないが」
-line_set 「家の当主である志乃に知られるとまずいことになりかねない」
-line_set 「いろいろと行動に制限が出てくるともかぎらない」
-
-adv_on
-
-name_set 紗枝
-
-sfx_set 2 Vox\6956.wav
-sfx_play 2
-
-line_set 「双厳さま・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6955.wav
-sfx_play 2
-
-line_set 「どうなさいましたですか」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「いやなんでもない」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6954.wav
-sfx_play 2
-
-line_set 「双厳さま、長旅で体が疲れているはずです」
-
-sfx_stop 2
-sfx_set 2 Vox\6953.wav
-sfx_play 2
-
-line_set 「ちゃんと休んだ方がいいです」
-
-sfx_stop 2
-sfx_set 2 Vox\6952.wav
-sfx_play 2
-
-line_set 「お体に差し支えがありますです」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 紗枝は双厳を少しせめるような口調でいう。
-line_set 本当に双厳のことを心配しているからであろうか・・・。
-
-adv_on
-
-name_set 双厳
-
-line_set 「ふふふ・・・」
-line_set 「わかったよ・・・」
-
-kgd_layer3_set 3 Kgd\Sa_001.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 紗枝
-
-sfx_set 2 Vox\6951.wav
-sfx_play 2
-
-line_set 「よかったです」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 紗枝はうれしそうにほほえむ。
-
-adv_on
-
-name_set 双厳
-
-line_set 「さて俺も寝る・・・」
-line_set 「もう夜も遅い」
-line_set 「紗枝も寝ろ」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6950.wav
-sfx_play 2
-
-line_set 「はいです」
-
-sfx_stop 2
-sfx_set 2 Vox\6949.wav
-sfx_play 2
-
-line_set 「紗枝も寝ますです」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そうだな・・・」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-wait 2000
-
-kgd_layer3_set 0 Kgd\Sa_012.kgd
-kgd_layer3_display 0
-
-name_set 紗枝
-
-sfx_set 2 Vox\6948.wav
-sfx_play 2
-
-line_set 「双厳さま！」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「？」
-line_set 「なんだ寝るんじゃないのか？」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6947.wav
-sfx_play 2
-
-line_set 「あのぅ・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「？」
-
-nvl_on
-
-line_set 紗枝は顔を赤らめている。
-
-adv_on
-
-jump_choice 10 ◆何か用か？
-jump_choice 11 ◆はやくねろ
 @10
+    affection_plus 0
+
+    name_set 双厳
+    line_set 「なにか用か？」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6946.wav
+    sfx_play 2
+    line_set 「あの・・・ですね・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6945.wav
+    sfx_play 2
+    line_set 「これから寝ますですから・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「寝るから？」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6944.wav
+    sfx_play 2
+    line_set 「紗枝、双厳さまに頭なでなでしてほしいです」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「はぁ？」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6943.wav
+    sfx_play 2
+    line_set 「あの・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6942.wav
+    sfx_play 2
+    line_set 「この家に来る前お母さんがよく寝る前にしてくれたです・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6941.wav
+    sfx_play 2
+    line_set 「それで・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6940.wav
+    sfx_play 2
+    line_set 「双厳さまにしてほしいです」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「頭なでなで・・・ねぇ・・・」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6939.wav
+    sfx_play 2
+    line_set 「だめですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「そんなもん、別にへるものじゃないし・・・」
+    line_set 「かまわんが」
+
+    kgd_layer3_set 3 Kgd\Sa_002.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
+
+    name_set 紗枝
+    sfx_set 2 Vox\6938.wav
+    sfx_play 2
+    line_set 「わぁ」
+    sfx_stop 2
+
+    nvl_on
+    line_set 紗枝の顔は明るくなる。
+
+    adv_on
+    name_set 紗枝
+    sfx_set 2 Vox\6937.wav
+    sfx_play 2
+    line_set 「撫でてくれますですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ああ」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    music_play 5
+
+    kgd_layer1_set 1 Kgd\En_017.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+    line_set 「ほら」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6936.wav
+    sfx_play 2
+    line_set 「わーい」
+    sfx_stop 2
+
+    nvl_on
+    line_set 紗枝は自分の頭を双厳に差し出す。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳は紗枝の頭を撫でてやる。
+    line_set 双厳にとっては、こんなことで喜ぶ紗枝はあまりにふしぎな存在であった。
+    nvl_line_clear
+    line_set 紗枝の髪は子供の髪のようにさらさらしていた。
+    line_set というよりは紗枝はまだまだ子供なのかもしれないが・・・。
+    line_set もしかしたら紗枝は見た目よりさらに幼いのかもしれない・・・。
+    line_set 紗枝の行動を見て双厳はそんなことを思った。
+
+    adv_on
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    kgd_layer3_set 0 Kgd\Sa_002.kgd
+    kgd_layer3_display 0
+
+    name_set 双厳
+    line_set 「これで寝れるな」
+
+    name_set 紗枝
+    sfx_set 2 Vox\6935.wav
+    sfx_play 2
+    line_set 「はいです！」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6934.wav
+    sfx_play 2
+    line_set 「双厳さまおやすみなさいです」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 紗枝は走って消えていった。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「廊下走るな・・・」
+    music_play 15
+
+    jump_auto @12
 
-affection_plus 0
-
-name_set 双厳
-
-line_set 「なにか用か？」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6946.wav
-sfx_play 2
-
-line_set 「あの・・・ですね・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6945.wav
-sfx_play 2
-
-line_set 「これから寝ますですから・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「寝るから？」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6944.wav
-sfx_play 2
-
-line_set 「紗枝、双厳さまに頭なでなでしてほしいです」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「はぁ？」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6943.wav
-sfx_play 2
-
-line_set 「あの・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6942.wav
-sfx_play 2
-
-line_set 「この家に来る前お母さんがよく寝る前にしてくれたです・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6941.wav
-sfx_play 2
-
-line_set 「それで・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6940.wav
-sfx_play 2
-
-line_set 「双厳さまにしてほしいです」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「頭なでなで・・・ねぇ・・・」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6939.wav
-sfx_play 2
-
-line_set 「だめですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「そんなもん、別にへるものじゃないし・・・」
-line_set 「かまわんが」
-
-kgd_layer3_set 3 Kgd\Sa_002.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
-
-name_set 紗枝
-
-sfx_set 2 Vox\6938.wav
-sfx_play 2
-
-line_set 「わぁ」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 紗枝の顔は明るくなる。
-
-adv_on
-
-name_set 紗枝
-
-sfx_set 2 Vox\6937.wav
-sfx_play 2
-
-line_set 「撫でてくれますですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ああ」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-music_play 5
-
-kgd_layer1_set 1 Kgd\En_017.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-
-line_set 「ほら」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6936.wav
-sfx_play 2
-
-line_set 「わーい」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 紗枝は自分の頭を双厳に差し出す。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳は紗枝の頭を撫でてやる。
-line_set 双厳にとっては、こんなことで喜ぶ紗枝はあまりにふしぎな存在であった。
-
-nvl_line_clear
-
-line_set 紗枝の髪は子供の髪のようにさらさらしていた。
-line_set というよりは紗枝はまだまだ子供なのかもしれないが・・・。
-line_set もしかしたら紗枝は見た目よりさらに幼いのかもしれない・・・。
-line_set 紗枝の行動を見て双厳はそんなことを思った。
-
-adv_on
-
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-kgd_layer3_set 0 Kgd\Sa_002.kgd
-kgd_layer3_display 0
-
-name_set 双厳
-
-line_set 「これで寝れるな」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6935.wav
-sfx_play 2
-
-line_set 「はいです！」
-
-sfx_stop 2
-sfx_set 2 Vox\6934.wav
-sfx_play 2
-
-line_set 「双厳さまおやすみなさいです」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 紗枝は走って消えていった。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「廊下走るな・・・」
-
-music_play 15
-
-jump_auto 12
 @11
+    name_set 双厳
+    line_set 「はやくねろ」
 
-name_set 双厳
+    kgd_layer3_set 3 Kgd\Sa_003.kgd
+    kgd_layer3_crossfade 0
+    kgd_layer2_blit 0 3
+    kgd_layer3_clear 3
 
-line_set 「はやくねろ」
+    name_set 紗枝
+    sfx_set 2 Vox\6933.wav
+    sfx_play 2
+    line_set 「は、はいです」
+    sfx_stop 2
 
-kgd_layer3_set 3 Kgd\Sa_003.kgd
-kgd_layer3_crossfade 0
-kgd_layer2_blit 0 3
-kgd_layer3_clear 3
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
 
-name_set 紗枝
+    nvl_on
+    line_set 紗枝は少し悲しそうな顔をして消えた。
 
-sfx_set 2 Vox\6933.wav
-sfx_play 2
+    adv_on
 
-line_set 「は、はいです」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 紗枝は少し悲しそうな顔をして消えた。
-
-adv_on
 @12
+    name_set 双厳
+    line_set 「・・・」
 
-name_set 双厳
+    nvl_on
+    line_set 先ほどまで聞こえていた声は完全に消えている。
 
-line_set 「・・・」
+    adv_on
+    name_set 双厳
+    line_set 「もう声も聞こえないな・・・」
+    line_set 「仕方ない・・・」
+    line_set 「寝るか・・・」
 
-nvl_on
+    nvl_on
+    line_set 双厳は部屋に戻り寝直すことにした。
 
-line_set 先ほどまで聞こえていた声は完全に消えている。
+    adv_on
+    name_set 双厳
+    line_set 「明日もはやいしな・・・」
 
-adv_on
-
-name_set 双厳
-
-line_set 「もう声も聞こえないな・・・」
-line_set 「仕方ない・・・」
-line_set 「寝るか・・・」
-
-nvl_on
-
-line_set 双厳は部屋に戻り寝直すことにした。
-
-adv_on
-
-name_set 双厳
-
-line_set 「明日もはやいしな・・・」
 @9
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer2_fade_unk 0
-
-music_stop
-
-ksd_set Ksd\005.ksd
-ksd_end
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_fade_unk 0
+    music_stop
+    ksd_set Ksd\005.ksd
+    ksd_end

@@ -1,1692 +1,1277 @@
+    sfx_set 0 Se\017.wav
+    sfx_play 0
 
-sfx_set 0 Se\017.wav
-sfx_play 0
+    kgd_layer1_set 0 Kgd\Da_002.kgd
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 4000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 2000
+    sfx_stop 0
 
-kgd_layer1_set 0 Kgd\Da_002.kgd
-kgd_layer1_display
-kgd_layer1_fx 1
+    nvl_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「外から何者かの気配がする」
+    line_set 「・・・」
 
-wait 4000
+    adv_on
+    jump_choice @0 ◆起きる
+    jump_choice @1 ◆起きない
 
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-wait 2000
-
-sfx_stop 0
-
-nvl_on
-
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「外から何者かの気配がする」
-line_set 「・・・」
-
-adv_on
-
-jump_choice 0 ◆起きる
-jump_choice 1 ◆起きない
 @0
+    name_set 双厳
+    line_set 「誰だ！」
 
-name_set 双厳
+    nvl_on
+    line_set 双厳は気配を察知して飛び起きる。
 
-line_set 「誰だ！」
+    adv_on
+    kgd_layer1_set 0 Kgd\W_001.kgd
+    kgd_layer2_set 0 Kgd\B_037.kgd
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 1
 
-nvl_on
+    kgd_layer3_set 0 Kgd\Sa_012.kgd
+    kgd_layer3_param 0 192 0 0 0 416 600
+    kgd_layer3_display 0
+    music_play 14
 
-line_set 双厳は気配を察知して飛び起きる。
+    name_set 紗枝
+    sfx_set 2 Vox\6932.wav
+    sfx_play 2
+    line_set 「あっ・・・」
+    sfx_stop 2
 
-adv_on
+    sfx_set 2 Vox\6931.wav
+    sfx_play 2
+    line_set 「双厳さま・・・お、おはようございますです」
+    sfx_stop 2
 
-kgd_layer1_set 0 Kgd\W_001.kgd
-kgd_layer2_set 0 Kgd\B_037.kgd
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 Kgd\Sa_012.kgd
-kgd_layer3_param 0 192 0 0 0 416 600
-kgd_layer3_display 0
+    name_set 双厳
+    line_set 「紗枝・・・」
+    line_set 「なんだ・・・」
+    line_set 「紗枝か・・・」
 
-music_play 14
+    name_set 紗枝
+    sfx_set 2 Vox\6930.wav
+    sfx_play 2
+    line_set 「はい」
+    sfx_stop 2
 
-name_set 紗枝
+    sfx_set 2 Vox\6929.wav
+    sfx_play 2
+    line_set 「紗枝でございます」
+    sfx_stop 2
 
-sfx_set 2 Vox\6932.wav
-sfx_play 2
+    name_set 双厳
+    line_set 「？」
 
-line_set 「あっ・・・」
+    nvl_on
+    line_set 紗枝は少し顔を上気させている・・・。
+    line_set 心なしか少しふるえている・・・。
 
-sfx_stop 2
-sfx_set 2 Vox\6931.wav
-sfx_play 2
+    adv_on
+    line_set 「紗枝、どうかしたのか？」
 
-line_set 「双厳さま・・・お、おはようございますです」
+    name_set 紗枝
+    sfx_set 2 Vox\6928.wav
+    sfx_play 2
+    line_set 「い、いえ」
+    sfx_stop 2
 
-sfx_stop 2
+    sfx_set 2 Vox\6927.wav
+    sfx_play 2
+    line_set 「そ、双厳さまを起しにきましたです」
+    sfx_stop 2
 
-name_set 双厳
+    nvl_on
+    line_set 紗枝はなぜか焦っているようだった。
 
-line_set 「紗枝・・・」
-line_set 「なんだ・・・」
-line_set 「紗枝か・・・」
+    adv_on
+    name_set 紗枝
+    sfx_set 2 Vox\6926.wav
+    sfx_play 2
+    line_set 「そ、双厳さまが起きていらっしゃるようなのでこれで失礼しますです」
+    sfx_stop 2
 
-name_set 紗枝
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
 
-sfx_set 2 Vox\6930.wav
-sfx_play 2
+    nvl_on
+    line_set 紗枝は廊下の方に急いで消えてしまった・・・。
 
-line_set 「はい」
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「なんだあいつ・・・」
 
-sfx_stop 2
-sfx_set 2 Vox\6929.wav
-sfx_play 2
+    jump_auto @2
 
-line_set 「紗枝でございます」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「？」
-
-nvl_on
-
-line_set 紗枝は少し顔を上気させている・・・。
-line_set 心なしか少しふるえている・・・。
-
-adv_on
-
-line_set 「紗枝、どうかしたのか？」
-
-name_set 紗枝
-
-sfx_set 2 Vox\6928.wav
-sfx_play 2
-
-line_set 「い、いえ」
-
-sfx_stop 2
-sfx_set 2 Vox\6927.wav
-sfx_play 2
-
-line_set 「そ、双厳さまを起しにきましたです」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 紗枝はなぜか焦っているようだった。
-
-adv_on
-
-name_set 紗枝
-
-sfx_set 2 Vox\6926.wav
-sfx_play 2
-
-line_set 「そ、双厳さまが起きていらっしゃるようなのでこれで失礼しますです」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 紗枝は廊下の方に急いで消えてしまった・・・。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「なんだあいつ・・・」
-
-jump_auto 2
 @1
+    affection_plus 0
+    gallery_unlock 106
+    ksd_set Ksd\106.ksd
 
-affection_plus 0
+    kgd_layer1_set 0 Kgd\W_001.kgd
+    kgd_layer2_set 0 Kgd\B_037.kgd
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 3
+    music_play 14
 
-gallery_unlock 106
-
-ksd_set Ksd\106.ksd
-
-kgd_layer1_set 0 Kgd\W_001.kgd
-kgd_layer2_set 0 Kgd\B_037.kgd
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 3
-
-music_play 14
 @2
+    nvl_on
+    line_set 紗枝が出ていき、部屋には双厳以外の人間はいなくなった。
+    nvl_line_clear
+    line_set 「さてと・・・」
+    line_set 「そろそろ行動するか・・・」
+    nvl_line_clear
+    line_set 「さて、どこにいこうか？」
 
-nvl_on
+    adv_on
+    jump_auto @3
 
-line_set 紗枝が出ていき、部屋には双厳以外の人間はいなくなった。
-
-nvl_line_clear
-
-line_set 「さてと・・・」
-line_set 「そろそろ行動するか・・・」
-
-nvl_line_clear
-
-line_set 「さて、どこにいこうか？」
-
-adv_on
-
-jump_auto 3
 @5
+    kgd_layer2_set 1 Kgd\B_037.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_037.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    nvl_on
+    line_set 阿波路家が用意した双厳の部屋だ。
+    line_set 滞在中は好きにこの部屋を使ってもよい事になっている。
 
-nvl_on
+    adv_on
 
-line_set 阿波路家が用意した双厳の部屋だ。
-line_set 滞在中は好きにこの部屋を使ってもよい事になっている。
-
-adv_on
 @3
+    jump_choice @4 ◆廊下へ移動
 
-jump_choice 4 ◆廊下へ移動
 @4
-@10
+    kgd_layer2_set 1 Kgd\B_029.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_029.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    nvl_on
+    line_set 廊下の長さが阿波路家の大きさをあらわしている。
+    line_set この廊下を渡り阿波路家中を回ることが出来る。
 
-nvl_on
+    adv_on
+    jump_choice @5 ◆自室へ移動
+    jump_choice @6 ◆大広間へ移動
+    jump_choice @7 ◆屋敷外へ移動
 
-line_set 廊下の長さが阿波路家の大きさをあらわしている。
-line_set この廊下を渡り阿波路家中を回ることが出来る。
-
-adv_on
-
-jump_choice 5 ◆自室へ移動
-jump_choice 6 ◆大広間へ移動
-jump_choice 7 ◆屋敷外へ移動
 @6
+    kgd_layer2_set 1 Kgd\B_009.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    kgd_layer3_set 0 Kgd\Sh_001.kgd
+    kgd_layer3_param 0 48 0 0 0 704 600
+    kgd_layer3_display 0
+    section_jump_branch1 25
+
+    nvl_on
+    line_set 双厳が大広間を覗いてみるとそこには、志乃がいた。
+
+    adv_on
+    name_set 双厳
+    line_set 「はやいな・・・」
+    line_set 「当主殿・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6925.wav
+    sfx_play 2
+    line_set 「これはこれは双厳さま」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6924.wav
+    sfx_play 2
+    line_set 「おはようございます」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6923.wav
+    sfx_play 2
+    line_set 「昨日はよくお眠りになりましたか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ああ・・・」
+    line_set 「まぁ、よく寝れた・・・」
+
+    name_set 双厳
+    line_set 「それより」
+    line_set 「昨日一日島をまわってみたのだが」
+    line_set 「二、三気になった事があった」
+    line_set 「それに答えてくれぬかな？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6922.wav
+    sfx_play 2
+    line_set 「わたくしに答えられる事でしたら、いくらでも双厳さまのお役にたちましょう」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6921.wav
+    sfx_play 2
+    line_set 「どのようなことですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「まず島周辺の鳥居・・・」
+    line_set 「あれにどんな宗教的な意味があるか知らないが」
+    line_set 「舟の出入りの邪魔になる」
+    line_set 「たしかに、海賊の上陸の防御線にもなるが」
+    line_set 「こちら側が舟を出しにくくなるのも事実」
+    line_set 「この島を海賊から守るとなると、この鳥居の存在が重要となってくる」
+
+    name_set 志乃
+    line_set 「・・・」
+
+    sfx_set 2 Vox\6920.wav
+    sfx_play 2
+    line_set 「たしかにそうでございますね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「あの鳥居の意味が知りたい」
+
+    name_set 志乃
+    line_set 「・・・」
+
+    sfx_set 2 Vox\6919.wav
+    sfx_play 2
+    line_set 「意味ですか？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6918.wav
+    sfx_play 2
+    line_set 「それはまたなぜでしょうか？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6917.wav
+    sfx_play 2
+    line_set 「双厳さまが今いったようにあの鳥居は宗教的なものでしかありません」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6916.wav
+    sfx_play 2
+    line_set 「そんな事をお知りになっていかがなされるのでしょうか？」
+    sfx_stop 2
+
+    nvl_on
+    line_set 志乃が微笑する。
+
+    adv_on
+    name_set 双厳
+    line_set 「いや、そうともいえない」
+    line_set 「まず、あの鳥居をみたところ、建てられた年代がそれぞれ違うようだ」
+    line_set 「古いところでは、少なく見積もっても、数百年」
+    line_set 「新しいところでは今年に建てられている」
+
+    name_set 志乃
+    sfx_set 2 Vox\6915.wav
+    sfx_play 2
+    line_set 「はい、その通りでございます」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「先ほどいった通り、私にとって心情上の宗教的な意味などどうでもいいが」
+    line_set 「宗教的な意味から導きだされる鳥居の建てられる法則性はぜひ知りたい」
+
+    name_set 志乃
+    sfx_set 2 Vox\6914.wav
+    sfx_play 2
+    line_set 「法則？ですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そう」
+    line_set 「法則だ」
+    line_set 「なにかしら宗教的な意味があるのなら」
+    line_set 「鳥居を建てる場所や時間などもなにか意味があっておこなわれているのであろう」
+    line_set 「それが知りたい」
+    line_set 「それを知ることは」
+    line_set 「海賊とやらからこの島を守る重要な戦略となるはずであろう」
+
+    name_set 志乃
+    sfx_set 2 Vox\6913.wav
+    sfx_play 2
+    line_set 「くす」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6912.wav
+    sfx_play 2
+    line_set 「たしかにそうかもしれません」
+    sfx_stop 2
+
+    nvl_on
+    line_set 志乃の微笑はなぜか双厳の癇に障った。
+    line_set なにかすべて見透かされているような、そんな気がして双厳をいらつかせた。
+
+    adv_on
+    name_set 双厳
+    line_set 「俺がいったことでなにかおかしいことでもあったかな？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6911.wav
+    sfx_play 2
+    line_set 「いえ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6910.wav
+    sfx_play 2
+    line_set 「お気を悪くなされたのでしたら申し訳ありませんでした」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6909.wav
+    sfx_play 2
+    line_set 「わたくし」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6908.wav
+    sfx_play 2
+    line_set 「お侍さまというのは、ただ剣を持ち戦うだけだと思っていましたので」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6907.wav
+    sfx_play 2
+    line_set 「いろいろと地の利というのをみていらっしゃる双厳さまに感心いたしまして」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6906.wav
+    sfx_play 2
+    line_set 「ただそれだけでございますよ」
+    sfx_stop 2
+
+    nvl_on
+    line_set 志乃は物静かに双厳の事を見つめる。
+
+    adv_on
+    name_set 双厳
+    line_set 「剣術といえども兵法の一種だからな」
+    line_set 「闇雲に戦っても勝てはしないのだよ」
+
+    name_set 志乃
+    sfx_set 2 Vox\6905.wav
+    sfx_play 2
+    line_set 「そのようなものなのですか・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6904.wav
+    sfx_play 2
+    line_set 「くす」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6903.wav
+    sfx_play 2
+    line_set 「それはたのもしいことです」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「で、鳥居はどのような理由で建てられるのですか」
+
+    name_set 志乃
+    sfx_set 2 Vox\6902.wav
+    sfx_play 2
+    line_set 「お墓です」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「あの老人が話していた事と少し違うな・・・」
+    line_set 「あの老人の話では、この鳥居はこの島で生まれる者の数だけ建てられると言っていた」
+    line_set 「生まれる子供の数・・・」
+    line_set 「つまりこの島では間引いた子供の数だけ鳥居を建てるという事になる」
+    line_set 「鳥居は霊的存在の通り道であり」
+    line_set 「ここにある鳥居は間引かれた子の霊が悪霊になる前に海にかえすためにあるのだと・・・」
+
+    adv_on
+    line_set 「墓？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6901.wav
+    sfx_play 2
+    line_set 「はい」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「やはり・・・」
+    line_set 「かならず生まれた子供を間引くなど、忌むべき風習であるから外部の俺に知られたくないのであろうか」
+    line_set 「それとも・・・」
+    nvl_line_clear
+    line_set 双厳はそのまま話を続けていく。
+
+    adv_on
+    name_set 双厳
+    line_set 「墓となると死者の亡骸が埋められているのかな？」
+    line_set 「だとしたら・・・」
+
+    nvl_on
+    line_set この質問は重要であった。
+    line_set あの老人がしゃべった事が本当であるにせよ、志乃がしゃべっている事が本当であるにせよ。
+    line_set どちらにしろ死体が出ることには変わりがなかった。それをどう処理しているか、それによりなにか答えが
+    line_set みつかる可能性もあったからだ。
+    nvl_line_clear
+    line_set 鳥居がもし老人がいうように間引かれた子供の霊を海に流すためのものなら、島のどこかに墓があるはずで
+    line_set ある。
+    line_set 普通に死んだ人間には鳥居はいらないし、間引かれた子供の死体も、どこかで処分しなければならないから
+    line_set だ。
+    nvl_line_clear
+    line_set そしてもし志乃が言うとおり鳥居がこの島にとって墓なら、この島には本州でみかけるような墓はないはず
+    line_set である。
+    nvl_line_clear
+    line_set それと、もう一つ疑問がある。
+    line_set もし墓であるならば死体が鳥居の下に埋まっているはずだ。
+    line_set 海岸の鳥居の数だけそこらに死体が埋まっているというのもぞっとするが、それよりも気になる事がある。
+    nvl_line_clear
+    line_set 砂地の、しかも海底に埋められている・・・これがどのような事になるかはすぐに想像できる。
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6900.wav
+    sfx_play 2
+    line_set 「死者は埋葬されませんので」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6899.wav
+    sfx_play 2
+    line_set 「双厳さまが心配されているような事にはなりません」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「また、心の中を読まれたようだな・・・」
+    nvl_line_clear
+    line_set 「まあ、死体があんな場所に埋められていたら誰でもそう考えるだろう・・・」
+    nvl_line_clear
+    line_set つまりこういう事である。
+    line_set 海岸に死体など埋めてたら、すぐに波に砂がさらわれて、埋葬した死体がでてきてしまうという。
+    line_set 至極普通にありうる事である。
+    line_set いくら昔から伝わる風習だからといって、
+    line_set うめた死体が二、三ヶ月後に海岸に打ちあげられていたらかなり問題があるであろう。
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6898.wav
+    sfx_play 2
+    line_set 「亡骸は火葬します」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6897.wav
+    sfx_play 2
+    line_set 「その灰は海にまかれます」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「なるほど・・・」
+
+    nvl_on
+    line_set 志乃の答えは的を射ていた。
+    line_set しかし、ならばこの島には墓がない事になる。
+
+    adv_on
+    line_set 「ならば、この島では本州でみかけるような墓はないのかな？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6896.wav
+    sfx_play 2
+    line_set 「はい」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6895.wav
+    sfx_play 2
+    line_set 「ありません」
+    sfx_stop 2
+
+    nvl_on
+    line_set 志乃は断言する。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「調べてみればわかることだ・・・」
+    line_set 「しかし昨日島中をみたかんじ、たしかに墓のようなものもなかったが・・・」
+    nvl_line_clear
+    line_set しかし、双厳も単純に志乃の言葉を信じる気にはなれなかった。
+    line_set 双厳はさらに質問を続ける。
+
+    adv_on
+    name_set 双厳
+    line_set 「鳥居には家の名前も戒名のようなものもなかったが・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6894.wav
+    sfx_play 2
+    line_set 「鳥居は死者の魂を海に帰すものです」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6893.wav
+    sfx_play 2
+    line_set 「鳥居自体は死者の魂そのものではありません」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6892.wav
+    sfx_play 2
+    line_set 「それに海に帰った魂は個ではなくなります、全となります」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6891.wav
+    sfx_play 2
+    line_set 「そのようなものに家の名などなんの意味がありましょうか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「海に帰す？」
+    line_set 「この辺の信仰として、海の向こうに黄泉の国があるというのはよく聞きくが・・・」
+
+    name_set 双厳
+    line_set 「やはり気になるのは、なぜ墓が鳥居であるかだ」
+    line_set 「鳥居は霊的なるものの通り道」
+    line_set 「鳥居の配置が気になる」
+
+    name_set 志乃
+    sfx_set 2 Vox\6890.wav
+    sfx_play 2
+    line_set 「配置ですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「そう方角だ・・・」
+    line_set 「鳥居であるならやはり方角に気を使われて建てられていなければならないのではないかな？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6889.wav
+    sfx_play 2
+    line_set 「たとえばどんな方角だといけないのですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「方位学はよくわかないが・・・」
+    line_set 「死者の国への方角が重要になると聞く」
+    line_set 「たとえば『五行大義』に」
+    line_set 「北方至陰は宗廟祭祀の象たり」
+    line_set 「冬は陽の始まる所、陰の終わるところなり」
+    line_set 「終始は綱紀の時なり」
+    line_set 「死者の魂気は天に上がりて神となり、魄気は下降して鬼となる」
+    line_set 「精気、散じて外に在りて反らず」
+    line_set 「故に宗廟をつくりて、以て散ずるを収むるなり」
+    line_set 「とある」
+    line_set 「もし、鳥居が死者を送り出すものなら、鳥居の方向が重要な意味をもつはず」
+    line_set 「それがここでは四方八方全方向に鳥居が向いているのはどうかと思う」
+    line_set 「それでは死者が迷ってしまう」
+
+    name_set 志乃
+    sfx_set 2 Vox\6888.wav
+    sfx_play 2
+    line_set 「そうですね」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「それならば」
+    line_set 「他に意味があるものと考えます」
+    line_set 「全方向に鳥居が向いている意味が」
+    line_set 「当主殿はその理由をご存じですか？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6887.wav
+    sfx_play 2
+    line_set 「知りません」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「！」
+
+    nvl_on
+    line_set 拍子抜けであった。
+    line_set 何かしら食いついてくると思われたが、志乃は簡単に兜を脱いでしまった。
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6886.wav
+    sfx_play 2
+    line_set 「くすくす」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6885.wav
+    sfx_play 2
+    line_set 「双厳さまは学がおありですね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6884.wav
+    sfx_play 2
+    line_set 「大変な勉強家ですね」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6883.wav
+    sfx_play 2
+    line_set 「尊敬いたします」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6882.wav
+    sfx_play 2
+    line_set 「それはそれといたしまして」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6881.wav
+    sfx_play 2
+    line_set 「さきほど双厳さまが説明なされた事は『五行大義』に書かれている事ではありませんか」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6880.wav
+    sfx_play 2
+    line_set 「この淡炎島には陰陽五行説などは関係ありません」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「いや、『五行大義』は単なる例であって」
+
+    name_set 志乃
+    sfx_set 2 Vox\6879.wav
+    sfx_play 2
+    line_set 「くすくす」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6878.wav
+    sfx_play 2
+    line_set 「いいではありませんか」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6877.wav
+    sfx_play 2
+    line_set 「そのような難しい話」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6876.wav
+    sfx_play 2
+    line_set 「それに・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6875.wav
+    sfx_play 2
+    line_set 「双厳さま、その質問は戦略と関係あるのですか？」
+    sfx_stop 2
+
+    nvl_on
+    line_set 志乃が笑う。
+
+    adv_on
+    name_set 双厳
+    line_set 「い、いや・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6874.wav
+    sfx_play 2
+    line_set 「ここではそのような風習がある」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6873.wav
+    sfx_play 2
+    line_set 「それでいいのではないですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「う、うむ・・・」
+
+    nvl_on
+    line_set 畳みかけるように志乃は言葉を続ける。
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6872.wav
+    sfx_play 2
+    line_set 「それとも、双厳さまは何かこの島の信仰に関わることで知りたい事でもおありなのですか？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6871.wav
+    sfx_play 2
+    line_set 「何か知って双厳さまご自身に有益な事でもおありなのですか？」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6870.wav
+    sfx_play 2
+    line_set 「くすくす・・・」
+    sfx_stop 2
+
+    nvl_on
+    line_set 志乃が何かを含んだ言い方で微笑する。
+
+    adv_on
+    name_set 双厳
+    line_set 「い、いや、そういうわけではないが・・・」
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「この女・・・」
+    line_set 「俺がこの島の事をさぐっていることを知っているような言い回しだ」
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6869.wav
+    sfx_play 2
+    line_set 「そういえば・・・」
+    sfx_stop 2
+
+    nvl_on
+    line_set 志乃は思い出したようにつぶやく。
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6868.wav
+    sfx_play 2
+    line_set 「双厳さまは諸国を漫遊していると聞きます」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「漫遊ではないがな・・・どちらかといえば流浪といったほうがあうな・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6867.wav
+    sfx_play 2
+    line_set 「近隣の村もまわられたのですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「うむ」
+    line_set 「それが何か？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6866.wav
+    sfx_play 2
+    line_set 「ここは外の話が入り難い所でございます」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6865.wav
+    sfx_play 2
+    line_set 「わたくしも双厳さまにお聞きしてよいですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「別にかまわないが・・・」
+    line_set 「なにか知りたいのか？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6864.wav
+    sfx_play 2
+    line_set 「巷では二重影なる異形の者がうろついていると聞きました」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳は眉毛一つ動かさずに志乃の言葉を聞く。
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6863.wav
+    sfx_play 2
+    line_set 「この二重影、二つの影を持つ者だといいます」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6862.wav
+    sfx_play 2
+    line_set 「この話は双厳さまはお聞きになった事がありますか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「いや・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6861.wav
+    sfx_play 2
+    line_set 「なんでも、影が実体化して人々を襲うといいます」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6860.wav
+    sfx_play 2
+    line_set 「すでに数百人がその二重影に殺されたと聞きます」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6859.wav
+    sfx_play 2
+    line_set 「役人などもこの異形を追っていると聞きますが・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6858.wav
+    sfx_play 2
+    line_set 「つかまらないみたいです」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6857.wav
+    sfx_play 2
+    line_set 「その者を追って、いろいろな力が動いているといいますよ」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「それで何が聞きたい？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6856.wav
+    sfx_play 2
+    line_set 「なんでも最近この二重影が近隣の村に出没したという、うわさを聞きまして・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6855.wav
+    sfx_play 2
+    line_set 「なんでも宿屋で十数名もの侍を斬って逃亡したとか・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「宿屋で襲ってきた柳生の刺客を斬った時の事か・・・」
+    line_set 「さすがにあれだけ派手に斬ればこの辺でもうわさになるだろうな・・・」
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6854.wav
+    sfx_play 2
+    line_set 「くす」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6853.wav
+    sfx_play 2
+    line_set 「双厳さま、なぜそのように恐ろしいお顔をなされますか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「いや・・・」
+    line_set 「恐るべき話だと思い聞いていただけだ・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6852.wav
+    sfx_play 2
+    line_set 「双厳さまは二重影のおうわさはお聞きにならなかったのですか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「いや・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6851.wav
+    sfx_play 2
+    line_set 「時間的に双厳さまが近隣の村を歩いていた時間と合うのですが・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「それで・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6850.wav
+    sfx_play 2
+    line_set 「もしかしたら二重影なるものとお会いしていないものかと思いまして・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 「この前二重影を斬ったばかりなので、二つめの影は薄く普通の人間に見えるものではない」
+    line_set 「今の俺を二重影であると感づくものはいないはずだが・・・」
+    nvl_line_clear
+    line_set 「この女の発言」
+    line_set 「俺の存在に感づいているのか？」
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6849.wav
+    sfx_play 2
+    line_set 「ただ二重影の話を聞きますと」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6848.wav
+    sfx_play 2
+    line_set 「この島にも似たような伝説がありますので・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「似たような伝説？」
+    line_set 「それは？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6847.wav
+    sfx_play 2
+    line_set 「もしかしたら二重影はこの島になにか興味があるのではと・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「その伝説とはどのような伝説ですかな？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6846.wav
+    sfx_play 2
+    line_set 「この島の話」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6845.wav
+    sfx_play 2
+    line_set 「とくに伝説はこの周辺の村々では有名です」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6844.wav
+    sfx_play 2
+    line_set 「双厳さまほどの知的好奇心が旺盛な方がしらないとは少し意外でした・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6843.wav
+    sfx_play 2
+    line_set 「いろいろと地方文化に興味がおありな双厳さまがその話を聞いていないとは・・・」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6842.wav
+    sfx_play 2
+    line_set 「すでに近隣の村の方々から話を聞いているかと思いましたが・・・」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6841.wav
+    sfx_play 2
+    line_set 「ご存じないのでしたら、お教えしましょう」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 志乃は双厳の目をじっとみつめる。
+
+    adv_on
+    name_set 志乃
+    sfx_set 2 Vox\6840.wav
+    sfx_play 2
+    line_set 「淡炎島で生まれる者はそのすべてが双子であり」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6839.wav
+    sfx_play 2
+    line_set 「そして、その片方の子供はかならず殺されるという言い伝えです」
+    sfx_stop 2
+
+    nvl_on
+    line_set 「まさにその通りだ」
+    line_set 「この島で生まれた者はかならず双子であるという」
+    line_set 「そして、かならずその片方がかならず殺されるというのだ」
+    nvl_line_clear
+    line_set 志乃は、無表情に双厳を見つめる。
+    nvl_line_clear
+    line_set 双厳は頭でもう一度この島にまつわる話を整理した。
+    nvl_line_clear
+    line_set まず、かならず双子という事、
+    line_set たしかにこれはかなり奇妙な話だ、
+    line_set が、それだけなら双厳はこの島に異常な興味はしめさなかっただろう。
+    nvl_line_clear
+    line_set 「この女の発言」
+    line_set 「俺の存在に感づいているのか？」
+    nvl_line_clear
+    line_set 双厳がそれ以上に気になったのは、双子の片方がかならず間引かれるという事だ。
+    line_set かならず殺されるというのは、そうしなければならない理由があるからに違いない。
+    line_set そのような事はこの島にまつわる話をしてくれた老人も匂わせていた。
+    nvl_line_clear
+    line_set 殺されるにはなにか理由があるはずである。
+    line_set もし、それが双子の片方が殺されなければならないほど邪悪な存在であるとしたら・・・。
+    nvl_line_clear
+    line_set 自分にうり二つのモノが生まれた瞬間に殺される・・・。
+    line_set この光景を双厳はよく知っている。
+    nvl_line_clear
+    line_set その光景とはもちろん自分である。
+    line_set 双厳は二重影が実体化して自らの体から分離しようとするときにかならず殺した。
+    line_set もしかしたらこの島にかけられた双子の呪いとは、双厳にかけられた呪いと同種のものではなかろうか？
+    line_set そう双厳は目星をつけていた。
+    nvl_line_clear
+    line_set つまり、この島で生まれる子供はかならず双子なのではなく。
+    line_set 双厳のように、生まれるとともに邪悪なモノが二つに分離してしまうのではないか？
+    line_set そうであるなら、ここに双厳の呪いを解く鍵があるかもしれない。
+    line_set 彼はこのような考えのもとに島に渡っていた。
+
+    adv_on
+    name_set 双厳
+    line_set 「そ、それは本当の事なのか？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6838.wav
+    sfx_play 2
+    line_set 「くす」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6837.wav
+    sfx_play 2
+    line_set 「そんな話が本当でございましょうか？」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「！？」
+    line_set 「な、なら嘘なのか？」
+
+    name_set 志乃
+    sfx_set 2 Vox\6836.wav
+    sfx_play 2
+    line_set 「ふふふふふふふ」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6835.wav
+    sfx_play 2
+    line_set 「さぁ、どうでしょうか」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6834.wav
+    sfx_play 2
+    line_set 「どちらにしろ双厳さまにはこのような話、なんの意味もない事でございましょう」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6833.wav
+    sfx_play 2
+    line_set 「鳥居は、死者がでるたびに建てるものです」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6832.wav
+    sfx_play 2
+    line_set 「たてる方角や場所に法則性はありません」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6831.wav
+    sfx_play 2
+    line_set 「これだけお答えしておけば足りるでしょう」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6830.wav
+    sfx_play 2
+    line_set 「あとは、地方文化に興味がおありな双厳さまが趣味でお調べになればよろしいこと」
+    sfx_stop 2
+
+    sfx_set 2 Vox\6829.wav
+    sfx_play 2
+    line_set 「阿波路家としましては、海賊からこの島をお守りしていただく以外の理由でお教えする事はありません」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「そうだな・・・」
+
+    name_set 志乃
+    sfx_set 2 Vox\6828.wav
+    sfx_play 2
+    line_set 「それでは私も用事がありますのでこれで・・・」
+    sfx_stop 2
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 志乃は大広間から消えた。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「あの女・・・」
+    line_set 「どこまで感づいているんだ・・・」
+    nvl_line_clear
+    line_set 双厳は志乃が座っていた場所をじっと見つめていた。
+
+    adv_on
+    jump_auto @8
 
-kgd_layer2_set 1 Kgd\B_009.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-kgd_layer3_set 0 Kgd\Sh_001.kgd
-kgd_layer3_param 0 48 0 0 0 704 600
-kgd_layer3_display 0
-
-section_jump_branch1 25
-
-nvl_on
-
-line_set 双厳が大広間を覗いてみるとそこには、志乃がいた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「はやいな・・・」
-line_set 「当主殿・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6925.wav
-sfx_play 2
-
-line_set 「これはこれは双厳さま」
-
-sfx_stop 2
-sfx_set 2 Vox\6924.wav
-sfx_play 2
-
-line_set 「おはようございます」
-
-sfx_stop 2
-sfx_set 2 Vox\6923.wav
-sfx_play 2
-
-line_set 「昨日はよくお眠りになりましたか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「ああ・・・」
-line_set 「まぁ、よく寝れた・・・」
-
-name_set 双厳
-
-line_set 「それより」
-line_set 「昨日一日島をまわってみたのだが」
-line_set 「二、三気になった事があった」
-line_set 「それに答えてくれぬかな？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6922.wav
-sfx_play 2
-
-line_set 「わたくしに答えられる事でしたら、いくらでも双厳さまのお役にたちましょう」
-
-sfx_stop 2
-sfx_set 2 Vox\6921.wav
-sfx_play 2
-
-line_set 「どのようなことですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「まず島周辺の鳥居・・・」
-line_set 「あれにどんな宗教的な意味があるか知らないが」
-line_set 「舟の出入りの邪魔になる」
-line_set 「たしかに、海賊の上陸の防御線にもなるが」
-line_set 「こちら側が舟を出しにくくなるのも事実」
-line_set 「この島を海賊から守るとなると、この鳥居の存在が重要となってくる」
-
-name_set 志乃
-
-line_set 「・・・」
-
-sfx_set 2 Vox\6920.wav
-sfx_play 2
-
-line_set 「たしかにそうでございますね」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「あの鳥居の意味が知りたい」
-
-name_set 志乃
-
-line_set 「・・・」
-
-sfx_set 2 Vox\6919.wav
-sfx_play 2
-
-line_set 「意味ですか？」
-
-sfx_stop 2
-sfx_set 2 Vox\6918.wav
-sfx_play 2
-
-line_set 「それはまたなぜでしょうか？」
-
-sfx_stop 2
-sfx_set 2 Vox\6917.wav
-sfx_play 2
-
-line_set 「双厳さまが今いったようにあの鳥居は宗教的なものでしかありません」
-
-sfx_stop 2
-sfx_set 2 Vox\6916.wav
-sfx_play 2
-
-line_set 「そんな事をお知りになっていかがなされるのでしょうか？」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 志乃が微笑する。
-
-adv_on
-
-name_set 双厳
-
-line_set 「いや、そうともいえない」
-line_set 「まず、あの鳥居をみたところ、建てられた年代がそれぞれ違うようだ」
-line_set 「古いところでは、少なく見積もっても、数百年」
-line_set 「新しいところでは今年に建てられている」
-
-name_set 志乃
-
-sfx_set 2 Vox\6915.wav
-sfx_play 2
-
-line_set 「はい、その通りでございます」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「先ほどいった通り、私にとって心情上の宗教的な意味などどうでもいいが」
-line_set 「宗教的な意味から導きだされる鳥居の建てられる法則性はぜひ知りたい」
-
-name_set 志乃
-
-sfx_set 2 Vox\6914.wav
-sfx_play 2
-
-line_set 「法則？ですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そう」
-line_set 「法則だ」
-line_set 「なにかしら宗教的な意味があるのなら」
-line_set 「鳥居を建てる場所や時間などもなにか意味があっておこなわれているのであろう」
-line_set 「それが知りたい」
-line_set 「それを知ることは」
-line_set 「海賊とやらからこの島を守る重要な戦略となるはずであろう」
-
-name_set 志乃
-
-sfx_set 2 Vox\6913.wav
-sfx_play 2
-
-line_set 「くす」
-
-sfx_stop 2
-sfx_set 2 Vox\6912.wav
-sfx_play 2
-
-line_set 「たしかにそうかもしれません」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 志乃の微笑はなぜか双厳の癇に障った。
-line_set なにかすべて見透かされているような、そんな気がして双厳をいらつかせた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「俺がいったことでなにかおかしいことでもあったかな？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6911.wav
-sfx_play 2
-
-line_set 「いえ」
-
-sfx_stop 2
-sfx_set 2 Vox\6910.wav
-sfx_play 2
-
-line_set 「お気を悪くなされたのでしたら申し訳ありませんでした」
-
-sfx_stop 2
-sfx_set 2 Vox\6909.wav
-sfx_play 2
-
-line_set 「わたくし」
-
-sfx_stop 2
-sfx_set 2 Vox\6908.wav
-sfx_play 2
-
-line_set 「お侍さまというのは、ただ剣を持ち戦うだけだと思っていましたので」
-
-sfx_stop 2
-sfx_set 2 Vox\6907.wav
-sfx_play 2
-
-line_set 「いろいろと地の利というのをみていらっしゃる双厳さまに感心いたしまして」
-
-sfx_stop 2
-sfx_set 2 Vox\6906.wav
-sfx_play 2
-
-line_set 「ただそれだけでございますよ」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 志乃は物静かに双厳の事を見つめる。
-
-adv_on
-
-name_set 双厳
-
-line_set 「剣術といえども兵法の一種だからな」
-line_set 「闇雲に戦っても勝てはしないのだよ」
-
-name_set 志乃
-
-sfx_set 2 Vox\6905.wav
-sfx_play 2
-
-line_set 「そのようなものなのですか・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6904.wav
-sfx_play 2
-
-line_set 「くす」
-
-sfx_stop 2
-sfx_set 2 Vox\6903.wav
-sfx_play 2
-
-line_set 「それはたのもしいことです」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「で、鳥居はどのような理由で建てられるのですか」
-
-name_set 志乃
-
-sfx_set 2 Vox\6902.wav
-sfx_play 2
-
-line_set 「お墓です」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「あの老人が話していた事と少し違うな・・・」
-line_set 「あの老人の話では、この鳥居はこの島で生まれる者の数だけ建てられると言っていた」
-line_set 「生まれる子供の数・・・」
-line_set 「つまりこの島では間引いた子供の数だけ鳥居を建てるという事になる」
-line_set 「鳥居は霊的存在の通り道であり」
-line_set 「ここにある鳥居は間引かれた子の霊が悪霊になる前に海にかえすためにあるのだと・・・」
-
-adv_on
-
-line_set 「墓？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6901.wav
-sfx_play 2
-
-line_set 「はい」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 「やはり・・・」
-line_set 「かならず生まれた子供を間引くなど、忌むべき風習であるから外部の俺に知られたくないのであろうか」
-line_set 「それとも・・・」
-
-nvl_line_clear
-
-line_set 双厳はそのまま話を続けていく。
-
-adv_on
-
-name_set 双厳
-
-line_set 「墓となると死者の亡骸が埋められているのかな？」
-line_set 「だとしたら・・・」
-
-nvl_on
-
-line_set この質問は重要であった。
-line_set あの老人がしゃべった事が本当であるにせよ、志乃がしゃべっている事が本当であるにせよ。
-line_set どちらにしろ死体が出ることには変わりがなかった。それをどう処理しているか、それによりなにか答えが
-line_set みつかる可能性もあったからだ。
-
-nvl_line_clear
-
-line_set 鳥居がもし老人がいうように間引かれた子供の霊を海に流すためのものなら、島のどこかに墓があるはずで
-line_set ある。
-line_set 普通に死んだ人間には鳥居はいらないし、間引かれた子供の死体も、どこかで処分しなければならないから
-line_set だ。
-
-nvl_line_clear
-
-line_set そしてもし志乃が言うとおり鳥居がこの島にとって墓なら、この島には本州でみかけるような墓はないはず
-line_set である。
-
-nvl_line_clear
-
-line_set それと、もう一つ疑問がある。
-line_set もし墓であるならば死体が鳥居の下に埋まっているはずだ。
-line_set 海岸の鳥居の数だけそこらに死体が埋まっているというのもぞっとするが、それよりも気になる事がある。
-
-nvl_line_clear
-
-line_set 砂地の、しかも海底に埋められている・・・これがどのような事になるかはすぐに想像できる。
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6900.wav
-sfx_play 2
-
-line_set 「死者は埋葬されませんので」
-
-sfx_stop 2
-sfx_set 2 Vox\6899.wav
-sfx_play 2
-
-line_set 「双厳さまが心配されているような事にはなりません」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「・・・」
-line_set 「また、心の中を読まれたようだな・・・」
-
-nvl_line_clear
-
-line_set 「まあ、死体があんな場所に埋められていたら誰でもそう考えるだろう・・・」
-
-nvl_line_clear
-
-line_set つまりこういう事である。
-line_set 海岸に死体など埋めてたら、すぐに波に砂がさらわれて、埋葬した死体がでてきてしまうという。
-line_set 至極普通にありうる事である。
-line_set いくら昔から伝わる風習だからといって、
-line_set うめた死体が二、三ヶ月後に海岸に打ちあげられていたらかなり問題があるであろう。
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6898.wav
-sfx_play 2
-
-line_set 「亡骸は火葬します」
-
-sfx_stop 2
-sfx_set 2 Vox\6897.wav
-sfx_play 2
-
-line_set 「その灰は海にまかれます」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「なるほど・・・」
-
-nvl_on
-
-line_set 志乃の答えは的を射ていた。
-line_set しかし、ならばこの島には墓がない事になる。
-
-adv_on
-
-line_set 「ならば、この島では本州でみかけるような墓はないのかな？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6896.wav
-sfx_play 2
-
-line_set 「はい」
-
-sfx_stop 2
-sfx_set 2 Vox\6895.wav
-sfx_play 2
-
-line_set 「ありません」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 志乃は断言する。
-
-nvl_line_clear
-
-line_set 「・・・」
-line_set 「調べてみればわかることだ・・・」
-line_set 「しかし昨日島中をみたかんじ、たしかに墓のようなものもなかったが・・・」
-
-nvl_line_clear
-
-line_set しかし、双厳も単純に志乃の言葉を信じる気にはなれなかった。
-line_set 双厳はさらに質問を続ける。
-
-adv_on
-
-name_set 双厳
-
-line_set 「鳥居には家の名前も戒名のようなものもなかったが・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6894.wav
-sfx_play 2
-
-line_set 「鳥居は死者の魂を海に帰すものです」
-
-sfx_stop 2
-sfx_set 2 Vox\6893.wav
-sfx_play 2
-
-line_set 「鳥居自体は死者の魂そのものではありません」
-
-sfx_stop 2
-sfx_set 2 Vox\6892.wav
-sfx_play 2
-
-line_set 「それに海に帰った魂は個ではなくなります、全となります」
-
-sfx_stop 2
-sfx_set 2 Vox\6891.wav
-sfx_play 2
-
-line_set 「そのようなものに家の名などなんの意味がありましょうか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「海に帰す？」
-line_set 「この辺の信仰として、海の向こうに黄泉の国があるというのはよく聞きくが・・・」
-
-name_set 双厳
-
-line_set 「やはり気になるのは、なぜ墓が鳥居であるかだ」
-line_set 「鳥居は霊的なるものの通り道」
-line_set 「鳥居の配置が気になる」
-
-name_set 志乃
-
-sfx_set 2 Vox\6890.wav
-sfx_play 2
-
-line_set 「配置ですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「そう方角だ・・・」
-line_set 「鳥居であるならやはり方角に気を使われて建てられていなければならないのではないかな？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6889.wav
-sfx_play 2
-
-line_set 「たとえばどんな方角だといけないのですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「方位学はよくわかないが・・・」
-line_set 「死者の国への方角が重要になると聞く」
-line_set 「たとえば『五行大義』に」
-line_set 「北方至陰は宗廟祭祀の象たり」
-line_set 「冬は陽の始まる所、陰の終わるところなり」
-line_set 「終始は綱紀の時なり」
-line_set 「死者の魂気は天に上がりて神となり、魄気は下降して鬼となる」
-line_set 「精気、散じて外に在りて反らず」
-line_set 「故に宗廟をつくりて、以て散ずるを収むるなり」
-line_set 「とある」
-line_set 「もし、鳥居が死者を送り出すものなら、鳥居の方向が重要な意味をもつはず」
-line_set 「それがここでは四方八方全方向に鳥居が向いているのはどうかと思う」
-line_set 「それでは死者が迷ってしまう」
-
-name_set 志乃
-
-sfx_set 2 Vox\6888.wav
-sfx_play 2
-
-line_set 「そうですね」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「それならば」
-line_set 「他に意味があるものと考えます」
-line_set 「全方向に鳥居が向いている意味が」
-line_set 「当主殿はその理由をご存じですか？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6887.wav
-sfx_play 2
-
-line_set 「知りません」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「！」
-
-nvl_on
-
-line_set 拍子抜けであった。
-line_set 何かしら食いついてくると思われたが、志乃は簡単に兜を脱いでしまった。
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6886.wav
-sfx_play 2
-
-line_set 「くすくす」
-
-sfx_stop 2
-sfx_set 2 Vox\6885.wav
-sfx_play 2
-
-line_set 「双厳さまは学がおありですね」
-
-sfx_stop 2
-sfx_set 2 Vox\6884.wav
-sfx_play 2
-
-line_set 「大変な勉強家ですね」
-
-sfx_stop 2
-sfx_set 2 Vox\6883.wav
-sfx_play 2
-
-line_set 「尊敬いたします」
-
-sfx_stop 2
-sfx_set 2 Vox\6882.wav
-sfx_play 2
-
-line_set 「それはそれといたしまして」
-
-sfx_stop 2
-sfx_set 2 Vox\6881.wav
-sfx_play 2
-
-line_set 「さきほど双厳さまが説明なされた事は『五行大義』に書かれている事ではありませんか」
-
-sfx_stop 2
-sfx_set 2 Vox\6880.wav
-sfx_play 2
-
-line_set 「この淡炎島には陰陽五行説などは関係ありません」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「いや、『五行大義』は単なる例であって」
-
-name_set 志乃
-
-sfx_set 2 Vox\6879.wav
-sfx_play 2
-
-line_set 「くすくす」
-
-sfx_stop 2
-sfx_set 2 Vox\6878.wav
-sfx_play 2
-
-line_set 「いいではありませんか」
-
-sfx_stop 2
-sfx_set 2 Vox\6877.wav
-sfx_play 2
-
-line_set 「そのような難しい話」
-
-sfx_stop 2
-sfx_set 2 Vox\6876.wav
-sfx_play 2
-
-line_set 「それに・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6875.wav
-sfx_play 2
-
-line_set 「双厳さま、その質問は戦略と関係あるのですか？」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 志乃が笑う。
-
-adv_on
-
-name_set 双厳
-
-line_set 「い、いや・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6874.wav
-sfx_play 2
-
-line_set 「ここではそのような風習がある」
-
-sfx_stop 2
-sfx_set 2 Vox\6873.wav
-sfx_play 2
-
-line_set 「それでいいのではないですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「う、うむ・・・」
-
-nvl_on
-
-line_set 畳みかけるように志乃は言葉を続ける。
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6872.wav
-sfx_play 2
-
-line_set 「それとも、双厳さまは何かこの島の信仰に関わることで知りたい事でもおありなのですか？」
-
-sfx_stop 2
-sfx_set 2 Vox\6871.wav
-sfx_play 2
-
-line_set 「何か知って双厳さまご自身に有益な事でもおありなのですか？」
-
-sfx_stop 2
-sfx_set 2 Vox\6870.wav
-sfx_play 2
-
-line_set 「くすくす・・・」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 志乃が何かを含んだ言い方で微笑する。
-
-adv_on
-
-name_set 双厳
-
-line_set 「い、いや、そういうわけではないが・・・」
-
-nvl_on
-
-line_set 「・・・」
-line_set 「この女・・・」
-line_set 「俺がこの島の事をさぐっていることを知っているような言い回しだ」
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6869.wav
-sfx_play 2
-
-line_set 「そういえば・・・」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 志乃は思い出したようにつぶやく。
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6868.wav
-sfx_play 2
-
-line_set 「双厳さまは諸国を漫遊していると聞きます」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「漫遊ではないがな・・・どちらかといえば流浪といったほうがあうな・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6867.wav
-sfx_play 2
-
-line_set 「近隣の村もまわられたのですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「うむ」
-line_set 「それが何か？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6866.wav
-sfx_play 2
-
-line_set 「ここは外の話が入り難い所でございます」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6865.wav
-sfx_play 2
-
-line_set 「わたくしも双厳さまにお聞きしてよいですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「別にかまわないが・・・」
-line_set 「なにか知りたいのか？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6864.wav
-sfx_play 2
-
-line_set 「巷では二重影なる異形の者がうろついていると聞きました」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳は眉毛一つ動かさずに志乃の言葉を聞く。
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6863.wav
-sfx_play 2
-
-line_set 「この二重影、二つの影を持つ者だといいます」
-
-sfx_stop 2
-sfx_set 2 Vox\6862.wav
-sfx_play 2
-
-line_set 「この話は双厳さまはお聞きになった事がありますか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「いや・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6861.wav
-sfx_play 2
-
-line_set 「なんでも、影が実体化して人々を襲うといいます」
-
-sfx_stop 2
-sfx_set 2 Vox\6860.wav
-sfx_play 2
-
-line_set 「すでに数百人がその二重影に殺されたと聞きます」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6859.wav
-sfx_play 2
-
-line_set 「役人などもこの異形を追っていると聞きますが・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6858.wav
-sfx_play 2
-
-line_set 「つかまらないみたいです」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6857.wav
-sfx_play 2
-
-line_set 「その者を追って、いろいろな力が動いているといいますよ」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「それで何が聞きたい？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6856.wav
-sfx_play 2
-
-line_set 「なんでも最近この二重影が近隣の村に出没したという、うわさを聞きまして・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6855.wav
-sfx_play 2
-
-line_set 「なんでも宿屋で十数名もの侍を斬って逃亡したとか・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「宿屋で襲ってきた柳生の刺客を斬った時の事か・・・」
-line_set 「さすがにあれだけ派手に斬ればこの辺でもうわさになるだろうな・・・」
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6854.wav
-sfx_play 2
-
-line_set 「くす」
-
-sfx_stop 2
-sfx_set 2 Vox\6853.wav
-sfx_play 2
-
-line_set 「双厳さま、なぜそのように恐ろしいお顔をなされますか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「いや・・・」
-line_set 「恐るべき話だと思い聞いていただけだ・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6852.wav
-sfx_play 2
-
-line_set 「双厳さまは二重影のおうわさはお聞きにならなかったのですか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「いや・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6851.wav
-sfx_play 2
-
-line_set 「時間的に双厳さまが近隣の村を歩いていた時間と合うのですが・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「それで・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6850.wav
-sfx_play 2
-
-line_set 「もしかしたら二重影なるものとお会いしていないものかと思いまして・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 「この前二重影を斬ったばかりなので、二つめの影は薄く普通の人間に見えるものではない」
-line_set 「今の俺を二重影であると感づくものはいないはずだが・・・」
-
-nvl_line_clear
-
-line_set 「この女の発言」
-line_set 「俺の存在に感づいているのか？」
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6849.wav
-sfx_play 2
-
-line_set 「ただ二重影の話を聞きますと」
-
-sfx_stop 2
-sfx_set 2 Vox\6848.wav
-sfx_play 2
-
-line_set 「この島にも似たような伝説がありますので・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「似たような伝説？」
-line_set 「それは？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6847.wav
-sfx_play 2
-
-line_set 「もしかしたら二重影はこの島になにか興味があるのではと・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「その伝説とはどのような伝説ですかな？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6846.wav
-sfx_play 2
-
-line_set 「この島の話」
-
-sfx_stop 2
-sfx_set 2 Vox\6845.wav
-sfx_play 2
-
-line_set 「とくに伝説はこの周辺の村々では有名です」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6844.wav
-sfx_play 2
-
-line_set 「双厳さまほどの知的好奇心が旺盛な方がしらないとは少し意外でした・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6843.wav
-sfx_play 2
-
-line_set 「いろいろと地方文化に興味がおありな双厳さまがその話を聞いていないとは・・・」
-
-sfx_stop 2
-sfx_set 2 Vox\6842.wav
-sfx_play 2
-
-line_set 「すでに近隣の村の方々から話を聞いているかと思いましたが・・・」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6841.wav
-sfx_play 2
-
-line_set 「ご存じないのでしたら、お教えしましょう」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 志乃は双厳の目をじっとみつめる。
-
-adv_on
-
-name_set 志乃
-
-sfx_set 2 Vox\6840.wav
-sfx_play 2
-
-line_set 「淡炎島で生まれる者はそのすべてが双子であり」
-
-sfx_stop 2
-sfx_set 2 Vox\6839.wav
-sfx_play 2
-
-line_set 「そして、その片方の子供はかならず殺されるという言い伝えです」
-
-sfx_stop 2
-
-nvl_on
-
-line_set 「まさにその通りだ」
-line_set 「この島で生まれた者はかならず双子であるという」
-line_set 「そして、かならずその片方がかならず殺されるというのだ」
-
-nvl_line_clear
-
-line_set 志乃は、無表情に双厳を見つめる。
-
-nvl_line_clear
-
-line_set 双厳は頭でもう一度この島にまつわる話を整理した。
-
-nvl_line_clear
-
-line_set まず、かならず双子という事、
-line_set たしかにこれはかなり奇妙な話だ、
-line_set が、それだけなら双厳はこの島に異常な興味はしめさなかっただろう。
-
-nvl_line_clear
-
-line_set 「この女の発言」
-line_set 「俺の存在に感づいているのか？」
-
-nvl_line_clear
-
-line_set 双厳がそれ以上に気になったのは、双子の片方がかならず間引かれるという事だ。
-line_set かならず殺されるというのは、そうしなければならない理由があるからに違いない。
-line_set そのような事はこの島にまつわる話をしてくれた老人も匂わせていた。
-
-nvl_line_clear
-
-line_set 殺されるにはなにか理由があるはずである。
-line_set もし、それが双子の片方が殺されなければならないほど邪悪な存在であるとしたら・・・。
-
-nvl_line_clear
-
-line_set 自分にうり二つのモノが生まれた瞬間に殺される・・・。
-line_set この光景を双厳はよく知っている。
-
-nvl_line_clear
-
-line_set その光景とはもちろん自分である。
-line_set 双厳は二重影が実体化して自らの体から分離しようとするときにかならず殺した。
-line_set もしかしたらこの島にかけられた双子の呪いとは、双厳にかけられた呪いと同種のものではなかろうか？
-line_set そう双厳は目星をつけていた。
-
-nvl_line_clear
-
-line_set つまり、この島で生まれる子供はかならず双子なのではなく。
-line_set 双厳のように、生まれるとともに邪悪なモノが二つに分離してしまうのではないか？
-line_set そうであるなら、ここに双厳の呪いを解く鍵があるかもしれない。
-line_set 彼はこのような考えのもとに島に渡っていた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「そ、それは本当の事なのか？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6838.wav
-sfx_play 2
-
-line_set 「くす」
-
-sfx_stop 2
-sfx_set 2 Vox\6837.wav
-sfx_play 2
-
-line_set 「そんな話が本当でございましょうか？」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「！？」
-line_set 「な、なら嘘なのか？」
-
-name_set 志乃
-
-sfx_set 2 Vox\6836.wav
-sfx_play 2
-
-line_set 「ふふふふふふふ」
-
-sfx_stop 2
-sfx_set 2 Vox\6835.wav
-sfx_play 2
-
-line_set 「さぁ、どうでしょうか」
-
-sfx_stop 2
-sfx_set 2 Vox\6834.wav
-sfx_play 2
-
-line_set 「どちらにしろ双厳さまにはこのような話、なんの意味もない事でございましょう」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6833.wav
-sfx_play 2
-
-line_set 「鳥居は、死者がでるたびに建てるものです」
-
-sfx_stop 2
-sfx_set 2 Vox\6832.wav
-sfx_play 2
-
-line_set 「たてる方角や場所に法則性はありません」
-
-sfx_stop 2
-sfx_set 2 Vox\6831.wav
-sfx_play 2
-
-line_set 「これだけお答えしておけば足りるでしょう」
-
-sfx_stop 2
-sfx_set 2 Vox\6830.wav
-sfx_play 2
-
-line_set 「あとは、地方文化に興味がおありな双厳さまが趣味でお調べになればよろしいこと」
-
-sfx_stop 2
-sfx_set 2 Vox\6829.wav
-sfx_play 2
-
-line_set 「阿波路家としましては、海賊からこの島をお守りしていただく以外の理由でお教えする事はありません」
-
-sfx_stop 2
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「そうだな・・・」
-
-name_set 志乃
-
-sfx_set 2 Vox\6828.wav
-sfx_play 2
-
-line_set 「それでは私も用事がありますのでこれで・・・」
-
-sfx_stop 2
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 志乃は大広間から消えた。
-
-nvl_line_clear
-
-line_set 「・・・」
-line_set 「あの女・・・」
-line_set 「どこまで感づいているんだ・・・」
-
-nvl_line_clear
-
-line_set 双厳は志乃が座っていた場所をじっと見つめていた。
-
-adv_on
-
-jump_auto 8
 @7
-@14
-@19
+    kgd_layer2_set 1 Kgd\B_033.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch1 19
 
-kgd_layer2_set 1 Kgd\B_033.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    nvl_on
+    line_set 阿波路家の屋敷の前だ。
+    line_set この玄関をくぐれば屋敷内に入ることが出来る。
 
-section_jump_branch1 19
+    adv_on
+    jump_choice @9 ◆山道へ移動
+    jump_choice @4 ◆屋敷内へ移動
+    jump_choice @10 ◆村への道へ移動
 
-nvl_on
-
-line_set 阿波路家の屋敷の前だ。
-line_set この玄関をくぐれば屋敷内に入ることが出来る。
-
-adv_on
-
-jump_choice 9 ◆山道へ移動
-jump_choice 10 ◆屋敷内へ移動
-jump_choice 11 ◆村への道へ移動
 @9
-@16
+    kgd_layer2_set 1 Kgd\B_013.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_013.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    jump_branch2 @11 19
+    nvl_on
+    line_set 屋敷からさらに山頂に向かう道を双厳は行く。
+    line_set それなりに勾配がある坂は、登る者の足を何倍にも重く感じさせる。
 
-jump_branch2 18694 19
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「結構距離があるんだよなぁ・・・」
 
-nvl_on
+    nvl_on
+    line_set ここを登れば大岩がある山頂。
+    line_set ここを下れば阿波路家の屋敷につく事になる。
 
-line_set 屋敷からさらに山頂に向かう道を双厳は行く。
-line_set それなりに勾配がある坂は、登る者の足を何倍にも重く感じさせる。
+    adv_on
+    jump_auto @12
 
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「結構距離があるんだよなぁ・・・」
-
-nvl_on
-
-line_set ここを登れば大岩がある山頂。
-line_set ここを下れば阿波路家の屋敷につく事になる。
-
-adv_on
-
-jump_auto 12
-!19
-
-nvl_on
-
-line_set 大岩がある山頂から山道をくだっていく双厳。
-line_set ここを降りきると阿波路の屋敷が見えてくる。
-line_set もちろん、この道をもどれば大岩のある山頂に行くことが出来る。
-@12
-
-jump_choice 13 ◆大岩へ移動
-jump_choice 14 ◆屋敷前へ移動
-@13
-
-kgd_layer2_set 1 Kgd\B_001.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-nvl_on
-
-line_set 阿波路家から続く山道を登り切ると、大岩がみえてくる。
-
-adv_on
-
-name_set 双厳
-
-line_set 「大岩だ・・・」
-
-nvl_on
-
-line_set 双厳は大岩についた。
-
-adv_on
-
-section_jump_branch2 19
-@18
-
-jump_choice 15 ◆登る
-jump_choice 16 ◆山道へ移動
-@15
-
-kgd_layer1_set 1 Kgd\Be_002.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-
-nvl_on
-
-line_set 眼下に海がひろがる。
-
-adv_on
-
-name_set 双厳
-
-line_set 「異常はないな・・・」
-
-nvl_on
-
-line_set 海上はこれといって変化もない。
-
-adv_on
-
-jump_choice 17 ◆降りる
-@17
-
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-
-jump_auto 18
 @11
-@21
+    nvl_on
+    line_set 大岩がある山頂から山道をくだっていく双厳。
+    line_set ここを降りきると阿波路の屋敷が見えてくる。
+    line_set もちろん、この道をもどれば大岩のある山頂に行くことが出来る。
 
-kgd_layer2_set 1 Kgd\B_041.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+@12
+    jump_choice @13 ◆大岩へ移動
+    jump_choice @7 ◆屋敷前へ移動
 
-nvl_on
+@13
+    kgd_layer2_set 1 Kgd\B_001.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-line_set 阿波路の屋敷と村を結ぶ道だ。
+    nvl_on
+    line_set 阿波路家から続く山道を登り切ると、大岩がみえてくる。
 
-adv_on
+    adv_on
+    name_set 双厳
+    line_set 「大岩だ・・・」
 
-jump_choice 19 ◆屋敷前へ移動
-jump_choice 20 ◆村へ移動
+    nvl_on
+    line_set 双厳は大岩についた。
+
+    adv_on
+    section_jump_branch2 19
+
+@16
+    jump_choice @14 ◆登る
+    jump_choice @9 ◆山道へ移動
+
+@14
+    kgd_layer1_set 1 Kgd\Be_002.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+
+    nvl_on
+    line_set 眼下に海がひろがる。
+
+    adv_on
+    name_set 双厳
+    line_set 「異常はないな・・・」
+
+    nvl_on
+    line_set 海上はこれといって変化もない。
+
+    adv_on
+    jump_choice @15 ◆降りる
+
+@15
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @16
+
+@10
+    kgd_layer2_set 1 Kgd\B_041.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    nvl_on
+    line_set 阿波路の屋敷と村を結ぶ道だ。
+
+    adv_on
+    jump_choice @7 ◆屋敷前へ移動
+    jump_choice @17 ◆村へ移動
+
+@17
+    kgd_layer2_set 1 Kgd\B_045.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    nvl_on
+    line_set 淡炎島でもっとも人が集まっている集落。
+    line_set 村というにはあまりに小さな集落であるが、ここでは立派な村なのであろう。
+
+    adv_on
+    jump_choice @10 ◆屋敷前への道へ移動
+    jump_choice @18 ◆海岸へ移動
+    jump_choice @19 ◆港へ移動
+
+@18
+    kgd_layer2_set 1 Kgd\B_049.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    nvl_on
+    line_set ここは淡炎島で唯一砂浜になっている。
+    line_set そのためか、無造作に建てられた鳥居がもっとも多く建てられている。
+
+    adv_on
+    jump_choice @17 ◆村へ移動
+    jump_choice @19 ◆港へ移動
+    jump_choice @20 ◆物見やぐらへ移動
+
 @20
-@24
-@28
+    kgd_layer2_set 1 Kgd\B_065.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-kgd_layer2_set 1 Kgd\B_045.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    nvl_on
+    line_set 物見やぐらだ
 
-nvl_on
+    adv_on
+    jump_choice @18 ◆海岸へ移動
 
-line_set 淡炎島でもっとも人が集まっている集落。
-line_set 村というにはあまりに小さな集落であるが、ここでは立派な村なのであろう。
+@19
+    kgd_layer2_set 1 Kgd\B_061.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-adv_on
+    nvl_on
+    line_set 港といっても、ただ岩場に板がかかっているようなものである。
+    line_set それでもこの島の住人にとっては、海の恩恵である海産物を取ったり、外部の世界とをつないだりと島の生
+    line_set 命線であるのだろう。
 
-jump_choice 21 ◆屋敷前への道へ移動
-jump_choice 22 ◆海岸へ移動
-jump_choice 23 ◆港へ移動
-@22
-@27
-@29
+    adv_on
+    jump_choice @17 ◆村へ移動
+    jump_choice @18 ◆海岸へ移動
 
-kgd_layer2_set 1 Kgd\B_049.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-nvl_on
-
-line_set ここは淡炎島で唯一砂浜になっている。
-line_set そのためか、無造作に建てられた鳥居がもっとも多く建てられている。
-
-adv_on
-
-jump_choice 24 ◆村へ移動
-jump_choice 25 ◆港へ移動
-jump_choice 26 ◆物見やぐらへ移動
-@26
-
-kgd_layer2_set 1 Kgd\B_065.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-nvl_on
-
-line_set 物見やぐらだ
-
-adv_on
-
-jump_choice 27 ◆海岸へ移動
-@23
-@25
-
-kgd_layer2_set 1 Kgd\B_061.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-nvl_on
-
-line_set 港といっても、ただ岩場に板がかかっているようなものである。
-line_set それでもこの島の住人にとっては、海の恩恵である海産物を取ったり、外部の世界とをつないだりと島の生
-line_set 命線であるのだろう。
-
-adv_on
-
-jump_choice 28 ◆村へ移動
-jump_choice 29 ◆海岸へ移動
 @8
-
-ksd_set Ksd\\006.ksd
-ksd_end
+    ksd_set Ksd\\006.ksd
+    ksd_end

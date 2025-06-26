@@ -1,1207 +1,1002 @@
+    sfx_set 0 Se\017.wav
+    sfx_play 0
+
+    kgd_layer1_set 0 Kgd\Da_010.kgd
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 4000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 2000
+    sfx_stop 0
+
+    kgd_layer1_set 0 Kgd\W_005.kgd
+    kgd_layer2_set 0 Kgd\B_069.kgd
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 1
+    music_play 11
+
+    jump_auto @0
 
-sfx_set 0 Se\017.wav
-sfx_play 0
-
-kgd_layer1_set 0 Kgd\Da_010.kgd
-kgd_layer1_display
-kgd_layer1_fx 1
-
-wait 4000
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-wait 2000
-
-sfx_stop 0
-
-kgd_layer1_set 0 Kgd\W_005.kgd
-kgd_layer2_set 0 Kgd\B_069.kgd
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 1
-
-music_play 11
-
-jump_auto 0
-@55
-
-kgd_layer2_set 1 Kgd\B_069.kgd
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@0
-
-jump_branch1 1633 175
-
-section_jump_branch1 175
-
-nvl_on
-
-line_set 双厳が調べものをしていると十兵衛がもどってきた。
-
-adv_on
-
-kgd_layer3_set 0 Kgd\Jy_003.kgd
-kgd_layer3_param 0 100 0 0 0 600 600
-kgd_layer3_display 0
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 十兵衛の服の端々に土や泥がついている。
-line_set それを目にすれば十兵衛が今までなにをやっていたのか容易に想像がつく。
-
-adv_on
-
-line_set 「・・・」
-line_set 「彩と北条を葬ってきたのか？」
-
-name_set 十兵衛
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 十兵衛は双厳の問いにも答えずにそのまま横になる。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-name_set 十兵衛
-
-line_set 「お前も少しは寝ておけ・・・」
-line_set 「昨日も寝ていないのだろう・・・」
-
-name_set 双厳
-
-line_set 「ああ・・・」
-
-name_set 十兵衛
-
-line_set 「戦いはまだ続く・・・」
-line_set 「いざというときにふらついていたらなんにもならんぞ」
-
-name_set 双厳
-
-line_set 「ああ・・・」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 双厳は適当に相づちをうつ。
-
-nvl_line_clear
-
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「・・・・・・・・・」
-
-nvl_line_clear
-
-line_set さらに何時間かたったであろうか。
-
-adv_on
-
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「そろそろ日が昇る時間だな・・・」
-
-nvl_on
-
-line_set ずっと座りながら本を読んでいたので関節の節々が痛む・・・。
-
-adv_on
-
-line_set 「ふぅ・・・」
-line_set 「もう三日は寝てないな・・・」
-
-nvl_on
-
-line_set 双厳は痛む身体を無理に動かそうとする。
-
-adv_on
-
-line_set 「・・・」
-line_set 「休んではいられない」
-
-nvl_on
-
-line_set その場から立ち上がる。
-line_set 何冊か積み上げられた書物が崩れるも、双厳は別に気にした様子もない。
-
-adv_on
-
-line_set 「東の遺跡を調べに行かなくては・・・」
-
-nvl_on
-
-line_set 軽く身体を伸ばすと、少しは身体が楽になった。
-
-adv_on
-
-line_set 「まだまだ動けるな・・・」
-
-nvl_on
-
-line_set 双厳は近くで寝る男の姿を見る。
-line_set 十兵衛はその疲れた身体を休ませていた。
-
-adv_on
-
-line_set 「・・・」
-line_set 「ほっとくか・・・」
-#175_0
-
-jump_choice 1 ◆外へ出る
-@32
-@44
-@76
-jump_branch1 1684 178
-
-kgd_layer2_set 1 Kgd\B_035.kgd
-
-jump_auto 2
-#178_1
-
-kgd_layer2_set 1 Kgd\B_033.kgd
-@2
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-section_jump_branch1 19
-
-jump_branch2 1879 175
-jump_branch1 1879 176
-
-section_jump_branch1 176
-
-nvl_on
-
-line_set まだあたりは薄暗い・・・。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「まだ夜明けには時間があるようだな・・・」
-line_set 「少し時間をつぶすか・・・」
-#176_2
-!175
-
-jump_choice 3 ◆山道へ移動
-jump_choice 4 ◆屋敷内へ移動
-jump_choice 5 ◆村への道へ移動
-@66
-jump_branch1 1978 178
-
-kgd_layer2_set 1 Kgd\B_067.kgd
-
-jump_auto 6
-#178_3
-
-kgd_layer2_set 1 Kgd\B_065.kgd
-@6
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch1 2861 177
-jump_branch2 2861 176
-
-section_jump_branch1 177
-
-nvl_on
-
-line_set 海が見渡せる物見やぐらの横に墓が二つある。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「・・・・・・」
-
-nvl_on
-
-line_set 十兵衛が北条と彩を葬ったのであろう。
-
-adv_on
-
-line_set 「・・・」
-line_set 「仲間を持つか・・・」
-
-nvl_on
-
-line_set 双厳に十兵衛の言葉がよぎる・・・。
-
-nvl_line_clear
-
-line_set 「こうやって・・・」
-line_set 「俺達はずっと戦ってきたんだよ・・・」
-line_set 「人と共に生き」
-line_set 「人と共に死す」
-line_set 「それには」
-line_set 「耐えなければいけない事が多々あるんだ・・・」
-line_set 「か・・・」
-
-adv_on
-
-line_set 「・・・」
-line_set 「人と共に生き」
-line_set 「そして」
-line_set 「人と共に死すか・・・」
-
-nvl_on
-
-line_set 人は飛ぶ鳥と生きていけるだろうか？
-line_set 人は獣とともに生きていけるだろうか？
-line_set 私はなにとともに生きていくべきであろうか？
-
-nvl_line_clear
-
-line_set 大昔の賢者の言葉である。
-line_set この問いなど、
-line_set 双厳でなくとも答える事はできないかもしれない。
-
-nvl_line_clear
-
-line_set そしてそれは現代に住む我々とて、そこからは自由ではないかもしれない。
-
-adv_on
-#177_4
-!176
-
-jump_choice 7 ◆海岸へ移動
-@34
-jump_branch1 2914 178
-
-kgd_layer2_set 1 Kgd\B_023.kgd
-
-jump_auto 8
-#178_5
-
-kgd_layer2_set 1 Kgd\B_021.kgd
-@8
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch2 4301 177
-jump_branch1 4301 178
-
-music_play 10
-
-section_jump_branch1 178
-
-nvl_on
-
-line_set 双厳が東の遺跡に到着する頃、
-line_set ちょうど朝日が昇り始めていた。
-
-adv_on
-
-name_set 双厳
-
-line_set 「ちょうどよいタイミングだな」
-
-nvl_on
-
-line_set 双厳は東の遺跡の入り口をくぐる。
-
-adv_on
-
-kgd_layer1_set 1 Kgd\Be_017.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_fade_unk 0
-kgd_layer1_clear 1
-
-nvl_on
-
-line_set 遺跡の中は薄暗い。
-
-adv_on
-
-name_set 双厳
-
-line_set 「少し早かった・・・」
-
-nvl_on
-
-line_set 双厳は、このちょうど東側に位置し、方向も東側を向けて作ってあるこの遺跡は、
-line_set 西の遺跡同様、朝日を受ける事により壁画に光りの像をとふんでいた。
-
-adv_on
-
-line_set 「・・・」
-line_set 「そろそろだな・・・」
-
-nvl_on
-
-line_set 遺跡の入り口付近の天井の壁はくりぬかれており、
-line_set 光を取り込むようになっている。
-
-adv_on
-
-line_set 「おっ・・・」
-
-kgd_layer1_set 1 Kgd\Be_018.kgd
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-
-wait 2000
-
-nvl_on
-
-line_set くりぬかれた場所から朝日が入り。
-line_set 奥の壁画に光りの像を結ぶ・・・。
-
-adv_on
-
-line_set 「・・・」
-line_set 「・・・・・・」
-
-nvl_on
-
-line_set たしかに光によってなにかが浮かび上がってはいるものの、それがなにであるかはわからなかった。
-
-adv_on
-
-line_set 「・・・」
-line_set 「西の遺跡と同じだな・・・」
-line_set 「しかし、これがなんであるかわからないな・・・」
-
-nvl_on
-
-line_set 光の像を眺める双厳ではあるが、それがなんであるのかはいくら考えてもやはりわからなかった。
-
-nvl_line_clear
-
-line_set そうこうしているうちに朝日は昇りきり、それに合わせ壁画の光の像も四散してしまった。
-
-adv_on
-
-kgd_layer1_crossfade 0
-kgd_layer1_fadein
-kgd_layer1_clear 1
-
-music_play 13
-
-nvl_on
-
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「・・・・・・・・・」
-
-adv_on
-
-line_set 「くそ・・・」
-line_set 「なにも分からずじまいか・・・」
-
-nvl_on
-
-line_set 双厳は遺跡を後にした。
-
-adv_on
-
-kgd_layer1_set 1 Kgd\W_005.kgd
-kgd_layer2_set 0 Kgd\B_021.kgd
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-@38
-@39
-#178_6
-!177
-
-jump_choice 9 ◆遺跡の中に入る
-jump_choice 10 ◆森林へ移動
-@41
-jump_branch1 4378 178
-
-kgd_layer2_set 1 Kgd\B_076.kgd
-
-jump_auto 11
-#178_7
-
-kgd_layer2_set 1 Kgd\B_074.kgd
-@11
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch1 5685 179
-jump_branch2 5685 178
-
-section_jump_branch1 179
-
-nvl_on
-
-line_set 自室に到着するなり、双厳はその場で倒れるように横になる。
-line_set 双厳が自室で横になるのはひさしぶりの事だ。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「と言うか・・・」
-line_set 「ここのところ寝ていないのだがな・・・」
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳は瞼を閉じ遺跡の事を考えていた。
-
-nvl_line_clear
-
-line_set 「西遺跡と東遺跡・・・」
-line_set 「これが何であるかはだいたい予測はついている」
-line_set 「が・・・まだ確証がない・・・」
-line_set 「あれが何であるか予測がついてもしかたがない」
-line_set 「どうやって使うかが問題なのだ・・・」
-
-nvl_line_clear
-
-line_set 双厳には、バラバラに散らばるすべての謎が一つにまとまるような、
-line_set そんな予感に似た何かを掴みつつあった。
-
-nvl_line_clear
-
-line_set だが、それはあと一歩のところまできていながら、未だにまとまる事がなく、
-line_set 全体の輪郭をぼんやりとしめしながらも、それを捕まえようとすると、
-line_set 手元から崩れるようにバラバラになってしまうのだった。
-
-adv_on
-
-line_set 「ふぅ・・・」
-
-nvl_on
-
-line_set とりあえず何も分からなかった以上、みすみす坊主を迎える事になる。
-line_set しかしそれでは楓玲も北条らと同じ運命を辿ることになる。
-
-nvl_line_clear
-
-line_set 「呪いの謎が解けないのであれば・・・」
-line_set 「九字兼定の力を解き放つだけ・・・」
-line_set 「今度こそ・・・」
-line_set 「・・・」
-
-nvl_line_clear
-
-line_set 数分そのまま双厳は瞼を閉じる・・・。
-
-adv_on
-
-line_set 「・・・」
-line_set 「寝付けないな・・・」
-line_set 「しかたない・・・」
-
-nvl_on
-
-line_set 双厳は立ち上がる。
-
-adv_on
-
-line_set 「少し歩くか・・・」
-#179_8
-!178
-
-jump_choice 12 ◆廊下へ移動
-@67
-@70
-jump_branch1 5738 178
-
-kgd_layer2_set 1 Kgd\B_055.kgd
-
-jump_auto 13
-#178_9
-
-kgd_layer2_set 1 Kgd\B_053.kgd
-@13
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_branch2 6815 275
-jump_branch1 6815 180
-
-section_jump_branch1 180
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳はじっと池を見つめていた。
-line_set 異形のことを考えて、行き着いた先がこの場所に過ぎなかった。
-line_set そしてこの行動は、双厳に新たな疑問を起こさせている。
-
-adv_on
-
-line_set 「・・・」
-line_set 「なんでだ？」
-line_set 「なぜヤツはかならずこの池から現れるんだ・・・」
-line_set 「なにか・・・」
-line_set 「なにか意味があるのか？」
-
-nvl_on
-
-line_set 池の周りを少し歩いてみる。
-
-nvl_line_clear
-
-line_set 「特におかしな所などない・・・」
-
-nvl_line_clear
-
-line_set さらに池の周りを調べていくが、
-line_set それは、
-line_set ただの池。
-
-nvl_line_clear
-
-line_set どこにでもありそうな池であった。
-
-adv_on
-
-line_set 「・・・」
-line_set 「考え過ぎか・・・」
-
-nvl_on
-
-line_set 双厳には目に映るすべての要素が謎を解く鍵であるような思いに駆られていた。
-line_set それが双厳を混乱させていく。
-
-nvl_line_clear
-
-line_set 空が青いのも、
-line_set 太陽が東からのぼり西へ落ちる事も、
-line_set 風がそよぐ事も、
-
-nvl_line_clear
-
-line_set この世界にあるすべてが、
-line_set 謎の答えであるような気がしてしまう。
-
-nvl_line_clear
-
-line_set 強迫観念にとらわれた患者のように、
-line_set 双厳は、そこいらにあるモノすべての謎を解かなければならないような気がしていた。
-
-adv_on
-
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「少し寝た方がいいな・・・」
-#180_10
-!275
-
-jump_choice 14 ◆遺跡へ移動
-jump_choice 15 ◆海岸へ移動
-@30
-jump_branch1 6888 178
-
-kgd_layer2_set 1 Kgd\B_003.kgd
-
-jump_auto 16
-#178_11
-
-kgd_layer2_set 1 Kgd\B_001.kgd
-@16
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-section_jump_branch2 19
-
-jump_branch1 7053 181
-jump_branch2 7053 180
-
-section_jump_branch1 181
-
-name_set 双厳
-
-line_set 「・・・」
-line_set 「あの岩の上にでも登ろうか・・・」
-
-nvl_on
-
-line_set 双厳は大岩の頂上に登る事にした。
-
-adv_on
-
-jump_auto 17
-@28
-#181_12
-!180
-jump_choice 18 ◆登る
-jump_choice 19 ◆山道へ移動
-@17
-@18
-@26
-@27
-jump_branch1 7233 181
-jump_branch1 7187 178
-jump_branch1 7149 286
-
-kgd_layer1_set 1 Kgd\Be_010.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer1_clear 1
-kgd_layer2_clear
-
-jump_auto 20
-#286_15
-
-kgd_layer1_set 1 Kgd\Be_013.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer1_clear 1
-kgd_layer2_clear
-
-jump_auto 21
-#178_14
-jump_branch1 7233 286
-
-kgd_layer1_set 1 Kgd\Be_008.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer1_clear 1
-kgd_layer2_clear
-
-jump_auto 22
-#181_13
-#286_16
-
-kgd_layer1_set 1 Kgd\Be_011.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer1_clear 1
-kgd_layer2_clear
-@20
-@21
-@22
-
-jump_branch2 9053 181
-
-music_play 5
-
-nvl_on
-
-line_set 大岩からは淡島がきれいに見える。
-
-adv_on
-
-name_set 双厳
-
-line_set 「・・・」
-
-nvl_on
-
-line_set 双厳は蜃気楼の島をずっと眺めていた。
-
-adv_on
-
-line_set 「・・・」
-line_set 「なんかずっと見ていると」
-line_set 「あの蜃気楼が実体で」
-line_set 「俺のいるこの島が蜃気楼であるような気がしてくるな・・・」
-
-nvl_on
-
-line_set 蜃気楼というにはあまりにも鮮明な姿であった。
-
-adv_on
-
-line_set 「・・・」
-line_set 「八方ふさがりか・・・」
-
-nvl_on
-
-line_set 双厳は精も魂も尽き果てたように、大岩の上で横になる。
-
-adv_on
-
-kgd_layer1_set 1 Kgd\Be_021.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-kgd_layer1_clear 1
-
-line_set 「空か・・・」
-
-nvl_on
-
-line_set 双厳はぼんやりとイルとスイに話してやった空の話を思い出していた。
-
-adv_on
-
-line_set 「空はどこまでも続く・・・か」
-line_set 「それは海も同じ事・・・」
-line_set 「海も空も永遠に続く・・・」
-line_set 「永遠か・・・」
-
-nvl_on
-
-line_set 双厳の疲れ果てた頭は取り止めもないものばかりを浮かびあがらせる。
-
-adv_on
-
-line_set 「空と海が永遠に続かなければ、人間は幸せに生きられるのかもしれないな・・・」
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「眠いな・・・」
-line_set 「俺が、ここで寝ても、何時間後には目を覚ます」
-line_set 「なのに」
-line_set 「死んでいった者達は永遠に目をさます事はない」
-line_set 「・・・」
-line_set 「呪いで死んでいった北条や彩も・・・」
-line_set 「その他の用心棒も・・・」
-line_set 「そして俺が斬ってきた何百もの人間も・・・」
-line_set 「永遠に目を覚ます事はない・・・」
-line_set 「それが幸か不幸かなど分からない・・・」
-line_set 「分かるわけなどない・・・」
-line_set 「ただ・・・」
-line_set 「今は・・・」
-line_set 「異常に眠い・・・」
-line_set 「眠い・・・」
-line_set 「眠いな・・・」
-
-nvl_on
-
-line_set 双厳の考えは徐々にまとまらなくなっていく。
-
-adv_on
-
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「今は死者を弔う時ではないか・・・」
-
-nvl_on
-
-line_set 十兵衛の言葉を思い出す。
-
-adv_on
-
-line_set 「もしかしたら、俺達が死者に弔われる時なのかもしれないな・・・」
-line_set 「北条や彩達に・・・」
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「・・・・・・・・・」
-
-nvl_on
-
-line_set 「・・・」
-line_set 「・・・・・・」
-line_set 「・・・・・・・・・」
-
-adv_on
-
-jump_auto 23
-!181
-jump_choice 24 ◆反対側を見る
-jump_choice 25 ◆降りる
-@24
-jump_branch1 9109 286
-
-section_jump_branch1 286
-
-jump_auto 26
-#286_17
-
-section_jump_branch2 286
-
-jump_auto 27
-@25
-
-section_jump_branch2 286
-
-kgd_layer1_set 1 Kgd\W_005.kgd
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-
-jump_auto 28
-@3
-@19
-@35
-jump_branch1 9193 178
-
-kgd_layer2_set 1 Kgd\B_015.kgd
-
-jump_auto 29
-#178_18
-
-kgd_layer2_set 1 Kgd\B_013.kgd
-@29
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 30 ◆大岩へ移動
-jump_choice 31 ◆森林へ移動
-jump_choice 32 ◆屋敷前へ移動
-@10
-@31
-jump_branch1 9317 178
-
-kgd_layer2_set 1 Kgd\B_019.kgd
-
-jump_auto 33
-#178_19
-
-kgd_layer2_set 1 Kgd\B_017.kgd
-@33
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 34 ◆遺跡へ移動
-jump_choice 35 ◆山道へ移動
-@9
-jump_branch1 9408 178
-
-kgd_layer1_fx 0
-kgd_layer1_blackout
-kgd_layer2_clear
-
-jump_auto 36
-#178_20
-
-kgd_layer1_set 1 Kgd\Be_017.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-@36
-
-jump_choice 37 ◆遺跡の外に出る
-@37
-jump_branch1 9482 178
-
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 1
-
-jump_auto 38
-#178_21
-
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-
-jump_auto 39
-@4
-@12
-@47
-@50
-jump_branch1 9533 178
-
-kgd_layer2_set 1 Kgd\B_031.kgd
-
-jump_auto 40
-#178_22
-
-kgd_layer2_set 1 Kgd\B_029.kgd
-@40
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 41 ◆自室へ移動
-jump_choice 42 ◆大広間へ移動
-jump_choice 43 ◆蔵の前へ移動
-jump_choice 44 ◆屋敷外へ移動
-@42
-@54
-jump_branch1 9681 178
-
-kgd_layer2_set 1 Kgd\B_011.kgd
-
-jump_auto 45
-#178_23
-
-kgd_layer2_set 1 Kgd\B_009.kgd
-@45
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 46 ◆志乃の部屋へ移動
-jump_choice 47 ◆廊下へ移動
-@43
-@52
-jump_branch1 9789 178
-
-kgd_layer2_set 1 Kgd\B_027.kgd
-
-jump_auto 48
-#178_24
-
-kgd_layer2_set 1 Kgd\B_025.kgd
-@48
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 49 ◆蔵に入る
-jump_choice 50 ◆廊下へ移動
-@49
-jump_branch1 9889 178
-
-kgd_layer2_set 1 Kgd\B_073.kgd
-
-jump_auto 51
-#178_25
-
-kgd_layer2_set 1 Kgd\B_071.kgd
-@51
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 52 ◆蔵から出る
-@1
-@46
-jump_branch1 9971 178
-
-kgd_layer2_set 1 Kgd\B_007.kgd
-
-jump_auto 53
-#178_26
-
-kgd_layer2_set 1 Kgd\B_005.kgd
-@53
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 54 ◆大広間へ移動
-jump_choice 55 ◆隠し地下室へ移動
-@61
-@64
-@77
-jump_branch1 10081 178
-
-kgd_layer2_set 1 Kgd\B_047.kgd
-
-jump_auto 56
-#178_27
-
-kgd_layer2_set 1 Kgd\B_045.kgd
-@56
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 57 ◆屋敷前への道へ移動
-jump_choice 58 ◆海岸へ移動
-jump_choice 59 ◆港へ移動
-@59
-@65
-jump_branch1 10209 178
-
-kgd_layer2_set 1 Kgd\B_063.kgd
-
-jump_auto 60
-#178_28
-
-kgd_layer2_set 1 Kgd\B_061.kgd
-@60
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-
-jump_choice 61 ◆村へ移動
-jump_choice 62 ◆海岸へ移動
-@7
-@15
-@58
-@62
-jump_branch1 10309 178
-
-kgd_layer2_set 1 Kgd\B_051.kgd
-
-jump_auto 63
-#178_29
-
-kgd_layer2_set 1 Kgd\B_049.kgd
 @63
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+    kgd_layer2_set 1 Kgd\B_069.kgd
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-jump_branch1 10910 275
-jump_branch2 10910 179
+@0
+    jump_branch1 @1 175
+    section_jump_branch1 175
 
-kgd_layer3_set 0 Kgd\Ma_002.kgd
-kgd_layer3_param 0 252 0 0 0 296 600
-kgd_layer3_display 0
+    nvl_on
+    line_set 双厳が調べものをしていると十兵衛がもどってきた。
 
-section_jump_branch1 275
+    adv_on
+    kgd_layer3_set 0 Kgd\Jy_003.kgd
+    kgd_layer3_param 0 100 0 0 0 600 600
+    kgd_layer3_display 0
 
-name_set 双厳
+    name_set 双厳
+    line_set 「・・・」
 
-line_set 「舞・・・」
+    nvl_on
+    line_set 十兵衛の服の端々に土や泥がついている。
+    line_set それを目にすれば十兵衛が今までなにをやっていたのか容易に想像がつく。
 
-name_set 舞
+    adv_on
+    line_set 「・・・」
+    line_set 「彩と北条を葬ってきたのか？」
 
-line_set 「・・・」
+    name_set 十兵衛
+    line_set 「・・・」
 
-sfx_set 2 Vox\4202.wav
-sfx_play 2
+    nvl_on
+    line_set 十兵衛は双厳の問いにも答えずにそのまま横になる。
 
-line_set 「いよいよだね双厳ちゃん」
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
 
-sfx_stop 2
+    name_set 十兵衛
+    line_set 「お前も少しは寝ておけ・・・」
+    line_set 「昨日も寝ていないのだろう・・・」
 
-name_set 双厳
+    name_set 双厳
+    line_set 「ああ・・・」
 
-line_set 「？」
-line_set 「なにがだ？」
+    name_set 十兵衛
+    line_set 「戦いはまだ続く・・・」
+    line_set 「いざというときにふらついていたらなんにもならんぞ」
 
-name_set 舞
+    name_set 双厳
+    line_set 「ああ・・・」
 
-sfx_set 2 Vox\4201.wav
-sfx_play 2
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
 
-line_set 「仕事も大詰めって事よん」
+    nvl_on
+    line_set 双厳は適当に相づちをうつ。
+    nvl_line_clear
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「・・・・・・・・・」
+    nvl_line_clear
+    line_set さらに何時間かたったであろうか。
 
-sfx_stop 2
+    adv_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「そろそろ日が昇る時間だな・・・」
 
-name_set 双厳
+    nvl_on
+    line_set ずっと座りながら本を読んでいたので関節の節々が痛む・・・。
 
-line_set 「？」
+    adv_on
+    line_set 「ふぅ・・・」
+    line_set 「もう三日は寝てないな・・・」
 
-name_set 舞
+    nvl_on
+    line_set 双厳は痛む身体を無理に動かそうとする。
 
-sfx_set 2 Vox\4200.wav
-sfx_play 2
+    adv_on
+    line_set 「・・・」
+    line_set 「休んではいられない」
 
-line_set 「また会いましょうねぇ～」
+    nvl_on
+    line_set その場から立ち上がる。
+    line_set 何冊か積み上げられた書物が崩れるも、双厳は別に気にした様子もない。
 
-sfx_stop 2
+    adv_on
+    line_set 「東の遺跡を調べに行かなくては・・・」
 
-name_set 双厳
+    nvl_on
+    line_set 軽く身体を伸ばすと、少しは身体が楽になった。
 
-line_set 「ど、どういう事だ！！」
+    adv_on
+    line_set 「まだまだ動けるな・・・」
 
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
+    nvl_on
+    line_set 双厳は近くで寝る男の姿を見る。
+    line_set 十兵衛はその疲れた身体を休ませていた。
 
-name_set 双厳
+    adv_on
+    line_set 「・・・」
+    line_set 「ほっとくか・・・」
 
-line_set 「？！」
+@1
+    jump_choice @2 ◆外へ出る
 
-nvl_on
+@41
+    jump_branch1 @3 178
+    kgd_layer2_set 1 Kgd\B_035.kgd
+    jump_auto @4
 
-line_set 双厳が呼び止めようとした時には舞の姿はなかった。
+@3
+    kgd_layer2_set 1 Kgd\B_033.kgd
 
-adv_on
+@4
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch1 19
 
-name_set 双厳
+    jump_branch2 @5 175
+    jump_branch1 @5 176
+    section_jump_branch1 176
 
-line_set 「・・・」
-line_set 「あいつ・・・」
-line_set 「いったい何者なんだ・・・」
-#275_30
-!179
+    nvl_on
+    line_set まだあたりは薄暗い・・・。
 
-jump_choice 64 ◆村へ移動
-jump_choice 65 ◆港へ移動
-jump_choice 66 ◆物見やぐらへ移動
-jump_choice 67 ◆森林へ移動
-@14
-jump_branch1 11025 178
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「まだ夜明けには時間があるようだな・・・」
+    line_set 「少し時間をつぶすか・・・」
 
-kgd_layer2_set 1 Kgd\B_059.kgd
-
-jump_auto 68
-#178_31
-
-kgd_layer2_set 1 Kgd\B_057.kgd
-@68
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
-@73
-@74
-
-jump_choice 69 ◆遺跡の中に入る
-jump_choice 70 ◆森林へ移動
-@69
-jump_branch1 11120 178
-
-kgd_layer1_fx 0
-kgd_layer1_blackout
-kgd_layer2_clear
-
-jump_auto 71
-#178_32
-
-kgd_layer1_set 1 Kgd\Be_017.kgd
-kgd_layer1_fx 6
-kgd_layer1_fadein
-kgd_layer2_clear
-@71
-
-jump_choice 72 ◆遺跡の外に出る
-@72
-jump_branch1 11194 178
-
-kgd_layer1_display
-kgd_layer2_display
-kgd_layer1_fx 1
-
-jump_auto 73
-#178_33
-
-kgd_layer1_fadein
-kgd_layer2_display
-kgd_layer1_fx 7
-kgd_layer1_clear 1
-
-jump_auto 74
 @5
-@57
-jump_branch1 11245 178
+    jump_choice @6 ◆山道へ移動
+    jump_choice @7 ◆屋敷内へ移動
+    jump_choice @8 ◆村への道へ移動
 
-kgd_layer2_set 1 Kgd\B_043.kgd
+@73
+    jump_branch1 @9 178
+    kgd_layer2_set 1 Kgd\B_067.kgd
+    jump_auto @10
 
-jump_auto 75
-#178_34
+@9
+    kgd_layer2_set 1 Kgd\B_065.kgd
 
-kgd_layer2_set 1 Kgd\B_041.kgd
-@75
-kgd_layer2_crossfade 0
-kgd_layer2_fadein
-kgd_layer2_fade_unk 1
+@10
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
 
-jump_choice 76 ◆屋敷前へ移動
-jump_choice 77 ◆村へ移動
+    jump_branch1 @11 177
+    jump_branch2 @11 176
+    section_jump_branch1 177
+
+    nvl_on
+    line_set 海が見渡せる物見やぐらの横に墓が二つある。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「・・・・・・」
+
+    nvl_on
+    line_set 十兵衛が北条と彩を葬ったのであろう。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「仲間を持つか・・・」
+
+    nvl_on
+    line_set 双厳に十兵衛の言葉がよぎる・・・。
+    nvl_line_clear
+    line_set 「こうやって・・・」
+    line_set 「俺達はずっと戦ってきたんだよ・・・」
+    line_set 「人と共に生き」
+    line_set 「人と共に死す」
+    line_set 「それには」
+    line_set 「耐えなければいけない事が多々あるんだ・・・」
+    line_set 「か・・・」
+
+    adv_on
+    line_set 「・・・」
+    line_set 「人と共に生き」
+    line_set 「そして」
+    line_set 「人と共に死すか・・・」
+
+    nvl_on
+    line_set 人は飛ぶ鳥と生きていけるだろうか？
+    line_set 人は獣とともに生きていけるだろうか？
+    line_set 私はなにとともに生きていくべきであろうか？
+    nvl_line_clear
+    line_set 大昔の賢者の言葉である。
+    line_set この問いなど、
+    line_set 双厳でなくとも答える事はできないかもしれない。
+    nvl_line_clear
+    line_set そしてそれは現代に住む我々とて、そこからは自由ではないかもしれない。
+
+    adv_on
+
+@11
+    jump_choice @12 ◆海岸へ移動
+
+@44
+    jump_branch1 @13 178
+    kgd_layer2_set 1 Kgd\B_023.kgd
+    jump_auto @14
+
+@13
+    kgd_layer2_set 1 Kgd\B_021.kgd
+
+@14
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch2 @15 177
+    jump_branch1 @15 178
+    music_play 10
+    section_jump_branch1 178
+
+    nvl_on
+    line_set 双厳が東の遺跡に到着する頃、
+    line_set ちょうど朝日が昇り始めていた。
+
+    adv_on
+    name_set 双厳
+    line_set 「ちょうどよいタイミングだな」
+
+    nvl_on
+    line_set 双厳は東の遺跡の入り口をくぐる。
+
+    adv_on
+    kgd_layer1_set 1 Kgd\Be_017.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_fade_unk 0
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 遺跡の中は薄暗い。
+
+    adv_on
+    name_set 双厳
+    line_set 「少し早かった・・・」
+
+    nvl_on
+    line_set 双厳は、このちょうど東側に位置し、方向も東側を向けて作ってあるこの遺跡は、
+    line_set 西の遺跡同様、朝日を受ける事により壁画に光りの像をとふんでいた。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「そろそろだな・・・」
+
+    nvl_on
+    line_set 遺跡の入り口付近の天井の壁はくりぬかれており、
+    line_set 光を取り込むようになっている。
+
+    adv_on
+    line_set 「おっ・・・」
+
+    kgd_layer1_set 1 Kgd\Be_018.kgd
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    wait 2000
+
+    nvl_on
+    line_set くりぬかれた場所から朝日が入り。
+    line_set 奥の壁画に光りの像を結ぶ・・・。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+
+    nvl_on
+    line_set たしかに光によってなにかが浮かび上がってはいるものの、それがなにであるかはわからなかった。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「西の遺跡と同じだな・・・」
+    line_set 「しかし、これがなんであるかわからないな・・・」
+
+    nvl_on
+    line_set 光の像を眺める双厳ではあるが、それがなんであるのかはいくら考えてもやはりわからなかった。
+    nvl_line_clear
+    line_set そうこうしているうちに朝日は昇りきり、それに合わせ壁画の光の像も四散してしまった。
+
+    adv_on
+    kgd_layer1_crossfade 0
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    music_play 13
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「・・・・・・・・・」
+
+    adv_on
+    line_set 「くそ・・・」
+    line_set 「なにも分からずじまいか・・・」
+
+    nvl_on
+    line_set 双厳は遺跡を後にした。
+
+    adv_on
+    kgd_layer1_set 1 Kgd\W_005.kgd
+    kgd_layer2_set 0 Kgd\B_021.kgd
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+@15
+    jump_choice @16 ◆遺跡の中に入る
+    jump_choice @17 ◆森林へ移動
+
+@51
+    jump_branch1 @18 178
+    kgd_layer2_set 1 Kgd\B_076.kgd
+    jump_auto @19
+
+@18
+    kgd_layer2_set 1 Kgd\B_074.kgd
+
+@19
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @20 179
+    jump_branch2 @20 178
+    section_jump_branch1 179
+
+    nvl_on
+    line_set 自室に到着するなり、双厳はその場で倒れるように横になる。
+    line_set 双厳が自室で横になるのはひさしぶりの事だ。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「と言うか・・・」
+    line_set 「ここのところ寝ていないのだがな・・・」
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳は瞼を閉じ遺跡の事を考えていた。
+    nvl_line_clear
+    line_set 「西遺跡と東遺跡・・・」
+    line_set 「これが何であるかはだいたい予測はついている」
+    line_set 「が・・・まだ確証がない・・・」
+    line_set 「あれが何であるか予測がついてもしかたがない」
+    line_set 「どうやって使うかが問題なのだ・・・」
+    nvl_line_clear
+    line_set 双厳には、バラバラに散らばるすべての謎が一つにまとまるような、
+    line_set そんな予感に似た何かを掴みつつあった。
+    nvl_line_clear
+    line_set だが、それはあと一歩のところまできていながら、未だにまとまる事がなく、
+    line_set 全体の輪郭をぼんやりとしめしながらも、それを捕まえようとすると、
+    line_set 手元から崩れるようにバラバラになってしまうのだった。
+
+    adv_on
+    line_set 「ふぅ・・・」
+
+    nvl_on
+    line_set とりあえず何も分からなかった以上、みすみす坊主を迎える事になる。
+    line_set しかしそれでは楓玲も北条らと同じ運命を辿ることになる。
+    nvl_line_clear
+    line_set 「呪いの謎が解けないのであれば・・・」
+    line_set 「九字兼定の力を解き放つだけ・・・」
+    line_set 「今度こそ・・・」
+    line_set 「・・・」
+    nvl_line_clear
+    line_set 数分そのまま双厳は瞼を閉じる・・・。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「寝付けないな・・・」
+    line_set 「しかたない・・・」
+
+    nvl_on
+    line_set 双厳は立ち上がる。
+
+    adv_on
+    line_set 「少し歩くか・・・」
+
+@20
+    jump_choice @7 ◆廊下へ移動
+
+@74
+    jump_branch1 @21 178
+    kgd_layer2_set 1 Kgd\B_055.kgd
+    jump_auto @22
+
+@21
+    kgd_layer2_set 1 Kgd\B_053.kgd
+
+@22
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch2 @23 275
+    jump_branch1 @23 180
+    section_jump_branch1 180
+
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳はじっと池を見つめていた。
+    line_set 異形のことを考えて、行き着いた先がこの場所に過ぎなかった。
+    line_set そしてこの行動は、双厳に新たな疑問を起こさせている。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「なんでだ？」
+    line_set 「なぜヤツはかならずこの池から現れるんだ・・・」
+    line_set 「なにか・・・」
+    line_set 「なにか意味があるのか？」
+
+    nvl_on
+    line_set 池の周りを少し歩いてみる。
+    nvl_line_clear
+    line_set 「特におかしな所などない・・・」
+    nvl_line_clear
+    line_set さらに池の周りを調べていくが、
+    line_set それは、
+    line_set ただの池。
+    nvl_line_clear
+    line_set どこにでもありそうな池であった。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「考え過ぎか・・・」
+
+    nvl_on
+    line_set 双厳には目に映るすべての要素が謎を解く鍵であるような思いに駆られていた。
+    line_set それが双厳を混乱させていく。
+    nvl_line_clear
+    line_set 空が青いのも、
+    line_set 太陽が東からのぼり西へ落ちる事も、
+    line_set 風がそよぐ事も、
+    nvl_line_clear
+    line_set この世界にあるすべてが、
+    line_set 謎の答えであるような気がしてしまう。
+    nvl_line_clear
+    line_set 強迫観念にとらわれた患者のように、
+    line_set 双厳は、そこいらにあるモノすべての謎を解かなければならないような気がしていた。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「少し寝た方がいいな・・・」
+
 @23
+    jump_choice @24 ◆遺跡へ移動
+    jump_choice @12 ◆海岸へ移動
 
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer2_fade_unk 0
+@40
+    jump_branch1 @25 178
+    kgd_layer2_set 1 Kgd\B_003.kgd
+    jump_auto @26
 
-music_stop
+@25
+    kgd_layer2_set 1 Kgd\B_001.kgd
 
-ksd_set Ksd\030.ksd
-ksd_end
+@26
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+    section_jump_branch2 19
+
+    jump_branch1 @27 181
+    jump_branch2 @27 180
+    section_jump_branch1 181
+
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「あの岩の上にでも登ろうか・・・」
+
+    nvl_on
+    line_set 双厳は大岩の頂上に登る事にした。
+
+    adv_on
+    jump_auto @28
+
+@27
+    jump_choice @28 ◆登る
+    jump_choice @6 ◆山道へ移動
+
+@28
+    jump_branch1 @29 181
+    jump_branch1 @30 178
+    jump_branch1 @31 286
+    kgd_layer1_set 1 Kgd\Be_010.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    kgd_layer2_clear
+
+    jump_auto @32
+
+@31
+    kgd_layer1_set 1 Kgd\Be_013.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    kgd_layer2_clear
+
+    jump_auto @32
+
+@30
+    jump_branch1 @29 286
+    kgd_layer1_set 1 Kgd\Be_008.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    kgd_layer2_clear
+
+    jump_auto @32
+
+@29
+    kgd_layer1_set 1 Kgd\Be_011.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer1_clear 1
+    kgd_layer2_clear
+
+@32
+    jump_branch2 @33 181
+    music_play 5
+
+    nvl_on
+    line_set 大岩からは淡島がきれいに見える。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+
+    nvl_on
+    line_set 双厳は蜃気楼の島をずっと眺めていた。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「なんかずっと見ていると」
+    line_set 「あの蜃気楼が実体で」
+    line_set 「俺のいるこの島が蜃気楼であるような気がしてくるな・・・」
+
+    nvl_on
+    line_set 蜃気楼というにはあまりにも鮮明な姿であった。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「八方ふさがりか・・・」
+
+    nvl_on
+    line_set 双厳は精も魂も尽き果てたように、大岩の上で横になる。
+
+    adv_on
+    kgd_layer1_set 1 Kgd\Be_021.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+    kgd_layer1_clear 1
+    line_set 「空か・・・」
+
+    nvl_on
+    line_set 双厳はぼんやりとイルとスイに話してやった空の話を思い出していた。
+
+    adv_on
+    line_set 「空はどこまでも続く・・・か」
+    line_set 「それは海も同じ事・・・」
+    line_set 「海も空も永遠に続く・・・」
+    line_set 「永遠か・・・」
+
+    nvl_on
+    line_set 双厳の疲れ果てた頭は取り止めもないものばかりを浮かびあがらせる。
+
+    adv_on
+    line_set 「空と海が永遠に続かなければ、人間は幸せに生きられるのかもしれないな・・・」
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「眠いな・・・」
+    line_set 「俺が、ここで寝ても、何時間後には目を覚ます」
+    line_set 「なのに」
+    line_set 「死んでいった者達は永遠に目をさます事はない」
+    line_set 「・・・」
+    line_set 「呪いで死んでいった北条や彩も・・・」
+    line_set 「その他の用心棒も・・・」
+    line_set 「そして俺が斬ってきた何百もの人間も・・・」
+    line_set 「永遠に目を覚ます事はない・・・」
+    line_set 「それが幸か不幸かなど分からない・・・」
+    line_set 「分かるわけなどない・・・」
+    line_set 「ただ・・・」
+    line_set 「今は・・・」
+    line_set 「異常に眠い・・・」
+    line_set 「眠い・・・」
+    line_set 「眠いな・・・」
+
+    nvl_on
+    line_set 双厳の考えは徐々にまとまらなくなっていく。
+
+    adv_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「今は死者を弔う時ではないか・・・」
+
+    nvl_on
+    line_set 十兵衛の言葉を思い出す。
+
+    adv_on
+    line_set 「もしかしたら、俺達が死者に弔われる時なのかもしれないな・・・」
+    line_set 「北条や彩達に・・・」
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「・・・・・・・・・」
+
+    nvl_on
+    line_set 「・・・」
+    line_set 「・・・・・・」
+    line_set 「・・・・・・・・・」
+
+    adv_on
+    jump_auto @34
+
+@33
+    jump_choice @35 ◆反対側を見る
+    jump_choice @36 ◆降りる
+
+@35
+    jump_branch1 @37 286
+    section_jump_branch1 286
+
+    jump_auto @28
+
+@37
+    section_jump_branch2 286
+
+    jump_auto @28
+
+@36
+    section_jump_branch2 286
+
+    kgd_layer1_set 1 Kgd\W_005.kgd
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @27
+
+@6
+    jump_branch1 @38 178
+    kgd_layer2_set 1 Kgd\B_015.kgd
+    jump_auto @39
+
+@38
+    kgd_layer2_set 1 Kgd\B_013.kgd
+
+@39
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @40 ◆大岩へ移動
+    jump_choice @17 ◆森林へ移動
+    jump_choice @41 ◆屋敷前へ移動
+
+@17
+    jump_branch1 @42 178
+    kgd_layer2_set 1 Kgd\B_019.kgd
+    jump_auto @43
+
+@42
+    kgd_layer2_set 1 Kgd\B_017.kgd
+
+@43
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @44 ◆遺跡へ移動
+    jump_choice @6 ◆山道へ移動
+
+@16
+    jump_branch1 @45 178
+    kgd_layer1_fx 0
+    kgd_layer1_blackout
+    kgd_layer2_clear
+
+    jump_auto @46
+
+@45
+    kgd_layer1_set 1 Kgd\Be_017.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+
+@46
+    jump_choice @47 ◆遺跡の外に出る
+
+@47
+    jump_branch1 @48 178
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 1
+
+    jump_auto @15
+
+@48
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @15
+
+@7
+    jump_branch1 @49 178
+    kgd_layer2_set 1 Kgd\B_031.kgd
+    jump_auto @50
+
+@49
+    kgd_layer2_set 1 Kgd\B_029.kgd
+
+@50
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @51 ◆自室へ移動
+    jump_choice @52 ◆大広間へ移動
+    jump_choice @53 ◆蔵の前へ移動
+    jump_choice @41 ◆屋敷外へ移動
+
+@52
+    jump_branch1 @54 178
+    kgd_layer2_set 1 Kgd\B_011.kgd
+    jump_auto @55
+
+@54
+    kgd_layer2_set 1 Kgd\B_009.kgd
+
+@55
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @2 ◆志乃の部屋へ移動
+    jump_choice @7 ◆廊下へ移動
+
+@53
+    jump_branch1 @56 178
+    kgd_layer2_set 1 Kgd\B_027.kgd
+    jump_auto @57
+
+@56
+    kgd_layer2_set 1 Kgd\B_025.kgd
+
+@57
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @58 ◆蔵に入る
+    jump_choice @7 ◆廊下へ移動
+
+@58
+    jump_branch1 @59 178
+    kgd_layer2_set 1 Kgd\B_073.kgd
+    jump_auto @60
+
+@59
+    kgd_layer2_set 1 Kgd\B_071.kgd
+
+@60
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @53 ◆蔵から出る
+
+@2
+    jump_branch1 @61 178
+    kgd_layer2_set 1 Kgd\B_007.kgd
+    jump_auto @62
+
+@61
+    kgd_layer2_set 1 Kgd\B_005.kgd
+
+@62
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @52 ◆大広間へ移動
+    jump_choice @63 ◆隠し地下室へ移動
+
+@69
+    jump_branch1 @64 178
+    kgd_layer2_set 1 Kgd\B_047.kgd
+    jump_auto @65
+
+@64
+    kgd_layer2_set 1 Kgd\B_045.kgd
+
+@65
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @8 ◆屋敷前への道へ移動
+    jump_choice @12 ◆海岸へ移動
+    jump_choice @66 ◆港へ移動
+
+@66
+    jump_branch1 @67 178
+    kgd_layer2_set 1 Kgd\B_063.kgd
+    jump_auto @68
+
+@67
+    kgd_layer2_set 1 Kgd\B_061.kgd
+
+@68
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @69 ◆村へ移動
+    jump_choice @12 ◆海岸へ移動
+
+@12
+    jump_branch1 @70 178
+    kgd_layer2_set 1 Kgd\B_051.kgd
+    jump_auto @71
+
+@70
+    kgd_layer2_set 1 Kgd\B_049.kgd
+
+@71
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_branch1 @72 275
+    jump_branch2 @72 179
+    kgd_layer3_set 0 Kgd\Ma_002.kgd
+    kgd_layer3_param 0 252 0 0 0 296 600
+    kgd_layer3_display 0
+    section_jump_branch1 275
+
+    name_set 双厳
+    line_set 「舞・・・」
+
+    name_set 舞
+    line_set 「・・・」
+
+    sfx_set 2 Vox\4202.wav
+    sfx_play 2
+    line_set 「いよいよだね双厳ちゃん」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「？」
+    line_set 「なにがだ？」
+
+    name_set 舞
+    sfx_set 2 Vox\4201.wav
+    sfx_play 2
+    line_set 「仕事も大詰めって事よん」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「？」
+
+    name_set 舞
+    sfx_set 2 Vox\4200.wav
+    sfx_play 2
+    line_set 「また会いましょうねぇ～」
+    sfx_stop 2
+
+    name_set 双厳
+    line_set 「ど、どういう事だ！！」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    name_set 双厳
+    line_set 「？！」
+
+    nvl_on
+    line_set 双厳が呼び止めようとした時には舞の姿はなかった。
+
+    adv_on
+    name_set 双厳
+    line_set 「・・・」
+    line_set 「あいつ・・・」
+    line_set 「いったい何者なんだ・・・」
+
+@72
+    jump_choice @69 ◆村へ移動
+    jump_choice @66 ◆港へ移動
+    jump_choice @73 ◆物見やぐらへ移動
+    jump_choice @74 ◆森林へ移動
+
+@24
+    jump_branch1 @75 178
+    kgd_layer2_set 1 Kgd\B_059.kgd
+    jump_auto @76
+
+@75
+    kgd_layer2_set 1 Kgd\B_057.kgd
+
+@76
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+@82
+    jump_choice @77 ◆遺跡の中に入る
+    jump_choice @74 ◆森林へ移動
+
+@77
+    jump_branch1 @78 178
+    kgd_layer1_fx 0
+    kgd_layer1_blackout
+    kgd_layer2_clear
+
+    jump_auto @79
+
+@78
+    kgd_layer1_set 1 Kgd\Be_017.kgd
+    kgd_layer1_fx 6
+    kgd_layer1_fadein
+    kgd_layer2_clear
+
+@79
+    jump_choice @80 ◆遺跡の外に出る
+
+@80
+    jump_branch1 @81 178
+    kgd_layer1_display
+    kgd_layer2_display
+    kgd_layer1_fx 1
+
+    jump_auto @82
+
+@81
+    kgd_layer1_fadein
+    kgd_layer2_display
+    kgd_layer1_fx 7
+    kgd_layer1_clear 1
+
+    jump_auto @82
+
+@8
+    jump_branch1 @83 178
+    kgd_layer2_set 1 Kgd\B_043.kgd
+    jump_auto @84
+
+@83
+    kgd_layer2_set 1 Kgd\B_041.kgd
+
+@84
+    kgd_layer2_crossfade 0
+    kgd_layer2_fadein
+    kgd_layer2_fade_unk 1
+
+    jump_choice @41 ◆屋敷前へ移動
+    jump_choice @69 ◆村へ移動
+
+@34
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_fade_unk 0
+    music_stop
+    ksd_set Ksd\030.ksd
+    ksd_end
