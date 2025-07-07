@@ -1,669 +1,497 @@
-story_progress 374
-
-nvl_on
-
-line_set リニアが止まったあの日から、俺の時間は止まっていた。
-
-nvl_line_clear
-
-line_set ただ、俺はリニアの目が覚める事だけを考えて生きていた。
-
-adv_on
-
-name_set おやじさん
-
-voice_play v06789.wav
-line_set 「いいのか……、貴広…」
-
-name_set 貴広
-
-line_set 「何がだ……」
-
-name_set おやじさん
-
-voice_play v06790.wav
-line_set 「何度も、確認したが、嬢ちゃんが目覚めたとしても、もうお前の事は覚えてないんだぞ……」
-
-name_set 貴広
-
-line_set 「ああ…」
-
-name_set おやじさん
-
-voice_play v06791.wav
-line_set 「たぶん、お前は、嬢ちゃんの制作者としてだけ、彼女の記憶に新たに刻印されるだけだ……」
-
-voice_play v06792.wav
-line_set 「彼女はもう、お前が知っている嬢ちゃんではないぞ……」
-name_set 貴広
-
-line_set 「それでいい……」
-
-line_set 「それで十分だ……」
-name_set おやじさん
-
-voice_play v06793.wav
-line_set 「つらいぞ……」
-
-voice_play v06794.wav
-line_set 「目の前にいる、自分が愛した人間が……」
-voice_play v06795.wav
-line_set 「もう自分の事を覚えていないというのは……」
-name_set 貴広
-
-line_set 「それでいいんだ……」
-
-line_set 「それで十分だ……」
-name_set おやじさん
-
-voice_play v06796.wav
-line_set 「１０年長かったな……」
-
-voice_play v06797.wav
-line_set 「しかし、それも終わりだ……」
-voice_play v06798.wav
-line_set 「彼女は目覚め……」
-voice_play v06799.wav
-line_set 「そしてお前を忘れ…」
-voice_play v06800.wav
-line_set 「彼女自身の時間を生きる……」
-name_set 貴広
-
-line_set 「それでも、リニアは自分の時間を生きられるんだ…」
-
-line_set 「無くなってしまった、あいつだけの時間……」
-line_set 「それが、またリニアに戻るんだ……」
-line_set 「それでいい…」
-line_set 「あいつが、今度こそ、すこやかに生きていられるのなら…」
-line_set 「俺の事なんて忘れた方がいい……」
-line_set 「それがあいつの幸せだよ……」
-nvl_on
-
-line_set ここまでが奇跡だった。
-
-nvl_line_clear
-
-line_set リニアを完全な死から救えた事だけでも……。
-
-nvl_line_clear
-
-line_set だから、彼女が、自分の事を覚えていなくても…、
-
-line_set もう、あの約束を忘れていたとしても……。
-nvl_line_clear
-
-line_set よかった…。
-
-nvl_line_clear
-
-line_set ここまでが奇跡だったのだから…。
-
-line_set それ以上の事を誰が望むだろうか…。
-adv_on
-
-name_set 貴広
-
-line_set 「リニア…」
-
-line_set 「ただ、目覚めればいいんだ…」
-line_set 「他の事なんていらない…」
-line_set 「そして、今度こそ……、お前の時間を過ごしてくれ……」
-nvl_on
-
-line_set 貴広は立ち上がる。
-
-adv_on
-
-name_set おやじさん
-
-voice_play v06801.wav
-line_set 「やっぱり、立ち会わないのか？」
-
-name_set 貴広
-
-line_set 「ああ……、彼女の時間を失わせた張本人だ…」
-
-line_set 「今更、俺が彼女の目覚めに立ち会う必要はないさ」
-name_set おやじさん
-
-voice_play v06802.wav
-line_set 「わかった……、嬢ちゃんが目覚めたら連絡する……」
-
-name_set 貴広
-
-line_set 「分かった……」
-
-gallery_unlock 375
-
-kgd_layer1_set 0 N335.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-music_play_moekan 003.WAV
-
-nvl_on
-
-line_set あの日から、１０年以上の月日が立っていた。
-
-nvl_line_clear
-
-line_set その間、ずっと俺はリニアの側にいた。
-
-nvl_line_clear
-
-line_set だから、もういい……。
-
-nvl_line_clear
-
-line_set 彼女が俺の手元から離れていっても……。
-
-nvl_line_clear
-
-line_set それでもよかった…。
-
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-gallery_unlock 101
-
-kgd_layer1_set 0 N061.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-wait 1500
-
-nvl_on
-
-line_set 「千歳……」
-
-adv_on
-
-gallery_unlock 105
-
-kgd_layer1_set 1 N065.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 貴広
-
-line_set 「……」
-
-nvl_on
-
-line_set 其処には、１０年以上前に分かれたリニアの姿があった。
-
-nvl_line_clear
-
-line_set リニアは貴広をまるで他人を見るようなまなざしで見つめる……。
-
-adv_on
-
-name_set リニア
-
-line_set 「…」
-
-voice_play 53940.wav
-
-line_set 「おじさま…、この方は？」
-
-name_set おやじさん
-
-voice_play v06804.wav
-line_set 「あ、ああ……」
-
-nvl_on
-
-line_set おやじさんは貴広を見る。
-
-line_set 貴広は小さくうなずいた。
-adv_on
-
-name_set おやじさん
-
-voice_play v06805.wav
-line_set 「いや、俺の手伝いをしてくれている男だ……」
-
-name_set リニア
-
-voice_play 53941.wav
-
-line_set 「あ、そう、なんですか？」
-
-voice_play 53942.wav
-
-line_set 「初めまして？」
-
-voice_play 53943.wav
-
-line_set 「えっと……、お名前は？」
-
-name_set おやじさん
-
-voice_play v06809.wav
-line_set 「えっと、なんだ…」
-
-name_set 貴広
-
-line_set 「丹下団吉だ……」
-
-name_set おやじさん
-
-voice_play v06810.wav
-line_set 「お、おめぇ……」
-
-name_set 貴広
-
-line_set 「団吉と呼んでくれ」
-
-line_set 「整備士の見習いをやっている……」
-line_set 「主に、機械をいじるのが仕事だな、うん」
-name_set リニア
-
-line_set 「……」
-
-name_set 貴広
-
-line_set 「嬢ちゃんは、生体アンドロイドつー、どうも機械屋じゃ触れねぇ体らしいが…」
-
-line_set 「まぁ、それでも、なんか困った事があったら言ってくれや…」
-line_set 「このあたりじゃ、機械屋の団吉つーて有名なナイスガイだからな！」
-name_set リニア
-
-line_set 「……」
-
-nvl_on
-
-line_set 貴広はリニアに握手を求める。
-
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-name_set リニア
-
-line_set 「…」
-
-name_set 貴広
-
-line_set 「？」
-
-gallery_unlock 107
-
-kgd_layer1_set 0 N067.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-name_set リニア
-
-voice_play 53947.wav
-
-line_set 「バカ……」
-
-name_set 貴広
-
-line_set 「……」
-
-name_set リニア
-
-voice_play 53948.wav
-
-line_set 「そうやって…、また私をおいて行く気だったのですか……」
-
-name_set 貴広
-
-line_set 「え？」
-
-nvl_on
-
-line_set 貴広が差し伸べた手に暖かい滴が落ちる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「リニア？」
-
-name_set リニア
-
-voice_play 53949.wav
-
-line_set 「やっと、また会えたのに……」
-
-voice_play 53950.wav
-
-line_set 「いつまでも、追いかけても……」
-
-voice_play 53951.wav
-
-line_set 「あなたはつかまえられない……」
-
-voice_play 53952.wav
-
-line_set 「私だって……、本当は……」
-
-voice_play 53953.wav
-
-line_set 「私だって」
-
-voice_play 53954.wav
-
-line_set 「私だって……」
-
-voice_play 53955.wav
-
-line_set 「ずっと、ずっと…」
-
-voice_play 53956.wav
-
-line_set 「ただ、好きで………」
-
-voice_play 53957.wav
-
-line_set 「約束なんて…ただの方便で……」
-
-voice_play 53958.wav
-
-line_set 「本当は…」
-
-voice_play 53959.wav
-
-line_set 「ただ……」
-
-voice_play 53960.wav
-
-line_set 「あなたと一緒にいたくて……」
-
-voice_play 53961.wav
-
-line_set 「それで、追いかけていただけなのに……」
-
-nvl_on
-
-line_set リニアは瞳に大粒の涙をためている。
-
-adv_on
-
-name_set リニア
-
-voice_play 53962.wav
-
-line_set 「あの時だって、本当は消えたくなんてなかった……」
-
-voice_play 53963.wav
-
-line_set 「だって、今度こそ…貴広さんと一緒になろうって約束したんだから……」
-
-name_set 貴広
-
-line_set 「リニア？」
-
-gallery_unlock 106
-
-kgd_layer1_set 1 N066.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set リニア
-
-voice_play 53964.wav
-
-line_set 「貴広さんのバカ！！！」
-
-voice_play 53965.wav
-
-line_set 「バカ！バカ！バカ！バカ！バカ！バカ！！！」
-
-name_set 貴広
-
-line_set 「え？あ？？」
-
-nvl_on
-
-line_set リニアが貴広に抱きつく。
-
-adv_on
-
-name_set おやじさん
-
-voice_play v06830.wav
-line_set 「まぁ、なんだ……」
-
-voice_play v06831.wav
-line_set 「そういう事で、良かったな貴広」
-voice_play v06832.wav
-line_set 「俺も、少し自信がなかったんで、最悪な事態しか伝えなかったが……」
-voice_play v06833.wav
-line_set 「良かったんではないかい？」
-name_set 貴広
-
-line_set 「って事は……」
-
-line_set 「いて…」
-line_set 「ば、バカ…リニア、痛い、力入れすぎだ…」
-line_set 「お前、相変わらず力の加減が出来てないぞ…」
-name_set おやじさん
-
-voice_play v06834.wav
-line_set 「お前が意地悪するから、嬢ちゃんも仕返しがしたかったんだってよ……」
-
-voice_play v06835.wav
-line_set 「それで知らないふりしてたら、おめぇが嘘の名前なんか使うから……」
-voice_play v06836.wav
-line_set 「また嬢ちゃん泣かしちまって……」
-nvl_on
-
-line_set リニアは、泣いているのか、怒っているのか、
-
-line_set さっぱり分からない表情で、貴広を抱きしめる。
-nvl_line_clear
-
-line_set でも、それは、その、どちらでもなく、
-
-line_set 笑っているのだ。
-adv_on
-
-name_set リニア
-
-voice_play 53966.wav
-
-line_set 「むぅ……」
-
-name_set 貴広
-
-line_set 「いてててて…」
-
-name_set おやじさん
-
-voice_play v06838.wav
-line_set 「嬢ちゃんの体は、人間と同じだよ」
-
-voice_play v06839.wav
-line_set 「そのぐらいは受け止めてやれよ」
-name_set 貴広
-
-line_set 「そ、そんな事いったって……」
-
-music_stop2
-
-kgd_layer1_solidcolor -1 255
-
-kgd_layer1_fx 2
-kgd_layer1_clear 0
-wait 1500
-
-music_play_moekan 001.WAV
-
-kgd_layer1_set 0 TE006.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_set 1 TE007.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE008.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_set 1 TE009.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_set 1 TE010.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_set 1 TE011.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE012.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_set 1 TE013.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE014.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_set 1 TE015.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_set 1 TE016.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE017.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE018.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_set 1 TE019.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE020.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE021.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE022.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE023.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_set 1 TE024.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-music_stop2
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE025.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE026.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_fx 2
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 TE027.KGD
-kgd_layer1_display
-kgd_layer1_fx 3
-wait 1500
-
-kgd_layer1_solidcolor 0 0
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-movie_play Mov/003.mpg
-
-gallery_unlock 0
-
-gallery_unlock 15
-route_end
-
-ksd_end
-
+    story_progress 374
+
+    nvl_on
+    line_set リニアが止まったあの日から、俺の時間は止まっていた。
+    nvl_line_clear
+    line_set ただ、俺はリニアの目が覚める事だけを考えて生きていた。
+
+    adv_on
+    name_set おやじさん
+    voice_play v06789.wav
+    line_set 「いいのか……、貴広…」
+
+    name_set 貴広
+    line_set 「何がだ……」
+
+    name_set おやじさん
+    voice_play v06790.wav
+    line_set 「何度も、確認したが、嬢ちゃんが目覚めたとしても、もうお前の事は覚えてないんだぞ……」
+
+    name_set 貴広
+    line_set 「ああ…」
+
+    name_set おやじさん
+    voice_play v06791.wav
+    line_set 「たぶん、お前は、嬢ちゃんの制作者としてだけ、彼女の記憶に新たに刻印されるだけだ……」
+    voice_play v06792.wav
+    line_set 「彼女はもう、お前が知っている嬢ちゃんではないぞ……」
+
+    name_set 貴広
+    line_set 「それでいい……」
+    line_set 「それで十分だ……」
+
+    name_set おやじさん
+    voice_play v06793.wav
+    line_set 「つらいぞ……」
+    voice_play v06794.wav
+    line_set 「目の前にいる、自分が愛した人間が……」
+    voice_play v06795.wav
+    line_set 「もう自分の事を覚えていないというのは……」
+
+    name_set 貴広
+    line_set 「それでいいんだ……」
+    line_set 「それで十分だ……」
+
+    name_set おやじさん
+    voice_play v06796.wav
+    line_set 「１０年長かったな……」
+    voice_play v06797.wav
+    line_set 「しかし、それも終わりだ……」
+    voice_play v06798.wav
+    line_set 「彼女は目覚め……」
+    voice_play v06799.wav
+    line_set 「そしてお前を忘れ…」
+    voice_play v06800.wav
+    line_set 「彼女自身の時間を生きる……」
+
+    name_set 貴広
+    line_set 「それでも、リニアは自分の時間を生きられるんだ…」
+    line_set 「無くなってしまった、あいつだけの時間……」
+    line_set 「それが、またリニアに戻るんだ……」
+    line_set 「それでいい…」
+    line_set 「あいつが、今度こそ、すこやかに生きていられるのなら…」
+    line_set 「俺の事なんて忘れた方がいい……」
+    line_set 「それがあいつの幸せだよ……」
+
+    nvl_on
+    line_set ここまでが奇跡だった。
+    nvl_line_clear
+    line_set リニアを完全な死から救えた事だけでも……。
+    nvl_line_clear
+    line_set だから、彼女が、自分の事を覚えていなくても…、
+    line_set もう、あの約束を忘れていたとしても……。
+    nvl_line_clear
+    line_set よかった…。
+    nvl_line_clear
+    line_set ここまでが奇跡だったのだから…。
+    line_set それ以上の事を誰が望むだろうか…。
+
+    adv_on
+    name_set 貴広
+    line_set 「リニア…」
+    line_set 「ただ、目覚めればいいんだ…」
+    line_set 「他の事なんていらない…」
+    line_set 「そして、今度こそ……、お前の時間を過ごしてくれ……」
+
+    nvl_on
+    line_set 貴広は立ち上がる。
+
+    adv_on
+    name_set おやじさん
+    voice_play v06801.wav
+    line_set 「やっぱり、立ち会わないのか？」
+
+    name_set 貴広
+    line_set 「ああ……、彼女の時間を失わせた張本人だ…」
+    line_set 「今更、俺が彼女の目覚めに立ち会う必要はないさ」
+
+    name_set おやじさん
+    voice_play v06802.wav
+    line_set 「わかった……、嬢ちゃんが目覚めたら連絡する……」
+
+    name_set 貴広
+    line_set 「分かった……」
+    gallery_unlock 375
+
+    kgd_layer1_set 0 N335.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play_moekan 003.WAV
+
+    nvl_on
+    line_set あの日から、１０年以上の月日が立っていた。
+    nvl_line_clear
+    line_set その間、ずっと俺はリニアの側にいた。
+    nvl_line_clear
+    line_set だから、もういい……。
+    nvl_line_clear
+    line_set 彼女が俺の手元から離れていっても……。
+    nvl_line_clear
+    line_set それでもよかった…。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    gallery_unlock 101
+
+    kgd_layer1_set 0 N061.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 1500
+
+    nvl_on
+    line_set 「千歳……」
+
+    adv_on
+    gallery_unlock 105
+
+    kgd_layer1_set 1 N065.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「……」
+
+    nvl_on
+    line_set 其処には、１０年以上前に分かれたリニアの姿があった。
+    nvl_line_clear
+    line_set リニアは貴広をまるで他人を見るようなまなざしで見つめる……。
+
+    adv_on
+    name_set リニア
+    line_set 「…」
+    voice_play 53940.wav
+    line_set 「おじさま…、この方は？」
+
+    name_set おやじさん
+    voice_play v06804.wav
+    line_set 「あ、ああ……」
+
+    nvl_on
+    line_set おやじさんは貴広を見る。
+    line_set 貴広は小さくうなずいた。
+
+    adv_on
+    name_set おやじさん
+    voice_play v06805.wav
+    line_set 「いや、俺の手伝いをしてくれている男だ……」
+
+    name_set リニア
+    voice_play 53941.wav
+    line_set 「あ、そう、なんですか？」
+    voice_play 53942.wav
+    line_set 「初めまして？」
+    voice_play 53943.wav
+    line_set 「えっと……、お名前は？」
+
+    name_set おやじさん
+    voice_play v06809.wav
+    line_set 「えっと、なんだ…」
+
+    name_set 貴広
+    line_set 「丹下団吉だ……」
+
+    name_set おやじさん
+    voice_play v06810.wav
+    line_set 「お、おめぇ……」
+
+    name_set 貴広
+    line_set 「団吉と呼んでくれ」
+    line_set 「整備士の見習いをやっている……」
+    line_set 「主に、機械をいじるのが仕事だな、うん」
+
+    name_set リニア
+    line_set 「……」
+
+    name_set 貴広
+    line_set 「嬢ちゃんは、生体アンドロイドつー、どうも機械屋じゃ触れねぇ体らしいが…」
+    line_set 「まぁ、それでも、なんか困った事があったら言ってくれや…」
+    line_set 「このあたりじゃ、機械屋の団吉つーて有名なナイスガイだからな！」
+
+    name_set リニア
+    line_set 「……」
+
+    nvl_on
+    line_set 貴広はリニアに握手を求める。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    name_set リニア
+    line_set 「…」
+
+    name_set 貴広
+    line_set 「？」
+    gallery_unlock 107
+
+    kgd_layer1_set 0 N067.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set リニア
+    voice_play 53947.wav
+    line_set 「バカ……」
+
+    name_set 貴広
+    line_set 「……」
+
+    name_set リニア
+    voice_play 53948.wav
+    line_set 「そうやって…、また私をおいて行く気だったのですか……」
+
+    name_set 貴広
+    line_set 「え？」
+
+    nvl_on
+    line_set 貴広が差し伸べた手に暖かい滴が落ちる。
+
+    adv_on
+    name_set 貴広
+    line_set 「リニア？」
+
+    name_set リニア
+    voice_play 53949.wav
+    line_set 「やっと、また会えたのに……」
+    voice_play 53950.wav
+    line_set 「いつまでも、追いかけても……」
+    voice_play 53951.wav
+    line_set 「あなたはつかまえられない……」
+    voice_play 53952.wav
+    line_set 「私だって……、本当は……」
+    voice_play 53953.wav
+    line_set 「私だって」
+    voice_play 53954.wav
+    line_set 「私だって……」
+    voice_play 53955.wav
+    line_set 「ずっと、ずっと…」
+    voice_play 53956.wav
+    line_set 「ただ、好きで………」
+    voice_play 53957.wav
+    line_set 「約束なんて…ただの方便で……」
+    voice_play 53958.wav
+    line_set 「本当は…」
+    voice_play 53959.wav
+    line_set 「ただ……」
+    voice_play 53960.wav
+    line_set 「あなたと一緒にいたくて……」
+    voice_play 53961.wav
+    line_set 「それで、追いかけていただけなのに……」
+
+    nvl_on
+    line_set リニアは瞳に大粒の涙をためている。
+
+    adv_on
+    name_set リニア
+    voice_play 53962.wav
+    line_set 「あの時だって、本当は消えたくなんてなかった……」
+    voice_play 53963.wav
+    line_set 「だって、今度こそ…貴広さんと一緒になろうって約束したんだから……」
+
+    name_set 貴広
+    line_set 「リニア？」
+    gallery_unlock 106
+
+    kgd_layer1_set 1 N066.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set リニア
+    voice_play 53964.wav
+    line_set 「貴広さんのバカ！！！」
+    voice_play 53965.wav
+    line_set 「バカ！バカ！バカ！バカ！バカ！バカ！！！」
+
+    name_set 貴広
+    line_set 「え？あ？？」
+
+    nvl_on
+    line_set リニアが貴広に抱きつく。
+
+    adv_on
+    name_set おやじさん
+    voice_play v06830.wav
+    line_set 「まぁ、なんだ……」
+    voice_play v06831.wav
+    line_set 「そういう事で、良かったな貴広」
+    voice_play v06832.wav
+    line_set 「俺も、少し自信がなかったんで、最悪な事態しか伝えなかったが……」
+    voice_play v06833.wav
+    line_set 「良かったんではないかい？」
+
+    name_set 貴広
+    line_set 「って事は……」
+    line_set 「いて…」
+    line_set 「ば、バカ…リニア、痛い、力入れすぎだ…」
+    line_set 「お前、相変わらず力の加減が出来てないぞ…」
+
+    name_set おやじさん
+    voice_play v06834.wav
+    line_set 「お前が意地悪するから、嬢ちゃんも仕返しがしたかったんだってよ……」
+    voice_play v06835.wav
+    line_set 「それで知らないふりしてたら、おめぇが嘘の名前なんか使うから……」
+    voice_play v06836.wav
+    line_set 「また嬢ちゃん泣かしちまって……」
+
+    nvl_on
+    line_set リニアは、泣いているのか、怒っているのか、
+    line_set さっぱり分からない表情で、貴広を抱きしめる。
+    nvl_line_clear
+    line_set でも、それは、その、どちらでもなく、
+    line_set 笑っているのだ。
+
+    adv_on
+    name_set リニア
+    voice_play 53966.wav
+    line_set 「むぅ……」
+
+    name_set 貴広
+    line_set 「いてててて…」
+
+    name_set おやじさん
+    voice_play v06838.wav
+    line_set 「嬢ちゃんの体は、人間と同じだよ」
+    voice_play v06839.wav
+    line_set 「そのぐらいは受け止めてやれよ」
+
+    name_set 貴広
+    line_set 「そ、そんな事いったって……」
+    music_stop2
+    kgd_layer1_solidcolor -1 255
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+    wait 1500
+    music_play_moekan 001.WAV
+
+    kgd_layer1_set 0 TE006.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+
+    kgd_layer1_set 1 TE007.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE008.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+
+    kgd_layer1_set 1 TE009.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+
+    kgd_layer1_set 1 TE010.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+
+    kgd_layer1_set 1 TE011.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE012.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+
+    kgd_layer1_set 1 TE013.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE014.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+
+    kgd_layer1_set 1 TE015.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+
+    kgd_layer1_set 1 TE016.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE017.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE018.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+
+    kgd_layer1_set 1 TE019.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE020.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE021.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE022.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+
+    kgd_layer1_set 1 TE024.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+    music_stop2
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE025.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE026.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 TE027.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    wait 1500
+    kgd_layer1_solidcolor 0 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    movie_play Mov/003.mpg
+    gallery_unlock 0
+    gallery_unlock 15
+    route_end
+    ksd_end

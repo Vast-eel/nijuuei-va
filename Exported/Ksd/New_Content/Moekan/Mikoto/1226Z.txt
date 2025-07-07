@@ -1,1673 +1,1268 @@
-kgd_layer1_set 0 W1226.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-wait 2000
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer2_set_moekan 1226.KGD
-
-
-kgd_layer1_set 0 BG027.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-name_set 貴広
-
-line_set 「ん…ふぁ…」
-line_set 「今日は月曜のはずだが…」
-line_set 「ずいぶん静かだな…」
-
-nvl_on
-
-line_set 月曜の朝はヘリの騒音で目覚める貴広は、物静かな朝に首を傾げた。
-line_set ベッドから降り、窓を開けてしばらく遠くを眺めてみたが、ヘリの機影は見えてこなかった。
-
-adv_on
-
-name_set 貴広
-
-line_set 「ふむ…」
-
-sfx_set 0 SE014.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set コンコン…
-sfx_stop 0
-sfx_unset 0
-
-music_play_moekan 009.WAV
-
-
-kgd_layer3_set 0 RI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set リニア
-
-voice_play v10691.wav
-
-line_set 「失礼します」
-
-name_set 貴広
-
-line_set 「ああ、リニアか…」
-
-kgd_layer3_set 3 RI021.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10692.wav
-
-line_set 「あれ！？貴広さんが起きてます！！」
-
-name_set 貴広
-
-line_set 「貴様に起こされなくても、最近はちゃんと起きてるんだよ、コノヤロウ」
-
-kgd_layer3_set 3 RI007.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-sfx_set 0 SE112.WAV
-sfx_play 0 0
-
-name_set リニア
-
-voice_play v10693.wav
-
-line_set 「あいた、あいたたた、ウ、ウメボシはカンベンしてください～」
-sfx_stop 0
-sfx_unset 0
-
-name_set 貴広
-
-line_set 「それより、今日は月曜なのにヘリは来てないのか？」
-
-kgd_layer3_set 3 RI017.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10694.wav
-
-line_set 「え？　そうですね…」
-
-voice_play v10695.wav
-
-line_set 「なんででしょう？」
-
-name_set 貴広
-
-line_set 「お前に聞いた俺がバカだった…」
-
-nvl_on
-
-line_set リニアはウメボシされたこめかみをさすりつつ、首を傾げた。
-line_set 貴広は呆れて、疲れたため息を吐いた。
-
-adv_on
-
-name_set リニア
-
-voice_play v10696.wav
-
-line_set 「霧島さんも、連絡がないって困ってました」
-
-name_set 貴広
-
-line_set 「ふむ…島消失で本社も慌ただしいようだな…」
-line_set 「それでも荷物は送ってもらいたいものだ。島に住む者達にしたら、ヘタすりゃ死活問題だからな…」
-
-kgd_layer3_set 3 RI015.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10697.wav
-
-line_set 「島がどうしたんですか？」
-
-name_set 貴広
-
-line_set 「え、いや、なんでもない」
-line_set 「霧島に起きたと伝えておいてくれ」
-
-kgd_layer3_set 3 RI001.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10698.wav
-
-line_set 「はい」
-
-voice_play v10699.wav
-
-line_set 「では、失礼します」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set リニアが退室した後、貴広は手早く身支度を済ませ、所長室に向かった。
-
-adv_on
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-music_play_moekan 012.WAV
-
-
-kgd_layer1_set 0 BG023.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v10700.wav
-
-line_set 「おはようございまちゅ」
-
-name_set 貴広
-
-line_set 「おはよう」
-line_set 「輸送ヘリが来てないらしいな」
-
-kgd_layer3_set 3 KI011.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v10701.wav
-
-line_set 「はい…連絡もとれない状態でちて」
-
-name_set 貴広
-
-line_set 「衛星通信でもだめか？」
-
-name_set 霧島
-
-voice_play v10702.wav
-
-line_set 「はい、一時的に封鎖されてるみたいでちゅ」
-
-name_set 貴広
-
-line_set 「うむ…」
-line_set 「おやじさんは？」
-
-name_set 霧島
-
-voice_play v10703.wav
-
-line_set 「おやじさんなら、朝からメンテナンスルームに…」
-
-name_set 貴広
-
-line_set 「そうか、わかった。ちょっと行ってくる」
-
-nvl_on
-
-line_set 貴広は所長室を飛び出し、メンテ室へ向かった。
-
-adv_on
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG041.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-name_set 貴広
-
-line_set 「おやじさん」
-
-kgd_layer3_set 0 SO028.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set おやじさん
-
-voice_play v10704.wav
-
-line_set 「よう、貴広、いいところへ来た」
-
-voice_play v10705.wav
-
-line_set 「たった今、アリスの本部の映像を見つけたところだ」
-
-name_set 貴広
-
-line_set 「なんだって？」
-
-nvl_on
-
-line_set 貴広はおやじさんの横に駆け寄り、モニターを見た。
-line_set モニターには、モノクロの荒い映像が流れている。
-line_set 映像は抉られた大地と煙を上げる建造物を写していた。
-line_set その廻りで小さな物体が動いている。
-
-adv_on
-
-name_set おやじさん
-
-voice_play v10706.wav
-
-line_set 「旧式のスパイ衛星からの映像なんで、画質は悪いが、このほぼ全壊してる建物が本部だ」
-
-voice_play v10707.wav
-
-line_set 「そのまわりで動いているのは消防車だな」
-
-voice_play v10708.wav
-
-line_set 「大型の化学消防車まで出動してるみたいだ…ヤバイ薬品でも扱ってたのか…」
-
-nvl_on
-
-line_set 唐突に画像が荒れた。
-
-adv_on
-
-name_set おやじさん
-
-voice_play v10709.wav
-
-line_set 「衛星なんで、鮮明な部分は２分くらいしかないんだが、録画してある」
-
-nvl_on
-
-line_set おやじさんがカチャカチャとキーボードを叩くと、さっきの画像が現れ、繰り返し流れる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「これじゃあ飯島も連絡できんわけだ」
-line_set 「やはりファーストの暴走か…」
-
-name_set おやじさん
-
-voice_play v10710.wav
-
-line_set 「いや…隔壁は下から破壊されていない」
-
-voice_play v10711.wav
-
-line_set 「コレはファーストより上の階層で起きたことみたいだ」
-
-name_set 貴広
-
-line_set 「ではなにが…？」
-
-kgd_layer3_set 3 SO018.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set おやじさん
-
-voice_play v10712.wav
-
-line_set 「ふむ…メイド達の反乱…か？」
-
-voice_play v10713.wav
-
-line_set 「とりあえず飯島は無事みたいだぞ」
-
-name_set 貴広
-
-line_set 「そうか…」
-
-kgd_layer3_set 3 SO030.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set おやじさん
-
-voice_play v10714.wav
-
-line_set 「すこし安心したみたいだな」
-
-voice_play v10715.wav
-
-line_set 「結構ひどいこと言われてるのに、かつての部下はやっぱり気になるか？」
-
-name_set 貴広
-
-line_set 「ま、悲報を聞くよりかはマシさ」
-
-kgd_layer3_set 3 SO028.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set おやじさん
-
-voice_play v10716.wav
-
-line_set 「その飯島なんだがな、海兵部隊を大掛かりで集めてる」
-
-name_set 貴広
-
-line_set 「海兵部隊？」
-
-name_set おやじさん
-
-voice_play v10717.wav
-
-line_set 「ああ、詳しいことはまだ判らないが、規模は大きそうだ」
-
-name_set 貴広
-
-line_set 「何をする気だ？」
-
-name_set おやじさん
-
-voice_play v10718.wav
-
-line_set 「わからん…どこかに戦争でも仕掛けそうな勢いだな…」
-
-name_set 貴広
-
-line_set 「なぜ？」
-
-name_set おやじさん
-
-voice_play v10719.wav
-
-line_set 「俺にはわからんよ」
-
-voice_play v10720.wav
-
-line_set 「貴広の方が付き合い長いんだし、まだ想像が付くんじゃないのか？」
-
-name_set 貴広
-
-line_set 「う～む…」
-line_set 「もしかしたら、俺に絡んでることかもしれん…そうなるとこの島を巻き込むことになる…」
-line_set 「おやじさん、防衛設備の点検を頼む」
-line_set 「俺は避難経路を確認する」
-
-kgd_layer3_set 3 SO031.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set おやじさん
-
-voice_play v10721.wav
-
-line_set 「おいおい、大袈裟じゃねぇか？」
-
-name_set 貴広
-
-line_set 「…嫌な予感がする」
-
-kgd_layer3_set 3 SO028.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set おやじさん
-
-line_set 「……」
-
-voice_play v10722.wav
-
-line_set 「ま、貴広がそう言うなら、点検しといて損はねえしやっておくぜ」
-
-name_set 貴広
-
-line_set 「さっそく始めよう」
-
-name_set おやじさん
-
-voice_play v10723.wav
-
-line_set 「わかった」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-nvl_on
-
-line_set おやじさんはモニターに向き直り、島の防衛設備の点検を始め、貴広はメンテ室を後にした。
-
-adv_on
-
-kgd_layer1_set 0 BG004.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-name_set 貴広
-
-line_set 「霧島にも言っておいた方がいいだろうな…」
-
-kgd_layer3_set 0 MI004.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 命
-
-voice_play v10724.wav
-
-line_set 「貴広み～っけ！！」
-
-name_set 貴広
-
-line_set 「おっと…命か」
-
-kgd_layer3_set 3 MI003.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10725.wav
-
-line_set 「貴広、仕事終わった？」
-
-name_set 貴広
-
-line_set 「いや、まだだ」
-
-kgd_layer3_set 3 MI007.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10726.wav
-
-line_set 「な～んだ」
-
-name_set 貴広
-
-line_set 「あ、命」
-
-kgd_layer3_set 3 MI003.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10727.wav
-
-line_set 「なに？」
-
-nvl_on
-
-line_set 貴広は、拗ねた顔をして向こうに行きかけた命を呼び止め、膝をついて目線を同じにして見つめた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「アリスの本部で何が起きたか、命は本当に知らないのか？」
-
-kgd_layer3_set 3 MI010.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10728.wav
-
-line_set 「え…」
-
-voice_play v10729.wav
-
-line_set 「知らない、知らないもーん！！」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-name_set 貴広
-
-line_set 「あ！」
-
-nvl_on
-
-line_set 貴広の真剣な表情を怖がるように視線をそらし、命は背を向けて走り去ってしまった。
-line_set 眉間にシワを寄せ、命を見送る貴広。
-
-adv_on
-
-name_set 貴広
-
-line_set 「何かを知ってるみたいだが…」
-line_set 「後で聞くとするか」
-
-nvl_on
-
-line_set 貴広は命の行動を気にしつつ、所長室へ向かった。
-
-adv_on
-
-kgd_layer1_set 1 BG023.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v10730.wav
-
-line_set 「何かわかりまちたか？」
-
-name_set 貴広
-
-line_set 「飯島がなにやら動いているらしい」
-
-name_set 霧島
-
-voice_play v10731.wav
-
-line_set 「飯島が？」
-
-name_set 貴広
-
-line_set 「海兵部隊に働きかけてるらしい」
-line_set 「連絡が取れない以上、俺が関係してるかはわからんが、それなりの準備をしておこうと思う」
-line_set 「防衛設備、各員の避難経路を確認したい。データを出してくれるか？」
-
-name_set 霧島
-
-voice_play v10732.wav
-
-line_set 「わかりまちた。すぐに用意しまちゅ」
-
-nvl_on
-
-line_set 一旦、秘書室に入った霧島が、ファイルを抱えて戻ってくる。
-line_set 貴広はそれを机の上に開き、素早く目を通す。
-
-adv_on
-
-name_set 貴広
-
-line_set 「ふむ、防衛設備はおやじさんがチェックしている」
-line_set 「少しでも異常があるものは、すぐに交換してくれ」
-
-name_set 霧島
-
-voice_play v10733.wav
-
-line_set 「はい」
-
-name_set 貴広
-
-line_set 「なお、無用の混乱を避けるため、このことはメイド長クラス以外には話すな」
-
-name_set 霧島
-
-voice_play v10734.wav
-
-line_set 「わかりまちた」
-
-name_set 貴広
-
-line_set 「では、霧島はおやじさんの所へ」
-line_set 「俺はシェルターのチェックに向かう」
-
-name_set 霧島
-
-voice_play v10735.wav
-
-line_set 「了解しまちた」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 貴広と霧島は足早に所長室を出て、地下へ向かった。
-line_set 霧島とは地下五階で別れ、貴広はさらに下へ向かった。
-
-adv_on
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG084.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-nvl_on
-
-line_set 地下６階の廊下を進み、緊急避難用のシェルターの扉を開ける。
-line_set すぐさま照明が点き、少しくすんではいるが、頑丈な壁に包まれた広い一室が現れる。
-line_set 緊急の際には、ここへ全職員を収容し、海上へ射出される仕組みになっている。
-
-adv_on
-
-name_set 貴広
-
-line_set 「ここを使うことにならなければいいが…」
-
-nvl_on
-
-line_set そう呟き、壁を軽く叩く。
-line_set 何層にも重ねられた壁に、堅い音が反響して消えた。
-line_set 貴広は、壁の一部に収納された保存食をチェックし、安全な事を確認して、そこを後にした。
-
-adv_on
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG041.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-name_set 貴広
-
-line_set 「どうだ？」
-
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v10736.wav
-
-line_set 「あ、所長」
-
-name_set 貴広
-
-line_set 「シェルターに異常はなかった」
-line_set 「こっちはどうだ？」
-
-kgd_layer3_set 3 SO028.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set おやじさん
-
-voice_play v10737.wav
-
-line_set 「動かねえわけじゃないんだが、二ヶ所不安が残るところが出てきた」
-
-name_set 貴広
-
-line_set 「すぐに交換はきくか？」
-
-name_set おやじさん
-
-voice_play v10738.wav
-
-line_set 「換えがあったかな…見てみねえとわからんな…」
-
-voice_play v10739.wav
-
-line_set 「ちっと見てくらぁ」
-
-voice_play v10740.wav
-
-line_set 「他の所は異常なしだ」
-
-name_set 貴広
-
-line_set 「そうか」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set おやじさんは部品の確認のため、足早にメンテ室を出ていった。
-
-adv_on
-
-kgd_layer3_set 0 KI011.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v10741.wav
-
-line_set 「なかなか大掛かりになってきまちたね…」
-
-name_set 貴広
-
-line_set 「万が一に備えてさ」
-line_set 「使わないに越したことはないんだが…」
-
-name_set 霧島
-
-voice_play v10742.wav
-
-line_set 「そうでちゅね…」
-
-nvl_on
-
-line_set そう言って、貴広と霧島は疲れたような顔をして微笑んだ。
-
-adv_on
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-wait 2000
-
-music_play_moekan 021.WAV
-
-
-kgd_layer1_set 0 BG023.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-nvl_on
-
-line_set 設備の点検と調整を終えた貴広は、いつもの書類処理を行っていた。
-line_set 始めたのが遅かった分、終了時間もいつもより大幅にオーバーしていた。
-line_set タバコを銜え、愛用の万年筆で書類にサインを書き込んでいく。
-
-adv_on
-
-name_set 貴広
-
-line_set 「ふ～…今年の社会保障費は……こんなもんか…」
-
-sfx_set 0 SE015.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set ガチャ…
-sfx_stop 0
-sfx_unset 0
-
-name_set 貴広
-
-line_set 「ん？」
-
-kgd_layer3_set 0 MI003.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 命
-
-voice_play v10743.wav
-
-line_set 「まだ、お仕事？」
-
-name_set 貴広
-
-line_set 「まあな」
-line_set 「いきなり、遊ぼうとか言わなくなったな」
-
-kgd_layer3_set 3 MI010.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10744.wav
-
-line_set 「あたし、そんなバカじゃないも～ん」
-
-name_set 貴広
-
-line_set 「そうだったっけ？」
-
-name_set 命
-
-voice_play v10745.wav
-
-line_set 「そう」
-
-name_set 貴広
-
-line_set 「ふ～ん」
-line_set 「そういえば、前から気になってたんだが…」
-line_set 「その肩から背負ってるのってなんだ？」
-
-nvl_on
-
-line_set 貴広はタバコを灰皿に揉み消しながら、命の肩に背負われた巨大な柄みたいなモノを指さした。
-
-adv_on
-
-kgd_layer3_set 3 MI003.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10746.wav
-
-line_set 「これ？」
-
-name_set 貴広
-
-line_set 「そう」
-
-kgd_layer3_set 3 MI004.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10747.wav
-
-line_set 「これはね、言っちゃいけないって言われてるから、言わない」
-
-voice_play v10748.wav
-
-line_set 「ひーみーつー」
-
-name_set 貴広
-
-line_set 「あっそう」
-line_set 「ま、危険物じゃなければ、別にいいんだが」
-
-kgd_layer3_set 3 MI010.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10749.wav
-
-line_set 「うん、あぶなくないよ」
-
-voice_play v10750.wav
-
-line_set 「全然あぶなくないよ」
-
-voice_play v10751.wav
-
-line_set 「ぜーんぜん」
-
-name_set 貴広
-
-line_set 「……」
-line_set 「そう強調されると、逆に気になるって」
-line_set 「ホントに大丈夫なんだろうな？」
-
-kgd_layer3_set 3 MI004.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10752.wav
-
-line_set 「だいじょうぶ！」
-
-name_set 貴広
-
-line_set 「ふむ…」
-line_set 「まあいいか…」
-
-nvl_on
-
-line_set 「……そう言えば、命もアリスの一員…今回の飯島の動きに関係あるのか…？」
-line_set 「飯島との連絡が途絶えて、二日後に命がやってきた…そして今、飯島が何かしようとしている…」
-line_set 「なにを？何のために？」
-line_set 「…なにか、あと一つピースが見つかれば、このパズルは解けそうなんだが…」
-
-adv_on
-
-kgd_layer3_set 3 MI006.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10753.wav
-
-line_set 「どうしたの貴広？」
-
-voice_play v10754.wav
-
-line_set 「顔こわ～い」
-
-name_set 貴広
-
-line_set 「ん、いや別に…」
-line_set 「で？命は何か用か？」
-
-kgd_layer3_set 3 MI003.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10755.wav
-
-line_set 「ん？お仕事終わったかなぁって思って」
-
-name_set 貴広
-
-line_set 「今日は朝に色々あってな、始めるのが遅かったからな、終わるのも遅くなってるわけさ」
-
-name_set 命
-
-voice_play v10756.wav
-
-line_set 「ふ～ん」
-
-voice_play v10757.wav
-
-line_set 「いつごろ終わる？」
-
-name_set 貴広
-
-line_set 「う～む…もう少し掛かりそうだな」
-
-kgd_layer3_set 3 MI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10758.wav
-
-line_set 「じゃ、ここで待ってる」
-
-name_set 貴広
-
-line_set 「別に構わんが、静かにな」
-
-name_set 命
-
-voice_play v10759.wav
-
-line_set 「うん！」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 命は大きく頷くと、応接セットのソファーにぽすんっと腰掛けた。
-line_set 貴広は肩をすくめ、再び机に視線を下げた。
-line_set カリカリと万年筆の走る音だけが部屋に響く。
-
-adv_on
-
-name_set 貴広
-
-line_set 「…年間修繕費は…ふむ……」
-line_set 「ん…」
-
-nvl_on
-
-line_set ふと思いついたように顔を上げた貴広は、受話器を持ち上げ、内線ボタンを押した。
-
-adv_on
-
-name_set 貴広
-
-line_set 「すまんが、コーヒーを貰えるか？」
-line_set 「あ、命。何か飲むか？」
-
-kgd_layer3_set 0 MI002.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 命
-
-voice_play v10760.wav
-
-line_set 「ジュース！！」
-
-name_set 貴広
-
-line_set 「だそうだ、なかったらミルクでもいい」
-line_set 「よろしくな」
-
-nvl_on
-
-line_set そう言って貴広は内線を切った。
-line_set 命はドアの方をニコニコと見つめ、今か今かとジュースが来るのを待っている。
-
-adv_on
-
-name_set 貴広
-
-line_set 「まあ、落ち着けって」
-
-name_set 命
-
-voice_play v10761.wav
-
-line_set 「うん！」
-
-nvl_on
-
-line_set 元気よく返事しても、命はまるでエサを待つ犬のようにドアをキラキラした目で見つめ続けている。
-line_set なんとなくパタパタと振られるシッポが見えてきそうだった。
-
-adv_on
-
-sfx_set 0 SE014.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set コンコン…
-sfx_stop 0
-sfx_unset 0
-
-name_set 命
-
-voice_play v10762.wav
-
-line_set 「来た！！」
-
-name_set 貴広
-
-line_set 「入れ」
-
-kgd_layer3_set 3 RI001.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10763.wav
-
-line_set 「失礼します」
-
-voice_play v10764.wav
-
-line_set 「コーヒーをお持ちしました」
-
-voice_play v10765.wav
-
-line_set 「命さんには、ジュースがなかったので、フローズンミルクを持ってきました」
-
-name_set 貴広
-
-line_set 「フローズンミルク？」
-
-name_set リニア
-
-voice_play v10766.wav
-
-line_set 「あ、牛乳に砂糖を入れて、凍らせただけなんですけど…」
-
-name_set 貴広
-
-line_set 「まんまの名前だな」
-
-name_set リニア
-
-voice_play v10767.wav
-
-line_set 「で、でも美味しいんですよ」
-
-voice_play v10768.wav
-
-line_set 「どうですか、命さん？」
-
-kgd_layer3_set 3 MI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10769.wav
-
-line_set 「うん！！んま～い！！」
-
-kgd_layer3_set 3 RI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10770.wav
-
-line_set 「ありがとうございます」
-
-voice_play v10771.wav
-
-line_set 「貴広さんの分もあるんですけど、どうですか？」
-
-name_set 貴広
-
-line_set 「俺は遠慮しておく。甘いモノは苦手だ」
-line_set 「お前が食べていい」
-line_set 「そこで命と一緒に食べてけ」
-
-kgd_layer3_set 3 RI011.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10772.wav
-
-line_set 「え？　頂いちゃってもよろしいんですか？」
-
-name_set 貴広
-
-line_set 「ああ、俺はコーヒーで充分だ」
-
-name_set リニア
-
-voice_play v10773.wav
-
-line_set 「ありがとうございます」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set リニアと命の二人はソファーに座り、ニコニコしながらシャクシャクとフローズンミルクを平らげる。
-line_set 貴広はコーヒーを飲みながら、その光景を眺めていた。
-
-adv_on
-
-kgd_layer3_set 0 MI002.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 命
-
-voice_play v10774.wav
-
-line_set 「おいしかった～！！」
-
-name_set 貴広
-
-line_set 「口の周りが牛乳だらけだぞ」
-
-kgd_layer3_set 3 MI003.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10775.wav
-
-line_set 「ん？」
-
-name_set 貴広
-
-line_set 「こらこら、服で拭こうとするな」
-line_set 「ほら、これで拭け」
-
-nvl_on
-
-line_set エプロンの裾で口を拭こうとする命を止めて、貴広はポケットからハンカチを放った。
-line_set 命はそれを受け取り、ぐしぐしと口周りを拭く。
-
-adv_on
-
-kgd_layer3_set 3 MI001.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10776.wav
-
-line_set 「あんがと」
-
-kgd_layer3_set 3 RI031.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10777.wav
-
-line_set 「あの…洗ってお返しした方が…」
-
-name_set 貴広
-
-line_set 「ま、そうだな」
-
-kgd_layer3_set 3 MI003.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10778.wav
-
-line_set 「うん、わかった。洗って返す」
-
-nvl_on
-
-line_set 命はニカッと笑うと、そのハンカチをポケットに入れ、リニアの食べているフローズンミルクを見つめた。
-
-adv_on
-
-kgd_layer3_set 3 RI031.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10779.wav
-
-line_set 「あ…あ、あの…食べます？」
-
-kgd_layer3_set 3 MI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10780.wav
-
-line_set 「うん！！」
-
-kgd_layer3_set 3 RI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10781.wav
-
-line_set 「では、どうぞ」
-
-kgd_layer3_set 3 MI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 命
-
-voice_play v10782.wav
-
-line_set 「ありがとー！！リニアお姉ちゃん！！」
-
-kgd_layer3_set 3 RI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set リニア
-
-voice_play v10783.wav
-
-line_set 「いえいえ…」
-
-name_set 貴広
-
-line_set 「やれやれ…」
-
-kgd_layer3_set 3 MI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-nvl_on
-
-line_set 嬉しそうにパクつく命に、貴広は呆れたように肩をすくめコーヒーカップを傾けた。
-
-nvl_line_clear
-
-line_set 「なんかいつの間にか、命もこの島に馴染んでしまったな」
-line_set 「素質があったというか…」
-line_set 「ま、ここに合う素質なんて褒められたもんじゃないが」
-
-nvl_line_clear
-
-line_set その後、リニアは器を二つ持って退室し、命はソファーにもたれて貴広の仕事が終わるのを待った。
-
-adv_on
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-music_play_moekan 024.WAV
-
-
-kgd_layer1_set 0 BG024.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-name_set 貴広
-
-line_set 「やれやれ…ようやく終わった」
-line_set 「もうこんな時間か」
-
-nvl_on
-
-line_set 貴広は完成した書類をまとめて整え、夕焼けに染まる窓の外を眺めた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「待たせたな、命」
-line_set 「…命？」
-line_set 「あれ？」
-
-name_set 命
-
-voice_play v10784.wav
-
-line_set 「く～…く～…く～…く～…」
-
-name_set 貴広
-
-line_set 「あら？寝てる」
-
-nvl_on
-
-line_set 待ちくたびれたのか、命はソファーにもたれ寝息を立てていた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「しょうがないな…」
-
-nvl_on
-
-line_set 貴広はそっと秘書室側のドアを開け、秘書室に入った。
-
-adv_on
-
-kgd_layer1_set 1 BG026.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-kgd_layer3_set 0 KI013.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v10785.wav
-
-line_set 「あら、所長？」
-
-nvl_on
-
-line_set 書き物をしていた霧島が、静かに入ってきた貴広に気付き、顔を上げた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「やっと書類処理が終わったから、チェック頼む」
-line_set 「それと、掛け布団を一枚頼む」
-
-name_set 霧島
-
-voice_play v10786.wav
-
-line_set 「は？掛け布団でちゅか？」
-
-name_set 貴広
-
-line_set 「命が待ちくたびれて、ソファーで寝ちまったんだよ」
-line_set 「起こすのもなんだし、放っておくのもアレだしな」
-
-kgd_layer3_set 3 KI012.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v10787.wav
-
-line_set 「わかりまちた」
-
-voice_play v10788.wav
-
-line_set 「すぐに掛け布団を持ってきまちゅ」
-
-name_set 貴広
-
-line_set 「うむ」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_set 1 BG024.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-nvl_on
-
-line_set 霧島は布団を取りに秘書室を出て、貴広は所長室へ戻った。
-line_set しばらくすると、霧島が布団を抱えて所長室にやってきて、命にそっとかけた。
-
-adv_on
-
-kgd_layer3_set 0 KI012.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 貴広
-
-line_set 「さて、見回りに行ってくるかな」
-
-name_set 霧島
-
-voice_play v10789.wav
-
-line_set 「今日は見回りしなくていいでちゅよ」
-
-name_set 貴広
-
-line_set 「へ？」
-
-name_set 霧島
-
-voice_play v10790.wav
-
-line_set 「お夕食の時間まで、命ちゃんのそばにいてあげてくだちゃい」
-
-voice_play v10791.wav
-
-line_set 「待ちくたびれて寝てしまったんでちゅもの、起きた時に所長がいなかったら寂しがりまちゅ」
-
-name_set 貴広
-
-line_set 「そうか？」
-
-name_set 霧島
-
-voice_play v10792.wav
-
-line_set 「そうでちゅよ」
-
-voice_play v10793.wav
-
-line_set 「お夕食の時間がきても起きなかったら、お部屋まで抱えてってあげてくだちゃいね」
-
-name_set 貴広
-
-line_set 「え～…マジで？」
-line_set 「最近座り仕事ばかりで、腰の調子がどうも…」
-
-name_set 霧島
-
-voice_play v10794.wav
-
-line_set 「おじさん宣言でちゅか？」
-
-name_set 貴広
-
-line_set 「う…」
-
-name_set 霧島
-
-voice_play v10795.wav
-
-line_set 「また、命ちゃんに『おじちゃん』て言われまちゅよ」
-
-name_set 貴広
-
-line_set 「あーわかった、わかった、ちゃんと連れてくよ」
-
-name_set 霧島
-
-voice_play v10796.wav
-
-line_set 「では、よろしくお願いしまちゅ」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 霧島はニッコリと微笑むと、書類束を抱えて秘書室に戻っていった。
-line_set 貴広は小さなため息をつくと、静かに椅子に腰掛けた。
-
-nvl_line_clear
-
-line_set 真っ赤な夕日に染まる所長室で、貴広は腕を組みゆったりと椅子に腰掛ける。
-line_set タバコを吸おうと伸ばしかけた手を引っ込めた。
-
-adv_on
-
-name_set 命
-
-voice_play v10797.wav
-
-line_set 「ん…んう……」
-
-name_set 貴広
-
-line_set 「！」
-
-name_set 命
-
-voice_play v10798.wav
-
-line_set 「く～…く～…く～…むにゃむにゃ…」
-
-name_set 貴広
-
-line_set 「今度は俺が待つ番か…」
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG088.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-nvl_on
-
-line_set 命を待つ間に日は落ち、貴広は明かりを点けカーテンを閉じて再び椅子に戻った。
-
-adv_on
-
-name_set 貴広
-
-line_set 「こうしている間にも、本社の上層や飯島が動いているのだろう…」
-line_set 「本社や飯島が何のために動いているのか…」
-
-nvl_on
-
-line_set 『セカンドアリス…』
-line_set 「！」
-
-nvl_line_clear
-
-line_set ウトウトと目を閉じかけた貴広の頭に、霧島の何気なく呟いた言葉が思い出された。
-line_set 同時に貴広に閃くものがあった。
-
-adv_on
-
-name_set 貴広
-
-line_set 「セカンドアリス…」
-line_set 「命…」
-line_set 「命がセカンドアリス…」
-line_set 「あの時は冗談みたいだと笑ったが、それが本当だとしたら…」
-line_set 「破壊されたアリス本部…消された島々…飯島の兵隊集め……」
-line_set 「本部を破壊し、逃げ出したセカンドアリスを捕まえるため…」
-line_set 「消された島は、セカンドアリスを捕まえようとして失敗したため…」
-line_set 「そしてセカンドアリスを粛清するために、飯島は兵を集めている…」
-line_set 「命は逃げて逃げて、最果てのこの島に来たのか…」
-line_set 「しかし…逃亡者っぽい仕草は全然ないな」
-line_set 「もしかして、素であんな性格で、逃げているという感覚ではないのか…？」
-line_set 「本当に青い鳥を探してるという理由なのか？」
-
-nvl_on
-
-line_set 貴広はソファーで幸せそうに眠っている命を真剣な表情で見つめた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「命に聞かなくてはいけないみたいだな…」
-
-music_stop2
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer2_clear
-
-
-ksd_set 1227Z.KSD
-ksd_end
+    kgd_layer1_set 0 W1226.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_set_moekan 1226.KGD
+
+    kgd_layer1_set 0 BG027.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 貴広
+    line_set 「ん…ふぁ…」
+    line_set 「今日は月曜のはずだが…」
+    line_set 「ずいぶん静かだな…」
+
+    nvl_on
+    line_set 月曜の朝はヘリの騒音で目覚める貴広は、物静かな朝に首を傾げた。
+    line_set ベッドから降り、窓を開けてしばらく遠くを眺めてみたが、ヘリの機影は見えてこなかった。
+
+    adv_on
+    name_set 貴広
+    line_set 「ふむ…」
+
+    sfx_set 0 SE014.WAV
+    sfx_play 0 0
+    name_clear
+    line_set コンコン…
+    sfx_stop 0
+    sfx_unset 0
+    music_play_moekan 009.WAV
+
+    kgd_layer3_set 0 RI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set リニア
+    voice_play v10691.wav
+    line_set 「失礼します」
+
+    name_set 貴広
+    line_set 「ああ、リニアか…」
+
+    kgd_layer3_set 3 RI021.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10692.wav
+    line_set 「あれ！？貴広さんが起きてます！！」
+
+    name_set 貴広
+    line_set 「貴様に起こされなくても、最近はちゃんと起きてるんだよ、コノヤロウ」
+
+    kgd_layer3_set 3 RI007.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    sfx_set 0 SE112.WAV
+    sfx_play 0 0
+
+    name_set リニア
+    voice_play v10693.wav
+    line_set 「あいた、あいたたた、ウ、ウメボシはカンベンしてください～」
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「それより、今日は月曜なのにヘリは来てないのか？」
+
+    kgd_layer3_set 3 RI017.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10694.wav
+    line_set 「え？　そうですね…」
+    voice_play v10695.wav
+    line_set 「なんででしょう？」
+
+    name_set 貴広
+    line_set 「お前に聞いた俺がバカだった…」
+
+    nvl_on
+    line_set リニアはウメボシされたこめかみをさすりつつ、首を傾げた。
+    line_set 貴広は呆れて、疲れたため息を吐いた。
+
+    adv_on
+    name_set リニア
+    voice_play v10696.wav
+    line_set 「霧島さんも、連絡がないって困ってました」
+
+    name_set 貴広
+    line_set 「ふむ…島消失で本社も慌ただしいようだな…」
+    line_set 「それでも荷物は送ってもらいたいものだ。島に住む者達にしたら、ヘタすりゃ死活問題だからな…」
+
+    kgd_layer3_set 3 RI015.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10697.wav
+    line_set 「島がどうしたんですか？」
+
+    name_set 貴広
+    line_set 「え、いや、なんでもない」
+    line_set 「霧島に起きたと伝えておいてくれ」
+
+    kgd_layer3_set 3 RI001.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10698.wav
+    line_set 「はい」
+    voice_play v10699.wav
+    line_set 「では、失礼します」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set リニアが退室した後、貴広は手早く身支度を済ませ、所長室に向かった。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_play_moekan 012.WAV
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v10700.wav
+    line_set 「おはようございまちゅ」
+
+    name_set 貴広
+    line_set 「おはよう」
+    line_set 「輸送ヘリが来てないらしいな」
+
+    kgd_layer3_set 3 KI011.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v10701.wav
+    line_set 「はい…連絡もとれない状態でちて」
+
+    name_set 貴広
+    line_set 「衛星通信でもだめか？」
+
+    name_set 霧島
+    voice_play v10702.wav
+    line_set 「はい、一時的に封鎖されてるみたいでちゅ」
+
+    name_set 貴広
+    line_set 「うむ…」
+    line_set 「おやじさんは？」
+
+    name_set 霧島
+    voice_play v10703.wav
+    line_set 「おやじさんなら、朝からメンテナンスルームに…」
+
+    name_set 貴広
+    line_set 「そうか、わかった。ちょっと行ってくる」
+
+    nvl_on
+    line_set 貴広は所長室を飛び出し、メンテ室へ向かった。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG041.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 貴広
+    line_set 「おやじさん」
+
+    kgd_layer3_set 0 SO028.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set おやじさん
+    voice_play v10704.wav
+    line_set 「よう、貴広、いいところへ来た」
+    voice_play v10705.wav
+    line_set 「たった今、アリスの本部の映像を見つけたところだ」
+
+    name_set 貴広
+    line_set 「なんだって？」
+
+    nvl_on
+    line_set 貴広はおやじさんの横に駆け寄り、モニターを見た。
+    line_set モニターには、モノクロの荒い映像が流れている。
+    line_set 映像は抉られた大地と煙を上げる建造物を写していた。
+    line_set その廻りで小さな物体が動いている。
+
+    adv_on
+    name_set おやじさん
+    voice_play v10706.wav
+    line_set 「旧式のスパイ衛星からの映像なんで、画質は悪いが、このほぼ全壊してる建物が本部だ」
+    voice_play v10707.wav
+    line_set 「そのまわりで動いているのは消防車だな」
+    voice_play v10708.wav
+    line_set 「大型の化学消防車まで出動してるみたいだ…ヤバイ薬品でも扱ってたのか…」
+
+    nvl_on
+    line_set 唐突に画像が荒れた。
+
+    adv_on
+    name_set おやじさん
+    voice_play v10709.wav
+    line_set 「衛星なんで、鮮明な部分は２分くらいしかないんだが、録画してある」
+
+    nvl_on
+    line_set おやじさんがカチャカチャとキーボードを叩くと、さっきの画像が現れ、繰り返し流れる。
+
+    adv_on
+    name_set 貴広
+    line_set 「これじゃあ飯島も連絡できんわけだ」
+    line_set 「やはりファーストの暴走か…」
+
+    name_set おやじさん
+    voice_play v10710.wav
+    line_set 「いや…隔壁は下から破壊されていない」
+    voice_play v10711.wav
+    line_set 「コレはファーストより上の階層で起きたことみたいだ」
+
+    name_set 貴広
+    line_set 「ではなにが…？」
+
+    kgd_layer3_set 3 SO018.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v10712.wav
+    line_set 「ふむ…メイド達の反乱…か？」
+    voice_play v10713.wav
+    line_set 「とりあえず飯島は無事みたいだぞ」
+
+    name_set 貴広
+    line_set 「そうか…」
+
+    kgd_layer3_set 3 SO030.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v10714.wav
+    line_set 「すこし安心したみたいだな」
+    voice_play v10715.wav
+    line_set 「結構ひどいこと言われてるのに、かつての部下はやっぱり気になるか？」
+
+    name_set 貴広
+    line_set 「ま、悲報を聞くよりかはマシさ」
+
+    kgd_layer3_set 3 SO028.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v10716.wav
+    line_set 「その飯島なんだがな、海兵部隊を大掛かりで集めてる」
+
+    name_set 貴広
+    line_set 「海兵部隊？」
+
+    name_set おやじさん
+    voice_play v10717.wav
+    line_set 「ああ、詳しいことはまだ判らないが、規模は大きそうだ」
+
+    name_set 貴広
+    line_set 「何をする気だ？」
+
+    name_set おやじさん
+    voice_play v10718.wav
+    line_set 「わからん…どこかに戦争でも仕掛けそうな勢いだな…」
+
+    name_set 貴広
+    line_set 「なぜ？」
+
+    name_set おやじさん
+    voice_play v10719.wav
+    line_set 「俺にはわからんよ」
+    voice_play v10720.wav
+    line_set 「貴広の方が付き合い長いんだし、まだ想像が付くんじゃないのか？」
+
+    name_set 貴広
+    line_set 「う～む…」
+    line_set 「もしかしたら、俺に絡んでることかもしれん…そうなるとこの島を巻き込むことになる…」
+    line_set 「おやじさん、防衛設備の点検を頼む」
+    line_set 「俺は避難経路を確認する」
+
+    kgd_layer3_set 3 SO031.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v10721.wav
+    line_set 「おいおい、大袈裟じゃねぇか？」
+
+    name_set 貴広
+    line_set 「…嫌な予感がする」
+
+    kgd_layer3_set 3 SO028.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    line_set 「……」
+    voice_play v10722.wav
+    line_set 「ま、貴広がそう言うなら、点検しといて損はねえしやっておくぜ」
+
+    name_set 貴広
+    line_set 「さっそく始めよう」
+
+    name_set おやじさん
+    voice_play v10723.wav
+    line_set 「わかった」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set おやじさんはモニターに向き直り、島の防衛設備の点検を始め、貴広はメンテ室を後にした。
+
+    adv_on
+    kgd_layer1_set 0 BG004.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 貴広
+    line_set 「霧島にも言っておいた方がいいだろうな…」
+
+    kgd_layer3_set 0 MI004.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 命
+    voice_play v10724.wav
+    line_set 「貴広み～っけ！！」
+
+    name_set 貴広
+    line_set 「おっと…命か」
+
+    kgd_layer3_set 3 MI003.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10725.wav
+    line_set 「貴広、仕事終わった？」
+
+    name_set 貴広
+    line_set 「いや、まだだ」
+
+    kgd_layer3_set 3 MI007.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10726.wav
+    line_set 「な～んだ」
+
+    name_set 貴広
+    line_set 「あ、命」
+
+    kgd_layer3_set 3 MI003.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10727.wav
+    line_set 「なに？」
+
+    nvl_on
+    line_set 貴広は、拗ねた顔をして向こうに行きかけた命を呼び止め、膝をついて目線を同じにして見つめた。
+
+    adv_on
+    name_set 貴広
+    line_set 「アリスの本部で何が起きたか、命は本当に知らないのか？」
+
+    kgd_layer3_set 3 MI010.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10728.wav
+    line_set 「え…」
+    voice_play v10729.wav
+    line_set 「知らない、知らないもーん！！」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    name_set 貴広
+    line_set 「あ！」
+
+    nvl_on
+    line_set 貴広の真剣な表情を怖がるように視線をそらし、命は背を向けて走り去ってしまった。
+    line_set 眉間にシワを寄せ、命を見送る貴広。
+
+    adv_on
+    name_set 貴広
+    line_set 「何かを知ってるみたいだが…」
+    line_set 「後で聞くとするか」
+
+    nvl_on
+    line_set 貴広は命の行動を気にしつつ、所長室へ向かった。
+
+    adv_on
+    kgd_layer1_set 1 BG023.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v10730.wav
+    line_set 「何かわかりまちたか？」
+
+    name_set 貴広
+    line_set 「飯島がなにやら動いているらしい」
+
+    name_set 霧島
+    voice_play v10731.wav
+    line_set 「飯島が？」
+
+    name_set 貴広
+    line_set 「海兵部隊に働きかけてるらしい」
+    line_set 「連絡が取れない以上、俺が関係してるかはわからんが、それなりの準備をしておこうと思う」
+    line_set 「防衛設備、各員の避難経路を確認したい。データを出してくれるか？」
+
+    name_set 霧島
+    voice_play v10732.wav
+    line_set 「わかりまちた。すぐに用意しまちゅ」
+
+    nvl_on
+    line_set 一旦、秘書室に入った霧島が、ファイルを抱えて戻ってくる。
+    line_set 貴広はそれを机の上に開き、素早く目を通す。
+
+    adv_on
+    name_set 貴広
+    line_set 「ふむ、防衛設備はおやじさんがチェックしている」
+    line_set 「少しでも異常があるものは、すぐに交換してくれ」
+
+    name_set 霧島
+    voice_play v10733.wav
+    line_set 「はい」
+
+    name_set 貴広
+    line_set 「なお、無用の混乱を避けるため、このことはメイド長クラス以外には話すな」
+
+    name_set 霧島
+    voice_play v10734.wav
+    line_set 「わかりまちた」
+
+    name_set 貴広
+    line_set 「では、霧島はおやじさんの所へ」
+    line_set 「俺はシェルターのチェックに向かう」
+
+    name_set 霧島
+    voice_play v10735.wav
+    line_set 「了解しまちた」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 貴広と霧島は足早に所長室を出て、地下へ向かった。
+    line_set 霧島とは地下五階で別れ、貴広はさらに下へ向かった。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG084.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    nvl_on
+    line_set 地下６階の廊下を進み、緊急避難用のシェルターの扉を開ける。
+    line_set すぐさま照明が点き、少しくすんではいるが、頑丈な壁に包まれた広い一室が現れる。
+    line_set 緊急の際には、ここへ全職員を収容し、海上へ射出される仕組みになっている。
+
+    adv_on
+    name_set 貴広
+    line_set 「ここを使うことにならなければいいが…」
+
+    nvl_on
+    line_set そう呟き、壁を軽く叩く。
+    line_set 何層にも重ねられた壁に、堅い音が反響して消えた。
+    line_set 貴広は、壁の一部に収納された保存食をチェックし、安全な事を確認して、そこを後にした。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG041.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 貴広
+    line_set 「どうだ？」
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v10736.wav
+    line_set 「あ、所長」
+
+    name_set 貴広
+    line_set 「シェルターに異常はなかった」
+    line_set 「こっちはどうだ？」
+
+    kgd_layer3_set 3 SO028.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v10737.wav
+    line_set 「動かねえわけじゃないんだが、二ヶ所不安が残るところが出てきた」
+
+    name_set 貴広
+    line_set 「すぐに交換はきくか？」
+
+    name_set おやじさん
+    voice_play v10738.wav
+    line_set 「換えがあったかな…見てみねえとわからんな…」
+    voice_play v10739.wav
+    line_set 「ちっと見てくらぁ」
+    voice_play v10740.wav
+    line_set 「他の所は異常なしだ」
+
+    name_set 貴広
+    line_set 「そうか」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set おやじさんは部品の確認のため、足早にメンテ室を出ていった。
+
+    adv_on
+    kgd_layer3_set 0 KI011.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v10741.wav
+    line_set 「なかなか大掛かりになってきまちたね…」
+
+    name_set 貴広
+    line_set 「万が一に備えてさ」
+    line_set 「使わないに越したことはないんだが…」
+
+    name_set 霧島
+    voice_play v10742.wav
+    line_set 「そうでちゅね…」
+
+    nvl_on
+    line_set そう言って、貴広と霧島は疲れたような顔をして微笑んだ。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 2000
+    music_play_moekan 021.WAV
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    nvl_on
+    line_set 設備の点検と調整を終えた貴広は、いつもの書類処理を行っていた。
+    line_set 始めたのが遅かった分、終了時間もいつもより大幅にオーバーしていた。
+    line_set タバコを銜え、愛用の万年筆で書類にサインを書き込んでいく。
+
+    adv_on
+    name_set 貴広
+    line_set 「ふ～…今年の社会保障費は……こんなもんか…」
+
+    sfx_set 0 SE015.WAV
+    sfx_play 0 0
+    name_clear
+    line_set ガチャ…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「ん？」
+
+    kgd_layer3_set 0 MI003.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 命
+    voice_play v10743.wav
+    line_set 「まだ、お仕事？」
+
+    name_set 貴広
+    line_set 「まあな」
+    line_set 「いきなり、遊ぼうとか言わなくなったな」
+
+    kgd_layer3_set 3 MI010.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10744.wav
+    line_set 「あたし、そんなバカじゃないも～ん」
+
+    name_set 貴広
+    line_set 「そうだったっけ？」
+
+    name_set 命
+    voice_play v10745.wav
+    line_set 「そう」
+
+    name_set 貴広
+    line_set 「ふ～ん」
+    line_set 「そういえば、前から気になってたんだが…」
+    line_set 「その肩から背負ってるのってなんだ？」
+
+    nvl_on
+    line_set 貴広はタバコを灰皿に揉み消しながら、命の肩に背負われた巨大な柄みたいなモノを指さした。
+
+    adv_on
+    kgd_layer3_set 3 MI003.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10746.wav
+    line_set 「これ？」
+
+    name_set 貴広
+    line_set 「そう」
+
+    kgd_layer3_set 3 MI004.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10747.wav
+    line_set 「これはね、言っちゃいけないって言われてるから、言わない」
+    voice_play v10748.wav
+    line_set 「ひーみーつー」
+
+    name_set 貴広
+    line_set 「あっそう」
+    line_set 「ま、危険物じゃなければ、別にいいんだが」
+
+    kgd_layer3_set 3 MI010.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10749.wav
+    line_set 「うん、あぶなくないよ」
+    voice_play v10750.wav
+    line_set 「全然あぶなくないよ」
+    voice_play v10751.wav
+    line_set 「ぜーんぜん」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「そう強調されると、逆に気になるって」
+    line_set 「ホントに大丈夫なんだろうな？」
+
+    kgd_layer3_set 3 MI004.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10752.wav
+    line_set 「だいじょうぶ！」
+
+    name_set 貴広
+    line_set 「ふむ…」
+    line_set 「まあいいか…」
+
+    nvl_on
+    line_set 「……そう言えば、命もアリスの一員…今回の飯島の動きに関係あるのか…？」
+    line_set 「飯島との連絡が途絶えて、二日後に命がやってきた…そして今、飯島が何かしようとしている…」
+    line_set 「なにを？何のために？」
+    line_set 「…なにか、あと一つピースが見つかれば、このパズルは解けそうなんだが…」
+
+    adv_on
+    kgd_layer3_set 3 MI006.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10753.wav
+    line_set 「どうしたの貴広？」
+    voice_play v10754.wav
+    line_set 「顔こわ～い」
+
+    name_set 貴広
+    line_set 「ん、いや別に…」
+    line_set 「で？命は何か用か？」
+
+    kgd_layer3_set 3 MI003.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10755.wav
+    line_set 「ん？お仕事終わったかなぁって思って」
+
+    name_set 貴広
+    line_set 「今日は朝に色々あってな、始めるのが遅かったからな、終わるのも遅くなってるわけさ」
+
+    name_set 命
+    voice_play v10756.wav
+    line_set 「ふ～ん」
+    voice_play v10757.wav
+    line_set 「いつごろ終わる？」
+
+    name_set 貴広
+    line_set 「う～む…もう少し掛かりそうだな」
+
+    kgd_layer3_set 3 MI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10758.wav
+    line_set 「じゃ、ここで待ってる」
+
+    name_set 貴広
+    line_set 「別に構わんが、静かにな」
+
+    name_set 命
+    voice_play v10759.wav
+    line_set 「うん！」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 命は大きく頷くと、応接セットのソファーにぽすんっと腰掛けた。
+    line_set 貴広は肩をすくめ、再び机に視線を下げた。
+    line_set カリカリと万年筆の走る音だけが部屋に響く。
+
+    adv_on
+    name_set 貴広
+    line_set 「…年間修繕費は…ふむ……」
+    line_set 「ん…」
+
+    nvl_on
+    line_set ふと思いついたように顔を上げた貴広は、受話器を持ち上げ、内線ボタンを押した。
+
+    adv_on
+    name_set 貴広
+    line_set 「すまんが、コーヒーを貰えるか？」
+    line_set 「あ、命。何か飲むか？」
+
+    kgd_layer3_set 0 MI002.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 命
+    voice_play v10760.wav
+    line_set 「ジュース！！」
+
+    name_set 貴広
+    line_set 「だそうだ、なかったらミルクでもいい」
+    line_set 「よろしくな」
+
+    nvl_on
+    line_set そう言って貴広は内線を切った。
+    line_set 命はドアの方をニコニコと見つめ、今か今かとジュースが来るのを待っている。
+
+    adv_on
+    name_set 貴広
+    line_set 「まあ、落ち着けって」
+
+    name_set 命
+    voice_play v10761.wav
+    line_set 「うん！」
+
+    nvl_on
+    line_set 元気よく返事しても、命はまるでエサを待つ犬のようにドアをキラキラした目で見つめ続けている。
+    line_set なんとなくパタパタと振られるシッポが見えてきそうだった。
+
+    adv_on
+    sfx_set 0 SE014.WAV
+    sfx_play 0 0
+    name_clear
+    line_set コンコン…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 命
+    voice_play v10762.wav
+    line_set 「来た！！」
+
+    name_set 貴広
+    line_set 「入れ」
+
+    kgd_layer3_set 3 RI001.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10763.wav
+    line_set 「失礼します」
+    voice_play v10764.wav
+    line_set 「コーヒーをお持ちしました」
+    voice_play v10765.wav
+    line_set 「命さんには、ジュースがなかったので、フローズンミルクを持ってきました」
+
+    name_set 貴広
+    line_set 「フローズンミルク？」
+
+    name_set リニア
+    voice_play v10766.wav
+    line_set 「あ、牛乳に砂糖を入れて、凍らせただけなんですけど…」
+
+    name_set 貴広
+    line_set 「まんまの名前だな」
+
+    name_set リニア
+    voice_play v10767.wav
+    line_set 「で、でも美味しいんですよ」
+    voice_play v10768.wav
+    line_set 「どうですか、命さん？」
+
+    kgd_layer3_set 3 MI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10769.wav
+    line_set 「うん！！んま～い！！」
+
+    kgd_layer3_set 3 RI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10770.wav
+    line_set 「ありがとうございます」
+    voice_play v10771.wav
+    line_set 「貴広さんの分もあるんですけど、どうですか？」
+
+    name_set 貴広
+    line_set 「俺は遠慮しておく。甘いモノは苦手だ」
+    line_set 「お前が食べていい」
+    line_set 「そこで命と一緒に食べてけ」
+
+    kgd_layer3_set 3 RI011.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10772.wav
+    line_set 「え？　頂いちゃってもよろしいんですか？」
+
+    name_set 貴広
+    line_set 「ああ、俺はコーヒーで充分だ」
+
+    name_set リニア
+    voice_play v10773.wav
+    line_set 「ありがとうございます」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set リニアと命の二人はソファーに座り、ニコニコしながらシャクシャクとフローズンミルクを平らげる。
+    line_set 貴広はコーヒーを飲みながら、その光景を眺めていた。
+
+    adv_on
+    kgd_layer3_set 0 MI002.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 命
+    voice_play v10774.wav
+    line_set 「おいしかった～！！」
+
+    name_set 貴広
+    line_set 「口の周りが牛乳だらけだぞ」
+
+    kgd_layer3_set 3 MI003.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10775.wav
+    line_set 「ん？」
+
+    name_set 貴広
+    line_set 「こらこら、服で拭こうとするな」
+    line_set 「ほら、これで拭け」
+
+    nvl_on
+    line_set エプロンの裾で口を拭こうとする命を止めて、貴広はポケットからハンカチを放った。
+    line_set 命はそれを受け取り、ぐしぐしと口周りを拭く。
+
+    adv_on
+    kgd_layer3_set 3 MI001.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10776.wav
+    line_set 「あんがと」
+
+    kgd_layer3_set 3 RI031.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10777.wav
+    line_set 「あの…洗ってお返しした方が…」
+
+    name_set 貴広
+    line_set 「ま、そうだな」
+
+    kgd_layer3_set 3 MI003.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10778.wav
+    line_set 「うん、わかった。洗って返す」
+
+    nvl_on
+    line_set 命はニカッと笑うと、そのハンカチをポケットに入れ、リニアの食べているフローズンミルクを見つめた。
+
+    adv_on
+    kgd_layer3_set 3 RI031.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10779.wav
+    line_set 「あ…あ、あの…食べます？」
+
+    kgd_layer3_set 3 MI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10780.wav
+    line_set 「うん！！」
+
+    kgd_layer3_set 3 RI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10781.wav
+    line_set 「では、どうぞ」
+
+    kgd_layer3_set 3 MI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 命
+    voice_play v10782.wav
+    line_set 「ありがとー！！リニアお姉ちゃん！！」
+
+    kgd_layer3_set 3 RI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play v10783.wav
+    line_set 「いえいえ…」
+
+    name_set 貴広
+    line_set 「やれやれ…」
+
+    kgd_layer3_set 3 MI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    nvl_on
+    line_set 嬉しそうにパクつく命に、貴広は呆れたように肩をすくめコーヒーカップを傾けた。
+    nvl_line_clear
+    line_set 「なんかいつの間にか、命もこの島に馴染んでしまったな」
+    line_set 「素質があったというか…」
+    line_set 「ま、ここに合う素質なんて褒められたもんじゃないが」
+    nvl_line_clear
+    line_set その後、リニアは器を二つ持って退室し、命はソファーにもたれて貴広の仕事が終わるのを待った。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_play_moekan 024.WAV
+
+    kgd_layer1_set 0 BG024.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 貴広
+    line_set 「やれやれ…ようやく終わった」
+    line_set 「もうこんな時間か」
+
+    nvl_on
+    line_set 貴広は完成した書類をまとめて整え、夕焼けに染まる窓の外を眺めた。
+
+    adv_on
+    name_set 貴広
+    line_set 「待たせたな、命」
+    line_set 「…命？」
+    line_set 「あれ？」
+
+    name_set 命
+    voice_play v10784.wav
+    line_set 「く～…く～…く～…く～…」
+
+    name_set 貴広
+    line_set 「あら？寝てる」
+
+    nvl_on
+    line_set 待ちくたびれたのか、命はソファーにもたれ寝息を立てていた。
+
+    adv_on
+    name_set 貴広
+    line_set 「しょうがないな…」
+
+    nvl_on
+    line_set 貴広はそっと秘書室側のドアを開け、秘書室に入った。
+
+    adv_on
+    kgd_layer1_set 1 BG026.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    kgd_layer3_set 0 KI013.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v10785.wav
+    line_set 「あら、所長？」
+
+    nvl_on
+    line_set 書き物をしていた霧島が、静かに入ってきた貴広に気付き、顔を上げた。
+
+    adv_on
+    name_set 貴広
+    line_set 「やっと書類処理が終わったから、チェック頼む」
+    line_set 「それと、掛け布団を一枚頼む」
+
+    name_set 霧島
+    voice_play v10786.wav
+    line_set 「は？掛け布団でちゅか？」
+
+    name_set 貴広
+    line_set 「命が待ちくたびれて、ソファーで寝ちまったんだよ」
+    line_set 「起こすのもなんだし、放っておくのもアレだしな」
+
+    kgd_layer3_set 3 KI012.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v10787.wav
+    line_set 「わかりまちた」
+    voice_play v10788.wav
+    line_set 「すぐに掛け布団を持ってきまちゅ」
+
+    name_set 貴広
+    line_set 「うむ」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer1_set 1 BG024.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 霧島は布団を取りに秘書室を出て、貴広は所長室へ戻った。
+    line_set しばらくすると、霧島が布団を抱えて所長室にやってきて、命にそっとかけた。
+
+    adv_on
+    kgd_layer3_set 0 KI012.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 貴広
+    line_set 「さて、見回りに行ってくるかな」
+
+    name_set 霧島
+    voice_play v10789.wav
+    line_set 「今日は見回りしなくていいでちゅよ」
+
+    name_set 貴広
+    line_set 「へ？」
+
+    name_set 霧島
+    voice_play v10790.wav
+    line_set 「お夕食の時間まで、命ちゃんのそばにいてあげてくだちゃい」
+    voice_play v10791.wav
+    line_set 「待ちくたびれて寝てしまったんでちゅもの、起きた時に所長がいなかったら寂しがりまちゅ」
+
+    name_set 貴広
+    line_set 「そうか？」
+
+    name_set 霧島
+    voice_play v10792.wav
+    line_set 「そうでちゅよ」
+    voice_play v10793.wav
+    line_set 「お夕食の時間がきても起きなかったら、お部屋まで抱えてってあげてくだちゃいね」
+
+    name_set 貴広
+    line_set 「え～…マジで？」
+    line_set 「最近座り仕事ばかりで、腰の調子がどうも…」
+
+    name_set 霧島
+    voice_play v10794.wav
+    line_set 「おじさん宣言でちゅか？」
+
+    name_set 貴広
+    line_set 「う…」
+
+    name_set 霧島
+    voice_play v10795.wav
+    line_set 「また、命ちゃんに『おじちゃん』て言われまちゅよ」
+
+    name_set 貴広
+    line_set 「あーわかった、わかった、ちゃんと連れてくよ」
+
+    name_set 霧島
+    voice_play v10796.wav
+    line_set 「では、よろしくお願いしまちゅ」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 霧島はニッコリと微笑むと、書類束を抱えて秘書室に戻っていった。
+    line_set 貴広は小さなため息をつくと、静かに椅子に腰掛けた。
+    nvl_line_clear
+    line_set 真っ赤な夕日に染まる所長室で、貴広は腕を組みゆったりと椅子に腰掛ける。
+    line_set タバコを吸おうと伸ばしかけた手を引っ込めた。
+
+    adv_on
+    name_set 命
+    voice_play v10797.wav
+    line_set 「ん…んう……」
+
+    name_set 貴広
+    line_set 「！」
+
+    name_set 命
+    voice_play v10798.wav
+    line_set 「く～…く～…く～…むにゃむにゃ…」
+
+    name_set 貴広
+    line_set 「今度は俺が待つ番か…」
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG088.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    nvl_on
+    line_set 命を待つ間に日は落ち、貴広は明かりを点けカーテンを閉じて再び椅子に戻った。
+
+    adv_on
+    name_set 貴広
+    line_set 「こうしている間にも、本社の上層や飯島が動いているのだろう…」
+    line_set 「本社や飯島が何のために動いているのか…」
+
+    nvl_on
+    line_set 『セカンドアリス…』
+    line_set 「！」
+    nvl_line_clear
+    line_set ウトウトと目を閉じかけた貴広の頭に、霧島の何気なく呟いた言葉が思い出された。
+    line_set 同時に貴広に閃くものがあった。
+
+    adv_on
+    name_set 貴広
+    line_set 「セカンドアリス…」
+    line_set 「命…」
+    line_set 「命がセカンドアリス…」
+    line_set 「あの時は冗談みたいだと笑ったが、それが本当だとしたら…」
+    line_set 「破壊されたアリス本部…消された島々…飯島の兵隊集め……」
+    line_set 「本部を破壊し、逃げ出したセカンドアリスを捕まえるため…」
+    line_set 「消された島は、セカンドアリスを捕まえようとして失敗したため…」
+    line_set 「そしてセカンドアリスを粛清するために、飯島は兵を集めている…」
+    line_set 「命は逃げて逃げて、最果てのこの島に来たのか…」
+    line_set 「しかし…逃亡者っぽい仕草は全然ないな」
+    line_set 「もしかして、素であんな性格で、逃げているという感覚ではないのか…？」
+    line_set 「本当に青い鳥を探してるという理由なのか？」
+
+    nvl_on
+    line_set 貴広はソファーで幸せそうに眠っている命を真剣な表情で見つめた。
+
+    adv_on
+    name_set 貴広
+    line_set 「命に聞かなくてはいけないみたいだな…」
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_clear
+    ksd_set 1227Z.KSD
+    ksd_end

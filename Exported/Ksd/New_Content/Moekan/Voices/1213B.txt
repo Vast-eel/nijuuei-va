@@ -1,608 +1,424 @@
-story_progress 296
-
-kgd_layer1_set 0 W1213.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-wait 2000
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG023.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_set_moekan 1213.KGD
-music_play_moekan 019.WAV
-
-name_clear
-
-line_set トントン…
-
-nvl_on
-
-line_set 貴広は落ち着かない様子で机をペンで叩く。
-
-adv_on
-
-name_set 貴広
-
-line_set 「霧島…一体何をしているというんだ………」
-
-nvl_on
-
-line_set リニアのパーツが見つかったが霧島が帰ってこないという少しの不安が貴広の中に募ってくる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「はぁ………」
-
-sfx_set 0 SE014.WAV
-
-sfx_play 0 0
-name_clear
-
-line_set コンコン…
-
-sfx_stop 0
-
-sfx_unset 0
-name_set 貴広
-
-line_set 「だれだ？」
-
-sfx_set 0 SE015.WAV
-
-sfx_play 0 0
-name_clear
-
-line_set ガチャ…
-
-sfx_stop 0
-
-sfx_unset 0
-kgd_layer3_set 0 SO028.KGD
-
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set おやじさん
-
-voice_play v07005.wav
-
-voice_play v07005.wav
-line_set 「だれだとは心外な言葉だな貴広」
-
-name_set 貴広
-
-line_set 「なんだ、おやじさんか」
-
-line_set 「おやじさんが所長室にくるなんてめずらしいな。何かあったのか？」
-name_set おやじさん
-
-voice_play v07006.wav
-
-voice_play v07006.wav
-line_set 「うむ、本社のことでな」
-
-name_set 貴広
-
-line_set 「あぁ…そのことか」
-
-line_set 「たしか不穏な動きがあるっていっていたな」
-line_set 「なにかわかったのか？」
-name_set おやじさん
-
-voice_play v07007.wav
-
-voice_play v07007.wav
-line_set 「俺のツテからの情報なんだがな…」
-
-voice_play v07008.wav
-
-voice_play v07008.wav
-line_set 「たしかに不穏な動きが本社であるようだが、それが表だっているわけではない……」
-
-voice_play v07009.wav
-
-voice_play v07009.wav
-line_set 「かなりの粛清部隊が、水面下で動いているようだが、まだ誰かが粛正されたわけではない」
-
-name_set 貴広
-
-line_set 「本社の粛清部隊が！？　なんのために？」
-
-name_set おやじさん
-
-voice_play v07010.wav
-
-voice_play v07010.wav
-line_set 「それはよくわからない」
-
-voice_play v07011.wav
-
-voice_play v07011.wav
-line_set 「ただ、今はとてもナイーブな情勢だ、お前が焦る気持ちも分かるが…」
-
-voice_play v07012.wav
-
-voice_play v07012.wav
-line_set 「霧島の嬢ちゃんを信じろ…」
-
-voice_play v07013.wav
-
-voice_play v07013.wav
-line_set 「いま、お前が動いたら逆効果だ…」
-
-name_set 貴広
-
-line_set 「そうだな…」
-
-nvl_on
-
-line_set 「霧島、無事でいてくれよ…」
-
-nvl_line_clear
-
-line_set 貴広は自分に今何もできることが無いことに情けなくなり机に顔を埋める。
-
-adv_on
-
-sfx_set 0 SE025.WAV
-
-sfx_play 0 0
-name_clear
-
-line_set ジリリリリ………
-
-sfx_stop 0
-
-sfx_unset 0
-name_set 貴広
-
-voice_play v07014.wav
-
-line_set 「！」
-
-name_set おやじさん
-
-voice_play v07014.wav
-line_set 「！」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-nvl_on
-
-line_set 机の電話が古風なベル音を響かせた。
-
-line_set 音自体は古風であるが、これは衛星を使った特殊回線を示す音であった。
-line_set つまり、貴広が霧島に渡した携帯からの回線である。
-line_set 受話器をあげると向こう側から霧島の声が聞こえた。
-adv_on
-
-music_play_moekan 009.WAV
-
-name_set 霧島
-
-voice_play 42585.wav
-
-line_set 「もしもし、霧島でちゅ」
-
-name_set 貴広
-
-line_set 「霧島っ」
-
-line_set 「本当に霧島か！？」
-name_set 霧島
-
-voice_play 42586.wav
-
-line_set 「そうでちゅよ、私の声を忘れたとでもいうんでちゅか？」
-
-name_set 貴広
-
-line_set 「いやそうじゃないんだが………」
-
-line_set 「それはそうと…なぜパーツが見つかりそうだからと言って、連絡なしで行動をおこすんだ？」
-name_set 霧島
-
-voice_play 42587.wav
-
-line_set 「すみまちぇん…」
-
-name_set 貴広
-
-line_set 「どうした？　何かあったのか心配したんだぞ」
-
-name_set 霧島
-
-voice_play 42588.wav
-
-line_set 「連絡しなかった事についてはあやまりまちゅ」
-
-voice_play 42589.wav
-
-line_set 「探していたパーツが、もう使われない部品と言うことで…」
-
-voice_play 42590.wav
-
-line_set 「捨てられかけていたのを止めるのに、早急な手続きが必要だったものでちゅから」
-
-name_set 貴広
-
-line_set 「…そうだったのか、それはご苦労だったな」
-
-line_set 「怪我とかっていうのは一切ないんだな？」
-name_set 霧島
-
-voice_play 42591.wav
-
-line_set 「その心配は御無用でちゅよ…」
-
-voice_play 42592.wav
-
-line_set 「パーツ探しで走り回ってたので連絡が遅くなりまちた」
-
-name_set 貴広
-
-line_set 「そうか…。何事もなければ、それでいいんだが…」
-
-nvl_on
-
-line_set 霧島の声がやっと聞け、ほっとする貴広。
-
-adv_on
-
-name_set 貴広
-
-line_set 「霧島、そっちの方は大丈夫なのか？」
-
-name_set 霧島
-
-voice_play 42593.wav
-
-line_set 「私は大丈夫でちゅから、所長はリニアちゃんを心配してあげてくだちゃい…」
-
-voice_play 42594.wav
-
-line_set 「リニアちゃんが喜びまちゅから」
-
-name_set 貴広
-
-line_set 「霧島…」
-
-name_set 霧島
-
-voice_play 42595.wav
-
-line_set 「では、明日また連絡しまちゅ」
-
-name_set 貴広
-
-line_set 「兎に角、一日一回は定期的に連絡を必ずよこすんだ…わかったか？」
-
-name_set 霧島
-
-voice_play 42596.wav
-
-line_set 「…かしこまりましたでちゅ」
-
-voice_play 42597.wav
-
-line_set 「ではまた明日、連絡いたしまちゅので」
-
-name_set 貴広
-
-line_set 「わかった」
-
-name_set 霧島
-
-voice_play 42598.wav
-
-line_set 「リニアちゃんにもうしばらくの辛抱だから頑張ってくだちゃいね、って伝えてくだちゃい」
-
-name_set 貴広
-
-line_set 「あぁ……」
-
-name_set 霧島
-
-voice_play 42599.wav
-
-line_set 「それでは電話をきりまちゅね」
-
-music_stop1
-
-name_clear
-
-line_set プッ……ツーツーツー………
-
-nvl_on
-
-line_set 霧島の最後の言葉と共に電話は切れ受話器の向こうからは無機質な音しか聞こえなくなった。
-
-adv_on
-
-name_set 貴広
-
-line_set 「ふぅ…」
-
-kgd_layer3_set 0 SO028.KGD
-
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-music_play_moekan 019.WAV
-
-name_set おやじさん
-
-voice_play v07030.wav
-
-voice_play v07030.wav
-line_set 「嬢ちゃんか」
-
-name_set 貴広
-
-line_set 「ああ…無事ではあるらしい」
-
-kgd_layer3_set 3 SO026.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set おやじさん
-
-voice_play v07031.wav
-
-voice_play v07031.wav
-line_set 「それはよかった」
-
-voice_play v07032.wav
-
-voice_play v07032.wav
-line_set 「定期的に連絡するように言ったんだろ。なら大丈夫だ」
-
-name_set 貴広
-
-line_set 「そうだな…」
-
-nvl_on
-
-line_set 霧島の声を聞き、ホッとした貴広であったが、心の不安が消えることはなかった。
-
-adv_on
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG060.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_clear
-gallery_unlock 77
-
-kgd_layer1_set 1 N037.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-music_play_moekan 016.WAV
-
-name_set 貴広
-
-line_set 「リニア、霧島から伝言だ」
-
-name_set リニア
-
-voice_play 54163.wav
-
-line_set 「伝言ですか……？」
-
-name_set 貴広
-
-line_set 「あぁ、そうだ。もう少しの辛抱だから頑張ってくれと……」
-
-nvl_on
-
-line_set 貴広は優しい目でリニアを見ながら頭を軽く撫でる。
-
-adv_on
-
-name_set リニア
-
-voice_play 54164.wav
-
-line_set 「そうですか…霧島さんが私のためにがんばってくださってるのに…」
-
-voice_play 54165.wav
-
-line_set 「私…申し訳ないです……」
-
-name_set 貴広
-
-line_set 「もう少し微調整が必要だからな」
-
-line_set 「治ったら、お前は霧島の努力を無駄にしないようにいつも通り頑張れば良いんだ」
-line_set 「そう…いつも通りのリニアらしく過ごすんだ」
-name_set リニア
-
-voice_play 54166.wav
-
-line_set 「私らしく…ですか」
-
-voice_play 54167.wav
-
-line_set 「霧島さんのためにも、私、精一杯頑張ります」
-
-name_set 貴広
-
-line_set 「うむ、その調子だリニア」
-
-line_set 「お前が元気でないと俺まで調子が狂ってしまう」
-name_set リニア
-
-voice_play 54168.wav
-
-line_set 「わかりました、リニアはいつも通りに過ごします」
-
-name_set 貴広
-
-line_set 「あぁ、そうしてくれ」
-
-line_set 「でもな、頑張るのも程々にするんだぞ」
-line_set 「パーツを変えたからといっても他の部分が悪くなってしまえば意味が無くなるんだからな」
-line_set 「だから…つらいときはすぐに休め、いいな」
-name_set リニア
-
-voice_play 54169.wav
-
-line_set 「はい、わかりました」
-
-nvl_on
-
-line_set リニアは半分ほど涙目になりながらも、元気よく頷いた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「わかったなら仕事だ、ただし無理だけは絶対にするんじゃないぞ」
-
-name_set リニア
-
-voice_play 54170.wav
-
-line_set 「はい、わかりました」
-
-name_set 貴広
-
-line_set 「よし」
-
-line_set 「それじゃあな、リニア」
-name_set リニア
-
-voice_play 54171.wav
-
-line_set 「はい」
-
-kgd_layer1_set 1 BG004.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-kgd_layer2_set_moekan 1213.KGD
-nvl_on
-
-line_set そう言って貴広は部屋を後にした。
-
-adv_on
-
-name_set 貴広
-
-line_set 「新しいパーツか………」
-
-line_set 「危ない橋に足を踏み入れてなければいいのだが…」
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-wait 1000
-
-kgd_layer1_set 0 BG088.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-name_set 貴広
-
-line_set 「ふぅ…、残業もこれで終りかぁ」
-
-nvl_on
-
-line_set 貴広はおもむろに机に付属している秘書室への内線ボタンを押す。
-
-adv_on
-
-name_set 貴広
-
-line_set 「霧島ぁ、ちょっといいか？」
-
-nvl_on
-
-line_set ………………。
-
-adv_on
-
-name_set 貴広
-
-line_set 「あっ、そうか………」
-
-nvl_on
-
-line_set そう言ったところで貴広はハッとする。
-
-adv_on
-
-name_set 貴広
-
-line_set 「そういえば霧島はこの島にはいないんだったな」
-
-line_set 「なんでそんなことを忘れていたのだろう」
-nvl_on
-
-line_set 貴広は椅子から立ち上がり窓際へと移動する。
-
-adv_on
-
-name_set 貴広
-
-line_set 「月か………」
-
-line_set 「よく考えれば月をゆっくり見るなんて事はなかったな…」
-line_set 「霧島がこの場にいたら早く仕事をしろなんていわれるんだろうな…」
-line_set 「いつもは霧島がいたからか…いつもいる人間がいなくなるとこうまで感じがかわるものなのか…」
-line_set 「不思議なものだな」
-nvl_on
-
-line_set 貴広は窓際に立ち、霧島の事を考える。
-
-adv_on
-
-name_set 貴広
-
-line_set 「きれいな月だ…」
-
-line_set 「今この場所で見ている月は霧島にもみえているのだろうか…空は限りなく繋がっているか…」
-line_set 「この同じ地球の上にいるのだから………」
-nvl_on
-
-line_set 月を見ながら貴広は霧島も月を見ているのだろうかと考える。
-
-adv_on
-
-name_set 貴広
-
-line_set 「………………」　
-
-line_set 「霧島………」
-nvl_on
-
-line_set 貴広は窓辺に佇みながら霧島のことを考える。
-
-adv_on
-
-music_stop1
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-nvl_on
-
-line_set こうして夜はふけていく。
-
-adv_on
-
-kgd_layer2_clear
-
-ksd_set 1214B.KSD
-
-ksd_end
+    story_progress 296
+
+    kgd_layer1_set 0 W1213.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_set_moekan 1213.KGD
+    music_play_moekan 019.WAV
+    name_clear
+    line_set トントン…
+
+    nvl_on
+    line_set 貴広は落ち着かない様子で机をペンで叩く。
+
+    adv_on
+    name_set 貴広
+    line_set 「霧島…一体何をしているというんだ………」
+
+    nvl_on
+    line_set リニアのパーツが見つかったが霧島が帰ってこないという少しの不安が貴広の中に募ってくる。
+
+    adv_on
+    name_set 貴広
+    line_set 「はぁ………」
+
+    sfx_set 0 SE014.WAV
+    sfx_play 0 0
+    name_clear
+    line_set コンコン…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「だれだ？」
+
+    sfx_set 0 SE015.WAV
+    sfx_play 0 0
+    name_clear
+    line_set ガチャ…
+    sfx_stop 0
+    sfx_unset 0
+
+    kgd_layer3_set 0 SO028.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set おやじさん
+    voice_play v07005.wav
+    line_set 「だれだとは心外な言葉だな貴広」
+
+    name_set 貴広
+    line_set 「なんだ、おやじさんか」
+    line_set 「おやじさんが所長室にくるなんてめずらしいな。何かあったのか？」
+
+    name_set おやじさん
+    voice_play v07006.wav
+    line_set 「うむ、本社のことでな」
+
+    name_set 貴広
+    line_set 「あぁ…そのことか」
+    line_set 「たしか不穏な動きがあるっていっていたな」
+    line_set 「なにかわかったのか？」
+
+    name_set おやじさん
+    voice_play v07007.wav
+    line_set 「俺のツテからの情報なんだがな…」
+    voice_play v07008.wav
+    line_set 「たしかに不穏な動きが本社であるようだが、それが表だっているわけではない……」
+    voice_play v07009.wav
+    line_set 「かなりの粛清部隊が、水面下で動いているようだが、まだ誰かが粛正されたわけではない」
+
+    name_set 貴広
+    line_set 「本社の粛清部隊が！？　なんのために？」
+
+    name_set おやじさん
+    voice_play v07010.wav
+    line_set 「それはよくわからない」
+    voice_play v07011.wav
+    line_set 「ただ、今はとてもナイーブな情勢だ、お前が焦る気持ちも分かるが…」
+    voice_play v07012.wav
+    line_set 「霧島の嬢ちゃんを信じろ…」
+    voice_play v07013.wav
+    line_set 「いま、お前が動いたら逆効果だ…」
+
+    name_set 貴広
+    line_set 「そうだな…」
+
+    nvl_on
+    line_set 「霧島、無事でいてくれよ…」
+    nvl_line_clear
+    line_set 貴広は自分に今何もできることが無いことに情けなくなり机に顔を埋める。
+
+    adv_on
+    sfx_set 0 SE025.WAV
+    sfx_play 0 0
+    name_clear
+    line_set ジリリリリ………
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「！」
+
+    name_set おやじさん
+    voice_play v07014.wav
+    line_set 「！」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 机の電話が古風なベル音を響かせた。
+    line_set 音自体は古風であるが、これは衛星を使った特殊回線を示す音であった。
+    line_set つまり、貴広が霧島に渡した携帯からの回線である。
+    line_set 受話器をあげると向こう側から霧島の声が聞こえた。
+
+    adv_on
+    music_play_moekan 009.WAV
+
+    name_set 霧島
+    voice_play 42585.wav
+    line_set 「もしもし、霧島でちゅ」
+
+    name_set 貴広
+    line_set 「霧島っ」
+    line_set 「本当に霧島か！？」
+
+    name_set 霧島
+    voice_play 42586.wav
+    line_set 「そうでちゅよ、私の声を忘れたとでもいうんでちゅか？」
+
+    name_set 貴広
+    line_set 「いやそうじゃないんだが………」
+    line_set 「それはそうと…なぜパーツが見つかりそうだからと言って、連絡なしで行動をおこすんだ？」
+
+    name_set 霧島
+    voice_play 42587.wav
+    line_set 「すみまちぇん…」
+
+    name_set 貴広
+    line_set 「どうした？　何かあったのか心配したんだぞ」
+
+    name_set 霧島
+    voice_play 42588.wav
+    line_set 「連絡しなかった事についてはあやまりまちゅ」
+    voice_play 42589.wav
+    line_set 「探していたパーツが、もう使われない部品と言うことで…」
+    voice_play 42590.wav
+    line_set 「捨てられかけていたのを止めるのに、早急な手続きが必要だったものでちゅから」
+
+    name_set 貴広
+    line_set 「…そうだったのか、それはご苦労だったな」
+    line_set 「怪我とかっていうのは一切ないんだな？」
+
+    name_set 霧島
+    voice_play 42591.wav
+    line_set 「その心配は御無用でちゅよ…」
+    voice_play 42592.wav
+    line_set 「パーツ探しで走り回ってたので連絡が遅くなりまちた」
+
+    name_set 貴広
+    line_set 「そうか…。何事もなければ、それでいいんだが…」
+
+    nvl_on
+    line_set 霧島の声がやっと聞け、ほっとする貴広。
+
+    adv_on
+    name_set 貴広
+    line_set 「霧島、そっちの方は大丈夫なのか？」
+
+    name_set 霧島
+    voice_play 42593.wav
+    line_set 「私は大丈夫でちゅから、所長はリニアちゃんを心配してあげてくだちゃい…」
+    voice_play 42594.wav
+    line_set 「リニアちゃんが喜びまちゅから」
+
+    name_set 貴広
+    line_set 「霧島…」
+
+    name_set 霧島
+    voice_play 42595.wav
+    line_set 「では、明日また連絡しまちゅ」
+
+    name_set 貴広
+    line_set 「兎に角、一日一回は定期的に連絡を必ずよこすんだ…わかったか？」
+
+    name_set 霧島
+    voice_play 42596.wav
+    line_set 「…かしこまりましたでちゅ」
+    voice_play 42597.wav
+    line_set 「ではまた明日、連絡いたしまちゅので」
+
+    name_set 貴広
+    line_set 「わかった」
+
+    name_set 霧島
+    voice_play 42598.wav
+    line_set 「リニアちゃんにもうしばらくの辛抱だから頑張ってくだちゃいね、って伝えてくだちゃい」
+
+    name_set 貴広
+    line_set 「あぁ……」
+
+    name_set 霧島
+    voice_play 42599.wav
+    line_set 「それでは電話をきりまちゅね」
+    music_stop1
+    name_clear
+    line_set プッ……ツーツーツー………
+
+    nvl_on
+    line_set 霧島の最後の言葉と共に電話は切れ受話器の向こうからは無機質な音しか聞こえなくなった。
+
+    adv_on
+    name_set 貴広
+    line_set 「ふぅ…」
+
+    kgd_layer3_set 0 SO028.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+    music_play_moekan 019.WAV
+
+    name_set おやじさん
+    voice_play v07030.wav
+    line_set 「嬢ちゃんか」
+
+    name_set 貴広
+    line_set 「ああ…無事ではあるらしい」
+
+    kgd_layer3_set 3 SO026.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v07031.wav
+    line_set 「それはよかった」
+    voice_play v07032.wav
+    line_set 「定期的に連絡するように言ったんだろ。なら大丈夫だ」
+
+    name_set 貴広
+    line_set 「そうだな…」
+
+    nvl_on
+    line_set 霧島の声を聞き、ホッとした貴広であったが、心の不安が消えることはなかった。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG060.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_clear
+    gallery_unlock 77
+
+    kgd_layer1_set 1 N037.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 016.WAV
+
+    name_set 貴広
+    line_set 「リニア、霧島から伝言だ」
+
+    name_set リニア
+    voice_play 54163.wav
+    line_set 「伝言ですか……？」
+
+    name_set 貴広
+    line_set 「あぁ、そうだ。もう少しの辛抱だから頑張ってくれと……」
+
+    nvl_on
+    line_set 貴広は優しい目でリニアを見ながら頭を軽く撫でる。
+
+    adv_on
+    name_set リニア
+    voice_play 54164.wav
+    line_set 「そうですか…霧島さんが私のためにがんばってくださってるのに…」
+    voice_play 54165.wav
+    line_set 「私…申し訳ないです……」
+
+    name_set 貴広
+    line_set 「もう少し微調整が必要だからな」
+    line_set 「治ったら、お前は霧島の努力を無駄にしないようにいつも通り頑張れば良いんだ」
+    line_set 「そう…いつも通りのリニアらしく過ごすんだ」
+
+    name_set リニア
+    voice_play 54166.wav
+    line_set 「私らしく…ですか」
+    voice_play 54167.wav
+    line_set 「霧島さんのためにも、私、精一杯頑張ります」
+
+    name_set 貴広
+    line_set 「うむ、その調子だリニア」
+    line_set 「お前が元気でないと俺まで調子が狂ってしまう」
+
+    name_set リニア
+    voice_play 54168.wav
+    line_set 「わかりました、リニアはいつも通りに過ごします」
+
+    name_set 貴広
+    line_set 「あぁ、そうしてくれ」
+    line_set 「でもな、頑張るのも程々にするんだぞ」
+    line_set 「パーツを変えたからといっても他の部分が悪くなってしまえば意味が無くなるんだからな」
+    line_set 「だから…つらいときはすぐに休め、いいな」
+
+    name_set リニア
+    voice_play 54169.wav
+    line_set 「はい、わかりました」
+
+    nvl_on
+    line_set リニアは半分ほど涙目になりながらも、元気よく頷いた。
+
+    adv_on
+    name_set 貴広
+    line_set 「わかったなら仕事だ、ただし無理だけは絶対にするんじゃないぞ」
+
+    name_set リニア
+    voice_play 54170.wav
+    line_set 「はい、わかりました」
+
+    name_set 貴広
+    line_set 「よし」
+    line_set 「それじゃあな、リニア」
+
+    name_set リニア
+    voice_play 54171.wav
+    line_set 「はい」
+
+    kgd_layer1_set 1 BG004.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    kgd_layer2_set_moekan 1213.KGD
+
+    nvl_on
+    line_set そう言って貴広は部屋を後にした。
+
+    adv_on
+    name_set 貴広
+    line_set 「新しいパーツか………」
+    line_set 「危ない橋に足を踏み入れてなければいいのだが…」
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 1000
+
+    kgd_layer1_set 0 BG088.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 貴広
+    line_set 「ふぅ…、残業もこれで終りかぁ」
+
+    nvl_on
+    line_set 貴広はおもむろに机に付属している秘書室への内線ボタンを押す。
+
+    adv_on
+    name_set 貴広
+    line_set 「霧島ぁ、ちょっといいか？」
+
+    nvl_on
+    line_set ………………。
+
+    adv_on
+    name_set 貴広
+    line_set 「あっ、そうか………」
+
+    nvl_on
+    line_set そう言ったところで貴広はハッとする。
+
+    adv_on
+    name_set 貴広
+    line_set 「そういえば霧島はこの島にはいないんだったな」
+    line_set 「なんでそんなことを忘れていたのだろう」
+
+    nvl_on
+    line_set 貴広は椅子から立ち上がり窓際へと移動する。
+
+    adv_on
+    name_set 貴広
+    line_set 「月か………」
+    line_set 「よく考えれば月をゆっくり見るなんて事はなかったな…」
+    line_set 「霧島がこの場にいたら早く仕事をしろなんていわれるんだろうな…」
+    line_set 「いつもは霧島がいたからか…いつもいる人間がいなくなるとこうまで感じがかわるものなのか…」
+    line_set 「不思議なものだな」
+
+    nvl_on
+    line_set 貴広は窓際に立ち、霧島の事を考える。
+
+    adv_on
+    name_set 貴広
+    line_set 「きれいな月だ…」
+    line_set 「今この場所で見ている月は霧島にもみえているのだろうか…空は限りなく繋がっているか…」
+    line_set 「この同じ地球の上にいるのだから………」
+
+    nvl_on
+    line_set 月を見ながら貴広は霧島も月を見ているのだろうかと考える。
+
+    adv_on
+    name_set 貴広
+    line_set 「………………」　
+    line_set 「霧島………」
+
+    nvl_on
+    line_set 貴広は窓辺に佇みながら霧島のことを考える。
+
+    adv_on
+    music_stop1
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set こうして夜はふけていく。
+
+    adv_on
+    kgd_layer2_clear
+    ksd_set 1214B.KSD
+    ksd_end

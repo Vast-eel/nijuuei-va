@@ -1,373 +1,261 @@
-story_progress 304
+    story_progress 304
+
+    kgd_layer1_set 0 W1214.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG024.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_set_moekan 1214.KGD
+    music_play_moekan 019.WAV
+
+    name_set 貴広
+    line_set 「……連絡はまだか………」
+
+    nvl_on
+    line_set 貴広は霧島からの連絡が無く、もどかしい気持ちを抑えるかのように部屋の中をうろうろする。
+
+    adv_on
+    name_set 貴広
+    line_set 「まったく………」
+
+    sfx_set 0 SE025.WAV
+    sfx_play 0 0
+    name_clear
+    line_set ジリリリリ…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「！」
+
+    nvl_on
+    line_set 所長室の中に電話の音が鳴り響く。
+    line_set 貴広は飛びつくように電話の受話器を上げた。
+
+    adv_on
+    name_set 霧島
+    voice_play 42600.wav
+    line_set 「霧島でちゅ」
+
+    nvl_on
+    line_set 貴広は霧島の声を聞いて少しだけほっとする。
+
+    adv_on
+    name_set 貴広
+    line_set 「霧島か…、頼むからせめて早く連絡をしてくれ」
+    line_set 「それにしても…本部からいつ帰ってくるんだ？」
+    line_set 「リニアもお前が帰ってくるのを首を長くして待っているんだぞ」
+    line_set 「それに俺だって………」
+
+    name_set 霧島
+    voice_play 42601.wav
+    line_set 「所長、それが…」
+
+    nvl_on
+    line_set 受話器の向こうの霧島の声が曇る。
+
+    adv_on
+    name_set 貴広
+    line_set 「どうした？」
+
+    name_set 霧島
+    voice_play 42602.wav
+    line_set 「あの…そのでちゅね………」
+
+    name_set 貴広
+    line_set 「早めに言ってくれ………」
+
+    name_set 霧島
+    voice_play 42603.wav
+    line_set 「帰航便がなくなってしまって、帰りが遅くなりそうでちゅ…」
+
+    name_set 貴広
+    line_set 「遅くなりそうって、いったいどのくらいなんだ？」
+    line_set 「次の帰航便はいつになるんだ？」
+
+    name_set 霧島
+    voice_play 42604.wav
+    line_set 「ちょっと私にもそこのところはわかりまちぇん…」
+
+    nvl_on
+    line_set 受話器の向こうで霧島が小さな声で話す。
+
+    adv_on
+    name_set 貴広
+    line_set 「わからないで済むのか？」
+    line_set 「その間、お前の帰りを待っているリニアはどうするんだ？」
+
+    name_set 霧島
+    voice_play 42605.wav
+    line_set 「リニアちゃんには申し訳ないと思ってまちゅ…」
+    voice_play 42606.wav
+    line_set 「でも、いつ戻れるか、なんとも言えまちぇん…」
+    voice_play 42607.wav
+    line_set 「とりあえず急いでいるので御連絡まででちゅ…」
+    name_clear
+    line_set ガチャ……ツーツーツー…
 
-kgd_layer1_set 0 W1214.KGD
+    name_set 貴広
+    line_set 「あっ、おい…霧島、霧島………」
 
-kgd_layer1_display
-kgd_layer1_fx 1
-wait 2000
+    nvl_on
+    line_set 霧島の電話は、焦ったような声で、
+    line_set 用件だけ伝えると切れてしまった。
 
-kgd_layer1_fx 0
+    adv_on
+    name_set 貴広
+    line_set 「霧島…」
+    line_set 「たしか…あいつ、急いでいるって言っていたな…」
+    line_set 「本社の方で何かあったのか……」
 
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG024.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_set_moekan 1214.KGD
-music_play_moekan 019.WAV
+    nvl_on
+    line_set 霧島が電話の向こうで発した『急いでいる』という言葉が貴広の頭の中で引っ掛かっていた。
 
-name_set 貴広
+    adv_on
+    name_set 貴広
+    line_set 「くそ…ここの設備では受けることができても、発信することができん…」
+    line_set 「通常回線では本社の奴等に傍受される可能性があるな…」
 
-line_set 「……連絡はまだか………」
+    nvl_on
+    line_set ほとんどの通信手段がたたれている中での本社側の情報は霧島からの電話だけが頼りだった。
 
-nvl_on
+    adv_on
+    name_set 貴広
+    line_set 「明日になって霧島から連絡が取れなくなった場合は何か他の手を考えないといけないな………」
 
-line_set 貴広は霧島からの連絡が無く、もどかしい気持ちを抑えるかのように部屋の中をうろうろする。
+    nvl_on
+    line_set 貴広は、本社で霧島に何かがあったかもしれないと言うことが心配でならなかった。
 
-adv_on
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
 
-name_set 貴広
+    kgd_layer1_set 0 BG041.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play_moekan 012.WAV
 
-line_set 「まったく………」
+    name_set 貴広
+    line_set 「おやじさん、いるか？」
 
-sfx_set 0 SE025.WAV
+    kgd_layer3_set 0 SO028.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
 
-sfx_play 0 0
-name_clear
+    name_set おやじさん
+    voice_play v07050.wav
+    line_set 「どうした貴広？」
 
-line_set ジリリリリ…
+    name_set 貴広
+    line_set 「ちょっといいかな？」
 
-sfx_stop 0
+    name_set おやじさん
+    voice_play v07051.wav
+    line_set 「なんだよ？」
 
-sfx_unset 0
-name_set 貴広
-
-line_set 「！」
-
-nvl_on
-
-line_set 所長室の中に電話の音が鳴り響く。
-
-line_set 貴広は飛びつくように電話の受話器を上げた。
-adv_on
-
-name_set 霧島
-
-voice_play 42600.wav
-
-line_set 「霧島でちゅ」
-
-nvl_on
-
-line_set 貴広は霧島の声を聞いて少しだけほっとする。
-
-adv_on
-
-name_set 貴広
-
-line_set 「霧島か…、頼むからせめて早く連絡をしてくれ」
-
-line_set 「それにしても…本部からいつ帰ってくるんだ？」
-line_set 「リニアもお前が帰ってくるのを首を長くして待っているんだぞ」
-line_set 「それに俺だって………」
-name_set 霧島
-
-voice_play 42601.wav
-
-line_set 「所長、それが…」
-
-nvl_on
-
-line_set 受話器の向こうの霧島の声が曇る。
-
-adv_on
-
-name_set 貴広
-
-line_set 「どうした？」
-
-name_set 霧島
-
-voice_play 42602.wav
-
-line_set 「あの…そのでちゅね………」
-
-name_set 貴広
-
-line_set 「早めに言ってくれ………」
-
-name_set 霧島
-
-voice_play 42603.wav
-
-line_set 「帰航便がなくなってしまって、帰りが遅くなりそうでちゅ…」
-
-name_set 貴広
-
-line_set 「遅くなりそうって、いったいどのくらいなんだ？」
-
-line_set 「次の帰航便はいつになるんだ？」
-name_set 霧島
-
-voice_play 42604.wav
-
-line_set 「ちょっと私にもそこのところはわかりまちぇん…」
-
-nvl_on
-
-line_set 受話器の向こうで霧島が小さな声で話す。
-
-adv_on
-
-name_set 貴広
-
-line_set 「わからないで済むのか？」
-
-line_set 「その間、お前の帰りを待っているリニアはどうするんだ？」
-name_set 霧島
-
-voice_play 42605.wav
-
-line_set 「リニアちゃんには申し訳ないと思ってまちゅ…」
-
-voice_play 42606.wav
-
-line_set 「でも、いつ戻れるか、なんとも言えまちぇん…」
-
-voice_play 42607.wav
-
-line_set 「とりあえず急いでいるので御連絡まででちゅ…」
-
-name_clear
-
-line_set ガチャ……ツーツーツー…
-
-name_set 貴広
-
-line_set 「あっ、おい…霧島、霧島………」
-
-nvl_on
-
-line_set 霧島の電話は、焦ったような声で、
-
-line_set 用件だけ伝えると切れてしまった。
-adv_on
-
-name_set 貴広
-
-line_set 「霧島…」
-
-line_set 「たしか…あいつ、急いでいるって言っていたな…」
-line_set 「本社の方で何かあったのか……」
-nvl_on
-
-line_set 霧島が電話の向こうで発した『急いでいる』という言葉が貴広の頭の中で引っ掛かっていた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「くそ…ここの設備では受けることができても、発信することができん…」
-
-line_set 「通常回線では本社の奴等に傍受される可能性があるな…」
-nvl_on
-
-line_set ほとんどの通信手段がたたれている中での本社側の情報は霧島からの電話だけが頼りだった。
-
-adv_on
-
-name_set 貴広
-
-line_set 「明日になって霧島から連絡が取れなくなった場合は何か他の手を考えないといけないな………」
-
-nvl_on
-
-line_set 貴広は、本社で霧島に何かがあったかもしれないと言うことが心配でならなかった。
-
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG041.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-music_play_moekan 012.WAV
-
-name_set 貴広
-
-line_set 「おやじさん、いるか？」
-
-kgd_layer3_set 0 SO028.KGD
-
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set おやじさん
-
-voice_play v07050.wav
-
-voice_play v07050.wav
-line_set 「どうした貴広？」
-
-name_set 貴広
-
-line_set 「ちょっといいかな？」
-
-name_set おやじさん
-
-voice_play v07051.wav
-
-voice_play v07051.wav
-line_set 「なんだよ？」
-
-name_set 貴広
-
-line_set 「こっち来てくれ」
-
-name_set おやじさん
-
-voice_play v07052.wav
-
-voice_play v07052.wav
-line_set 「？」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer1_set 1 BG084.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-kgd_layer3_set 0 SO018.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set おやじさん
-
-voice_play v07053.wav
-
-voice_play v07053.wav
-line_set 「なんだってんだよ？」
-
-name_set 貴広
-
-line_set 「おやじさん、この回線にかけられる通信機はあるかい？」
-
-name_set おやじさん
-
-voice_play v07054.wav
-
-voice_play v07054.wav
-line_set 「ん～？　随分とこった暗号回線だな…」
-
-voice_play v07055.wav
-
-voice_play v07055.wav
-line_set 「こりゃぁ…」
-
-name_set 貴広
-
-line_set 「ＰＩＸＩＥＳの特殊回線だ」
-
-name_set おやじさん
-
-voice_play v07056.wav
-
-voice_play v07056.wav
-line_set 「そうなると簡単にはできないぞ…」
-
-name_set 貴広
-
-line_set 「そうか…」
-
-name_set おやじさん
-
-voice_play v07057.wav
-
-voice_play v07057.wav
-line_set 「俺にはな」
-
-name_set 貴広
-
-line_set 「？」
-
-kgd_layer3_set 3 SO026.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set おやじさん
-
-voice_play v07058.wav
-
-voice_play v07058.wav
-line_set 「古い俺にはちょっと難しいが、若い奴達ならできるだろう」
-
-voice_play v07059.wav
-
-voice_play v07059.wav
-line_set 「暗号解読を教えてやればな」
-
-voice_play v07060.wav
-
-voice_play v07060.wav
-line_set 「いいのか？」
-
-name_set 貴広
-
-line_set 「かまわんさ、過去の遺物だ」
-
-name_set おやじさん
-
-voice_play v07061.wav
-
-voice_play v07061.wav
-line_set 「わかった。若い奴らに言っておこう」
-
-name_set 貴広
-
-line_set 「すまない…手間をかける…」
-
-name_set おやじさん
-
-voice_play v07062.wav
-
-voice_play v07062.wav
-line_set 「霧島嬢ちゃんと連絡をとるんだろ？」
-
-name_set 貴広
-
-line_set 「ああ…」
-
-name_set おやじさん
-
-voice_play v07063.wav
-
-voice_play v07063.wav
-line_set 「それなら当然のことだ」
-
-voice_play v07064.wav
-
-voice_play v07064.wav
-line_set 「任せておけ」
-
-name_set 貴広
-
-line_set 「頼む」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-nvl_on
-
-line_set 貴広は若い整備員と共に、特殊回線へ繋ぐ通信機の制作に付き合った。
-
-line_set 出来上がる頃には、水平線から太陽が姿を現していた。
-adv_on
-
-music_stop1
-
-kgd_layer2_clear
-
-ksd_set 1215B.KSD
-
-ksd_end
+    name_set 貴広
+    line_set 「こっち来てくれ」
+
+    name_set おやじさん
+    voice_play v07052.wav
+    line_set 「？」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer1_set 1 BG084.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    kgd_layer3_set 0 SO018.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set おやじさん
+    voice_play v07053.wav
+    line_set 「なんだってんだよ？」
+
+    name_set 貴広
+    line_set 「おやじさん、この回線にかけられる通信機はあるかい？」
+
+    name_set おやじさん
+    voice_play v07054.wav
+    line_set 「ん～？　随分とこった暗号回線だな…」
+    voice_play v07055.wav
+    line_set 「こりゃぁ…」
+
+    name_set 貴広
+    line_set 「ＰＩＸＩＥＳの特殊回線だ」
+
+    name_set おやじさん
+    voice_play v07056.wav
+    line_set 「そうなると簡単にはできないぞ…」
+
+    name_set 貴広
+    line_set 「そうか…」
+
+    name_set おやじさん
+    voice_play v07057.wav
+    line_set 「俺にはな」
+
+    name_set 貴広
+    line_set 「？」
+
+    kgd_layer3_set 3 SO026.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v07058.wav
+    line_set 「古い俺にはちょっと難しいが、若い奴達ならできるだろう」
+    voice_play v07059.wav
+    line_set 「暗号解読を教えてやればな」
+    voice_play v07060.wav
+    line_set 「いいのか？」
+
+    name_set 貴広
+    line_set 「かまわんさ、過去の遺物だ」
+
+    name_set おやじさん
+    voice_play v07061.wav
+    line_set 「わかった。若い奴らに言っておこう」
+
+    name_set 貴広
+    line_set 「すまない…手間をかける…」
+
+    name_set おやじさん
+    voice_play v07062.wav
+    line_set 「霧島嬢ちゃんと連絡をとるんだろ？」
+
+    name_set 貴広
+    line_set 「ああ…」
+
+    name_set おやじさん
+    voice_play v07063.wav
+    line_set 「それなら当然のことだ」
+    voice_play v07064.wav
+    line_set 「任せておけ」
+
+    name_set 貴広
+    line_set 「頼む」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set 貴広は若い整備員と共に、特殊回線へ繋ぐ通信機の制作に付き合った。
+    line_set 出来上がる頃には、水平線から太陽が姿を現していた。
+
+    adv_on
+    music_stop1
+    kgd_layer2_clear
+    ksd_set 1215B.KSD
+    ksd_end

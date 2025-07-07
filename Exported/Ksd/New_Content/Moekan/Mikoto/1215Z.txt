@@ -1,755 +1,595 @@
-kgd_layer1_set 0 W1215.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
+    kgd_layer1_set 0 W1215.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_set_moekan 1215.KGD
+    name_clear
+    line_set ドタドタドタ……
+
+    name_set 貴広
+    line_set 「む……」
+
+    kgd_layer1_set 0 BG027.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    name_clear
+    line_set ガバッ！！
+
+    name_set 貴広
+    line_set 「騒がしいな…」
+    line_set 「まさか…」
+
+    nvl_on
+    line_set 貴広は騒々しい足音に目を覚まし、かずさ達が発見されたのかと思い、素早く着替え部屋を飛び出した。
+
+    adv_on
+    kgd_layer1_set 1 BG004.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 012.WAV
+
+    kgd_layer3_set 0 SO009.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 朝霧
+    line_set 「む…」
+
+    nvl_on
+    line_set 部屋を出たところで朝霧とでくわし、朝霧は貴広を睨みつけた。
+    line_set 貴広に気付く前の形相は、鬼のようであった。
+
+    adv_on
+    name_set 貴広
+    line_set 「なにを騒いでる…」
+
+    name_set 朝霧
+    line_set 「何もございませんわ」
+
+    name_set 貴広
+    line_set 「…何もないようだな」
+
+    name_set 朝霧
+    line_set 「くっ…」
+
+    nvl_on
+    line_set 朝霧の様子から二人はまだ捕まってないことを悟り、無意識に安堵の息を漏らした。
+    line_set そのことに朝霧は微かに歯ぎしりした。
+
+    adv_on
+    name_set 朝霧
+    line_set 「今日の夜までに見つけ、血祭りにしてみせます」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 朝霧は血走った瞳で貴広を睨むと、スカートを翻し、足早に廊下を去っていった。
+    line_set 貴広はその背中を見送り、小さく舌打ちをした。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v09901.wav
+    line_set 「おはようございまちゅ」
+
+    name_set 貴広
+    line_set 「おはよう」
+    line_set 「朝霧の奴、相当焦ってるな…目つきがヤバイ」
+
+    kgd_layer3_set 3 KI011.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09902.wav
+    line_set 「所長や私に付いていた護衛メイドも捜索に回ってるみたいでちゅ」
+
+    name_set 貴広
+    line_set 「だから、いなかったのか…」
+    line_set 「ウチのメイド達には、アイツらを変に刺激しないように注意しておけ」
+
+    kgd_layer3_set 3 KI001.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09903.wav
+    line_set 「はい、わかりまちた」
+
+    name_set 貴広
+    line_set 「ふぅ…こんなときでも、仕事量は変わらんな…」
+
+    nvl_on
+    line_set ビシッと霧島に指示を出した後、貴広は机の上を見てため息を吐いた。
+
+    adv_on
+    name_set 霧島
+    voice_play v09904.wav
+    line_set 「後のことはちゃんと所長の指示通りにやっておきまちゅから、所長はお仕事に集中してくだちゃい」
+    voice_play v09905.wav
+    line_set 「では、失礼しまちゅ」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
 
-wait 2000
+    nvl_on
+    line_set 霧島は貴広を元気付けるように、笑顔で背中をポンと叩くと、一礼して退室していった。
+    line_set 貴広は苦笑しながら席に着き、仕事に取りかかった。
 
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer2_set_moekan 1215.KGD
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 2000
+
+    kgd_layer1_set 0 BG004.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    nvl_on
+    line_set 正午を少し過ぎたところで仕事を終えた貴広は、朝霧達の様子を探るため廊下へと出た。
+    line_set と、そこへ冬葉がやって来た。
+
+    adv_on
+    kgd_layer3_set 0 FU001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
 
+    name_set 冬葉
+    voice_play v09906.wav
+    line_set 「あ、貴広さん」
 
-name_clear
+    name_set 貴広
+    line_set 「どうした冬葉」
+    line_set 「この時間はまだ図書室だろ？」
 
-line_set ドタドタドタ……
+    kgd_layer3_set 3 FU021.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
 
-name_set 貴広
+    name_set 冬葉
+    voice_play v09907.wav
+    line_set 「はい…アリスの方々が来て、図書室を徹底的に捜すから、他の者は出ていろと言われまして…」
 
-line_set 「む……」
+    name_set 貴広
+    line_set 「ち…やりたい放題だな…」
 
-kgd_layer1_set 0 BG027.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
+    kgd_layer3_set 3 FU011.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
 
-name_clear
+    name_set 冬葉
+    voice_play v09908.wav
+    line_set 「あ、どちらへ？」
 
-line_set ガバッ！！
+    name_set 貴広
+    line_set 「図書室だ」
 
-name_set 貴広
+    kgd_layer3_set 3 FU010.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
 
-line_set 「騒がしいな…」
-line_set 「まさか…」
+    name_set 冬葉
+    voice_play v09909.wav
+    line_set 「私も行きます」
 
-nvl_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
 
-line_set 貴広は騒々しい足音に目を覚まし、かずさ達が発見されたのかと思い、素早く着替え部屋を飛び出した。
+    kgd_layer1_set 0 BG004.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
 
-adv_on
+    kgd_layer3_set 0 SO022.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
 
-kgd_layer1_set 1 BG004.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
+    nvl_on
+    line_set 図書室前に来ると、扉の前に貴広に付いていた護衛メイドが立っていた。
 
+    adv_on
+    name_set 護衛メイド
+    line_set 「なんでしょうか？」
 
-music_play_moekan 012.WAV
+    name_set 貴広
+    line_set 「仕事中のメイドを追い出すとは、どういう了見だ？」
+
+    name_set 護衛メイド
+    line_set 「命令ですので」
+
+    name_set 貴広
+    line_set 「お前はそればっかりだな」
+    line_set 「では、朝霧に言えばいいんだな？」
+
+    name_set 護衛メイド
+    line_set 「はい」
 
+    name_set 貴広
+    line_set 「わかった」
 
-kgd_layer3_set 0 SO009.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer1_set 1 BG019.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 貴広と冬葉は護衛メイドの横を通り、図書室へと入った。
+    line_set いつも静かな図書室の奥で、ゴトゴトと動く音が響いていた。
 
-name_set 朝霧
+    adv_on
+    name_set 貴広
+    line_set 「奥か…」
+
+    kgd_layer1_set 1 BG016.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「おい」
+
+    kgd_layer3_set 0 SO009.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 朝霧
+    line_set 「なんでしょうか？」
 
-line_set 「む…」
-
-nvl_on
-
-line_set 部屋を出たところで朝霧とでくわし、朝霧は貴広を睨みつけた。
-line_set 貴広に気付く前の形相は、鬼のようであった。
-
-adv_on
-
-name_set 貴広
-
-line_set 「なにを騒いでる…」
-
-name_set 朝霧
-
-line_set 「何もございませんわ」
-
-name_set 貴広
-
-line_set 「…何もないようだな」
-
-name_set 朝霧
-
-line_set 「くっ…」
-
-nvl_on
-
-line_set 朝霧の様子から二人はまだ捕まってないことを悟り、無意識に安堵の息を漏らした。
-line_set そのことに朝霧は微かに歯ぎしりした。
-
-adv_on
-
-name_set 朝霧
-
-line_set 「今日の夜までに見つけ、血祭りにしてみせます」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 朝霧は血走った瞳で貴広を睨むと、スカートを翻し、足早に廊下を去っていった。
-line_set 貴広はその背中を見送り、小さく舌打ちをした。
-
-adv_on
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG023.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v09901.wav
-
-line_set 「おはようございまちゅ」
-
-name_set 貴広
-
-line_set 「おはよう」
-line_set 「朝霧の奴、相当焦ってるな…目つきがヤバイ」
-
-kgd_layer3_set 3 KI011.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09902.wav
-
-line_set 「所長や私に付いていた護衛メイドも捜索に回ってるみたいでちゅ」
-
-name_set 貴広
-
-line_set 「だから、いなかったのか…」
-line_set 「ウチのメイド達には、アイツらを変に刺激しないように注意しておけ」
-
-kgd_layer3_set 3 KI001.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09903.wav
-
-line_set 「はい、わかりまちた」
-
-name_set 貴広
-
-line_set 「ふぅ…こんなときでも、仕事量は変わらんな…」
-
-nvl_on
-
-line_set ビシッと霧島に指示を出した後、貴広は机の上を見てため息を吐いた。
-
-adv_on
-
-name_set 霧島
-
-voice_play v09904.wav
-
-line_set 「後のことはちゃんと所長の指示通りにやっておきまちゅから、所長はお仕事に集中してくだちゃい」
-
-voice_play v09905.wav
-
-line_set 「では、失礼しまちゅ」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 霧島は貴広を元気付けるように、笑顔で背中をポンと叩くと、一礼して退室していった。
-line_set 貴広は苦笑しながら席に着き、仕事に取りかかった。
-
-adv_on
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-wait 2000
-
-kgd_layer1_set 0 BG004.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-nvl_on
-
-line_set 正午を少し過ぎたところで仕事を終えた貴広は、朝霧達の様子を探るため廊下へと出た。
-line_set と、そこへ冬葉がやって来た。
-
-adv_on
-
-kgd_layer3_set 0 FU001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 冬葉
-
-voice_play v09906.wav
-
-line_set 「あ、貴広さん」
-
-name_set 貴広
-
-line_set 「どうした冬葉」
-line_set 「この時間はまだ図書室だろ？」
-
-kgd_layer3_set 3 FU021.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 冬葉
-
-voice_play v09907.wav
-
-line_set 「はい…アリスの方々が来て、図書室を徹底的に捜すから、他の者は出ていろと言われまして…」
-
-name_set 貴広
-
-line_set 「ち…やりたい放題だな…」
-
-kgd_layer3_set 3 FU011.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 冬葉
-
-voice_play v09908.wav
-
-line_set 「あ、どちらへ？」
-
-name_set 貴広
-
-line_set 「図書室だ」
-
-kgd_layer3_set 3 FU010.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 冬葉
-
-voice_play v09909.wav
-
-line_set 「私も行きます」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG004.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 SO022.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-nvl_on
-
-line_set 図書室前に来ると、扉の前に貴広に付いていた護衛メイドが立っていた。
-
-adv_on
-
-name_set 護衛メイド
-
-line_set 「なんでしょうか？」
-
-name_set 貴広
-
-line_set 「仕事中のメイドを追い出すとは、どういう了見だ？」
-
-name_set 護衛メイド
-
-line_set 「命令ですので」
-
-name_set 貴広
-
-line_set 「お前はそればっかりだな」
-line_set 「では、朝霧に言えばいいんだな？」
-
-name_set 護衛メイド
-
-line_set 「はい」
-
-name_set 貴広
-
-line_set 「わかった」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_set 1 BG019.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-nvl_on
-
-line_set 貴広と冬葉は護衛メイドの横を通り、図書室へと入った。
-line_set いつも静かな図書室の奥で、ゴトゴトと動く音が響いていた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「奥か…」
-
-kgd_layer1_set 1 BG016.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-name_set 貴広
-
-line_set 「おい」
-
-kgd_layer3_set 0 SO009.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 朝霧
-
-line_set 「なんでしょうか？」
-
-name_set 貴広
-
-line_set 「ウチのメイドを追い出すとは、どういうことだ？」
-
-name_set 朝霧
-
-line_set 「我々も仕事ですので」
-line_set 「ご協力を願ったまでです」
-
-name_set 貴広
-
-line_set 「なんだと…？」
-
-nvl_on
-
-line_set 貴広の表情が険しくなる。
-
-adv_on
-
-kgd_layer3_set 3 FU010.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 冬葉
-
-voice_play v09910.wav
-
-line_set 「あ、あの！！」
-
-nvl_on
-
-line_set 突然、冬葉が貴広の前に割り込んで、手を挙げた。
-
-adv_on
-
-kgd_layer3_set 3 FU005.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 冬葉
-
-voice_play v09911.wav
-
-line_set 「あ、あの、お仕事にはご協力いたしますので…」
-
-voice_play v09912.wav
-
-line_set 「図書室では静かに、本を傷つけないようにしてくださいね」
-
-name_set 貴広
-
-line_set 「はぁ！？」
-
-kgd_layer3_set 3 SO009.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 朝霧
-
-line_set 「あ、ああ、わかった…気を付けよう」
-
-kgd_layer3_set 3 FU008.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 冬葉
-
-voice_play v09913.wav
-
-line_set 「では、失礼いたします」
-
-voice_play v09914.wav
-
-line_set 「さ、貴広さん行きましょう」
-
-name_set 貴広
-
-line_set 「え？あ、おい」
-
-nvl_on
-
-line_set 貴広は冬葉に押されるように図書室の外までやって来て、さらに廊下の隅にまで押しやられた。
-
-adv_on
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_set 1 BG004.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-kgd_layer3_set 0 FU008.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 貴広
-
-line_set 「なにをするんだ、冬葉！」
-
-kgd_layer3_set 3 FU021.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 冬葉
-
-voice_play v09915.wav
-
-line_set 「貴広さん、争いはいけません」
-
-name_set 貴広
-
-line_set 「アホか！！」
-
-name_set 冬葉
-
-voice_play v09916.wav
-
-line_set 「この程度のこと、私達が我慢すればいいことですから」
-
-voice_play v09917.wav
-
-line_set 「貴広さんも、どうか我慢してください…」
-
-name_set 貴広
-
-line_set 「ちっ……」
-line_set 「バカみたいにお人好しな奴だな…」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-wait 2000
-
-kgd_layer1_set 0 BG013.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer1_set 1 DC001.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-kgd_layer2_clear
-
-sfx_set 0 SE005.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set バラバラバラ……
-
-sfx_stop 0
-sfx_unset 0
-
-nvl_on
-
-line_set ヘリが巻き上げる風の中で、貴広と朝霧が対峙する。
-line_set 朝霧は眉をしかめ、貴広を睨みつけていた。
-line_set それに対し貴広は、余裕の表情でその視線を受け流していた。
-
-adv_on
-
-name_set 朝霧
-
-line_set 「ただいまより、本社へ帰還いたします」
-
-name_set 貴広
-
-line_set 「ご苦労さん」
-
-name_set 朝霧
-
-line_set 「くっ…」
-line_set 「今回は命令で帰るが、次は人員も増強し、必ず見つけて貴様の前に叩きだしてやる…」
-line_set 「待っていろ……」
-
-name_set 貴広
-
-line_set 「嬉しくない待ち合わせの約束だな」
-line_set 「もう少しロマンチックな言葉は出んのか？」
-
-name_set 朝霧
-
-line_set 「ちっ…」
-line_set 「ほざいてろ…」
-line_set 「貴様の首もいつか獲る…」
-
-name_set 貴広
-
-line_set 「メイドらしからぬ台詞だな」
-
-name_set 朝霧
-
-line_set 「ふん…」
-
-nvl_on
-
-line_set 朝霧は最後に貴広を睨み、吐き捨てるように言うと、靴音高らかにヘリに乗り込んだ。
-
-adv_on
-
-kgd_layer1_set 1 BG013.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-sfx_set 0 SE005.WAV
-sfx_loop 0
-
-kgd_layer2_set_moekan 1215.KGD
-
-name_clear
-
-line_set バラバラバラバラバラバラ……
-
-nvl_on
-
-line_set ヘリのローター音が急速に上がり、プロペラが円となって機体が浮上する。
-line_set 上空まで上昇し、機体を傾けると徐々に水平線の向こうに消えていった。
-
-adv_on
-
-sfx_stop 0
-sfx_unset 0
-
-name_set 貴広
-
-line_set 「ふぅ…やっと行ったな…」
-
-kgd_layer3_set 0 KI009.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v09918.wav
-
-line_set 「そうでちゅね」
-
-nvl_on
-
-line_set 貴広と霧島は同時に小さなため息を吐いた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「さて、ホントにかずさと鈴希はどこいったんだ？」
-
-name_set 霧島
-
-voice_play v09919.wav
-
-line_set 「無事だといいんでちゅが…」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_set 1 BG010.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-music_play_moekan 021.WAV
-
-
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 貴広
-
-line_set 「引き続きかずさと鈴希を探さねばならんな…」
-line_set 「ん？　なんかいい匂いしないか？」
-
-kgd_layer3_set 3 KI013.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09920.wav
-
-line_set 「そう言えば…美味ちちょうな匂いが…」
-
-name_set 貴広
-
-line_set 「まさか！？」
-
-nvl_on
-
-line_set 貴広と霧島は顔を見合わせ、食堂へと急いだ。
-
-adv_on
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG032.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-music_play_moekan 022.WAV
-
-
-kgd_layer3_set 0 KI010.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 貴広
-
-line_set 「かずさ！？鈴希！？」
-
-name_set 霧島
-
-voice_play v09921.wav
-
-line_set 「かずさちゃん！！鈴希ちゃん！！」
-
-kgd_layer3_set 3 KA005.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set かずさ
-
-voice_play v09922.wav
-
-line_set 「あ、旦那、霧島さん、お久しぶり～」
-
-kgd_layer3_set 3 SU001.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 鈴希
-
-voice_play v09923.wav
-
-line_set 「ん…」
-
-nvl_on
-
-line_set 貴広と霧島の声に気付いたかずさが振り向き、手を振りながらニコッと笑った。
-line_set テーブルでは鈴希がモグモグとたこ焼きを食べていた。
-
-adv_on
-
-kgd_layer3_set 3 KI010.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09924.wav
-
-line_set 「無事だったんでちゅか！？」
-
-kgd_layer3_set 3 KA002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set かずさ
-
-voice_play v09925.wav
-
-line_set 「うん、無事無事」
-
-voice_play v09926.wav
-
-line_set 「ちょっとお腹空いちゃったけどね」
-
-kgd_layer3_set 3 KI012.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09927.wav
-
-line_set 「よかったでちゅ～…」
-
-kgd_layer3_set 3 KA021.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 貴広
-
-line_set 「まずは無事で良かった…」
-line_set 「お前らの無事を確認したら腹がへったな」
-line_set 「俺たちにも食事を作ってくれるか？」
-
-name_set かずさ
-
-voice_play v09928.wav
-
-line_set 「もちろん！！」
-
-voice_play v09929.wav
-
-line_set 「待っててね！！！」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set かずさはニパッと笑うと、厨房へ駆け込んでいった。
-line_set テーブルでは余程腹がへってたのか、鈴希が黙々とたこ焼きを口に放り込んでいた。
-line_set その後、リニアや冬葉やかずさ達を心配していた人々が集まり、ちょっとしたパーティーの様になった。
-line_set かずさと鈴希の無事を祝って祝杯が交わされ、誰も二人の正体など気にしなくなっていた。
-
-adv_on
-
-music_stop2
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer2_clear
-
-ksd_set 1216Z.KSD
-ksd_end
+    name_set 貴広
+    line_set 「ウチのメイドを追い出すとは、どういうことだ？」
+
+    name_set 朝霧
+    line_set 「我々も仕事ですので」
+    line_set 「ご協力を願ったまでです」
+
+    name_set 貴広
+    line_set 「なんだと…？」
+
+    nvl_on
+    line_set 貴広の表情が険しくなる。
+
+    adv_on
+    kgd_layer3_set 3 FU010.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 冬葉
+    voice_play v09910.wav
+    line_set 「あ、あの！！」
+
+    nvl_on
+    line_set 突然、冬葉が貴広の前に割り込んで、手を挙げた。
+
+    adv_on
+    kgd_layer3_set 3 FU005.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 冬葉
+    voice_play v09911.wav
+    line_set 「あ、あの、お仕事にはご協力いたしますので…」
+    voice_play v09912.wav
+    line_set 「図書室では静かに、本を傷つけないようにしてくださいね」
+
+    name_set 貴広
+    line_set 「はぁ！？」
+
+    kgd_layer3_set 3 SO009.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 朝霧
+    line_set 「あ、ああ、わかった…気を付けよう」
+
+    kgd_layer3_set 3 FU008.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 冬葉
+    voice_play v09913.wav
+    line_set 「では、失礼いたします」
+    voice_play v09914.wav
+    line_set 「さ、貴広さん行きましょう」
+
+    name_set 貴広
+    line_set 「え？あ、おい」
+
+    nvl_on
+    line_set 貴広は冬葉に押されるように図書室の外までやって来て、さらに廊下の隅にまで押しやられた。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer1_set 1 BG004.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    kgd_layer3_set 0 FU008.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 貴広
+    line_set 「なにをするんだ、冬葉！」
+
+    kgd_layer3_set 3 FU021.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 冬葉
+    voice_play v09915.wav
+    line_set 「貴広さん、争いはいけません」
+
+    name_set 貴広
+    line_set 「アホか！！」
+
+    name_set 冬葉
+    voice_play v09916.wav
+    line_set 「この程度のこと、私達が我慢すればいいことですから」
+    voice_play v09917.wav
+    line_set 「貴広さんも、どうか我慢してください…」
+
+    name_set 貴広
+    line_set 「ちっ……」
+    line_set 「バカみたいにお人好しな奴だな…」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 2000
+
+    kgd_layer1_set 0 BG013.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    kgd_layer1_set 1 DC001.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    kgd_layer2_clear
+
+    sfx_set 0 SE005.WAV
+    sfx_play 0 0
+    name_clear
+    line_set バラバラバラ……
+    sfx_stop 0
+    sfx_unset 0
+
+    nvl_on
+    line_set ヘリが巻き上げる風の中で、貴広と朝霧が対峙する。
+    line_set 朝霧は眉をしかめ、貴広を睨みつけていた。
+    line_set それに対し貴広は、余裕の表情でその視線を受け流していた。
+
+    adv_on
+    name_set 朝霧
+    line_set 「ただいまより、本社へ帰還いたします」
+
+    name_set 貴広
+    line_set 「ご苦労さん」
+
+    name_set 朝霧
+    line_set 「くっ…」
+    line_set 「今回は命令で帰るが、次は人員も増強し、必ず見つけて貴様の前に叩きだしてやる…」
+    line_set 「待っていろ……」
+
+    name_set 貴広
+    line_set 「嬉しくない待ち合わせの約束だな」
+    line_set 「もう少しロマンチックな言葉は出んのか？」
+
+    name_set 朝霧
+    line_set 「ちっ…」
+    line_set 「ほざいてろ…」
+    line_set 「貴様の首もいつか獲る…」
+
+    name_set 貴広
+    line_set 「メイドらしからぬ台詞だな」
+
+    name_set 朝霧
+    line_set 「ふん…」
+
+    nvl_on
+    line_set 朝霧は最後に貴広を睨み、吐き捨てるように言うと、靴音高らかにヘリに乗り込んだ。
+
+    adv_on
+    kgd_layer1_set 1 BG013.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    sfx_set 0 SE005.WAV
+    sfx_loop 0
+    kgd_layer2_set_moekan 1215.KGD
+    name_clear
+    line_set バラバラバラバラバラバラ……
+
+    nvl_on
+    line_set ヘリのローター音が急速に上がり、プロペラが円となって機体が浮上する。
+    line_set 上空まで上昇し、機体を傾けると徐々に水平線の向こうに消えていった。
+
+    adv_on
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「ふぅ…やっと行ったな…」
+
+    kgd_layer3_set 0 KI009.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v09918.wav
+    line_set 「そうでちゅね」
+
+    nvl_on
+    line_set 貴広と霧島は同時に小さなため息を吐いた。
+
+    adv_on
+    name_set 貴広
+    line_set 「さて、ホントにかずさと鈴希はどこいったんだ？」
+
+    name_set 霧島
+    voice_play v09919.wav
+    line_set 「無事だといいんでちゅが…」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer1_set 1 BG010.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 021.WAV
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 貴広
+    line_set 「引き続きかずさと鈴希を探さねばならんな…」
+    line_set 「ん？　なんかいい匂いしないか？」
+
+    kgd_layer3_set 3 KI013.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09920.wav
+    line_set 「そう言えば…美味ちちょうな匂いが…」
+
+    name_set 貴広
+    line_set 「まさか！？」
+
+    nvl_on
+    line_set 貴広と霧島は顔を見合わせ、食堂へと急いだ。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG032.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play_moekan 022.WAV
+
+    kgd_layer3_set 0 KI010.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 貴広
+    line_set 「かずさ！？鈴希！？」
+
+    name_set 霧島
+    voice_play v09921.wav
+    line_set 「かずさちゃん！！鈴希ちゃん！！」
+
+    kgd_layer3_set 3 KA005.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set かずさ
+    voice_play v09922.wav
+    line_set 「あ、旦那、霧島さん、お久しぶり～」
+
+    kgd_layer3_set 3 SU001.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 鈴希
+    voice_play v09923.wav
+    line_set 「ん…」
+
+    nvl_on
+    line_set 貴広と霧島の声に気付いたかずさが振り向き、手を振りながらニコッと笑った。
+    line_set テーブルでは鈴希がモグモグとたこ焼きを食べていた。
+
+    adv_on
+    kgd_layer3_set 3 KI010.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09924.wav
+    line_set 「無事だったんでちゅか！？」
+
+    kgd_layer3_set 3 KA002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set かずさ
+    voice_play v09925.wav
+    line_set 「うん、無事無事」
+    voice_play v09926.wav
+    line_set 「ちょっとお腹空いちゃったけどね」
+
+    kgd_layer3_set 3 KI012.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09927.wav
+    line_set 「よかったでちゅ～…」
+
+    kgd_layer3_set 3 KA021.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 貴広
+    line_set 「まずは無事で良かった…」
+    line_set 「お前らの無事を確認したら腹がへったな」
+    line_set 「俺たちにも食事を作ってくれるか？」
+
+    name_set かずさ
+    voice_play v09928.wav
+    line_set 「もちろん！！」
+    voice_play v09929.wav
+    line_set 「待っててね！！！」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set かずさはニパッと笑うと、厨房へ駆け込んでいった。
+    line_set テーブルでは余程腹がへってたのか、鈴希が黙々とたこ焼きを口に放り込んでいた。
+    line_set その後、リニアや冬葉やかずさ達を心配していた人々が集まり、ちょっとしたパーティーの様になった。
+    line_set かずさと鈴希の無事を祝って祝杯が交わされ、誰も二人の正体など気にしなくなっていた。
+
+    adv_on
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_clear
+    ksd_set 1216Z.KSD
+    ksd_end

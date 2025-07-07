@@ -1,884 +1,649 @@
-story_progress 286
+    story_progress 286
+
+    kgd_layer1_set 0 W1212.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
 
-kgd_layer1_set 0 W1212.KGD
+    kgd_layer1_set 0 BG004.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play_moekan 024.WAV
+    kgd_layer2_set_moekan 1212.KGD
+
+    kgd_layer3_set 0 SO026.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
 
-kgd_layer1_display
-kgd_layer1_fx 1
-wait 2000
+    name_set おやじさん
+    voice_play v07292.wav
+    line_set 「よう…、貴広…」
 
-kgd_layer1_fx 0
+    name_set 貴広
+    line_set 「ああ、おやじさんか…」
 
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG004.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-music_play_moekan 024.WAV
+    name_set おやじさん
+    voice_play v07293.wav
+    line_set 「リニア嬢ちゃんの調子だが、かなりいいぞ、１週間もすれば全快だ！」
 
-kgd_layer2_set_moekan 1212.KGD
+    name_set 貴広
+    line_set 「ああ、そうか…」
 
-kgd_layer3_set 0 SO026.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set おやじさん
+    name_set おやじさん
+    voice_play v07294.wav
+    line_set 「あの設計書…どうやって手に入れたんだ？」
+    voice_play v07295.wav
+    line_set 「あれがあると無いとじゃ、えらく違ったぜ…」
 
-voice_play v07292.wav
-line_set 「よう…、貴広…」
+    name_set 貴広
+    line_set 「ああ…、隷がくれた…」
 
-name_set 貴広
+    kgd_layer3_set 3 SO018.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
 
-line_set 「ああ、おやじさんか…」
+    name_set おやじさん
+    voice_play v07296.wav
+    line_set 「隷だと？？あいつと最近あってないじゃないか？」
 
-name_set おやじさん
-voice_play v07293.wav
-line_set 「リニア嬢ちゃんの調子だが、かなりいいぞ、１週間もすれば全快だ！」
+    name_set 貴広
+    line_set 「ああ、まぁ、いいじゃないか…、それより、俺少し用事があるんで…いいかな？」
 
-name_set 貴広
+    name_set おやじさん
+    voice_play v07297.wav
+    line_set 「ああ、引き留めてしまってすまないな…」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
 
-line_set 「ああ、そうか…」
+    kgd_layer1_set 1 BG051.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 011.WAV
 
-name_set おやじさん
+    kgd_layer3_set 0 SO015.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
 
-voice_play v07294.wav
-line_set 「あの設計書…どうやって手に入れたんだ？」
+    name_set 笹木
+    line_set 「……」
+    line_set 「あなたにとって、悲しい結果になるかもしれませんよ……」
+    line_set 「それでもお会いするのですか？」
 
-voice_play v07295.wav
-line_set 「あれがあると無いとじゃ、えらく違ったぜ…」
-name_set 貴広
+    name_set 貴広
+    line_set 「ああ…」
 
-line_set 「ああ…、隷がくれた…」
+    name_set 笹木
+    line_set 「分かりました…、どうぞ…面会してください…」
 
-kgd_layer3_set 3 SO018.KGD
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer2_clear
+    gallery_unlock 137
 
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set おやじさん
+    kgd_layer1_set 1 N097.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 016.WAV
 
-voice_play v07296.wav
-line_set 「隷だと？？あいつと最近あってないじゃないか？」
+    name_set 貴広
+    line_set 「よう」
 
-name_set 貴広
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「ああ、まぁ、いいじゃないか…、それより、俺少し用事があるんで…いいかな？」
+    name_set 貴広
+    line_set 「冬葉？」
 
-name_set おやじさん
+    nvl_on
+    line_set 冬葉は貴広の声など聞こえないかのように、じっと窓の外を見つめている…。
 
-voice_play v07297.wav
-line_set 「ああ、引き留めてしまってすまないな…」
+    adv_on
+    name_set 冬葉
+    line_set 「……」
 
-kgd_layer3_fadeout 0
+    name_set 貴広
+    line_set 「冬葉？！」
 
-kgd_layer3_clear 0
-kgd_layer1_set 1 BG051.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-music_play_moekan 011.WAV
+    nvl_on
+    line_set 貴広が冬葉の肩に手をおく…。
+    nvl_line_clear
+    line_set するとそれを払うかのような形で冬葉が貴広の方を向く…。
 
-kgd_layer3_set 0 SO015.KGD
+    adv_on
+    gallery_unlock 135
 
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set 笹木
+    kgd_layer1_set 1 N095.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
 
-line_set 「……」
+    name_set 貴広
+    line_set 「冬葉…」
 
-line_set 「あなたにとって、悲しい結果になるかもしれませんよ……」
-line_set 「それでもお会いするのですか？」
-name_set 貴広
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「ああ…」
+    name_set 貴広
+    line_set 「冬葉…」
 
-name_set 笹木
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「分かりました…、どうぞ…面会してください…」
+    nvl_on
+    line_set 二人は無言になる。
 
-kgd_layer3_fadeout 0
+    adv_on
+    name_set 冬葉
+    line_set 「……」
+    voice_play 11247.wav
+    line_set 「誰ですか？」
 
-kgd_layer3_clear 0
-kgd_layer2_clear
-gallery_unlock 137
+    nvl_on
+    line_set はじめて会った者どうしならそれは、なんて事のない言葉…。
+    nvl_line_clear
+    line_set だが、その言葉は、どんなひどい言葉よりも貴広の心をえぐった…。
 
-kgd_layer1_set 1 N097.KGD
+    adv_on
+    name_set 貴広
+    line_set 「……」
+    line_set 「お、俺は…、この島の所長で、名前を神崎貴広と言う者だ…」
 
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-music_play_moekan 016.WAV
+    name_set 冬葉
+    line_set 「……」
+    voice_play 11249.wav
+    line_set 「そうですか…」
 
-name_set 貴広
+    nvl_on
+    line_set 興味がなさそうに冬葉は答える。
 
-line_set 「よう」
+    adv_on
+    name_set 貴広
+    line_set 「冬葉…」
 
-name_set 冬葉
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「……」
+    name_set 貴広
+    line_set 「あの、だな…冬葉…」
 
-name_set 貴広
+    name_set 冬葉
+    voice_play 11251.wav
+    line_set 「疲れました……」
 
-line_set 「冬葉？」
+    nvl_on
+    line_set 貴広の言葉をわざと区切るように冬葉が口を開く。
 
-nvl_on
+    adv_on
+    name_set 貴広
+    line_set 「え？」
 
-line_set 冬葉は貴広の声など聞こえないかのように、じっと窓の外を見つめている…。
+    name_set 冬葉
+    voice_play 11252.wav
+    line_set 「帰ってください…」
 
-adv_on
+    name_set 貴広
+    line_set 「か、帰ってくださいって…」
 
-name_set 冬葉
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「……」
+    nvl_on
+    line_set 冬葉はただ冷たい視線で貴広を見つめる。
 
-name_set 貴広
+    adv_on
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「冬葉？！」
+    name_set 貴広
+    line_set 「お、お前！」
+    line_set 「冬葉！」
 
-nvl_on
+    name_set 冬葉
+    line_set 「……」
+    gallery_unlock 137
 
-line_set 貴広が冬葉の肩に手をおく…。
+    kgd_layer1_set 1 N097.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
 
-nvl_line_clear
+    nvl_on
+    line_set 冬葉は貴広の事を無視して、窓の外に視線をやる。
 
-line_set するとそれを払うかのような形で冬葉が貴広の方を向く…。
+    adv_on
+    name_set 貴広
+    line_set 「……」
 
-adv_on
+    name_set 冬葉
+    line_set 「……」
 
-gallery_unlock 135
+    nvl_on
+    line_set 冬葉は、なかなか帰ろうとしない貴広に困り果てた表情を見せる……。
 
-kgd_layer1_set 1 N095.KGD
+    adv_on
+    name_set 貴広
+    line_set 「俺に帰ってほしいのか…、冬葉」
 
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 貴広
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「冬葉…」
+    nvl_on
+    line_set 冬葉はその質問にすら答えない。
 
-name_set 冬葉
+    adv_on
+    name_set 貴広
+    line_set 「……」
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
 
-line_set 「……」
+    nvl_on
+    line_set 貴広は午前の仕事を終えると、再び医務室を訪れた。
+    line_set 医務室へ向かう途中の貴広の足取りは重かった。
+    line_set 今朝の冬葉とのやり取りが、貴広の心境を暗くさせていた。
 
-name_set 貴広
+    adv_on
+    music_play_moekan 024.WAV
 
-line_set 「冬葉…」
+    name_set 貴広
+    line_set 「………」
 
-name_set 冬葉
+    nvl_on
+    line_set 「あれが、あの冬葉なのか……」
 
-line_set 「……」
+    adv_on
+    name_set 笹木
+    line_set 「いかがでしたか？」
 
-nvl_on
+    name_set 貴広
+    line_set 「……」
 
-line_set 二人は無言になる。
+    name_set 笹木
+    line_set 「当分会わない方がよろしいかと思います…」
+    line_set 「冬葉さんのためにも…、あなたのためにもならないかもしれません…」
 
-adv_on
+    name_set 貴広
+    line_set 「今日は、午後からの面接はあるのか？」
 
-name_set 冬葉
+    name_set 笹木
+    line_set 「……」
 
-line_set 「……」
+    name_set 貴広
+    line_set 「また、出直してくる……」
 
-voice_play 11247.wav
+    name_set 笹木
+    line_set 「……」
+    line_set 「まぁ、止めはしません…」
+    line_set 「実際、私にもどうする事も出来ないのですから…」
+    line_set 「止める権利もありますまい…」
 
-line_set 「誰ですか？」
+    name_set 貴広
+    line_set 「……」
 
-nvl_on
+    name_set 笹木
+    line_set 「ただし、あまり冬葉さんの精神に無理がかかるようでしたら」
+    line_set 「すぐにでもあなたとの面会は取り消させて頂きます…」
+    line_set 「わかりましたね…」
 
-line_set はじめて会った者どうしならそれは、なんて事のない言葉…。
+    name_set 貴広
+    line_set 「ああ…、そうしてくれ…」
 
-nvl_line_clear
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_set_moekan 1212.KGD
 
-line_set だが、その言葉は、どんなひどい言葉よりも貴広の心をえぐった…。
+    name_set 貴広
+    line_set 「……」
 
-adv_on
+    nvl_on
+    line_set 貴広は所長室の巨大な窓から、ぼんやりと空を眺める……。
 
-name_set 貴広
+    adv_on
+    name_set 貴広
+    line_set 「冬葉を、ああしてしまったのは俺の責任だ…」
+    line_set 「俺があいつにあの力を使わせてしまったから…」
+    line_set 「今の俺があいつに何をしてやれるのだろうか…」
+    line_set 「いや、俺が何かしてやる権利があるのだろうか…」
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
 
-line_set 「……」
+    kgd_layer1_set 0 BG051.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_clear
+    gallery_unlock 135
 
-line_set 「お、俺は…、この島の所長で、名前を神崎貴広と言う者だ…」
-name_set 冬葉
+    kgd_layer1_set 1 N095.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 016.WAV
 
-line_set 「……」
+    name_set 貴広
+    line_set 「よう」
 
-voice_play 11249.wav
+    name_set 冬葉
+    line_set 「…」
 
-line_set 「そうですか…」
+    nvl_on
+    line_set 冬葉は貴広の挨拶を冷たい目線で返す。
 
-nvl_on
+    adv_on
+    name_set 貴広
+    line_set 「また、見舞いに来た……」
 
-line_set 興味がなさそうに冬葉は答える。
+    nvl_on
+    line_set 貴広は、ベッド脇のパイプ椅子に腰掛けた。
 
-adv_on
+    adv_on
+    name_set 冬葉
+    line_set 「……」
 
-name_set 貴広
+    nvl_on
+    line_set 冷たい目線で、冬葉はじっと貴広を見つめる。
 
-line_set 「冬葉…」
+    adv_on
+    name_set 貴広
+    line_set 「ま、まあ、そういう目線で俺を見るなよ…」
 
-name_set 冬葉
+    name_set 冬葉
+    voice_play 11260.wav
+    line_set 「迷惑です……」
 
-line_set 「……」
+    nvl_on
+    line_set ぽつりと…だがはっきりと冬葉はそう言った。
 
-name_set 貴広
+    adv_on
+    name_set 貴広
+    line_set 「……」
 
-line_set 「あの、だな…冬葉…」
+    nvl_on
+    line_set 貴広が知っている冬葉とはまるで違う少女。
+    line_set 容貌、声、それだけが一致し、それ以外のすべてがあの冬葉ではなかった。
+    nvl_line_clear
+    line_set 「『…彼女は他に対して、常に敵意を抱いています』って、こういうことか…」
+    nvl_line_clear
+    line_set まったく動じる事がない貴広にあきらめたのか、冬葉は貴広を無視して、外の風景に目をやる。
 
-name_set 冬葉
+    adv_on
+    name_set 貴広
+    line_set 「外は、何が見えるんだ？」
 
-voice_play 11251.wav
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「疲れました……」
+    name_set 貴広
+    line_set 「……」
 
-nvl_on
+    nvl_on
+    line_set 冬葉からは何の答えも返ってこない…。
 
-line_set 貴広の言葉をわざと区切るように冬葉が口を開く。
+    adv_on
+    name_set 貴広
+    line_set 「お前と前、一緒に空をみた事があったな…」
 
-adv_on
+    name_set 冬葉
+    line_set 「……」
 
-name_set 貴広
+    name_set 貴広
+    line_set 「気持ちよかったな…」
+    line_set 「また体が治ったら、一緒に空を見に行こうか？」
+    line_set 「あそこの廃墟があっただろう？」
+    line_set 「一緒に紅茶を飲んだ……」
 
-line_set 「え？」
+    name_set 冬葉
+    line_set 「……」
 
-name_set 冬葉
+    nvl_on
+    line_set 冬葉は貴広を睨みつける。
 
-voice_play 11252.wav
+    adv_on
+    name_set 貴広
+    line_set 「冬葉？」
 
-line_set 「帰ってください…」
+    name_set 冬葉
+    voice_play 11264.wav
+    line_set 「迷惑です…」
 
-name_set 貴広
+    name_set 貴広
+    line_set 「冬葉…」
 
-line_set 「か、帰ってくださいって…」
+    name_set 冬葉
+    voice_play 11265.wav
+    line_set 「何のつもりか知りませんが、人の心の中を土足であがるようなまねはやめてください」
 
-name_set 冬葉
+    name_set 貴広
+    line_set 「……」
 
-line_set 「……」
-
-nvl_on
-
-line_set 冬葉はただ冷たい視線で貴広を見つめる。
-
-adv_on
-
-name_set 冬葉
-
-line_set 「……」
-
-name_set 貴広
-
-line_set 「お、お前！」
-
-line_set 「冬葉！」
-name_set 冬葉
-
-line_set 「……」
-
-gallery_unlock 137
-
-kgd_layer1_set 1 N097.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set 冬葉は貴広の事を無視して、窓の外に視線をやる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「……」
-
-name_set 冬葉
-
-line_set 「……」
-
-nvl_on
-
-line_set 冬葉は、なかなか帰ろうとしない貴広に困り果てた表情を見せる……。
-
-adv_on
-
-name_set 貴広
-
-line_set 「俺に帰ってほしいのか…、冬葉」
-
-name_set 冬葉
-
-line_set 「……」
-
-nvl_on
-
-line_set 冬葉はその質問にすら答えない。
-
-adv_on
-
-name_set 貴広
-
-line_set 「……」
-
-music_stop2
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-nvl_on
-
-line_set 貴広は午前の仕事を終えると、再び医務室を訪れた。
-
-line_set 医務室へ向かう途中の貴広の足取りは重かった。
-line_set 今朝の冬葉とのやり取りが、貴広の心境を暗くさせていた。
-adv_on
-
-music_play_moekan 024.WAV
-
-name_set 貴広
-
-line_set 「………」
-
-nvl_on
-
-line_set 「あれが、あの冬葉なのか……」
-
-adv_on
-
-name_set 笹木
-
-line_set 「いかがでしたか？」
-
-name_set 貴広
-
-line_set 「……」
-
-name_set 笹木
-
-line_set 「当分会わない方がよろしいかと思います…」
-
-line_set 「冬葉さんのためにも…、あなたのためにもならないかもしれません…」
-name_set 貴広
-
-line_set 「今日は、午後からの面接はあるのか？」
-
-name_set 笹木
-
-line_set 「……」
-
-name_set 貴広
-
-line_set 「また、出直してくる……」
-
-name_set 笹木
-
-line_set 「……」
-
-line_set 「まぁ、止めはしません…」
-line_set 「実際、私にもどうする事も出来ないのですから…」
-line_set 「止める権利もありますまい…」
-name_set 貴広
-
-line_set 「……」
-
-name_set 笹木
-
-line_set 「ただし、あまり冬葉さんの精神に無理がかかるようでしたら」
-
-line_set 「すぐにでもあなたとの面会は取り消させて頂きます…」
-line_set 「わかりましたね…」
-name_set 貴広
-
-line_set 「ああ…、そうしてくれ…」
-
-kgd_layer1_set 0 BG023.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_set_moekan 1212.KGD
-name_set 貴広
-
-line_set 「……」
-
-nvl_on
-
-line_set 貴広は所長室の巨大な窓から、ぼんやりと空を眺める……。
-
-adv_on
-
-name_set 貴広
-
-line_set 「冬葉を、ああしてしまったのは俺の責任だ…」
-
-line_set 「俺があいつにあの力を使わせてしまったから…」
-line_set 「今の俺があいつに何をしてやれるのだろうか…」
-line_set 「いや、俺が何かしてやる権利があるのだろうか…」
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG051.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_clear
-gallery_unlock 135
-
-kgd_layer1_set 1 N095.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-music_play_moekan 016.WAV
-
-name_set 貴広
-
-line_set 「よう」
-
-name_set 冬葉
-
-line_set 「…」
-
-nvl_on
-
-line_set 冬葉は貴広の挨拶を冷たい目線で返す。
-
-adv_on
-
-name_set 貴広
-
-line_set 「また、見舞いに来た……」
-
-nvl_on
-
-line_set 貴広は、ベッド脇のパイプ椅子に腰掛けた。
-
-adv_on
-
-name_set 冬葉
-
-line_set 「……」
-
-nvl_on
-
-line_set 冷たい目線で、冬葉はじっと貴広を見つめる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「ま、まあ、そういう目線で俺を見るなよ…」
-
-name_set 冬葉
-
-voice_play 11260.wav
-
-line_set 「迷惑です……」
-
-nvl_on
-
-line_set ぽつりと…だがはっきりと冬葉はそう言った。
-
-adv_on
-
-name_set 貴広
-
-line_set 「……」
-
-nvl_on
-
-line_set 貴広が知っている冬葉とはまるで違う少女。
-
-line_set 容貌、声、それだけが一致し、それ以外のすべてがあの冬葉ではなかった。
-nvl_line_clear
-
-line_set 「『…彼女は他に対して、常に敵意を抱いています』って、こういうことか…」
-
-nvl_line_clear
-
-line_set まったく動じる事がない貴広にあきらめたのか、冬葉は貴広を無視して、外の風景に目をやる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「外は、何が見えるんだ？」
-
-name_set 冬葉
-
-line_set 「……」
-
-name_set 貴広
-
-line_set 「……」
-
-nvl_on
-
-line_set 冬葉からは何の答えも返ってこない…。
-
-adv_on
-
-name_set 貴広
-
-line_set 「お前と前、一緒に空をみた事があったな…」
-
-name_set 冬葉
-
-line_set 「……」
-
-name_set 貴広
-
-line_set 「気持ちよかったな…」
-
-line_set 「また体が治ったら、一緒に空を見に行こうか？」
-line_set 「あそこの廃墟があっただろう？」
-line_set 「一緒に紅茶を飲んだ……」
-name_set 冬葉
-
-line_set 「……」
-
-nvl_on
-
-line_set 冬葉は貴広を睨みつける。
-
-adv_on
-
-name_set 貴広
-
-line_set 「冬葉？」
-
-name_set 冬葉
-
-voice_play 11264.wav
-
-line_set 「迷惑です…」
-
-name_set 貴広
-
-line_set 「冬葉…」
-
-name_set 冬葉
-
-voice_play 11265.wav
-
-line_set 「何のつもりか知りませんが、人の心の中を土足であがるようなまねはやめてください」
-
-name_set 貴広
-
-line_set 「……」
-
-jump_choice 0 殴る
-
-jump_choice 1 何も言い返せない
-choice_dialog_end
+    jump_choice @0 殴る
+    jump_choice @1 何も言い返せない
+    choice_dialog_end
 
 @0
+    story_progress 287
+    unk4 7
 
-story_progress 287
+    name_set 貴広
+    line_set 「冬葉っ…」
 
-unk4 7
+    nvl_on
+    line_set 貴広は立ち上がると、右手を振り上げた。
+    line_set 冬葉の頬に平手を食らわせるつもりだった。
+    nvl_line_clear
+    line_set ……だが、冬葉は微動だにせず、貴広を冷たい瞳で見つめたままであった。
+    line_set その瞳が、貴広の激憤を凍えさせる。
 
-name_set 貴広
+    adv_on
+    name_set 貴広
+    line_set 「…ちっ」
 
-line_set 「冬葉っ…」
+    nvl_on
+    line_set 貴広は上げた右手を、そして腰を静かに下ろした。
+    line_set 彼の立場には似合わないパイプ椅子が、ギシリと空疎な音を立てる。
 
-nvl_on
-
-line_set 貴広は立ち上がると、右手を振り上げた。
-
-line_set 冬葉の頬に平手を食らわせるつもりだった。
-nvl_line_clear
-
-line_set ……だが、冬葉は微動だにせず、貴広を冷たい瞳で見つめたままであった。
-
-line_set その瞳が、貴広の激憤を凍えさせる。
-adv_on
-
-name_set 貴広
-
-line_set 「…ちっ」
-
-nvl_on
-
-line_set 貴広は上げた右手を、そして腰を静かに下ろした。
-
-line_set 彼の立場には似合わないパイプ椅子が、ギシリと空疎な音を立てる。
-adv_on
-
-jump_auto 2
+    adv_on
+    jump_auto @2
 
 @1
+    story_progress 288
 
-story_progress 288
+    name_set 貴広
+    line_set 「…………」
 
-name_set 貴広
+    name_set 冬葉
+    voice_play 11266.wav
+    line_set 「少しお聞きしてもよろしいでしょうか？」
 
-line_set 「…………」
+    name_set 貴広
+    line_set 「なんだ？」
 
-name_set 冬葉
+    name_set 冬葉
+    voice_play 11267.wav
+    line_set 「あなたはと私は過去何か特別な関係があったのでしょうか？」
 
-voice_play 11266.wav
+    name_set 貴広
+    line_set 「……」
 
-line_set 「少しお聞きしてもよろしいでしょうか？」
+    name_set 冬葉
+    voice_play 11268.wav
+    line_set 「何か、恋愛関係などにあったのでしょうか？」
+    voice_play 11269.wav
+    line_set 「だとしたら、勝手にその事を忘れてしまった私に罪があるわけですから」
+    voice_play 11270.wav
+    line_set 「あなたとそれらしく見えるような努力もしてみます」
 
-name_set 貴広
+    name_set 貴広
+    line_set 「いや、そんな事はない…」
 
-line_set 「なんだ？」
+    name_set 冬葉
+    line_set 「……」
+    voice_play 11272.wav
+    line_set 「ならば、私を、ほっておいてください…」
 
-name_set 冬葉
+    name_set 貴広
+    line_set 「冬葉…」
 
-voice_play 11267.wav
+    name_set 冬葉
+    voice_play 11273.wav
+    line_set 「帰ってください…」
 
-line_set 「あなたはと私は過去何か特別な関係があったのでしょうか？」
-
-name_set 貴広
-
-line_set 「……」
-
-name_set 冬葉
-
-voice_play 11268.wav
-
-line_set 「何か、恋愛関係などにあったのでしょうか？」
-
-voice_play 11269.wav
-
-line_set 「だとしたら、勝手にその事を忘れてしまった私に罪があるわけですから」
-
-voice_play 11270.wav
-
-line_set 「あなたとそれらしく見えるような努力もしてみます」
-
-name_set 貴広
-
-line_set 「いや、そんな事はない…」
-
-name_set 冬葉
-
-line_set 「……」
-
-voice_play 11272.wav
-
-line_set 「ならば、私を、ほっておいてください…」
-
-name_set 貴広
-
-line_set 「冬葉…」
-
-name_set 冬葉
-
-voice_play 11273.wav
-
-line_set 「帰ってください…」
-
-jump_auto 3
+    jump_auto @2
 
 @2
+    story_progress 289
 
-@3
+    name_set 貴広
+    line_set 「すまん…」
 
-story_progress 289
+    nvl_on
+    line_set 重苦しい沈黙が流れる。
 
-name_set 貴広
+    adv_on
+    name_set 冬葉
+    voice_play 11274.wav
+    line_set 「神崎所長……」
 
-line_set 「すまん…」
+    name_set 貴広
+    line_set 「あ、ああ、何だ？」
 
-nvl_on
+    nvl_on
+    line_set 虚をつかれた格好だったが、出来る限り優しい声色を作って貴広は応えた。
 
-line_set 重苦しい沈黙が流れる。
+    adv_on
+    name_set 冬葉
+    voice_play 11275.wav
+    line_set 「お見舞いに来てくださるのは嬉しいのですが、このように特に変わりはありません」
+    voice_play 11276.wav
+    line_set 「もう、用はお済みになったのではないでしょうか？」
 
-adv_on
+    name_set 貴広
+    line_set 「…そうだな」
 
-name_set 冬葉
+    nvl_on
+    line_set だが、貴広は動こうとしなかった。
 
-voice_play 11274.wav
+    adv_on
+    name_set 冬葉
+    voice_play 11277.wav
+    line_set 「神崎所長？」
 
-line_set 「神崎所長……」
+    nvl_on
+    line_set 冬葉は、早く出て行けと言わんばかりの冷たさで言い放つ。
 
-name_set 貴広
+    adv_on
+    name_set 貴広
+    line_set 「冬葉…」
 
-line_set 「あ、ああ、何だ？」
+    name_set 冬葉
+    line_set 「……」
 
-nvl_on
+    name_set 貴広
+    line_set 「お前には…、あの事件以前の記憶はもう完全にないのか？」
 
-line_set 虚をつかれた格好だったが、出来る限り優しい声色を作って貴広は応えた。
+    name_set 冬葉
+    line_set 「……」
+    voice_play 11280.wav
+    line_set 「ありません……」
 
-adv_on
+    name_set 貴広
+    line_set 「……」
 
-name_set 冬葉
+    nvl_on
+    line_set 再び何か言おうとした貴広だったが、何を言っていいのか分からず、諦めたように口を閉ざした。
+    nvl_line_clear
+    line_set そしてまた陰鬱な沈黙が白い空間を支配する。
+    nvl_line_clear
+    line_set 冬葉はまた、外をじっと見つめる…。
 
-voice_play 11275.wav
+    adv_on
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「お見舞いに来てくださるのは嬉しいのですが、このように特に変わりはありません」
+    name_set 貴広
+    line_set 「また来る」
 
-voice_play 11276.wav
+    name_set 冬葉
+    line_set 「……」
 
-line_set 「もう、用はお済みになったのではないでしょうか？」
+    nvl_on
+    line_set 冬葉はその言葉には一切応えない……。
 
-name_set 貴広
+    adv_on
+    music_stop1
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
 
-line_set 「…そうだな」
+    kgd_layer1_set 0 BG088.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play_moekan 024.WAV
+    kgd_layer2_set_moekan 1212.KGD
 
-nvl_on
+    kgd_layer3_set 0 KI013.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
 
-line_set だが、貴広は動こうとしなかった。
+    name_set 貴広
+    line_set 「……」
 
-adv_on
+    name_set 霧島
+    voice_play 40067.wav
+    line_set 「所長……」
 
-name_set 冬葉
+    name_set 貴広
+    line_set 「ん？」
 
-voice_play 11277.wav
+    name_set 霧島
+    voice_play 40068.wav
+    line_set 「い、いいえ…なんでもありませんでちゅ…」
 
-line_set 「神崎所長？」
+    name_set 貴広
+    line_set 「冬葉は、すべてを忘れてしまったみたいだよ…」
 
-nvl_on
+    name_set 霧島
+    voice_play 40069.wav
+    line_set 「で、でも、記憶喪失なんて、すぐに直るでちゅよ」
 
-line_set 冬葉は、早く出て行けと言わんばかりの冷たさで言い放つ。
+    name_set 貴広
+    line_set 「記憶だけじゃない…、あいつは、あいつの心すら忘れてしまったんだよ…」
 
-adv_on
+    name_set 霧島
+    line_set 「……」
 
-name_set 貴広
+    name_set 貴広
+    line_set 「さてと…」
 
-line_set 「冬葉…」
+    nvl_on
+    line_set 貴広は書き終えた書類を霧島に渡すと、いそいそと立ち上がった。
 
-name_set 冬葉
+    adv_on
+    name_set 貴広
+    line_set 「終わりだ……」
 
-line_set 「……」
+    name_set 霧島
+    line_set 「……」
 
-name_set 貴広
+    name_set 貴広
+    line_set 「俺は、他人に救われてばっかりで、何も出来ないぼんくらだ……」
+    line_set 「今も昔も…」
 
-line_set 「お前には…、あの事件以前の記憶はもう完全にないのか？」
+    name_set 霧島
+    voice_play 40072.wav
+    line_set 「し、所長はそんな事は……」
 
-name_set 冬葉
+    name_set 貴広
+    line_set 「おやすみ…、明日は午前からまた冬葉を見に行くから遅れるよ…」
 
-line_set 「……」
+    name_set 霧島
+    line_set 「……」
 
-voice_play 11280.wav
-
-line_set 「ありません……」
-
-name_set 貴広
-
-line_set 「……」
-
-nvl_on
-
-line_set 再び何か言おうとした貴広だったが、何を言っていいのか分からず、諦めたように口を閉ざした。
-
-nvl_line_clear
-
-line_set そしてまた陰鬱な沈黙が白い空間を支配する。
-
-nvl_line_clear
-
-line_set 冬葉はまた、外をじっと見つめる…。
-
-adv_on
-
-name_set 冬葉
-
-line_set 「……」
-
-name_set 貴広
-
-line_set 「また来る」
-
-name_set 冬葉
-
-line_set 「……」
-
-nvl_on
-
-line_set 冬葉はその言葉には一切応えない……。
-
-adv_on
-
-music_stop1
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG088.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-music_play_moekan 024.WAV
-
-kgd_layer2_set_moekan 1212.KGD
-
-kgd_layer3_set 0 KI013.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set 貴広
-
-line_set 「……」
-
-name_set 霧島
-
-voice_play 40067.wav
-
-line_set 「所長……」
-
-name_set 貴広
-
-line_set 「ん？」
-
-name_set 霧島
-
-voice_play 40068.wav
-
-line_set 「い、いいえ…なんでもありませんでちゅ…」
-
-name_set 貴広
-
-line_set 「冬葉は、すべてを忘れてしまったみたいだよ…」
-
-name_set 霧島
-
-voice_play 40069.wav
-
-line_set 「で、でも、記憶喪失なんて、すぐに直るでちゅよ」
-
-name_set 貴広
-
-line_set 「記憶だけじゃない…、あいつは、あいつの心すら忘れてしまったんだよ…」
-
-name_set 霧島
-
-line_set 「……」
-
-name_set 貴広
-
-line_set 「さてと…」
-
-nvl_on
-
-line_set 貴広は書き終えた書類を霧島に渡すと、いそいそと立ち上がった。
-
-adv_on
-
-name_set 貴広
-
-line_set 「終わりだ……」
-
-name_set 霧島
-
-line_set 「……」
-
-name_set 貴広
-
-line_set 「俺は、他人に救われてばっかりで、何も出来ないぼんくらだ……」
-
-line_set 「今も昔も…」
-name_set 霧島
-
-voice_play 40072.wav
-
-line_set 「し、所長はそんな事は……」
-
-name_set 貴広
-
-line_set 「おやすみ…、明日は午前からまた冬葉を見に行くから遅れるよ…」
-
-name_set 霧島
-
-line_set 「……」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-music_stop2
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer2_clear
-ksd_set 1213C.KSD
-
-ksd_end
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_clear
+    ksd_set 1213C.KSD
+    ksd_end

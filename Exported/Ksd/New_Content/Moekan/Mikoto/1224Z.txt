@@ -1,898 +1,661 @@
-kgd_layer1_set 0 W1224.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
+    kgd_layer1_set 0 W1224.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_set_moekan 1224.KGD
+    music_play_moekan 024.WAV
+
+    kgd_layer1_set 0 BG027.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 貴広
+    line_set 「ふあ…」
+
+    nvl_on
+    line_set 貴広は眠い目を擦りながら、ベッドに上半身を起こし、大きな欠伸を一つした。
+
+    adv_on
+    name_set 貴広
+    line_set 「命の件に、電話の件、それにいつもの仕事か…」
+    line_set 「ふぅぁ～あ…」
+
+    nvl_on
+    line_set 確認するように呟き、ため息から欠伸へと繋げていく。
+    line_set 頭をポリポリと掻きながらベッドから飛び降り、シャワー室へ向かう。
+    line_set 熱めのシャワーで眠気を落とし、タオル、ドライヤーで髪を乾かし、ビシッと身支度を決めた。
+    line_set ネクタイをキュッと締め、廊下へと出た。
+
+    adv_on
+    kgd_layer1_set 1 BG004.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 021.WAV
+
+    kgd_layer1_set 1 DC007.KGD
+    kgd_layer2_clear
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 命
+    voice_play v10487.wav
+    line_set 「貴広、遊ぼう！！」
+
+    sfx_set 0 SE043.WAV
+    sfx_play 0 0
+    kgd_layer1_fx 4
+    name_clear
+    line_set ドカッ！！
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「どわ！！」
+
+    nvl_on
+    line_set 廊下に出た途端、横から脇腹への衝撃に声を上げる貴広。
+
+    adv_on
+    kgd_layer2_set_moekan 1224.KGD
+
+    kgd_layer1_set 1 BG004.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    kgd_layer3_set 0 MI004.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 命
+    voice_play v10488.wav
+    line_set 「貴広、遊ぼう！！」
+
+    name_set 貴広
+    line_set 「だから、俺は仕事だって」
+
+    name_set 命
+    voice_play v10489.wav
+    line_set 「あーそーぼーよ～」
+
+    name_set 貴広
+    line_set 「あーもう…引っ張るなって！袖が伸びる！！」
+    line_set 「あ、鈴希！」
+
+    kgd_layer3_set 3 SU001.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 鈴希
+    voice_play v10490.wav
+    line_set 「ん…なに？」
+
+    nvl_on
+    line_set 貴広は袖を引っ張る命を押さえながら、通りかかった鈴希を呼び止めた。
+
+    adv_on
+    name_set 貴広
+    line_set 「鈴希、今日の仕事は？」
+
+    name_set 鈴希
+    voice_play v10491.wav
+    line_set 「階段の掃除…」
 
-wait 2000
+    name_set 貴広
+    line_set 「それは他の者にやらせるから、今日はコイツの相手をしてやってくれ」
+    line_set 「精神年齢も近そうだしな」
 
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer2_set_moekan 1224.KGD
+    name_set 鈴希
+    voice_play v10492.wav
+    line_set 「……わかった」
 
+    kgd_layer3_set 3 MI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 貴広
+    line_set 「そういうことだから、今日は鈴希と遊べ」
 
-music_play_moekan 024.WAV
+    name_set 命
+    voice_play v10493.wav
+    line_set 「うん！！」
 
+    name_set 貴広
+    line_set 「静かにな！！」
+
+    name_set 命
+    voice_play v10494.wav
+    line_set 「わかった！！」
 
-kgd_layer1_set 0 BG027.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    name_set 貴広
+    line_set 「ふぅ…」
+
+    nvl_on
+    line_set 鈴希は命に手を引っ張られ、つんのめるように廊下を走っていった。
+    line_set がむしゃらに走る飼い犬と、それに引っ張られる飼い主のような二人を見送り、貴広はため息を吐いた。
+
+    adv_on
+    name_set 貴広
+    line_set 「さて、仕事仕事」
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_play_moekan 012.WAV
 
-name_set 貴広
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
 
-line_set 「ふあ…」
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
 
-nvl_on
+    name_set 霧島
+    voice_play v10495.wav
+    line_set 「おはようございまちゅ」
 
-line_set 貴広は眠い目を擦りながら、ベッドに上半身を起こし、大きな欠伸を一つした。
+    name_set 貴広
+    line_set 「おはよう」
+    line_set 「連絡は取れたか？」
 
-adv_on
+    name_set 霧島
+    voice_play v10496.wav
+    line_set 「いえ、まだ」
+    voice_play v10497.wav
+    line_set 「衛星通信は、他の消費電力の少ない時間帯にしか使えないので、昼休み直前くらいに連絡してみまちゅ」
+
+    name_set 貴広
+    line_set 「そうか、頼む」
+
+    name_set 霧島
+    voice_play v10498.wav
+    line_set 「はい」
 
-name_set 貴広
+    name_set 貴広
+    line_set 「飯島が奔走してるみたいだが、電話に出れぬほどの事がアリスインチェインズで起きてるのか…？」
 
-line_set 「命の件に、電話の件、それにいつもの仕事か…」
-line_set 「ふぅぁ～あ…」
+    kgd_layer3_set 3 KI002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
 
-nvl_on
+    name_set 霧島
+    voice_play v10499.wav
+    line_set 「所長、推測が先走ると危険でちゅよ」
 
-line_set 確認するように呟き、ため息から欠伸へと繋げていく。
-line_set 頭をポリポリと掻きながらベッドから飛び降り、シャワー室へ向かう。
-line_set 熱めのシャワーで眠気を落とし、タオル、ドライヤーで髪を乾かし、ビシッと身支度を決めた。
-line_set ネクタイをキュッと締め、廊下へと出た。
+    name_set 貴広
+    line_set 「そうだな…」
 
-adv_on
+    nvl_on
+    line_set 顎を撫で、天井を仰いで考え込む貴広を、霧島が軽くたしなめた。
+    line_set 貴広は頷き、霧島に視線を戻す。
 
-kgd_layer1_set 1 BG004.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
+    adv_on
+    name_set 貴広
+    line_set 「もう少し情報が必要だな…」
 
+    kgd_layer3_set 3 KI008.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v10500.wav
+    line_set 「所長、何か企んでまちゅね…」
+
+    name_set 貴広
+    line_set 「人聞きの悪い言い方するなよ」
+    line_set 「防衛策を考えてるだけさ」
+
+    name_set 霧島
+    voice_play v10501.wav
+    line_set 「それならいいんでちゅが」
+    voice_play v10502.wav
+    line_set 「危険のないように、お願いしまちゅ」
 
-music_play_moekan 021.WAV
-
-
-kgd_layer1_set 1 DC007.KGD
-kgd_layer2_clear
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-name_set 命
-
-voice_play v10487.wav
-
-line_set 「貴広、遊ぼう！！」
-
-sfx_set 0 SE043.WAV
-sfx_play 0 0
-
-kgd_layer1_fx 4
-
-name_clear
-
-line_set ドカッ！！
-sfx_stop 0
-sfx_unset 0
-
-name_set 貴広
-
-line_set 「どわ！！」
-
-nvl_on
-
-line_set 廊下に出た途端、横から脇腹への衝撃に声を上げる貴広。
-
-adv_on
-
-kgd_layer2_set_moekan 1224.KGD
-kgd_layer1_set 1 BG004.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-kgd_layer3_set 0 MI004.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 命
-
-voice_play v10488.wav
-
-line_set 「貴広、遊ぼう！！」
-
-name_set 貴広
-
-line_set 「だから、俺は仕事だって」
-
-name_set 命
-
-voice_play v10489.wav
-
-line_set 「あーそーぼーよ～」
-
-name_set 貴広
-
-line_set 「あーもう…引っ張るなって！袖が伸びる！！」
-line_set 「あ、鈴希！」
-
-kgd_layer3_set 3 SU001.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 鈴希
-
-voice_play v10490.wav
-
-line_set 「ん…なに？」
-
-nvl_on
-
-line_set 貴広は袖を引っ張る命を押さえながら、通りかかった鈴希を呼び止めた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「鈴希、今日の仕事は？」
-
-name_set 鈴希
-
-voice_play v10491.wav
-
-line_set 「階段の掃除…」
-
-name_set 貴広
-
-line_set 「それは他の者にやらせるから、今日はコイツの相手をしてやってくれ」
-line_set 「精神年齢も近そうだしな」
-
-name_set 鈴希
-
-voice_play v10492.wav
-
-line_set 「……わかった」
-
-kgd_layer3_set 3 MI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 貴広
-
-line_set 「そういうことだから、今日は鈴希と遊べ」
-
-name_set 命
-
-voice_play v10493.wav
-
-line_set 「うん！！」
-
-name_set 貴広
-
-line_set 「静かにな！！」
-
-name_set 命
-
-voice_play v10494.wav
-
-line_set 「わかった！！」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-name_set 貴広
-
-line_set 「ふぅ…」
-
-nvl_on
-
-line_set 鈴希は命に手を引っ張られ、つんのめるように廊下を走っていった。
-line_set がむしゃらに走る飼い犬と、それに引っ張られる飼い主のような二人を見送り、貴広はため息を吐いた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「さて、仕事仕事」
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-music_play_moekan 012.WAV
-
-
-kgd_layer1_set 0 BG023.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v10495.wav
-
-line_set 「おはようございまちゅ」
-
-name_set 貴広
-
-line_set 「おはよう」
-line_set 「連絡は取れたか？」
-
-name_set 霧島
-
-voice_play v10496.wav
-
-line_set 「いえ、まだ」
-
-voice_play v10497.wav
-
-line_set 「衛星通信は、他の消費電力の少ない時間帯にしか使えないので、昼休み直前くらいに連絡してみまちゅ」
-
-name_set 貴広
-
-line_set 「そうか、頼む」
-
-name_set 霧島
-
-voice_play v10498.wav
-
-line_set 「はい」
-
-name_set 貴広
-
-line_set 「飯島が奔走してるみたいだが、電話に出れぬほどの事がアリスインチェインズで起きてるのか…？」
-
-kgd_layer3_set 3 KI002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v10499.wav
-
-line_set 「所長、推測が先走ると危険でちゅよ」
-
-name_set 貴広
-
-line_set 「そうだな…」
-
-nvl_on
-
-line_set 顎を撫で、天井を仰いで考え込む貴広を、霧島が軽くたしなめた。
-line_set 貴広は頷き、霧島に視線を戻す。
-
-adv_on
-
-name_set 貴広
-
-line_set 「もう少し情報が必要だな…」
-
-kgd_layer3_set 3 KI008.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v10500.wav
-
-line_set 「所長、何か企んでまちゅね…」
-
-name_set 貴広
-
-line_set 「人聞きの悪い言い方するなよ」
-line_set 「防衛策を考えてるだけさ」
-
-name_set 霧島
-
-voice_play v10501.wav
-
-line_set 「それならいいんでちゅが」
-
-voice_play v10502.wav
-
-line_set 「危険のないように、お願いしまちゅ」
-
-name_set 貴広
-
-line_set 「わかってる」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-nvl_on
-
-line_set 午前の仕事を終えた貴広は、ヘリポートに向かった。
-
-adv_on
-
-kgd_layer1_set 0 BG012.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-name_set 貴広
-
-line_set 「おやじさん、いるか？」
-
-kgd_layer3_set 0 SO030.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set おやじさん
-
-voice_play v10503.wav
-
-line_set 「おう貴広、どうした？」
-
-name_set 貴広
-
-line_set 「明日、メンテナンスルームの端末機使えるか？」
-
-kgd_layer3_set 3 SO028.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set おやじさん
-
-voice_play v10504.wav
-
-line_set 「なんだ、嬢ちゃんの調子でも悪いのか？」
-
-name_set 貴広
-
-line_set 「いや、ちょっと調べモノをね」
-
-kgd_layer3_set 3 SO030.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set おやじさん
-
-voice_play v10505.wav
-
-line_set 「なるほど…わかった、使えるようにしておく」
-
-name_set 貴広
-
-line_set 「助かる」
-
-nvl_on
-
-line_set 貴広はおやじさんと二言三言話して、ヘリポートを後にした。
-
-adv_on
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_set 1 BG010.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-kgd_layer1_set 1 BG001.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-kgd_layer1_set 1 BG048.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-music_play_moekan 010.WAV
-
-
-kgd_layer1_set 1 DC008.KGD
-kgd_layer2_clear
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-name_set 貴広
-
-line_set 「ん？」
-line_set 「命、こんな所で何してるんだ？」
-
-nvl_on
-
-line_set 中庭まで下りてきた貴広は、隅っこに座っている命に声をかけた。
-
-adv_on
-
-name_set 命
-
-voice_play v10506.wav
-
-line_set 「あ、貴広」
-
-name_set 貴広
-
-line_set 「鈴希と遊んでたんじゃないのか？」
-line_set 「鈴希はどうしたんだ？」
-
-name_set 命
-
-voice_play v10507.wav
-
-line_set 「お仕事の手伝いに連れてかれちゃった」
-
-name_set 貴広
-
-line_set 「それで一人なのか…」
-line_set 「それは？」
-
-nvl_on
-
-line_set 貴広は命の膝の上に乗っている、一枚の絵を指さした。
-line_set 青のクレヨンだけで紙一杯に描かれた絵。
-line_set かろうじて、目と羽らしきモノがわかる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「……青い鳥か？」
-
-name_set 命
-
-voice_play v10508.wav
-
-line_set 「うん、そう」
-
-nvl_on
-
-line_set 寂しげに、まるで気のない返事をする命。
-
-adv_on
-
-name_set 貴広
-
-line_set 「なんで命は、そんなに青い鳥にこだわる？」
-
-name_set 命
-
-voice_play v10509.wav
-
-line_set 「幸せになるんだもん」
-
-voice_play v10510.wav
-
-line_set 「思いっきり遊んで、おいし～ゴハンを食べて、ぐ～っすり寝て…」
-
-voice_play v10511.wav
-
-line_set 「貴広に青い鳥をもらったから、ここが幸せになれる所かと思ったけど、ちょっと違ったみたい…」
-
-voice_play v10512.wav
-
-line_set 「おいし～ゴハンが食べられて、ぐ～っすり寝れるけど、思いっきり遊べない…」
-
-voice_play v10513.wav
-
-line_set 「遊んでくれる人がいないと、やっぱりつまんないね…」
-
-nvl_on
-
-line_set そう言って、命は似合わぬ小さなため息を吐いた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「まあ…みんな忙しいからな…」
-line_set 「……」
-
-nvl_on
-
-line_set 貴広は頬を掻いた後、命の隣に座ると、命の頭をグシグシと撫でた。
-
-adv_on
-
-name_set 命
-
-voice_play v10514.wav
-
-line_set 「んあ～～」
-
-name_set 貴広
-
-line_set 「そんな辛気くさい顔するな」
-line_set 「俺が遊んでやるよ」
-
-kgd_layer1_set 1 DC009.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-name_set 命
-
-voice_play v10515.wav
-
-line_set 「ホント！？」
-
-nvl_on
-
-line_set 命の顔がパッと輝いた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「ただし、体力を著しく消耗する奴はカンベンな」
-
-name_set 命
-
-voice_play v10516.wav
-
-line_set 「それじゃあね、お絵かきする！」
-
-voice_play v10517.wav
-
-line_set 「さっきまで描いてたの！」
-
-name_set 貴広
-
-line_set 「それは、その時の作品なわけだな」
-
-name_set 命
-
-voice_play v10518.wav
-
-line_set 「うん！」
-
-name_set 貴広
-
-line_set 「もう一枚あるな」
-line_set 「それは？」
-
-name_set 命
-
-voice_play v10519.wav
-
-line_set 「これはね、鈴希ちゃんが描いた奴」
-
-voice_play v10520.wav
-
-line_set 「これなに？」
-
-name_set 貴広
-
-line_set 「あ～…」
-
-nvl_on
-
-line_set 鈴希が描いたという絵は、予想通りタコ焼きで、肌色と茶色を使って、これも紙一杯に描かれていた。
-line_set よく見ると、緑を使って青のりも描かれていた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「これはタコ焼きだ」
-line_set 「鈴希にしてはよく描けてるな」
-
-name_set 命
-
-voice_play v10521.wav
-
-line_set 「タコ焼き？」
-
-name_set 貴広
-
-line_set 「食べ物だよ」
-line_set 「鈴希はコレさえあれば幸せなんだよ」
-
-kgd_layer1_set 1 DC008.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-name_set 命
-
-voice_play v10522.wav
-
-line_set 「ふ～ん…鈴希ちゃんはコレがあると幸せなんだ…」
-
-voice_play v10523.wav
-
-line_set 「いいなぁ…」
-
-name_set 貴広
-
-line_set 「だから、そんな顔するなって」
-line_set 「命も小さな青い鳥を探せばいいんだよ」
-line_set 「俺のやった飴玉を舐めた時は、幸せじゃなかったか？」
-
-name_set 命
-
-voice_play v10524.wav
-
-line_set 「おいしかったよ」
-
-voice_play v10525.wav
-
-line_set 「でも、それって幸せ？」
-
-name_set 貴広
-
-line_set 「ん～、価値観の違いと言ってしまうと簡単なんだが…」
-line_set 「かずさは、人を幸せにしたいから料理を作ると言っている」
-line_set 「だから、それを食べた人が、少なくとも不幸せではあるまい？」
-line_set 「美味ければなおさらだ」
-line_set 「つまり、美味いモノを食べることが、幸せと言っても間違いではないと思うぞ」
-
-name_set 命
-
-voice_play v10526.wav
-
-line_set 「う～ん…」
-
-voice_play v10527.wav
-
-line_set 「そうなのかな？」
-
-name_set 貴広
-
-line_set 「そうなんだ」
-line_set 「まとまった幸せもいいが、一つ一つ小さな幸せを積んでいくのも良いぞ」
-line_set 「子供の頃から大きな夢に挫折するより、小さな夢に笑っていた方がいい」
-line_set 「特に命の笑顔は人を癒すらしい」
-line_set 「命のことを天使みたいだという奴もいることだしな」
-line_set 「ほら、笑って」
-
-kgd_layer1_set 1 DC009.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-name_set 命
-
-voice_play v10528.wav
-
-line_set 「うん！！」
-
-name_set 貴広
-
-line_set 「よしよし、イイ笑顔だ」
-line_set 「なんか説教臭くなってしまったが、お前は笑ってる方がイイって事だ」
-
-name_set 命
-
-voice_play v10529.wav
-
-line_set 「うん！」
-
-voice_play v10530.wav
-
-line_set 「よく分かんなかったけど、元気出た！」
-
-name_set 貴広
-
-line_set 「それはよかった」
-line_set 「つーか、よく分かんなかったのかよ」
-
-name_set 命
-
-voice_play v10531.wav
-
-line_set 「てへへ～」
-
-name_set 貴広
-
-line_set 「元気も出てきたところで、遊びの続きだ」
-line_set 「絵を描くんだっけ？」
-
-name_set 命
-
-voice_play v10532.wav
-
-line_set 「うん！！」
-
-nvl_on
-
-line_set 二人は明るい日差しの中で絵を描き、見せ合って笑いあった。
-line_set 命は鳥の書き方を貴広に教わりながら、青い鳥の絵を何枚も何枚も書き続けた。
-line_set そして、その絵にも変化が現れてきた。
-line_set 初めは一羽だった青い鳥が、二羽となり、三羽となり、何羽もの青い鳥が紙を埋め尽くすようになった。
-line_set 貴広は紙をなるたけ集め、日が暮れるまでそのお絵かきに付き合った。
-
-adv_on
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-music_play_moekan 024.WAV
-
-kgd_layer2_set_moekan 1224.KGD
-kgd_layer1_set 0 BG088.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-
-kgd_layer3_set 0 KI012.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v10533.wav
-
-line_set 「仲良くなれたみたいで、よかったでちゅ」
-
-name_set 貴広
-
-line_set 「え？なにが？」
-
-nvl_on
-
-line_set 夜も更け、今日の報告書を書いていた貴広は、霧島の言葉に顔を上げた。
-
-adv_on
-
-name_set 霧島
-
-voice_play v10534.wav
-
-line_set 「見まちたよ、中庭で楽しそうにしてる所長と命ちゃん」
-
-name_set 貴広
-
-line_set 「あ、あれは、サボってたわけじゃないぞ！」
-
-name_set 霧島
-
-voice_play v10535.wav
-
-line_set 「まあ、あれはメイドとの親睦を図ると言うことで、特例で許しまちゅ」
-
-voice_play v10536.wav
-
-line_set 「ずっと見てたわけじゃないのでちゅけど、最後まで遊んであげたんでちゅか？」
-
-name_set 貴広
-
-line_set 「ああ、最後の一枚を描き終わったところでコテッと寝てしまった」
-line_set 「寝顔も笑ってたよ」
-
-name_set 霧島
-
-voice_play v10537.wav
-
-line_set 「それはよかったでちゅ」
-
-name_set 貴広
-
-line_set 「しかし、あそこまで素直な心でぶつかってこられると、裏を勘ぐっていた自分が恥ずかしくなるな」
-line_set 「しかもまだ、百パーセント信じ切ってない自分もいてな」
-
-name_set 霧島
-
-voice_play v10538.wav
-
-line_set 「しょうがないでちゅよ」
-
-voice_play v10539.wav
-
-line_set 「それが大人って奴でちゅから」
-
-voice_play v10540.wav
-
-line_set 「命ちゃんだって、いつかは…」
-
-name_set 貴広
-
-line_set 「あ～…なんかこういう話しをしてると、ドッと年を取った気がする」
-line_set 「やめやめ、俺はまだそんな年じゃないんだから」
-
-name_set 霧島
-
-voice_play v10541.wav
-
-line_set 「ふふ…そうしまちょう」
-
-voice_play v10542.wav
-
-line_set 「私も、おばちゃんと言われたくないでちゅしね」
-
-name_set 貴広
-
-line_set 「霧島を見て、おばちゃんと言う奴はいないと思うがな…」
-
-name_set 霧島
-
-voice_play v10543.wav
-
-line_set 「なんか言いまちた？」
-
-name_set 貴広
-
-line_set 「いや、なんにも」
-line_set 「はい、報告書完成」
-
-name_set 霧島
-
-voice_play v10544.wav
-
-line_set 「あ、はいはい」
-
-voice_play v10545.wav
-
-line_set 「ん～と…はいＯＫでちゅ」
-
-name_set 貴広
-
-line_set 「寝る間際に明日も遊ぶ約束をしてしまったから、明日も親睦を深めることになりそうだ」
-
-kgd_layer3_set 3 KI013.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v10546.wav
-
-line_set 「え？」
-
-voice_play v10547.wav
-
-line_set 「もう…仕方ないでちゅね」
-
-name_set 貴広
-
-line_set 「じゃ、おやすみ」
-
-kgd_layer3_set 3 KI008.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v10548.wav
-
-line_set 「サボるために、約束したんじゃないでちょうね？」
-
-name_set 貴広
-
-line_set 「そうやって、裏を勘ぐるのはよくないぞ～」
-line_set 「おばちゃんになっちまうぜ」
-
-kgd_layer3_set 3 KI010.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v10549.wav
-
-line_set 「う…」
-
-name_set 貴広
-
-line_set 「それに明日は日曜だろ？」
-line_set 「おやすみ～」
-
-name_set 霧島
-
-voice_play v10550.wav
-
-line_set 「お、おやすみなさいまちぇ」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-nvl_on
-
-line_set 貴広はすぐに寝床につき、霧島はしばらく鏡とにらめっこして夜は更けていった。
-
-adv_on
-
-music_stop1
-
-kgd_layer2_clear
-
-ksd_set 1225Z.KSD
-ksd_end
+    name_set 貴広
+    line_set 「わかってる」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set 午前の仕事を終えた貴広は、ヘリポートに向かった。
+
+    adv_on
+    kgd_layer1_set 0 BG012.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 貴広
+    line_set 「おやじさん、いるか？」
+
+    kgd_layer3_set 0 SO030.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set おやじさん
+    voice_play v10503.wav
+    line_set 「おう貴広、どうした？」
+
+    name_set 貴広
+    line_set 「明日、メンテナンスルームの端末機使えるか？」
+
+    kgd_layer3_set 3 SO028.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v10504.wav
+    line_set 「なんだ、嬢ちゃんの調子でも悪いのか？」
+
+    name_set 貴広
+    line_set 「いや、ちょっと調べモノをね」
+
+    kgd_layer3_set 3 SO030.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v10505.wav
+    line_set 「なるほど…わかった、使えるようにしておく」
+
+    name_set 貴広
+    line_set 「助かる」
+
+    nvl_on
+    line_set 貴広はおやじさんと二言三言話して、ヘリポートを後にした。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer1_set 1 BG010.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    kgd_layer1_set 1 BG001.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    kgd_layer1_set 1 BG048.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 010.WAV
+
+    kgd_layer1_set 1 DC008.KGD
+    kgd_layer2_clear
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「ん？」
+    line_set 「命、こんな所で何してるんだ？」
+
+    nvl_on
+    line_set 中庭まで下りてきた貴広は、隅っこに座っている命に声をかけた。
+
+    adv_on
+    name_set 命
+    voice_play v10506.wav
+    line_set 「あ、貴広」
+
+    name_set 貴広
+    line_set 「鈴希と遊んでたんじゃないのか？」
+    line_set 「鈴希はどうしたんだ？」
+
+    name_set 命
+    voice_play v10507.wav
+    line_set 「お仕事の手伝いに連れてかれちゃった」
+
+    name_set 貴広
+    line_set 「それで一人なのか…」
+    line_set 「それは？」
+
+    nvl_on
+    line_set 貴広は命の膝の上に乗っている、一枚の絵を指さした。
+    line_set 青のクレヨンだけで紙一杯に描かれた絵。
+    line_set かろうじて、目と羽らしきモノがわかる。
+
+    adv_on
+    name_set 貴広
+    line_set 「……青い鳥か？」
+
+    name_set 命
+    voice_play v10508.wav
+    line_set 「うん、そう」
+
+    nvl_on
+    line_set 寂しげに、まるで気のない返事をする命。
+
+    adv_on
+    name_set 貴広
+    line_set 「なんで命は、そんなに青い鳥にこだわる？」
+
+    name_set 命
+    voice_play v10509.wav
+    line_set 「幸せになるんだもん」
+    voice_play v10510.wav
+    line_set 「思いっきり遊んで、おいし～ゴハンを食べて、ぐ～っすり寝て…」
+    voice_play v10511.wav
+    line_set 「貴広に青い鳥をもらったから、ここが幸せになれる所かと思ったけど、ちょっと違ったみたい…」
+    voice_play v10512.wav
+    line_set 「おいし～ゴハンが食べられて、ぐ～っすり寝れるけど、思いっきり遊べない…」
+    voice_play v10513.wav
+    line_set 「遊んでくれる人がいないと、やっぱりつまんないね…」
+
+    nvl_on
+    line_set そう言って、命は似合わぬ小さなため息を吐いた。
+
+    adv_on
+    name_set 貴広
+    line_set 「まあ…みんな忙しいからな…」
+    line_set 「……」
+
+    nvl_on
+    line_set 貴広は頬を掻いた後、命の隣に座ると、命の頭をグシグシと撫でた。
+
+    adv_on
+    name_set 命
+    voice_play v10514.wav
+    line_set 「んあ～～」
+
+    name_set 貴広
+    line_set 「そんな辛気くさい顔するな」
+    line_set 「俺が遊んでやるよ」
+
+    kgd_layer1_set 1 DC009.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 命
+    voice_play v10515.wav
+    line_set 「ホント！？」
+
+    nvl_on
+    line_set 命の顔がパッと輝いた。
+
+    adv_on
+    name_set 貴広
+    line_set 「ただし、体力を著しく消耗する奴はカンベンな」
+
+    name_set 命
+    voice_play v10516.wav
+    line_set 「それじゃあね、お絵かきする！」
+    voice_play v10517.wav
+    line_set 「さっきまで描いてたの！」
+
+    name_set 貴広
+    line_set 「それは、その時の作品なわけだな」
+
+    name_set 命
+    voice_play v10518.wav
+    line_set 「うん！」
+
+    name_set 貴広
+    line_set 「もう一枚あるな」
+    line_set 「それは？」
+
+    name_set 命
+    voice_play v10519.wav
+    line_set 「これはね、鈴希ちゃんが描いた奴」
+    voice_play v10520.wav
+    line_set 「これなに？」
+
+    name_set 貴広
+    line_set 「あ～…」
+
+    nvl_on
+    line_set 鈴希が描いたという絵は、予想通りタコ焼きで、肌色と茶色を使って、これも紙一杯に描かれていた。
+    line_set よく見ると、緑を使って青のりも描かれていた。
+
+    adv_on
+    name_set 貴広
+    line_set 「これはタコ焼きだ」
+    line_set 「鈴希にしてはよく描けてるな」
+
+    name_set 命
+    voice_play v10521.wav
+    line_set 「タコ焼き？」
+
+    name_set 貴広
+    line_set 「食べ物だよ」
+    line_set 「鈴希はコレさえあれば幸せなんだよ」
+
+    kgd_layer1_set 1 DC008.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 命
+    voice_play v10522.wav
+    line_set 「ふ～ん…鈴希ちゃんはコレがあると幸せなんだ…」
+    voice_play v10523.wav
+    line_set 「いいなぁ…」
+
+    name_set 貴広
+    line_set 「だから、そんな顔するなって」
+    line_set 「命も小さな青い鳥を探せばいいんだよ」
+    line_set 「俺のやった飴玉を舐めた時は、幸せじゃなかったか？」
+
+    name_set 命
+    voice_play v10524.wav
+    line_set 「おいしかったよ」
+    voice_play v10525.wav
+    line_set 「でも、それって幸せ？」
+
+    name_set 貴広
+    line_set 「ん～、価値観の違いと言ってしまうと簡単なんだが…」
+    line_set 「かずさは、人を幸せにしたいから料理を作ると言っている」
+    line_set 「だから、それを食べた人が、少なくとも不幸せではあるまい？」
+    line_set 「美味ければなおさらだ」
+    line_set 「つまり、美味いモノを食べることが、幸せと言っても間違いではないと思うぞ」
+
+    name_set 命
+    voice_play v10526.wav
+    line_set 「う～ん…」
+    voice_play v10527.wav
+    line_set 「そうなのかな？」
+
+    name_set 貴広
+    line_set 「そうなんだ」
+    line_set 「まとまった幸せもいいが、一つ一つ小さな幸せを積んでいくのも良いぞ」
+    line_set 「子供の頃から大きな夢に挫折するより、小さな夢に笑っていた方がいい」
+    line_set 「特に命の笑顔は人を癒すらしい」
+    line_set 「命のことを天使みたいだという奴もいることだしな」
+    line_set 「ほら、笑って」
+
+    kgd_layer1_set 1 DC009.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 命
+    voice_play v10528.wav
+    line_set 「うん！！」
+
+    name_set 貴広
+    line_set 「よしよし、イイ笑顔だ」
+    line_set 「なんか説教臭くなってしまったが、お前は笑ってる方がイイって事だ」
+
+    name_set 命
+    voice_play v10529.wav
+    line_set 「うん！」
+    voice_play v10530.wav
+    line_set 「よく分かんなかったけど、元気出た！」
+
+    name_set 貴広
+    line_set 「それはよかった」
+    line_set 「つーか、よく分かんなかったのかよ」
+
+    name_set 命
+    voice_play v10531.wav
+    line_set 「てへへ～」
+
+    name_set 貴広
+    line_set 「元気も出てきたところで、遊びの続きだ」
+    line_set 「絵を描くんだっけ？」
+
+    name_set 命
+    voice_play v10532.wav
+    line_set 「うん！！」
+
+    nvl_on
+    line_set 二人は明るい日差しの中で絵を描き、見せ合って笑いあった。
+    line_set 命は鳥の書き方を貴広に教わりながら、青い鳥の絵を何枚も何枚も書き続けた。
+    line_set そして、その絵にも変化が現れてきた。
+    line_set 初めは一羽だった青い鳥が、二羽となり、三羽となり、何羽もの青い鳥が紙を埋め尽くすようになった。
+    line_set 貴広は紙をなるたけ集め、日が暮れるまでそのお絵かきに付き合った。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_play_moekan 024.WAV
+    kgd_layer2_set_moekan 1224.KGD
+
+    kgd_layer1_set 0 BG088.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    kgd_layer3_set 0 KI012.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v10533.wav
+    line_set 「仲良くなれたみたいで、よかったでちゅ」
+
+    name_set 貴広
+    line_set 「え？なにが？」
+
+    nvl_on
+    line_set 夜も更け、今日の報告書を書いていた貴広は、霧島の言葉に顔を上げた。
+
+    adv_on
+    name_set 霧島
+    voice_play v10534.wav
+    line_set 「見まちたよ、中庭で楽しそうにしてる所長と命ちゃん」
+
+    name_set 貴広
+    line_set 「あ、あれは、サボってたわけじゃないぞ！」
+
+    name_set 霧島
+    voice_play v10535.wav
+    line_set 「まあ、あれはメイドとの親睦を図ると言うことで、特例で許しまちゅ」
+    voice_play v10536.wav
+    line_set 「ずっと見てたわけじゃないのでちゅけど、最後まで遊んであげたんでちゅか？」
+
+    name_set 貴広
+    line_set 「ああ、最後の一枚を描き終わったところでコテッと寝てしまった」
+    line_set 「寝顔も笑ってたよ」
+
+    name_set 霧島
+    voice_play v10537.wav
+    line_set 「それはよかったでちゅ」
+
+    name_set 貴広
+    line_set 「しかし、あそこまで素直な心でぶつかってこられると、裏を勘ぐっていた自分が恥ずかしくなるな」
+    line_set 「しかもまだ、百パーセント信じ切ってない自分もいてな」
+
+    name_set 霧島
+    voice_play v10538.wav
+    line_set 「しょうがないでちゅよ」
+    voice_play v10539.wav
+    line_set 「それが大人って奴でちゅから」
+    voice_play v10540.wav
+    line_set 「命ちゃんだって、いつかは…」
+
+    name_set 貴広
+    line_set 「あ～…なんかこういう話しをしてると、ドッと年を取った気がする」
+    line_set 「やめやめ、俺はまだそんな年じゃないんだから」
+
+    name_set 霧島
+    voice_play v10541.wav
+    line_set 「ふふ…そうしまちょう」
+    voice_play v10542.wav
+    line_set 「私も、おばちゃんと言われたくないでちゅしね」
+
+    name_set 貴広
+    line_set 「霧島を見て、おばちゃんと言う奴はいないと思うがな…」
+
+    name_set 霧島
+    voice_play v10543.wav
+    line_set 「なんか言いまちた？」
+
+    name_set 貴広
+    line_set 「いや、なんにも」
+    line_set 「はい、報告書完成」
+
+    name_set 霧島
+    voice_play v10544.wav
+    line_set 「あ、はいはい」
+    voice_play v10545.wav
+    line_set 「ん～と…はいＯＫでちゅ」
+
+    name_set 貴広
+    line_set 「寝る間際に明日も遊ぶ約束をしてしまったから、明日も親睦を深めることになりそうだ」
+
+    kgd_layer3_set 3 KI013.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v10546.wav
+    line_set 「え？」
+    voice_play v10547.wav
+    line_set 「もう…仕方ないでちゅね」
+
+    name_set 貴広
+    line_set 「じゃ、おやすみ」
+
+    kgd_layer3_set 3 KI008.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v10548.wav
+    line_set 「サボるために、約束したんじゃないでちょうね？」
+
+    name_set 貴広
+    line_set 「そうやって、裏を勘ぐるのはよくないぞ～」
+    line_set 「おばちゃんになっちまうぜ」
+
+    kgd_layer3_set 3 KI010.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v10549.wav
+    line_set 「う…」
+
+    name_set 貴広
+    line_set 「それに明日は日曜だろ？」
+    line_set 「おやすみ～」
+
+    name_set 霧島
+    voice_play v10550.wav
+    line_set 「お、おやすみなさいまちぇ」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set 貴広はすぐに寝床につき、霧島はしばらく鏡とにらめっこして夜は更けていった。
+
+    adv_on
+    music_stop1
+    kgd_layer2_clear
+    ksd_set 1225Z.KSD
+    ksd_end

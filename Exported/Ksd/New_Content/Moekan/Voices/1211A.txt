@@ -1,614 +1,472 @@
-story_progress 280
+    story_progress 280
+
+    kgd_layer1_set 0 W1211.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_set_moekan 1211.KGD
+
+    name_set 貴広
+    line_set 「…」
+
+    nvl_on
+    line_set 「今日、届くのだろうか…」
+    nvl_line_clear
+    line_set 貴広は世界中に散らばるＰＩＸＩＥＳの情報能力を使い、リニアの部品を探し出した。
+    nvl_line_clear
+    line_set まだ、それを仲間が見つけたかどうかは分からない。
+    line_set もし、見つけたとしたら、今日の朝、通常物資に紛れて、リニアの部品が届くはずであった。
+
+    adv_on
+    kgd_layer3_set 0 KI013.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+    music_play_moekan 009.WAV
+
+    name_set 霧島
+    voice_play 40745.wav
+    line_set 「どうなさいまちたか？なんか落ち着かないでちゅね」
+
+    name_set 貴広
+    line_set 「いや…何でもない…」
+
+    name_set 霧島
+    line_set 「…」
+
+    name_set 貴広
+    line_set 「そういえば、今日はヘリが来ないな…」
+
+    name_set 霧島
+    voice_play 40747.wav
+    line_set 「だって、今日は日曜じゃないでちゅか…」
+    voice_play 40748.wav
+    line_set 「何か大切なものでも届くのでちゅか…」
+
+    name_set 貴広
+    line_set 「いや…そう言うわけではない…ただ、今日の輸送ヘリはまだきていないな…」
 
-kgd_layer1_set 0 W1211.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-wait 2000
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG023.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_set_moekan 1211.KGD
-name_set 貴広
-
-line_set 「…」
-
-nvl_on
-
-line_set 「今日、届くのだろうか…」
-
-nvl_line_clear
-
-line_set 貴広は世界中に散らばるＰＩＸＩＥＳの情報能力を使い、リニアの部品を探し出した。
-
-nvl_line_clear
-
-line_set まだ、それを仲間が見つけたかどうかは分からない。
-
-line_set もし、見つけたとしたら、今日の朝、通常物資に紛れて、リニアの部品が届くはずであった。
-adv_on
-
-kgd_layer3_set 0 KI013.KGD
-
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-music_play_moekan 009.WAV
-
-name_set 霧島
-
-voice_play 40745.wav
-
-line_set 「どうなさいまちたか？なんか落ち着かないでちゅね」
-
-name_set 貴広
-
-line_set 「いや…何でもない…」
-
-name_set 霧島
-
-line_set 「…」
-
-name_set 貴広
-
-line_set 「そういえば、今日はヘリが来ないな…」
-
-name_set 霧島
-
-voice_play 40747.wav
-
-line_set 「だって、今日は日曜じゃないでちゅか…」
-
-voice_play 40748.wav
-
-line_set 「何か大切なものでも届くのでちゅか…」
-
-name_set 貴広
-
-line_set 「いや…そう言うわけではない…ただ、今日の輸送ヘリはまだきていないな…」
-
-name_set 霧島
-
-line_set 「…」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-sfx_set 0 SE005.WAV
-
-sfx_loop 0
-name_clear
-
-line_set バラバラバラ…
-
-kgd_layer1_set 0 BG023.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-sfx_stop 0
-
-sfx_unset 0
-name_set 貴広
-
-line_set 「…」
-
-name_set 霧島
-
-line_set 「…」
-
-name_set 貴広
-
-line_set 「ヘリがきたな…」
-
-name_set 霧島
-
-line_set 「…」
-
-name_set 貴広
-
-line_set 「…今日は何が運ばれるんだっけ？」
-
-line_set 「そういえば、頼んできた新しいスーツきているかな？」
-name_set 霧島
-
-line_set 「…」
-
-name_set 貴広
-
-line_set 「そうだな…あのスーツきているかな？イタリア製のやつでな…楽しみにしていたんだ」
-
-name_set 霧島
-
-voice_play 40753.wav
-
-line_set 「それ…先週きたじゃないでちゅか…」
-
-name_set 貴広
-
-line_set 「…」
-
-line_set 「そうだったか？」
-name_set 霧島
-
-line_set 「…」
-
-name_set 貴広
-
-line_set 「…」
-
-line_set 「なんだろ…今日は何か大事なものがきたような気がしたが…」
-name_set 霧島
-
-line_set 「…」
-
-voice_play 40756.wav
-
-line_set 「そういえば、レンコンを頼んでたでちゅよ」
-
-name_set 貴広
-
-line_set 「そうだ…レンコンだ…レンコンを頼んでいたんだ」
-
-name_set 霧島
-
-voice_play 40757.wav
-
-line_set 「気になるのでちたら、ヘリポートに連絡したらどうなんでちゅか？」
-
-name_set 貴広
-
-line_set 「そうだな…」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-name_clear
-
-line_set トルゥゥゥゥゥ…
-
-name_clear
-
-line_set ガチャ…
-
-name_set 貴広
-
-line_set 「おやじさん、レンコン届いたか？」
-
-name_set おやじさん
-
-voice_play v04797.wav
-line_set 「あん？なんだそりゃ？」
-
-name_set 貴広
-
-line_set 「い、いや…レンコンを頼んでたじゃないか…」
-
-name_set おやじさん
-
-voice_play v04798.wav
-line_set 「いや…知らんな…」
-
-name_set 貴広
-
-line_set 「レンコンは届いてないのか…」
-
-name_set おやじさん
-
-voice_play v04799.wav
-line_set 「何言ってんだおめぇ…」
-
-voice_play v04800.wav
-line_set 「もしかして、それ隠語のつもりか？」
-name_set 貴広
-
-line_set 「そんな事はどうでもいい！レンコンは来てないか？」
-
-name_set おやじさん
-
-voice_play v04801.wav
-line_set 「例のブツはまだ来ていない…」
-
-voice_play v04802.wav
-line_set 「焦るな…、逆に今日なんて届いたらはやすぎる、カンパニーに隠れての行動だ…」
-voice_play v04803.wav
-line_set 「焦りは禁物だ…」
-name_set 貴広
-
-line_set 「ああ…そうか…」
-
-name_set おやじさん
-
-voice_play v04804.wav
-line_set 「まぁ…そういう事なんでな…」
-
-name_set 貴広
-
-line_set 「ああ…」
-
-name_clear
-
-line_set ガチャ…
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-sfx_set 0 SE005.WAV
-
-sfx_loop 0
-name_clear
-
-line_set バラバラバラ…
-
-kgd_layer1_set 0 BG023.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-sfx_stop 0
-
-sfx_unset 0
-name_set 貴広
-
-line_set 「また、ヘリがきたな…」
-
-name_set 霧島
-
-voice_play 40758.wav
-
-line_set 「めずらしいでちゅね。日曜にヘリが来るなんて」
-
-name_set 貴広
-
-line_set 「…」
-
-kgd_layer3_set 3 KI012.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set 霧島
-
-line_set 「…」
-
-voice_play 40760.wav
-
-line_set 「気になるのでちたら、ヘリポートにいたらどうでちゅか？」
-
-voice_play 40761.wav
-
-line_set 「今日ぐらいの仕事なら、所長が休んでも私がなんとかするでちゅよ…」
-
-name_set 貴広
-
-line_set 「いや…たかだかレンコンのために…そんな事は出来ん…」
-
-kgd_layer3_set 3 KI009.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set 霧島
-
-voice_play 40762.wav
-
-line_set 「レンコンって…、まだそんな事を言っているのでちゅか…」
-
-voice_play 40763.wav
-
-line_set 「まぁ、レンコンでもなんでもいいでちゅが」
-
-voice_play 40764.wav
-
-line_set 「レンコンだって、早く料理してあげなきゃ、腐るでちゅ…早く取りにいった方がいいでちゅよ」
-
-name_set 貴広
-
-line_set 「うむ…」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-name_clear
-
-line_set トルゥゥゥゥゥ…
-
-name_clear
-
-line_set ガチャ
-
-name_set 貴広
-
-line_set 「俺だ、萌えっ娘島所長、神崎貴広だ」
-
-name_set おやじさん
-
-voice_play v04811.wav
-line_set 「例のものが届いたぞ…」
-
-name_set 貴広
-
-line_set 「レ、レンコンがきたか？」
-
-name_set おやじさん
-
-voice_play v04812.wav
-line_set 「レンコンって…、まだお前はそんな事を言ってんのか……、センスないな…お前の隠語は…」
-
-name_set 貴広
-
-line_set 「そ、そんな事はどうでもいい、本当か？全部そろったのか？」
-
-name_set おやじさん
-
-voice_play v04813.wav
-line_set 「うむ…、すべてそろった…」
-
-name_set 貴広
-
-line_set 「なんで、すべてそろったのに、そんな暗い声なんだ？」
-
-name_set おやじさん
-voice_play v04814.wav
-line_set 「いや、まぁ、なんでもないが…、大丈夫だ、すべて欲しい材料はそろった…」
-
-name_set 貴広
-
-line_set 「そ、そうか…」
-
-name_set おやじさん
-
-voice_play v04815.wav
-line_set 「これから俺は、部品を全部作り直すから、早ければ明日の朝にでも、嬢ちゃんの部品変えが出来る」
-
-name_set 貴広
-
-line_set 「あまり無理するなよ…」
-
-name_set おやじさん
-
-voice_play v04816.wav
-line_set 「ああ、わかってる、んじゃ、急ぐのでな」
-
-nvl_on
-
-line_set 電話が切れる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「…」
-
-kgd_layer3_set 0 KI012.KGD
-
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set 霧島
-
-voice_play 40765.wav
-
-line_set 「レンコンきたんでちゅか？」
-
-name_set 貴広
-
-line_set 「レンコンは来なかったよ…」
-
-name_set 霧島
-
-voice_play 40766.wav
-
-line_set 「なら、大切なものはきたのでちゅね…」
-
-name_set 貴広
-
-line_set 「……」
-
-line_set 「ああ…」
-music_stop1
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer1_set 1 BG041.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-music_play_moekan 012.WAV
-
-kgd_layer3_set 0 SO026.KGD
-
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set 貴広
-
-line_set 「おやじさん」
-
-name_set おやじさん
-
-voice_play v04819.wav
-line_set 「おう…、貴広きたか」
-
-name_set 貴広
-
-line_set 「どうだ調子は？」
-
-name_set おやじさん
-
-voice_play v04820.wav
-line_set 「いや、昔はこれが本職だったからな…まぁボチボチだな…」
-
-name_set 貴広
-
-line_set 「そうか…いつ頃出来そうだ？」
-
-name_set おやじさん
-
-voice_play v04821.wav
-line_set 「まぁ、明日の朝までには仕上げてやるよ、そう難しい事じゃねぇからよ…」
-
-name_set 整備員
-
-line_set 「いや…普通なら出来ませんよ…おやっさんだから出来る事ですよ…」
-
-kgd_layer3_set 3 SO027.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set おやじさん
-
-voice_play v04822.wav
-line_set 「出来ねぇのは貴様らの気合いが足らんからだ！」
-
-name_set 整備員
-
-line_set 「き、気合いで、３週間ぐらいかかる仕事を１日でなんか出来ませんよ…」
-
-name_set 貴広
-
-line_set 「…」
-
-line_set 「普通そんなにかかるものなのか？」
-name_set 整備員
-
-line_set 「そりゃ…プラモデルの改造じゃないんだから…普通ならそのぐらいかかりますよ」
-
-name_set おやじさん
-
-voice_play v04823.wav
-line_set 「そんな時間かかるのは気合いが入ってねぇ証拠だ！馬鹿野郎！」
-
-voice_play v04824.wav
-line_set 「貴広、おめぇも邪魔する気なら、とっとと仕事に戻れ！てめぇみてぇな素人がいるところじゃねぇ」
-name_set 整備員
-
-line_set 「まぁ、そんな感じなんで…ここは、おやじさんと俺らに任せてくださいよ」
-
-name_set 貴広
-
-line_set 「すまんな…迷惑ばかりかけて…」
-
-kgd_layer3_set 3 SO028.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set おやじさん
-
-voice_play v04825.wav
-line_set 「しかし……」
-
-name_set 貴広
-
-line_set 「どうした？なんか浮かない顔しているな…」
-
-name_set おやじさん
-
-voice_play v04826.wav
-line_set 「いや、なんでもない…」
-
-voice_play v04827.wav
-line_set 「ほら、お前も、とっとと嬢ちゃんのところにいってやれ、貴様の仕事つーたらそれぐらいじゃねぇか」
-name_set 貴広
-
-line_set 「ああ…」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-music_stop2
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-wait 1000
-
-kgd_layer1_set 0 BG029.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-name_set 貴広
-
-line_set 「ふぅ…」
-
-line_set 「リニアの手術は…いつ行われるのか…」
-line_set 「本部から部品が来なければ…」
-nvl_on
-
-line_set 貴広は窓際のチェアに腰をかける。
-
-line_set そして、ぼんやりと窓を眺める。
-adv_on
-
-kgd_layer2_clear
-
-gallery_unlock 383
-
-kgd_layer1_set 1 N343.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-music_play_moekan 003.WAV
-
-nvl_on
-
-line_set 外には、月夜に照らされた、白い雲があった。
-
-line_set それは、早い風にながされ、
-line_set ものすごい速度で、何処かに流されていく。
-nvl_line_clear
-
-line_set 貴広は空を見ながら、
-
-line_set リニアの言葉を思い出していた。
-line_set 青く続く空を、
-line_set 流れる雲を見ながら、
-line_set リニアが言った事を…。
-adv_on
-
-gallery_unlock 241
-
-kgd_layer1_set 1 N201.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 貴広
-
-line_set 「古い時計……」
-
-nvl_on
-
-line_set 貴広は本棚の奥にしまった。
-
-line_set 隷が渡してくれた、懐中時計を取り出す。
-adv_on
-
-name_set 貴広
-
-line_set 「……」
-
-line_set 「雲は、風の力を信じているから、身を任す事が出来るか……」
-line_set 「隷……、お前は、そんなリニアを裏切るのか……」
-nvl_on
-
-line_set 貴広は、その時計をジャケットの胸のポケットにしまった……。
-
-adv_on
-
-music_stop2
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-ksd_set 1212A.KSD
-
-ksd_end
+    name_set 霧島
+    line_set 「…」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    sfx_set 0 SE005.WAV
+    sfx_loop 0
+    name_clear
+    line_set バラバラバラ…
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「…」
+
+    name_set 霧島
+    line_set 「…」
+
+    name_set 貴広
+    line_set 「ヘリがきたな…」
+
+    name_set 霧島
+    line_set 「…」
+
+    name_set 貴広
+    line_set 「…今日は何が運ばれるんだっけ？」
+    line_set 「そういえば、頼んできた新しいスーツきているかな？」
+
+    name_set 霧島
+    line_set 「…」
+
+    name_set 貴広
+    line_set 「そうだな…あのスーツきているかな？イタリア製のやつでな…楽しみにしていたんだ」
+
+    name_set 霧島
+    voice_play 40753.wav
+    line_set 「それ…先週きたじゃないでちゅか…」
+
+    name_set 貴広
+    line_set 「…」
+    line_set 「そうだったか？」
+
+    name_set 霧島
+    line_set 「…」
+
+    name_set 貴広
+    line_set 「…」
+    line_set 「なんだろ…今日は何か大事なものがきたような気がしたが…」
+
+    name_set 霧島
+    line_set 「…」
+    voice_play 40756.wav
+    line_set 「そういえば、レンコンを頼んでたでちゅよ」
+
+    name_set 貴広
+    line_set 「そうだ…レンコンだ…レンコンを頼んでいたんだ」
+
+    name_set 霧島
+    voice_play 40757.wav
+    line_set 「気になるのでちたら、ヘリポートに連絡したらどうなんでちゅか？」
+
+    name_set 貴広
+    line_set 「そうだな…」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    name_clear
+    line_set トルゥゥゥゥゥ…
+    name_clear
+    line_set ガチャ…
+
+    name_set 貴広
+    line_set 「おやじさん、レンコン届いたか？」
+
+    name_set おやじさん
+    voice_play v04797.wav
+    line_set 「あん？なんだそりゃ？」
+
+    name_set 貴広
+    line_set 「い、いや…レンコンを頼んでたじゃないか…」
+
+    name_set おやじさん
+    voice_play v04798.wav
+    line_set 「いや…知らんな…」
+
+    name_set 貴広
+    line_set 「レンコンは届いてないのか…」
+
+    name_set おやじさん
+    voice_play v04799.wav
+    line_set 「何言ってんだおめぇ…」
+    voice_play v04800.wav
+    line_set 「もしかして、それ隠語のつもりか？」
+
+    name_set 貴広
+    line_set 「そんな事はどうでもいい！レンコンは来てないか？」
+
+    name_set おやじさん
+    voice_play v04801.wav
+    line_set 「例のブツはまだ来ていない…」
+    voice_play v04802.wav
+    line_set 「焦るな…、逆に今日なんて届いたらはやすぎる、カンパニーに隠れての行動だ…」
+    voice_play v04803.wav
+    line_set 「焦りは禁物だ…」
+
+    name_set 貴広
+    line_set 「ああ…そうか…」
+
+    name_set おやじさん
+    voice_play v04804.wav
+    line_set 「まぁ…そういう事なんでな…」
+
+    name_set 貴広
+    line_set 「ああ…」
+    name_clear
+    line_set ガチャ…
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    sfx_set 0 SE005.WAV
+    sfx_loop 0
+    name_clear
+    line_set バラバラバラ…
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「また、ヘリがきたな…」
+
+    name_set 霧島
+    voice_play 40758.wav
+    line_set 「めずらしいでちゅね。日曜にヘリが来るなんて」
+
+    name_set 貴広
+    line_set 「…」
+
+    kgd_layer3_set 3 KI012.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    line_set 「…」
+    voice_play 40760.wav
+    line_set 「気になるのでちたら、ヘリポートにいたらどうでちゅか？」
+    voice_play 40761.wav
+    line_set 「今日ぐらいの仕事なら、所長が休んでも私がなんとかするでちゅよ…」
+
+    name_set 貴広
+    line_set 「いや…たかだかレンコンのために…そんな事は出来ん…」
+
+    kgd_layer3_set 3 KI009.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play 40762.wav
+    line_set 「レンコンって…、まだそんな事を言っているのでちゅか…」
+    voice_play 40763.wav
+    line_set 「まぁ、レンコンでもなんでもいいでちゅが」
+    voice_play 40764.wav
+    line_set 「レンコンだって、早く料理してあげなきゃ、腐るでちゅ…早く取りにいった方がいいでちゅよ」
+
+    name_set 貴広
+    line_set 「うむ…」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    name_clear
+    line_set トルゥゥゥゥゥ…
+    name_clear
+    line_set ガチャ
+
+    name_set 貴広
+    line_set 「俺だ、萌えっ娘島所長、神崎貴広だ」
+
+    name_set おやじさん
+    voice_play v04811.wav
+    line_set 「例のものが届いたぞ…」
+
+    name_set 貴広
+    line_set 「レ、レンコンがきたか？」
+
+    name_set おやじさん
+    voice_play v04812.wav
+    line_set 「レンコンって…、まだお前はそんな事を言ってんのか……、センスないな…お前の隠語は…」
+
+    name_set 貴広
+    line_set 「そ、そんな事はどうでもいい、本当か？全部そろったのか？」
+
+    name_set おやじさん
+    voice_play v04813.wav
+    line_set 「うむ…、すべてそろった…」
+
+    name_set 貴広
+    line_set 「なんで、すべてそろったのに、そんな暗い声なんだ？」
+
+    name_set おやじさん
+    voice_play v04814.wav
+    line_set 「いや、まぁ、なんでもないが…、大丈夫だ、すべて欲しい材料はそろった…」
+
+    name_set 貴広
+    line_set 「そ、そうか…」
+
+    name_set おやじさん
+    voice_play v04815.wav
+    line_set 「これから俺は、部品を全部作り直すから、早ければ明日の朝にでも、嬢ちゃんの部品変えが出来る」
+
+    name_set 貴広
+    line_set 「あまり無理するなよ…」
+
+    name_set おやじさん
+    voice_play v04816.wav
+    line_set 「ああ、わかってる、んじゃ、急ぐのでな」
+
+    nvl_on
+    line_set 電話が切れる。
+
+    adv_on
+    name_set 貴広
+    line_set 「…」
+
+    kgd_layer3_set 0 KI012.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play 40765.wav
+    line_set 「レンコンきたんでちゅか？」
+
+    name_set 貴広
+    line_set 「レンコンは来なかったよ…」
+
+    name_set 霧島
+    voice_play 40766.wav
+    line_set 「なら、大切なものはきたのでちゅね…」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「ああ…」
+    music_stop1
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer1_set 1 BG041.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 012.WAV
+
+    kgd_layer3_set 0 SO026.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 貴広
+    line_set 「おやじさん」
+
+    name_set おやじさん
+    voice_play v04819.wav
+    line_set 「おう…、貴広きたか」
+
+    name_set 貴広
+    line_set 「どうだ調子は？」
+
+    name_set おやじさん
+    voice_play v04820.wav
+    line_set 「いや、昔はこれが本職だったからな…まぁボチボチだな…」
+
+    name_set 貴広
+    line_set 「そうか…いつ頃出来そうだ？」
+
+    name_set おやじさん
+    voice_play v04821.wav
+    line_set 「まぁ、明日の朝までには仕上げてやるよ、そう難しい事じゃねぇからよ…」
+
+    name_set 整備員
+    line_set 「いや…普通なら出来ませんよ…おやっさんだから出来る事ですよ…」
+
+    kgd_layer3_set 3 SO027.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v04822.wav
+    line_set 「出来ねぇのは貴様らの気合いが足らんからだ！」
+
+    name_set 整備員
+    line_set 「き、気合いで、３週間ぐらいかかる仕事を１日でなんか出来ませんよ…」
+
+    name_set 貴広
+    line_set 「…」
+    line_set 「普通そんなにかかるものなのか？」
+
+    name_set 整備員
+    line_set 「そりゃ…プラモデルの改造じゃないんだから…普通ならそのぐらいかかりますよ」
+
+    name_set おやじさん
+    voice_play v04823.wav
+    line_set 「そんな時間かかるのは気合いが入ってねぇ証拠だ！馬鹿野郎！」
+    voice_play v04824.wav
+    line_set 「貴広、おめぇも邪魔する気なら、とっとと仕事に戻れ！てめぇみてぇな素人がいるところじゃねぇ」
+
+    name_set 整備員
+    line_set 「まぁ、そんな感じなんで…ここは、おやじさんと俺らに任せてくださいよ」
+
+    name_set 貴広
+    line_set 「すまんな…迷惑ばかりかけて…」
+
+    kgd_layer3_set 3 SO028.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v04825.wav
+    line_set 「しかし……」
+
+    name_set 貴広
+    line_set 「どうした？なんか浮かない顔しているな…」
+
+    name_set おやじさん
+    voice_play v04826.wav
+    line_set 「いや、なんでもない…」
+    voice_play v04827.wav
+    line_set 「ほら、お前も、とっとと嬢ちゃんのところにいってやれ、貴様の仕事つーたらそれぐらいじゃねぇか」
+
+    name_set 貴広
+    line_set 「ああ…」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 1000
+
+    kgd_layer1_set 0 BG029.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set 貴広
+    line_set 「ふぅ…」
+    line_set 「リニアの手術は…いつ行われるのか…」
+    line_set 「本部から部品が来なければ…」
+
+    nvl_on
+    line_set 貴広は窓際のチェアに腰をかける。
+    line_set そして、ぼんやりと窓を眺める。
+
+    adv_on
+    kgd_layer2_clear
+    gallery_unlock 383
+
+    kgd_layer1_set 1 N343.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 003.WAV
+
+    nvl_on
+    line_set 外には、月夜に照らされた、白い雲があった。
+    line_set それは、早い風にながされ、
+    line_set ものすごい速度で、何処かに流されていく。
+    nvl_line_clear
+    line_set 貴広は空を見ながら、
+    line_set リニアの言葉を思い出していた。
+    line_set 青く続く空を、
+    line_set 流れる雲を見ながら、
+    line_set リニアが言った事を…。
+
+    adv_on
+    gallery_unlock 241
+
+    kgd_layer1_set 1 N201.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「古い時計……」
+
+    nvl_on
+    line_set 貴広は本棚の奥にしまった。
+    line_set 隷が渡してくれた、懐中時計を取り出す。
+
+    adv_on
+    name_set 貴広
+    line_set 「……」
+    line_set 「雲は、風の力を信じているから、身を任す事が出来るか……」
+    line_set 「隷……、お前は、そんなリニアを裏切るのか……」
+
+    nvl_on
+    line_set 貴広は、その時計をジャケットの胸のポケットにしまった……。
+
+    adv_on
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    ksd_set 1212A.KSD
+    ksd_end

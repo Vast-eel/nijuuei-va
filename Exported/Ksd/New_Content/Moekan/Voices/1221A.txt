@@ -1,1521 +1,1123 @@
-story_progress 348
-
-kgd_layer1_set 0 W1221.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-wait 2000
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-gallery_unlock 385
-
-kgd_layer1_set 0 N345.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-music_play_moekan 005.WAV
-
-nvl_on
-
-line_set 其処は、
-
-line_set 遠い、遠い、何処かの丘、
-line_set 終わりのない空……。
-line_set その青い空の下…。
-line_set もえるような緑が覆っている。
-nvl_line_clear
-
-line_set この間まで、あった寒さは無くなり……。
-
-nvl_line_clear
-
-line_set 暖かさにその世界は満ちていた。
-
-nvl_line_clear
-
-line_set それでも、心を締め付けるものは変わらない。
-
-nvl_line_clear
-
-line_set 祝福に満ちたような世界で、
-
-nvl_line_clear
-
-line_set ただ、それを感じている……。
-
-nvl_line_clear
-
-line_set 風が吹く。
-
-nvl_line_clear
-
-line_set 暖かくて、
-
-nvl_line_clear
-
-line_set 強い風……。
-
-nvl_line_clear
-
-line_set 振り向く……。
-
-nvl_line_clear
-
-line_set そこにはあの娘が立っている。
-
-adv_on
-
-gallery_unlock 100
-
-kgd_layer1_set 1 N060.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set 「君は誰……」
-
-adv_on
-
-name_set 少女
-
-line_set 「……」
-
-nvl_on
-
-line_set 少女は貴広を見つめる。
-
-nvl_line_clear
-
-line_set 「なぜ、他の人たちと遊ばないの……」
-
-adv_on
-
-name_set 少女
-
-line_set 「……」
-
-nvl_on
-
-line_set 少女はただ、黙って見つめる。
-
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-music_stop1
-
-kgd_layer1_set 0 BG027.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_set_moekan 1221.KGD
-name_set 貴広
-
-line_set 「……」
-
-line_set 「また夢を見た……」
-sfx_set 0 SE025.WAV
-
-sfx_play 0 0
-name_clear
-
-line_set トルルルルルル……
-
-sfx_stop 0
-
-sfx_unset 0
-nvl_on
-
-line_set ベット元に置かれた内線電話が鳴り響く。
-
-adv_on
-
-name_set 貴広
-
-line_set 「おちおち寝てもいられないか……」
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG023.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-music_play_moekan 019.WAV
-
-name_set 貴広
-
-line_set 「今日はどうした？」
-
-kgd_layer3_set 0 KI011.KGD
-
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set 霧島
-
-voice_play 42907.wav
-
-line_set 「所長……、たいへんでちゅ…」
-
-nvl_on
-
-line_set 青ざめた顔で霧島が貴広に寄ってくる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「一体どうした？」
-
-name_set 霧島
-
-voice_play 42908.wav
-
-line_set 「昨日、本社に向けて進撃した、南部方面隊の第１６艦隊が全滅したでちゅ……」
-
-name_set 貴広
-
-line_set 「……」
-
-line_set 「第１６艦隊が全滅だと……」
-line_set 「昨晩出撃したばかりではないか……」
-name_set 霧島
-
-voice_play 42909.wav
-
-line_set 「詳しくは、まだ分かりまちぇんが、間違いありまちぇん……」
-
-voice_play 42910.wav
-
-line_set 「同行した南南部諸島中央艦隊も全滅……、南南部壱号島は大混乱に陥っていまちゅ……」
-
-voice_play 42911.wav
-
-line_set 「本社での正式発表も終わったという事なので、そろそろニュースになっているはずでちゅ…」
-
-nvl_on
-
-line_set 貴広はパソコンを取り出す。
-
-line_set リニアの部品を集める時に、この様な事も予測して大量のパソコンを貴広達は集めていた。
-nvl_line_clear
-
-line_set 貴広とおやじさんの手によって、ここ数日で、この島の設備は、
-
-line_set 他のカンパニーの島をはるかに超えるものとなっていた。
-nvl_line_clear
-
-line_set 貴広の取り出したパソコンにはアンテナのようなものが立っていた。
-
-line_set それは電波で、第２５６３号島の地下にある、旧米軍のミルネットにつながる。
-nvl_line_clear
-
-line_set そして、そこからカンパニー内の通常の電話回線を使うことによって、
-
-line_set カンパニーのネット情報を読むことが出来る。
-nvl_line_clear
-
-line_set トップの文字がすぐに目につく。
-
-adv_on
-
-name_set 貴広
-
-line_set 「？！」
-
-line_set 「な……」
-nvl_on
-
-line_set それを目にして、貴広の動きが止まる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「こんな予感だけあたってもしかたがないよな…」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer2_clear
-gallery_unlock 231
-
-kgd_layer1_set 1 N191.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 貴広
-
-line_set 「Ｎ計画……」
-
-nvl_on
-
-line_set 貴広はその記事の内容をよんでみる。
-
-nvl_line_clear
-
-line_set 昨日未明、カンパニーの一部の勢力が、クーデターをくわだて、本社、中央防衛部センターを占拠。
-
-line_set これに呼応する形で、各方面管理隊が支部を占拠した。
-nvl_line_clear
-
-line_set 南方面管理、第１６艦隊を中心とした海軍が本社にむけて北上。
-
-nvl_line_clear
-
-line_set これに対して、本社ではＬＡＢの管轄下で、臨時招集がかけられ、対応を協議。
-
-nvl_line_clear
-
-line_set その結果、Ｎ計画の成果を試験的に第１６艦隊に適用させる事で合意した。
-
-nvl_line_clear
-
-line_set Ｎ計画とは、今まで一般には知られる事なく、秘密裏に進められていた計画であるが、
-
-line_set それは、カンパニー創設以来の一大計画であり、
-line_set 元々はＬＡＢという組織自体がこの計画のために作り出されたものであった。
-nvl_line_clear
-
-line_set そのＮ計画の成果である、実験体の名称はＲＡＹ０００１。
-
-line_set ＲＡＹ０００１は、今日、正午過ぎ、南洋のＤ１２海で、第１６艦隊と接触。
-adv_on
-
-name_set 貴広
-
-line_set 「ＲＡＹ０００１？？」
-
-line_set 「隷の事なのか？？」
-line_set 「……」
-gallery_unlock 232
-
-kgd_layer1_set 1 N192.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 貴広
-
-line_set 「第１６艦隊を１０分たらずで壊滅」
-
-line_set 「計画の成功を証明させた……」
-line_set 「実験体はそのまま南下をつづけ、あさっての２４日には」
-line_set 「極南に位置する。南南部第２５６３号島を制圧すると公表……」
-line_set 「この島を制圧ですべての状況を終了となる予定である……」
-line_set 「このＮ計画完成によって、カンパニーが外部的に抱える問題のすべてが解決すると見られている」
-line_set 「特に、極東日没などのナーサリークライムに対抗するものとして期待されている……」
-kgd_layer1_set 1 BG023.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-kgd_layer2_set_moekan 1221.KGD
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set 霧島
-
-voice_play 42912.wav
-
-line_set 「第２５６３号島を最後の制圧場所とちたのは……」
-
-voice_play 42913.wav
-
-line_set 「たぶん、所長の完全殲滅が目的でちゅ……」
-
-voice_play 42914.wav
-
-line_set 「元、ＰＩＸＩＥＳ……漆黒の神崎……」
-
-voice_play 42915.wav
-
-line_set 「その力がまだ失われていないと信じている人は本社でも多いと聞きまちゅ……」
-
-voice_play 42916.wav
-
-line_set 「それを、Ｎ計画の実験体によって、作戦を遂行すれば……」
-
-voice_play 42917.wav
-
-line_set 「Ｎ計画完成のよいアピールになるでちゅ…」
-
-name_set 貴広
-
-line_set 「Ｎ計画……、人工的にナーサリークライムでも作り上げたとでも言うのか……」
-
-name_set 霧島
-
-voice_play 42918.wav
-
-line_set 「そう言及されているわけではありませんが……、そのような書き方でちゅね……」
-
-voice_play 42919.wav
-
-line_set 「極東日没に対抗出来ると考えているのでちゅから……」
-
-name_set 貴広
-
-line_set 「……」
-
-line_set 「隷のあの力……、やはりナーサリークライムの力だったのか……」
-line_set 「ＬＡＢは人工的に作り出す事に成功したとでも言うのか……」
-nvl_on
-
-line_set 貴広は席を立つ。
-
-adv_on
-
-kgd_layer3_set 3 KI011.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set 霧島
-
-voice_play 42920.wav
-
-line_set 「ど、どこに行かれるのでちゅか？」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-nvl_on
-
-line_set 貴広はそのまま所長室から飛び出す。
-
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG041.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 SO028.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set 貴広
-
-line_set 「おやじさん！！！」
-
-name_set おやじさん
-
-voice_play v05961.wav
-line_set 「ああ、知っている……」
-
-voice_play v05962.wav
-line_set 「少しまて……」
-voice_play v05963.wav
-line_set 「今、情報をリークしているところだ……」
-nvl_on
-
-line_set おやじさんは貴広の方には振り返らず、端末機をいじりつづける。
-
-adv_on
-
-name_set おやじさん
-
-voice_play v05964.wav
-line_set 「その映像は当分は発表されまい……」
-
-voice_play v05965.wav
-line_set 「しかし、ＬＡＢはそれを持っているハズだ…」
-voice_play v05966.wav
-line_set 「人工衛星は、対象物を撮影出来る時間はわずかだが……」
-voice_play v05967.wav
-line_set 「間違いなく、ＬＡＢはすべてを知っていたハズだ……」
-voice_play v05968.wav
-line_set 「これは、第１６艦隊が動く事も、前々から承知していたあげくの茶番だ……」
-voice_play v05969.wav
-line_set 「すべてが、Ｎ計画のアピールの舞台に過ぎなかったのだろう……」
-voice_play v05970.wav
-line_set 「やつらにとっては、このクーデターもパフォーマンスにすぎない……」
-name_set 貴広
-
-line_set 「このクーデター自体、ＬＡＢにとっては、Ｎ計画を見せつけるデモンストレーション……」
-
-name_set おやじさん
-
-voice_play v05971.wav
-line_set 「という事だ、そのデモンストレーションの晴れ有る第一回目……」
-
-voice_play v05972.wav
-line_set 「空からは撮影しているだろう……」
-name_set 貴広
-
-line_set 「そうだろうな……」
-
-name_set おやじさん
-
-voice_play v05973.wav
-line_set 「しかし……」
-
-voice_play v05974.wav
-line_set 「予測した、最悪な結果だったな……」
-name_set 貴広
-
-line_set 「……」
-
-line_set 「おやじさんが昨日言っていた通りになったな…」
-name_set おやじさん
-
-voice_play v05975.wav
-line_set 「隷が伊勢を倒す映像を見たら……」
-
-voice_play v05976.wav
-line_set 「そう想像せざる得ないだろ…」
-name_set 貴広
-
-line_set 「隷がナーサリークライムという事か…」
-
-name_set おやじさん
-
-voice_play v05977.wav
-line_set 「それについては、俺よりもお前が判断するべきだろう……」
-
-voice_play v05978.wav
-line_set 「おう、有ったぞ……」
-nvl_on
-
-line_set おやじさんはクリックする。
-
-adv_on
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer2_clear
-gallery_unlock 371
-
-kgd_layer1_set 1 N331.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set 海に突然、黒い円形状のものが現れる。
-
-line_set それが、徐々に大きくなる。
-adv_on
-
-gallery_unlock 372
-
-kgd_layer1_set 1 N332.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set 遙か上空からの映像……、
-
-line_set 徐々にその黒い領域が広がっているように見えるが、実際は、想像を絶する速度で広がっているのだろう。
-adv_on
-
-gallery_unlock 373
-
-kgd_layer1_set 1 N333.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set 木の葉の様に漂う、艦隊がその領域に接していく、
-
-line_set ふれたものから、その姿を消していく。
-adv_on
-
-name_set おやじさん
-
-voice_play v05979.wav
-line_set 「すさまじいな……」
-
-voice_play v05980.wav
-line_set 「艦隊がきれいに消えていく……」
-nvl_on
-
-line_set 木の葉の様に見える。艦隊……。
-
-line_set 一個の空母だけでゆうに３００メートルはあるようなものである……。
-nvl_line_clear
-
-line_set この瞬間で、数万人の人間の命が消えている。
-
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-nvl_on
-
-line_set 人口衛星からの映像は、
-
-line_set 無音でその地獄を静かに伝えていく。
-adv_on
-
-kgd_layer1_set 0 BG041.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_set_moekan 1221.KGD
-kgd_layer3_set 0 SO028.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set おやじさん
-
-voice_play v05981.wav
-line_set 「どうだ……、貴広…」
-
-voice_play v05982.wav
-line_set 「衛星からの映像だから、鮮明な部分はほんの２分ぐらいしかないが……」
-voice_play v05983.wav
-line_set 「それでも、だいたいの事はわかるだろ…」
-name_set 貴広
-
-line_set 「……」
-
-line_set 「ああ……」
-line_set 「ＬＡＢはナーサリークライムを科学の力によって作り上げたようだな……」
-name_set おやじさん
-
-voice_play v05984.wav
-line_set 「という事は……」
-
-name_set 貴広
-
-line_set 「最悪の結果だ……」
-
-line_set 「これはナーサリークライムの力……」
-line_set 「たしかに、第１６艦隊を沈めたのは」
-line_set 「それを上回る大軍でも」
-line_set 「一瞬ですべてを終わらせる兵器でもない」
-line_set 「あれは間違いなく、超絶的な個人の力、ナーサリークライム……」
-line_set 「そして、Ｎ計画の成果とは、すなわち隷だろうな……」
-name_set おやじさん
-
-voice_play v05985.wav
-line_set 「Ｎ計画の成果……」
-
-voice_play v05986.wav
-line_set 「実験体、ＲＡＹ０００１か……」
-voice_play v05987.wav
-line_set 「その名を使うとはな……」
-voice_play v05988.wav
-line_set 「悲しい事実だ……」
-name_set 貴広
-
-line_set 「？」
-
-name_set おやじさん
-
-voice_play v05989.wav
-line_set 「しかし……」
-
-voice_play v05990.wav
-line_set 「これがＮ計画の正体だ……」
-voice_play v05991.wav
-line_set 「あのＬＡＢが、１世紀以上もかけたわけだ……」
-voice_play v05992.wav
-line_set 「そんな大それた事をやっていたとはな…」
-name_set 貴広
-
-line_set 「そうだな……」
-
-name_set おやじさん
-
-voice_play v05993.wav
-line_set 「これと、俺たちは、ドンパチをやろうって言うのか……、ゾっとする……」
-
-name_set 貴広
-
-line_set 「そうだな……」
-
-kgd_layer3_set 3 SO018.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set おやじさん
-
-voice_play v05994.wav
-line_set 「さてと……」
-
-nvl_on
-
-line_set おやじさんは立ち上がる。
-
-adv_on
-
-name_set おやじさん
-
-voice_play v05995.wav
-line_set 「これを見て、こっちの出方も決まったな…」
-
-name_set 貴広
-
-line_set 「これを見て、戦う気なのか？」
-
-kgd_layer3_set 3 SO028.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set おやじさん
-
-voice_play v05996.wav
-line_set 「お前はどうなんだ？」
-
-voice_play v05997.wav
-line_set 「ケツでもまくるのか？」
-name_set 貴広
-
-line_set 「俺は始めから何があっても逃げる気などないさ…」
-
-line_set 「だが、おやじさんまで、こんな勝ち目がない戦いに……」
-name_set おやじさん
-
-voice_play v05998.wav
-line_set 「馬鹿、勝ち目がないかどうかは戦って見なければ分かるまい……」
-
-voice_play v05999.wav
-line_set 「本当にＮ計画が完成したかどうかはまだ分からんのだからな……」
-name_set 貴広
-
-line_set 「……」
-
-name_set おやじさん
-
-voice_play v06000.wav
-line_set 「あくまでも、現状では、実験体ＲＡＹ０００１だ……」
-
-voice_play v06001.wav
-line_set 「正式発表でナーサリークライムなどと一度も公言されてはいない……」
-name_set 貴広
-
-line_set 「その可能性にかけるか？」
-
-name_set おやじさん
-
-voice_play v06002.wav
-line_set 「ああ、まだ、あれが完全かどうかは分からんだろ」
-
-voice_play v06003.wav
-line_set 「実験体だ……、十分戦える余地はあるだろう…」
-voice_play v06004.wav
-line_set 「まずは、強力な水平レーダーが必要だな…」
-name_set 貴広
-
-line_set 「水平レーダー？」
-
-name_set おやじさん
-
-voice_play v06005.wav
-line_set 「小さな対象物なら、突き抜けるように直線に進むレーダーだよ……」
-
-voice_play v06006.wav
-line_set 「やつは海から来るみたいだからな、３６０度、水平線に網を張る…」
-name_set 貴広
-
-line_set 「って、それって……、レーダーの周りがすべて電子レンジになるってやつか？」
-
-name_set おやじさん
-
-voice_play v06007.wav
-line_set 「ばか、周りすべてが電子レンジなんかにならねぇよ……」
-
-voice_play v06008.wav
-line_set 「周りじゃなくて、水平線上に数キロ四方が大やけどになるってやつだ…」
-voice_play v06009.wav
-line_set 「まぁ、レーダーと言っても、軽いレーザー兵器だからな……」
-voice_play v06010.wav
-line_set 「それを、島から数キロ離れた場所に浮かばしておく……」
-voice_play v06011.wav
-line_set 「空中に対しては、それでは無防備だが、水面から来る敵なら、５００キロ先から発見できる」
-voice_play v06012.wav
-line_set 「てな事で、設置後は、海際には絶対に行くなよ、いったら、普通に死ぬからな……」
-name_set 貴広
-
-line_set 「ああ……」
-
-name_set おやじさん
-
-voice_play v06013.wav
-line_set 「先にこっちがつかまえれば、影の領域に入る前に、あるモノ無いモノすべてぶちこめば勝ちだ…」
-
-voice_play v06014.wav
-line_set 「あと、水中にも……」
-name_set 貴広
-
-line_set 「なるほど……」
-
-line_set 「さすがだな……」
-name_set おやじさん
-
-voice_play v06015.wav
-line_set 「若い頃は、ＬＡＢでそんなものばかり作っていたからな……」
-
-voice_play v06016.wav
-line_set 「この混乱なら、それらも簡単にここまで届けられるだろう……」
-name_set 貴広
-
-line_set 「わかった……」
-
-name_set おやじさん
-
-voice_play v06017.wav
-line_set 「さてと……、お前にやる気がある…」
-
-voice_play v06018.wav
-line_set 「それさえ確認できれば……、俺も次の仕事にうつれるな……」
-name_set 貴広
-
-line_set 「そうだな……」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-music_stop2
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer1_set 0 BG004.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-sfx_set 0 SE014.WAV
-
-sfx_play 0 0
-name_clear
-
-line_set コンコン……
-
-sfx_stop 0
-
-sfx_unset 0
-name_set 貴広
-
-line_set 「リニア？」
-
-name_clear
-
-line_set 「……」
-
-nvl_on
-
-line_set 中から、返事はない……。
-
-adv_on
-
-name_set 貴広
-
-line_set 「寝ているのか？」
-
-kgd_layer1_set 1 BG060.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set リニア
-
-line_set 「……」
-
-nvl_on
-
-line_set リニアは一人の部屋で泣いていた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「リニア？」
-
-nvl_on
-
-line_set 声をかけても、リニアは振り向かない。
-
-adv_on
-
-name_set 貴広
-
-line_set 「リニア？」
-
-nvl_on
-
-line_set 貴広はリニアの肩に手をおく。
-
-adv_on
-
-kgd_layer2_clear
-
-gallery_unlock 89
-
-kgd_layer1_set 1 N049.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-music_play_moekan 017.WAV
-
-name_set リニア
-
-line_set 「？」
-
-nvl_on
-
-line_set 驚いたように、リニアが貴広の事を見つめる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「どうした？」
-
-nvl_on
-
-line_set リニアは、ただ貴広の顔を悲しそうに見つめる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「リニア？」
-
-nvl_on
-
-line_set リニアは静かに首を横にふる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「どうしたんだ！リニア！」
-
-name_set リニア
-
-voice_play 53457.wav
-
-line_set 「ごめんなさい……う、ううう……」
-
-name_set 貴広
-
-line_set 「どこか悪いのか？リニア？？」
-
-nvl_on
-
-line_set リニアはまったく、貴広の言葉に受け答えをしない。
-
-adv_on
-
-name_set 貴広
-
-line_set 「リニア！！！」
-
-name_set リニア
-
-voice_play 53458.wav
-
-line_set 「貴広さん……」
-
-voice_play 53459.wav
-
-line_set 「もう……、リニアには……、貴広さんの声が聞こえません……、もう……」
-
-name_set 貴広
-
-line_set 「声が……、聞こえない？」
-
-line_set 「聞こえないって……どういう事だ……」
-nvl_on
-
-line_set リニアはただ、貴広の顔を悲しそうに見つめる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「お、おやじさんを呼んでくる、少しまっていろ！」
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-nvl_on
-
-line_set 貴広はおやじさんを呼んでくる。
-
-adv_on
-
-kgd_layer1_set 0 BG060.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_set_moekan 1221.KGD
-name_set リニア
-
-voice_play 53460.wav
-
-line_set 「あ、貴広さん」
-
-name_set 貴広
-
-line_set 「どうだ？」
-
-kgd_layer2_clear
-
-gallery_unlock 89
-
-kgd_layer1_set 1 N049.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set リニア
-
-voice_play 53461.wav
-
-line_set 「……ごめんなさい」
-
-name_set 貴広
-
-line_set 「なぜ、あやまる？」
-
-name_set リニア
-
-voice_play 53462.wav
-
-line_set 「ごめんなさい……」
-
-name_set 貴広
-
-line_set 「なぜ、あやまるんだ？」
-
-name_set おやじさん
-
-line_set 「……」
-
-nvl_on
-
-line_set おやじさんが貴広の肩を叩く。
-
-adv_on
-
-name_set 貴広
-
-line_set 「なんだ？」
-
-name_set おやじさん
-
-line_set 「……」
-
-nvl_on
-
-line_set 首を振る。
-
-adv_on
-
-name_set おやじさん
-
-voice_play v06026.wav
-line_set 「嬢ちゃんには、もう聞こえてないよ……」
-
-name_set 貴広
-
-line_set 「……」
-
-name_set おやじさん
-
-voice_play v06027.wav
-line_set 「音が完全にやられているんだろう、まともな受け答えは出来ない」
-
-name_set 貴広
-
-line_set 「なぜ？！」
-
-line_set 「この前に、おかしな部分は全部変えたじゃないか！！」
-line_set 「なんで耳まで聞こえなくなるんだ！！」
-name_set おやじさん
-
-voice_play v06028.wav
-line_set 「ああ、部品としては、どこもおかしくないハズだよ……」
-
-voice_play v06029.wav
-line_set 「たぶん、嬢ちゃんの心までお前の音は伝わっているハズだ……」
-name_set 貴広
-
-line_set 「なら！！」
-
-name_set おやじさん
-
-voice_play v06030.wav
-line_set 「もう、嬢ちゃんの心が、お前の音をつかまえられないんだよ……」
-
-name_set 貴広
-
-line_set 「心が……、音をつかまえられない……」
-
-line_set 「なんだ、そりゃ？わけわかんないぞ！！！どういう事なんだ！！説明してくれ！！」
-name_set おやじさん
-
-line_set 「……」
-
-name_set リニア
-
-voice_play 53463.wav
-
-line_set 「ごめんなさい……」
-
-nvl_on
-
-line_set ただ、リニアは謝り続ける。
-
-adv_on
-
-name_set 貴広
-
-line_set 「リニア……」
-
-line_set 「なんだよ……」
-line_set 「ばか…、謝るなよ……」
-line_set 「悲しいじゃないか………」
-nvl_on
-
-line_set 貴広はリニアのほほにふれる……。
-
-adv_on
-
-name_set リニア
-
-voice_play 53464.wav
-
-line_set 「ごめんなさい……」
-
-name_set 貴広
-
-line_set 「リニア……」
-
-line_set 「なんで、あやまるんだよ……」
-line_set 「俺がお前を救ってやれないんじゃないか…」
-line_set 「なのに、なんで、お前は……」
-line_set 「なんで、なんだよ……」
-line_set 「なんで、すべての痛みを自分一人で受け持とうとするんだよ……」
-line_set 「どうして……、それを、俺にも分けてしまおうと思わないんだよ……」
-name_set リニア
-
-voice_play 53465.wav
-
-line_set 「ごめんなさい…」
-
-nvl_on
-
-line_set 音がもう、届かない……。
-
-nvl_line_clear
-
-line_set 風の中で、貴広すら聞こえない音をつかまえようとしていたリニア…。
-
-nvl_line_clear
-
-line_set それが、もう、目の前の貴広の声すらつかまえられない……。
-
-nvl_line_clear
-
-line_set 貴広はリニアを抱きしめる。
-
-line_set すべてを一人で耐え続け……。
-line_set そして、ついに音を失ってしまった少女を……。
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-nvl_on
-
-line_set あれから何時間たっただろうか？
-
-line_set リニアはずっと天井を見つめたまま、何もしゃべらない。
-adv_on
-
-gallery_unlock 89
-
-kgd_layer1_set 0 N049.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-name_set リニア
-
-line_set 「……」
-
-nvl_on
-
-line_set リニアは手を貴広に差し出す。
-
-adv_on
-
-name_set 貴広
-
-line_set 「手を握ってほしいのか？」
-
-nvl_on
-
-line_set 貴広の声が聞こえないリニアは、貴広に答えることが出来ない。
-
-adv_on
-
-gallery_unlock 86
-
-kgd_layer1_set 1 N046.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set 貴広はリニアの手を握る。
-
-adv_on
-
-name_set リニア
-
-line_set 「……」
-
-name_set 貴広
-
-line_set 「……」
-
-nvl_on
-
-line_set 動くこともないリニアの手を貴広は握りしめる。
-
-line_set 機械とは思えぬほど、ほのかに暖かい。
-adv_on
-
-name_set リニア
-
-line_set 「……」
-
-nvl_on
-
-line_set リニアが悲しそうな瞳で握られた手を見つめる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「リニア…」
-
-nvl_on
-
-line_set ずっとしゃべっていなかったリニアが口を開く。
-
-adv_on
-
-gallery_unlock 90
-
-kgd_layer1_set 1 N050.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set リニア
-
-voice_play 53469.wav
-
-line_set 「えへへへ……、さっきから一生懸命、貴広さんの手を握りかえしているのに、ぴくりとも動かない……」
-
-nvl_on
-
-line_set リニアのいう通り、リニアの小さな手は開くことも閉じることもなく。
-
-line_set 貴広の大きな手のなかに収まっていた。
-adv_on
-
-name_set リニア
-
-voice_play 53470.wav
-
-line_set 「今までは、貴広さんの腕のぬくもりは感じられたのです」
-
-voice_play 53471.wav
-
-line_set 「でも、今はだめです。何も感じません。まるで自分の手じゃないみたい……」
-
-name_set 貴広
-
-line_set 「……」
-
-line_set 「おまえが感じなくとも、俺はおまえの手のぬくもりを感じるぞ」
-name_set リニア
-
-voice_play 53472.wav
-
-line_set 「何も感じられないんです……」
-
-voice_play 53473.wav
-
-line_set 「リニアには、もう貴広さんの手のぬくもりも……、そして声も……」
-
-nvl_on
-
-line_set 貴広の言葉はリニアには届かない。
-
-adv_on
-
-name_set リニア
-
-line_set 「……」
-
-voice_play 53475.wav
-
-line_set 「とうとう、リニアから音すら無くなってしまいました」
-
-voice_play 53476.wav
-
-line_set 「貴広さんが横にいてくれるのに、リニアには、貴広さんの声を感じる事が出来ませんね」
-
-nvl_on
-
-line_set リニアは天井を見上げ、そしてそのまましゃべり始める。
-
-adv_on
-
-name_set 貴広
-
-line_set 「そんな事は問題ないさ……」
-
-name_set リニア
-
-voice_play 53477.wav
-
-line_set 「なんでだろう……」
-
-voice_play 53478.wav
-
-line_set 「皆さんにこんなにやさしくして頂けたのに、それを返す事も出来ずに…」
-
-voice_play 53479.wav
-
-line_set 「ただ、壊れていく……」
-
-voice_play 53480.wav
-
-line_set 「本当に、リニアは出来損ないですね……」
-
-name_set 貴広
-
-line_set 「……」
-
-name_set リニア
-
-voice_play 53481.wav
-
-line_set 「こんなに皆さんに迷惑をかけたあげく……」
-
-voice_play 53482.wav
-
-line_set 「勝手に壊れていく……」
-
-voice_play 53483.wav
-
-line_set 「本当に、どうしようもない……ですよね…リニアなんて……」
-
-name_set 貴広
-
-line_set 「直になおる……」
-
-name_set リニア
-
-voice_play 53484.wav
-
-line_set 「なんで……、神様はリニアの願いなんて叶えてしまったのでしょうか……」
-
-name_set 貴広
-
-line_set 「……」
-
-name_set リニア
-
-voice_play 53485.wav
-
-line_set 「こんな役立たず……、やっぱり人知れずに消えていけばよかったんですよ……」
-
-voice_play 53486.wav
-
-line_set 「そうすれば、貴広さんと隷さんが仲違いする事もなかったですし……」
-
-name_set 貴広
-
-line_set 「リニア！！」
-
-name_set リニア
-
-voice_play 53487.wav
-
-line_set 「もう、これ以上は贅沢ですよ……」
-
-voice_play 53488.wav
-
-line_set 「ここまで、くれば、もうリニアがどうなるか一目瞭然です……」
-
-voice_play 53489.wav
-
-line_set 「だから……」
-
-voice_play 53490.wav
-
-line_set 「このまま、リニアからすべてが奪い去られる前に……」
-
-voice_play 53491.wav
-
-line_set 「リニアの意識を消してください……」
-
-voice_play 53492.wav
-
-line_set 「すべてを終わらしてください！」
-
-name_set 貴広
-
-line_set 「リニア！！！」
-
-nvl_on
-
-line_set 貴広はリニアの肩を強く抱く。
-
-adv_on
-
-name_set リニア
-
-line_set 「……」
-
-voice_play 53494.wav
-
-line_set 「た、貴広さん……」
-
-name_set 貴広
-
-line_set 「黙れ！！貴様はそんなくだらない事を考えるな！！」
-
-line_set 「俺がどうにかする！！」
-line_set 「だから……」
-line_set 「だから、おまえは、もっとがんばれ！！」
-line_set 「貴様があきらめていいわけがないだろ！！」
-line_set 「俺はまだあきらめていないのだから！！」
-line_set 「だからリニア！！」
-line_set 「がんばれ！！」
-name_set リニア
-
-line_set 「……」
-
-nvl_on
-
-line_set リニアは驚いた顔で貴広を見つめる。
-
-adv_on
-
-name_set リニア
-
-voice_play 53504.wav
-
-line_set 「貴広さん……」
-
-nvl_on
-
-line_set リニアは泣きながら返事をする。
-
-adv_on
-
-name_set リニア
-
-voice_play 53505.wav
-
-line_set 「ごめんなさい……、いつも、いつも、こんなで…リニア……うわぁあああん」
-
-name_set 貴広
-
-line_set 「……」
-
-line_set 「馬鹿野郎……」
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-music_stop1
-
-nvl_on
-
-line_set リニアはまた眠りにつく。
-
-nvl_line_clear
-
-line_set もう一日のうちに、数時間も起きている事が出来ないようであった。
-
-nvl_line_clear
-
-line_set 弱っていくリニアに何もしてやれない自分……。
-
-nvl_line_clear
-
-line_set ただ、悲しみの中で消えていきそうな、リニアを救ってやる事ができない……。
-
-adv_on
-
-name_set 貴広
-
-line_set 「もう一度……」
-
-line_set 「俺は、お前の笑顔が見たいんだ……」
-line_set 「もう一度、お前が笑えるように……」
-nvl_on
-
-line_set 眠るリニア……。
-
-adv_on
-
-kgd_layer1_set 0 BG016.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_set_moekan 1221.KGD
-nvl_on
-
-line_set 貴広はひたすら図書館で本を探した。
-
-nvl_line_clear
-
-line_set もしかしたら、リニアの事にふれられた本があるかもしれない……。
-
-nvl_line_clear
-
-line_set そこに、リニアを救う方法がかかれているかもしれない…。
-
-nvl_line_clear
-
-line_set ただ、漠然とそんな事を信じて、ひたすらにリニアの関する本を調べる…。
-
-adv_on
-
-name_set 貴広
-
-line_set 「くそ！！！」
-
-line_set 「なんでだ！！！」
-line_set 「なんで、こんな本があるのに…」
-line_set 「俺に大切な事を教えてくれないんだ……」
-nvl_on
-
-line_set 「俺は、ただ…リニアを救ってほしいんだ……」
-
-nvl_line_clear
-
-line_set 「なんで……」
-
-nvl_line_clear
-
-line_set 「なんで、こんなどうでもいい事ばかり……」
-
-nvl_line_clear
-
-line_set ただひたすら、リニアを救う方法を探す。
-
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-kgd_layer2_clear
-ksd_set 1222A.KSD
-
-ksd_end
+    story_progress 348
+
+    kgd_layer1_set 0 W1221.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    gallery_unlock 385
+
+    kgd_layer1_set 0 N345.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play_moekan 005.WAV
+
+    nvl_on
+    line_set 其処は、
+    line_set 遠い、遠い、何処かの丘、
+    line_set 終わりのない空……。
+    line_set その青い空の下…。
+    line_set もえるような緑が覆っている。
+    nvl_line_clear
+    line_set この間まで、あった寒さは無くなり……。
+    nvl_line_clear
+    line_set 暖かさにその世界は満ちていた。
+    nvl_line_clear
+    line_set それでも、心を締め付けるものは変わらない。
+    nvl_line_clear
+    line_set 祝福に満ちたような世界で、
+    nvl_line_clear
+    line_set ただ、それを感じている……。
+    nvl_line_clear
+    line_set 風が吹く。
+    nvl_line_clear
+    line_set 暖かくて、
+    nvl_line_clear
+    line_set 強い風……。
+    nvl_line_clear
+    line_set 振り向く……。
+    nvl_line_clear
+    line_set そこにはあの娘が立っている。
+
+    adv_on
+    gallery_unlock 100
+
+    kgd_layer1_set 1 N060.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 「君は誰……」
+
+    adv_on
+    name_set 少女
+    line_set 「……」
+
+    nvl_on
+    line_set 少女は貴広を見つめる。
+    nvl_line_clear
+    line_set 「なぜ、他の人たちと遊ばないの……」
+
+    adv_on
+    name_set 少女
+    line_set 「……」
+
+    nvl_on
+    line_set 少女はただ、黙って見つめる。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_stop1
+
+    kgd_layer1_set 0 BG027.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_set_moekan 1221.KGD
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「また夢を見た……」
+
+    sfx_set 0 SE025.WAV
+    sfx_play 0 0
+    name_clear
+    line_set トルルルルルル……
+    sfx_stop 0
+    sfx_unset 0
+
+    nvl_on
+    line_set ベット元に置かれた内線電話が鳴り響く。
+
+    adv_on
+    name_set 貴広
+    line_set 「おちおち寝てもいられないか……」
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play_moekan 019.WAV
+
+    name_set 貴広
+    line_set 「今日はどうした？」
+
+    kgd_layer3_set 0 KI011.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play 42907.wav
+    line_set 「所長……、たいへんでちゅ…」
+
+    nvl_on
+    line_set 青ざめた顔で霧島が貴広に寄ってくる。
+
+    adv_on
+    name_set 貴広
+    line_set 「一体どうした？」
+
+    name_set 霧島
+    voice_play 42908.wav
+    line_set 「昨日、本社に向けて進撃した、南部方面隊の第１６艦隊が全滅したでちゅ……」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「第１６艦隊が全滅だと……」
+    line_set 「昨晩出撃したばかりではないか……」
+
+    name_set 霧島
+    voice_play 42909.wav
+    line_set 「詳しくは、まだ分かりまちぇんが、間違いありまちぇん……」
+    voice_play 42910.wav
+    line_set 「同行した南南部諸島中央艦隊も全滅……、南南部壱号島は大混乱に陥っていまちゅ……」
+    voice_play 42911.wav
+    line_set 「本社での正式発表も終わったという事なので、そろそろニュースになっているはずでちゅ…」
+
+    nvl_on
+    line_set 貴広はパソコンを取り出す。
+    line_set リニアの部品を集める時に、この様な事も予測して大量のパソコンを貴広達は集めていた。
+    nvl_line_clear
+    line_set 貴広とおやじさんの手によって、ここ数日で、この島の設備は、
+    line_set 他のカンパニーの島をはるかに超えるものとなっていた。
+    nvl_line_clear
+    line_set 貴広の取り出したパソコンにはアンテナのようなものが立っていた。
+    line_set それは電波で、第２５６３号島の地下にある、旧米軍のミルネットにつながる。
+    nvl_line_clear
+    line_set そして、そこからカンパニー内の通常の電話回線を使うことによって、
+    line_set カンパニーのネット情報を読むことが出来る。
+    nvl_line_clear
+    line_set トップの文字がすぐに目につく。
+
+    adv_on
+    name_set 貴広
+    line_set 「？！」
+    line_set 「な……」
+
+    nvl_on
+    line_set それを目にして、貴広の動きが止まる。
+
+    adv_on
+    name_set 貴広
+    line_set 「こんな予感だけあたってもしかたがないよな…」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer2_clear
+    gallery_unlock 231
+
+    kgd_layer1_set 1 N191.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「Ｎ計画……」
+
+    nvl_on
+    line_set 貴広はその記事の内容をよんでみる。
+    nvl_line_clear
+    line_set 昨日未明、カンパニーの一部の勢力が、クーデターをくわだて、本社、中央防衛部センターを占拠。
+    line_set これに呼応する形で、各方面管理隊が支部を占拠した。
+    nvl_line_clear
+    line_set 南方面管理、第１６艦隊を中心とした海軍が本社にむけて北上。
+    nvl_line_clear
+    line_set これに対して、本社ではＬＡＢの管轄下で、臨時招集がかけられ、対応を協議。
+    nvl_line_clear
+    line_set その結果、Ｎ計画の成果を試験的に第１６艦隊に適用させる事で合意した。
+    nvl_line_clear
+    line_set Ｎ計画とは、今まで一般には知られる事なく、秘密裏に進められていた計画であるが、
+    line_set それは、カンパニー創設以来の一大計画であり、
+    line_set 元々はＬＡＢという組織自体がこの計画のために作り出されたものであった。
+    nvl_line_clear
+    line_set そのＮ計画の成果である、実験体の名称はＲＡＹ０００１。
+    line_set ＲＡＹ０００１は、今日、正午過ぎ、南洋のＤ１２海で、第１６艦隊と接触。
+
+    adv_on
+    name_set 貴広
+    line_set 「ＲＡＹ０００１？？」
+    line_set 「隷の事なのか？？」
+    line_set 「……」
+    gallery_unlock 232
+
+    kgd_layer1_set 1 N192.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「第１６艦隊を１０分たらずで壊滅」
+    line_set 「計画の成功を証明させた……」
+    line_set 「実験体はそのまま南下をつづけ、あさっての２４日には」
+    line_set 「極南に位置する。南南部第２５６３号島を制圧すると公表……」
+    line_set 「この島を制圧ですべての状況を終了となる予定である……」
+    line_set 「このＮ計画完成によって、カンパニーが外部的に抱える問題のすべてが解決すると見られている」
+    line_set 「特に、極東日没などのナーサリークライムに対抗するものとして期待されている……」
+
+    kgd_layer1_set 1 BG023.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    kgd_layer2_set_moekan 1221.KGD
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play 42912.wav
+    line_set 「第２５６３号島を最後の制圧場所とちたのは……」
+    voice_play 42913.wav
+    line_set 「たぶん、所長の完全殲滅が目的でちゅ……」
+    voice_play 42914.wav
+    line_set 「元、ＰＩＸＩＥＳ……漆黒の神崎……」
+    voice_play 42915.wav
+    line_set 「その力がまだ失われていないと信じている人は本社でも多いと聞きまちゅ……」
+    voice_play 42916.wav
+    line_set 「それを、Ｎ計画の実験体によって、作戦を遂行すれば……」
+    voice_play 42917.wav
+    line_set 「Ｎ計画完成のよいアピールになるでちゅ…」
+
+    name_set 貴広
+    line_set 「Ｎ計画……、人工的にナーサリークライムでも作り上げたとでも言うのか……」
+
+    name_set 霧島
+    voice_play 42918.wav
+    line_set 「そう言及されているわけではありませんが……、そのような書き方でちゅね……」
+    voice_play 42919.wav
+    line_set 「極東日没に対抗出来ると考えているのでちゅから……」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「隷のあの力……、やはりナーサリークライムの力だったのか……」
+    line_set 「ＬＡＢは人工的に作り出す事に成功したとでも言うのか……」
+
+    nvl_on
+    line_set 貴広は席を立つ。
+
+    adv_on
+    kgd_layer3_set 3 KI011.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play 42920.wav
+    line_set 「ど、どこに行かれるのでちゅか？」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 貴広はそのまま所長室から飛び出す。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG041.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    kgd_layer3_set 0 SO028.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 貴広
+    line_set 「おやじさん！！！」
+
+    name_set おやじさん
+    voice_play v05961.wav
+    line_set 「ああ、知っている……」
+    voice_play v05962.wav
+    line_set 「少しまて……」
+    voice_play v05963.wav
+    line_set 「今、情報をリークしているところだ……」
+
+    nvl_on
+    line_set おやじさんは貴広の方には振り返らず、端末機をいじりつづける。
+
+    adv_on
+    name_set おやじさん
+    voice_play v05964.wav
+    line_set 「その映像は当分は発表されまい……」
+    voice_play v05965.wav
+    line_set 「しかし、ＬＡＢはそれを持っているハズだ…」
+    voice_play v05966.wav
+    line_set 「人工衛星は、対象物を撮影出来る時間はわずかだが……」
+    voice_play v05967.wav
+    line_set 「間違いなく、ＬＡＢはすべてを知っていたハズだ……」
+    voice_play v05968.wav
+    line_set 「これは、第１６艦隊が動く事も、前々から承知していたあげくの茶番だ……」
+    voice_play v05969.wav
+    line_set 「すべてが、Ｎ計画のアピールの舞台に過ぎなかったのだろう……」
+    voice_play v05970.wav
+    line_set 「やつらにとっては、このクーデターもパフォーマンスにすぎない……」
+
+    name_set 貴広
+    line_set 「このクーデター自体、ＬＡＢにとっては、Ｎ計画を見せつけるデモンストレーション……」
+
+    name_set おやじさん
+    voice_play v05971.wav
+    line_set 「という事だ、そのデモンストレーションの晴れ有る第一回目……」
+    voice_play v05972.wav
+    line_set 「空からは撮影しているだろう……」
+
+    name_set 貴広
+    line_set 「そうだろうな……」
+
+    name_set おやじさん
+    voice_play v05973.wav
+    line_set 「しかし……」
+    voice_play v05974.wav
+    line_set 「予測した、最悪な結果だったな……」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「おやじさんが昨日言っていた通りになったな…」
+
+    name_set おやじさん
+    voice_play v05975.wav
+    line_set 「隷が伊勢を倒す映像を見たら……」
+    voice_play v05976.wav
+    line_set 「そう想像せざる得ないだろ…」
+
+    name_set 貴広
+    line_set 「隷がナーサリークライムという事か…」
+
+    name_set おやじさん
+    voice_play v05977.wav
+    line_set 「それについては、俺よりもお前が判断するべきだろう……」
+    voice_play v05978.wav
+    line_set 「おう、有ったぞ……」
+
+    nvl_on
+    line_set おやじさんはクリックする。
+
+    adv_on
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer2_clear
+    gallery_unlock 371
+
+    kgd_layer1_set 1 N331.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 海に突然、黒い円形状のものが現れる。
+    line_set それが、徐々に大きくなる。
+
+    adv_on
+    gallery_unlock 372
+
+    kgd_layer1_set 1 N332.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 遙か上空からの映像……、
+    line_set 徐々にその黒い領域が広がっているように見えるが、実際は、想像を絶する速度で広がっているのだろう。
+
+    adv_on
+    gallery_unlock 373
+
+    kgd_layer1_set 1 N333.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 木の葉の様に漂う、艦隊がその領域に接していく、
+    line_set ふれたものから、その姿を消していく。
+
+    adv_on
+    name_set おやじさん
+    voice_play v05979.wav
+    line_set 「すさまじいな……」
+    voice_play v05980.wav
+    line_set 「艦隊がきれいに消えていく……」
+
+    nvl_on
+    line_set 木の葉の様に見える。艦隊……。
+    line_set 一個の空母だけでゆうに３００メートルはあるようなものである……。
+    nvl_line_clear
+    line_set この瞬間で、数万人の人間の命が消えている。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set 人口衛星からの映像は、
+    line_set 無音でその地獄を静かに伝えていく。
+
+    adv_on
+    kgd_layer1_set 0 BG041.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_set_moekan 1221.KGD
+
+    kgd_layer3_set 0 SO028.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set おやじさん
+    voice_play v05981.wav
+    line_set 「どうだ……、貴広…」
+    voice_play v05982.wav
+    line_set 「衛星からの映像だから、鮮明な部分はほんの２分ぐらいしかないが……」
+    voice_play v05983.wav
+    line_set 「それでも、だいたいの事はわかるだろ…」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「ああ……」
+    line_set 「ＬＡＢはナーサリークライムを科学の力によって作り上げたようだな……」
+
+    name_set おやじさん
+    voice_play v05984.wav
+    line_set 「という事は……」
+
+    name_set 貴広
+    line_set 「最悪の結果だ……」
+    line_set 「これはナーサリークライムの力……」
+    line_set 「たしかに、第１６艦隊を沈めたのは」
+    line_set 「それを上回る大軍でも」
+    line_set 「一瞬ですべてを終わらせる兵器でもない」
+    line_set 「あれは間違いなく、超絶的な個人の力、ナーサリークライム……」
+    line_set 「そして、Ｎ計画の成果とは、すなわち隷だろうな……」
+
+    name_set おやじさん
+    voice_play v05985.wav
+    line_set 「Ｎ計画の成果……」
+    voice_play v05986.wav
+    line_set 「実験体、ＲＡＹ０００１か……」
+    voice_play v05987.wav
+    line_set 「その名を使うとはな……」
+    voice_play v05988.wav
+    line_set 「悲しい事実だ……」
+
+    name_set 貴広
+    line_set 「？」
+
+    name_set おやじさん
+    voice_play v05989.wav
+    line_set 「しかし……」
+    voice_play v05990.wav
+    line_set 「これがＮ計画の正体だ……」
+    voice_play v05991.wav
+    line_set 「あのＬＡＢが、１世紀以上もかけたわけだ……」
+    voice_play v05992.wav
+    line_set 「そんな大それた事をやっていたとはな…」
+
+    name_set 貴広
+    line_set 「そうだな……」
+
+    name_set おやじさん
+    voice_play v05993.wav
+    line_set 「これと、俺たちは、ドンパチをやろうって言うのか……、ゾっとする……」
+
+    name_set 貴広
+    line_set 「そうだな……」
+
+    kgd_layer3_set 3 SO018.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v05994.wav
+    line_set 「さてと……」
+
+    nvl_on
+    line_set おやじさんは立ち上がる。
+
+    adv_on
+    name_set おやじさん
+    voice_play v05995.wav
+    line_set 「これを見て、こっちの出方も決まったな…」
+
+    name_set 貴広
+    line_set 「これを見て、戦う気なのか？」
+
+    kgd_layer3_set 3 SO028.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set おやじさん
+    voice_play v05996.wav
+    line_set 「お前はどうなんだ？」
+    voice_play v05997.wav
+    line_set 「ケツでもまくるのか？」
+
+    name_set 貴広
+    line_set 「俺は始めから何があっても逃げる気などないさ…」
+    line_set 「だが、おやじさんまで、こんな勝ち目がない戦いに……」
+
+    name_set おやじさん
+    voice_play v05998.wav
+    line_set 「馬鹿、勝ち目がないかどうかは戦って見なければ分かるまい……」
+    voice_play v05999.wav
+    line_set 「本当にＮ計画が完成したかどうかはまだ分からんのだからな……」
+
+    name_set 貴広
+    line_set 「……」
+
+    name_set おやじさん
+    voice_play v06000.wav
+    line_set 「あくまでも、現状では、実験体ＲＡＹ０００１だ……」
+    voice_play v06001.wav
+    line_set 「正式発表でナーサリークライムなどと一度も公言されてはいない……」
+
+    name_set 貴広
+    line_set 「その可能性にかけるか？」
+
+    name_set おやじさん
+    voice_play v06002.wav
+    line_set 「ああ、まだ、あれが完全かどうかは分からんだろ」
+    voice_play v06003.wav
+    line_set 「実験体だ……、十分戦える余地はあるだろう…」
+    voice_play v06004.wav
+    line_set 「まずは、強力な水平レーダーが必要だな…」
+
+    name_set 貴広
+    line_set 「水平レーダー？」
+
+    name_set おやじさん
+    voice_play v06005.wav
+    line_set 「小さな対象物なら、突き抜けるように直線に進むレーダーだよ……」
+    voice_play v06006.wav
+    line_set 「やつは海から来るみたいだからな、３６０度、水平線に網を張る…」
+
+    name_set 貴広
+    line_set 「って、それって……、レーダーの周りがすべて電子レンジになるってやつか？」
+
+    name_set おやじさん
+    voice_play v06007.wav
+    line_set 「ばか、周りすべてが電子レンジなんかにならねぇよ……」
+    voice_play v06008.wav
+    line_set 「周りじゃなくて、水平線上に数キロ四方が大やけどになるってやつだ…」
+    voice_play v06009.wav
+    line_set 「まぁ、レーダーと言っても、軽いレーザー兵器だからな……」
+    voice_play v06010.wav
+    line_set 「それを、島から数キロ離れた場所に浮かばしておく……」
+    voice_play v06011.wav
+    line_set 「空中に対しては、それでは無防備だが、水面から来る敵なら、５００キロ先から発見できる」
+    voice_play v06012.wav
+    line_set 「てな事で、設置後は、海際には絶対に行くなよ、いったら、普通に死ぬからな……」
+
+    name_set 貴広
+    line_set 「ああ……」
+
+    name_set おやじさん
+    voice_play v06013.wav
+    line_set 「先にこっちがつかまえれば、影の領域に入る前に、あるモノ無いモノすべてぶちこめば勝ちだ…」
+    voice_play v06014.wav
+    line_set 「あと、水中にも……」
+
+    name_set 貴広
+    line_set 「なるほど……」
+    line_set 「さすがだな……」
+
+    name_set おやじさん
+    voice_play v06015.wav
+    line_set 「若い頃は、ＬＡＢでそんなものばかり作っていたからな……」
+    voice_play v06016.wav
+    line_set 「この混乱なら、それらも簡単にここまで届けられるだろう……」
+
+    name_set 貴広
+    line_set 「わかった……」
+
+    name_set おやじさん
+    voice_play v06017.wav
+    line_set 「さてと……、お前にやる気がある…」
+    voice_play v06018.wav
+    line_set 「それさえ確認できれば……、俺も次の仕事にうつれるな……」
+
+    name_set 貴広
+    line_set 「そうだな……」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    kgd_layer1_set 0 BG004.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    sfx_set 0 SE014.WAV
+    sfx_play 0 0
+    name_clear
+    line_set コンコン……
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「リニア？」
+    name_clear
+    line_set 「……」
+
+    nvl_on
+    line_set 中から、返事はない……。
+
+    adv_on
+    name_set 貴広
+    line_set 「寝ているのか？」
+
+    kgd_layer1_set 1 BG060.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set リニア
+    line_set 「……」
+
+    nvl_on
+    line_set リニアは一人の部屋で泣いていた。
+
+    adv_on
+    name_set 貴広
+    line_set 「リニア？」
+
+    nvl_on
+    line_set 声をかけても、リニアは振り向かない。
+
+    adv_on
+    name_set 貴広
+    line_set 「リニア？」
+
+    nvl_on
+    line_set 貴広はリニアの肩に手をおく。
+
+    adv_on
+    kgd_layer2_clear
+    gallery_unlock 89
+
+    kgd_layer1_set 1 N049.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_play_moekan 017.WAV
+
+    name_set リニア
+    line_set 「？」
+
+    nvl_on
+    line_set 驚いたように、リニアが貴広の事を見つめる。
+
+    adv_on
+    name_set 貴広
+    line_set 「どうした？」
+
+    nvl_on
+    line_set リニアは、ただ貴広の顔を悲しそうに見つめる。
+
+    adv_on
+    name_set 貴広
+    line_set 「リニア？」
+
+    nvl_on
+    line_set リニアは静かに首を横にふる。
+
+    adv_on
+    name_set 貴広
+    line_set 「どうしたんだ！リニア！」
+
+    name_set リニア
+    voice_play 53457.wav
+    line_set 「ごめんなさい……う、ううう……」
+
+    name_set 貴広
+    line_set 「どこか悪いのか？リニア？？」
+
+    nvl_on
+    line_set リニアはまったく、貴広の言葉に受け答えをしない。
+
+    adv_on
+    name_set 貴広
+    line_set 「リニア！！！」
+
+    name_set リニア
+    voice_play 53458.wav
+    line_set 「貴広さん……」
+    voice_play 53459.wav
+    line_set 「もう……、リニアには……、貴広さんの声が聞こえません……、もう……」
+
+    name_set 貴広
+    line_set 「声が……、聞こえない？」
+    line_set 「聞こえないって……どういう事だ……」
+
+    nvl_on
+    line_set リニアはただ、貴広の顔を悲しそうに見つめる。
+
+    adv_on
+    name_set 貴広
+    line_set 「お、おやじさんを呼んでくる、少しまっていろ！」
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set 貴広はおやじさんを呼んでくる。
+
+    adv_on
+    kgd_layer1_set 0 BG060.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_set_moekan 1221.KGD
+
+    name_set リニア
+    voice_play 53460.wav
+    line_set 「あ、貴広さん」
+
+    name_set 貴広
+    line_set 「どうだ？」
+    kgd_layer2_clear
+    gallery_unlock 89
+
+    kgd_layer1_set 1 N049.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set リニア
+    voice_play 53461.wav
+    line_set 「……ごめんなさい」
+
+    name_set 貴広
+    line_set 「なぜ、あやまる？」
+
+    name_set リニア
+    voice_play 53462.wav
+    line_set 「ごめんなさい……」
+
+    name_set 貴広
+    line_set 「なぜ、あやまるんだ？」
+
+    name_set おやじさん
+    line_set 「……」
+
+    nvl_on
+    line_set おやじさんが貴広の肩を叩く。
+
+    adv_on
+    name_set 貴広
+    line_set 「なんだ？」
+
+    name_set おやじさん
+    line_set 「……」
+
+    nvl_on
+    line_set 首を振る。
+
+    adv_on
+    name_set おやじさん
+    voice_play v06026.wav
+    line_set 「嬢ちゃんには、もう聞こえてないよ……」
+
+    name_set 貴広
+    line_set 「……」
+
+    name_set おやじさん
+    voice_play v06027.wav
+    line_set 「音が完全にやられているんだろう、まともな受け答えは出来ない」
+
+    name_set 貴広
+    line_set 「なぜ？！」
+    line_set 「この前に、おかしな部分は全部変えたじゃないか！！」
+    line_set 「なんで耳まで聞こえなくなるんだ！！」
+
+    name_set おやじさん
+    voice_play v06028.wav
+    line_set 「ああ、部品としては、どこもおかしくないハズだよ……」
+    voice_play v06029.wav
+    line_set 「たぶん、嬢ちゃんの心までお前の音は伝わっているハズだ……」
+
+    name_set 貴広
+    line_set 「なら！！」
+
+    name_set おやじさん
+    voice_play v06030.wav
+    line_set 「もう、嬢ちゃんの心が、お前の音をつかまえられないんだよ……」
+
+    name_set 貴広
+    line_set 「心が……、音をつかまえられない……」
+    line_set 「なんだ、そりゃ？わけわかんないぞ！！！どういう事なんだ！！説明してくれ！！」
+
+    name_set おやじさん
+    line_set 「……」
+
+    name_set リニア
+    voice_play 53463.wav
+    line_set 「ごめんなさい……」
+
+    nvl_on
+    line_set ただ、リニアは謝り続ける。
+
+    adv_on
+    name_set 貴広
+    line_set 「リニア……」
+    line_set 「なんだよ……」
+    line_set 「ばか…、謝るなよ……」
+    line_set 「悲しいじゃないか………」
+
+    nvl_on
+    line_set 貴広はリニアのほほにふれる……。
+
+    adv_on
+    name_set リニア
+    voice_play 53464.wav
+    line_set 「ごめんなさい……」
+
+    name_set 貴広
+    line_set 「リニア……」
+    line_set 「なんで、あやまるんだよ……」
+    line_set 「俺がお前を救ってやれないんじゃないか…」
+    line_set 「なのに、なんで、お前は……」
+    line_set 「なんで、なんだよ……」
+    line_set 「なんで、すべての痛みを自分一人で受け持とうとするんだよ……」
+    line_set 「どうして……、それを、俺にも分けてしまおうと思わないんだよ……」
+
+    name_set リニア
+    voice_play 53465.wav
+    line_set 「ごめんなさい…」
+
+    nvl_on
+    line_set 音がもう、届かない……。
+    nvl_line_clear
+    line_set 風の中で、貴広すら聞こえない音をつかまえようとしていたリニア…。
+    nvl_line_clear
+    line_set それが、もう、目の前の貴広の声すらつかまえられない……。
+    nvl_line_clear
+    line_set 貴広はリニアを抱きしめる。
+    line_set すべてを一人で耐え続け……。
+    line_set そして、ついに音を失ってしまった少女を……。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set あれから何時間たっただろうか？
+    line_set リニアはずっと天井を見つめたまま、何もしゃべらない。
+
+    adv_on
+    gallery_unlock 89
+
+    kgd_layer1_set 0 N049.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    name_set リニア
+    line_set 「……」
+
+    nvl_on
+    line_set リニアは手を貴広に差し出す。
+
+    adv_on
+    name_set 貴広
+    line_set 「手を握ってほしいのか？」
+
+    nvl_on
+    line_set 貴広の声が聞こえないリニアは、貴広に答えることが出来ない。
+
+    adv_on
+    gallery_unlock 86
+
+    kgd_layer1_set 1 N046.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 貴広はリニアの手を握る。
+
+    adv_on
+    name_set リニア
+    line_set 「……」
+
+    name_set 貴広
+    line_set 「……」
+
+    nvl_on
+    line_set 動くこともないリニアの手を貴広は握りしめる。
+    line_set 機械とは思えぬほど、ほのかに暖かい。
+
+    adv_on
+    name_set リニア
+    line_set 「……」
+
+    nvl_on
+    line_set リニアが悲しそうな瞳で握られた手を見つめる。
+
+    adv_on
+    name_set 貴広
+    line_set 「リニア…」
+
+    nvl_on
+    line_set ずっとしゃべっていなかったリニアが口を開く。
+
+    adv_on
+    gallery_unlock 90
+
+    kgd_layer1_set 1 N050.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set リニア
+    voice_play 53469.wav
+    line_set 「えへへへ……、さっきから一生懸命、貴広さんの手を握りかえしているのに、ぴくりとも動かない……」
+
+    nvl_on
+    line_set リニアのいう通り、リニアの小さな手は開くことも閉じることもなく。
+    line_set 貴広の大きな手のなかに収まっていた。
+
+    adv_on
+    name_set リニア
+    voice_play 53470.wav
+    line_set 「今までは、貴広さんの腕のぬくもりは感じられたのです」
+    voice_play 53471.wav
+    line_set 「でも、今はだめです。何も感じません。まるで自分の手じゃないみたい……」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「おまえが感じなくとも、俺はおまえの手のぬくもりを感じるぞ」
+
+    name_set リニア
+    voice_play 53472.wav
+    line_set 「何も感じられないんです……」
+    voice_play 53473.wav
+    line_set 「リニアには、もう貴広さんの手のぬくもりも……、そして声も……」
+
+    nvl_on
+    line_set 貴広の言葉はリニアには届かない。
+
+    adv_on
+    name_set リニア
+    line_set 「……」
+    voice_play 53475.wav
+    line_set 「とうとう、リニアから音すら無くなってしまいました」
+    voice_play 53476.wav
+    line_set 「貴広さんが横にいてくれるのに、リニアには、貴広さんの声を感じる事が出来ませんね」
+
+    nvl_on
+    line_set リニアは天井を見上げ、そしてそのまましゃべり始める。
+
+    adv_on
+    name_set 貴広
+    line_set 「そんな事は問題ないさ……」
+
+    name_set リニア
+    voice_play 53477.wav
+    line_set 「なんでだろう……」
+    voice_play 53478.wav
+    line_set 「皆さんにこんなにやさしくして頂けたのに、それを返す事も出来ずに…」
+    voice_play 53479.wav
+    line_set 「ただ、壊れていく……」
+    voice_play 53480.wav
+    line_set 「本当に、リニアは出来損ないですね……」
+
+    name_set 貴広
+    line_set 「……」
+
+    name_set リニア
+    voice_play 53481.wav
+    line_set 「こんなに皆さんに迷惑をかけたあげく……」
+    voice_play 53482.wav
+    line_set 「勝手に壊れていく……」
+    voice_play 53483.wav
+    line_set 「本当に、どうしようもない……ですよね…リニアなんて……」
+
+    name_set 貴広
+    line_set 「直になおる……」
+
+    name_set リニア
+    voice_play 53484.wav
+    line_set 「なんで……、神様はリニアの願いなんて叶えてしまったのでしょうか……」
+
+    name_set 貴広
+    line_set 「……」
+
+    name_set リニア
+    voice_play 53485.wav
+    line_set 「こんな役立たず……、やっぱり人知れずに消えていけばよかったんですよ……」
+    voice_play 53486.wav
+    line_set 「そうすれば、貴広さんと隷さんが仲違いする事もなかったですし……」
+
+    name_set 貴広
+    line_set 「リニア！！」
+
+    name_set リニア
+    voice_play 53487.wav
+    line_set 「もう、これ以上は贅沢ですよ……」
+    voice_play 53488.wav
+    line_set 「ここまで、くれば、もうリニアがどうなるか一目瞭然です……」
+    voice_play 53489.wav
+    line_set 「だから……」
+    voice_play 53490.wav
+    line_set 「このまま、リニアからすべてが奪い去られる前に……」
+    voice_play 53491.wav
+    line_set 「リニアの意識を消してください……」
+    voice_play 53492.wav
+    line_set 「すべてを終わらしてください！」
+
+    name_set 貴広
+    line_set 「リニア！！！」
+
+    nvl_on
+    line_set 貴広はリニアの肩を強く抱く。
+
+    adv_on
+    name_set リニア
+    line_set 「……」
+    voice_play 53494.wav
+    line_set 「た、貴広さん……」
+
+    name_set 貴広
+    line_set 「黙れ！！貴様はそんなくだらない事を考えるな！！」
+    line_set 「俺がどうにかする！！」
+    line_set 「だから……」
+    line_set 「だから、おまえは、もっとがんばれ！！」
+    line_set 「貴様があきらめていいわけがないだろ！！」
+    line_set 「俺はまだあきらめていないのだから！！」
+    line_set 「だからリニア！！」
+    line_set 「がんばれ！！」
+
+    name_set リニア
+    line_set 「……」
+
+    nvl_on
+    line_set リニアは驚いた顔で貴広を見つめる。
+
+    adv_on
+    name_set リニア
+    voice_play 53504.wav
+    line_set 「貴広さん……」
+
+    nvl_on
+    line_set リニアは泣きながら返事をする。
+
+    adv_on
+    name_set リニア
+    voice_play 53505.wav
+    line_set 「ごめんなさい……、いつも、いつも、こんなで…リニア……うわぁあああん」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「馬鹿野郎……」
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_stop1
+
+    nvl_on
+    line_set リニアはまた眠りにつく。
+    nvl_line_clear
+    line_set もう一日のうちに、数時間も起きている事が出来ないようであった。
+    nvl_line_clear
+    line_set 弱っていくリニアに何もしてやれない自分……。
+    nvl_line_clear
+    line_set ただ、悲しみの中で消えていきそうな、リニアを救ってやる事ができない……。
+
+    adv_on
+    name_set 貴広
+    line_set 「もう一度……」
+    line_set 「俺は、お前の笑顔が見たいんだ……」
+    line_set 「もう一度、お前が笑えるように……」
+
+    nvl_on
+    line_set 眠るリニア……。
+
+    adv_on
+    kgd_layer1_set 0 BG016.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_set_moekan 1221.KGD
+
+    nvl_on
+    line_set 貴広はひたすら図書館で本を探した。
+    nvl_line_clear
+    line_set もしかしたら、リニアの事にふれられた本があるかもしれない……。
+    nvl_line_clear
+    line_set そこに、リニアを救う方法がかかれているかもしれない…。
+    nvl_line_clear
+    line_set ただ、漠然とそんな事を信じて、ひたすらにリニアの関する本を調べる…。
+
+    adv_on
+    name_set 貴広
+    line_set 「くそ！！！」
+    line_set 「なんでだ！！！」
+    line_set 「なんで、こんな本があるのに…」
+    line_set 「俺に大切な事を教えてくれないんだ……」
+
+    nvl_on
+    line_set 「俺は、ただ…リニアを救ってほしいんだ……」
+    nvl_line_clear
+    line_set 「なんで……」
+    nvl_line_clear
+    line_set 「なんで、こんなどうでもいい事ばかり……」
+    nvl_line_clear
+    line_set ただひたすら、リニアを救う方法を探す。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_clear
+    ksd_set 1222A.KSD
+    ksd_end

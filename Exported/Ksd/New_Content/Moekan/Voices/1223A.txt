@@ -1,1687 +1,1193 @@
-story_progress 356
-
-kgd_layer1_set 0 W1223.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-wait 2000
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-gallery_unlock 101
-
-kgd_layer1_set 0 N061.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-music_play_moekan 003.WAV
-
-name_set 少女
-
-voice_play 53560.wav
-
-line_set 「あ…」
-
-name_clear
-
-line_set クイ…
-
-name_set 貴広
-
-line_set 「？」
-
-nvl_on
-
-line_set 少年は服を引っ張られる感覚に振り向いた。
-
-nvl_line_clear
-
-line_set 見ると少女が貴広のシャツの裾を掴み、引っ張っていた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「な、なに？」
-
-name_set 少女
-
-voice_play 53561.wav
-
-line_set 「え、あ、ごめんなさい」
-
-nvl_on
-
-line_set 貴広の声に慌てて手を放す少女。
-
-adv_on
-
-name_set 少女
-
-voice_play 53562.wav
-
-line_set 「えへへへ……」
-
-voice_play 53563.wav
-
-line_set 「ほら……」
-
-nvl_on
-
-line_set 少女は空を指さす。
-
-adv_on
-
-gallery_unlock 386
-
-kgd_layer1_set 1 N346.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 貴広
-
-line_set 「あ……」
-
-line_set 「これ……」
-nvl_on
-
-line_set 空から、白い雪が舞い降りる……。
-
-adv_on
-
-name_set 貴広
-
-line_set 「これ……、雪……」
-
-name_set 少女
-
-voice_play 53564.wav
-
-line_set 「うん……、雪だね……」
-
-name_set 貴広
-
-line_set 「積もるかな……」
-
-name_set 少女
-
-voice_play 53565.wav
-
-line_set 「積もるといいね……」
-
-name_set 貴広
-
-line_set 「うん……」
-
-line_set 「はい……、これ」
-gallery_unlock 101
-
-kgd_layer1_set 1 N061.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set 貴広は少女に時計を渡す。
-
-adv_on
-
-name_set 少女
-
-line_set 「……」
-
-nvl_on
-
-line_set 少女は静かに首を横にふる……。
-
-adv_on
-
-name_set 貴広
-
-line_set 「どうしたの？」
-
-name_set 少女
-
-voice_play 53567.wav
-
-line_set 「もう、時計は受け取れないよ…」
-
-name_set 貴広
-
-line_set 「なんで？」
-
-name_set 少女
-
-voice_play 53568.wav
-
-line_set 「明日から入院しなきゃいけなくなっちゃったんだ……」
-
-voice_play 53569.wav
-
-line_set 「だから、当分、貴広くんと会えないんだもの…」
-
-name_set 貴広
-
-line_set 「なら大丈夫だよ…」
-
-line_set 「遠くにいくわけじゃないんだろ……ほら」
-nvl_on
-
-line_set 貴広は少女の手に時計を握らせる。
-
-nvl_line_clear
-
-line_set 少女の手にふれる……。
-
-line_set 少女の白い手は、とても、細くて柔らかかった。
-line_set でも、その手はものすごく冷たかった。
-adv_on
-
-name_set 少女
-
-voice_play 53570.wav
-
-line_set 「あ……」
-
-voice_play 53571.wav
-
-line_set 「私の手……、冷たいからだめだよ……」
-
-nvl_on
-
-line_set そう言って、少女は手を引っ込める。
-
-adv_on
-
-name_set 貴広
-
-line_set 「大丈夫だよ…」
-
-nvl_on
-
-line_set 貴広は少女の手を握る……。
-
-adv_on
-
-name_set 少女
-
-voice_play 53572.wav
-
-line_set 「あ……」
-
-name_set 貴広
-
-line_set 「暖かいだろ……」
-
-nvl_on
-
-line_set 少女は真っ赤になってうつむく……。
-
-adv_on
-
-name_set 少女
-
-voice_play 53573.wav
-
-line_set 「う、うん…」
-
-name_set 貴広
-
-line_set 「手がつめたくなったら、いつでも言ってよ、暖めてあげるから……」
-
-name_set 少女
-
-voice_play 53574.wav
-
-line_set 「そんな……悪いよ……」
-
-name_set 貴広
-
-line_set 「悪い事なんてないさ……」
-
-nvl_on
-
-line_set 雪が舞い落ちる……。
-
-adv_on
-
-name_set 少女
-
-voice_play 53575.wav
-
-line_set 「でもこの時計……、ネジを巻かないと止まっちゃうんだよね……」
-
-name_set 貴広
-
-line_set 「うん…」
-
-name_set 少女
-
-voice_play 53576.wav
-
-line_set 「私、手術しなきゃいけないから……」
-
-voice_play 53577.wav
-
-line_set 「何日も、この時計のネジを巻くことが出来ないよ」
-
-name_set 貴広
-
-line_set 「大丈夫だよ」
-
-line_set 「また巻けば、時計は動くよ……」
-nvl_on
-
-line_set 貴広はその時計の蓋を取る。
-
-nvl_line_clear
-
-line_set 中には、英語の詩が書かれている。
-
-line_set 貴広には、その文字の意味がさっぱり分からなかった。
-adv_on
-
-name_set 少女
-
-voice_play 53578.wav
-
-line_set 「何をするの？」
-
-name_set 貴広
-
-line_set 「ちょっとまって……」
-
-nvl_on
-
-line_set 貴広はナイフを取り出す。
-
-adv_on
-
-name_clear
-
-line_set カリ……
-
-name_set 少女
-
-voice_play 53579.wav
-
-line_set 「あ、時計が傷ついちゃうよ……」
-
-name_clear
-
-line_set カリ……
-
-nvl_on
-
-line_set 貴広は、蓋にナイフで文字を書く。
-
-adv_on
-
-gallery_unlock 242
-
-kgd_layer1_set 1 N202.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 貴広
-
-line_set 「止まったって、またこの時計は時を刻むよ…」
-
-gallery_unlock 102
-
-kgd_layer1_set 1 N062.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 少女
-
-voice_play 53580.wav
-
-line_set 「うん」
-
-nvl_on
-
-line_set 少女はうれしそうに笑う。
-
-adv_on
-
-name_set 少女
-
-voice_play 53581.wav
-
-line_set 「いつになるか分からないけど……」
-
-voice_play 53582.wav
-
-line_set 「退院したら、ここにまた来るよ……絶対に…」
-
-name_set 貴広
-
-line_set 「うん……、約束だよ…」
-
-line_set 「そしたら、その時計が教えてくれる、いつもの時間に会おうね……」
-name_set 少女
-
-voice_play 53583.wav
-
-line_set 「うん」
-
-kgd_layer1_fx 9
-
-kgd_layer1_set 1 BG027.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-music_stop1
-
-kgd_layer2_set_moekan 1223.KGD
-
-name_set 貴広
-
-line_set 「……」
-
-line_set 「今の夢……」
-nvl_on
-
-line_set 今まで、目覚めると四散していた夢。
-
-nvl_line_clear
-
-line_set それが、くっきりと貴広の心に残っている。
-
-adv_on
-
-music_play_moekan 004.WAV
-
-name_set 貴広
-
-line_set 「時をまた刻む……」
-
-nvl_on
-
-line_set 貴広は急いで、あの時計を取り出す。
-
-adv_on
-
-kgd_layer2_clear
-
-gallery_unlock 240
-
-kgd_layer1_set 1 N200.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 貴広
-
-line_set 「……」
-
-gallery_unlock 242
-
-kgd_layer1_set 1 N202.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set それは、夢で見た文字とまったく同じ。
-
-line_set 幼き貴広が自分自身で書いた文字であった。
-adv_on
-
-name_set 貴広
-
-line_set 「どういう事なんだ……」
-
-line_set 「なんで、この時計が夢に出てくるんだ……」
-nvl_on
-
-line_set 貴広は、時計を見つめる……。
-
-adv_on
-
-name_set 貴広
-
-line_set 「これは、俺の時計なのか……」
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-nvl_on
-
-line_set 貴広はその時計の裏蓋を外してみる……。
-
-nvl_line_clear
-
-line_set なぜ、なんて事はなかった……。
-
-nvl_line_clear
-
-line_set なんとなく、この時計がまた動き始めれば、記憶が戻りそうな気がした……。
-
-adv_on
-
-sfx_set 0 SE061.WAV
-
-sfx_play 0 0
-name_clear
-
-line_set キリ……
-
-sfx_stop 0
-
-sfx_unset 0
-nvl_on
-
-line_set 古くなったネジが金属を削る音を立てる。
-
-nvl_line_clear
-
-line_set 一つずつ、ネジが外れていく。
-
-adv_on
-
-name_clear
-
-line_set カチ……
-
-nvl_on
-
-line_set ずっと開くことがなかっただろう、裏蓋は気持ちよい音と共に外れた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「これは……」
-
-nvl_on
-
-line_set 中には、綺麗に折りたたまれた紙が入っている。
-
-nvl_line_clear
-
-line_set 相当古いものらしく、完全に赤茶けている。
-
-nvl_line_clear
-
-line_set いまにも崩れそうなそれを、貴広は丁寧に開く。
-
-adv_on
-
-gallery_unlock 239
-
-kgd_layer1_set 0 N199.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-nvl_on
-
-line_set 弱々しい力で書かれた少女の手紙であった。
-
-nvl_line_clear
-
-voice_play 53584.wav
-
-line_set 「貴広さんへ」
-
-nvl_line_clear
-
-voice_play 53585.wav
-
-line_set 「おひさしぶりです。」
-
-nvl_line_clear
-
-voice_play 53586.wav
-
-line_set 「あれから、１年も時間がたってしまいました。」
-
-voice_play 53587.wav
-
-line_set 「ほんとうは、すぐにでも貴広さんと会いたいのですが、」
-
-voice_play 53588.wav
-
-line_set 「もうそれもできなくなってしまったみたいです。」
-
-voice_play 53589.wav
-
-line_set 「ずっと、ベットの上ですごしていたら、」
-
-voice_play 53590.wav
-
-line_set 「自分の足で歩くことすらできなくなってしまったみたいです。」
-
-voice_play 53591.wav
-
-line_set 「自分の足なのに、自分の足じゃないみたいで、少しふしぎです。」
-
-voice_play 53592.wav
-
-line_set 「１度だけのハズのしゅじゅつも、もうあしたで６回目です。」
-
-voice_play 53593.wav
-
-line_set 「しゅじゅつをうけたあとは、何もできなくなるので、きらいです。」
-
-voice_play 53594.wav
-
-line_set 「しゅじゅつをうけるたびに、じぶんの体がうごかなくなっていくようなかんじです。」
-
-voice_play 53595.wav
-
-line_set 「ゆびも少ししかうごかなくなってしまいました。」
-
-voice_play 53596.wav
-
-line_set 「だから、てがみを書けるチャンスもこれでさいごだと思います。」
-
-voice_play 53597.wav
-
-line_set 「つぎのしゅじゅつがおわったら、もうそれも出来ないようなきがします。」
-
-voice_play 53598.wav
-
-line_set 「だから、この時計をお父様にたのんで貴広さんにわたしてもらう事にしました。」
-
-voice_play 53599.wav
-
-line_set 「貴広さんはいつも丘にいるので、お父様も貴広さんを見つけることができると思います。」
-
-voice_play 53600.wav
-
-line_set 「このてがみを貴広さんが、よんでいるときは、もう私はこのせかいにはいないと思います。」
-
-nvl_line_clear
-
-voice_play 53601.wav
-
-line_set 「やくそく、まもれなくてごめんね……。」
-
-nvl_line_clear
-
-voice_play 53602.wav
-
-line_set 「ほんとうは、自分の手で、この時計をわたしたかったです。」
-
-nvl_line_clear
-
-voice_play 53603.wav
-
-line_set 「だい好きな貴広さんへ。」
-
-nvl_line_clear
-
-voice_play 53604.wav
-
-line_set 「庵原ちとせ」
-
-nvl_line_clear
-
-voice_play 53605.wav
-
-line_set 「ＰＳ」
-
-voice_play 53606.wav
-
-line_set 「ちとせのともだちになってくれてありがとう。」
-
-voice_play 53607.wav
-
-line_set 「貴広さんのことは天国にいっても、ぜったいに忘れません。」
-
-adv_on
-
-kgd_layer1_set 1 BG027.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-kgd_layer2_set_moekan 1223.KGD
-name_set 貴広
-
-line_set 「庵原千歳……」
-
-line_set 「俺は、千歳と……」
-sfx_set 0 SE039.WAV
-
-sfx_play 0 0
-name_clear
-
-line_set カチ……コチ……
-
-sfx_stop 0
-
-sfx_unset 0
-kgd_layer2_clear
-
-gallery_unlock 240
-
-kgd_layer1_set 1 N200.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set 手紙によって、機械の部品が押さえつけられていたのであろうか……。
-
-nvl_line_clear
-
-line_set 時計がまた動きはじめる。
-
-adv_on
-
-sfx_set 0 SE039.WAV
-
-sfx_play 0 0
-name_clear
-
-line_set カチ…、コチ…、カチ…、コチ……
-
-sfx_stop 0
-
-sfx_unset 0
-kgd_layer1_set 1 TE001.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_set 1 TE002.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-name_set 貴広
-
-line_set 「リニア！！」
-
-gallery_unlock 102
-
-kgd_layer1_set 0 N062.KGD
-
-kgd_layer1_display
-wait 300
-
-kgd_layer1_clear 0
-
-nvl_on
-
-line_set 貴広は駆け出す。
-
-adv_on
-
-kgd_layer1_set 0 BG004.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer2_set_moekan 1223.KGD
-nvl_on
-
-line_set 「馬鹿野郎……」
-
-line_set 「千歳は…」
-line_set 「リニアになってまで…」
-line_set 「俺に会いに来たのか…」
-adv_on
-
-kgd_layer1_set 1 BG010.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-nvl_on
-
-line_set 「また、自分の魂が消えようとしているのに」
-
-line_set 「あいつは……」
-line_set 「ぼろぼろになって…」
-line_set 「ひとりで、歩き続けて…」
-line_set 「俺との約束を果たすために……」
-adv_on
-
-kgd_layer1_set 1 BG084.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_clear
-
-line_set バシュー
-
-nvl_on
-
-line_set メンテナンスルームのドアがあく。
-
-adv_on
-
-kgd_layer1_set 1 BG041.KGD
-
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-name_set 貴広
-
-line_set 「リニア！！！」
-
-kgd_layer3_set 0 RI014.KGD
-
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set リニア
-
-voice_play 53608.wav
-
-line_set 「貴広さん…」
-
-name_set 貴広
-
-line_set 「リニア……」
-
-nvl_on
-
-line_set 貴広はリニアを見つめる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「リニア……」
-
-line_set 「お前、また……勝手にカプセルから出てきたんだな……」
-kgd_layer3_set 3 RI012.KGD
-
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-name_set リニア
-
-voice_play 53609.wav
-
-line_set 「ごめんなさい……」
-
-name_set 貴広
-
-line_set 「たっく……」
-
-line_set 「普通なら、普通のアンドロイドなら、カプセルの中からなんて目覚められないのに……」
-line_set 「お前は……なぜ……」
-name_set リニア
-
-line_set 「……」
-
-voice_play 53611.wav
-
-line_set 「時計が動きました……」
-
-name_set 貴広
-
-line_set 「リニア？」
-
-name_set リニア
-
-voice_play 53612.wav
-
-line_set 「時をまた刻んでくれたのです、だから……」
-
-nvl_on
-
-line_set リニアは涙を流す……。
-
-adv_on
-
-name_set リニア
-
-voice_play 53613.wav
-
-line_set 「やっと会えたのですね……」
-
-voice_play 53614.wav
-
-line_set 「でも、知らない間に、だいぶお世話になったみたいです……」
-
-voice_play 53615.wav
-
-line_set 「あれからどのくらいたったのでしょう……」
-
-voice_play 53616.wav
-
-line_set 「たぶん、もう、遠くなってしまったのでしょうね……」
-
-voice_play 53617.wav
-
-line_set 「あの約束……」
-
-voice_play 53618.wav
-
-line_set 「貴広さんも覚えてませんよね……」
-
-voice_play 53619.wav
-
-line_set 「それでも……」
-
-voice_play 53620.wav
-
-line_set 「また貴広さんに会えたのだから……」
-
-name_set 貴広
-
-line_set 「お前……」
-
-line_set 「お前の中に、あの時の思いがあるかぎり……、何度でも目覚めてきそうだな……」
-line_set 「一人で歩き始めた時も、そうやって目覚めたのか？」
-name_set リニア
-
-voice_play 53621.wav
-
-line_set 「え？」
-
-name_set 貴広
-
-line_set 「馬鹿野郎……」
-
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-nvl_on
-
-line_set 貴広はリニアを抱きしめる。
-
-adv_on
-
-name_set リニア
-
-voice_play 53622.wav
-
-line_set 「あ、あの……」
-
-name_set 貴広
-
-line_set 「バカ……、千歳の時に果たせなかったからって、リニアになってまで……」
-
-line_set 「お前ってやつは……」
-name_set リニア
-
-voice_play 53623.wav
-
-line_set 「あ、あの……、千歳の事……思い出されたのですか？」
-
-name_set 貴広
-
-line_set 「ああ……、お前は、本当にバカだよ…」
-
-nvl_on
-
-line_set 貴広はさらにリニアを抱きしめる。
-
-adv_on
-
-name_set リニア
-
-voice_play 53624.wav
-
-line_set 「えへへ……、貴広さん…、そんなに抱きしめたら痛いですよ……」
-
-name_set 貴広
-
-line_set 「ばかやろう……、なんで……、お前はそんな思いまでして……」
-
-nvl_on
-
-line_set 貴広はリニアを抱きしめる。
-
-line_set 離れないように……、
-adv_on
-
-name_set リニア
-
-line_set 「……」
-
-voice_play 53626.wav
-
-line_set 「そんなに捕まえなくても……」
-
-voice_play 53627.wav
-
-line_set 「千歳は……」
-
-voice_play 53628.wav
-
-line_set 「リニアは……」
-
-voice_play 53629.wav
-
-line_set 「何処にも……」
-
-voice_play 53630.wav
-
-line_set 「いきませんよ……」
-
-voice_play 53631.wav
-
-line_set 「だから……貴広さん……泣かないでください…」
-
-voice_play 53632.wav
-
-line_set 「やっとお会いできたのですから……」
-
-nvl_on
-
-line_set リニアの瞳から涙がこぼれる……。
-
-nvl_line_clear
-
-line_set いくら抱きしめたとしても、
-
-line_set いくらその思いが強くとも……。
-nvl_line_clear
-
-line_set 彼女の心は、
-
-line_set この世界から消えてしまう……。
-nvl_line_clear
-
-line_set 千歳がそうであったように、
-
-line_set リニアの心も消えていく……。
-nvl_line_clear
-
-line_set 彼女の思いはまた消えていく。
-
-nvl_line_clear
-
-line_set いくら、抱きしめても……、
-
-line_set 貴広はその心を抱きしめる事が出来ない……。
-adv_on
-
-name_set 貴広
-
-line_set 「お前……」
-
-line_set 「なぜ……、こんなところまで……」
-line_set 「なぜ…、俺なんかに会いに来たんだよ……」
-line_set 「お前の事を忘れてしまっているようなヤツなんかにさ……」
-name_set リニア
-
-voice_play 53633.wav
-
-line_set 「そんな事ないじゃないですか……」
-
-voice_play 53634.wav
-
-line_set 「貴広さんは千歳を覚えていてくれたじゃないですか……」
-
-voice_play 53635.wav
-
-line_set 「だから、こうして私は、貴広さんに会うことが出来るのじゃないですか……」
-
-name_set 貴広
-
-line_set 「馬鹿野郎……」
-
-line_set 「今の今まで忘れていたじゃないか……」
-line_set 「お前のことをすべて……」
-name_set リニア
-
-voice_play 53636.wav
-
-line_set 「えへへ……、ならおあいこじゃないですか…」
-
-voice_play 53637.wav
-
-line_set 「私も、記憶をすべて失っていたのですから…」
-
-name_set 貴広
-
-line_set 「馬鹿……」
-
-line_set 「それは、お前が、無理をしたからだろ……」
-line_set 「俺に会うために……」
-line_set 「一人、歩き続けて……」
-line_set 「馬鹿だよお前は……」
-line_set 「お前は、すべてを失ってまで……、ここまで来たのだから……」
-line_set 「俺との約束を果たすために……」
-name_set リニア
-
-voice_play 53638.wav
-
-line_set 「だって……」
-
-voice_play 53639.wav
-
-line_set 「貴広さんとの約束が果たせなかったじゃないですか……」
-
-voice_play 53640.wav
-
-line_set 「それだけが、心残りでしたから……」
-
-name_set 貴広
-
-line_set 「リニア……」
-
-name_set リニア
-
-voice_play 53641.wav
-
-line_set 「私が千歳だった時から……」
-
-voice_play 53642.wav
-
-line_set 「そして、その心をリニアにやどしてからも……」
-
-voice_play 53643.wav
-
-line_set 「それだけが心残りでした……」
-
-voice_play 53644.wav
-
-line_set 「でも……、その時計……」
-
-voice_play 53645.wav
-
-line_set 「貴広さんに返す事が出来ましたね……」
-
-kgd_layer1_set 0 BG041.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 RI014.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-name_set リニア
-
-voice_play 53646.wav
-
-line_set 「こんなに古いのに、この時計は、まだ動いていたのですね……」
-
-name_set 貴広
-
-line_set 「ああ、そうだな……」
-
-line_set 「この時計が、動けば……また会えるって言っていたじゃないか……」
-name_set リニア
-
-voice_play 53647.wav
-
-line_set 「貴広さんが私と会うために、渡してくれた時計……」
-
-voice_play 53648.wav
-
-line_set 「ずっと動くことがなかったけど……」
-
-voice_play 53649.wav
-
-line_set 「でも、この子はまた時を刻み始めてくれました」
-
-voice_play 53650.wav
-
-line_set 「二人の約束のために……」
-
-name_set 貴広
-
-line_set 「リニア……」
-
-name_set リニア
-
-voice_play 53651.wav
-
-line_set 「でも……、よかった……」
-
-voice_play 53652.wav
-
-line_set 「最後の約束を守れて………」
-
-voice_play 53653.wav
-
-line_set 「これで、私は本当に眠る事が出来ます……」
-
-name_set 貴広
-
-line_set 「……」
-
-line_set 「リニア…」
-line_set 「お前言っていただろ……」
-kgd_layer3_fadeout 0
-
-kgd_layer3_clear 0
-kgd_layer2_clear
-kgd_layer1_set 1 TE003.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-wait 1500
-
-kgd_layer1_solidcolor -1 255
-
-kgd_layer1_fx 2
-kgd_layer1_clear 0
-name_set リニア
-
-voice_play 53654.wav
-
-line_set 「貴広さん……」
-
-name_set 貴広
-
-line_set 「これを受け取ってくれ……」
-
-gallery_unlock 240
-
-kgd_layer1_set 0 N200.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 3
-kgd_layer1_solidcolor 0 0
-nvl_on
-
-line_set 貴広は、あの時計をリニアに渡す。
-
-adv_on
-
-name_set 貴広
-
-line_set 「もう一度約束しよう……」
-
-line_set 「また、二人が出会えるように……」
-line_set 「だから、これは永久の別れなんかじゃない…」
-name_set リニア
-
-voice_play 53655.wav
-
-line_set 「貴広さん……」
-
-name_set 貴広
-
-line_set 「新しい約束だ……」
-
-line_set 「今度こそ……」
-line_set 「二人で守れる……」
-line_set 「俺はお前を、もう一度、元気にして見せる……」
-line_set 「また、俺と同じ時を過ごせるように……」
-line_set 「だからな……」
-line_set 「リニア……」
-name_set リニア
-
-line_set 「……」
-
-nvl_on
-
-line_set リニアは微笑む……。
-
-adv_on
-
-name_set リニア
-
-voice_play 53657.wav
-
-line_set 「はい」
-
-nvl_on
-
-line_set リニアはその時計を受け取る。
-
-adv_on
-
-name_set リニア
-
-voice_play 53658.wav
-
-line_set 「時計……、ちゃんと動いてますね……」
-
-name_set 貴広
-
-line_set 「ああ……」
-
-line_set 「二人の時間が戻ったのだから…」
-line_set 「時計はまた時間を刻むさ……」
-line_set 「だから…」
-line_set 「もう一度…会おう……」
-line_set 「絶対に会えるからさ……」
-line_set 「今度こそ……」
-name_set リニア
-
-voice_play 53659.wav
-
-line_set 「はい」
-
-music_stop2
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-gallery_unlock 65
-
-kgd_layer1_set 0 N025.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-nvl_on
-
-line_set リニアが眠るカプセル。
-
-line_set 貴広はやさしく、それをなでる…。
-adv_on
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-music_play_moekan 013.WAV
-
-nvl_on
-
-line_set カンパニーの本社。
-
-line_set その中でもっとも、厳重に警備された地区。
-line_set その地区を、人々はジェネシス（創世記）とよんだ。
-nvl_line_clear
-
-line_set そこにＬＡＢとよばれる組織の建物がある。
-
-nvl_line_clear
-
-line_set しかし、その建物は、飾りにしかすぎない……。
-
-nvl_line_clear
-
-line_set その遙か地下。
-
-nvl_line_clear
-
-line_set 人類が到達したもっとも深き奈落にその設備はあった……。
-
-adv_on
-
-gallery_unlock 264
-
-kgd_layer1_set 0 N224.KGD
-
-kgd_layer1_display
-kgd_layer1_fx 1
-wait 1000
-
-gallery_unlock 266
-
-kgd_layer1_set 1 N226.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ１
-
-line_set 「何億年にもおよぶ、生命の悪夢を…」
-
-gallery_unlock 271
-
-kgd_layer1_set 1 N231.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ２
-
-line_set 「無機物に返す、呪われた儀式……」
-
-gallery_unlock 272
-
-kgd_layer1_set 1 N232.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ３
-
-line_set 「無機物から有機物が生まれたように…」
-
-gallery_unlock 273
-
-kgd_layer1_set 1 N233.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ４
-
-line_set 「有機物が生んだ、心を、無機物に返す所行……」
-
-gallery_unlock 274
-
-kgd_layer1_set 1 N234.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ５
-
-line_set 「庵原隷…………」
-
-gallery_unlock 265
-
-kgd_layer1_set 1 N225.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set 隷
-
-line_set 「……」
-
-gallery_unlock 268
-
-kgd_layer1_set 1 N228.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ３
-
-line_set 「ＮＵＲＳＥＲＹ　ＣＲＹＭＥとは、世界の諸元である、５つの力の凝固……」
-
-gallery_unlock 267
-
-kgd_layer1_set 1 N227.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ２
-
-line_set 「それは、生成する、非連続な世に存在する、架空の連続体……」
-
-gallery_unlock 269
-
-kgd_layer1_set 1 N229.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ４
-
-line_set 「心を宿す、人であったからこそ、その５つの力は、それぞれの体に宿された……」
-
-gallery_unlock 266
-
-kgd_layer1_set 1 N226.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ１
-
-line_set 「さすれば、その力は、世界に５つしか許されるなり」
-
-gallery_unlock 275
-
-kgd_layer1_set 1 N235.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ
-
-line_set 「諸元は、５つなり、ＮＵＲＳＥＲＹ　ＣＲＹＭＥもそれ５つなり……」
-
-gallery_unlock 268
-
-kgd_layer1_set 1 N228.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ３
-
-line_set 「だが、もし仮に、人以外に、心を宿すものがあれば……」
-
-gallery_unlock 270
-
-kgd_layer1_set 1 N230.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ５
-
-line_set 「人に、救うための救世主と、裁きの破壊者が必要なように……」
-
-gallery_unlock 267
-
-kgd_layer1_set 1 N227.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ２
-
-line_set 「また、機械に宿った、心にも」
-
-gallery_unlock 275
-
-kgd_layer1_set 1 N235.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ
-
-line_set 「救世主と破壊者が必要なり……」
-
-gallery_unlock 266
-
-kgd_layer1_set 1 N226.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ１
-
-line_set 「隷よ……」
-
-line_set 「お前によって、カンパニーの存在意義そのものであったＮ計画は一つの節目を迎えた……」
-gallery_unlock 269
-
-kgd_layer1_set 1 N229.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ４
-
-line_set 「５つの根元の呪われし宿命を、貴様は断ち切る事が出来るか？？？？」
-
-gallery_unlock 265
-
-kgd_layer1_set 1 N225.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set 隷
-
-line_set 「……」
-
-line_set 「貴広を……」
-line_set 「水気のＮＵＲＳＥＲＹ　ＣＲＹＭＥを殺し」
-line_set 「呪われた輪を断ち切ります……」
-gallery_unlock 267
-
-kgd_layer1_set 1 N227.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ２
-
-line_set 「水気……」
-
-gallery_unlock 268
-
-kgd_layer1_set 1 N228.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ３
-
-line_set 「それは漆黒…」
-
-gallery_unlock 269
-
-kgd_layer1_set 1 N229.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ４
-
-line_set 「それは冷気…」
-
-gallery_unlock 266
-
-kgd_layer1_set 1 N226.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ１
-
-line_set 「それは、闇の雫……」
-
-gallery_unlock 267
-
-kgd_layer1_set 1 N227.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ２
-
-line_set 「世界で一番はじめに落ちた、闇の雫…」
-
-gallery_unlock 269
-
-kgd_layer1_set 1 N229.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ４
-
-line_set 「世界が漆黒に沈み、冷たさに震え」
-
-gallery_unlock 268
-
-kgd_layer1_set 1 N228.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ３
-
-line_set 「そのそばで寄り添うもの……」
-
-gallery_unlock 266
-
-kgd_layer1_set 1 N226.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ１
-
-line_set 「すべての生命の源のかけら……」
-
-gallery_unlock 275
-
-kgd_layer1_set 1 N235.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ
-
-line_set 「それが、神崎貴広……」
-
-gallery_unlock 266
-
-kgd_layer1_set 1 N226.KGD
-
-kgd_layer1_unk1
-kgd_layer1_display
-kgd_layer1_clear 1
-name_set ＬＡＢ１
-
-line_set 「その男から」
-
-line_set 「お前を生み出した、者を奪い返す儀式こそ…」
-line_set 「お前の誕生となる…」
-line_set 「その日…」
-line_set 「呪われし…」
-line_set 「ジーザスアンドメリーチェイン…」
-name_set 隷
-
-line_set 「はい……」
-
-music_stop2
-
-kgd_layer1_fx 0
-
-kgd_layer1_clear 0
-name_set おやじさん
-
-voice_play v06405.wav
-
-voice_play v06405.wav
-line_set 「とうとう明日だな……」
-
-name_set 貴広
-
-line_set 「ああ……」
-
-name_set おやじさん
-
-voice_play v06406.wav
-
-voice_play v06406.wav
-line_set 「隷は、予定通り、反乱軍を壊滅させてここに向かっている……」
-
-voice_play v06407.wav
-
-voice_play v06407.wav
-line_set 「明日の昼には、この島に上陸するだろう…」
-
-name_set 貴広
-
-line_set 「圧倒的な強さのようだな……」
-
-name_set おやじさん
-
-voice_play v06408.wav
-
-voice_play v06408.wav
-line_set 「ああ、だがこちらも準備はすべて整っている…」
-
-voice_play v06409.wav
-
-voice_play v06409.wav
-line_set 「嬢ちゃんも、第六層に避難させた」
-
-name_set 貴広
-
-line_set 「第六層か……」
-
-name_set おやじさん
-
-voice_play v06410.wav
-
-voice_play v06410.wav
-line_set 「あそこなら、この島が壊滅して、俺たちが死んだとしても簡単には嬢ちゃんは奪われないだろう…」
-
-name_set 貴広
-
-line_set 「そうだな……」
-
-line_set 「この身が滅んでも、俺はもうリニアを千歳を手放さない…」
-ksd_set 1224A.KSD
-
-ksd_end
+    story_progress 356
+
+    kgd_layer1_set 0 W1223.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    gallery_unlock 101
+
+    kgd_layer1_set 0 N061.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play_moekan 003.WAV
+
+    name_set 少女
+    voice_play 53560.wav
+    line_set 「あ…」
+    name_clear
+    line_set クイ…
+
+    name_set 貴広
+    line_set 「？」
+
+    nvl_on
+    line_set 少年は服を引っ張られる感覚に振り向いた。
+    nvl_line_clear
+    line_set 見ると少女が貴広のシャツの裾を掴み、引っ張っていた。
+
+    adv_on
+    name_set 貴広
+    line_set 「な、なに？」
+
+    name_set 少女
+    voice_play 53561.wav
+    line_set 「え、あ、ごめんなさい」
+
+    nvl_on
+    line_set 貴広の声に慌てて手を放す少女。
+
+    adv_on
+    name_set 少女
+    voice_play 53562.wav
+    line_set 「えへへへ……」
+    voice_play 53563.wav
+    line_set 「ほら……」
+
+    nvl_on
+    line_set 少女は空を指さす。
+
+    adv_on
+    gallery_unlock 386
+
+    kgd_layer1_set 1 N346.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「あ……」
+    line_set 「これ……」
+
+    nvl_on
+    line_set 空から、白い雪が舞い降りる……。
+
+    adv_on
+    name_set 貴広
+    line_set 「これ……、雪……」
+
+    name_set 少女
+    voice_play 53564.wav
+    line_set 「うん……、雪だね……」
+
+    name_set 貴広
+    line_set 「積もるかな……」
+
+    name_set 少女
+    voice_play 53565.wav
+    line_set 「積もるといいね……」
+
+    name_set 貴広
+    line_set 「うん……」
+    line_set 「はい……、これ」
+    gallery_unlock 101
+
+    kgd_layer1_set 1 N061.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 貴広は少女に時計を渡す。
+
+    adv_on
+    name_set 少女
+    line_set 「……」
+
+    nvl_on
+    line_set 少女は静かに首を横にふる……。
+
+    adv_on
+    name_set 貴広
+    line_set 「どうしたの？」
+
+    name_set 少女
+    voice_play 53567.wav
+    line_set 「もう、時計は受け取れないよ…」
+
+    name_set 貴広
+    line_set 「なんで？」
+
+    name_set 少女
+    voice_play 53568.wav
+    line_set 「明日から入院しなきゃいけなくなっちゃったんだ……」
+    voice_play 53569.wav
+    line_set 「だから、当分、貴広くんと会えないんだもの…」
+
+    name_set 貴広
+    line_set 「なら大丈夫だよ…」
+    line_set 「遠くにいくわけじゃないんだろ……ほら」
+
+    nvl_on
+    line_set 貴広は少女の手に時計を握らせる。
+    nvl_line_clear
+    line_set 少女の手にふれる……。
+    line_set 少女の白い手は、とても、細くて柔らかかった。
+    line_set でも、その手はものすごく冷たかった。
+
+    adv_on
+    name_set 少女
+    voice_play 53570.wav
+    line_set 「あ……」
+    voice_play 53571.wav
+    line_set 「私の手……、冷たいからだめだよ……」
+
+    nvl_on
+    line_set そう言って、少女は手を引っ込める。
+
+    adv_on
+    name_set 貴広
+    line_set 「大丈夫だよ…」
+
+    nvl_on
+    line_set 貴広は少女の手を握る……。
+
+    adv_on
+    name_set 少女
+    voice_play 53572.wav
+    line_set 「あ……」
+
+    name_set 貴広
+    line_set 「暖かいだろ……」
+
+    nvl_on
+    line_set 少女は真っ赤になってうつむく……。
+
+    adv_on
+    name_set 少女
+    voice_play 53573.wav
+    line_set 「う、うん…」
+
+    name_set 貴広
+    line_set 「手がつめたくなったら、いつでも言ってよ、暖めてあげるから……」
+
+    name_set 少女
+    voice_play 53574.wav
+    line_set 「そんな……悪いよ……」
+
+    name_set 貴広
+    line_set 「悪い事なんてないさ……」
+
+    nvl_on
+    line_set 雪が舞い落ちる……。
+
+    adv_on
+    name_set 少女
+    voice_play 53575.wav
+    line_set 「でもこの時計……、ネジを巻かないと止まっちゃうんだよね……」
+
+    name_set 貴広
+    line_set 「うん…」
+
+    name_set 少女
+    voice_play 53576.wav
+    line_set 「私、手術しなきゃいけないから……」
+    voice_play 53577.wav
+    line_set 「何日も、この時計のネジを巻くことが出来ないよ」
+
+    name_set 貴広
+    line_set 「大丈夫だよ」
+    line_set 「また巻けば、時計は動くよ……」
+
+    nvl_on
+    line_set 貴広はその時計の蓋を取る。
+    nvl_line_clear
+    line_set 中には、英語の詩が書かれている。
+    line_set 貴広には、その文字の意味がさっぱり分からなかった。
+
+    adv_on
+    name_set 少女
+    voice_play 53578.wav
+    line_set 「何をするの？」
+
+    name_set 貴広
+    line_set 「ちょっとまって……」
+
+    nvl_on
+    line_set 貴広はナイフを取り出す。
+
+    adv_on
+    name_clear
+    line_set カリ……
+
+    name_set 少女
+    voice_play 53579.wav
+    line_set 「あ、時計が傷ついちゃうよ……」
+    name_clear
+    line_set カリ……
+
+    nvl_on
+    line_set 貴広は、蓋にナイフで文字を書く。
+
+    adv_on
+    gallery_unlock 242
+
+    kgd_layer1_set 1 N202.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「止まったって、またこの時計は時を刻むよ…」
+    gallery_unlock 102
+
+    kgd_layer1_set 1 N062.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 少女
+    voice_play 53580.wav
+    line_set 「うん」
+
+    nvl_on
+    line_set 少女はうれしそうに笑う。
+
+    adv_on
+    name_set 少女
+    voice_play 53581.wav
+    line_set 「いつになるか分からないけど……」
+    voice_play 53582.wav
+    line_set 「退院したら、ここにまた来るよ……絶対に…」
+
+    name_set 貴広
+    line_set 「うん……、約束だよ…」
+    line_set 「そしたら、その時計が教えてくれる、いつもの時間に会おうね……」
+
+    name_set 少女
+    voice_play 53583.wav
+    line_set 「うん」
+    kgd_layer1_fx 9
+
+    kgd_layer1_set 1 BG027.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    music_stop1
+    kgd_layer2_set_moekan 1223.KGD
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「今の夢……」
+
+    nvl_on
+    line_set 今まで、目覚めると四散していた夢。
+    nvl_line_clear
+    line_set それが、くっきりと貴広の心に残っている。
+
+    adv_on
+    music_play_moekan 004.WAV
+
+    name_set 貴広
+    line_set 「時をまた刻む……」
+
+    nvl_on
+    line_set 貴広は急いで、あの時計を取り出す。
+
+    adv_on
+    kgd_layer2_clear
+    gallery_unlock 240
+
+    kgd_layer1_set 1 N200.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「……」
+    gallery_unlock 242
+
+    kgd_layer1_set 1 N202.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set それは、夢で見た文字とまったく同じ。
+    line_set 幼き貴広が自分自身で書いた文字であった。
+
+    adv_on
+    name_set 貴広
+    line_set 「どういう事なんだ……」
+    line_set 「なんで、この時計が夢に出てくるんだ……」
+
+    nvl_on
+    line_set 貴広は、時計を見つめる……。
+
+    adv_on
+    name_set 貴広
+    line_set 「これは、俺の時計なのか……」
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set 貴広はその時計の裏蓋を外してみる……。
+    nvl_line_clear
+    line_set なぜ、なんて事はなかった……。
+    nvl_line_clear
+    line_set なんとなく、この時計がまた動き始めれば、記憶が戻りそうな気がした……。
+
+    adv_on
+    sfx_set 0 SE061.WAV
+    sfx_play 0 0
+    name_clear
+    line_set キリ……
+    sfx_stop 0
+    sfx_unset 0
+
+    nvl_on
+    line_set 古くなったネジが金属を削る音を立てる。
+    nvl_line_clear
+    line_set 一つずつ、ネジが外れていく。
+
+    adv_on
+    name_clear
+    line_set カチ……
+
+    nvl_on
+    line_set ずっと開くことがなかっただろう、裏蓋は気持ちよい音と共に外れた。
+
+    adv_on
+    name_set 貴広
+    line_set 「これは……」
+
+    nvl_on
+    line_set 中には、綺麗に折りたたまれた紙が入っている。
+    nvl_line_clear
+    line_set 相当古いものらしく、完全に赤茶けている。
+    nvl_line_clear
+    line_set いまにも崩れそうなそれを、貴広は丁寧に開く。
+
+    adv_on
+    gallery_unlock 239
+
+    kgd_layer1_set 0 N199.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    nvl_on
+    line_set 弱々しい力で書かれた少女の手紙であった。
+    nvl_line_clear
+    voice_play 53584.wav
+    line_set 「貴広さんへ」
+    nvl_line_clear
+    voice_play 53585.wav
+    line_set 「おひさしぶりです。」
+    nvl_line_clear
+    voice_play 53586.wav
+    line_set 「あれから、１年も時間がたってしまいました。」
+    voice_play 53587.wav
+    line_set 「ほんとうは、すぐにでも貴広さんと会いたいのですが、」
+    voice_play 53588.wav
+    line_set 「もうそれもできなくなってしまったみたいです。」
+    voice_play 53589.wav
+    line_set 「ずっと、ベットの上ですごしていたら、」
+    voice_play 53590.wav
+    line_set 「自分の足で歩くことすらできなくなってしまったみたいです。」
+    voice_play 53591.wav
+    line_set 「自分の足なのに、自分の足じゃないみたいで、少しふしぎです。」
+    voice_play 53592.wav
+    line_set 「１度だけのハズのしゅじゅつも、もうあしたで６回目です。」
+    voice_play 53593.wav
+    line_set 「しゅじゅつをうけたあとは、何もできなくなるので、きらいです。」
+    voice_play 53594.wav
+    line_set 「しゅじゅつをうけるたびに、じぶんの体がうごかなくなっていくようなかんじです。」
+    voice_play 53595.wav
+    line_set 「ゆびも少ししかうごかなくなってしまいました。」
+    voice_play 53596.wav
+    line_set 「だから、てがみを書けるチャンスもこれでさいごだと思います。」
+    voice_play 53597.wav
+    line_set 「つぎのしゅじゅつがおわったら、もうそれも出来ないようなきがします。」
+    voice_play 53598.wav
+    line_set 「だから、この時計をお父様にたのんで貴広さんにわたしてもらう事にしました。」
+    voice_play 53599.wav
+    line_set 「貴広さんはいつも丘にいるので、お父様も貴広さんを見つけることができると思います。」
+    voice_play 53600.wav
+    line_set 「このてがみを貴広さんが、よんでいるときは、もう私はこのせかいにはいないと思います。」
+    nvl_line_clear
+    voice_play 53601.wav
+    line_set 「やくそく、まもれなくてごめんね……。」
+    nvl_line_clear
+    voice_play 53602.wav
+    line_set 「ほんとうは、自分の手で、この時計をわたしたかったです。」
+    nvl_line_clear
+    voice_play 53603.wav
+    line_set 「だい好きな貴広さんへ。」
+    nvl_line_clear
+    voice_play 53604.wav
+    line_set 「庵原ちとせ」
+    nvl_line_clear
+    voice_play 53605.wav
+    line_set 「ＰＳ」
+    voice_play 53606.wav
+    line_set 「ちとせのともだちになってくれてありがとう。」
+    voice_play 53607.wav
+    line_set 「貴広さんのことは天国にいっても、ぜったいに忘れません。」
+
+    adv_on
+    kgd_layer1_set 1 BG027.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    kgd_layer2_set_moekan 1223.KGD
+
+    name_set 貴広
+    line_set 「庵原千歳……」
+    line_set 「俺は、千歳と……」
+
+    sfx_set 0 SE039.WAV
+    sfx_play 0 0
+    name_clear
+    line_set カチ……コチ……
+    sfx_stop 0
+    sfx_unset 0
+    kgd_layer2_clear
+    gallery_unlock 240
+
+    kgd_layer1_set 1 N200.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 手紙によって、機械の部品が押さえつけられていたのであろうか……。
+    nvl_line_clear
+    line_set 時計がまた動きはじめる。
+
+    adv_on
+    sfx_set 0 SE039.WAV
+    sfx_play 0 0
+    name_clear
+    line_set カチ…、コチ…、カチ…、コチ……
+    sfx_stop 0
+    sfx_unset 0
+
+    kgd_layer1_set 1 TE001.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+
+    kgd_layer1_set 1 TE002.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    name_set 貴広
+    line_set 「リニア！！」
+    gallery_unlock 102
+
+    kgd_layer1_set 0 N062.KGD
+    kgd_layer1_display
+    wait 300
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set 貴広は駆け出す。
+
+    adv_on
+    kgd_layer1_set 0 BG004.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    kgd_layer2_set_moekan 1223.KGD
+
+    nvl_on
+    line_set 「馬鹿野郎……」
+    line_set 「千歳は…」
+    line_set 「リニアになってまで…」
+    line_set 「俺に会いに来たのか…」
+
+    adv_on
+    kgd_layer1_set 1 BG010.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    nvl_on
+    line_set 「また、自分の魂が消えようとしているのに」
+    line_set 「あいつは……」
+    line_set 「ぼろぼろになって…」
+    line_set 「ひとりで、歩き続けて…」
+    line_set 「俺との約束を果たすために……」
+
+    adv_on
+    kgd_layer1_set 1 BG084.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    name_clear
+    line_set バシュー
+
+    nvl_on
+    line_set メンテナンスルームのドアがあく。
+
+    adv_on
+    kgd_layer1_set 1 BG041.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「リニア！！！」
+
+    kgd_layer3_set 0 RI014.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set リニア
+    voice_play 53608.wav
+    line_set 「貴広さん…」
+
+    name_set 貴広
+    line_set 「リニア……」
+
+    nvl_on
+    line_set 貴広はリニアを見つめる。
+
+    adv_on
+    name_set 貴広
+    line_set 「リニア……」
+    line_set 「お前、また……勝手にカプセルから出てきたんだな……」
+
+    kgd_layer3_set 3 RI012.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set リニア
+    voice_play 53609.wav
+    line_set 「ごめんなさい……」
+
+    name_set 貴広
+    line_set 「たっく……」
+    line_set 「普通なら、普通のアンドロイドなら、カプセルの中からなんて目覚められないのに……」
+    line_set 「お前は……なぜ……」
+
+    name_set リニア
+    line_set 「……」
+    voice_play 53611.wav
+    line_set 「時計が動きました……」
+
+    name_set 貴広
+    line_set 「リニア？」
+
+    name_set リニア
+    voice_play 53612.wav
+    line_set 「時をまた刻んでくれたのです、だから……」
+
+    nvl_on
+    line_set リニアは涙を流す……。
+
+    adv_on
+    name_set リニア
+    voice_play 53613.wav
+    line_set 「やっと会えたのですね……」
+    voice_play 53614.wav
+    line_set 「でも、知らない間に、だいぶお世話になったみたいです……」
+    voice_play 53615.wav
+    line_set 「あれからどのくらいたったのでしょう……」
+    voice_play 53616.wav
+    line_set 「たぶん、もう、遠くなってしまったのでしょうね……」
+    voice_play 53617.wav
+    line_set 「あの約束……」
+    voice_play 53618.wav
+    line_set 「貴広さんも覚えてませんよね……」
+    voice_play 53619.wav
+    line_set 「それでも……」
+    voice_play 53620.wav
+    line_set 「また貴広さんに会えたのだから……」
+
+    name_set 貴広
+    line_set 「お前……」
+    line_set 「お前の中に、あの時の思いがあるかぎり……、何度でも目覚めてきそうだな……」
+    line_set 「一人で歩き始めた時も、そうやって目覚めたのか？」
+
+    name_set リニア
+    voice_play 53621.wav
+    line_set 「え？」
+
+    name_set 貴広
+    line_set 「馬鹿野郎……」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    nvl_on
+    line_set 貴広はリニアを抱きしめる。
+
+    adv_on
+    name_set リニア
+    voice_play 53622.wav
+    line_set 「あ、あの……」
+
+    name_set 貴広
+    line_set 「バカ……、千歳の時に果たせなかったからって、リニアになってまで……」
+    line_set 「お前ってやつは……」
+
+    name_set リニア
+    voice_play 53623.wav
+    line_set 「あ、あの……、千歳の事……思い出されたのですか？」
+
+    name_set 貴広
+    line_set 「ああ……、お前は、本当にバカだよ…」
+
+    nvl_on
+    line_set 貴広はさらにリニアを抱きしめる。
+
+    adv_on
+    name_set リニア
+    voice_play 53624.wav
+    line_set 「えへへ……、貴広さん…、そんなに抱きしめたら痛いですよ……」
+
+    name_set 貴広
+    line_set 「ばかやろう……、なんで……、お前はそんな思いまでして……」
+
+    nvl_on
+    line_set 貴広はリニアを抱きしめる。
+    line_set 離れないように……、
+
+    adv_on
+    name_set リニア
+    line_set 「……」
+    voice_play 53626.wav
+    line_set 「そんなに捕まえなくても……」
+    voice_play 53627.wav
+    line_set 「千歳は……」
+    voice_play 53628.wav
+    line_set 「リニアは……」
+    voice_play 53629.wav
+    line_set 「何処にも……」
+    voice_play 53630.wav
+    line_set 「いきませんよ……」
+    voice_play 53631.wav
+    line_set 「だから……貴広さん……泣かないでください…」
+    voice_play 53632.wav
+    line_set 「やっとお会いできたのですから……」
+
+    nvl_on
+    line_set リニアの瞳から涙がこぼれる……。
+    nvl_line_clear
+    line_set いくら抱きしめたとしても、
+    line_set いくらその思いが強くとも……。
+    nvl_line_clear
+    line_set 彼女の心は、
+    line_set この世界から消えてしまう……。
+    nvl_line_clear
+    line_set 千歳がそうであったように、
+    line_set リニアの心も消えていく……。
+    nvl_line_clear
+    line_set 彼女の思いはまた消えていく。
+    nvl_line_clear
+    line_set いくら、抱きしめても……、
+    line_set 貴広はその心を抱きしめる事が出来ない……。
+
+    adv_on
+    name_set 貴広
+    line_set 「お前……」
+    line_set 「なぜ……、こんなところまで……」
+    line_set 「なぜ…、俺なんかに会いに来たんだよ……」
+    line_set 「お前の事を忘れてしまっているようなヤツなんかにさ……」
+
+    name_set リニア
+    voice_play 53633.wav
+    line_set 「そんな事ないじゃないですか……」
+    voice_play 53634.wav
+    line_set 「貴広さんは千歳を覚えていてくれたじゃないですか……」
+    voice_play 53635.wav
+    line_set 「だから、こうして私は、貴広さんに会うことが出来るのじゃないですか……」
+
+    name_set 貴広
+    line_set 「馬鹿野郎……」
+    line_set 「今の今まで忘れていたじゃないか……」
+    line_set 「お前のことをすべて……」
+
+    name_set リニア
+    voice_play 53636.wav
+    line_set 「えへへ……、ならおあいこじゃないですか…」
+    voice_play 53637.wav
+    line_set 「私も、記憶をすべて失っていたのですから…」
+
+    name_set 貴広
+    line_set 「馬鹿……」
+    line_set 「それは、お前が、無理をしたからだろ……」
+    line_set 「俺に会うために……」
+    line_set 「一人、歩き続けて……」
+    line_set 「馬鹿だよお前は……」
+    line_set 「お前は、すべてを失ってまで……、ここまで来たのだから……」
+    line_set 「俺との約束を果たすために……」
+
+    name_set リニア
+    voice_play 53638.wav
+    line_set 「だって……」
+    voice_play 53639.wav
+    line_set 「貴広さんとの約束が果たせなかったじゃないですか……」
+    voice_play 53640.wav
+    line_set 「それだけが、心残りでしたから……」
+
+    name_set 貴広
+    line_set 「リニア……」
+
+    name_set リニア
+    voice_play 53641.wav
+    line_set 「私が千歳だった時から……」
+    voice_play 53642.wav
+    line_set 「そして、その心をリニアにやどしてからも……」
+    voice_play 53643.wav
+    line_set 「それだけが心残りでした……」
+    voice_play 53644.wav
+    line_set 「でも……、その時計……」
+    voice_play 53645.wav
+    line_set 「貴広さんに返す事が出来ましたね……」
+
+    kgd_layer1_set 0 BG041.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    kgd_layer3_set 0 RI014.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set リニア
+    voice_play 53646.wav
+    line_set 「こんなに古いのに、この時計は、まだ動いていたのですね……」
+
+    name_set 貴広
+    line_set 「ああ、そうだな……」
+    line_set 「この時計が、動けば……また会えるって言っていたじゃないか……」
+
+    name_set リニア
+    voice_play 53647.wav
+    line_set 「貴広さんが私と会うために、渡してくれた時計……」
+    voice_play 53648.wav
+    line_set 「ずっと動くことがなかったけど……」
+    voice_play 53649.wav
+    line_set 「でも、この子はまた時を刻み始めてくれました」
+    voice_play 53650.wav
+    line_set 「二人の約束のために……」
+
+    name_set 貴広
+    line_set 「リニア……」
+
+    name_set リニア
+    voice_play 53651.wav
+    line_set 「でも……、よかった……」
+    voice_play 53652.wav
+    line_set 「最後の約束を守れて………」
+    voice_play 53653.wav
+    line_set 「これで、私は本当に眠る事が出来ます……」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「リニア…」
+    line_set 「お前言っていただろ……」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer2_clear
+
+    kgd_layer1_set 1 TE003.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+    wait 1500
+    kgd_layer1_solidcolor -1 255
+    kgd_layer1_fx 2
+    kgd_layer1_clear 0
+
+    name_set リニア
+    voice_play 53654.wav
+    line_set 「貴広さん……」
+
+    name_set 貴広
+    line_set 「これを受け取ってくれ……」
+    gallery_unlock 240
+
+    kgd_layer1_set 0 N200.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 3
+    kgd_layer1_solidcolor 0 0
+
+    nvl_on
+    line_set 貴広は、あの時計をリニアに渡す。
+
+    adv_on
+    name_set 貴広
+    line_set 「もう一度約束しよう……」
+    line_set 「また、二人が出会えるように……」
+    line_set 「だから、これは永久の別れなんかじゃない…」
+
+    name_set リニア
+    voice_play 53655.wav
+    line_set 「貴広さん……」
+
+    name_set 貴広
+    line_set 「新しい約束だ……」
+    line_set 「今度こそ……」
+    line_set 「二人で守れる……」
+    line_set 「俺はお前を、もう一度、元気にして見せる……」
+    line_set 「また、俺と同じ時を過ごせるように……」
+    line_set 「だからな……」
+    line_set 「リニア……」
+
+    name_set リニア
+    line_set 「……」
+
+    nvl_on
+    line_set リニアは微笑む……。
+
+    adv_on
+    name_set リニア
+    voice_play 53657.wav
+    line_set 「はい」
+
+    nvl_on
+    line_set リニアはその時計を受け取る。
+
+    adv_on
+    name_set リニア
+    voice_play 53658.wav
+    line_set 「時計……、ちゃんと動いてますね……」
+
+    name_set 貴広
+    line_set 「ああ……」
+    line_set 「二人の時間が戻ったのだから…」
+    line_set 「時計はまた時間を刻むさ……」
+    line_set 「だから…」
+    line_set 「もう一度…会おう……」
+    line_set 「絶対に会えるからさ……」
+    line_set 「今度こそ……」
+
+    name_set リニア
+    voice_play 53659.wav
+    line_set 「はい」
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    gallery_unlock 65
+
+    kgd_layer1_set 0 N025.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    nvl_on
+    line_set リニアが眠るカプセル。
+    line_set 貴広はやさしく、それをなでる…。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_play_moekan 013.WAV
+
+    nvl_on
+    line_set カンパニーの本社。
+    line_set その中でもっとも、厳重に警備された地区。
+    line_set その地区を、人々はジェネシス（創世記）とよんだ。
+    nvl_line_clear
+    line_set そこにＬＡＢとよばれる組織の建物がある。
+    nvl_line_clear
+    line_set しかし、その建物は、飾りにしかすぎない……。
+    nvl_line_clear
+    line_set その遙か地下。
+    nvl_line_clear
+    line_set 人類が到達したもっとも深き奈落にその設備はあった……。
+
+    adv_on
+    gallery_unlock 264
+
+    kgd_layer1_set 0 N224.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 1000
+    gallery_unlock 266
+
+    kgd_layer1_set 1 N226.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ１
+    line_set 「何億年にもおよぶ、生命の悪夢を…」
+    gallery_unlock 271
+
+    kgd_layer1_set 1 N231.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ２
+    line_set 「無機物に返す、呪われた儀式……」
+    gallery_unlock 272
+
+    kgd_layer1_set 1 N232.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ３
+    line_set 「無機物から有機物が生まれたように…」
+    gallery_unlock 273
+
+    kgd_layer1_set 1 N233.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ４
+    line_set 「有機物が生んだ、心を、無機物に返す所行……」
+    gallery_unlock 274
+
+    kgd_layer1_set 1 N234.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ５
+    line_set 「庵原隷…………」
+    gallery_unlock 265
+
+    kgd_layer1_set 1 N225.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set 隷
+    line_set 「……」
+    gallery_unlock 268
+
+    kgd_layer1_set 1 N228.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ３
+    line_set 「ＮＵＲＳＥＲＹ　ＣＲＹＭＥとは、世界の諸元である、５つの力の凝固……」
+    gallery_unlock 267
+
+    kgd_layer1_set 1 N227.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ２
+    line_set 「それは、生成する、非連続な世に存在する、架空の連続体……」
+    gallery_unlock 269
+
+    kgd_layer1_set 1 N229.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ４
+    line_set 「心を宿す、人であったからこそ、その５つの力は、それぞれの体に宿された……」
+    gallery_unlock 266
+
+    kgd_layer1_set 1 N226.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ１
+    line_set 「さすれば、その力は、世界に５つしか許されるなり」
+    gallery_unlock 275
+
+    kgd_layer1_set 1 N235.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ
+    line_set 「諸元は、５つなり、ＮＵＲＳＥＲＹ　ＣＲＹＭＥもそれ５つなり……」
+    gallery_unlock 268
+
+    kgd_layer1_set 1 N228.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ３
+    line_set 「だが、もし仮に、人以外に、心を宿すものがあれば……」
+    gallery_unlock 270
+
+    kgd_layer1_set 1 N230.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ５
+    line_set 「人に、救うための救世主と、裁きの破壊者が必要なように……」
+    gallery_unlock 267
+
+    kgd_layer1_set 1 N227.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ２
+    line_set 「また、機械に宿った、心にも」
+    gallery_unlock 275
+
+    kgd_layer1_set 1 N235.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ
+    line_set 「救世主と破壊者が必要なり……」
+    gallery_unlock 266
+
+    kgd_layer1_set 1 N226.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ１
+    line_set 「隷よ……」
+    line_set 「お前によって、カンパニーの存在意義そのものであったＮ計画は一つの節目を迎えた……」
+    gallery_unlock 269
+
+    kgd_layer1_set 1 N229.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ４
+    line_set 「５つの根元の呪われし宿命を、貴様は断ち切る事が出来るか？？？？」
+    gallery_unlock 265
+
+    kgd_layer1_set 1 N225.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set 隷
+    line_set 「……」
+    line_set 「貴広を……」
+    line_set 「水気のＮＵＲＳＥＲＹ　ＣＲＹＭＥを殺し」
+    line_set 「呪われた輪を断ち切ります……」
+    gallery_unlock 267
+
+    kgd_layer1_set 1 N227.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ２
+    line_set 「水気……」
+    gallery_unlock 268
+
+    kgd_layer1_set 1 N228.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ３
+    line_set 「それは漆黒…」
+    gallery_unlock 269
+
+    kgd_layer1_set 1 N229.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ４
+    line_set 「それは冷気…」
+    gallery_unlock 266
+
+    kgd_layer1_set 1 N226.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ１
+    line_set 「それは、闇の雫……」
+    gallery_unlock 267
+
+    kgd_layer1_set 1 N227.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ２
+    line_set 「世界で一番はじめに落ちた、闇の雫…」
+    gallery_unlock 269
+
+    kgd_layer1_set 1 N229.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ４
+    line_set 「世界が漆黒に沈み、冷たさに震え」
+    gallery_unlock 268
+
+    kgd_layer1_set 1 N228.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ３
+    line_set 「そのそばで寄り添うもの……」
+    gallery_unlock 266
+
+    kgd_layer1_set 1 N226.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ１
+    line_set 「すべての生命の源のかけら……」
+    gallery_unlock 275
+
+    kgd_layer1_set 1 N235.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ
+    line_set 「それが、神崎貴広……」
+    gallery_unlock 266
+
+    kgd_layer1_set 1 N226.KGD
+    kgd_layer1_unk1
+    kgd_layer1_display
+    kgd_layer1_clear 1
+
+    name_set ＬＡＢ１
+    line_set 「その男から」
+    line_set 「お前を生み出した、者を奪い返す儀式こそ…」
+    line_set 「お前の誕生となる…」
+    line_set 「その日…」
+    line_set 「呪われし…」
+    line_set 「ジーザスアンドメリーチェイン…」
+
+    name_set 隷
+    line_set 「はい……」
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+
+    name_set おやじさん
+    voice_play v06405.wav
+    line_set 「とうとう明日だな……」
+
+    name_set 貴広
+    line_set 「ああ……」
+
+    name_set おやじさん
+    voice_play v06406.wav
+    line_set 「隷は、予定通り、反乱軍を壊滅させてここに向かっている……」
+    voice_play v06407.wav
+    line_set 「明日の昼には、この島に上陸するだろう…」
+
+    name_set 貴広
+    line_set 「圧倒的な強さのようだな……」
+
+    name_set おやじさん
+    voice_play v06408.wav
+    line_set 「ああ、だがこちらも準備はすべて整っている…」
+    voice_play v06409.wav
+    line_set 「嬢ちゃんも、第六層に避難させた」
+
+    name_set 貴広
+    line_set 「第六層か……」
+
+    name_set おやじさん
+    voice_play v06410.wav
+    line_set 「あそこなら、この島が壊滅して、俺たちが死んだとしても簡単には嬢ちゃんは奪われないだろう…」
+
+    name_set 貴広
+    line_set 「そうだな……」
+    line_set 「この身が滅んでも、俺はもうリニアを千歳を手放さない…」
+    ksd_set 1224A.KSD
+    ksd_end

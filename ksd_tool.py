@@ -39,10 +39,12 @@ def script_export(game, in_name, out_name):
                     else:
                         labels[args[0]] = f"@{len(labels)}"
                         args[0] = f"@{len(labels) - 1}"
+                commands[file.tell()] = command, args
             else:
-                raise Exception("Opcode 0x%02x not found (offset: %08x)" % (buffer, file.tell()))
+                if buffer != 0x00: # this if clause is only here because of moekan voices really
+                    raise Exception("Opcode 0x%02x not found (offset: %08x)" % (buffer, file.tell()))
 
-            commands[file.tell()] = command, args
+
 
     if not out_name:
         out_name = Path(Path.cwd(), "Exported/Ksd", (Path(in_name).stem + ".txt"))
@@ -130,7 +132,6 @@ def script_import(game, in_name, out_name):
                         plaintext.insert(1, str_length)
                 else:
                         plaintext.insert(2, str_length)
-                        print(plaintext)
 
         # moekan voice file names are null-terminated
         # comment out for nijuubako? should probably not cause issues though

@@ -1,910 +1,684 @@
-kgd_layer1_set 0 W1216.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-wait 2000
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer2_set_moekan 1216.KGD
-
-
-sfx_set 0 SE014.WAV
-sfx_loop 0
-
-name_clear
-
-line_set コンコン…
-
-name_set 貴広
-
-line_set 「ぐ～…ぐ～…」
-
-
-sfx_stop 0
-sfx_unset 0
-sfx_set 0 SE014.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set コンコン…
-sfx_stop 0
-sfx_unset 0
-
-name_set 霧島
-
-voice_play v09930.wav
-
-line_set 「所長」
-
-sfx_set 0 SE014.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set コンコン…
-sfx_stop 0
-sfx_unset 0
-
-name_set 霧島
-
-voice_play v09931.wav
-
-line_set 「所長」
-
-name_set 貴広
-
-line_set 「ん……」
-
-kgd_layer1_set 0 BG027.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-music_play_moekan 023.WAV
-
-
-nvl_on
-
-line_set 朝、と言ってもいつもよりは遅い時間。
-line_set 貴広はノックの音と霧島の声で睡眠の海から釣り上げられた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「なんだよ…昨日は遅かったから…今日は遅くていいんじゃないのかよ…」
-
-nvl_on
-
-line_set 貴広はまだ眠い頭を振って、ブツブツ言いながらドアを開けた。
-
-adv_on
-
-sfx_set 0 SE016.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set ガチャ…
-sfx_stop 0
-sfx_unset 0
-
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v09932.wav
-
-line_set 「失礼しまちゅ」
-
-voice_play v09933.wav
-
-line_set 「飯島からお電話でちゅ」
-
-name_set 貴広
-
-line_set 「飯島から…？」
-line_set 「かずさ達の件か…？」
-line_set 「わかった、所長室で取る。少し待てと言っておけ」
-
-name_set 霧島
-
-voice_play v09934.wav
-
-line_set 「はい」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 霧島が退室した後、貴広はシャワーで眠気を落とし、手早く身支度をして所長室へ向かった。
-
-adv_on
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-music_play_moekan 012.WAV
-
-
-kgd_layer1_set 0 BG023.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-nvl_on
-
-line_set 所長室に着くと、電話の保留ランプが急かすように点滅していた。
-line_set 貴広はなるたけゆっくりと椅子に座り、一息ついてから受話器を取った。
-
-adv_on
-
-name_set 貴広
-
-line_set 「待たせたな」
-
-name_set 飯島
-
-line_set 「ああ、待ちくたびれた」
-line_set 「相変わらずそっちは時間がゆっくり流れてるみたいだな」
-
-name_set 貴広
-
-line_set 「そんな皮肉を言うために電話をしたのか？」
-
-name_set 飯島
-
-line_set 「むろん違う」
-line_set 「わかっているだろう？」
-line_set 「貴様の島の不審メイドについてだ」
-
-name_set 貴広
-
-line_set 「ああ、そんなこと言って、お前の所のメイドが来たな…」
-line_set 「騒ぐだけ騒いで帰っていったが」
-
-name_set 飯島
-
-line_set 「ああ、見つけられませんでしたと言って、俺に頭を下げたよ」
-line_set 「まあ、相応の罰を与えたがな…」
-
-name_set 貴広
-
-line_set 「………」
-line_set 「それで？　今度は室長直々に捜索でもするのか？」
-
-name_set 飯島
-
-line_set 「ふ…貴様の冗談に付き合っている暇はない」
-line_set 「本題に入る」
-line_set 「粛清対象のアリスインチェインズを騙るメイドと、所属不明のメイド」
-line_set 「貴様が素直に差し出してくれると助かるのだがな」
-
-name_set 貴広
-
-line_set 「お前の所のメイドが探しても見つからなかったのだろう？」
-line_set 「もういないのではないかな？」
-
-name_set 飯島
-
-line_set 「あくまでも白を切るわけか」
-
-name_set 貴広
-
-line_set 「俺も探してるところだ」
-line_set 「料理の腕前は絶品だったからな」
-line_set 「あいつの所為で、現在の食事が味気ないモノだと、思い知らされたよ」
-
-name_set 飯島
-
-line_set 「ちっ…」
-line_set 「情に流されるとは、かつてのトップエージェントも地に落ちたものだ」
-
-name_set 貴広
-
-line_set 「かつて…だからな」
-
-name_set 飯島
-
-line_set 「アリスインチェインズをなめるなよ…」
-line_set 「必ず、貴様の匿っている不審メイドを引きずり出してやる」
-line_set 「貴様は翻弄する事はできても、引きずり出された者を助ける力などないのだから」
-
-name_set 貴広
-
-line_set 「……」
-line_set 「匿ってなどいない」
-
-name_set 飯島
-
-line_set 「ちょっと待て」
-line_set 『……どうした？』
-
-nvl_on
-
-line_set 飯島の声が少し遠くなった。
-line_set 電話の向こうで、誰かと話しているようだ。
-
-adv_on
-
-name_set 飯島
-
-line_set 『あいつがまたグズッてるだと？それくらいお前らで処理しろ！！なに？…』
-line_set 「ちっ…また連絡する」
-line_set 「不審メイドを差し出す準備をしておけ」
-
-sfx_set 0 SE109.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set プツン…ツー…ツー…ツー…ツー…
-sfx_stop 0
-sfx_unset 0
-
-nvl_on
-
-line_set 飯島は早口に言い、電話を切った。
-line_set 貴広は首を傾げて受話器を戻した。
-
-adv_on
-
-sfx_set 0 SE014.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set コンコン…
-sfx_stop 0
-sfx_unset 0
-
-name_set 貴広
-
-line_set 「入れ」
-
-kgd_layer3_set 0 KI001.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v09935.wav
-
-line_set 「失礼しまちゅ」
-
-voice_play v09936.wav
-
-line_set 「電話の事をお聞きしてもいいでちゅか？」
-
-name_set 貴広
-
-line_set 「ん、飯島の負け惜しみだ」
-
-nvl_on
-
-line_set 貴広は肩をすくめて笑った。
-
-adv_on
-
-name_set 貴広
-
-line_set 「俺と違って忙しいのに、よくやるもんだ」
-
-name_set 霧島
-
-voice_play v09937.wav
-
-line_set 「そうでちゅか…」
-
-kgd_layer3_set 3 KI012.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09938.wav
-
-line_set 「じゃ、所長も忙しくなってもらいまちゅか」
-
-music_play_moekan 023.WAV
-
-
-sfx_set 0 SE120.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set ドサ…
-sfx_stop 0
-sfx_unset 0
-
-name_set 貴広
-
-line_set 「はあ…またか」
-
-nvl_on
-
-line_set 机の上に乗せられた、相変わらずの書類の山に、貴広は八の字眉毛でため息を吐いた。
-
-adv_on
-
-name_set 貴広
-
-line_set 「昨日はかずさと鈴希の生還パーティーで盛り上がったわけだし、もう少し仕事は減らないかな？」
-
-kgd_layer3_set 3 KI005.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09939.wav
-
-line_set 「昨日は昨日、今日は今日でちゅ」
-
-voice_play v09940.wav
-
-line_set 「私は今日はコレの三倍の量をこなしまちたよ」
-
-name_set 貴広
-
-line_set 「マジで…？」
-line_set 「霧島と俺の構造は違うんだろうな。たぶん」
-
-name_set 霧島
-
-voice_play v09941.wav
-
-line_set 「なに言ってるんでちゅか、同じでちゅよ」
-
-name_set 貴広
-
-line_set 「同じか～？」
-line_set 「お前の体型とか見るとな～」
-
-name_set 霧島
-
-voice_play v09942.wav
-
-line_set 「何か言いまちた？」
-
-name_set 貴広
-
-line_set 「いや、なにも」
-
-kgd_layer3_set 3 KI013.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09943.wav
-
-line_set 「あ、所長、窓の外に…」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-name_set 貴広
-
-line_set 「ん？なんだ？」
-
-sfx_set 0 SE043.WAV
-sfx_play 0 0
-
-kgd_layer1_fx 4
-
-name_clear
-
-line_set ゴカツ！！
-sfx_stop 0
-sfx_unset 0
-
-name_set 貴広
-
-line_set 「ぐおっ！！！」
-line_set 「き、霧島…後頭部は勘弁してくれ……」
-
-nvl_on
-
-line_set 窓の外を振り返った貴広の頭に、霧島のバインダーが手首のスナップを利かせて炸裂した。
-line_set 椅子から転げ落ち、貴広は後頭部を押さえて踞る。
-
-adv_on
-
-kgd_layer3_set 0 KI005.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v09944.wav
-
-line_set 「変なこと言うからでちゅ！！」
-
-voice_play v09945.wav
-
-line_set 「リストラのところを、これで済んでるんだから感謝するでちゅ！！」
-
-name_set 貴広
-
-line_set 「はあ…いいんだか、悪いんだか…」
-
-nvl_on
-
-line_set 貴広はため息を吐きながら、頭を振って椅子に座り直した。
-
-adv_on
-
-name_set 貴広
-
-line_set 「いてて…鼻の奥がツーンとする」
-line_set 「ったく、手加減をしらんやつだ」
-
-kgd_layer3_set 3 KI008.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09946.wav
-
-line_set 「手加減してまちゅよ。十分の一くらいに」
-
-name_set 貴広
-
-line_set 「怖っ！！」
-line_set 「ホラーな話は、このへんにしといて、さっさと仕事を始めるか…」
-line_set 「やることは盛り沢山だからな…」
-
-kgd_layer3_set 3 KI012.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09947.wav
-
-line_set 「はい、盛り沢山でちゅ」
-
-sfx_set 0 SE120.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set ドサッ…
-sfx_stop 0
-sfx_unset 0
-
-nvl_on
-
-line_set 霧島はニコリと笑って、書類を更に追加した。
-line_set 貴広は軽く眩暈をおぼえる。
-line_set この書類はいったいどこから湧いてくるのだろう？と素朴に疑問が湧いてくる。
-
-adv_on
-
-name_set 貴広
-
-line_set 「本当にコレ全部必要な書類なのか？」
-
-name_set 霧島
-
-voice_play v09948.wav
-
-line_set 「はい」
-
-voice_play v09949.wav
-
-line_set 「これが本館の修繕箇所を記したものと修繕のための見積もり書」
-
-voice_play v09950.wav
-
-line_set 「これが社員寮住人の更新手続き、これが…」
-
-name_set 貴広
-
-line_set 「わかった！　わかった…」
-
-name_set 霧島
-
-voice_play v09951.wav
-
-line_set 「では、よろしくお願いしまちゅね」
-
-name_set 貴広
-
-line_set 「はいはい…」
-
-name_set 霧島
-
-voice_play v09952.wav
-
-line_set 「失礼しまちゅ」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-nvl_on
-
-line_set 霧島はニコリと笑うと、一礼して秘書室へ戻っていった。
-line_set 貴広は、もう一つ大きなため息を吐くと、仕事を始めた。
-
-adv_on
-
-music_stop2
-
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-wait 2000
-
-kgd_layer1_set 0 BG023.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-
-sfx_set 0 SE111.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set カリカリカリカリ……
-sfx_stop 0
-sfx_unset 0
-
-nvl_on
-
-line_set 所長室に万年筆の走る音が響く。
-line_set 順調なペースで仕事をこなしていく貴広。
-
-adv_on
-
-sfx_set 0 SE025.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set プルルル…プル……
-sfx_stop 0
-sfx_unset 0
-
-nvl_on
-
-line_set そのペースを乱すように、卓上の電話が鳴り出した。
-line_set しかし、隣の秘書室の霧島が受話器を上げたのだろう、すぐに音は鳴りやんだ。
-
-adv_on
-
-sfx_set 0 SE014.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set コンコン…
-sfx_stop 0
-sfx_unset 0
-
-name_set 貴広
-
-line_set 「入れ」
-
-kgd_layer3_set 0 KI018.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v09953.wav
-
-line_set 「失礼しまちゅ」
-
-voice_play v09954.wav
-
-line_set 「所長、また飯島からお電話でちゅ」
-
-name_set 貴広
-
-line_set 「……」
-line_set 「わかった、こっちへ回してくれ」
-
-name_set 霧島
-
-voice_play v09955.wav
-
-line_set 「はい」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-
-music_play_moekan 012.WAV
-
-
-nvl_on
-
-line_set 貴広は万年筆を置き、軽く伸びをしながら霧島に言った。
-line_set 霧島が秘書室に戻って、保留ランプが点滅した。
-
-adv_on
-
-name_set 貴広
-
-line_set 「電話を替わった」
-
-name_set 飯島
-
-line_set 「メイドを差し出す準備はできたか？」
-
-name_set 貴広
-
-line_set 「今朝の話だろう？」
-line_set 「そんな手際よくできたら、爽快だろうな？」
-
-name_set 飯島
-
-line_set 「ちっ…」
-
-name_set 貴広
-
-line_set 「なにやらお前の所も大変そうだが？」
-
-name_set 飯島
-
-line_set 「貴様には関係ないことだ」
-line_set 「それに貴様と、そんな世間話をするために高い通話料を払っているわけではない」
-
-name_set 貴広
-
-line_set 「経費なら、お前が払っているわけではないだろう？」
-
-name_set 飯島
-
-line_set 「黙れ」
-line_set 「とにかく、今日を含めた四日間の猶予をくれてやる」
-line_set 「それまでに不審メイドを差し出せ、わかったな！」
-
-sfx_set 0 SE109.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set ガチャンッ！……ツー…ツー…ツー…
-sfx_stop 0
-sfx_unset 0
-
-name_set 貴広
-
-line_set 「っ…くそ…」
-line_set 「相変わらず、感情制御が苦手みたいだな…」
-
-nvl_on
-
-line_set 叩きつけられた受話器に舌打ちをした貴広は、耳を押さえながら受話器を戻した。
-
-adv_on
-
-name_set 貴広
-
-line_set 「ふむ…四日間ね…」
-line_set 「やつらはどう動くか…いや、動いているか…だな」
-
-nvl_on
-
-line_set 貴広は煙草に火を点け、大きく吸い込むと、天井に向けて吐き出した。
-line_set 自然と眉間にシワが刻み込まれる。
-
-adv_on
-
-sfx_set 0 SE015.WAV
-sfx_play 0 0
-
-name_clear
-
-line_set ガチャ…
-sfx_stop 0
-sfx_unset 0
-
-kgd_layer3_set 0 KI018.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set 霧島
-
-voice_play v09956.wav
-
-line_set 「失礼しまちゅ」
-
-voice_play v09957.wav
-
-line_set 「秘書室の方で、電話を聞かせてもらいまちた」
-
-voice_play v09958.wav
-
-line_set 「…四日間でちゅね」
-
-name_set 貴広
-
-line_set 「ああ…」
-line_set 「ま、その間は直接手を出さず、向こうで準備や策略をするつもりだろ？」
-line_set 「さて、どう来るか…」
-line_set 「かずさと鈴希には、それとなく言っておいてくれ」
-line_set 「昨日の今日でなんだが…」
-
-kgd_layer3_set 3 KI021.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set 霧島
-
-voice_play v09959.wav
-
-line_set 「しかたないでちゅよ…」
-
-voice_play v09960.wav
-
-line_set 「わかりまちた。私の方から言っておきまちゅ」
-
-name_set 貴広
-
-line_set 「平穏な日々というのは、簡単に壊れるな」
-line_set 「もっと大事にしておけばよかったよ」
-
-name_set 霧島
-
-voice_play v09961.wav
-
-line_set 「そうでちゅね…」
-
-name_set 貴広
-
-line_set 「過去の清算をするにも、額が大きすぎるな」
-
-name_set 霧島
-
-line_set 「……」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-
-wait 2000
-
-music_play_moekan 024.WAV
-
-
-kgd_layer1_set 0 BG032.KGD
-kgd_layer1_display
-kgd_layer1_fx 1
-kgd_layer3_set 0 KA013.KGD
-kgd_layer3_param 0 0 0 0 0 800 600
-kgd_layer3_display 0
-
-name_set かずさ
-
-voice_play v09962.wav
-
-line_set 「ごめんね、旦那」
-
-name_set 貴広
-
-line_set 「？」
-
-nvl_on
-
-line_set 日も傾き茜色に染まる食堂で、貴広がかなり遅めの昼食を摂っていると、
-line_set かずさがションボリしながら呟いた。
-
-adv_on
-
-name_set かずさ
-
-voice_play v09963.wav
-
-line_set 「私の所為で、また旦那に迷惑がかかってるみたいだね…」
-
-name_set 貴広
-
-line_set 「お前の所為じゃない」
-line_set 「飯島が、かずさや鈴希を利用して俺を貶めようとしてるだけだ」
-line_set 「むしろ被害者だろ？」
-line_set 「お前が気に病むことはない」
-
-name_set かずさ
-
-voice_play v09964.wav
-
-line_set 「うん…ありがとう旦那…」
-
-name_set 貴広
-
-line_set 「ちょっとでも気になったら、料理に気合いを入れてくれ」
-line_set 「より美味いモノを出してくれたら、それでチャラだ」
-
-kgd_layer3_set 3 KA005.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set かずさ
-
-voice_play v09965.wav
-
-line_set 「うん！がんばるよ！！」
-
-name_set 貴広
-
-line_set 「よし！」
-line_set 「期待してる」
-
-name_set かずさ
-
-voice_play v09966.wav
-
-line_set 「うん！！」
-
-name_set 貴広
-
-line_set 「ごちそうさま」
-
-kgd_layer3_set 3 KA002.KGD
-kgd_layer3_param 3 0 0 0 0 800 600
-kgd_layer3_unk7 0
-kgd_layer3_crossfade 0 3 31 3
-
-name_set かずさ
-
-voice_play v09967.wav
-
-line_set 「おそまつさま」
-
-voice_play v09968.wav
-
-line_set 「旦那はまだお仕事？」
-
-name_set 貴広
-
-line_set 「ああ、仕事が山程あってな」
-
-name_set かずさ
-
-voice_play v09969.wav
-
-line_set 「後でオイシ～コーヒーを持ってくから、お仕事がんばってね♪」
-
-name_set 貴広
-
-line_set 「ああ、期待してるよ」
-
-name_set かずさ
-
-voice_play v09970.wav
-
-line_set 「おつかれさま～」
-
-kgd_layer3_fadeout 0
-kgd_layer3_clear 0
-kgd_layer1_set 1 BG005.KGD
-kgd_layer1_crossfade 0 26
-kgd_layer1_clear 1
-
-
-name_set 貴広
-
-line_set 「あの元気なら、大丈夫だな」
-
-music_stop2
-kgd_layer1_fx 0
-kgd_layer1_clear 0
-kgd_layer2_clear
-
-ksd_set 1217Z.KSD
-ksd_end
+    kgd_layer1_set 0 W1216.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    wait 2000
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_set_moekan 1216.KGD
+
+    sfx_set 0 SE014.WAV
+    sfx_loop 0
+    name_clear
+    line_set コンコン…
+
+    name_set 貴広
+    line_set 「ぐ～…ぐ～…」
+    sfx_stop 0
+    sfx_unset 0
+
+    sfx_set 0 SE014.WAV
+    sfx_play 0 0
+    name_clear
+    line_set コンコン…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 霧島
+    voice_play v09930.wav
+    line_set 「所長」
+
+    sfx_set 0 SE014.WAV
+    sfx_play 0 0
+    name_clear
+    line_set コンコン…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 霧島
+    voice_play v09931.wav
+    line_set 「所長」
+
+    name_set 貴広
+    line_set 「ん……」
+
+    kgd_layer1_set 0 BG027.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+    music_play_moekan 023.WAV
+
+    nvl_on
+    line_set 朝、と言ってもいつもよりは遅い時間。
+    line_set 貴広はノックの音と霧島の声で睡眠の海から釣り上げられた。
+
+    adv_on
+    name_set 貴広
+    line_set 「なんだよ…昨日は遅かったから…今日は遅くていいんじゃないのかよ…」
+
+    nvl_on
+    line_set 貴広はまだ眠い頭を振って、ブツブツ言いながらドアを開けた。
+
+    adv_on
+    sfx_set 0 SE016.WAV
+    sfx_play 0 0
+    name_clear
+    line_set ガチャ…
+    sfx_stop 0
+    sfx_unset 0
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v09932.wav
+    line_set 「失礼しまちゅ」
+    voice_play v09933.wav
+    line_set 「飯島からお電話でちゅ」
+
+    name_set 貴広
+    line_set 「飯島から…？」
+    line_set 「かずさ達の件か…？」
+    line_set 「わかった、所長室で取る。少し待てと言っておけ」
+
+    name_set 霧島
+    voice_play v09934.wav
+    line_set 「はい」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 霧島が退室した後、貴広はシャワーで眠気を落とし、手早く身支度をして所長室へ向かった。
+
+    adv_on
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    music_play_moekan 012.WAV
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    nvl_on
+    line_set 所長室に着くと、電話の保留ランプが急かすように点滅していた。
+    line_set 貴広はなるたけゆっくりと椅子に座り、一息ついてから受話器を取った。
+
+    adv_on
+    name_set 貴広
+    line_set 「待たせたな」
+
+    name_set 飯島
+    line_set 「ああ、待ちくたびれた」
+    line_set 「相変わらずそっちは時間がゆっくり流れてるみたいだな」
+
+    name_set 貴広
+    line_set 「そんな皮肉を言うために電話をしたのか？」
+
+    name_set 飯島
+    line_set 「むろん違う」
+    line_set 「わかっているだろう？」
+    line_set 「貴様の島の不審メイドについてだ」
+
+    name_set 貴広
+    line_set 「ああ、そんなこと言って、お前の所のメイドが来たな…」
+    line_set 「騒ぐだけ騒いで帰っていったが」
+
+    name_set 飯島
+    line_set 「ああ、見つけられませんでしたと言って、俺に頭を下げたよ」
+    line_set 「まあ、相応の罰を与えたがな…」
+
+    name_set 貴広
+    line_set 「………」
+    line_set 「それで？　今度は室長直々に捜索でもするのか？」
+
+    name_set 飯島
+    line_set 「ふ…貴様の冗談に付き合っている暇はない」
+    line_set 「本題に入る」
+    line_set 「粛清対象のアリスインチェインズを騙るメイドと、所属不明のメイド」
+    line_set 「貴様が素直に差し出してくれると助かるのだがな」
+
+    name_set 貴広
+    line_set 「お前の所のメイドが探しても見つからなかったのだろう？」
+    line_set 「もういないのではないかな？」
+
+    name_set 飯島
+    line_set 「あくまでも白を切るわけか」
+
+    name_set 貴広
+    line_set 「俺も探してるところだ」
+    line_set 「料理の腕前は絶品だったからな」
+    line_set 「あいつの所為で、現在の食事が味気ないモノだと、思い知らされたよ」
+
+    name_set 飯島
+    line_set 「ちっ…」
+    line_set 「情に流されるとは、かつてのトップエージェントも地に落ちたものだ」
+
+    name_set 貴広
+    line_set 「かつて…だからな」
+
+    name_set 飯島
+    line_set 「アリスインチェインズをなめるなよ…」
+    line_set 「必ず、貴様の匿っている不審メイドを引きずり出してやる」
+    line_set 「貴様は翻弄する事はできても、引きずり出された者を助ける力などないのだから」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「匿ってなどいない」
+
+    name_set 飯島
+    line_set 「ちょっと待て」
+    line_set 『……どうした？』
+
+    nvl_on
+    line_set 飯島の声が少し遠くなった。
+    line_set 電話の向こうで、誰かと話しているようだ。
+
+    adv_on
+    name_set 飯島
+    line_set 『あいつがまたグズッてるだと？それくらいお前らで処理しろ！！なに？…』
+    line_set 「ちっ…また連絡する」
+    line_set 「不審メイドを差し出す準備をしておけ」
+
+    sfx_set 0 SE109.WAV
+    sfx_play 0 0
+    name_clear
+    line_set プツン…ツー…ツー…ツー…ツー…
+    sfx_stop 0
+    sfx_unset 0
+
+    nvl_on
+    line_set 飯島は早口に言い、電話を切った。
+    line_set 貴広は首を傾げて受話器を戻した。
+
+    adv_on
+    sfx_set 0 SE014.WAV
+    sfx_play 0 0
+    name_clear
+    line_set コンコン…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「入れ」
+
+    kgd_layer3_set 0 KI001.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v09935.wav
+    line_set 「失礼しまちゅ」
+    voice_play v09936.wav
+    line_set 「電話の事をお聞きしてもいいでちゅか？」
+
+    name_set 貴広
+    line_set 「ん、飯島の負け惜しみだ」
+
+    nvl_on
+    line_set 貴広は肩をすくめて笑った。
+
+    adv_on
+    name_set 貴広
+    line_set 「俺と違って忙しいのに、よくやるもんだ」
+
+    name_set 霧島
+    voice_play v09937.wav
+    line_set 「そうでちゅか…」
+
+    kgd_layer3_set 3 KI012.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09938.wav
+    line_set 「じゃ、所長も忙しくなってもらいまちゅか」
+    music_play_moekan 023.WAV
+
+    sfx_set 0 SE120.WAV
+    sfx_play 0 0
+    name_clear
+    line_set ドサ…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「はあ…またか」
+
+    nvl_on
+    line_set 机の上に乗せられた、相変わらずの書類の山に、貴広は八の字眉毛でため息を吐いた。
+
+    adv_on
+    name_set 貴広
+    line_set 「昨日はかずさと鈴希の生還パーティーで盛り上がったわけだし、もう少し仕事は減らないかな？」
+
+    kgd_layer3_set 3 KI005.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09939.wav
+    line_set 「昨日は昨日、今日は今日でちゅ」
+    voice_play v09940.wav
+    line_set 「私は今日はコレの三倍の量をこなしまちたよ」
+
+    name_set 貴広
+    line_set 「マジで…？」
+    line_set 「霧島と俺の構造は違うんだろうな。たぶん」
+
+    name_set 霧島
+    voice_play v09941.wav
+    line_set 「なに言ってるんでちゅか、同じでちゅよ」
+
+    name_set 貴広
+    line_set 「同じか～？」
+    line_set 「お前の体型とか見るとな～」
+
+    name_set 霧島
+    voice_play v09942.wav
+    line_set 「何か言いまちた？」
+
+    name_set 貴広
+    line_set 「いや、なにも」
+
+    kgd_layer3_set 3 KI013.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09943.wav
+    line_set 「あ、所長、窓の外に…」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    name_set 貴広
+    line_set 「ん？なんだ？」
+
+    sfx_set 0 SE043.WAV
+    sfx_play 0 0
+    kgd_layer1_fx 4
+    name_clear
+    line_set ゴカツ！！
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「ぐおっ！！！」
+    line_set 「き、霧島…後頭部は勘弁してくれ……」
+
+    nvl_on
+    line_set 窓の外を振り返った貴広の頭に、霧島のバインダーが手首のスナップを利かせて炸裂した。
+    line_set 椅子から転げ落ち、貴広は後頭部を押さえて踞る。
+
+    adv_on
+    kgd_layer3_set 0 KI005.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v09944.wav
+    line_set 「変なこと言うからでちゅ！！」
+    voice_play v09945.wav
+    line_set 「リストラのところを、これで済んでるんだから感謝するでちゅ！！」
+
+    name_set 貴広
+    line_set 「はあ…いいんだか、悪いんだか…」
+
+    nvl_on
+    line_set 貴広はため息を吐きながら、頭を振って椅子に座り直した。
+
+    adv_on
+    name_set 貴広
+    line_set 「いてて…鼻の奥がツーンとする」
+    line_set 「ったく、手加減をしらんやつだ」
+
+    kgd_layer3_set 3 KI008.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09946.wav
+    line_set 「手加減してまちゅよ。十分の一くらいに」
+
+    name_set 貴広
+    line_set 「怖っ！！」
+    line_set 「ホラーな話は、このへんにしといて、さっさと仕事を始めるか…」
+    line_set 「やることは盛り沢山だからな…」
+
+    kgd_layer3_set 3 KI012.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09947.wav
+    line_set 「はい、盛り沢山でちゅ」
+
+    sfx_set 0 SE120.WAV
+    sfx_play 0 0
+    name_clear
+    line_set ドサッ…
+    sfx_stop 0
+    sfx_unset 0
+
+    nvl_on
+    line_set 霧島はニコリと笑って、書類を更に追加した。
+    line_set 貴広は軽く眩暈をおぼえる。
+    line_set この書類はいったいどこから湧いてくるのだろう？と素朴に疑問が湧いてくる。
+
+    adv_on
+    name_set 貴広
+    line_set 「本当にコレ全部必要な書類なのか？」
+
+    name_set 霧島
+    voice_play v09948.wav
+    line_set 「はい」
+    voice_play v09949.wav
+    line_set 「これが本館の修繕箇所を記したものと修繕のための見積もり書」
+    voice_play v09950.wav
+    line_set 「これが社員寮住人の更新手続き、これが…」
+
+    name_set 貴広
+    line_set 「わかった！　わかった…」
+
+    name_set 霧島
+    voice_play v09951.wav
+    line_set 「では、よろしくお願いしまちゅね」
+
+    name_set 貴広
+    line_set 「はいはい…」
+
+    name_set 霧島
+    voice_play v09952.wav
+    line_set 「失礼しまちゅ」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    nvl_on
+    line_set 霧島はニコリと笑うと、一礼して秘書室へ戻っていった。
+    line_set 貴広は、もう一つ大きなため息を吐くと、仕事を始めた。
+
+    adv_on
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 2000
+
+    kgd_layer1_set 0 BG023.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    sfx_set 0 SE111.WAV
+    sfx_play 0 0
+    name_clear
+    line_set カリカリカリカリ……
+    sfx_stop 0
+    sfx_unset 0
+
+    nvl_on
+    line_set 所長室に万年筆の走る音が響く。
+    line_set 順調なペースで仕事をこなしていく貴広。
+
+    adv_on
+    sfx_set 0 SE025.WAV
+    sfx_play 0 0
+    name_clear
+    line_set プルルル…プル……
+    sfx_stop 0
+    sfx_unset 0
+
+    nvl_on
+    line_set そのペースを乱すように、卓上の電話が鳴り出した。
+    line_set しかし、隣の秘書室の霧島が受話器を上げたのだろう、すぐに音は鳴りやんだ。
+
+    adv_on
+    sfx_set 0 SE014.WAV
+    sfx_play 0 0
+    name_clear
+    line_set コンコン…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「入れ」
+
+    kgd_layer3_set 0 KI018.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v09953.wav
+    line_set 「失礼しまちゅ」
+    voice_play v09954.wav
+    line_set 「所長、また飯島からお電話でちゅ」
+
+    name_set 貴広
+    line_set 「……」
+    line_set 「わかった、こっちへ回してくれ」
+
+    name_set 霧島
+    voice_play v09955.wav
+    line_set 「はい」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    music_play_moekan 012.WAV
+
+    nvl_on
+    line_set 貴広は万年筆を置き、軽く伸びをしながら霧島に言った。
+    line_set 霧島が秘書室に戻って、保留ランプが点滅した。
+
+    adv_on
+    name_set 貴広
+    line_set 「電話を替わった」
+
+    name_set 飯島
+    line_set 「メイドを差し出す準備はできたか？」
+
+    name_set 貴広
+    line_set 「今朝の話だろう？」
+    line_set 「そんな手際よくできたら、爽快だろうな？」
+
+    name_set 飯島
+    line_set 「ちっ…」
+
+    name_set 貴広
+    line_set 「なにやらお前の所も大変そうだが？」
+
+    name_set 飯島
+    line_set 「貴様には関係ないことだ」
+    line_set 「それに貴様と、そんな世間話をするために高い通話料を払っているわけではない」
+
+    name_set 貴広
+    line_set 「経費なら、お前が払っているわけではないだろう？」
+
+    name_set 飯島
+    line_set 「黙れ」
+    line_set 「とにかく、今日を含めた四日間の猶予をくれてやる」
+    line_set 「それまでに不審メイドを差し出せ、わかったな！」
+
+    sfx_set 0 SE109.WAV
+    sfx_play 0 0
+    name_clear
+    line_set ガチャンッ！……ツー…ツー…ツー…
+    sfx_stop 0
+    sfx_unset 0
+
+    name_set 貴広
+    line_set 「っ…くそ…」
+    line_set 「相変わらず、感情制御が苦手みたいだな…」
+
+    nvl_on
+    line_set 叩きつけられた受話器に舌打ちをした貴広は、耳を押さえながら受話器を戻した。
+
+    adv_on
+    name_set 貴広
+    line_set 「ふむ…四日間ね…」
+    line_set 「やつらはどう動くか…いや、動いているか…だな」
+
+    nvl_on
+    line_set 貴広は煙草に火を点け、大きく吸い込むと、天井に向けて吐き出した。
+    line_set 自然と眉間にシワが刻み込まれる。
+
+    adv_on
+    sfx_set 0 SE015.WAV
+    sfx_play 0 0
+    name_clear
+    line_set ガチャ…
+    sfx_stop 0
+    sfx_unset 0
+
+    kgd_layer3_set 0 KI018.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set 霧島
+    voice_play v09956.wav
+    line_set 「失礼しまちゅ」
+    voice_play v09957.wav
+    line_set 「秘書室の方で、電話を聞かせてもらいまちた」
+    voice_play v09958.wav
+    line_set 「…四日間でちゅね」
+
+    name_set 貴広
+    line_set 「ああ…」
+    line_set 「ま、その間は直接手を出さず、向こうで準備や策略をするつもりだろ？」
+    line_set 「さて、どう来るか…」
+    line_set 「かずさと鈴希には、それとなく言っておいてくれ」
+    line_set 「昨日の今日でなんだが…」
+
+    kgd_layer3_set 3 KI021.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set 霧島
+    voice_play v09959.wav
+    line_set 「しかたないでちゅよ…」
+    voice_play v09960.wav
+    line_set 「わかりまちた。私の方から言っておきまちゅ」
+
+    name_set 貴広
+    line_set 「平穏な日々というのは、簡単に壊れるな」
+    line_set 「もっと大事にしておけばよかったよ」
+
+    name_set 霧島
+    voice_play v09961.wav
+    line_set 「そうでちゅね…」
+
+    name_set 貴広
+    line_set 「過去の清算をするにも、額が大きすぎるな」
+
+    name_set 霧島
+    line_set 「……」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    wait 2000
+    music_play_moekan 024.WAV
+
+    kgd_layer1_set 0 BG032.KGD
+    kgd_layer1_display
+    kgd_layer1_fx 1
+
+    kgd_layer3_set 0 KA013.KGD
+    kgd_layer3_param 0 0 0 0 0 800 600
+    kgd_layer3_display 0
+
+    name_set かずさ
+    voice_play v09962.wav
+    line_set 「ごめんね、旦那」
+
+    name_set 貴広
+    line_set 「？」
+
+    nvl_on
+    line_set 日も傾き茜色に染まる食堂で、貴広がかなり遅めの昼食を摂っていると、
+    line_set かずさがションボリしながら呟いた。
+
+    adv_on
+    name_set かずさ
+    voice_play v09963.wav
+    line_set 「私の所為で、また旦那に迷惑がかかってるみたいだね…」
+
+    name_set 貴広
+    line_set 「お前の所為じゃない」
+    line_set 「飯島が、かずさや鈴希を利用して俺を貶めようとしてるだけだ」
+    line_set 「むしろ被害者だろ？」
+    line_set 「お前が気に病むことはない」
+
+    name_set かずさ
+    voice_play v09964.wav
+    line_set 「うん…ありがとう旦那…」
+
+    name_set 貴広
+    line_set 「ちょっとでも気になったら、料理に気合いを入れてくれ」
+    line_set 「より美味いモノを出してくれたら、それでチャラだ」
+
+    kgd_layer3_set 3 KA005.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set かずさ
+    voice_play v09965.wav
+    line_set 「うん！がんばるよ！！」
+
+    name_set 貴広
+    line_set 「よし！」
+    line_set 「期待してる」
+
+    name_set かずさ
+    voice_play v09966.wav
+    line_set 「うん！！」
+
+    name_set 貴広
+    line_set 「ごちそうさま」
+
+    kgd_layer3_set 3 KA002.KGD
+    kgd_layer3_param 3 0 0 0 0 800 600
+    kgd_layer3_unk7 0
+    kgd_layer3_crossfade 0 3 31 3
+
+    name_set かずさ
+    voice_play v09967.wav
+    line_set 「おそまつさま」
+    voice_play v09968.wav
+    line_set 「旦那はまだお仕事？」
+
+    name_set 貴広
+    line_set 「ああ、仕事が山程あってな」
+
+    name_set かずさ
+    voice_play v09969.wav
+    line_set 「後でオイシ～コーヒーを持ってくから、お仕事がんばってね♪」
+
+    name_set 貴広
+    line_set 「ああ、期待してるよ」
+
+    name_set かずさ
+    voice_play v09970.wav
+    line_set 「おつかれさま～」
+
+    kgd_layer3_fadeout 0
+    kgd_layer3_clear 0
+
+    kgd_layer1_set 1 BG005.KGD
+    kgd_layer1_crossfade 0 26
+    kgd_layer1_clear 1
+
+    name_set 貴広
+    line_set 「あの元気なら、大丈夫だな」
+    music_stop2
+    kgd_layer1_fx 0
+    kgd_layer1_clear 0
+    kgd_layer2_clear
+    ksd_set 1217Z.KSD
+    ksd_end
