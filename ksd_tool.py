@@ -3,6 +3,7 @@ import struct
 import argparse
 import unicodedata
 import ksd_opcodes
+import textwrap
 
 def byte_invert(array):
     for i in range(0, len(array)):
@@ -82,7 +83,7 @@ def script_export(game, in_name, out_name):
                 output.write(f"\n{labels[offset]}\n")
                 last_command = ""
 
-def script_import(game, in_name, out_name):
+def script_import(game, in_name, out_name, wrap):
     with open(in_name, "r", encoding = "cp932") as file:
         lines = file.read().split("\n")
         lines = [line.lstrip() for line in lines if line]
@@ -92,18 +93,28 @@ def script_import(game, in_name, out_name):
     commands = {}
     labels = {}
     ofs = 4
+    nvl_on = False
 
     for line in lines:
         args = []
 
-        if line in ("line_set", "name_set"):
+        #print(line)
+        if line.startswith(("line_set", "name_set")):
             plaintext = line.split(" ", 1)
+        elif line.startswith("jump_choice"):
+            plaintext = line.split(" ", 2)
         else:
             plaintext = line.split(" ")
+
 
         if "@" in plaintext[0]:
             labels[plaintext[0]] = ofs
             continue
+
+        if plaintext[0] == "nvl_on":
+            nvl_on = True
+        elif plaintext[0] == "adv_on":
+            nvl_on = False
 
         # this should probably be calculated on the fly while packing
         if plaintext[0] in opcodes_import:
@@ -119,6 +130,17 @@ def script_import(game, in_name, out_name):
                         str_length += 1
                     else:
                         str_length += 2
+
+                if wrap and str_length > 48:
+                    wrapped = textwrap.wrap(plaintext[-1], 48)
+                    if nvl_on:
+                        plaintext[-1] = "\\n".join(wrapped)
+                        str_length += len(wrapped) - 1
+                    else:
+                        pad_length = 48 - len(wrapped[0])
+                        padding = pad_length * " "
+                        plaintext[-1] = padding.join(wrapped)
+                        str_length += pad_length - 1
 
                 if plaintext[0] == "line_set":
                     if "<" in plaintext[-1]:
@@ -153,7 +175,7 @@ def script_import(game, in_name, out_name):
         args = [labels[arg] if isinstance(arg, str) and arg.startswith("@")
             else arg for arg in args]
         commands[ofs][1] = args
-    print(labels)
+    #print(labels)
 
     if not out_name:
         out_name = Path(Path.cwd(), "Imported/Ksd", (Path(in_name).stem + ".ksd"))
@@ -178,10 +200,11 @@ def script_import(game, in_name, out_name):
 
 parser = argparse.ArgumentParser()
 mode = parser.add_mutually_exclusive_group(required=True)
-mode.add_argument("-e", "--export", const=0, dest="mode", action="store_const", help=".ksd -> .txt")
-mode.add_argument("-i", "--import", const=1, dest="mode", action="store_const", help=".txt -> .ksd")
-parser.add_argument("-g", "--game", metavar="game", dest="game", required=True, action="store",
+mode.add_argument("--export", "-e", const=0, dest="mode", action="store_const", help=".ksd -> .txt")
+mode.add_argument("--import", "-i", const=1, dest="mode", action="store_const", help=".txt -> .ksd")
+parser.add_argument("--game", "-g", required=True, action="store",
                     type=int, choices=range(0, 2), help="0 = Nijuuei, 1 = Nijuubako/Moekan/Moeten")
+parser.add_argument("--wrap", "-w", action="store_true", required=False, help="pass this to add automatic linebreaks (experimental)")
 parser.add_argument("in_name", action="store")
 parser.add_argument("out_name", action="store", nargs='?', const=None,
                     help="outputs to a subfolder in the working directory if not given")
@@ -191,4 +214,4 @@ argv = parser.parse_args()
 if (argv.mode == 0):
     script_export(argv.game, argv.in_name, argv.out_name)
 else:
-    script_import(argv.game, argv.in_name, argv.out_name)
+    script_import(argv.game, argv.in_name, argv.out_name, argv.wrap)
