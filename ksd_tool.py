@@ -21,7 +21,7 @@ def script_export(game, in_name, out_name):
         opcodes = ksd_opcodes.opcodes_moekan if game else ksd_opcodes.opcodes_nijuuei
 
         while file.tell() != file_size:
-            buffer, = struct.unpack(">H", file.read(2))
+            buffer, = struct.unpack("<H", file.read(2))
 
             if buffer in opcodes:
                 arg_fmt, command = opcodes[buffer]
@@ -87,6 +87,8 @@ def script_import(game, in_name, out_name, wrap):
     with open(in_name, "r", encoding = "cp932") as file:
         lines = file.read().split("\n")
         lines = [line.lstrip() for line in lines if line]
+        if wrap:
+            lines = [line.replace("　", "  ") for line in lines]
 
     opcodes = ksd_opcodes.opcodes_moekan if game else ksd_opcodes.opcodes_nijuuei
     opcodes_import = {v[1] : (k, v[0]) for k, v in opcodes.items()} # ugly
@@ -98,7 +100,6 @@ def script_import(game, in_name, out_name, wrap):
     for line in lines:
         args = []
 
-        #print(line)
         if line.startswith(("line_set", "name_set")):
             plaintext = line.split(" ", 1)
         elif line.startswith("jump_choice"):
@@ -123,7 +124,6 @@ def script_import(game, in_name, out_name, wrap):
 
             str_length = 0
             if plaintext[0] in ksd_opcodes.string_opcodes:
-                # str_length = len(plaintext[-1]) * 2
                 for c in plaintext[-1]:
                     status = unicodedata.east_asian_width(c)
                     if status in ("Na", "N"):
@@ -135,12 +135,15 @@ def script_import(game, in_name, out_name, wrap):
                     wrapped = textwrap.wrap(plaintext[-1], 48)
                     if nvl_on:
                         plaintext[-1] = "\\n".join(wrapped)
-                        str_length += len(wrapped) - 1
+                        str_length = len(plaintext[-1])
                     else:
+                        if str_length > 96:
+                            print(plaintext[-1]) # cba to automatically split into different lines
                         pad_length = 48 - len(wrapped[0])
                         padding = pad_length * " "
+
                         plaintext[-1] = padding.join(wrapped)
-                        str_length += pad_length - 1
+                        str_length = len(plaintext[-1])
 
                 if plaintext[0] == "line_set":
                     if "<" in plaintext[-1]:
@@ -175,7 +178,6 @@ def script_import(game, in_name, out_name, wrap):
         args = [labels[arg] if isinstance(arg, str) and arg.startswith("@")
             else arg for arg in args]
         commands[ofs][1] = args
-    #print(labels)
 
     if not out_name:
         out_name = Path(Path.cwd(), "Imported/Ksd", (Path(in_name).stem + ".ksd"))
@@ -185,7 +187,7 @@ def script_import(game, in_name, out_name, wrap):
         output.write(b"KSD1")
         for ofs in commands:
             opcode, args = commands[ofs]
-            output.write(struct.pack('>H', opcode))
+            output.write(struct.pack('<H', opcode))
             arg_fmt = opcodes[opcode][0]
             arg_size = struct.calcsize("<" + arg_fmt)
 
