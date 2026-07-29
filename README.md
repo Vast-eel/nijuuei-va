@@ -1,6 +1,6 @@
 <h1 align="center">nijuuei-va</h1>
 
-Dreamcast content patches and rudimentary asset extraction tools for PC versions of KeroQ visual novels.
+Dreamcast content patches and rudimentary asset extraction tools for KeroQ visual novels.
 
 Vanilla save files may crash depending on where you saved, so starting from scratch after installing the patches is recommended.
 
@@ -17,7 +17,7 @@ Partially based on [gscScriptCompAndDecompiler](https://github.com/TesterTestero
 
 Download [Dreamcast assets](https://drive.google.com/drive/folders/1-cwaKLra23hldfvhY3V4RxOwUHBt1RGB?usp=sharing) and put everything in Nijuuei's root folder.
 
-Next, download the [latest patch release](https://github.com/Vast-eel/nijuuei-va/releases/latest) and overwrite the files in the game's `Ksd` directory with the new files.
+Next, download the [latest patch release](https://github.com/Vast-eel/nijuuei-va/releases/latest/download/Nijuuei_Voice_Patch.zip) and overwrite the files in the game's `Ksd` directory with the new files.
 </details>
 
 
@@ -26,11 +26,11 @@ Next, download the [latest patch release](https://github.com/Vast-eel/nijuuei-va
 
 The game tends to crash or hang after animations on modern machines. To fix this, set the game to fullscreen (even if you want to play it windowed) and download [DxWnd](https://sourceforge.net/projects/dxwnd/).
 
-Open DxWnd's and make sure to enable extended mode in the Options tab. Import `Nijuuei.dxw` from the game's root folder. Right click the preset, press Modify and make sure the path points to `二重影.exe`.
+Open DxWnd and make sure to enable extended mode in the Options tab. Import `Nijuuei.dxw` from the game's root folder. Right click the preset, press Modify and make sure the path points to `二重影.exe`.
 
 Mount the game's second disc then go into the CDAudio tab, select the "Rip CD Audio" option and run the game once. DxWnd should dump the BGM to a folder named `Music` in the game's directory.
 
-After that, unmount the second disc, set the CDAudio option in DxWnd to "Use audio files" and change the path to point to `二重影_nocd.exe`. You should now be able to play the game without mounting the second disc.
+After that, unmount the disc, set the CDAudio option in DxWnd to "Use audio files" and change the path to point to `二重影_nocd.exe`. You should now be able to play the game without mounting the second disc.
 
 If using Textractor, use the following hook code: `HSN-20@406149` (see Chenx221/Textractor#3). This should make it only print the latest line instead of all the text on-screen.
 
@@ -46,7 +46,7 @@ By default the font rendering is a bit messed up (see wiki as to why). Use the n
 
 As Wine has yet to implement ddraw7's WaitForVerticalBlank function, the game will run at an uncapped framerate, which is probably not something you want (see next section).
 
-The in-game volume sliders don't work. If you think the music's too loud compared to the voices, go into the CDAudio tab, tick Set emulated CD volume, then go into the Sound tab and change CD volume to your liking.
+The in-game volume sliders don't work. If you think the music's too loud compared to the voices, go into the CDAudio tab, tick `Set emulated CD volume`, then go into the Sound tab and change CD volume to your liking.
 </details>
 
 
@@ -55,9 +55,9 @@ The in-game volume sliders don't work. If you think the music's too loud compare
 
 Nijuuei's rendering is synced to your monitor's refresh rate. This is fine if you have a 60hz monitor, but it makes everything display way faster if your screen's refresh rate is higher than that. It leads to fading transitions between images being basically nonexistent, for example.
 
-I don't use Windows all that much nowadays, so I wouldn't know what the best solution is to cap the framerate. Try your GPU's control panel or something like RivaTuner, I guess. If they don't budge, try going to the DirectX tab in the DxWnd preset's settings and changing the Renderer to D3D9, then go to the Video tab and lock the bit depth at 32bpp. This will make videos look weird, so preferably don't do it unless you absolutely have to.
+I don't use Windows all that much nowadays, so I wouldn't know what the best solution is to cap the framerate. Try your GPU's control panel or something like RivaTuner, I guess. If they don't budge, try going to the DirectX tab in the DxWnd preset's settings and changing the Renderer to D3D9, then go to the Video tab and lock the bit depth at 32bpp. This will make cutscenes look weird, so preferably don't do it unless you absolutely have to.
 
-If you're a Linux user and the way the graphics display bothers you, do the step mentioned just above with changing the renderer. Make a `dxvk.conf` file in Nijuuei's root directory, edit it and add `d3d9.maxFrameRate = 60` as the first line. If you have DXVK set up in your Wine prefix, this should properly cap the frame rate. Note that, much like this makes videos break on Windows, this is going to screw them up for Linux as well - the DirectX 9 renderer makes the screen go black when one plays and it stays that way until you restart.
+If you're a Linux user and the way the graphics display bothers you, do the step mentioned just above with changing the renderer. Make a `dxvk.conf` file in Nijuuei's root directory, edit it and add `d3d9.maxFrameRate = 60` as the first line. If you have DXVK set up in your Wine prefix, this should properly cap the frame rate. Note that, much like this makes cutscenes break on Windows, this is going to screw them up for Linux as well - the DirectX 9 renderer makes the screen go black when one plays and it stays that way until you restart.
 
 Cutscenes use 8bpp images. That may or may not be the reason why D3D9 doesn't play nice with them. I don't have the time to figure out how to fix the issue right now.
 </details>
@@ -69,9 +69,10 @@ Cutscenes use 8bpp images. That may or may not be the reason why D3D9 doesn't pl
 
 Download [the main repo](https://github.com/Vast-eel/nijuuei-va/archive/refs/heads/main.zip) and extract it somewhere.
 
-Download [Dreamcast assets](https://drive.google.com/drive/folders/1G2Le9os8uZhP1Gn_i5qpAwLGcpBzGVn2?usp=sharing) and the [latest patch release](https://github.com/Vast-eel/nijuuei-va/releases/latest). Put everything into a `Patch` folder inside the repo directory.
+Download [Dreamcast assets](https://drive.google.com/drive/folders/1G2Le9os8uZhP1Gn_i5qpAwLGcpBzGVn2?usp=sharing) and the [latest patch release](https://github.com/Vast-eel/nijuuei-va/releases/latest/download/Moekan_Voice_Patch.zip). Put everything into a `Patch` folder inside the repo directory.
 
 The final directory structure should look like this:
+
 ```
 nijuuei-va-main
 └── Patch
