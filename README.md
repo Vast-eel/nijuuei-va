@@ -1,13 +1,14 @@
 <h1 align="center">nijuuei-va</h1>
-<p align="center">
-<img src="omake_08.jpg">
-</p>
+
 Dreamcast content patches and rudimentary asset extraction tools for PC versions of KeroQ visual novels.
 
 Vanilla save files may crash depending on where you saved, so starting from scratch after installing the patches is recommended.
 
 Partially based on [gscScriptCompAndDecompiler](https://github.com/TesterTesterov/gscScriptCompAndDecompiler).
 
+<p align="center">
+<img src="omake_08.jpg" width=320>
+</p>
 
 
 ## Nijuuei
@@ -20,7 +21,6 @@ Next, download the [latest patch release](https://github.com/Vast-eel/nijuuei-va
 </details>
 
 
-
 <details open>
 <summary><b>QoL fixes</b></summary><br>
 
@@ -31,14 +31,16 @@ Open DxWnd's and make sure to enable extended mode in the Options tab. Import `N
 Mount the game's second disc then go into the CDAudio tab, select the "Rip CD Audio" option and run the game once. DxWnd should dump the BGM to a folder named `Music` in the game's directory.
 
 After that, unmount the second disc, set the CDAudio option in DxWnd to "Use audio files" and change the path to point to `二重影_nocd.exe`. You should now be able to play the game without mounting the second disc.
-</details>
 
+If using Textractor, use the following hook code: `HSN-20@406149` (see Chenx221/Textractor#3). This should make it only print the latest line instead of all the text on-screen.
+
+</details>
 
 
 <details>
 <summary><b>Linux troubleshooting</b></summary><br>
 
-The game should run perfectly fine through Wine if you have Japanese fonts and locale properly set up (see [here](https://learnjapanese.moe/vn-linux/#fonts-do-not-look-right)). I last tested it on 10.0.
+The game should run perfectly fine through Wine if you have [Japanese fonts](https://learnjapanese.moe/vn-linux/#fonts-do-not-look-right) and [locale](https://learnjapanese.moe/vn-linux/#generate-ja_jputf-8-locale) properly set up. I last tested it on 10.0, but it should be fine on newer Wine versions.
 
 By default the font rendering is a bit messed up (see wiki as to why). Use the nocd exe to fix this.
 
@@ -46,7 +48,6 @@ As Wine has yet to implement ddraw7's WaitForVerticalBlank function, the game wi
 
 The in-game volume sliders don't work. If you think the music's too loud compared to the voices, go into the CDAudio tab, tick Set emulated CD volume, then go into the Sound tab and change CD volume to your liking.
 </details>
-
 
 
 <details>
@@ -60,8 +61,6 @@ If you're a Linux user and the way the graphics display bothers you, do the step
 
 Cutscenes use 8bpp images. That may or may not be the reason why D3D9 doesn't play nice with them. I don't have the time to figure out how to fix the issue right now.
 </details>
-
-
 
 
 ## Moekan
@@ -87,10 +86,8 @@ Run `moekan_installer.py` and follow what it says.
 </details>
 
 
-
 ## Moekasu
 Moekasu, Moetora and Tousui Kitan use an entirely different engine from the previous games called SoW. They don't have console versions to port things from, but for completion's sake I made a script that extracts the .aod format used in those games and a "crack" for Moekasu and Moetora.
-
 
 
 <details>
@@ -102,7 +99,6 @@ Extracted files can be loaded directly by the engine - for example, after extrac
 </details>
 
 
-
 <details>
 <summary><b>"Crack"</b></summary><br>
 
@@ -110,7 +106,6 @@ For some ungodly reason Moekasu is saddled with SafeDisc 3.2. What's even more p
 
 To use it, grab `setup.sys` from the DVD and put it in the game directory alongside `moekasu_crack.py` and `aod_tool.py`. Run moekasu_crack. If everything goes right, you should end up with a new executable called `SoW.exe`. Launch it to play the game diskless. This works for both Moekasu and Moetora. See the repo's wiki for technical details (and two alternative methods of getting the games to run if you want to try them instead).
 </details>
-
 
 
 ## Editing
